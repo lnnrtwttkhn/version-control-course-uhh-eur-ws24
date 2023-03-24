@@ -1,0 +1,27 @@
+links:
+  email: mailto:lennart.wittkuhn@uni-hamburg.de
+  github: https://github.com/lnnrtwttkhn/versioncontrol-course-uhh-ws23
+  issues: https://github.com/lnnrtwttkhn/versioncontrol-course-uhh-ws23/issues
+  site: https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23
+  proposal: https://lennartwittkuhn.com/ddlitlab
+  keeper: https://keeper.mpdl.mpg.de/d/a71a90974a6746668a2d/
+years: "2023 -- 2024"
+team:
+  lennart:
+    id: lennart
+    email: lennart.wittkuhn@uni-hamburg.de
+    website: https://lennartwittkuhn.com/
+    github: https://github.com/lnnrtwttkhn
+    twitter: https://twitter.com/lnnrtwttkhn
+    mastodon: https://fediscience.org/users/lnnrtwttkhn
+    scholar: https://scholar.google.de/citations?user=GXvJB1kAAAAJ&hl=en
+    linkedin: https://www.linkedin.com/in/dr-lennart-wittkuhn-6a079a1a8/
+  nico:
+    id: nico
+    email: nicolas.schuck@uni-hamburg.de
+    website: https://schucklab.gitlab.io/
+    github: https://github.com/nschuck/
+    twitter: https://twitter.com/nico_schuck
+    mastodon: https://mastodon.online/@nicoschuck
+    scholar: https://scholar.google.com/citations?user=n21HDbAAAAAJ&hl=en
+    linkedin: https://www.linkedin.com/in/nicolas-schuck-72542247/

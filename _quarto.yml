@@ -1,0 +1,76 @@
+project:
+  type: website
+  output-dir: _site
+  pre-render: make prepare
+  
+  preview: 
+    port: 9999
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+website:
+  title: "Version control of code and data using Git and DataLad"
+  # favicon: "{{< fa code-branch >}}"
+  description: "Website for a full-semester course at University of Hamburg on version control of code and data using Git and DataLad"
+  site-url: https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23
+  repo-url: https://github.com/lnnrtwttkhn/versioncontrol-course-uhh-ws23
+  open-graph: false
+  
+  navbar:
+    background: light
+    title: false
+    pinned: true
+    left:
+      - text: "{{< fa house >}} Home"
+        href: index.qmd
+      - text: "{{< fa circle-info >}} About"
+        href: about.qmd
+      - text: "{{< fa clipboard-list >}} Schedule"
+        href: schedule.qmd
+      - text: "{{< fa chalkboard-user >}} Team"
+        href: team.qmd
+      - text: "{{< fa gem >}} Resources"
+        href: resources.qmd
+      - text: "{{< fa circle-question >}} FAQ"
+        href: faq.qmd
+    right:
+      - icon: envelope
+        aria-label: Email
+        href: mailto:lennart.wittkuhn@uni-hamburg.de
+      - icon: github
+        aria-label: GitHub
+        href: https://github.com/lnnrtwttkhn/versioncontrol-course-uhh-ws23
+        
+  page-footer:
+    background: light
+    border: true
+    left: |
+      © {{< var years >}} [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
+    center:
+      - text: "Funded by the Digital and Data Literacy in Teaching Lab"
+        href: acknowledgements.qmd
+    right: |
+      License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | [Acknowledgements](acknowledgements.qmd){target="_self"}
+
+format:
+  html:
+    theme: [litera, custom.scss]
+    mainfont: "Atkinson Hyperlegible"
+    page-layout: full
+    fontcolor: black
+    linkcolor: black
+    link-external-newwindow: true
+    toc: true
+    toc-depth: 4
+    toc-title: "Contents"
+    code-link: true
+    code-copy: true
+    code-overflow: wrap
+    html-math-method: katex
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    highlight-style: tango
+    include-after-body: plausible.html

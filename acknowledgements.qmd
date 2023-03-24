@@ -1,0 +1,75 @@
+---
+title: "Acknowledgements & Attribution"
+image: string
+comments: false
+---
+
+## Funding
+
+This project is funded by the [Digital and Data Literacy in Teaching Lab (DDLitLab)](https://www.isa.uni-hamburg.de/en/ddlitlab.html), an initiative by the [ISA-Zentrum](https://www.isa.uni-hamburg.de/) at the [University of Hamburg](https://www.uni-hamburg.de/en.html).
+The Digital and Data Literacy in Teaching Lab program is in turn funded by the [Stiftung Innovation in der Hochschullehre](https://stiftung-hochschullehre.de/en/) (details can be found [here](https://stiftung-hochschullehre.de/projekt/ddlitlab/)).
+
+Our project proposal can be found [here]({{< var links.proposal >}}) (in German).
+
+Special thanks to [Carolin Scharfenberg](https://www.isa.uni-hamburg.de/en/ddlitlab/team/scharfenberg-carolin.html){target="_blank"} as well as [Moritz Kreinsen](https://www.isa.uni-hamburg.de/en/ddlitlab/team/kreinsen-moritz.html) and [Sören-Kristian Berger](https://www.isa.uni-hamburg.de/en/ddlitlab/team/berger-soeren-kristian.html) for help with project coordination, administration, and the grant application process.
+
+## Website
+
+### Code
+
+This website is made with 🖤 and [Quarto](https://quarto.org/).
+
+The source code for this website can be found [on GitHub]({{< var links.github >}}) {{< fa brands github >}}.
+
+### Images
+
+Images are stored on [Keeper]({{< var links.keeper >}}).
+
+The illustration on the [homepage](index.qmd){target="_self"} is an illustration created by [Scriberia](https://www.scriberia.com/) with [The Turing Way community](https://the-turing-way.netlify.app/welcome).
+It is used under a [CC-BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/). DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3695300).
+
+### Font
+
+This website uses the [Atkinson Hyperlegible](https://brailleinstitute.org/freefont) font.
+Copyright © 2020, Braille Institute of America, Inc., [https://www.brailleinstitute.org/freefont](https://www.brailleinstitute.org/freefont) with Reserved Typeface Name Atkinson Hyperlegible Font.
+Details of the license can be found [here](http://brailleinstitute.org/wp-content/uploads/2020/11/Atkinson-Hyperlegible-Font-License-2020-1104.pdf).
+
+### Analytics
+
+We use [Plausible](https://plausible.io/). Plausible is an "intuitive, lightweight and open source web analytics", does not use cookies and is fully compliant with GDPR, CCPA and PECR.
+
+### License
+
+All code is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+### Contact
+
+Did you spot an error?
+Is there an issue with the website?
+Do you have feedback, questions or comments?
+We would love to hear from you!
+Open an [issue on GitHub]({{< var links.issues >}}) or write an [email]({{< var links.email >}}){target="_blank"}.
+
+## Inspiration
+
+This list of sources of inspiration is incomplete and will be continously updated.
+
+### Quarto Websites
+
+- [Personal website of Robert Mitchell](https://robertmitchellv.com/about.html)
+
+### Quarto Guides
+
+- ["The ultimate guide to starting a Quarto blog" by Albert Rapp](https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html)
+
+### Course Websites
+
+- ["NSCS 344 — Modeling the Mind" by Robert C. Wilson](http://u.arizona.edu/~bob/web_NSCS344/index.html)
+- ["RL-Course" by Philipp Schwartenbeck](https://github.com/schwartenbeckph/RL-Course)
+
+## Links
+
+- [Search of Fontawesome Icons](https://fontawesome.com/search)
+- [How to open hyperlinks in new tab by default](https://github.com/quarto-dev/quarto-cli/discussions/3169)
+- [Can you make callouts collapsable by default](https://github.com/quarto-dev/quarto-cli/discussions/2869)
+- [Markdown License Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)

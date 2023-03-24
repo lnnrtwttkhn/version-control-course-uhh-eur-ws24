@@ -1,0 +1,80 @@
+---
+title: "Resources"
+image: string
+comments: false
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
+library("magrittr")
+```
+
+```{r}
+ccby40 = "[![License: CC BY 4.0](https://img.shields.io/badge/CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)"
+ccbysa40 = "[![License: CC BY-SA 4.0](https://img.shields.io/badge/CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)"
+ccbyncsa30 = "[![License: CC BY-NC-SA 3.0](https://img.shields.io/badge/CC_BY--NC--SA_3.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/3.0/)"
+ccbync40 = "[![License: CC BY-NC 4.0](https://img.shields.io/badge/CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)"
+mit = "[![License: MIT](https://img.shields.io/badge/MIT-lightgray.svg)](https://opensource.org/licenses/MIT)"
+```
+
+```{r}
+link <- "https://docs.google.com/spreadsheets/d/1-nana238MzguhbIGnCQEQEfG6GT7WTMdICCgHtG2d4s/edit?usp=sharing"
+googlesheets4::gs4_deauth() # indicate there is no need for a token
+df <- googlesheets4::read_sheet(link) %>%
+  data.table::setDT(.) %>%
+  .[, source := data.table::fcase(
+    grepl("github", source), sprintf("[{{< fa brands github >}}](%s)", source),
+    grepl("doi", source), sprintf("[{{< ai doi >}}](%s)", source)
+  )] %>%
+  .[, license := data.table::fcase(
+    license == "CC BY 4.0", ccby40,
+    license == "CC BY-SA 4.0", ccbysa40,
+    license == "CC BY-NA-SA 3.0", ccbyncsa30,
+    license == "CC BY-NA 4.0", ccbync40,
+    license == "MIT", mit
+  )] %>%
+  .[, title := sprintf("[%s](%s)", title, link)] %>%
+  data.table::setorder(-year) %>%
+  .[, c("title", "authors", "year", "source", "license", "category")]
+```
+
+## All
+
+```{r}
+df %>%
+  .[, c("title", "authors", "year", "source", "license", "category")] %>%
+  knitr::kable(., format = "markdown")
+```
+
+## Guides
+
+TBA
+
+```{r, include=FALSE}
+df %>%
+  .[category == "guide", ] %>% 
+  .[, c("title", "authors", "year", "source", "license")] %>%
+  knitr::kable(., format = "markdown")
+```
+
+## Courses
+
+TBA
+
+```{r, include=FALSE}
+df %>%
+  .[category == "course", ] %>% 
+  .[, c("title", "authors", "year", "source", "license")] %>%
+  knitr::kable(., format = "markdown")
+```
+
+## Papers
+
+TBA
+
+```{r, include=FALSE}
+df %>%
+  .[category == "paper", ] %>% 
+  .[, c("title", "authors", "year", "source", "license")] %>%
+  knitr::kable(., format = "markdown")
+```
