@@ -116,3 +116,27 @@ Details can be found on the [project website](https://lennartwittkuhn.com/ddlitl
 :::
 
 :::
+
+## Student Teaching Assistant
+
+::: {.grid}
+
+::: {.g-col-8}
+### You?
+We are soon looking for a **student teaching assistant**!
+
+- {{< fa list-check >}} **Tasks:** Assistance during teaching (e.g., supporting course participants during seminars and exercises)
+- {{< fa business-time >}} **Duration:** 09.10.2023 to 27.01.2024 (WS 2023/24)
+- {{< fa clock >}} **Hours:** 2 semester hours (SWS; 90 minutes) per week
+- {{< fa money-check-dollar >}} **Salary:** 135.44 € / SWS
+
+Details will follow soon.
+Feel free to send an [email]({{< var links.email >}}) for any inquiries.
+
+:::
+
+::: {.g-col-4}
+![](images/user_avatar.png){fig-alt="A user avatar."}
+:::
+
+:::
