@@ -5,7 +5,7 @@ comments: false
 
 ## Overview
 
-{{< fa circle-info >}} **What?** Full-semester course on version control
+{{< fa circle-info >}} **What?** Full-semester course on version control using [Git](https://git-scm.com/) and [DataLad](https://www.datalad.org/)
 
 {{< fa calendar-days >}} **When?** Wintersemester 2023/24 (Oct to Jan)
 
