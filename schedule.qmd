@@ -4,4 +4,10 @@ image: string
 comments: false
 ---
 
-TBA
+::: {.callout-note collapse=false}
+## The course schedule is still under construction! {{< fa wrench >}}
+We are continuously updating information on this website.
+Watch this space for any updates.
+If you have any urgent questions, always feel free to write an [email]({{< var links.email >}}).
+Thank you for your patience!
+:::
