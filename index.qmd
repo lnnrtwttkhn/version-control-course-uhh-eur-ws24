@@ -3,6 +3,7 @@ title: "Version control of code and data using Git and DataLad"
 subtitle: "A full-semester course at the University of Hamburg"
 image: "images/version_control_scriberia.jpg"
 comments: false
+toc: false
 about:
   template: trestles
   image-shape: rectangle
