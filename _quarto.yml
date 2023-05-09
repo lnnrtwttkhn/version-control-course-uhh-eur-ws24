@@ -73,4 +73,4 @@ format:
     reference-location: margin
     footnotes-hover: true
     highlight-style: tango
-    include-after-body: plausible.html
+    include-after-body: simple-analytics.html
