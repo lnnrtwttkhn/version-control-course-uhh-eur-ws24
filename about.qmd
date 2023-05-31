@@ -15,8 +15,6 @@ comments: false
 
 {{< fa brain >}} **Focus?** Psychology and Cognitive Neuroscience
 
-
-
 ## Abstract
 
 The digital objects on our computers are in a constant state of flux.

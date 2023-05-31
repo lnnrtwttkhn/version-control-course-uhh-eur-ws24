@@ -36,7 +36,8 @@ Details of the license can be found [here](http://brailleinstitute.org/wp-conten
 
 ### Analytics
 
-We use [Plausible](https://plausible.io/). Plausible is an "intuitive, lightweight and open source web analytics", does not use cookies and is fully compliant with GDPR, CCPA and PECR.
+We use [Plausible](https://plausible.io/).
+Plausible is an "intuitive, lightweight and open source web analytics", does not use cookies and is fully compliant with GDPR, CCPA and PECR.
 
 ### License
 
