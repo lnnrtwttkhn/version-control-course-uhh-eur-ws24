@@ -14,6 +14,7 @@ ccby40 = "[![License: CC BY 4.0](https://img.shields.io/badge/CC_BY_4.0-lightgre
 ccbysa40 = "[![License: CC BY-SA 4.0](https://img.shields.io/badge/CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)"
 ccbyncsa30 = "[![License: CC BY-NC-SA 3.0](https://img.shields.io/badge/CC_BY--NC--SA_3.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/3.0/)"
 ccbync40 = "[![License: CC BY-NC 4.0](https://img.shields.io/badge/CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)"
+ccbyncnd40 = "[![License: CC BY-NC-NC 4.0](https://img.shields.io/badge/CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
 mit = "[![License: MIT](https://img.shields.io/badge/MIT-lightgray.svg)](https://opensource.org/licenses/MIT)"
 ```
 
@@ -28,8 +29,9 @@ df <- read.csv(link) %>%
   .[, license := data.table::fcase(
     license == "CC BY 4.0", ccby40,
     license == "CC BY-SA 4.0", ccbysa40,
-    license == "CC BY-NA-SA 3.0", ccbyncsa30,
-    license == "CC BY-NA 4.0", ccbync40,
+    license == "CC BY-NC-SA 3.0", ccbyncsa30,
+    license == "CC BY-NC 4.0", ccbync40,
+    license == "CC BY-NC-ND 4.0", ccbyncnd40,
     license == "MIT", mit
   )] %>%
   .[, title := sprintf("[%s](%s)", title, link)] %>%
