@@ -18,9 +18,8 @@ mit = "[![License: MIT](https://img.shields.io/badge/MIT-lightgray.svg)](https:/
 ```
 
 ```{r}
-link <- "https://docs.google.com/spreadsheets/d/1-nana238MzguhbIGnCQEQEfG6GT7WTMdICCgHtG2d4s/edit?usp=sharing"
-googlesheets4::gs4_deauth() # indicate there is no need for a token
-df <- googlesheets4::read_sheet(link) %>%
+link <- "https://raw.githubusercontent.com/lnnrtwttkhn/git-resources/main/git-resources.csv"
+df <- read.csv(link) %>%
   data.table::setDT(.) %>%
   .[, source := data.table::fcase(
     grepl("github", source), sprintf("[{{< fa brands github >}}](%s)", source),
