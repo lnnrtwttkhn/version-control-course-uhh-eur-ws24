@@ -28,6 +28,8 @@ website:
         href: about.qmd
       - text: "{{< fa clipboard-list >}} Schedule"
         href: schedule.qmd
+      - text: "{{< fa wrench >}} Tools"
+        href: tools.qmd
       - text: "{{< fa chalkboard-user >}} Team"
         href: team.qmd
       - text: "{{< fa gem >}} Resources"
@@ -73,4 +75,4 @@ format:
     reference-location: margin
     footnotes-hover: true
     highlight-style: tango
-    include-after-body: simple-analytics.html
+    include-after-body: plausible.html
