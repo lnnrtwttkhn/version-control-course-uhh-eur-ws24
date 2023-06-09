@@ -28,8 +28,8 @@ website:
         href: about.qmd
       - text: "{{< fa clipboard-list >}} Schedule"
         href: schedule.qmd
-      - text: "{{< fa wrench >}} Tools"
-        href: tools.qmd
+      # - text: "{{< fa wrench >}} Tools"
+      #   href: tools.qmd
       - text: "{{< fa chalkboard-user >}} Team"
         href: team.qmd
       - text: "{{< fa gem >}} Resources"
