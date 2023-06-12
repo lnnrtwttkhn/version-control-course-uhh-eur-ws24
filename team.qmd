@@ -100,20 +100,12 @@ cat(buttons)
 ::: {.grid}
 
 ::: {.g-col-4}
-![](images/user_avatar.png){fig-alt="A user avatar."}
+![](images/photo_Pagenstedt_potrait.jpeg){fig-alt="A potrait photo of Konrad Pagenstedt."}
 :::
 
 ::: {.g-col-8}
-### You?
-We are looking for a **student research assistant** (SHK/WHK)!
-
-- {{< fa list-check >}} **Tasks:** Supporting the teaching project (preparation of teaching materials, evaluation, project reporting, etc.)
-- {{< fa business-time >}} **Duration:** 01.06.2023 to 31.03.2024 (10 months)
-- {{< fa clock >}} **Hours:** 32 hours per month (flexible working hours)
-- {{< fa money-check-dollar >}} **Salary:** SHK: 12.00 € / hour | WHK: 13.95 € / hour
-
-Details can be found on the [project website](https://lennartwittkuhn.com/ddlitlab/ausschreibung_whk.html) and in [this PDF](https://keeper.mpdl.mpg.de/lib/5c6f41ee-2174-423f-b657-e99f75a08af2/file/job_shk_whk_ddlitlab_git.pdf).
-
+### Konrad Pagenstedt
+Konrad is 
 :::
 
 :::
