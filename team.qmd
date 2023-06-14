@@ -99,7 +99,7 @@ cat(buttons)
 ::: g-col-8
 ### Konrad Pagenstedt
 
-Konrad is **Bachelor Student** of Psychology at the [University of Hamburg](https://www.uni-hamburg.de/en.html).
+Konrad is a **Bachelor Student** of Psychology at the [University of Hamburg](https://www.uni-hamburg.de/en.html).
 Konrad is enthusiastic about exploring various areas within the field of psychology, open science, research data management and reproducibility.
 :::
 :::
