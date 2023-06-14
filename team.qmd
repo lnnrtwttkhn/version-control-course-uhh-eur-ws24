@@ -93,7 +93,7 @@ cat(buttons)
 
 ::: grid
 ::: g-col-4
-![](images/photo_Pagenstedt_portrait.jpeg){fig-alt="A portrait photo of Konrad Pagenstedt."}
+![](images/photo_pagenstedt_portrait.jpeg){fig-alt="A portrait photo of Konrad Pagenstedt."}
 :::
 
 ::: g-col-8
