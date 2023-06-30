@@ -34,6 +34,8 @@ website:
         href: team.qmd
       - text: "{{< fa gem >}} Resources"
         href: resources.qmd
+      - text: "{{< fa gear >}} Mechanics"
+        href: mechanics.qmd
       - text: "{{< fa circle-question >}} FAQ"
         href: faq.qmd
     right:

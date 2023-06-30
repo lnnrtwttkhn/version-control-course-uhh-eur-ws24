@@ -1,0 +1,23 @@
+---
+title: "Mechanics"
+comments: false
+---
+
+This class will be conducted in person, but all course materials will be available online
+It follows a [flipped classroom](#flipped-classroom) and [active learning](#active-learning) approach, which means that students will learn the content outside of class and engage in assignments during class.
+
+## Flipped Classroom
+
+The flipped classroom is an educational approach where students learn the instructional content outside of class (e.g., through videos or online resources) and use class time for interactive activities, discussions, and collaboration.
+In this course, students will learn at home using the available online resources.
+Class time is protected time for implementation.
+
+## Active Learning
+
+Active learning in this class involves engaging in hands-on coding activities during class time.
+Research on active learning indicates that this approach promotes a greater understanding and retention of the material compared to passive teaching methods.
+
+## References
+
+- https://u.arizona.edu/~bob/web_NSCS344/classMechanics.html
+- https://zenodo.org/record/7974345
