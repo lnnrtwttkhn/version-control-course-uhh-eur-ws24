@@ -36,12 +36,12 @@ Details of the license can be found [here](http://brailleinstitute.org/wp-conten
 
 ### Analytics
 
-We use [Plausible](https://plausible.io/).
+We use [Plausible](https://plausible.io/) for website analytics.
 Plausible is an "intuitive, lightweight and open source web analytics", does not use cookies and is fully compliant with GDPR, CCPA and PECR.
 
 ### License
 
-All code is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+All contents are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), unless indicated otherwise.
 
 ### Contact
 
@@ -53,7 +53,7 @@ Open an [issue on GitHub]({{< var links.issues >}}) or write an [email]({{< var 
 
 ## Inspiration
 
-This list of sources of inspiration is incomplete and will be continously updated.
+This list of sources of inspiration is incomplete and will be continuously updated.
 
 ### Quarto Websites
 
