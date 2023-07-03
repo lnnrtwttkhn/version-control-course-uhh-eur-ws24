@@ -19,8 +19,22 @@ Research on active learning indicates that this approach promotes a greater unde
 
 ## Module
 
+This course will be offered as part of the "Psychologischer Wahlbereich" module of the [M.Sc. Psychology (Research, as of WiSe 23/24)](https://www.psy.uni-hamburg.de/en/studium/studiengaenge/msc-psychology-research.html) at the University of Hamburg.
+
+> The Master of Science in Psychology is a consecutive program that is strongly research-oriented.
+The regular period of study is 4 semesters.
+Teaching language is primarily English.
+The degree program comprises 8 modules with 2 complementary areas of concentration.
+
 >  Im "Psychologischen Wahlbereich" werden Veranstaltungen zu wechselnden Themen der Psychologie angeboten.
 Darüber hinaus können Studierende Module oder einzelne für den Wahlbereich geöffnete Lehrveranstaltungen aus den Modulen C. und D., die sie nicht im Rahmen ihres Grundlagen- oder Anwendungswahlfaches belegt haben, besuchen.
+
+<details>
+<summary>Click here to view the **full module description** (in German).</summary><br>
+```{=html}
+<iframe width="100%" height="1200" src="images/20211110-fsb-pb-msc-psychologie-19-wahlpflicht.pdf"></iframe>
+```
+</details>
 
 ## References
 
