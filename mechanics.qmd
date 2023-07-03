@@ -1,6 +1,7 @@
 ---
 title: "Mechanics"
 comments: false
+# nocite: |
 ---
 
 This class will be conducted in person, but all course materials will be available online.
@@ -8,14 +9,28 @@ It follows a [flipped classroom](#flipped-classroom) and [active learning](#acti
 
 ## Flipped Classroom
 
-The flipped classroom is an educational approach where students learn the instructional content outside of class (e.g., through videos or online resources) and use class time for interactive activities, discussions, and collaboration.
+The flipped classroom is an educational approach where **students learn the instructional content outside of class** (e.g., through videos or online resources) and **use class time for interactive activities**, discussions, and collaboration.
 In this course, students will learn at home using the available online resources.
 Class time is protected time for implementation.
 
+### Course Materials
+
+TBA
+
 ## Active Learning
 
-Active learning in this class involves engaging in hands-on coding activities during class time.
-Research on active learning indicates that this approach promotes a greater understanding and retention of the material compared to passive teaching methods.
+Active learning in this class involves engaging in **hands-on coding activities during class time**.
+Research on active learning indicates that this approach promotes a greater understanding and retention of the material compared to passive teaching methods [e.g., @deslauriers2019].
+
+## Implementation
+
+> "*For training to have an impact, students must implement what they've 
+learned in their own research.*"
+[@weissgerber2023]
+
+@heise2023 outline actions that course organizers can take to prepare and support course participants in implementing what they have learned once they return to their research environment.
+
+On [this page](implementation.qmd) we consider how to apply the recommendations by @heise2023 to our course in detail.
 
 ## Module
 
@@ -36,7 +51,12 @@ Darüber hinaus können Studierende Module oder einzelne für den Wahlbereich ge
 ```
 </details>
 
+## Questions
+
+
 ## References
 
+:::{#refs}
+:::
+
 - https://u.arizona.edu/~bob/web_NSCS344/classMechanics.html
-- https://zenodo.org/record/7974345

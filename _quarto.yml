@@ -74,6 +74,8 @@ format:
     html-math-method: katex
     anchor-sections: true
     fig-cap-location: margin
+    bibliography: references.bib
+    csl: apa.csl
     reference-location: margin
     footnotes-hover: true
     highlight-style: tango
