@@ -2,6 +2,9 @@
 title: "Acknowledgements & Attribution"
 image: string
 comments: false
+engine: knitr
+execute:
+  eval: false
 ---
 
 ## Funding
@@ -23,7 +26,17 @@ The source code for this website can be found [on GitHub]({{< var links.github >
 
 ### Images
 
-Images are stored on [Keeper]({{< var links.keeper >}}).
+Images are stored on [Nextcloud]({{< var links.nextcloud >}}) (UHH Cloud).
+They can be retrieved using `make download-images`.
+
+<details>
+<summary>Click here to view the full `Makefile` of this project.</summary>
+```{bash, filename="Makefile"}
+#| eval: false
+#| file: Makefile
+#| code-line-numbers: true
+```
+</details>
 
 The illustration on the [homepage](index.qmd){target="_self"} is an illustration created by [Scriberia](https://www.scriberia.com/) with [The Turing Way community](https://the-turing-way.netlify.app/welcome).
 It is used under a [CC-BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/). DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3695300).
