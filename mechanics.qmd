@@ -3,7 +3,7 @@ title: "Mechanics"
 comments: false
 ---
 
-This class will be conducted in person, but all course materials will be available online
+This class will be conducted in person, but all course materials will be available online.
 It follows a [flipped classroom](#flipped-classroom) and [active learning](#active-learning) approach, which means that students will learn the content outside of class and engage in assignments during class.
 
 ## Flipped Classroom
