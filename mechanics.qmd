@@ -17,6 +17,11 @@ Class time is protected time for implementation.
 Active learning in this class involves engaging in hands-on coding activities during class time.
 Research on active learning indicates that this approach promotes a greater understanding and retention of the material compared to passive teaching methods.
 
+## Module
+
+>  Im "Psychologischen Wahlbereich" werden Veranstaltungen zu wechselnden Themen der Psychologie angeboten.
+Darüber hinaus können Studierende Module oder einzelne für den Wahlbereich geöffnete Lehrveranstaltungen aus den Modulen C. und D., die sie nicht im Rahmen ihres Grundlagen- oder Anwendungswahlfaches belegt haben, besuchen.
+
 ## References
 
 - https://u.arizona.edu/~bob/web_NSCS344/classMechanics.html
