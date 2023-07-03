@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: _site
-  pre-render: make prepare
+  # pre-render: make download-images
   
   preview: 
     port: 9999
@@ -68,7 +68,7 @@ format:
     toc: true
     toc-depth: 4
     toc-title: "Contents"
-    code-link: true
+    code-link: false
     code-copy: true
     code-overflow: wrap
     html-math-method: katex

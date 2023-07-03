@@ -39,3 +39,9 @@ This is the website of the full-semester course on "{{< meta title >}}" at the U
 {{< fa circle-question >}} **Questions?** Read the [FAQ](faq.qmd){target="_self"} or send an [email]({{< var links.email >}}){target="_blank"}!
 
 {{< fa heart >}} **Thanks!** Thanks to all our [supporters](acknowledgements.qmd){target="_self"}!
+
+---
+
+::: {style="font-size: 70%;"}
+The illustration on this website is created by [Scriberia](https://www.scriberia.com/) with [The Turing Way community](https://the-turing-way.netlify.app/welcome). Used under a [CC-BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/). DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3695300)
+:::

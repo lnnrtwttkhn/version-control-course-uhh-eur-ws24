@@ -2,6 +2,9 @@
 title: "Acknowledgements & Attribution"
 image: string
 comments: false
+engine: knitr
+execute:
+  eval: false
 ---
 
 ## Funding
@@ -23,7 +26,17 @@ The source code for this website can be found [on GitHub]({{< var links.github >
 
 ### Images
 
-Images are stored on [Keeper]({{< var links.keeper >}}).
+Images are stored on [Nextcloud]({{< var links.nextcloud >}}) (UHH Cloud).
+They can be retrieved using `make download-images`.
+
+<details>
+<summary>Click here to view the full `Makefile` of this project.</summary>
+```{bash, filename="Makefile"}
+#| eval: false
+#| file: Makefile
+#| code-line-numbers: true
+```
+</details>
 
 The illustration on the [homepage](index.qmd){target="_self"} is an illustration created by [Scriberia](https://www.scriberia.com/) with [The Turing Way community](https://the-turing-way.netlify.app/welcome).
 It is used under a [CC-BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/). DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3695300).
@@ -36,12 +49,12 @@ Details of the license can be found [here](http://brailleinstitute.org/wp-conten
 
 ### Analytics
 
-We use [Plausible](https://plausible.io/).
+We use [Plausible](https://plausible.io/) for website analytics.
 Plausible is an "intuitive, lightweight and open source web analytics", does not use cookies and is fully compliant with GDPR, CCPA and PECR.
 
 ### License
 
-All code is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+All contents are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), unless indicated otherwise.
 
 ### Contact
 
@@ -53,7 +66,7 @@ Open an [issue on GitHub]({{< var links.issues >}}) or write an [email]({{< var 
 
 ## Inspiration
 
-This list of sources of inspiration is incomplete and will be continously updated.
+This list of sources of inspiration is incomplete and will be continuously updated.
 
 ### Quarto Websites
 
