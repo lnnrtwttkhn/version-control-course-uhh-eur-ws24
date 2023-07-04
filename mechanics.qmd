@@ -6,7 +6,7 @@ nocite: |
 ---
 
 This course will be conducted in person, but all [course materials](#course-materials) will be available online.
-The course follows a [flipped classroom](#flipped-classroom) and [active learning](#active-learning) approach, which means that students will learn the content outside of class and engage in [assignments](#assignments) during class.
+The course follows a [flipped classroom](#flipped-classroom) and [active learning](#active-learning) approach, which means that students will learn the [content](#course-materials) outside of class and engage in [assignments](#assignments) during class.
 
 ## Flipped Classroom
 
