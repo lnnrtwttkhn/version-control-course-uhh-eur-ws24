@@ -1,7 +1,30 @@
 ---
 title: "Implementation"
 comments: false
-number-sections: true
 ---
 
-In the [Supporting Information S2 "Tips for course organizers"](https://doi.org/10.1371/journal.pcbi.1010750.s002) of their article ["Ten simple rules for implementing open and reproducible research practices after attending a training course"](https://doi.org/10.1371/journal.pcbi.1010750) (License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)), @heise2023 outline actions that course organizers can take to prepare and support course participants in implementing what they have learned once they return to their research environment.
+In the [Supporting Information S2 "Tips for course organizers"](https://doi.org/10.1371/journal.pcbi.1010750.s002) of their article ["Ten simple rules for implementing open and reproducible research practices after attending a training course"](https://doi.org/10.1371/journal.pcbi.1010750) (License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)), @heise2023 outline actions that course organizers can take to prepare and **support course participants in implementing what they have learned** once they return to their research environment.
+
+## When designing a course
+
+#### 1. Consider participants' background and research type when designing materials.
+
+#### 2. Cover a range of topics in your course. 
+
+#### 3. Talk about top-down robust research policies.
+
+#### 4.	Include information on “soft skills” related to behavioral change in research groups.
+
+#### 5. Give participants time to start implementing practices.
+
+#### 6. Consider offering a series of sessions, instead of covering many topics in a short period of time.
+
+## When participants return to their own research environments
+
+#### 1. Make your teaching materials and resources open and re-usable.
+
+#### 2. Create (and support) communities.
+
+#### 3.	Support implementation.
+
+#### 4.	Consider follow-up events.
