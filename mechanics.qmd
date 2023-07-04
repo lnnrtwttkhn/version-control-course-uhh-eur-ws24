@@ -1,11 +1,12 @@
 ---
-title: "Mechanics"
+title: "Mechanics: Course Overview"
 comments: false
-# nocite: |
+nocite: |
+  @wilson2021
 ---
 
-This class will be conducted in person, but all course materials will be available online.
-It follows a [flipped classroom](#flipped-classroom) and [active learning](#active-learning) approach, which means that students will learn the content outside of class and engage in assignments during class.
+This course will be conducted in person, but all [course materials](#course-materials) will be available online.
+The course follows a [flipped classroom](#flipped-classroom) and [active learning](#active-learning) approach, which means that students will learn the content outside of class and engage in [assignments](#assignments) during class.
 
 ## Flipped Classroom
 
@@ -13,20 +14,39 @@ The flipped classroom is an educational approach where **students learn the inst
 In this course, students will learn at home using the available online resources.
 Class time is protected time for implementation.
 
-### Course Materials
+## Course Materials
 
-TBA
+### Textbook: Version Control Book
+
+In preparation for each seminar session, students will be asked to study specific chapters in the [Version Control Book](https://lennartwittkuhn.com/version-control-book/).
+The Version Control Book aims to summarize all the relevant course contents for the students, effectively serving as a textbook for the course.
+In addition, we will provide references to multiple other learning resources, allowing students to pick from those learning resources that they feel supports their learning process best.
+
+## Prerequisites
+
+There are no prerequisites to take part in this course.
+Programming experience (any language) can be beneficial but is not required to follow the course contents.
 
 ## Active Learning
 
 Active learning in this class involves engaging in **hands-on coding activities during class time**.
-Research on active learning indicates that this approach promotes a greater understanding and retention of the material compared to passive teaching methods [e.g., @deslauriers2019].
+Research on active learning indicates that this approach promotes a greater understanding and retention of the material compared to passive teaching methods [see e.g., @deslauriers2019].
+
+## Assignments
+
+Students will work on assignments (individually or in [pairs](#pair-programming) during class.
+
+## Pair Programming
+
+> Pair programming is a software development technique in which two programmers work together at one workstation.
+One, the driver, writes code while the other, the observer or navigator [@williams2001], reviews each line of code as it is typed in.
+The two programmers switch roles frequently.
+-- Source: [Wikipedia](https://en.wikipedia.org/wiki/Pair_programming)
 
 ## Implementation
 
 > "*For training to have an impact, students must implement what they've 
-learned in their own research.*"
-[@weissgerber2023]
+learned in their own research.*" [@weissgerber2023]
 
 @heise2023 outline actions that course organizers can take to prepare and support course participants in implementing what they have learned once they return to their research environment.
 
@@ -51,12 +71,7 @@ Darüber hinaus können Studierende Module oder einzelne für den Wahlbereich ge
 ```
 </details>
 
-## Questions
-
-
 ## References
 
 :::{#refs}
 :::
-
-- https://u.arizona.edu/~bob/web_NSCS344/classMechanics.html
