@@ -27,4 +27,9 @@ In the [Supporting Information S2 "Tips for course organizers"](https://doi.org/
 
 #### 3.	Support implementation.
 
-#### 4.	Consider follow-up events.
+#### 4.	Consider follow-up events
+
+## References
+
+:::{#refs}
+:::
