@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" page-range-format="expanded">
   <info>
-    <title>American Psychological Association 7th edition</title>
-    <title-short>APA</title-short>
-    <id>http://www.zotero.org/styles/apa</id>
-    <link href="http://www.zotero.org/styles/apa" rel="self"/>
-    <link href="http://www.zotero.org/styles/apa-6th-edition" rel="template"/>
+    <title>American Psychological Association 7th edition (annotated bibliography)</title>
+    <title-short>APA (annotated bibliography)</title-short>
+    <id>http://www.zotero.org/styles/apa-annotated-bibliography</id>
+    <link href="http://www.zotero.org/styles/apa-annotated-bibliography" rel="self"/>
+    <link href="http://www.zotero.org/styles/apa" rel="template"/>
     <link href="https://apastyle.apa.org/style-grammar-guidelines/references/examples" rel="documentation"/>
     <author>
       <name>Brenton M. Wiernik</name>
@@ -14,7 +14,7 @@
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2022-10-02T20:08:41+00:00</updated>
+    <updated>2022-01-31T14:30:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -489,7 +489,6 @@
     </group>
   </macro>
   <macro name="date-sort-group">
-    <!-- APA sorts 1. no-date items, 2. items with dates, 3. in-press (status) items -->
     <choose>
       <if variable="issued">
         <text value="1"/>
@@ -1909,6 +1908,7 @@
           </group>
         </else>
       </choose>
+      <text variable="note" display="block"/>
     </layout>
   </bibliography>
 </style>
