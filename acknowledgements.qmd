@@ -63,27 +63,3 @@ Is there an issue with the website?
 Do you have feedback, questions or comments?
 We would love to hear from you!
 Open an [issue on GitHub]({{< var links.issues >}}) or write an [email]({{< var links.email >}}){target="_blank"}.
-
-## Inspiration
-
-This list of sources of inspiration is incomplete and will be continuously updated.
-
-### Quarto Websites
-
-- [Personal website of Robert Mitchell](https://robertmitchellv.com/about.html)
-
-### Quarto Guides
-
-- ["The ultimate guide to starting a Quarto blog" by Albert Rapp](https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html)
-
-### Course Websites
-
-- ["NSCS 344 — Modeling the Mind" by Robert C. Wilson](http://u.arizona.edu/~bob/web_NSCS344/index.html)
-- ["RL-Course" by Philipp Schwartenbeck](https://github.com/schwartenbeckph/RL-Course)
-
-## Links
-
-- [Search of Fontawesome Icons](https://fontawesome.com/search)
-- [How to open hyperlinks in new tab by default](https://github.com/quarto-dev/quarto-cli/discussions/3169)
-- [Can you make callouts collapsable by default](https://github.com/quarto-dev/quarto-cli/discussions/2869)
-- [Markdown License Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
