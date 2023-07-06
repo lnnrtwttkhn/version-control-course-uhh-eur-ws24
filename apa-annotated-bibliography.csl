@@ -1894,7 +1894,7 @@
           </choose>
         </if>
         <else>
-          <group delimiter=" ">
+          <group delimiter=". " suffix=".">
             <group delimiter=". " suffix=".">
               <text macro="author-bib"/>
               <text macro="date-bib"/>
@@ -1905,10 +1905,10 @@
             </group>
             <text macro="access"/>
             <text macro="publication-history"/>
+            <text variable="note"/>
           </group>
         </else>
       </choose>
-      <text variable="note" display="block"/>
     </layout>
   </bibliography>
 </style>
