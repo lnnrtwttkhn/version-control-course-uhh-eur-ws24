@@ -1,0 +1,157 @@
+session01:
+  date: 2023-10-16
+  title: Introduction to version control
+  contents:
+    - Introduction to version control
+    - Introduction to Git and its advantages
+    - Computational reproducibility
+    - Overview of seminar sessions
+  mechanics:
+    - "[Particify](https://particify.uni-hamburg.de/)"
+    - Pair Programming
+    - HedgeDoc
+  reading:
+    - "[Intro to version control](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html)"
+  notes: https://pad.uni-hamburg.de/ah9w6HIDSaqFqedg47b8Vg?both
+  questions:
+    - "Do you have prior coding experience?"
+    - "Make a guess: How many published studies are reproducible?"
+session02:
+  date: 2023-10-23
+  title: Command line
+  contents:
+    - Installation and configuration of Git
+    - GitHub Account
+    - GitHub Student Education Pack
+    - JupyterHub
+    - File Systems
+    - Command Line
+    - Markdown Basics
+  reading:
+    - "[Command Line](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html)"
+  objectives:
+    - "What are the benefits of the command line?"
+    - "Why git works best with text files?"
+session03:
+  date: 2023-10-30
+  title: "Git Basics"
+  contents:
+    - "Initializing a Git repository"
+    - "Basic Git commands"
+  commands:
+    - git init
+    - git status
+    - git add
+    - git commit
+    - git log
+    - git diff
+session04:
+  date: 2023-11-06
+  title: "Git Branching and Merging"
+  contents:
+    - "Understanding branches in Git"
+    - "Creating and switching between branches"
+    - "Merging branches: fast-forward and recursive"
+    - "Resolving merge conflicts"
+    - "Best practices for branch management"
+    - "Ignoring files with .gitignore"
+    - "Good commit messages"
+  commands:
+    - git branch
+    - git checkout
+    - git switch
+    - git merge
+  objectives:
+    - "What are benefits of working with branches?"
+    - "What is a good commit message?"
+session05:
+  date: 2023-11-13
+  title: "Collaborative Workflows with Git"
+  contents:
+    - "Introduction to remote repositories"
+    - "Introduction to popular Git hosting platforms"
+    - "Creating and managing repositories on GitHub"
+    - "Cloning a remote repository"
+    - "Forking a remote repository"
+    - "Pushing and pulling changes"
+    - "Branching and merging in a collaborative environment"
+    - "Using pull requests for code review"
+    - "Squashing"
+    - "Template repositories"
+    - "Overview of remote repositories"
+    - "Alternatives to GitHub"
+  commands:
+    - git clone
+    - git remote
+    - git push
+    - git pull
+    - git fetch
+session06:
+  date: 2023-11-20
+  title: "Git Workflows"
+  contents:
+    - "Understanding different Git workflows"
+    - "Introduction to Gitflow workflow"
+    - "Working with feature branches in Gitflow"
+    - "Managing releases and hotfixes"
+    - "Pros and cons of different Git workflows"
+session07:
+  date: 2023-11-27
+  title: "Stashing and Rebasing"
+  contents:
+    - "Stashing changes for later use"
+    - "Resolving conflicts with stashed changes"
+    - "Introduction to rebasing"
+    - "Interactive rebasing: reordering, editing, and squashing commits"
+    - "Using rebasing to keep a clean commit history"
+session08:
+  date: 2023-12-04
+  title: Graphical User Interfaces (GUIs)
+  contents:
+    - GitHub Desktop
+    - GitKraken
+session09:
+  date: 2023-12-11
+  title: "Project Management and Collaboration Tools"
+  contents:
+    - "Organizing Git repositories and projects"
+    - "Collaborating with team members using issues and pull requests"
+    - README.md
+    - Licenses
+    - Contributions
+    - "Integrating continuous integration (CI) with Git"
+    - "Additional features and services provided by GitHub"
+session10:
+  date: 2023-12-18
+  title: "Git Tags and Releases"
+  contents:
+    - "Introduction to tags and their importance"
+    - "Creating lightweight and annotated tags"
+    - "Managing versions and releases with tags"
+    - "Pushing and pulling tags"
+    - "Best practices for tagging in Git"
+    - "Integration with Zenodo"
+session11:
+  date: 2024-01-08
+  title: "Submodules and Advanced Topics"
+  contents:
+    - Working with Git submodules
+    - Integrating external repositories as submodules
+    - Understanding Git internals
+    - Exploring advanced Git features and options
+    - Future developments and trends in Git
+session12:
+  date: 2024-01-15
+session13:
+  date: 2024-01-22
+session14:
+  date: 2024-01-29
+
+# contents:
+#     - troubleshooting
+#     - rewriting history
+# Session 7: Git Best Practices and Optimization
+# - Ignoring files with .gitignore
+# - Using Git hooks for automation
+# - Optimizing Git performance for large repositories
+# - Troubleshooting common Git issues
