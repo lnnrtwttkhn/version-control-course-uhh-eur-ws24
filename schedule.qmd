@@ -12,124 +12,36 @@ If you have any urgent questions, always feel free to write an [email]({{< var l
 Thank you for your patience!
 :::
 
-We have to plan for 14 sessions.
-Example course: https://www.stine.uni-hamburg.de/scripts/mgrqispi.dll?APPNAME=CampusNet&PRGNAME=COURSEDETAILS&ARGUMENTS=-N000000000000001,-N000673,-N0,-N382563883562096,-N382563883509097,-N0,-N0,-N0
+- 14 sessions
+- 90 minutes per session
 
-Idea: Only Git until Christmas, three sessions on DataLad after Christmas, then Summary
+Note: This syllabus provides a comprehensive outline of the topics to be covered in the course.
+The actual pace and content covered may vary based on the instructor’s discretion and the needs of the students.
 
-Session 1
-Introduction to version control, benefits, coding experience, Particify, seminar mechanics, pair programming, overview of seminar lectures, HedgeDoc, Anmeldung GitHub (Student Education Pack), JupyterHub, computational reproducibility (schätzt, wieviel Prozent von Studien reproduzierbar sind)
-
-Session 2
-Installation, File system, command line, Basic of Markdown, why command line, why only working with text files
-
-Session 3
-Local version control, First steps in git, git status, git add, git commit, git init, git diff
-
-Session 4
-Local version control ||: Branching (git checkout, git switch), advantages of branches, ignoring things (gitignore), stashing, good commit messages,
-
-Session 5
-Remote version control: GitHub, git push, git pull, git fetch, features of GitHub, forking, git clone, alternatives to GitHub
-
-Session 6
-Pull requests, merge conflicts, GitHub flows, squashing, template repositories
-
-Session 7
-Troubleshooting, rewriting history, editing commands
-
-Session 7
-Git IDEs (GitHub Desktop, Gitkraken)
-
-Session 8
-Project Management with GitHub
-
-Session 9: Fun stuff
-Git Tags, Git releases, Integration with Zenodo, continuous integration, git submodules (cf. lecture on DataLad)
-
-Session 11
-Ausblick DataLad (Einladung Adina Wagner)
-
-Session 12
-Summary
-
-Chat GPT
-
-Course Title: Git Essentials: Mastering Version Control
-
-Course Description:
-Git has become an essential tool for developers, enabling efficient and collaborative software development through effective version control. This course provides a comprehensive introduction to Git, covering fundamental concepts, advanced workflows, and best practices. Through a combination of lectures, hands-on exercises, and real-world examples, students will gain the skills and knowledge needed to effectively use Git in their software development projects.
-
-Course Duration: 10 sessions, 90 minutes each
-
-Session 1: Introduction to Version Control Systems and Git Basics
-- Overview of version control systems
-- Introduction to Git and its advantages
-- Installation and configuration of Git
-- Initializing a Git repository
-- Basic Git commands: add, commit, status, log, and diff
-
-Session 2: Git Branching and Merging
-- Understanding branches in Git
-- Creating and switching between branches
-- Merging branches: fast-forward and recursive
-- Resolving merge conflicts
-- Best practices for branch management
-
-Session 3: Collaborative Workflows with Git
-- Introduction to remote repositories
-- Cloning a remote repository
-- Pushing and pulling changes
-- Branching and merging in a collaborative environment
-- Using pull requests for code review
-
-Session 4: Advanced Git Concepts: Stashing and Rebasing
-- Stashing changes for later use
-- Resolving conflicts with stashed changes
-- Introduction to rebasing
-- Interactive rebasing: reordering, editing, and squashing commits
-- Using rebasing to keep a clean commit history
-
-Session 5: Git Tags and Releases
-- Introduction to tags and their importance
-- Creating lightweight and annotated tags
-- Managing versions and releases with tags
-- Pushing and pulling tags
-- Best practices for tagging in Git
-
-Session 6: Git Workflows: Gitflow and Feature Branching
-- Understanding different Git workflows
-- Introduction to Gitflow workflow
-- Working with feature branches in Gitflow
-- Managing releases and hotfixes
-- Pros and cons of different Git workflows
-
-Session 7: Git Best Practices and Optimization
-- Organizing Git repositories and projects
-- Ignoring files with .gitignore
-- Using Git hooks for automation
-- Optimizing Git performance for large repositories
-- Troubleshooting common Git issues
-
-Session 8: Git Collaboration Tools: GitHub and GitLab
-- Introduction to popular Git hosting platforms
-- Creating and managing repositories on GitHub/GitLab
-- Collaborating with team members using issues and pull requests
-- Integrating continuous integration (CI) tools with Git
-- Exploring additional features and services provided by GitHub/GitLab
-
-Session 9: Git Tips and Tricks
-- Useful Git aliases and shortcuts
-- Exploring lesser-known Git commands
-- Customizing Git configuration and settings
-- Efficient use of Git GUI tools
-- Time-saving techniques and productivity hacks
-
-Session 10: Git Beyond Basics: Submodules and Advanced Topics
-- Working with Git submodules
-- Integrating external repositories as submodules
-- Understanding Git internals
-- Exploring advanced Git features and options
-- Future developments and trends in Git
-
-Note: This syllabus provides a comprehensive outline of the topics to be covered in the course. The actual pace and content covered may vary based on the instructor’s discretion and the needs of the students.
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+library("magrittr")
+library("data.table")
+variables <- yaml::read_yaml("_schedule.yml")
+variables_padded = pad_list(variables)
+dt_load <- data.table::rbindlist(variables_padded, fill = TRUE, idcol = "session") %>%
+  .[!is.na(commands), commands := sprintf("`%s`", commands)] %>%
+  .[commands == "``", commands := NA] 
+cols = c("contents", "mechanics", "objectives", "commands", "questions")
+dt = dt_load %>%
+  replace(is.na(.), "") %>%
+  .[, by = .(session), (cols) := lapply(.SD, paste, collapse = "<br>"), .SDcols = cols] %>%
+  unique(.) %>%
+  .[!(title == ""), title := sprintf("**%s**", title)] %>%
+  .[!(notes == ""), notes := sprintf("[{{< fa clipboard-list >}}](%s)", notes)] %>%
+  .[!(reading == ""), reading := paste("{{< fa book >}}", reading)] %>%
+  .[, No := seq.int(nrow(.))] %>%
+  setnames(.,
+           old = c("No", "date", "title", "contents", "reading", "notes", "commands", "objectives"),
+           new = c("No", "Date", "Title", "Contents", "Reading", "Notes", "Commands", "Objectives")) %>%
+  .[, c("No", "Date", "Title", "Notes", "Contents", "Reading", "Commands")]
+knitr::kable(dt, format = "markdown", align = "l")
+```
