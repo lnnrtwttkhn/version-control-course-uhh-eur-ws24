@@ -20,7 +20,7 @@ comments: false
 The digital objects on our computers are in a constant state of flux.
 Manuscripts, programming code and research data are changed continuously over long periods of time, often in close collaboration with others.
 A systematic documentation of these changes forms the basis for controlled and reproducible work on code and data.
-In a seminar with hands-on exercises, course participants will learn "Version control of code and data using Git and DataLad".
+In a seminar with hands-on exercises, course participants will learn "{{< var title >}}".
 
 Version control is the notebook for a digital world and [Git](https://git-scm.com/) is probably the best known version control system.
 Git allows to precisely document changes in digital objects and thus to track who changed what, when, how and why in a file.
