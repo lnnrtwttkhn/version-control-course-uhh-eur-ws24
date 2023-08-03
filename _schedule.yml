@@ -1,5 +1,5 @@
 session01:
-  date: 2023-10-16
+  date: 2023-10-20
   title: Introduction to version control
   contents:
     - Introduction to version control
@@ -17,7 +17,7 @@ session01:
     - "Do you have prior coding experience?"
     - "Make a guess: How many published studies are reproducible?"
 session02:
-  date: 2023-10-23
+  date: 2023-10-27
   title: Command line
   contents:
     - Installation and configuration of Git
@@ -33,7 +33,7 @@ session02:
     - "What are the benefits of the command line?"
     - "Why git works best with text files?"
 session03:
-  date: 2023-10-30
+  date: 2023-11-03
   title: "Git Basics"
   contents:
     - "Initializing a Git repository"
@@ -46,7 +46,7 @@ session03:
     - git log
     - git diff
 session04:
-  date: 2023-11-06
+  date: 2023-11-10
   title: "Git Branching and Merging"
   contents:
     - "Understanding branches in Git"
@@ -65,7 +65,7 @@ session04:
     - "What are benefits of working with branches?"
     - "What is a good commit message?"
 session05:
-  date: 2023-11-13
+  date: 2023-11-17
   title: "Collaborative Workflows with Git"
   contents:
     - "Introduction to remote repositories"
@@ -87,7 +87,7 @@ session05:
     - git pull
     - git fetch
 session06:
-  date: 2023-11-20
+  date: 2023-11-24
   title: "Git Workflows"
   contents:
     - "Understanding different Git workflows"
@@ -96,7 +96,7 @@ session06:
     - "Managing releases and hotfixes"
     - "Pros and cons of different Git workflows"
 session07:
-  date: 2023-11-27
+  date: 2023-12-01
   title: "Stashing and Rebasing"
   contents:
     - "Stashing changes for later use"
@@ -105,13 +105,13 @@ session07:
     - "Interactive rebasing: reordering, editing, and squashing commits"
     - "Using rebasing to keep a clean commit history"
 session08:
-  date: 2023-12-04
+  date: 2023-12-08
   title: Graphical User Interfaces (GUIs)
   contents:
     - GitHub Desktop
     - GitKraken
 session09:
-  date: 2023-12-11
+  date: 2023-12-15
   title: "Project Management and Collaboration Tools"
   contents:
     - "Organizing Git repositories and projects"
@@ -122,7 +122,7 @@ session09:
     - "Integrating continuous integration (CI) with Git"
     - "Additional features and services provided by GitHub"
 session10:
-  date: 2023-12-18
+  date: 2023-12-22
   title: "Git Tags and Releases"
   contents:
     - "Introduction to tags and their importance"
@@ -132,7 +132,7 @@ session10:
     - "Best practices for tagging in Git"
     - "Integration with Zenodo"
 session11:
-  date: 2024-01-08
+  date: 2024-01-12
   title: "Submodules and Advanced Topics"
   contents:
     - Working with Git submodules
@@ -141,11 +141,11 @@ session11:
     - Exploring advanced Git features and options
     - Future developments and trends in Git
 session12:
-  date: 2024-01-15
+  date: 2024-01-19
 session13:
-  date: 2024-01-22
+  date: 2024-01-26
 session14:
-  date: 2024-01-29
+  date: 2024-02-02
 
 # contents:
 #     - troubleshooting
