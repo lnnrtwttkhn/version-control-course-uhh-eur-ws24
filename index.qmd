@@ -26,6 +26,8 @@ This is the website for the full-semester seminar course on "{{< meta title >}}"
 
 {{< fa brain >}} **Focus?** Psychology and Cognitive Neuroscience
 
+{{< fa gear >}} **How?** Read about [how this course will work](mechanics.qmd).
+
 ---
 
 {{< fa user-plus >}} **Jobs?** Join our [team](team.qmd){target="_self"}!

@@ -5,17 +5,17 @@ comments: false
 
 ## Overview
 
-{{< fa circle-info >}} **What?** Full-semester course on version control using [Git](https://git-scm.com/) and [DataLad](https://www.datalad.org/)
+{{< fa circle-info >}} **What?** This is the course website for the full-semester course on "{{< var title >}}"
 
-{{< fa calendar-days >}} **When?** Wintersemester 2023/24 (Oct to Jan)
+{{< fa calendar-days >}} **When?** Winter 2023/24 (October to February), every Friday, 10:15 to 11:45 ([detailed schedule](schedule.qmd))
 
-{{< fa building-columns >}} **Where?** University of Hamburg (virtual TBD)
+{{< fa building-columns >}} **Where?** University of Hamburg, Von-Melle-Park 5, Room 4047
 
-{{< fa user-group >}} **Who?** Master's and PhD students (target group)
+{{< fa user-group >}} **Who?** This course is offered to Psychology Master's students at the University of Hamburg.
 
-{{< fa brain >}} **Focus?** Psychology and Cognitive Neuroscience
+{{< fa gear >}} **How?** Read more about [how the course will work in practice](mechanics.qmd).
 
-## Abstract
+## Description
 
 The digital objects on our computers are in a constant state of flux.
 Manuscripts, programming code and research data are changed continuously over long periods of time, often in close collaboration with others.

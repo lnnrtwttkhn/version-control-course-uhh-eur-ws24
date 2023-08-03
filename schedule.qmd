@@ -4,19 +4,18 @@ image: string
 comments: false
 ---
 
+{{< fa calendar-days >}} **When?** Winter 2023/24 (October to February), every Friday, 10:15 to 11:45 (detailed schedule below)
+
+{{< fa building-columns >}} **Where?** University of Hamburg, Von-Melle-Park 5, Room 4047
+
 ::: {.callout-note collapse=false}
 ## The course schedule is still under construction! {{< fa wrench >}}
 We are continuously updating information on this website.
 Watch this space for any updates.
 If you have any urgent questions, always feel free to write an [email]({{< var links.email >}}).
-Thank you for your patience!
-:::
-
-- 14 sessions
-- 90 minutes per session
-
-Note: This syllabus provides a comprehensive outline of the topics to be covered in the course.
+Note, that this syllabus provides a comprehensive outline of the topics to be covered in the course.
 The actual pace and content covered may vary based on the instructor’s discretion and the needs of the students.
+:::
 
 ```{r}
 #| eval: true
