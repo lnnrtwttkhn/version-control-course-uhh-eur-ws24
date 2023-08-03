@@ -10,7 +10,7 @@ project:
     navigate: true
 
 website:
-  title: "Version control of code and data"
+  title: "Effective Progress Tracking and Collaboration: An Introduction to Version Control of Code and Data."
   # favicon: "{{< fa code-branch >}}"
   description: "Website for a full-semester course at University of Hamburg on version control of code and data"
   site-url: https://lennartwittkuhn.com/version-control-course-uhh-ws23
