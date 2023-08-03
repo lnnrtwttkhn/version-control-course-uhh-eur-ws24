@@ -2,6 +2,7 @@
 title: "Schedule"
 image: string
 comments: false
+toc: false
 ---
 
 {{< fa calendar-days >}} **When?** Winter 2023/24 (October to February), every Friday, 10:15 to 11:45 (detailed schedule below)
