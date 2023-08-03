@@ -2,7 +2,7 @@
 title: "Mechanics: Course Overview"
 comments: false
 nocite: |
-  @wilson2021
+  @wilson2021, @millman2018
 ---
 
 This course will be conducted in person, but all [course materials](#course-materials) will be available online.
