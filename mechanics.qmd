@@ -5,6 +5,41 @@ nocite: |
   @wilson2021, @millman2018
 ---
 
+## Overview
+
+:::: {.columns}
+::: {.column width="50%"}
+{{< fa calendar-days >}} **Date:** Winter semester 2023/24 (Oct to Feb)
+:::
+::: {.column width="50%"}
+{{< fa chalkboard >}} **Event:** Seminar
+:::
+::: {.column width="50%"}
+{{< fa clock >}} **Time:** Fridays, 10:15 to 11:45 am (90 minutes)
+:::
+::: {.column width="50%"}
+{{< fa gem >}} **Credits:** 4,0
+:::
+::: {.column width="50%"}
+{{< fa building-columns >}} **Room:** UHH, VMP 5, Room 4047
+:::
+::: {.column width="50%"}
+{{< fa language >}} **Language:** English / German
+:::
+::: {.column width="50%"}
+{{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
+:::
+::: {.column width="50%"}
+{{< fa tag >}} **Tag:** PsyM14-PsyWB-K02 
+:::
+::: {.column width="100%"}
+{{< fa file-signature >}} **Registration:** The registration period starts on September 4th 2023 at 9:00 and ends on September 21th 2023 at 13:00.
+MSc Psycholog students at University of Hamburg can enroll via [Stine]({{< var links.stine >}}).
+:::
+::::
+
+## Summary of course mechanics
+
 This course will be conducted in person, but all [course materials](#course-materials) will be available online.
 The course follows a [flipped classroom](#flipped-classroom) and [active learning](#active-learning) approach, which means that students will learn the [content](#course-materials) outside of class and engage in [assignments](#assignments) during class.
 
