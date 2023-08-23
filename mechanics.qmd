@@ -41,13 +41,14 @@ MSc Psycholog students at University of Hamburg can enroll via [Stine]({{< var l
 ## Summary of course mechanics
 
 This course will be conducted in person, but all [course materials](#course-materials) will be available online.
-The course follows a [flipped classroom](#flipped-classroom) and [active learning](#active-learning) approach, which means that students will learn the [content](#course-materials) outside of class and engage in [assignments](#assignments) during class.
+The course follows a [partially flipped classroom](#partially-flipped-classroom) and [active learning](#active-learning) approach, which means that students will learn the [content](#course-materials) outside of class and engage in [assignments](#assignments) during class.
 
-## Flipped Classroom
+## Partially Flipped Classroom
 
 The flipped classroom is an educational approach where **students learn the instructional content outside of class** (e.g., through videos or online resources) and **use class time for interactive activities**, discussions, and collaboration.
-In this course, students will learn at home using the available online resources.
-Class time is protected time for implementation.
+In this course, students will have the opportunity to learn at home using the available [course materials](#course-materials).
+We will, however, reserve time in the beginning of each class (roughly 15 - 30 minutes of 90 minutes) to allow all course participants to catch up with the content of the current session.
+The rest of the class time is dedicated to discussion, exercises implementation.
 
 ## Course Materials
 
