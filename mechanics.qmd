@@ -38,6 +38,25 @@ MSc Psychology students at University of Hamburg can enroll via [Stine]({{< var 
 :::
 ::::
 
+## What will the average seminar session look like?
+
+The course will consist of a maximum of 14 sessions, each lasting 90 minutes (for more details, refer to the [schedule](schedule.qmd)).
+Each course session follows a roughly structured format as outlined below:
+
+1. {{< fa book-open >}} **Content Review (up to 30 minutes):**
+<br> Course participants engage with [the online materials](https://lennartwittkuhn.com/version-control-book/), supplemented by concise presentations by the instructors.
+Some course preparation may occur outside of the class.
+   
+2. {{< fa comments >}} **Interactive Discussions & Quizzes (up to 15 minutes):**
+<br>Course participants collectively address any inquiries related to the session's content and online materials.
+Instructor-led quiz questions may also be interspersed throughout.
+
+3. {{< fa laptop-code >}} **Exercises & Implementation (up to 60 minutes):**
+<br>Course participants actively delve into hands-on exercises and assignments.
+
+Note, that course participants are **not required** (but are of course free) **to work on course materials outside of class time**.
+All course contents will be covered during class time.
+
 ## Summary of course mechanics
 
 This course will be conducted in person, but all [course materials](#course-materials) will be available online.
