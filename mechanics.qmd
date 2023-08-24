@@ -34,7 +34,7 @@ nocite: |
 :::
 ::: {.column width="100%"}
 {{< fa file-signature >}} **Registration:** The registration period starts on September 4th 2023 at 9:00 and ends on September 21th 2023 at 13:00.
-MSc Psycholog students at University of Hamburg can enroll via [Stine]({{< var links.stine >}}).
+MSc Psychology students at University of Hamburg can enroll via [Stine]({{< var links.stine >}}).
 :::
 ::::
 
