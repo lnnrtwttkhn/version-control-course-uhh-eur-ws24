@@ -111,20 +111,21 @@ cat(buttons)
 :::
 :::
 
-## Student Teaching Assistant
+## Student Research Assistant
 
 ::: grid
 ::: g-col-8
 ### You?
 
-We are soon looking for a **student teaching assistant**!
+We are looking for a **student research assistant** (SHK/WHK)!
 
--   {{< fa list-check >}} **Tasks:** Assistance during teaching (e.g., supporting course participants during seminars and exercises)
--   {{< fa business-time >}} **Duration:** 09.10.2023 to 27.01.2024 (WS 2023/24)
--   {{< fa clock >}} **Hours:** 2 semester hours (SWS; 90 minutes) per week
--   {{< fa money-check-dollar >}} **Salary:** 135.44 € / SWS
+- {{< fa list-check >}} **Tasks:** Supporting the teaching project (preparation of teaching materials, evaluation, project reporting, etc.)
+- {{< fa business-time >}} **Duration:** as soon as possible to 31.03.2024
+- {{< fa clock >}} **Hours:** up to 38 hours per month (flexible working hours)
+- {{< fa money-check-dollar >}} **Salary:** SHK: 12.00 € / hour | WHK: 13.95 € / hour
 
-Details will follow soon. Feel free to send an [email](%7B%7B%3C%20var%20links.email%20%3E%7D%7D) for any inquiries.
+Details can be found on the [project website](https://lennartwittkuhn.com/ddlitlab-proposal/ausschreibung_whk.html) and in [this PDF](images/job_shk_whk_ddlitlab_git.pdf)!
+
 :::
 
 ::: g-col-4
