@@ -89,7 +89,7 @@ cat(buttons)
 :::
 :::
 
-## Student Research Assistant
+## Student Research & Teaching Assistant
 
 ::: grid
 ::: g-col-4
@@ -101,6 +101,13 @@ cat(buttons)
 
 Konrad is a **Bachelor Student** of Psychology at the [University of Hamburg](https://www.uni-hamburg.de/en.html).
 Konrad is enthusiastic about exploring various areas within the field of psychology, open science, research data management and reproducibility.
+He supports the project as a student research and teaching assistant.
+
+```{r, results='asis', echo=FALSE}
+buttons <- dt %>% .[id == "konrad"] %>% .$button_icon %>% create_grid()
+cat(buttons)
+```
+
 :::
 :::
 
