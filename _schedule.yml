@@ -142,6 +142,8 @@ session11:
     - Future developments and trends in Git
 session12:
   date: 2024-01-19
+  title: "Introduction to [DataLad](https://www.datalad.org/) - Version control of (large) datasets"
+  contents: Guest Lecture by [Adina Wagner](https://www.adina-wagner.com/) (DataLad Developer & Project Lead of the [DataLad Handbook](https://handbook.datalad.org/en/latest/))
 session13:
   date: 2024-01-26
 session14:
