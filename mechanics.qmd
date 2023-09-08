@@ -89,7 +89,7 @@ Research on active learning indicates that this approach promotes a greater unde
 
 ## Assignments
 
-Students will work on assignments (individually or in [pairs](#pair-programming) during class.
+Students will work on assignments (individually or in [pairs](#pair-programming)) during class.
 
 ## Pair Programming
 
