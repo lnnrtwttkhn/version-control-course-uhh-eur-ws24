@@ -1,0 +1,308 @@
+---
+title: 'A full-semester course on "Version control of code and data using Git and DataLad"'
+subtitle: |
+  Symposium on "Reproducible Research: Education and Teaching Formats Reports</br>From the Reproducibility Networks" at QUEST Center Berlin, Germany
+author: "Talk by Dr. Lennart Wittkuhn</br></br>License: CC BY 4.0"
+date: "2023-05-11"
+from: markdown+emoji
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    smaller: true
+    scrollable: true
+    # logo: static/images/uhh-logo-web.gif
+    footer: "Version control of code and data using Git and DataLad"
+    transition: none
+    transition-speed: fast
+    slide-number: "c/t"
+    # figures
+    fig-cap-location: bottom
+    # links:
+    link-external-newwindow: true
+    reference-location: document
+    preview-links: false
+    chalkboard: true
+mainfont: Atkinson Hyperlegible
+engine: knitr
+execute:
+  eval: false
+  echo: true
+---
+
+## About
+
+::: {.fragment}
+
+### Me
+
+:scientist: **Position:** PostDoc & Lab Manager at [University of Hamburg](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html) & [MPI for Human Development Berlin](https://www.mpib-berlin.mpg.de/en)
+
+:mortar_board: **Education:** BSc Psychology & MSc Cognitive Neuroscience (TU Dresden), PhD Psychology (FU Berlin)
+
+:microscope: **Research:** I study the role of fast neural memory reactivation ("[replay](https://en.wikipedia.org/wiki/Hippocampal_replay)") in the human brain using fMRI
+
+🕸 **GRN:** Member of the MPIB's working group on research data management & open science (GRN member)
+
+:link: **Contact:** You can connect with me via [email](mailto:wittkuhn@mpib-berlin.mpg.de), [Twitter](https://twitter.com/lnnrtwttkhn), [Mastodon](https://fediscience.org/@lnnrtwttkhn),
+[GitHub](https://github.com/lnnrtwttkhn) or
+[LinkedIn](https://www.linkedin.com/in/lennart-wittkuhn-6a079a1a8/)
+
+:information_source: **Info:** Find out more about my work on [my website](https://lennartwittkuhn.com/), [Google Scholar](https://scholar.google.de/) and [ORCiD](https://orcid.org/0000-0003-2966-6888)
+
+:::
+
+::: {.fragment}
+
+### This presentation
+
+:building_construction: **WIP:** The presented teaching project is work in progress!
+
+:computer: **Slides:** Slides are publicly available at [lennartwittkuhn.com/ddlitlab-presentation](https://lennartwittkuhn.com/ddlitlab-presentation/)
+
+:package: **Software:** Reproducible slides built with [Quarto](https://quarto.org/) and deployed to [GitHub Pages](https://pages.github.com/) using [GitHub Actions](https://github.com/features/actions)
+
+<!-- 
+:trackball: **DOI:** [10.5281/zenodo.5012476](http://doi.org/10.5281/zenodo.5012476) (generated using GitHub releases + Zenodo, see details [here](https://guides.github.com/activities/citable-code/))
+-->
+
+{{< fa brands github >}} **Source:** Source code is publicly available on GitHub at [github.com/lnnrtwttkhn/ddlitlab-presentation](https://github.com/lnnrtwttkhn/ddlitlab-presentation/)
+
+:pray: **Contact:** I am happy for any feedback or suggestions via [email](mailto:lennart.wittkuhn@uni-hamburg.de) or [GitHub issues](https://github.com/lnnrtwttkhn/ddlitlab-presentation/issues). Thank you!
+
+:::
+
+## Why we need version control ...
+
+:::: {.columns}
+
+::: {.column width="42%"}
+::: {.fragment}
+... for **code** (text files)
+![](static/images/phd-comic-version-control-code-cropped-upper.gif)
+:::
+::: {.fragment}
+![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd101212s.gif)](static/images/phd-comic-version-control-code-cropped-lower.gif)
+:::
+:::
+
+::: {.column width="58%"}
+::: {.fragment}
+... for **data** (binary files)
+![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd052810s.gif)](static/images/phd-comic-version-control-data.gif)
+:::
+:::
+
+::::
+
+::: {.notes}
+- Version control is relevant for anyone who wants to track the evolution of digital objects
+:::
+
+## What is version control?
+
+::: {.fragment}
+*"Version control is a systematic approach to record changes made in a [...] set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later [...]"* ([Turing Way](https://the-turing-way.netlify.app/reproducible-research/vcs.html))
+:::
+
+::::: {.columns}
+
+:::: {.column width="50%"}
+::: {.fragment}
+{{< fa laptop-code >}} keep track of changes in a directory (a "repository")
+
+{{< fa code-commit >}} take snapshots ("commits") of your repo at any time
+
+{{< fa timeline >}} know the history: what was changed when by whom
+
+{{< fa code-compare >}} compare commits and go back to any previous state
+
+{{< fa code-pull-request >}} work on parallel "branches" & flexibly "merge" them
+
+![[by Scriberia for The Turing Way community (CC-BY 4.0)](https://zenodo.org/record/3695300/files/VersionControl.jpg?download=1)](static/images/version-control-turing-way-scriberia.jpg){width=80% fig-align="center"}
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.fragment}
+{{< fa upload >}} "push" your repo to a "remote" location & share it
+
+{{< fa brands github >}} {{< fa brands gitlab >}} share repos on platforms like GitHub or GitLab
+
+{{< fa people-group >}} work together on the same files at the same time
+
+{{< fa pen-to-square >}} others can read, copy, edit and suggest changes
+
+{{< fa box-open >}} make your repo public and openly share your work
+
+![[by Scriberia for The Turing Way community (CC-BY 4.0)](https://zenodo.org/record/3695300/files/FirstPullRequest.jpg?download=1)](static/images/first-pull-request-turing-way-scriberia.jpg){width=84% fig-align="center"}
+:::
+::::
+
+:::::
+
+## What are git and DataLad?
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.fragment}
+![[git-scm.com](https://git-scm.com/)](static/images/git-logo-full.svg){fig-align="center" width=50%}
+
+- most popular version control system
+- free, [open-source](https://github.com/git) command-line tool
+- graphical user interfaces exist, e.g., [GitKraken](https://www.gitkraken.com/)
+- standard tool for most (all?) software developers
+- 100 million [GitHub](https://github.com/) users ^[(Source: [Wikipedia](https://en.wikipedia.org/wiki/GitHub))]
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.fragment}
+![[datalad.org](https://www.datalad.org/)](static/images/datalad-logo-full.svg){fig-align="center" width=50%}
+
+- "git for (large) data"
+- free, [open-source](https://github.com/datalad/datalad) command-line tool
+- builds on top of [git](https://git-scm.com/) and [git-annex](https://git-annex.branchable.com/)
+- allows to version control arbitrarily large datasets ^[see DataLad dataset of 80TB / 15 million files from the Human Connectome Project (see [details](https://handbook.datalad.org/en/latest/usecases/HCP_dataset.html#usecase-hcp-dataset))]
+- graphical user interface exists: [DataLad Gooey](http://docs.datalad.org/projects/gooey/en/latest/index.html)
+
+:::
+
+:::
+
+::::
+
+::: {.notes}
+- Version control is relevant for anyone who wants to track the evolution of digital objects
+:::
+
+## Course details
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.fragment}
+
+### Overview
+
+{{< fa circle-info >}} Full-semester seminar (~ 12 sessions of 90 mins)
+ 
+{{< fa calendar-days >}} Winter semester 2023/24 (October to January)
+
+{{< fa building-columns >}} University of Hamburg (virtual option TBD)
+
+{{< fa user-group >}} MSc and PhD students (research focus)
+
+{{< fa brain >}} Psychology and Cognitive Neuroscience
+
+:::
+
+::: {.fragment}
+
+### Milestones
+
+{{< fa star >}} Project received funding!
+
+{{< fa star >}} [Project website](https://lennartwittkuhn.com/ddlitlab/) online!
+
+{{< fa star >}} [Course website](https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/) online!
+
+</br>
+
+{{< fa arrow-right >}} Next up: Prepare course!
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.fragment}
+
+### Implementation and Tools
+
+{{< fa chalkboard-user >}} **Impulse lectures** & **live demonstrations**
+
+{{< fa code >}} **Code-along** & **exercises** (individual and group)
+
+{{< fa comments >}} **Discussions** on reproducibility, open code & data
+
+{{< fa cloud-arrow-up >}} Fixed computational environments on [JupyterHub](https://jupyter.org/hub) 
+
+{{< fa terminal >}} Focus on **command-line** interaction
+
+{{< fa computer-mouse >}} Alternative use via **Graphical User Interfaces**
+
+{{< fa clipboard-check >}} **Quizzes** & continuous **evaluation** (in [R Shiny](https://shiny.rstudio.com/))
+
+{{< fa recycle >}} Reuse quiz & evaluation data as **example datasets**
+
+{{< fa forward >}} **Follow-up** research projects in summer semester
+
+{{< fa people-carry-box >}} Support by **research** and **teaching assistants**
+
+{{< fa box-open >}} Materials shared as **Open Educational Resources**
+
+{{< fa hammer >}} Integration with [GRN](https://reproducibilitynetwork.de/), [Carpentries Incubator](https://carpentries-incubator.org/), etc.?
+
+:::
+
+:::
+
+::::
+
+::: {.notes}
+- Building an educational resource
+- Extend course format to other experience levels (e.g., PhD students) and topics
+:::
+
+
+
+## Thank you!
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+#### Funding & Support
+
+![[Digital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the ISA-Zentrum at University of Hamburg](https://www.isa.uni-hamburg.de/en/ddlitlab/data-literacy-lehrlabor.html)](static/images/uhh-logo-print-full.png){fig-align="center" width=100%}
+
+![[Stiftung Innovation in der Hochschullehre](https://stiftung-hochschullehre.de/projekt/ddlitlab/)](static/images/logo-stiftung-hochschullehre.svg){fig-align="center" width=100%}
+
+:::
+
+::: {.column width="50%"}
+
+#### People
+
+:::: {.columns}
+
+::: {.column width="45%"}
+![[Prof. Dr. Nicolas Schuck](https://www.mpib-berlin.mpg.de/staff/nicolas-schuck)</br>(UHH & MPIB)](static/images/photo_schuck_portrait.jpg)
+:::
+
+::: {.column width="45%"}
+![[Carolin Scharfenberg](https://www.isa.uni-hamburg.de/ddlitlab/team/scharfenberg-carolin.html)</br>(UHH DDLitLab)](static/images/photo_scharfenberg_portrait.jpg)
+:::
+::::
+
+#### Contact
+
+{{< fa envelope >}} [lennart.wittkuhn@uni-hamburg.de](mailto:lennart.wittkuhn@uni-hamburg.de)
+
+{{< fa home-user >}} [lennartwittkuhn.com](https://lennartwittkuhn.com/)
+
+{{< fa brands twitter >}} [Twitter](https://twitter.com/lnnrtwttkhn)
+{{< fa brands mastodon >}} [Mastodon](https://fediscience.org/@lnnrtwttkhn)
+{{< fa brands github >}} [GitHub](https://fediscience.org/@lnnrtwttkhn)
+{{< fa brands linkedin >}} [LinkedIn](https://www.linkedin.com/in/lennart-wittkuhn-6a079a1a8/)
+
+:::
+
+::::
