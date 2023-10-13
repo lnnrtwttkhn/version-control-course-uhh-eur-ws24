@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: _site
+  execute-dir: project
   # pre-render: make download-images
   
   preview: 
