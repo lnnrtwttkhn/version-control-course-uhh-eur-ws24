@@ -1,19 +1,21 @@
-# define URL to Nextcloud where static files are stored:
 IMAGES_URL=https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG/download
-# define a name for the .zip-archive with the cloud contents:
 IMAGES_ARCHIVE=version-control-course.zip
-# define the name of the local folder:
 IMAGES_DIR=images/
 
-# define the default targets of the make command
-all: download-images
+.PHONY: preview
+preview:
+	quarto preview
 
-# download and extract images:
-download-images:
+.PHONY: deploy
+deploy: clean
+	quarto publish gh-pages
+
+.PHONY: images
+images:
 	wget $(IMAGES_URL) -O $(IMAGES_ARCHIVE)
 	unzip -j -o $(IMAGES_ARCHIVE) -d $(IMAGES_DIR)
 	rm -f $(IMAGES_ARCHIVE)
 
-# clean downloaded images folder:
+.PHONY: clean
 clean:
-	rm -rf $(IMAGES_DIR)*
+	rm -rf _site $(IMAGES_DIR)*

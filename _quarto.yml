@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: _site
+  execute-dir: project
   # pre-render: make download-images
   
   preview: 
@@ -28,6 +29,8 @@ website:
         href: about.qmd
       - text: "{{< fa clipboard-list >}} Schedule"
         href: schedule.qmd
+      - text:  "{{< fa list-ol >}} Sessions"
+        href: sessions/index.qmd
       # - text: "{{< fa wrench >}} Tools"
       #   href: tools.qmd
       - text: "{{< fa chalkboard-user >}} Team"

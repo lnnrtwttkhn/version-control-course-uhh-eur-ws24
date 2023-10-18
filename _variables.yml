@@ -1,4 +1,4 @@
-title: "Effective Progress Tracking and Collaboration: An Introduction to Version Control of Code and Data."
+title: "Effective Progress Tracking and Collaboration: An Introduction to Version Control of Code and Data"
 links:
   email: mailto:lennart.wittkuhn@uni-hamburg.de
   github: https://github.com/lnnrtwttkhn/version-control-course-uhh-ws23
@@ -7,11 +7,20 @@ links:
   proposal: https://lennartwittkuhn.com/ddlitlab-proposal
   nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG
   stine: https://stine.uni-hamburg.de/
+  hedgedoc: https://pad.uni-hamburg.de/
+  hedgedoc-features: https://demo.hedgedoc.org/s/features
+  markdown: https://www.markdownguide.org/
+  formr: https://formr.org/
+  email-secretary: sekretariat-luv.psych@uni-hamburg.de
+  mailto-secretary: "mailto:{{< var links.email-secretary >}}"
+  email-mailing-list: version-control-course.psych@lists.uni-hamburg.de
+  mailto-mailing-list: "mailto:{{< var email-mailing-list >}}"
 years: "2023 -- 2024"
 team:
   lennart:
     id: lennart
     email: lennart.wittkuhn@uni-hamburg.de
+    mailto: "mailto:{{< var team.lennart.email >}}"
     website: https://lennartwittkuhn.com/
     github: https://github.com/lnnrtwttkhn
     twitter: https://twitter.com/lnnrtwttkhn
@@ -21,6 +30,7 @@ team:
   nico:
     id: nico
     email: nicolas.schuck@uni-hamburg.de
+    mailto: "mailto:{{< var team.nico.email >}}"
     website: https://schucklab.gitlab.io/
     github: https://github.com/nschuck/
     twitter: https://twitter.com/nico_schuck
@@ -29,5 +39,11 @@ team:
     linkedin: https://www.linkedin.com/in/nicolas-schuck-72542247/
   konrad:
     id: konrad
-    email: Konrad.Pagenstedt@uni-hamburg.de
+    email: konrad.pagenstedt@uni-hamburg.de
+    mailto: "mailto:{{< var team.konrad.email >}}"
     github: https://github.com/konradpa
+slides:
+  title: "Slide title"
+  license-long: "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"
+  license-short: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+  license-badge: "[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)"

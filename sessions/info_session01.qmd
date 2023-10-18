@@ -1,0 +1,63 @@
+---
+title: "Introduction to Version Control"
+subtitle: "Session 01"
+date: 2023-10-20
+about:
+  id: hero-heading
+  template: solana
+  image-width: 0em
+  links:
+    - icon: display
+      text: Slides
+      href: sessions/slides_session01.qmd
+      aria-label: display
+---
+
+::: {#hero-heading}
+:::
+
+## Slides
+
+```{=html}
+<iframe width="100%" height=500 src="slides_session01.html"></iframe>
+```
+
+## Email
+
+Dear course participants,
+
+You are receiving this email because you are enrolled in the course "Version Control of Code & Data", taking place this winter semester at the University of Hamburg.
+We are excited that you have signed up for this course and can't wait to delve into the world of version control with you.
+Our first session takes place this Friday, October 20, 2023, from 10:15 to 11:45 a.m. at Von-Melle-Park 5, Room 4047.
+
+In order to tailor the course to your prior experience and needs, we have prepared a **short survey** with a few questions.
+Please **complete the survey before our first session**, ideally by **Thursday evening** (October 19, 2023).
+This will give us enough time to review your responses before our first session on Friday.
+
+The survey can be accessed here: **https://version-control-intro.formr.org**
+
+A few technical remarks about the survey:
+The survey will ask you for two codewords: a **personal codeword** and a **course code**.
+
+The **personal codeword** is used to associate your responses with a unique identifier.
+This will allow us to relate your responses across surveys while ensuring anonymity.
+Note that you can also complete the survey without providing a personal codeword.
+By providing a personal codeword, you will allow us to draw more detailed insights from your responses that will help us improve the course for you.
+The survey will contain an explanation of how to generate your personal codeword.
+
+The **course codeword** is used to tag your responses as coming from a course participant at the University of Hamburg.
+We might also use the survey to collect responses from participants in other course settings.
+The course codeword allows us to distinguish responses from different course settings.
+
+**The course codeword is: `--------`** (course password will be announced during the course)
+
+Apart from answering the survey, you don't need to prepare anything else for our first session on Friday.
+
+Further information about the course can be found on our course website: https://lennartwittkuhn.com/version-control-course-uhh-ws23/
+
+If you have any questions, feel free to contact us directly via email.
+
+We are looking forward to seeing you for the first session on Friday!
+
+Best wishes,
+Lennart Wittkuhn (Instructor) & Konrad Pagenstedt (Teaching Assistant)

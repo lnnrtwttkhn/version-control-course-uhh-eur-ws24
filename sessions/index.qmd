@@ -1,0 +1,19 @@
+---
+title: "Sessions"
+listing:
+  id: sessions
+  contents: "info*.qmd"
+  type: default
+  sort: "date desc"
+  categories: false
+  table-hover: true
+  sort-ui: false
+  filter-ui: false
+  fields: [date, title, author, subtitle, categories]
+  field-links: [title]
+  date-format: "long"
+toc: false
+---
+
+::: {#sessions}
+:::
