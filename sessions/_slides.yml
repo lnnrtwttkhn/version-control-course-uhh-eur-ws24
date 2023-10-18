@@ -37,6 +37,8 @@ format:
     reference-location: document
     chalkboard: true
     mutliplex: false
+    toc: true
+    toc-title: "Agenda"
 mainfont: Atkinson Hyperlegible
 engine: knitr
 execute:

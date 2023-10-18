@@ -13,7 +13,7 @@ metadata-files:
   - _slides.yml
 ---
 
-{{< include _about.qmd >}}
+# About this course
 
 ## Team
 
@@ -46,108 +46,34 @@ metadata-files:
 
 ::::
 
-## Why we need version control ...
+## Who are you?
 
 :::: {.columns}
-::: {.column width="42%"}
-::: {.fragment}
-... for **code** (text files)
-![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd101212s.gif)](http://phdcomics.com/comics/archive/phd101212s.gif)
+::: {.column width="50%"}
+- Your name?
+- Your preferred pronouns?
+- Which study program are you currently enrolled in?
+- What did you study before and where?
+- What do you expect from this course?
+- A fun fact about you?
+- Your mood on rubber duck scale?
 :::
-:::
-::: {.column width="58%"}
+::: {.column width="45%"}
 ::: {.fragment}
-... for **data** (binary files)
-![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd052810s.gif)](http://phdcomics.com/comics/archive/phd052810s.gif)
-:::
-::: {.fragment}
-**When everything is relevant ...**
-:::
-::: {.fragment}
-**... track everything.**
+![](../images/mood-rubber-duck.png){fig-alt="Mood on a rubber duck scale."}
 :::
 :::
 ::::
 
-::: {.notes}
-- Version control is relevant for anyone who wants to track the evolution of digital objects
-- Credit: Adapted from [Slides on "Research Data Management with DataLad"](http://datasets.datalad.org/datalad/datalad-course/html/mpsc-introduction.html#/5) by Adina Wagner & Michael Hanke]
-:::
-
-## What is version control?
-
-::: {.fragment}
-*"Version control is a systematic approach to record changes made in a [...] set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later [...]"* ([Turing Way](https://the-turing-way.netlify.app/reproducible-research/vcs.html))
-:::
-
-::::: {.columns}
-
-:::: {.column width="50%"}
-::: {.fragment}
-{{< fa laptop-code >}} keep track of changes in a directory (a "repository")
-
-{{< fa code-commit >}} take snapshots ("commits") of your repo at any time
-
-{{< fa timeline >}} know the history: what was changed when by whom
-
-{{< fa code-compare >}} compare commits and go back to any previous state
-
-{{< fa code-pull-request >}} work on parallel "branches" & flexibly "merge" them
-
-![[by Scriberia for The Turing Way community (CC-BY 4.0)](https://zenodo.org/record/3695300/files/VersionControl.jpg?download=1)](https://zenodo.org/record/3695300/files/VersionControl.jpg?download=1){width=80% fig-align="center"}
-:::
-::::
-
-:::: {.column width="50%"}
-::: {.fragment}
-{{< fa upload >}} "push" your repo to a "remote" location & share it
-
-{{< fa brands github >}} {{< fa brands gitlab >}} share repos on platforms like GitHub or GitLab
-
-{{< fa people-group >}} work together on the same files at the same time
-
-{{< fa pen-to-square >}} others can read, copy, edit and suggest changes
-
-{{< fa box-open >}} make your repo public and openly share your work
-
-![[by Scriberia for The Turing Way community (CC-BY 4.0)](https://zenodo.org/record/3695300/files/FirstPullRequest.jpg?download=1)](https://zenodo.org/record/3695300/files/FirstPullRequest.jpg?download=1){width=84% fig-align="center"}
-:::
-::::
-:::::
-
-## More benefits of Git(Hub) for (teaching) project management
-
-::: {.incremental}
-- {{< fa bug >}} Discuss and plan your teaching preparation in [issues](https://github.com/features/issues) (even just with your future / past self)
-- {{< fa comments >}}  Ask questions, share ideas and discuss with your community via [GitHub Discussions](https://github.com/features/discussions)
-- {{< fa code-pull-request >}} Propose changes to the teaching materials using [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) ^[*pull* requests on GitHub, *merge* requests on GitLab]
-- {{< fa code-fork >}} Create a [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) of someone else's repository and extend their teaching materials
-- {{< fa key >}} Manage access to your teaching materials with detailed [permissions and roles](https://docs.gitlab.com/ee/user/permissions.html)
-- {{< fa book-medical >}} Add documentation to your repository or in a separate [wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
-- {{< fa graduation-cap >}} Access to more features and tools for teaching via [GitHub Campus Global](https://education.github.com/)
-:::
-
-::: {.fragment}
-**Note**
-
-- {{< fa brands github >}} The dominance of GitHub (a for-profit company owned by Microsoft) is not uncontested (see [#GiveUpGitHub](https://sfconservancy.org/GiveUpGitHub/))
-- {{< fa boxes-packing >}} A project on GitHub is not a FAIR archiving of scholarly outputs (see previous and following slides)
-:::
-
-::: {.notes}
-- GitHub Copilot is a for-profit AI product trained with projects that were hosted on GitHub, including many that have licenses that require proper author attribution etc.
-- GitHub has a for-profit software services contract with the USA Immigration and Customs Enforcement (ICE)
-- Archiving on GitHub is not enough
-:::
-
-## Overview
+## Course overview
 
 :::: {.columns}
 ::: {.column width="50%"}
 - {{< fa calendar-days >}} **Date:** Winter semester 2023/24 (Oct to Feb)
 - {{< fa clock >}} **Time:** Fridays, 10:15 to 11:45 am (90 minutes)
 - {{< fa building-columns >}} **Room:** UHH, VMP 5, Room 4047
-- {{< fa person-chalkboard >}} **Instructors:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}}) & [Konrad Pagenstedt]({{< var team.konrad.mailto >}})
+- {{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
+- {{< fa user-plus >}} **Assistant:** [Konrad Pagenstedt]({{< var team.konrad.mailto >}})
 :::
 ::: {.column width="50%"}
 - {{< fa chalkboard >}} **Event:** Seminar
@@ -156,6 +82,22 @@ metadata-files:
 - {{< fa tag >}} **Tag:** PsyM14-PsyWB-K02 
 :::
 ::::
+
+::: {.fragment}
+### Logistics
+
+- {{< fa laptop >}} You need a laptop.
+Talk to use if you don't have a laptop.
+- {{< fa envelope >}} Our mailing list: [{{< var links.email-mailing-list >}}]({{< var links.mailto-mailing-list >}})
+:::
+
+::: {.fragment}
+### Your role
+- activate participation
+  - come to at least 12 out of 14 sessions (sign the attendance list)
+  - complete the exercises and quizzes
+- ask questions
+:::
 
 ## What will the average seminar session look like?
 
@@ -217,27 +159,31 @@ create_schedule()
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book" title="Version Control Book"></iframe>
 ```
 
-## Surveys
+## Exercises, quizzes & surveys
 
-- 
+::: {.fragment}
+- we use surveys to ask you questions and implement exercises or quizzes
 - implemented in the [formr]({{< var links.formr >}}) survey framework
-
+:::
 
 ::: {.fragment}
 #### Anonymity & data usage
 
-- all raw data are kept anonymous, will only be used for the course and never shared publicly
-- the data will be used exclusively for educational purposes as part of the course
+- all raw data are kept **anonymous**, will only be used for the course and **never shared publicly**
+- the data will be used exclusively **for educational purposes** as part of the course
 - if responses are shared as part of the course, they will be aggregated to ensure anonymity is maintained
+- you can also complete survey without providing a personal codeword
 - if you want your data to be deleted, send an email with your codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}})
 :::
 
-## Collaborative notes in HedgeDoc (UHH Pad)
+## Collaborative notes
 
 :::: {.columns}
 ::: {.column width="40%"}
 
 ![](../images/hedgedoc-logo.png)
+
+#### HedgeDoc (UHH Pad)
 
 - {{< fa house >}} [HedgeDoc (UHH Pad)]({{< var links.hedgedoc >}})
 - {{< fa link >}} [Notepad for Session 1](https://pad.uni-hamburg.de/L7JO6dsiTtSzWhjV6SvyKg?both)
@@ -255,6 +201,146 @@ Don't use it for personal or sensitive data!
 :::
 ::::
 
+# Introduction to version control
+
+## Why we need version control ...
+
+:::: {.columns}
+::: {.column width="42%"}
+::: {.fragment}
+... for **code** (text files)
+![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd101212s.gif)](http://phdcomics.com/comics/archive/phd101212s.gif)
+:::
+:::
+::: {.column width="58%"}
+::: {.fragment}
+... for **data** (binary files)
+![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd052810s.gif)](http://phdcomics.com/comics/archive/phd052810s.gif)
+:::
+::: {.fragment}
+**When everything is relevant ...**
+:::
+::: {.fragment}
+**... track everything.**
+:::
+:::
+::::
+
+::: {.notes}
+- Version control is relevant for anyone who wants to track the evolution of digital objects
+- Credit: Adapted from [Slides on "Research Data Management with DataLad"](http://datasets.datalad.org/datalad/datalad-course/html/mpsc-introduction.html#/5) by Adina Wagner & Michael Hanke]
+:::
+
+## What is version control
+
+::: {.fragment}
+*"Version control is a systematic approach to record changes made in a [...] set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later [...]"* ([Turing Way](https://the-turing-way.netlify.app/reproducible-research/vcs.html))
+:::
+
+::::: {.columns}
+
+:::: {.column width="50%"}
+::: {.fragment}
+{{< fa laptop-code >}} keep track of changes in a directory (a "repository")
+
+{{< fa code-commit >}} take snapshots ("commits") of your repo at any time
+
+{{< fa timeline >}} know the history: what was changed when by whom
+
+{{< fa code-compare >}} compare commits and go back to any previous state
+
+{{< fa code-pull-request >}} work on parallel "branches" & flexibly "merge" them
+
+![[by Scriberia for The Turing Way community (CC-BY 4.0)](https://zenodo.org/record/3695300/files/VersionControl.jpg?download=1)](https://zenodo.org/record/3695300/files/VersionControl.jpg?download=1){width=80% fig-align="center"}
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.fragment}
+{{< fa upload >}} "push" your repo to a "remote" location & share it
+
+{{< fa brands github >}} {{< fa brands gitlab >}} share repos on platforms like GitHub or GitLab
+
+{{< fa people-group >}} work together on the same files at the same time
+
+{{< fa pen-to-square >}} others can read, copy, edit and suggest changes
+
+{{< fa box-open >}} make your repo public and openly share your work
+
+![[by Scriberia for The Turing Way community (CC-BY 4.0)](https://zenodo.org/record/3695300/files/FirstPullRequest.jpg?download=1)](https://zenodo.org/record/3695300/files/FirstPullRequest.jpg?download=1){width=84% fig-align="center"}
+:::
+::::
+:::::
+
+## What are git and DataLad?
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.fragment}
+![[git-scm.com](https://git-scm.com/)](../images/git-logo-full.svg){fig-align="center" width=50%}
+
+- most popular version control system
+- free, [open-source](https://github.com/git) command-line tool
+- graphical user interfaces exist, e.g., [GitKraken](https://www.gitkraken.com/)
+- standard tool for most (all?) software developers
+- 100 million [GitHub](https://github.com/) users ^[(Source: [Wikipedia](https://en.wikipedia.org/wiki/GitHub))]
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.fragment}
+![[datalad.org](https://www.datalad.org/)](../images/datalad-logo-full.svg){fig-align="center" width=50%}
+
+- "git for (large) data"
+- free, [open-source](https://github.com/datalad/datalad) command-line tool
+- builds on top of [git](https://git-scm.com/) and [git-annex](https://git-annex.branchable.com/)
+- allows to version control arbitrarily large datasets ^[see DataLad dataset of 80TB / 15 million files from the Human Connectome Project (see [details](https://handbook.datalad.org/en/latest/usecases/HCP_dataset.html#usecase-hcp-dataset))]
+- graphical user interface exists: [DataLad Gooey](http://docs.datalad.org/projects/gooey/en/latest/index.html)
+
+:::
+
+:::
+
+::::
+
+::: {.fragment}
+Note: We will mainly focus on Git and only refer to DataLad as an outlook.
+:::
+
+::: {.notes}
+- Version control is relevant for anyone who wants to track the evolution of digital objects
+:::
+
+## More benefits of Git(Hub) for (teaching) project management {visibility="hidden"}
+
+::: {.incremental}
+- {{< fa bug >}} Discuss and plan your teaching preparation in [issues](https://github.com/features/issues) (even just with your future / past self)
+- {{< fa comments >}}  Ask questions, share ideas and discuss with your community via [GitHub Discussions](https://github.com/features/discussions)
+- {{< fa code-pull-request >}} Propose changes to the teaching materials using [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) ^[*pull* requests on GitHub, *merge* requests on GitLab]
+- {{< fa code-fork >}} Create a [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) of someone else's repository and extend their teaching materials
+- {{< fa key >}} Manage access to your teaching materials with detailed [permissions and roles](https://docs.gitlab.com/ee/user/permissions.html)
+- {{< fa book-medical >}} Add documentation to your repository or in a separate [wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
+- {{< fa graduation-cap >}} Access to more features and tools for teaching via [GitHub Campus Global](https://education.github.com/)
+:::
+
+::: {.fragment}
+**Note**
+
+- {{< fa brands github >}} The dominance of GitHub (a for-profit company owned by Microsoft) is not uncontested (see [#GiveUpGitHub](https://sfconservancy.org/GiveUpGitHub/))
+- {{< fa boxes-packing >}} A project on GitHub is not a FAIR archiving of scholarly outputs (see previous and following slides)
+:::
+
+::: {.notes}
+- GitHub Copilot is a for-profit AI product trained with projects that were hosted on GitHub, including many that have licenses that require proper author attribution etc.
+- GitHub has a for-profit software services contract with the USA Immigration and Customs Enforcement (ICE)
+- Archiving on GitHub is not enough
+:::
+
 ## DataLad
 
 :::: {.columns}
@@ -266,30 +352,12 @@ Don't use it for personal or sensitive data!
 :::
 ::::
 
+## Schedule
 
-## notes
-
-explain course concept, resources, etc.
-
-    explain how the course works: course structure
-    show the course website and the book
-    show the schedule
-    show the hedgedoc pad (TODO: checkout how to make it invite-only, yes: "limited"), explain access
-    explain how we collect data (and data-privacy)
-    explain how the exercises work
-    explain how to pass the course
-        TODO: they need to provide their code word which will be connected to their student ID
-        at the end of the course, we analyze how many responses happened per codeword
-        we give a list of completed codewords to the secretary
-        students can then reveal the codeword to the secretary, who checks if they completed all responses.
-        TODO: check if secretary can add pass / fail in Stine
-        make sure to properly record the code word on every session
-
-prepare pair programming / buddy system
-
-    participants stand in line ordered by previous experience in programming etc.
-    the most experiences person is matched with the least experienced person (and so on)
-    the more experienced person helps the less experience person (but does not touch the keyboard!)
-    in all course, buddies sit next to each other and help each other out
-
-show results from the pre-course questionnaire
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+create_schedule()
+```

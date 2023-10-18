@@ -1,4 +1,4 @@
-title: "Effective Progress Tracking and Collaboration: An Introduction to Version Control of Code and Data."
+title: "Effective Progress Tracking and Collaboration: An Introduction to Version Control of Code and Data"
 links:
   email: mailto:lennart.wittkuhn@uni-hamburg.de
   github: https://github.com/lnnrtwttkhn/version-control-course-uhh-ws23
@@ -13,6 +13,8 @@ links:
   formr: https://formr.org/
   email-secretary: sekretariat-luv.psych@uni-hamburg.de
   mailto-secretary: "mailto:{{< var links.email-secretary >}}"
+  email-mailing-list: version-control-course.psych@lists.uni-hamburg.de
+  mailto-mailing-list: "mailto:{{< var email-mailing-list >}}"
 years: "2023 -- 2024"
 team:
   lennart:
