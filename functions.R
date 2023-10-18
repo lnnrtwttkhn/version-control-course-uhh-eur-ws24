@@ -19,7 +19,7 @@ create_schedule <- function() {
   dt_load <- data.table::rbindlist(variables_padded, fill = TRUE, idcol = "session") %>%
     .[!is.na(commands), commands := sprintf("`%s`", commands)] %>%
     .[commands == "``", commands := NA] 
-  cols = c("contents", "mechanics", "objectives", "commands", "questions")
+  cols = c("contents", "mechanics", "objectives", "commands", "questions", "survey")
   dt = dt_load %>%
     replace(is.na(.), "") %>%
     .[, by = .(session), (cols) := lapply(.SD, paste, collapse = "<br>"), .SDcols = cols] %>%
@@ -29,8 +29,8 @@ create_schedule <- function() {
     .[!(reading == ""), reading := paste("{{< fa book >}}", reading)] %>%
     .[, No := seq.int(nrow(.))] %>%
     setnames(.,
-             old = c("No", "date", "title", "contents", "reading", "notes", "commands", "objectives"),
-             new = c("No", "Date", "Title", "Contents", "Reading", "Notes", "Commands", "Objectives")) %>%
-    .[, c("No", "Date", "Title", "Notes", "Contents", "Reading", "Commands")]
+             old = c("No", "date", "title", "contents", "reading", "notes", "commands", "objectives", "survey"),
+             new = c("No", "Date", "Title", "Contents", "Reading", "Notes", "Commands", "Objectives", "Survey")) %>%
+    .[, c("No", "Date", "Title", "Notes", "Contents", "Reading", "Survey")]
   knitr::kable(dt, format = "markdown", align = "l")
 }
