@@ -1,8 +1,20 @@
 ---
-title: "Session 01"
-subtitle: "Introduction to Version Control"
+title: "Introduction to Version Control"
+subtitle: "Session 01"
 date: 2023-10-20
+about:
+  id: hero-heading
+  template: solana
+  image-width: 0em
+  links:
+    - icon: display
+      text: Slides
+      href: sessions/slides_session01.qmd
+      aria-label: display
 ---
+
+::: {#hero-heading}
+:::
 
 ## Slides
 
