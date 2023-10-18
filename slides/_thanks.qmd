@@ -1,0 +1,35 @@
+## Thank you! :pray:
+
+:::: {.columns}
+::: {.column width="35%"}
+
+![](https://avatars.githubusercontent.com/u/42233065?v=4)
+
+#### Dr. Lennart Wittkuhn
+
+{{< fa envelope >}} [{{< var email >}}]({{< var mailto >}})<br>
+{{< fa home-user >}} [{{< var homepage >}}]({{< var homepage >}})<br>
+{{< fa brands github >}} [GitHub]({{< var github >}}) 
+{{< fa brands mastodon >}} [Mastodon]({{< var mastodon >}}) 
+{{< fa brands twitter >}} [Twitter]({{< var twitter >}})
+:::
+
+::: {.column width="40%"}
+
+{{< fa image >}} **Images:** [Scriberia with The Turing Way community](https://doi.org/10.5281/zenodo.3332807) (License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
+
+:computer: **Slides:** Slides are publicly available at [{{< var website >}}]({{< var website >}})
+
+:package: **Software:** Reproducible slides build with [Quarto](https://quarto.org/) and deployed to [GitHub Pages](https://pages.github.com/) using [GitHub Actions](https://github.com/features/actions) (details in the [Quarto docs](https://quarto.org/docs/publishing/github-pages.html))
+
+{{< fa brands github >}} **Source:** Source code is available at [{{< var source >}}]({{< var source >}})
+
+:trackball: **DOI:** [10.5281/zenodo.8296951 ](https://zenodo.org/badge/latestdoi/682015737) (generated using GitHub + [Zenodo](https://zenodo.org/), see [GitHub docs](https://guides.github.com/activities/citable-code/))
+
+{{< fa scale-balanced >}} **License:** {{< var license-long >}}
+
+:speech_balloon: **Contact:** I welcome any feedback via [email]({{< var mailto >}}) or [GitHub issues]({{< var issues >}}).
+Thank you!
+:::
+
+::::

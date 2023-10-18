@@ -1,0 +1,46 @@
+authors:
+  - id: wittkuhn
+    name:
+      given: Lennart
+      family: Wittkuhn
+      literal: Dr. Lennart Wittkuhn
+    url: https://lennartwittkuhn.com/
+    email: lennart.wittkuhn@uni-hamburg.de
+    # orcid: 0000-0003-2966-6888
+    attributes:
+      corresponding: true
+      equal-contributor: true
+  - id: pagenstedt
+    name:
+      given: Konrad
+      family: Pagenstedt
+      literal: Konrad Pagenstedt
+    email: konrad.pagenstedt@uni-hamburg.de
+    attributes:
+      corresponding: false
+      equal-contributor: false
+from: markdown+emoji
+date-format: long
+format:
+  revealjs:
+    theme: [default, slides.scss]
+    preview-links: false
+    transition: none
+    transition-speed: fast
+    slide-number: "c/t"
+    overview: true
+    menu: true
+    scrollable: true
+    footer: "Version control of code and data"
+    fig-cap-location: bottom
+    link-external-newwindow: true
+    reference-location: document
+    chalkboard: true
+    mutliplex: false
+mainfont: Atkinson Hyperlegible
+engine: knitr
+execute:
+  eval: false
+  echo: true
+  
+  
