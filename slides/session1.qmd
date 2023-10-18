@@ -147,7 +147,7 @@ metadata-files:
 - {{< fa calendar-days >}} **Date:** Winter semester 2023/24 (Oct to Feb)
 - {{< fa clock >}} **Time:** Fridays, 10:15 to 11:45 am (90 minutes)
 - {{< fa building-columns >}} **Room:** UHH, VMP 5, Room 4047
-- {{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
+- {{< fa person-chalkboard >}} **Instructors:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}}) & [Konrad Pagenstedt]({{< var team.konrad.mailto >}})
 :::
 ::: {.column width="50%"}
 - {{< fa chalkboard >}} **Event:** Seminar
@@ -217,10 +217,20 @@ create_schedule()
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book" title="Version Control Book"></iframe>
 ```
 
-## Survey
+## Surveys
+
+- 
+- implemented in the [formr]({{< var links.formr >}}) survey framework
 
 
+::: {.fragment}
+#### Anonymity & data usage
 
+- all raw data are kept anonymous, will only be used for the course and never shared publicly
+- the data will be used exclusively for educational purposes as part of the course
+- if responses are shared as part of the course, they will be aggregated to ensure anonymity is maintained
+- if you want your data to be deleted, send an email with your codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}})
+:::
 
 ## Collaborative notes in HedgeDoc (UHH Pad)
 

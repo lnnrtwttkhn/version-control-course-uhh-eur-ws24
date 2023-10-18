@@ -10,6 +10,9 @@ links:
   hedgedoc: https://pad.uni-hamburg.de/
   hedgedoc-features: https://demo.hedgedoc.org/s/features
   markdown: https://www.markdownguide.org/
+  formr: https://formr.org/
+  email-secretary: sekretariat-luv.psych@uni-hamburg.de
+  mailto-secretary: "mailto:{{< var links.email-secretary >}}"
 years: "2023 -- 2024"
 team:
   lennart:

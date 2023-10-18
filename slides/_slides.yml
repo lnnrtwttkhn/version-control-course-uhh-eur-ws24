@@ -27,7 +27,7 @@ format:
     preview-links: false
     transition: none
     transition-speed: fast
-    slide-number: "c/t"
+    slide-number: "c"
     overview: true
     menu: true
     scrollable: true
