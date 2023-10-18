@@ -13,7 +13,7 @@ session01:
     - HedgeDoc
   reading:
     - "[Intro to version control](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html)"
-  notes: https://pad.uni-hamburg.de/ah9w6HIDSaqFqedg47b8Vg?both
+  notes: https://pad.uni-hamburg.de/L7JO6dsiTtSzWhjV6SvyKg?both
   questions:
     - "Do you have prior coding experience?"
     - "Make a guess: How many published studies are reproducible?"
