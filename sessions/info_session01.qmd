@@ -1,0 +1,49 @@
+---
+title: "Session 01"
+subtitle: "Introduction to Version Control"
+date: 2023-10-20
+---
+
+## Slides
+
+```{=html}
+<iframe width="100%" height=500 src="slides_session01.html"></iframe>
+```
+
+## Email
+
+Dear course participants,
+
+you are receiving this email because you are enrolled in the course "Version Control of Code & Data", taking place this winter semester at the University of Hamburg.
+We are excited that you have signed-up for this course and can't wait to delve into the world of version control with you.
+Our first session takes place this Friday, 20-10-2023, from 10:15 to 11:45 a.m. at Von-Melle-Park 5, Room 4047.
+
+In order to be able to tailor the course to your prior experience and needs, we have prepared a **short survey** with a few questions.
+Please answer the survey before our first session, ideally until **Thursday evening (19-10-23)**.
+This will give us enough time to review your responses before our first session on Friday.
+
+A few technical remarks about the survey:
+The survey will ask you for two codewords: a **personal codeword** and a **course code**.
+
+The **personal codeword** is used to associate your responses with a unique identifier.
+This will allow us to relate your responses across surveys while ensuring anonymity.
+Note that you can also complete the survey without providing a personal codeword.
+By providing a personal codeword, you will allow us to draw more detailed insights from your responses that will help us to improve the course for you.
+The survey will contain an explanation how to generate your personal codeword.
+
+The **course codeword** is used to tag your responses as coming from a course participant at the University of Hamburg.
+We might also use the survey to collect responses from participants in other course settings.
+The course codeword allows us to keep responses from different course settings apart.
+
+**The course codeword is: `--------`** (course password will be announced during the course)
+
+Other than answering the survey, you don't need to prepare anything else for our first session on Friday.
+
+Further information about the course can be found on our course website: https://lennartwittkuhn.com/version-control-course-uhh-ws23/
+
+If you have any questions, feel free to get in contact with us directly via email.
+
+We are looking forward to seeing you for the first session on Friday!
+
+Best wishes,
+Lennart Wittkuhn (Instructor) & Konrad Pagenstedt (Teaching Assistant)
