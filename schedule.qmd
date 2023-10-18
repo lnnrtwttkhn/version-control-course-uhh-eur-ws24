@@ -23,25 +23,5 @@ The actual pace and content covered may vary based on the instructor’s discret
 #| echo: false
 #| message: false
 #| warning: false
-library("magrittr")
-library("data.table")
-variables <- yaml::read_yaml("_schedule.yml")
-variables_padded = pad_list(variables)
-dt_load <- data.table::rbindlist(variables_padded, fill = TRUE, idcol = "session") %>%
-  .[!is.na(commands), commands := sprintf("`%s`", commands)] %>%
-  .[commands == "``", commands := NA] 
-cols = c("contents", "mechanics", "objectives", "commands", "questions")
-dt = dt_load %>%
-  replace(is.na(.), "") %>%
-  .[, by = .(session), (cols) := lapply(.SD, paste, collapse = "<br>"), .SDcols = cols] %>%
-  unique(.) %>%
-  .[!(title == ""), title := sprintf("**%s**", title)] %>%
-  .[!(notes == ""), notes := sprintf("[{{< fa clipboard-list >}}](%s)", notes)] %>%
-  .[!(reading == ""), reading := paste("{{< fa book >}}", reading)] %>%
-  .[, No := seq.int(nrow(.))] %>%
-  setnames(.,
-           old = c("No", "date", "title", "contents", "reading", "notes", "commands", "objectives"),
-           new = c("No", "Date", "Title", "Contents", "Reading", "Notes", "Commands", "Objectives")) %>%
-  .[, c("No", "Date", "Title", "Notes", "Contents", "Reading", "Commands")]
-knitr::kable(dt, format = "markdown", align = "l")
+create_schedule()
 ```
