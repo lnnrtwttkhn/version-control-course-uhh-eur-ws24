@@ -9,7 +9,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: sessions/slides_session01.qmd
+      href: sessions/slides_session01.html
       aria-label: display
 ---
 
