@@ -88,20 +88,8 @@ metadata-files:
 
 - {{< fa laptop >}} You need a laptop.
 Talk to use if you don't have a laptop.
-- {{< fa envelope >}} Our mailing list: [{{< var links.email-mailing-list >}}]({{< var links.mailto-mailing-list >}})
+
 :::
-
-::: {.fragment}
-### Your role
-- activate participation
-  - come to at least 12 out of 14 sessions (sign the attendance list)
-  - complete the exercises and quizzes
-- ask questions
-:::
-
-## Code of Conduct
-
-{{< include ../_code-of-conduct.qmd >}}
 
 ## What will the average seminar session look like?
 
@@ -204,6 +192,33 @@ Don't use it for personal or sensitive data!
 ![](../images/hedgedoc-screenshot.png)
 :::
 ::::
+
+## Your role, questions and interactions
+
+::: {.fragment}
+#### **Activate participation**
+- Come to at least 12 out of 14 sessions (sign the attendance list)
+- Complete the exercises and quizzes
+:::
+::: {.fragment}
+#### **Questions & discussions *during* class time**
+- Ask questions!
+There are no stupid questions!
+- Participate in the discussions
+- Share your ideas in writing via the notepads
+:::
+::: {.fragment}
+#### **Questions & discussions *outside of* class time**
+- Ask questions!
+There are no stupid questions!
+- Send questions to our mailing list: [{{< var links.email-mailing-list >}}]({{< var links.mailto-mailing-list >}})
+- Send questions to [Lennart]({{< var team.lennart.mailto >}}) and / or [Konrad]({{< var team.konrad.mailto >}})
+- Share your ideas in writing via the notepads
+:::
+
+## Code of Conduct
+
+{{< include ../_code-of-conduct.qmd >}}
 
 # Introduction to version control
 
