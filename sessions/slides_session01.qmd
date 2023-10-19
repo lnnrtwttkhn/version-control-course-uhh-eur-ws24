@@ -13,7 +13,7 @@ metadata-files:
   - _slides.yml
 ---
 
-# About this course
+# Logistics and admin
 
 ## Team
 
@@ -83,14 +83,6 @@ metadata-files:
 :::
 ::::
 
-::: {.fragment}
-### Logistics
-
-- {{< fa laptop >}} You need a laptop.
-Talk to use if you don't have a laptop.
-
-:::
-
 ## What will the average seminar session look like?
 
 ::: {.fragment}
@@ -112,6 +104,14 @@ Instructor-led quiz questions may also be interspersed throughout.
 ::: {.fragment}
 3. {{< fa laptop-code >}} **Exercises & Implementation (up to 60 minutes):**
 <br>Course participants actively delve into hands-on exercises and assignments.
+:::
+
+::: {.fragment}
+### Logistics
+
+- {{< fa laptop >}} You need a laptop.
+Talk to use if you don't have a laptop.
+
 :::
 
 ::: {.fragment}
@@ -271,6 +271,10 @@ At the end of this session, you should be able to answer the following questions
 1. What are Git and GitHub?
 1. What is the difference between Git and GitHub?
 
+## Your turn
+
+Read [Chapter 1: "Introduction to Version Control"](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html) in the [Version Control Book]({{< var links.book >}})
+
 ## Why we need version control ...
 
 :::: {.columns}
@@ -319,7 +323,7 @@ At the end of this session, you should be able to answer the following questions
 
 {{< fa code-pull-request >}} work on parallel "branches" & flexibly "merge" them
 
-![[by Scriberia for The Turing Way community (CC-BY 4.0)](https://zenodo.org/record/3695300/files/VersionControl.jpg?download=1)](https://zenodo.org/record/3695300/files/VersionControl.jpg?download=1){width=80% fig-align="center"}
+![[by Scriberia for The Turing Way community (CC-BY 4.0)](https://zenodo.org/record/3695300/files/VersionControl.jpg?download=1)](../images/version-control-turing-way-scriberia.jpg){width=80% fig-align="center"}
 :::
 ::::
 
@@ -335,7 +339,7 @@ At the end of this session, you should be able to answer the following questions
 
 {{< fa box-open >}} make your repo public and openly share your work
 
-![[by Scriberia for The Turing Way community (CC-BY 4.0)](https://zenodo.org/record/3695300/files/FirstPullRequest.jpg?download=1)](https://zenodo.org/record/3695300/files/FirstPullRequest.jpg?download=1){width=84% fig-align="center"}
+![[by Scriberia for The Turing Way community (CC-BY 4.0)](https://zenodo.org/record/3695300/files/FirstPullRequest.jpg?download=1)](../images/first-pull-request-turing-way-scriberia.jpg){width=84% fig-align="center"}
 :::
 ::::
 :::::
