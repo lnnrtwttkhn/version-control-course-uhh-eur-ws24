@@ -220,6 +220,43 @@ There are no stupid questions!
 
 {{< include ../_code-of-conduct.qmd >}}
 
+## Two RA positions in our group!
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.fragment}
+![[git-scm.com](https://git-scm.com/)](../images/git-logo-full.svg){fig-align="center" width="85%"}
+
+### Version Control of Code & Data
+
+- :notebook: **Tasks:** Support our teaching project!
+- :calendar: **Duration:** as soon as possible until March 31 2024
+- :clock1: **Time:** flexible, up to 37 hours / month (WHK)
+- :moneybag: **Salary:** 12.00 € / hour (SHK) / 13.95 € / hour (WHK)
+- :envelope: **Contact:** [{{< var team.lennart.email >}}]({{< var team.lennart.mailto >}})
+
+:::
+:::
+::: {.column width="50%"}
+::: {.fragment}
+
+::: {layout-ncol=2}
+![](../images/mri.png){width=50%}
+
+![](../images/brain-anatomical.png){width=40%}
+:::
+### Memory reactivation in older adults
+
+- :notebook: **Tasks:** Support of fMRI data collection
+- :calendar: **Duration:** as soon as possible
+- :clock1: **Time:** flexible, 60 - 80 hours / month
+- :moneybag: **Salary:** 12.00 € / hour (SHK) / 13.95 € / hour (WHK)
+- :envelope: **Contact:** [erc-studies-luv.psych@uni-hamburg.de](mailto:erc-studies-luv.psych@uni-hamburg.de)
+
+:::
+:::
+::::
+
 # Introduction to version control
 
 ## Learning objectives
