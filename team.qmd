@@ -55,7 +55,7 @@ create_grid = function(buttons) {
 
 ::: grid
 ::: g-col-4
-![](images/photo_wittkuhn_portrait.jpg){fig-alt="A portrait photo of Lennart Wittkuhn."}
+![](images/photo-wittkuhn-uhh.jpg){fig-alt="A portrait photo of Lennart Wittkuhn."}
 :::
 
 ::: g-col-8
