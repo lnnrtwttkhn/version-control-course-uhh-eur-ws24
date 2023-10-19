@@ -197,23 +197,26 @@ Don't use it for personal or sensitive data!
 
 ::: {.fragment}
 #### **Activate participation**
-- Come to at least 12 out of 14 sessions (sign the attendance list)
-- Complete the exercises and quizzes
+- This is a pass / fail course
+- Requirement 1: Come to at least 12 out of 14 sessions (85%) and sign the attendance list
+- Requirement 2: Complete the exercises and quizzes (in class and online)
 :::
 ::: {.fragment}
 #### **Questions & discussions *during* class time**
 - Ask questions!
 There are no stupid questions!
-- Participate in the discussions
 - Share your ideas in writing via the notepads
+- Participate in the discussions
 :::
 ::: {.fragment}
 #### **Questions & discussions *outside of* class time**
 - Ask questions!
 There are no stupid questions!
+- Share your ideas in writing via the notepads
 - Send questions to our mailing list: [{{< var links.email-mailing-list >}}]({{< var links.mailto-mailing-list >}})
 - Send questions to [Lennart]({{< var team.lennart.mailto >}}) and / or [Konrad]({{< var team.konrad.mailto >}})
-- Share your ideas in writing via the notepads
+- Office hours by appointment
+- Give use feedback!
 :::
 
 ## Code of Conduct
