@@ -222,6 +222,15 @@ There are no stupid questions!
 
 # Introduction to version control
 
+## Learning objectives
+
+At the end of this session, you should be able to answer the following questions:
+
+1. What is version control?
+1. Why is version control useful (for research)?
+1. What are Git and GitHub?
+1. What is the difference between Git and GitHub?
+
 ## Why we need version control ...
 
 :::: {.columns}
