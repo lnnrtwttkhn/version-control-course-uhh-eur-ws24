@@ -41,6 +41,8 @@ website:
         href: mechanics.qmd
       - text: "{{< fa circle-question >}} FAQ"
         href: faq.qmd
+      - text: "{{< fa circle-exclamation >}} Code of Conduct"
+        href: code-of-conduct.qmd
     right:
       - icon: envelope
         aria-label: Email

@@ -99,6 +99,10 @@ Talk to use if you don't have a laptop.
 - ask questions
 :::
 
+## Code of Conduct
+
+{{< include ../_code-of-conduct.qmd >}}
+
 ## What will the average seminar session look like?
 
 ::: {.fragment}
