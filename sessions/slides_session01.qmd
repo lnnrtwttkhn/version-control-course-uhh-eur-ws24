@@ -260,6 +260,8 @@ There are no stupid questions!
 :::
 ::::
 
+# Survey results
+
 # Introduction to version control
 
 ## Learning objectives
