@@ -1,0 +1,63 @@
+---
+title: "Session 2: Command Line"
+subtitle: |
+  {{< var title >}}
+  
+  [{{< fa brands internet-explorer >}} Slides]({{< var website >}}) |
+  [{{< fa brands github >}} Source]({{< var source >}})
+  
+  {{< var slides.license-badge >}}
+date: "2023-10-27"
+format: revealjs
+metadata-files:
+  - _slides.yml
+---
+
+## Contact
+
+:::: {.columns}
+::: {.column width="35%"}
+
+### Instructor
+
+![](../images/photo-wittkuhn-uhh.jpg){fig-alt="A portrait photo of Lennart Wittkuhn." width=89%}
+
+#### Dr. Lennart Wittkuhn
+
+{{< fa envelope >}} [{{< var team.lennart.email >}}]({{< var team.lennart.mailto >}})<br>
+{{< fa brands github >}} [GitHub]({{< var team.lennart.github >}})
+{{< fa home-user >}} [lennartwittkuhn.com]({{< var team.lennart.website >}})
+:::
+
+::: {.column width="35%"}
+
+### Teaching Assistant
+
+![](../images/photo_pagenstedt_portrait.jpeg){fig-alt="A portrait photo of Konrad Pagenstedt."}
+
+#### Konrad Pagenstedt
+
+{{< fa envelope >}} [{{< var team.konrad.email >}}]({{< var team.konrad.mailto >}})<br>
+{{< fa brands github >}} [GitHub]({{< var team.konrad.github >}})
+
+:::
+
+::::
+
+## Schedule
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+create_schedule()
+```
+
+## Today's chapter
+
+{{< fa brands internet-explorer >}} [lennartwittkuhn.com/version-control-book/chapters/command-line.html](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html)
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html" title="Version Control Book"></iframe>
+```

@@ -1,0 +1,23 @@
+---
+title: "Command Line"
+subtitle: "Session 02"
+date: 2023-10-27
+about:
+  id: hero-heading
+  template: solana
+  image-width: 0em
+  links:
+    - icon: display
+      text: Slides
+      href: slides_session02.html
+      aria-label: display
+---
+
+::: {#hero-heading}
+:::
+
+## Slides
+
+```{=html}
+<iframe width="100%" height=500 src="slides_session02.html"></iframe>
+```
