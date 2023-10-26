@@ -11,6 +11,10 @@ about:
       text: Slides
       href: sessions/slides_session01.html
       aria-label: display
+    - icon: book
+      text: Chapter
+      href: https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html
+      aria-label: book
 ---
 
 ::: {#hero-heading}

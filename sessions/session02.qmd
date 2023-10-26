@@ -9,8 +9,16 @@ about:
   links:
     - icon: display
       text: Slides
-      href: slides_session02.html
+      href: slides_session02.qmd
       aria-label: display
+    - icon: book
+      text: Chapter
+      href: https://lennartwittkuhn.com/version-control-book/chapters/command-line.html
+      aria-label: book
+    - icon: input-cursor-text
+      text: Exercises
+      href: https://version-control-cli.formr.org/
+      aria-label:  input-cursor-text
 ---
 
 ::: {#hero-heading}
