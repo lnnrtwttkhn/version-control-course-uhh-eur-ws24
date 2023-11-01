@@ -40,14 +40,14 @@ session03:
   title: "Git Basics"
   contents:
     - "Installation and configuration of Git"
-    - "GitHub Account"
     - "Initializing a Git repository"
     - "Basic Git commands"
     - "Ignoring files with .gitignore"
     - "Good commit messages"
   reading:
-    - "[Installation and Setup](https://lennartwittkuhn.com/version-control-book/chapters/installation-setup.html), [First steps with Git](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)"
+    - "[Installation](https://lennartwittkuhn.com/version-control-book/chapters/installation.html), [setup](https://lennartwittkuhn.com/version-control-book/chapters/setup.html), [first steps with Git](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)"
   commands:
+    - git config
     - git init
     - git status
     - git add
@@ -88,6 +88,7 @@ session06:
   title: "Collaborative Workflows with Git"
   contents:
     - "Introduction to remote repositories"
+    - "Creating a GitHub account"
     - "Creating and managing repositories on GitHub"
     - "Cloning/Forking a remote repository"
     - "Pushing and pulling changes"
