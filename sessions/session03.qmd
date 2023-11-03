@@ -1,0 +1,64 @@
+---
+title: "First steps with Git"
+subtitle: "Session 03"
+date: 2023-11-03
+about:
+  id: hero-heading
+  template: solana
+  image-width: 0em
+  links:
+    - icon: display
+      text: Slides
+      href: slides_session02.qmd
+      aria-label: display
+    - icon: book
+      text: "Chapter: Setup"
+      href: https://lennartwittkuhn.com/version-control-book/chapters/setup.html
+      aria-label: book
+    - icon: book
+      text: "Chapter: First steps with Git"
+      href: https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html
+      aria-label: book
+    - icon: input-cursor-text
+      text: Exercises
+      href: https://version-control-basics.formr.org/
+      aria-label: input-cursor-text
+---
+
+::: {#hero-heading}
+:::
+
+## Slides
+
+```{=html}
+<iframe width="100%" height=500 src="slides_session03.html"></iframe>
+```
+
+## Email
+
+Dear course participants,
+
+You are receiving this email because you are enrolled in the course "Version Control of Code & Data", which is taking place this winter semester at the University of Hamburg.
+This is one of the rare occasions when we will ask you to complete a small task outside of class time.
+
+We are very much looking forward to our next session on Friday when we will take our first steps in using Git!
+For this session, it is important that you verify whether Git is installed on your computer.
+To do this, we kindly ask you to complete the following tasks before our session on Friday:
+
+1. Please review the "Installation" chapter in our course guide: https://lennartwittkuhn.com/version-control-book/chapters/installation.html
+1. Complete our survey regarding the installation process: https://version-control-installation.formr.org
+
+Overall, this should not take more than 15 minutes.
+
+Please ensure that you complete the survey before our next session, ideally by Thursday evening (November 2nd, 2023). This will give us enough time to review your responses before our first session on Friday.
+
+Apart from checking your Git installation and answering the survey, you don't need to prepare anything else for our next session on Friday.
+
+Further information about the course can be found on our course website: https://lennartwittkuhn.com/version-control-course-uhh-ws23/
+
+If you encounter any issues or have any questions, please feel free to contact us directly via email.
+
+We are looking forward to seeing you for the next session on Friday!
+
+Best wishes,
+Lennart Wittkuhn (Instructor) & Konrad Pagenstedt (Teaching Assistant)

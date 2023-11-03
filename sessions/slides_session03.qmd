@@ -1,0 +1,46 @@
+---
+title: "Session 3: First steps with Git"
+subtitle: |
+  {{< var title >}}
+  
+  [{{< fa brands internet-explorer >}} Slides]({{< var website >}}) |
+  [{{< fa brands github >}} Source]({{< var source >}})
+  
+  {{< var slides.license-badge >}}
+date: "2023-11-03"
+format: revealjs
+metadata-files:
+  - _slides.yml
+---
+
+## Last time: The command line
+
+![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
+
+## Schedule
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+create_schedule()
+```
+
+## Today's chapter
+
+{{< fa brands internet-explorer >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
+```
+
+## Your turn
+
+1. {{< fa book-open >}} **Content Review**: Read the chapters ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) and ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book
+1. {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!
+1. {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-basics.formr.org/)
+
+Ask questions!
+
+Let's *git* started!
