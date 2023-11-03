@@ -45,10 +45,15 @@ create_schedule()
 
 ## Your turn
 
+::: {.incremental}
 1. {{< fa book-open >}} **Content Review**: Read the chapters ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) and ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book
 1. {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!
-1. {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-basics.formr.org/)
+1. **Note:** We will do the implementation exercises in class together, step-by-step.
+1. {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-basics.formr.org/).
+:::
 
+::: {.fragment}
 Ask questions!
 
 Let's *git* started!
+:::
