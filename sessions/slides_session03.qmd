@@ -13,6 +13,14 @@ metadata-files:
   - _slides.yml
 ---
 
+## How are you today?
+
+Your mood on cat scale?
+
+::: {.fragment}
+![](../images/mood-cat.png){width="50%"}
+:::
+
 ## Last time: The command line
 
 ![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
