@@ -1,0 +1,58 @@
+---
+title: "Session 4: Basic Git workflow"
+subtitle: |
+  {{< var title >}}
+  
+  [{{< fa brands internet-explorer >}} Slides]({{< var website >}}) |
+  [{{< fa brands github >}} Source]({{< var source >}})
+  
+  {{< var slides.license-badge >}}
+date: "2023-11-17"
+format: revealjs
+metadata-files:
+  - _slides.yml
+---
+
+## How are you today?
+
+Your mood on Harry Potter scale?
+
+::: {.fragment}
+![](../images/mood-harry-potter.jpg){width="60%"}
+:::
+
+## Schedule
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+create_schedule()
+```
+
+## Today's chapter
+
+{{< fa brands internet-explorer >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
+```
+
+## Your turn
+
+::: {.incremental}
+1. {{< fa book-open >}} **Content Review**: Read the chapter ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book.
+Start at "Logging commits"
+1. {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter!
+Play around!
+Have fun!
+1. **Note:** We will do the implementation exercises in class together, step-by-step.
+1. {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-basics.formr.org/).
+:::
+
+::: {.fragment}
+Ask questions!
+
+Let's *git* started!
+:::

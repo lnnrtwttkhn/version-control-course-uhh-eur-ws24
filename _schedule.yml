@@ -59,14 +59,36 @@ session03:
     - "[Git Basics survey](https://version-control-basics.formr.org)"
 session04:
   date: 2023-11-10
+  title: "Cancelled"
+  contents: "Cancelled"
+session05:
+  date: 2023-11-17
+  title: "Basic Git workflow"
+  contents:
+    - "Practicing basic Git commands"
+    - "Ignoring files with .gitignore"
+    - "Good commit messages"
+  reading:
+    - "[First steps with Git](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)"
+  commands:
+    - git init
+    - git status
+    - git add
+    - git commit
+    - git log
+    - git diff
+  survey:
+    - "[Git Basics survey](https://version-control-basics.formr.org)"
+session06:
+  date: 2023-11-24
   title: "Quarto workshop"
   contents:
     - "Introduction to Quarto"
     - "Usecases as a scientist"
     - "Markdown Syntax"
     - "Using code chunks"
-session05:
-  date: 2023-11-17
+session07:
+  date: 2023-12-01
   title: "Git Branching and Merging"
   contents:
     - Understanding branches in Git
@@ -83,8 +105,8 @@ session05:
   objectives:
     - "What are benefits of working with branches?"
     - "What is a good commit message?"
-session06:
-  date: 2023-11-24
+session08:
+  date: 2023-12-08
   title: "Collaborative Workflows with Git"
   contents:
     - "Introduction to remote repositories"
@@ -104,8 +126,8 @@ session06:
     - git fetch
   reading:
     - "[Github intro](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html)"
-session07:
-  date: 2023-12-01
+session09:
+  date: 2023-12-15
   title: "Git Workflows"
   contents:
     - "Understanding different Git workflows"
@@ -113,8 +135,8 @@ session07:
     - "Working with feature branches in Gitflow"
     - "Managing releases and hotfixes"
     - "Pros and cons of different Git workflows"
-session08:
-  date: 2023-12-08
+session10:
+  date: 2023-12-22
   title: "Stashing and Rebasing"
   contents:
     - "Stashing and retrieving changes"
@@ -124,16 +146,16 @@ session08:
     - "Interactive rebasing: reordering, editing, and squashing commits"
   reading:
     - "[Stashing and rebasing](https://lennartwittkuhn.com/version-control-book/chapters/stashing-rebasing.html)"
-session09:
-  date: 2023-12-15
+session11:
+  date: 2023-01-12
   title: "Graphical User Interfaces (GUIs)"
   contents:
     - "Understanding benefits of GUI´s"
     - "GitHub Desktop"
     - "GitKraken"
     - "Rstudio Git integration"
-session10:
-  date: 2023-12-22
+session12:
+  date: 2023-01-12
   title: "Project Management and Collaboration Tools"
   contents:
     - "Organizing Git repositories and projects"
@@ -143,7 +165,7 @@ session10:
     - "Contributions"
     - "Integrating continuous integration (CI) with Git"
     - "Additional features and services provided by GitHub"
-session11:
+session13:
   date: 2024-01-12
   title: "Git Tags and Releases"
   contents:
@@ -153,11 +175,11 @@ session11:
     - "Pushing and pulling tags"
     - "Best practices for tagging in Git"
     - "Integration with Zenodo"
-session12:
+session14:
   date: 2024-01-19
   title: "Introduction to [DataLad](https://www.datalad.org/) - Version control of (large) datasets"
   contents: Guest Lecture by [Adina Wagner](https://www.adina-wagner.com/) (DataLad Developer & Project Lead of the [DataLad Handbook](https://handbook.datalad.org/en/latest/))
-session13:
+session15:
   date: 2024-01-26
   title: "Submodules and Advanced Topics"
   contents:
@@ -166,7 +188,7 @@ session13:
     - "Understanding Git internals"
     - "Exploring advanced Git features and options"
     - "Future developments and trends in Git"
-session14:
+session16:
   date: 2024-02-02
 
 # contents:
