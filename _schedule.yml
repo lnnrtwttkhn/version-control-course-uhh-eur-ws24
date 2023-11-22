@@ -79,6 +79,7 @@ session05:
     - git diff
   survey:
     - "[Git Basics survey](https://version-control-basics.formr.org)"
+    - ""
 session06:
   date: 2023-11-24
   title: "Quarto workshop"
