@@ -19,7 +19,7 @@ create_schedule <- function() {
   dt_load <- data.table::rbindlist(variables_padded, fill = TRUE, idcol = "session") %>%
     .[!is.na(commands), commands := sprintf("`%s`", commands)] %>%
     .[commands == "``", commands := NA] 
-  cols = c("contents", "mechanics", "objectives", "commands", "questions", "survey")
+  cols = c("contents", "mechanics", "objectives", "commands", "questions")
   dt = dt_load %>%
     replace(is.na(.), "") %>%
     .[, by = .(session), (cols) := lapply(.SD, paste, collapse = "<br>"), .SDcols = cols] %>%

@@ -19,7 +19,6 @@ session01:
     - "Make a guess: How many published studies are reproducible?"
   survey:
     - "[Course introduction survey](https://version-control-intro.formr.org)"
-    - " "
 session02:
   date: 2023-10-27
   title: Command line
@@ -34,7 +33,6 @@ session02:
     - "Why git works best with text files?"
   survey:
     - "[Command Line survey](https://version-control-cli.formr.org)"
-    - " "
 session03:
   date: 2023-11-03
   title: "Git Basics"
@@ -55,8 +53,7 @@ session03:
     - git log
     - git diff
   survey:
-    - "[Installation survey](https://version-control-installation.formr.org)"
-    - "[Git Basics survey](https://version-control-basics.formr.org)"
+    - "[Installation survey](https://version-control-installation.formr.org), [Git Basics survey](https://version-control-basics.formr.org)"
 session04:
   date: 2023-11-10
   title: "Cancelled"
@@ -79,23 +76,31 @@ session05:
     - git diff
   survey:
     - "[Git Basics survey](https://version-control-basics.formr.org)"
-    - ""
 session06:
   date: 2023-11-24
+  title: "Cancelled"
+  contents: "Cancelled"
+session07:
+  date: 2023-12-01
   title: "Quarto workshop"
   contents:
     - "Introduction to Quarto"
     - "Usecases as a scientist"
     - "Markdown Syntax"
     - "Using code chunks"
-session07:
-  date: 2023-12-01
+  reading:
+    - "[Workshop Slides](https://lennartwittkuhn.com/quarto-workshop/)"
+session08:
+  date: 2023-12-08
   title: "Git Branching and Merging"
   contents:
-    - Understanding branches in Git
-    - Creating and switching between branches
+    - "Understanding branches in Git"
+    - "Creating and switching between branches"
     - "Merging branches: fast-forward and recursive"
     - "Resolving merge conflicts"
+    - "Stashing and retrieving changes"
+    - "Undoing changes"
+    - "Removing files"
   commands:
     - git branch
     - git checkout
@@ -106,9 +111,11 @@ session07:
   objectives:
     - "What are benefits of working with branches?"
     - "What is a good commit message?"
-session08:
-  date: 2023-12-08
-  title: "Collaborative Workflows with Git"
+  survey:
+  - "[Git branches survey](https://version-control-branches.formr.org)"
+session09:
+  date: 2023-12-15
+  title: "Introduction to GitHub"
   contents:
     - "Introduction to remote repositories"
     - "Creating a GitHub account"
@@ -116,9 +123,7 @@ session08:
     - "Cloning/Forking a remote repository"
     - "Pushing and pulling changes"
     - "Branching and merging in a collaborative environment"
-    - "Using pull requests"
-    - "Template repositories"
-    - "Alternatives to GitHub"
+    - "Graphical User Interfaces (GUIs), e.g., GitKraken"
   commands:
     - git clone
     - git remote
@@ -127,76 +132,56 @@ session08:
     - git fetch
   reading:
     - "[Github intro](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html)"
-session09:
-  date: 2023-12-15
-  title: "Git Workflows"
+  survey:
+    - "[GitHub intro survey](https://version-control-github.formr.org)"
+session10:
+  date: 2023-12-22
+  title: "Collaborative workflows with GitHub"
   contents:
+    - "Using pull requests"
+    - "Template repositories"
+    - "Alternatives to GitHub"
     - "Understanding different Git workflows"
     - "Introduction to Gitflow workflow"
     - "Working with feature branches in Gitflow"
     - "Managing releases and hotfixes"
     - "Pros and cons of different Git workflows"
-session10:
-  date: 2023-12-22
-  title: "Stashing and Rebasing"
-  contents:
-    - "Stashing and retrieving changes"
-    - "Undoing changes"
-    - "Removing files"
-    - "Introduction to rebasing"
-    - "Interactive rebasing: reordering, editing, and squashing commits"
-  reading:
-    - "[Stashing and rebasing](https://lennartwittkuhn.com/version-control-book/chapters/stashing-rebasing.html)"
 session11:
-  date: 2023-01-12
-  title: "Graphical User Interfaces (GUIs)"
-  contents:
-    - "Understanding benefits of GUI´s"
-    - "GitHub Desktop"
-    - "GitKraken"
-    - "Rstudio Git integration"
-session12:
-  date: 2023-01-12
-  title: "Project Management and Collaboration Tools"
+  date: 2024-01-12
+  title: "Project Management, Collaboration, Tags, Releases"
   contents:
     - "Organizing Git repositories and projects"
     - "Collaborating with team members using issues and pull requests"
     - "README.md"
     - "Licenses"
     - "Contributions"
-    - "Integrating continuous integration (CI) with Git"
     - "Additional features and services provided by GitHub"
-session13:
-  date: 2024-01-12
-  title: "Git Tags and Releases"
-  contents:
     - "Introduction to tags and their importance"
     - "Creating lightweight and annotated tags"
     - "Managing versions and releases with tags"
     - "Pushing and pulling tags"
     - "Best practices for tagging in Git"
     - "Integration with Zenodo"
-session14:
+session12:
   date: 2024-01-19
-  title: "Introduction to [DataLad](https://www.datalad.org/) - Version control of (large) datasets"
-  contents: Guest Lecture by [Adina Wagner](https://www.adina-wagner.com/) (DataLad Developer & Project Lead of the [DataLad Handbook](https://handbook.datalad.org/en/latest/))
-session15:
-  date: 2024-01-26
-  title: "Submodules and Advanced Topics"
+  title: "Advanced Git: Rebasing, Submodules, CI/CD"
   contents:
+    - "Introduction to rebasing"
+    - "Interactive rebasing: reordering, editing, and squashing commits"
     - "Working with Git submodules"
     - "Integrating external repositories as submodules"
     - "Understanding Git internals"
     - "Exploring advanced Git features and options"
     - "Future developments and trends in Git"
-session16:
+    - "Integrating continuous integration (CI) with Git"
+  reading:
+    - "[Stashing and rebasing](https://lennartwittkuhn.com/version-control-book/chapters/stashing-rebasing.html)"
+session13:
+  date: 2024-01-25
+  title: "Introduction to [DataLad](https://www.datalad.org/) - Version control of (large) datasets"
+  contents: |
+    Guest Lecture by [Adina Wagner](https://www.adina-wagner.com/) (DataLad Developer & Project Lead of the [DataLad Handbook](https://handbook.datalad.org/en/latest/))
+session14:
   date: 2024-02-02
-
-# contents:
-#     - troubleshooting
-#     - rewriting history
-# Session 7: Git Best Practices and Optimization
-# - Ignoring files with .gitignore
-# - Using Git hooks for automation
-# - Optimizing Git performance for large repositories
-# - Troubleshooting common Git issues
+  title: "Summary & Wrap-Up"
+  contents: "Summary & Wrap-Up"
