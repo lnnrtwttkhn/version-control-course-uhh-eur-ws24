@@ -1,0 +1,66 @@
+---
+title: "Session 8: Branches"
+subtitle: |
+  {{< var title >}}
+  
+  [{{< fa brands internet-explorer >}} Slides]({{< var website >}}) |
+  [{{< fa brands github >}} Source]({{< var source >}})
+  
+  {{< var slides.license-badge >}}
+date: 2023-12-08
+format: revealjs
+metadata-files:
+  - _slides.yml
+---
+
+## How are you today?
+
+::: fragment
+![](../images/paintings_moodscale.jpg){width="50%"}
+:::
+
+## Schedule
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+create_schedule()
+```
+
+## Looking back: Git basics
+
+-   **Survey results**
+
+## Today's topic: Branches
+
+::: fragment
+![](../images/branch_session8.jpg){width="70%"}
+:::
+
+## Today's chapter
+
+{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/branches.html>
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/branches.html" title="Version Control Book"></iframe>
+```
+## Your turn
+
+::: incremental
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["Branches"](https://lennartwittkuhn.com/version-control-book/chapters/branches.html) in the Version Control Book.
+2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!
+3.  **Note:** We will do the implementation exercises in class together, step-by-step.
+4.  {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-branches.formr.org/).
+:::
+
+::: fragment
+Ask questions!
+
+Let's *git* started!
+:::
+::: fragment
+and *branch* out
+:::
+
