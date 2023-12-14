@@ -131,9 +131,9 @@ session09:
     - git pull
     - git fetch
   reading:
-    - "[Github intro](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html)"
+    - "[GitHub Intro](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html)"
   survey:
-    - "[GitHub intro survey](https://version-control-github.formr.org)"
+    - "[GitHub Survey](https://version-control-github.formr.org)"
 session10:
   date: 2023-12-22
   title: "Collaborative workflows with GitHub"
