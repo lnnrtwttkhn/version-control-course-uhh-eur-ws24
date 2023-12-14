@@ -36,7 +36,7 @@ create_schedule()
 ## Today's topic: Branches
 
 ::: fragment
-![](../images/branch_session8.jpg){width="70%"}
+![](../images/branches.png){width="70%"}
 :::
 
 ## Today's chapter
