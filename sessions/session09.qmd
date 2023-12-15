@@ -12,7 +12,7 @@ about:
       href: slides_session09.qmd
       aria-label: display
     - icon: book
-      text: "Chapter: Branches"
+      text: "Chapter: GitHub"
       href: https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html
       aria-label: book
     - icon: input-cursor-text
