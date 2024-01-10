@@ -136,48 +136,41 @@ session09:
     - "[GitHub Survey](https://version-control-github.formr.org)"
 session10:
   date: 2023-12-22
-  title: "Collaborative workflows with GitHub"
+  title: "Repetition and practice"
   contents:
-    - "Using pull requests"
-    - "Template repositories"
-    - "Alternatives to GitHub"
-    - "Understanding different Git workflows"
-    - "Introduction to Gitflow workflow"
-    - "Working with feature branches in Gitflow"
-    - "Managing releases and hotfixes"
-    - "Pros and cons of different Git workflows"
+    - "Initializing repository"
+    - "Staging and committing"
+    - "Creating and merging branches"
 session11:
   date: 2024-01-12
-  title: "Project Management, Collaboration, Tags, Releases"
+  title: "GitHub: Collaboration" 
   contents:
     - "Organizing Git repositories and projects"
     - "Collaborating with team members using issues and pull requests"
-    - "README.md"
-    - "Licenses"
-    - "Contributions"
-    - "Additional features and services provided by GitHub"
-    - "Introduction to tags and their importance"
-    - "Creating lightweight and annotated tags"
-    - "Managing versions and releases with tags"
-    - "Pushing and pulling tags"
-    - "Best practices for tagging in Git"
-    - "Integration with Zenodo"
+    - "Using pull requests"
+    - "Understanding different Git workflows"
+    - "Introduction to Gitflow workflow"
+    - "Working with feature branches in Gitflow"
 session12:
   date: 2024-01-19
-  title: "Advanced Git: Rebasing, Submodules, CI/CD"
+  title: "Tags/Releases, Advanced Git: Rebasing, Submodules, CI/CD"
   contents:
     - "Introduction to rebasing"
     - "Interactive rebasing: reordering, editing, and squashing commits"
     - "Working with Git submodules"
     - "Integrating external repositories as submodules"
-    - "Understanding Git internals"
     - "Exploring advanced Git features and options"
-    - "Future developments and trends in Git"
     - "Integrating continuous integration (CI) with Git"
+    - "README.md"
+    - "Licenses"
+    - "Contributions"
+    - "Introduction to tags and their importance"
+    - "Best practices for tagging in Git"
+    - "Integration with Zenodo"
   reading:
-    - "[Stashing and rebasing](https://lennartwittkuhn.com/version-control-book/chapters/stashing-rebasing.html)"
+    - "[Stashing and rebasing](https://lennartwittkuhn.com/version-control-book/chapters/intermediate-commands.html)"
 session13:
-  date: 2024-01-25
+  date: 2024-01-26
   title: "Introduction to [DataLad](https://www.datalad.org/) - Version control of (large) datasets"
   contents: |
     Guest Lecture by [Adina Wagner](https://www.adina-wagner.com/) (DataLad Developer & Project Lead of the [DataLad Handbook](https://handbook.datalad.org/en/latest/))
