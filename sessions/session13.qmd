@@ -9,7 +9,7 @@ about:
   links:
     - icon: calendar-date
       text: Add to calendar!
-      href: ../images/datalad-talk.ics
+      href: https://cloud.uni-hamburg.de/s/GQZ9RsgRPar3yj4/download/datalad-talk.ics
       aria-label: calendar-date
     - icon: display
       text: "Slides: TBA"
