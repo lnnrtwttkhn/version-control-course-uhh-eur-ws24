@@ -65,10 +65,12 @@ we cordially invite you to a **hybrid talk by [Dr. Adina Wagner](https://www.adi
 
 - **Date:** Friday, 26th of January 2024
 - **Time:** 10:15 to 11:45 am (90 minutes)
-- **Place:** Hybrid, in person at Von-Melle-Park 5, 20146 Hamburg, William Stern Room (Room 4054) or via Zoom
+- **Place:** Hybrid, in person at Von-Melle-Park 5, 20146 Hamburg, William Stern Room (Room 4054) and via Zoom
 - **Registration:** To register, please send an email to the organizer [Dr. Lennart Wittkuhn]({{< var links.email >}}).
 Please indicate whether you would like to join in-person or online.
 - **Details:** For more information, please visit the [event website](https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/session13.html)
+
+The link to the Zoom meeting will be sent to all registered participants a few days before the event.
 
 The talk is part of the [course on "Version Control of Code & Data"]({{< var links.site >}}), generously supported by the [Digital & Data Literacy in Teaching Lab](https://www.isa.uni-hamburg.de/en/ddlitlab.html) program at University of Hamburg.
 
