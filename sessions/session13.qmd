@@ -7,6 +7,10 @@ about:
   template: solana
   image-width: 0em
   links:
+    - icon: calendar-date
+      text: Add to calendar!
+      href: ../images/datalad-talk.ics
+      aria-label: calendar-date
     - icon: display
       text: "Slides: TBA"
       aria-label: display
