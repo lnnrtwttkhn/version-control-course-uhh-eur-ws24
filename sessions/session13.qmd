@@ -1,0 +1,76 @@
+---
+title: "Introduction to DataLad - Talk by Dr. Adina Wagner"
+subtitle: "Session 13"
+date: 2024-01-26
+about:
+  id: hero-heading
+  template: solana
+  image-width: 0em
+  links:
+    - icon: display
+      text: "Slides: TBA"
+      aria-label: display
+    - icon: code
+      text: "DataLad"
+      href: https://www.datalad.org/
+      aria-label: code
+    - icon: book
+      text: "DataLad Handbook"
+      href: https://handbook.datalad.org/en/latest/
+      aria-label: book
+    - icon: youtube
+      text: "What is DataLad?"
+      href: https://www.youtube.com/watch?v=IN0vowZ67vs
+      aria-label: youtube
+---
+
+::: {#hero-heading}
+:::
+
+## Overview
+
+-   {{< fa chalkboard >}} **Title:** "DataLad - Decentralized Management of Digital Objects for Open Science" (see [abstract](#abstract))
+-   {{< fa person-chalkboard >}} **Speaker:** [Dr. Adina Wagner](https://www.adina-wagner.com/)
+-   {{< fa calendar-days >}} **Date:** Friday, 26th of January 2024
+-   {{< fa clock >}} **Time:** 10:15 to 11:45 am (90 minutes)
+-   {{< fa building-columns >}} **Place:** Hybrid (registration details below)
+    - In person at Von-Melle-Park 5, 20146 Hamburg, William Stern Room (Room 4054)
+    - Zoom (details will be send after registration)
+-   {{< fa language >}} **Language:** English
+-   {{< fa tag >}} **Context:** Part of the [course "Version Control of Code & Data"]({{< var links.site >}})
+-   {{< fa gem >}} **Thanks:** Supported by the the [Digital & Data Literacy in Teaching Lab](https://www.isa.uni-hamburg.de/en/ddlitlab.html)
+-   {{< fa file-signature >}} **Registration:** To register, please send an email to the organizer [Dr. Lennart Wittkuhn]({{< var links.email >}})
+
+## Abstract
+
+#### DataLad - Decentralized Management of Digital Objects for Open Science
+
+With a general awareness of a reproducibility crisis in many scientific areas and increasing importance of research data management in science and policy making, data-driven fields require convenient and scalable data management solutions.
+Standing on the shoulders of [Git](https://git-scm.com) and git-annex ([git-annex.branchable.com](https://git-annex.branchable.com), Joey Hess), [DataLad](https://www.datalad.org) provides a decentralized solution that enables the joint management of code, data, and complete containerized computational environments in a scalable and distributed fashion.
+With features such as unambiguous version control, a wide spectrum of data transport mechanisms, convenient provenance capture, and re-execution for verification or as an alternative to storage and transport, it enables and facilitates many aspects of open and reproducible science: collaboration, sharing, analytical transparency, computational reproducibility of digital research objects, and disk-space aware storage and computing workflows on infrastructure that ranges from personal laptops up to supercomputers.
+
+## What is DataLad?
+
+{{< video https://www.youtube.com/watch?v=IN0vowZ67vs >}}
+
+## Announcement Email
+
+Dear all,
+
+we cordially invite you to a **hybrid talk by [Dr. Adina Wagner](https://www.adina-wagner.com/)** on **"DataLad - Decentralized Management of Digital Objects for Open Science"**.
+
+- **Date:** Friday, 26th of January 2024
+- **Time:** 10:15 to 11:45 am (90 minutes)
+- **Place:** Hybrid, in person at Von-Melle-Park 5, 20146 Hamburg, William Stern Room (Room 4054) or via Zoom
+- **Registration:** To register, please send an email to the organizer [Dr. Lennart Wittkuhn]({{< var links.email >}}).
+Please indicate whether you would like to join in-person or online.
+- **Details:** For more information, please visit the [event website](https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/session13.html)
+
+The talk is part of the [course on "Version Control of Code & Data"]({{< var links.site >}}), generously supported by the [Digital & Data Literacy in Teaching Lab](https://www.isa.uni-hamburg.de/en/ddlitlab.html) program at University of Hamburg.
+
+
+**Abstract**
+
+With a general awareness of a reproducibility crisis in many scientific areas and increasing importance of research data management in science and policy making, data-driven fields require convenient and scalable data management solutions.
+Standing on the shoulders of Git and git-annex (git-annex.branchable.com, Joey Hess), DataLad provides a decentralized solution that enables the joint management of code, data, and complete containerized computational environments in a scalable and distributed fashion.
+With features such as unambiguous version control, a wide spectrum of data transport mechanisms, convenient provenance capture, and re-execution for verification or as an alternative to storage and transport, it enables and facilitates many aspects of open and reproducible science: collaboration, sharing, analytical transparency, computational reproducibility of digital research objects, and disk-space aware storage and computing workflows on infrastructure that ranges from personal laptops up to supercomputers.
