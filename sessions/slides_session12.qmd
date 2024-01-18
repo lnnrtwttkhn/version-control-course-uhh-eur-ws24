@@ -123,6 +123,6 @@ If you have unnecessary files in your repository:
 
 ## Bonus exercise
 
-1. Read the [Tags and Releases chapter](https://lennartwittkuhn.com/version-control-book/)
+1. Read the [Tags and Releases chapter](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)
 1. **Create a tag** marking your recipe repository version
 1. **Create a release** of your "finished" repository on GitHub
