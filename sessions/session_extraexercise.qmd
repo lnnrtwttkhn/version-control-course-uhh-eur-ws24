@@ -1,0 +1,78 @@
+---
+title: "Extra Assignment: Advanced GitHub"
+subtitle: ""
+about:
+  id: hero-heading
+  template: solana
+  image-width: 0em
+  links:
+    - icon: book
+      text: "Chapter: GitHub"
+      href: https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html
+      aria-label: book
+    - icon: input-cursor-text
+      text: "Survey: GitHub"
+      href: https://version-control-github.formr.org
+      aria-label: input-cursor-text
+number-sections: true
+---
+
+::: {#hero-heading}
+:::
+
+## Background
+
+If you missed more than two course sessions, you are asked to complete an **additional assignment**.
+This additional assignment **builds on the contents of previous course sessions** and is (roughly) the equivalent of what you would complete in a regular course session.
+If you need help, please consult the relevant chapters in the [Version Control Book]({{< var links.book >}}) (in particular the chapter on [GitHub](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html)).
+While the assignment covers many aspects of our course, it's not an exam.
+So please [get in touch]({{< var links.email >}}) if you are getting stuck or have any questions about the assignment or the course contents.
+
+**Submission Deadline:** Friday, Feb 2nd, 2024 
+
+## Assignment
+
+### Editing content on GitHub
+
+#### Create a `README.md` file
+
+If you did not create a `README.md` file in your `recipes` repository already:
+
+1.    Go to your `recipes` repository's main page and click on "Add a README".
+1.    Use Markdown syntax and add the most important facts about the repository.
+1.    Click on "Commit changes" and write a relevant commit message.
+
+#### Clean up your `recipes` repository
+
+If you have unnecessary files in your `recipes` repository:
+
+1.    Click on the file you want to delete and choose "Delete file".
+1.    Commit the change and choose a commit message.
+1.    Pull the changes to your local repository (i.e., to your computer).
+
+You complete this assignment by sending a link to your `recipes` repository [to Lennart]({{< var links.email >}}).
+
+### Forking 
+
+1.    Find out what [forking](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html#forking-a-repository) is.
+1.    Fork [Lennart's recipes repository](https://github.com/lnnrtwttkhn/recipes/).
+1.    Create an issue in Lennart's repository (maybe the repo is missing a great recipe?).
+1.    Clone the *forked* repository to your computer.
+1.    Create a new branch and make one or multiple commits, "fixing" the issue.
+1.    Push your changes to GitHub.
+1.    Create a pull request with your changes (hint: from the forked to the original repository) and refer to the issue.
+
+You complete this assignment by sending a pull request to Lennart's `recipes` repository from a fork.
+
+Hint: Check out [Matteo's contribution](https://github.com/lnnrtwttkhn/recipes/pull/2) to Lennart's `recipes` repository for a similar procedure.
+
+## Bonus: Tags and Releases
+
+This is a bonus assignment.
+It's not required to make up for more that two missed course sessions.
+But maybe you are on a roll now, so why not?
+
+1.    Read the [Tags and Releases chapter](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html).
+1.    **Create a tag**, marking the current version of your `recipes` repository.
+1.    **Create a release** of your tagged repository version on GitHub.
+1.    Try out the [Zenodo Sandbox](https://sandbox.zenodo.org/) to generate a DOI for your repository.

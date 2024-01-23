@@ -65,6 +65,7 @@ website:
 format:
   html:
     theme: [litera, custom.scss]
+    from: markdown+emoji
     mainfont: "Atkinson Hyperlegible"
     page-layout: full
     fontcolor: black
