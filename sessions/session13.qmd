@@ -15,10 +15,14 @@ about:
       text: "Slides"
       href: https://files.inm7.de/adina/talks/html/hamburg_2024.html#/
       aria-label: display
-    - icon: code
+    - icon: file-code
+      text: "Source"
+      href: https://github.com/datalad-handbook/datalad-course/blob/main/html/hamburg_2024.html
+      aria-label: file-source
+    - icon: terminal
       text: "DataLad"
       href: https://www.datalad.org/
-      aria-label: code
+      aria-label: terminal
     - icon: book
       text: "DataLad Handbook"
       href: https://handbook.datalad.org/en/latest/
