@@ -6,6 +6,10 @@ IMAGES_DIR=images/
 preview:
 	quarto preview
 
+.PHONY: render
+render:
+	quarto render
+
 .PHONY: deploy
 deploy: clean
 	quarto publish gh-pages
