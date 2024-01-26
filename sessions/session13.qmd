@@ -12,7 +12,8 @@ about:
       href: https://cloud.uni-hamburg.de/s/GQZ9RsgRPar3yj4/download/datalad-talk.ics
       aria-label: calendar-date
     - icon: display
-      text: "Slides: TBA"
+      text: "Slides"
+      href: https://files.inm7.de/adina/talks/html/hamburg_2024.html#/
       aria-label: display
     - icon: code
       text: "DataLad"
@@ -44,6 +45,15 @@ about:
 -   {{< fa tag >}} **Context:** Part of the [course "Version Control of Code & Data"]({{< var links.site >}})
 -   {{< fa gem >}} **Thanks:** Supported by the the [Digital & Data Literacy in Teaching Lab](https://www.isa.uni-hamburg.de/en/ddlitlab.html)
 -   {{< fa file-signature >}} **Registration:** To register, please send an email to the organizer [Dr. Lennart Wittkuhn]({{< var links.email >}})
+
+## Slides
+
+- {{< fa display >}} [HTML version of the slides](https://files.inm7.de/adina/talks/html/hamburg_2024.html#/)
+- {{< fa file-pdf >}} [PDF version of the slides](https://zenodo.org/doi/10.5281/zenodo.10556596)
+
+```{=html}
+<iframe width="100%" height=600 src="../images/datadad-wagner-hamburg.pdf" title="Slides"></iframe>
+```
 
 ## Abstract
 
