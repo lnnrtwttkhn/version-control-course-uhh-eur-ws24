@@ -9,7 +9,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: slides_session08.qmd
+      href: sessions/slides_session08.html
       aria-label: display
     - icon: book
       text: "Chapter: Branches"

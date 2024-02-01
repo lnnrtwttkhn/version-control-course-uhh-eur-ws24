@@ -1,0 +1,88 @@
+---
+title: "Session 14: Summary & Wrap-Up"
+subtitle: |
+  {{< var title >}}
+  
+  [{{< fa brands internet-explorer >}} Slides]({{< var website >}}) |
+  [{{< fa brands github >}} Source]({{< var source >}})
+  
+  {{< var slides.license-badge >}}
+date: 2024-02-02
+format: revealjs
+metadata-files:
+  - _slides.yml
+---
+
+## How are you today?
+
+::: fragment
+![](../images/moodscale_14.jpeg){width="50%"}
+:::
+
+## Schedule
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+create_schedule()
+```
+
+## Survey Participation
+
+::: fragment
+-   **Thank you** for completing the surveys!
+:::
+
+## Last week: DataLad Talk
+
+-   **Question/Comments?**
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/session13.html" title="DataLad Talk"></iframe>
+```
+## Seminar evaluation
+
+-   **Thank you** for completing the evaluation
+
+::: fragment
+-   Any **more suggested improvements?**
+:::
+
+## Open Questions about Git or GitHub?
+
+## Reviewing your pull requests
+
+## Kahoot {{< fa gamepad >}}
+
+## Logo Reveal
+
+:::: columns
+::: {.column width="15%"}
+::: fragment
+![](../images/git-logo.png)
+:::
+:::
+::: {.column width="15%"}
+::: fragment
+![](../images/uhh-logo.png)
+:::
+:::
+::: {.column width="15%"}
+::: {style="font-size: 500%;"}
+::: fragment
+🪄
+:::
+:::
+:::
+::::
+
+:::: columns
+::: {.column width="50%"}
+::: fragment
+![](../images/uhh_git_logo.jpg){fig-align="left"}
+:::
+:::
+::::
+

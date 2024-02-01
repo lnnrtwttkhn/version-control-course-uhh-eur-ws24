@@ -1,0 +1,23 @@
+---
+title: "Summary & Wrap-Up"
+subtitle: "Session 14"
+date: 2024-02-02
+about:
+  id: hero-heading
+  template: solana
+  image-width: 0em
+  links:
+    - icon: display
+      text: Slides
+      href: sessions/slides_session14.html
+      aria-label: display
+---
+
+::: {#hero-heading}
+:::
+
+## Slides
+
+```{=html}
+<iframe width="100%" height=500 src="slides_session14.html"></iframe>
+```
