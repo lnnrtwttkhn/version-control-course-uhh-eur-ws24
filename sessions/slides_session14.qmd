@@ -56,6 +56,10 @@ create_schedule()
 
 ## Kahoot {{< fa gamepad >}}
 
+::: {.notes}
+Link: https://create.kahoot.it/details/e4f54859-c04d-4d74-a314-29eb72e9eb50
+:::
+
 ## Logo Reveal
 
 :::: columns
