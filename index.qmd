@@ -29,8 +29,6 @@ This is the website for the full-semester seminar course "{{< var project.title 
 
 ---
 
-{{< fa user-plus >}} **Jobs?** Join our [team](team.qmd){target="_self"}!
-
 {{< fa brands github >}} **Code?** Find all source code [on GitHub]({{< var links.github >}})!
 
 {{< fa lightbulb >}} **Details?** Read our project [proposal]({{< var links.proposal >}})!
