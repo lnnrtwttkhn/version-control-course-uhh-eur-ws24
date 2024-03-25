@@ -9,7 +9,7 @@ comments: false
 
 {{< fa calendar-days >}} **When?** Winter 2023/24 (October to February), every Friday, 10:15 to 11:45 ([detailed schedule](schedule.qmd))
 
-{{< fa building-columns >}} **Where?** University of Hamburg, Von-Melle-Park 5, Room 4047
+{{< fa building-columns >}} **Where?** {{< var project.where-long >}}
 
 {{< fa user-group >}} **Who?** This course is offered to Psychology Master's students at the University of Hamburg.
 

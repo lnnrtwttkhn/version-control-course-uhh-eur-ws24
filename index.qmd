@@ -20,7 +20,7 @@ This is the website for the full-semester seminar course "{{< var project.title 
 
 {{< fa calendar-days >}} **When?** Winter 23/24 (Oct-Feb), Fridays, 10:15 - 11:45
 
-{{< fa building-columns >}} **Where?** University of Hamburg (VMP 5, 4047)
+{{< fa building-columns >}} **Where?** {{< var project.where-short >}}
 
 {{< fa user-group >}} **Who?** Psychology Master's students
 
