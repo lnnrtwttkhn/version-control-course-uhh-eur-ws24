@@ -12,7 +12,7 @@ filters:
 ## This website is still under active development! {{< fa wrench >}}
 We are continuously updating information on this website.
 Watch this space for any updates.
-If you have any urgent questions, always feel free to write an [email]({{< var links.email >}}).
+If you have any urgent questions, always feel free to write an [email]({{< var links.mailto >}}).
 Thank you for your patience!
 :::
 

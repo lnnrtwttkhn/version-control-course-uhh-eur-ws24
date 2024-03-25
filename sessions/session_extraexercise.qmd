@@ -26,7 +26,7 @@ If you missed more than two course sessions, you are asked to complete an **addi
 This additional assignment **builds on the contents of previous course sessions** and is (roughly) the equivalent of what you would complete in a regular course session.
 If you need help, please consult the relevant chapters in the [Version Control Book]({{< var links.book >}}) (in particular the chapter on [GitHub](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html)).
 While the assignment covers many aspects of our course, it's not an exam.
-So please [get in touch]({{< var links.email >}}) if you are getting stuck or have any questions about the assignment or the course contents.
+So please [get in touch]({{< var links.mailto >}}) if you are getting stuck or have any questions about the assignment or the course contents.
 
 **Submission Deadline:** Friday, Feb 2nd, 2024 
 
@@ -50,7 +50,7 @@ If you have unnecessary files in your `recipes` repository:
 1.    Commit the change and choose a commit message.
 1.    Pull the changes to your local repository (i.e., to your computer).
 
-You complete this assignment by sending a link to your `recipes` repository [to Lennart]({{< var links.email >}}).
+You complete this assignment by sending a link to your `recipes` repository [to Lennart]({{< var links.mailto >}}).
 
 ### Forking 
 

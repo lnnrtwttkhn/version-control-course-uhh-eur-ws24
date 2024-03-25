@@ -1,8 +1,9 @@
 title: "Effective Progress Tracking and Collaboration: An Introduction to Version Control of Code and Data"
 links:
-  email: mailto:lennart.wittkuhn@uni-hamburg.de
-  github: https://github.com/lnnrtwttkhn/version-control-course-uhh-ws23
-  issues: https://github.com/lnnrtwttkhn/version-control-course-uhh-ws23/issues
+  email: "lennart.wittkuhn@uni-hamburg.de"
+  mailto: "mailto:{{< var links.email >}}"
+  github: "https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24"
+  issues: "{{< var links.github >}}/issues"
   site: https://lennartwittkuhn.com/version-control-course-uhh-ws23
   proposal: https://lennartwittkuhn.com/ddlitlab-proposal
   nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG

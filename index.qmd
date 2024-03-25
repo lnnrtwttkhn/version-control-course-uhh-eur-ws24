@@ -36,9 +36,9 @@ This is the website for the full-semester seminar course on "{{< meta title >}}"
 
 {{< fa lightbulb >}} **Details?** Read our project [proposal]({{< var links.proposal >}})!
 
-{{< fa bug >}} **Bug?** Open an [issue]({{< var links.issues >}})  or send an [email]({{< var links.email >}}){target="_blank"}!
+{{< fa bug >}} **Bug?** Open an [issue]({{< var links.issues >}}) or send an [email]({{< var links.mailto >}})!
 
-{{< fa circle-question >}} **Questions?** Read the [FAQ](faq.qmd){target="_self"} or send an [email]({{< var links.email >}}){target="_blank"}!
+{{< fa circle-question >}} **Questions?** Read the [FAQ](faq.qmd){target="_self"} or send an [email]({{< var links.mailto >}})!
 
 {{< fa heart >}} **Thanks!** Thanks to all our [supporters](acknowledgements.qmd){target="_self"}!
 

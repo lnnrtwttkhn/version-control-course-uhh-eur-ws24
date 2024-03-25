@@ -10,7 +10,7 @@
 
 :microscope: **Research:** I study the role of fast neural memory reactivation ("[replay](https://en.wikipedia.org/wiki/Hippocampal_replay)") in the human brain using fMRI
 
-:link: **Contact:** You can connect with me via [email]({{< var mailto >}}), [Twitter]({{< var twitter >}}), [Mastodon]({{< var mastodon >}}),
+:link: **Contact:** You can connect with me via [email]({{< var links.mailto >}}), [Twitter]({{< var twitter >}}), [Mastodon]({{< var mastodon >}}),
 [GitHub]({{< var github >}}) or
 [LinkedIn]({{< var linkedin >}})
 
@@ -32,6 +32,6 @@
 
 {{< fa brands github >}} **Source:** Source code is publicly available on GitHub at [{{< var links.github >}}]({{< var links.github >}})
 
-:pray: **Contact:** I am happy for any feedback or suggestions via [email]({{< var mailto >}}) or [GitHub issues]({{< var issues >}}). Thank you!
+:pray: **Contact:** I am happy for any feedback or suggestions via [email]({{< var links.mailto >}}) or [GitHub issues]({{< var issues >}}). Thank you!
 
 :::
