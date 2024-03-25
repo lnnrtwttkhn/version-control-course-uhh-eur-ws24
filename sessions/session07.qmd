@@ -1,0 +1,23 @@
+---
+title: "Quarto Workshop"
+subtitle: "Session 07"
+date: 2023-12-01
+about:
+  id: hero-heading
+  template: solana
+  image-width: 0em
+  links:
+    - icon: display
+      text: Slides
+      href: https://lennartwittkuhn.com/quarto-workshop/
+      aria-label: display
+---
+
+::: {#hero-heading}
+:::
+
+## Slides
+
+```{=html}
+<iframe width="100%" height=500 src="https://lennartwittkuhn.com/quarto-workshop/#/title-slide"></iframe>
+```

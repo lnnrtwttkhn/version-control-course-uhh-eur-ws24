@@ -15,7 +15,7 @@ We are continuously updating information on this website.
 Watch this space for any updates.
 If you have any urgent questions, always feel free to write an [email]({{< var links.email >}}).
 Note, that this syllabus provides a comprehensive outline of the topics to be covered in the course.
-The actual pace and content covered may vary based on the instructor’s discretion and the needs of the students.
+The actual pace and content covered may vary based on the instructor's discretion and the needs of the students.
 :::
 
 ```{r}

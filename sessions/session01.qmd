@@ -15,6 +15,10 @@ about:
       text: Chapter
       href: https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html
       aria-label: book
+    - icon: input-cursor-text
+      text: Exercises
+      href: https://version-control-versioncontrol.formr.org
+      aria-label: input-cursor-text
 ---
 
 ::: {#hero-heading}

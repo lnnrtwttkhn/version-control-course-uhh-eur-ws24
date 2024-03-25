@@ -10,7 +10,6 @@ about:
     - icon: display
       text: Slides
       href: https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/slides_session12.html
-      href: sessions/slides_session12.html
       aria-label: display
     - icon: book
       text: "Chapter: GitHub"
