@@ -1,10 +1,12 @@
-title: "Track, organize and share your work: An introduction to Git for psychological research"
+project:
+  name: "version-control-course-uhh-ss24"
+  title: "Track, organize and share your work: An introduction to Git for psychological research"
 links:
   email: "lennart.wittkuhn@uni-hamburg.de"
   mailto: "mailto:{{< var links.email >}}"
-  github: "https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24"
+  github: "https://github.com/lnnrtwttkhn/{{< var project.name >}}"
   issues: "{{< var links.github >}}/issues"
-  site: https://lennartwittkuhn.com/version-control-course-uhh-ws23
+  site: "https://lennartwittkuhn.com/{{< var project.name >}}"
   proposal: https://lennartwittkuhn.com/ddlitlab-proposal
   nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG
   stine: https://stine.uni-hamburg.de/

@@ -1,5 +1,5 @@
 ---
-title: "{{< var title >}}"
+title: "{{< var project.title >}}"
 subtitle: |
   Session 1
   

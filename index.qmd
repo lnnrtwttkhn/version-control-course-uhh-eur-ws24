@@ -1,5 +1,5 @@
 ---
-title: "{{< var title >}}"
+title: "{{< var project.title >}}"
 subtitle: "A full-semester course at the University of Hamburg"
 image: "images/version_control_scriberia.jpg"
 comments: false
@@ -12,7 +12,7 @@ about:
 
 ### Welcome!
 
-This is the website for the full-semester seminar course "{{< var title >}}" at the University of Hamburg, taught by Dr. Lennart Wittkuhn.
+This is the website for the full-semester seminar course "{{< var project.title >}}" at the University of Hamburg, taught by Dr. Lennart Wittkuhn.
 
 ---
 
