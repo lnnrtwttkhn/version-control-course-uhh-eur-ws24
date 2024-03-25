@@ -18,7 +18,7 @@ This is the website for the full-semester seminar course "{{< var project.title 
 
 {{< fa circle-info >}} **What?** Full-semester course on version control
 
-{{< fa calendar-days >}} **When?** Winter 23/24 (Oct-Feb), Fridays, 10:15 - 11:45
+{{< fa calendar-days >}} **When?** {{< var project.when-short >}}
 
 {{< fa building-columns >}} **Where?** {{< var project.where-short >}}
 

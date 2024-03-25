@@ -7,7 +7,7 @@ comments: false
 
 {{< fa circle-info >}} **What?** This is the course website for the full-semester course "{{< var project.title >}}"
 
-{{< fa calendar-days >}} **When?** Winter 2023/24 (October to February), every Friday, 10:15 to 11:45 ([detailed schedule](schedule.qmd))
+{{< fa calendar-days >}} **When?**  {{< var project.when-long >}} ([detailed schedule](schedule.qmd))
 
 {{< fa building-columns >}} **Where?** {{< var project.where-long >}}
 

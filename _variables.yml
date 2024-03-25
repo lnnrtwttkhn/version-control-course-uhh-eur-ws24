@@ -1,6 +1,8 @@
 project:
   name: "version-control-course-uhh-ss24"
   title: "Track, organize and share your work: An introduction to Git for psychological research"
+  when-long: "Summer 2024 (April to July), every Monday, 12:15 to 13:45"
+  when-short: "Summer 2024 (Apr-Jul), Mondays, 12:15 - 13:45"
   where-long: "University of Hamburg, Von-Melle-Park 5, Room 3016"
   where-short: "University of Hamburg (VMP 5, 3016)"
 links:
