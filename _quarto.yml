@@ -43,6 +43,8 @@ website:
         href: faq.qmd
       - text: "{{< fa circle-exclamation >}} Code of Conduct"
         href: code-of-conduct.qmd
+      - text: "{{< fa heart >}} Acknowledgements"
+        href: acknowledgements.qmd
     right:
       - icon: envelope
         aria-label: Email
@@ -60,7 +62,7 @@ website:
       - text: "Funded by the Digital and Data Literacy in Teaching Lab"
         href: acknowledgements.qmd
     right: |
-      License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | [Acknowledgements](acknowledgements.qmd){target="_self"}
+      License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 format:
   html:

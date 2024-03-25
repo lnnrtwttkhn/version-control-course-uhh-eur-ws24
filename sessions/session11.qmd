@@ -9,7 +9,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: sessions/slides_session11.html
+      href: https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/slides_session11.html
       aria-label: display
     - icon: book
       text: "Chapter: GitHub"

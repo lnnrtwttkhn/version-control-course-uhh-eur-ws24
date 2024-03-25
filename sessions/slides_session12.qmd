@@ -3,8 +3,8 @@ title: "Session 12: Advanced GitHub"
 subtitle: |
   {{< var title >}}
   
-  [{{< fa brands internet-explorer >}} Slides]({{< var website >}}) |
-  [{{< fa brands github >}} Source]({{< var source >}})
+  [{{< fa brands internet-explorer >}} Slides]({{< var links.site >}}) |
+  [{{< fa brands github >}} Source]({{< var links.github >}})
   
   {{< var slides.license-badge >}}
 date: 2024-01-19

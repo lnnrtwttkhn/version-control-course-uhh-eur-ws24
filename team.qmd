@@ -76,7 +76,7 @@ cat(buttons)
 ::: g-col-8
 ### Prof. Dr. Nicolas Schuck
 
-Nico is a professor of Psychology and principal investigator of the [Research Group "Mechanisms of Learning and Change"](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html) at the [University of Hamburg](https://www.uni-hamburg.de/en.html) and the [Max Planck Research Group NeuroCode](https://www.mpib-berlin.mpg.de/research/research-groups/mprg-neurocode) at the [Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/en) in Berlin.
+Nico is a professor of Psychology and principal investigator of the [Research Group "Mechanisms of Learning and Change"](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/kognitive-neurowissenschaften-insb-lern-und-veraenderungsmechanismen.html) at the [University of Hamburg](https://www.uni-hamburg.de/en.html) and the [Max Planck Research Group NeuroCode](https://www.mpib-berlin.mpg.de/research/research-groups/mprg-neurocode) at the [Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/en) in Berlin.
 
 ```{r, results='asis', echo=FALSE}
 buttons <- dt %>% .[id == "nico"] %>% .$button_icon %>% create_grid()
