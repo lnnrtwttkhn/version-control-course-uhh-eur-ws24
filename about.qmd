@@ -5,7 +5,7 @@ comments: false
 
 ## Overview
 
-{{< fa circle-info >}} **What?** This is the course website for the full-semester course on "{{< var title >}}"
+{{< fa circle-info >}} **What?** This is the course website for the full-semester course "{{< var title >}}"
 
 {{< fa calendar-days >}} **When?** Winter 2023/24 (October to February), every Friday, 10:15 to 11:45 ([detailed schedule](schedule.qmd))
 

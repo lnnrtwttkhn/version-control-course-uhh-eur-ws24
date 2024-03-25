@@ -1,4 +1,4 @@
-title: "Effective Progress Tracking and Collaboration: An Introduction to Version Control of Code and Data"
+title: "Track, organize and share your work: An introduction to Git for psychological research"
 links:
   email: "lennart.wittkuhn@uni-hamburg.de"
   mailto: "mailto:{{< var links.email >}}"
