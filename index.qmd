@@ -31,8 +31,6 @@ This is the website for the full-semester seminar course "{{< var project.title 
 
 {{< fa brands github >}} **Code?** Find all source code [on GitHub]({{< var links.github >}})!
 
-{{< fa lightbulb >}} **Details?** Read our project [proposal]({{< var links.proposal >}})!
-
 {{< fa bug >}} **Bug?** Open an [issue]({{< var links.issues >}}) or send an [email]({{< var links.mailto >}})!
 
 {{< fa circle-question >}} **Questions?** Read the [FAQ](faq.qmd){target="_self"} or send an [email]({{< var links.mailto >}})!
