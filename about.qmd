@@ -16,23 +16,23 @@ title: "About"
 
 ## Description
 
-The digital objects on our computers are in a constant state of flux.
-Manuscripts, programming code and research data are changed continuously over long periods of time, often in close collaboration with others.
-A systematic documentation of these changes forms the basis for controlled and reproducible work on code and data.
-In a seminar with hands-on exercises, course participants will learn "{{< var project.title >}}".
+### Content
 
-Version control is the notebook for a digital world and [Git](https://git-scm.com/) is probably the best known version control system.
-Git allows to precisely document changes in digital objects and thus to track who changed what, when, how and why in a file.
-Changes can be revised, versions can be compared and restored.
-In addition, it is possible to work simultaneously on the same file and systematically integrate parallel versions.
-In addition, Git enables effective collaboration.
-Via platforms such as [GitHub](https://github.com/) or [GitLab](https://about.gitlab.com/), code and data can be shared with the world, transparently viewed by others, used and collaboratively developed.
-In this way, version control helps to ensure that knowledge generated from data is transparent, accessible and verifiable.
-As an effective method for storing and manipulating code and data, version control thus represents a core competency of data literacy.
+In today's digital age, the majority of scientific insights in psychological research are gained from the analysis of data using programming code.
+Although data and code are integral parts of their work, scientists often handle digital objects on their computers in a somewhat chaotic, unreliable, and irreproducible manner.
+It's not uncommon to hear researchers wondering, "Which version of my data and code did I use to get this result?" or "I found a bug in my code. Since when was it there?" and "This code used to work! What did I change?".
+This not only affects the reproducibility and trustworthiness of science but also frequently leads to frustration, a waste of time, and, at worst, the loss of painstakingly accumulated work.
+The good news is that scientists can learn about practices and tools from other disciplines, particularly software engineering, that have significantly professionalized collaborative work on digital objects like programming code.
+At the core of this toolkit is the free and open-source software Git, a so-called version control system that allows tracking and organizing the evolution of digital objects on computers and sharing them via platforms like GitHub.
+In this hands-on course with practical exercises, participants will learn how to track, organize and share their work using Git.
 
-Because Git was developed for versioning small, text-based files (such as programming code), its usability with larger, binary files (such as image or video data) is limited for technical reasons.
-The open-source software [DataLad](https://www.datalad.org/) extends the features of Git to provide version control for large data sets (up to several terabytes).
-DataLad is applicable to arbitrary data structures and is independent of any central infrastructure or third-party vendors.
-Like Git, DataLad allows tracking changes to data and restoring previous versions of a data set.
-Furthermore, DataLad allows you to capture the digital provenance of data and accurately reproduce analyses of the data.
-In addition, DataLad allows to publish data on a variety of platforms or use existing data.
+### Goals
+
+The primary aim of this course is to empower students with the skills to efficiently organize projects on their computers using Git and GitHub.
+Participants will actively engage in hands-on experiences with these tools, exploring both the command-line and Graphical User Interfaces.
+Proficiency in Git and GitHub not only enhances students' effectiveness in conducting research projects by ensuring organized and reproducible workflows but also elevates their employability.
+The technical skills acquired in this course are increasingly sought after in various work settings, providing students with a competitive edge in today's dynamic job market.
+
+### Mechanics
+
+Guided by the seminar instructor, participants will receive input while working through a dedicated Git Handbook (<https://lennartwittkuhn.com/version-control-book/>) that is tuned to the structure of the course and needs of the students, as well as engaging in practical hands-on exercises with Git and GitHub.
