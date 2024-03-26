@@ -1,6 +1,5 @@
 ---
 title: "Schedule"
-toc: false
 ---
 
 {{< fa calendar-days >}} **When?** {{< var project.when-long >}} (detailed schedule below)
@@ -21,5 +20,7 @@ The actual pace and content covered may vary based on the instructor's discretio
 #| echo: false
 #| message: false
 #| warning: false
+library("here")
+source(here::here("functions.R"))
 create_schedule()
 ```
