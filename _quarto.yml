@@ -3,7 +3,6 @@ project:
   output-dir: _site
   execute-dir: project
   # pre-render: make download-images
-  
   preview: 
     port: 9999
     browser: true
@@ -14,10 +13,9 @@ website:
   title: "Version Control of Code and Data"
   favicon: images/git-icon.svg
   description: "Website for a full-semester course at University of Hamburg on version control of code and data"
-  site-url: https://lennartwittkuhn.com/version-control-course-uhh-ws23
-  repo-url: https://github.com/lnnrtwttkhn/version-control-course-uhh-ws23
+  site-url: "{{< var links.site >}}"
+  repo-url: "{{< var links.github >}}"
   open-graph: false
-  
   navbar:
     background: light
     title: false
@@ -46,10 +44,10 @@ website:
     right:
       - icon: envelope
         aria-label: Email
-        href: mailto:lennart.wittkuhn@uni-hamburg.de
+        href: "{{< var links.mailto >}}"
       - icon: github
         aria-label: GitHub
-        href: https://github.com/lnnrtwttkhn/version-control-course-uhh-ws23
+        href: "{{< var links.github >}}"
         
   page-footer:
     background: light
