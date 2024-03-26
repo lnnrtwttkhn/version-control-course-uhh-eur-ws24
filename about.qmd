@@ -10,9 +10,9 @@ title: "About"
 
 {{< fa building-columns >}} **Where?** {{< var project.where-long >}}
 
-{{< fa user-group >}} **Who?** This course is offered to Psychology Master's students at the University of Hamburg.
+{{< fa user-group >}} **Who?** This course is offered to {{< var project.target-group >}} at {{< var project.where-institution }}.
 
-{{< fa gear >}} **How?** Read more about [how the course will work in practice](mechanics.qmd).
+{{< fa gear >}} **How?** Read more about [how the course will work](mechanics.qmd).
 
 ## Description
 
