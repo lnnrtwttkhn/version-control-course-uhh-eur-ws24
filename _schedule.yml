@@ -23,7 +23,7 @@ session02:
     - "[Command Line Quiz](https://version-control-cli.formr.org)"
 session03:
   date: 2024-04-22
-  title: "Setup + Git Fundementals"
+  title: "Setup + Git Fundamentals"
   contents:
     - "Installation and configuration of Git"
     - "Initializing a Git repository"
