@@ -70,8 +70,8 @@ metadata-files:
 
 :::: {.columns}
 ::: {.column width="50%"}
-- {{< fa calendar-days >}} **Date:** {{< var project.semester >}}
-- {{< fa clock >}} **Time:** {{< var project.time >}}
+- {{< fa calendar-days >}} **Date:** {{< var project.when-semester >}}
+- {{< fa clock >}} **Time:** {{< var project.when-time >}}
 - {{< fa building-columns >}} **Room:** {{< var project.where-long >}}
 - {{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
 - {{< fa user-plus >}} **Assistant:** [Konrad Pagenstedt]({{< var team.konrad.mailto >}})
