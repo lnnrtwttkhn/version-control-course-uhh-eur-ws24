@@ -1,6 +1,5 @@
 ---
-title: "Mechanics: Course Overview"
-comments: false
+title: "Mechanics"
 nocite: |
   @wilson2021, @millman2018
 ---
@@ -8,32 +7,32 @@ nocite: |
 ## Overview
 
 :::: {.columns}
-::: {.column width="50%"}
-{{< fa calendar-days >}} **Date:** {{< var project.semester >}}
+::: {.column width="65%"}
+{{< fa calendar-days >}} **Date:** {{< var project.when-semester >}}
 :::
-::: {.column width="50%"}
+::: {.column width="35%"}
 {{< fa chalkboard >}} **Event:** Seminar
 :::
-::: {.column width="50%"}
-{{< fa clock >}} **Time:** {{< var project.time >}}
+::: {.column width="65%"}
+{{< fa clock >}} **Time:** {{< var project.when-time >}}
 :::
-::: {.column width="50%"}
+::: {.column width="35%"}
 {{< fa gem >}} **Credits:** 4,0
 :::
-::: {.column width="50%"}
+::: {.column width="65%"}
 {{< fa building-columns >}} **Room:** {{< var project.where-long >}}
 :::
-::: {.column width="50%"}
-{{< fa language >}} **Language:** English / German
+::: {.column width="35%"}
+{{< fa language >}} **Language:** English
 :::
-::: {.column width="50%"}
+::: {.column width="65%"}
 {{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
 :::
-::: {.column width="50%"}
-{{< fa tag >}} **Tag:** {{< var project.tag >} 
+::: {.column width="35%"}
+{{< fa tag >}} **Tag:** {{< var project.tag >}}
 :::
 ::: {.column width="100%"}
-{{< fa file-signature >}} **Registration:** The registration period starts on February 26th 2024 at 9:00 and ends on March 07th 2024 at 13:00.
+{{< fa file-signature >}} **Registration:** The registration period starts on {{< var project.registration-start >}} and ends on {{< var project.registration-end >}}.
 MSc Psychology students at University of Hamburg can enroll via [Stine]({{< var links.stine >}}).
 :::
 ::::
