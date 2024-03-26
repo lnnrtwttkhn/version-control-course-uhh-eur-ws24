@@ -23,8 +23,6 @@ This is the website for the full-semester seminar course "{{< var project.title 
 
 {{< fa user-group >}} **Who?** Psychology Master's students
 
-{{< fa brain >}} **Focus?** Psychology and Cognitive Neuroscience
-
 {{< fa gear >}} **How?** Read about [how this course will work](mechanics.qmd).
 
 ---
