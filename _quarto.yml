@@ -35,8 +35,8 @@ website:
       #   href: tools.qmd
       - text: "{{< fa chalkboard-user >}} Team"
         href: team.qmd
-      - text: "{{< fa gem >}} Resources"
-        href: resources.qmd
+      # - text: "{{< fa gem >}} Resources"
+      #  href: resources.qmd
       - text: "{{< fa gear >}} Mechanics"
         href: mechanics.qmd
       - text: "{{< fa circle-exclamation >}} Code of Conduct"
