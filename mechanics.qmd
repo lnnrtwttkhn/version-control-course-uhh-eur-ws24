@@ -33,7 +33,7 @@ nocite: |
 {{< fa tag >}} **Tag:** {{< var project.tag >} 
 :::
 ::: {.column width="100%"}
-{{< fa file-signature >}} **Registration:** The registration period starts on February 26th 2024 at 9:00 and ends on March 07th 2023 at 13:00.
+{{< fa file-signature >}} **Registration:** The registration period starts on February 26th 2024 at 9:00 and ends on March 07th 2024 at 13:00.
 MSc Psychology students at University of Hamburg can enroll via [Stine]({{< var links.stine >}}).
 :::
 ::::
@@ -60,8 +60,8 @@ Instructor-led quiz questions may also be interspersed throughout.
 3. {{< fa laptop-code >}} **Exercises & Implementation (up to 60 minutes):**
 <br>Course participants actively delve into hands-on exercises and assignments.
 
-Note, that course participants are **not required** (but are of course free) **to work on course materials outside of class time**.
-All course contents will be covered during class time.
+Note, that course participants are **sometimes required to work on course materials outside of class time**.
+Not **all** course contents will be covered during class time.
 
 ## Course Materials
 
