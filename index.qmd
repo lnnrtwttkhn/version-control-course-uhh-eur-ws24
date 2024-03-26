@@ -33,7 +33,7 @@ This is the website for the full-semester course "{{< var project.title >}}" at 
 
 {{< fa circle-question >}} **Questions?** Open an [issue]({{< var links.issues >}}) or send an [email]({{< var links.mailto >}})!
 
-{{< fa heart >}} **Thanks!** Thanks to our [supporters](acknowledgements.qmd){target="_self"}!
+{{< fa heart >}} **Thanks!** Thanks to our [supporters](acknowledgements.qmd)!
 
 ---
 
