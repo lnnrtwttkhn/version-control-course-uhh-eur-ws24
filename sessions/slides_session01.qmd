@@ -7,7 +7,7 @@ subtitle: |
   [{{< fa brands github >}} Source]({{< var links.github >}})
   
   {{< var slides.license-badge >}}
-date: "2023-10-20"
+date: "2024-04-08"
 format: revealjs
 metadata-files:
   - _slides.yml
@@ -69,9 +69,9 @@ metadata-files:
 
 :::: {.columns}
 ::: {.column width="50%"}
-- {{< fa calendar-days >}} **Date:** Winter semester 2023/24 (Oct to Feb)
-- {{< fa clock >}} **Time:** Fridays, 10:15 to 11:45 am (90 minutes)
-- {{< fa building-columns >}} **Room:** UHH, VMP 5, Room 4047
+- {{< fa calendar-days >}} **Date:** {{< var project.semester >}}
+- {{< fa clock >}} **Time:**{{< var project.time >}}
+- {{< fa building-columns >}} **Room:** {{< var project.where-long >}}
 - {{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
 - {{< fa user-plus >}} **Assistant:** [Konrad Pagenstedt]({{< var team.konrad.mailto >}})
 :::
@@ -79,14 +79,14 @@ metadata-files:
 - {{< fa chalkboard >}} **Event:** Seminar
 - {{< fa gem >}} **Credits:** 4,0
 - {{< fa language >}} **Language:** English / German
-- {{< fa tag >}} **Tag:** PsyM14-PsyWB-K02 
+- {{< fa tag >}} **Tag:** {{< var project.tag >}}
 :::
 ::::
 
 ## What will the average seminar session look like?
 
 ::: {.fragment}
-{{< fa clock >}} The course will consist of up to 14 sessions (90 minutes each)
+{{< fa clock >}} The course will consist of up to 13 sessions (90 minutes each)
 :::
 
 ::: {.fragment}
@@ -115,8 +115,8 @@ Talk to use if you don't have a laptop.
 :::
 
 ::: {.fragment}
-Note, that course participants are **not required** (but are of course free) **to work on course materials outside of class time**.
-All course contents will be covered during class time.
+Note, that course participants are **sometimes required to work on course materials outside of class time**.
+Not all course contents will be covered during class time.
 :::
 
 ## Schedule
@@ -131,10 +131,10 @@ create_schedule()
 
 ## Course Website
 
-{{< fa brands internet-explorer >}} [lennartwittkuhn.com/version-control-course-uhh-ws23](https://lennartwittkuhn.com/version-control-course-uhh-ws23/)
+{{< fa brands internet-explorer >}} [lennartwittkuhn.com/version-control-course-uhh-ss24](https://lennartwittkuhn.com/version-control-course-uhh-ss24/)
 
 ```{=html}
-<iframe width="100%" height="74%" src="https://lennartwittkuhn.com/version-control-course-uhh-ws23/" title="Course Website"></iframe>
+<iframe width="100%" height="74%" src="https://lennartwittkuhn.com/version-control-course-uhh-ss24/" title="Course Website"></iframe>
 ```
 
 ::: {.notes}
@@ -168,31 +168,6 @@ create_schedule()
 - if you want your data to be deleted, send an email with your codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}})
 :::
 
-## Collaborative notes
-
-:::: {.columns}
-::: {.column width="40%"}
-
-![](../images/hedgedoc-logo.png)
-
-#### HedgeDoc (UHH Pad)
-
-- {{< fa house >}} [HedgeDoc (UHH Pad)]({{< var links.hedgedoc >}})
-- {{< fa link >}} [Notepad for Session 1](https://pad.uni-hamburg.de/L7JO6dsiTtSzWhjV6SvyKg?both)
-- {{< fa pen-to-square >}} Edit notes using [Markdown]({{< var links.markdown >}}) (see [HedgeDoc Features]({{< var links.hedgedoc-features >}}) and Session 4)
-- {{< fa key >}} No account or log-in required
-- {{< fa warning >}} Notes are public!
-Don't use it for personal or sensitive data!
-- {{< fa clipboard >}} One notepad per session
-- {{< fa lock >}} Notepad will be locked at the next session
-
-:::
-::: {.column width="60%"}
-
-![](../images/hedgedoc-screenshot.png)
-:::
-::::
-
 ## Your role, questions and interactions
 
 ::: {.fragment}
@@ -222,43 +197,6 @@ There are no stupid questions!
 ## Code of Conduct
 
 {{< include ../_code-of-conduct.qmd >}}
-
-## Two RA positions in our group!
-
-:::: {.columns}
-::: {.column width="50%"}
-::: {.fragment}
-![[git-scm.com](https://git-scm.com/)](../images/git-logo-full.svg){fig-align="center" width="85%"}
-
-### Version Control of Code & Data
-
-- :notebook: **Tasks:** Support our teaching project!
-- :calendar: **Duration:** as soon as possible until March 31 2024
-- :clock1: **Time:** flexible, up to 37 hours / month (WHK)
-- :moneybag: **Salary:** 12.00 € / hour (SHK) / 13.95 € / hour (WHK)
-- :envelope: **Contact:** [{{< var team.lennart.email >}}]({{< var team.lennart.mailto >}})
-
-:::
-:::
-::: {.column width="50%"}
-::: {.fragment}
-
-::: {layout-ncol=2}
-![](../images/mri.png){width=50%}
-
-![](../images/brain-anatomical.png){width=40%}
-:::
-### Memory reactivation in older adults
-
-- :notebook: **Tasks:** Support of fMRI data collection
-- :calendar: **Duration:** as soon as possible
-- :clock1: **Time:** flexible, 60 - 80 hours / month
-- :moneybag: **Salary:** 12.00 € / hour (SHK) / 13.95 € / hour (WHK)
-- :envelope: **Contact:** [erc-studies-luv.psych@uni-hamburg.de](mailto:erc-studies-luv.psych@uni-hamburg.de)
-
-:::
-:::
-::::
 
 # Survey results
 
