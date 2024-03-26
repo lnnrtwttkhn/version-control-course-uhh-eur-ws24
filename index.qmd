@@ -11,7 +11,7 @@ about:
 
 ### Welcome!
 
-This is the website for the full-semester seminar course "{{< var project.title >}}" at the University of Hamburg, taught by Dr. Lennart Wittkuhn.
+This is the website for the full-semester course "{{< var project.title >}}" at {{< var project.where-institution >}}, instructed by {{< var project.instructors >}}.
 
 ---
 
@@ -21,9 +21,9 @@ This is the website for the full-semester seminar course "{{< var project.title 
 
 {{< fa building-columns >}} **Where?** {{< var project.where-short >}}
 
-{{< fa user-group >}} **Who?** Psychology Master's students
+{{< fa user-group >}} **Who?** {{< var project.target-group >}}
 
-{{< fa gear >}} **How?** Read about [how this course will work](mechanics.qmd).
+{{< fa gear >}} **How?** Read about [how this course will work](mechanics.qmd)
 
 ---
 
@@ -31,9 +31,9 @@ This is the website for the full-semester seminar course "{{< var project.title 
 
 {{< fa bug >}} **Bug?** Open an [issue]({{< var links.issues >}}) or send an [email]({{< var links.mailto >}})!
 
-{{< fa circle-question >}} **Questions?** Read the [FAQ](faq.qmd){target="_self"} or send an [email]({{< var links.mailto >}})!
+{{< fa circle-question >}} **Questions?** Open an [issue]({{< var links.issues >}}) or send an [email]({{< var links.mailto >}})!
 
-{{< fa heart >}} **Thanks!** Thanks to all our [supporters](acknowledgements.qmd){target="_self"}!
+{{< fa heart >}} **Thanks!** Thanks to our [supporters](acknowledgements.qmd){target="_self"}!
 
 ---
 

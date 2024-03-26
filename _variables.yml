@@ -1,6 +1,7 @@
 project:
   name: "version-control-course-uhh-ss24"
   title: "Track, organize and share your work: An introduction to Git for psychological research"
+  instructors: "Dr. Lennart Wittkuhn"
   when-long: "Summer 2024 (April to July), every Monday, 12:15 to 13:45"
   when-short: "Summer 2024 (Apr-Jul), Mondays, 12:15 - 13:45"
   when-semester: "Summer semester 2024 (April to July)"
@@ -10,6 +11,7 @@ project:
   where-room: "Room 3016"
   where-long: "{{< var project.where-institution >}}, {{< var project.where-address >}}, {{< var project.where-room >}}"
   where-short: "{{< var project.where-institution >}} (VMP 5, 3016)"
+  target-group: "Psychology Master's students"
   tag: "PsyM14-PsyWB-K04"
   registration-start: "February 26th 2024 at 9:00"
   registration-end: "March 07th 2024 at 13:00"
