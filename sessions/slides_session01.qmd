@@ -172,28 +172,41 @@ create_schedule()
 ## Your role, questions and interactions
 
 ::: {.fragment}
-#### **Activate participation**
-- This is a pass / fail course
-- Requirement 1: Come to at least 12 out of 14 sessions (85%) and sign the attendance list
-- Requirement 2: Complete the exercises and quizzes (in class and online)
-:::
-::: {.fragment}
 #### **Questions & discussions *during* class time**
 - Ask questions!
 There are no stupid questions!
-- Share your ideas in writing via the notepads
 - Participate in the discussions
 :::
 ::: {.fragment}
 #### **Questions & discussions *outside of* class time**
 - Ask questions!
 There are no stupid questions!
-- Share your ideas in writing via the notepads
 - Send questions to our mailing list: [{{< var links.email-mailing-list >}}]({{< var links.mailto-mailing-list >}})
 - Send questions to [Lennart]({{< var team.lennart.mailto >}}) and / or [Konrad]({{< var team.konrad.mailto >}})
 - Office hours by appointment
 - Give use feedback!
 :::
+
+## Your role, Participation and exercises
+
+::: {.fragment}
+#### **Active participation**
+- This is a pass / fail course
+- Requirement 1: Come to at least **12 out of 14 sessions** (85%) and sign the attendance list
+- Requirement 2: Fill out all **surveys/quizzes** (They are not that long)
+- Requirement 3: Do **all mandatory exercises**
+:::
+
+::: {.fragment}
+#### **Mandatory Exercise**
+- Most will focus on building a Recipe Resource 
+:::
+
+## Recipe Resource 
+
+```{=html}
+<iframe width="100%" height="100%" src="https://lennartwittkuhn.com/recipes/" title="Course Website"></iframe>
+```
 
 ## Code of Conduct
 
