@@ -285,11 +285,9 @@ Read [Chapter 1: "Introduction to Version Control"](https://lennartwittkuhn.com/
 ::::
 :::::
 
-## What are git and DataLad?
+## What is Git?
 
 :::: {.columns}
-
-::: {.column width="50%"}
 
 ::: {.fragment}
 ![[git-scm.com](https://git-scm.com/)](../images/git-logo-full.svg){fig-align="center" width=50%}
@@ -302,27 +300,10 @@ Read [Chapter 1: "Introduction to Version Control"](https://lennartwittkuhn.com/
 
 :::
 
-:::
-
-::: {.column width="50%"}
-
-::: {.fragment}
-![[datalad.org](https://www.datalad.org/)](../images/datalad-logo-full.svg){fig-align="center" width=50%}
-
-- "git for (large) data"
-- free, [open-source](https://github.com/datalad/datalad) command-line tool
-- builds on top of [git](https://git-scm.com/) and [git-annex](https://git-annex.branchable.com/)
-- allows to version control arbitrarily large datasets ^[see DataLad dataset of 80TB / 15 million files from the Human Connectome Project (see [details](https://handbook.datalad.org/en/latest/usecases/HCP_dataset.html#usecase-hcp-dataset))]
-- graphical user interface exists: [DataLad Gooey](http://docs.datalad.org/projects/gooey/en/latest/index.html)
-
-:::
-
-:::
-
 ::::
 
 ::: {.fragment}
-Note: We will mainly focus on Git and only refer to DataLad as an outlook.
+Note: We will focus on Git and only refer to DataLad as an outlook.
 :::
 
 ::: {.notes}
@@ -354,16 +335,6 @@ Note: We will mainly focus on Git and only refer to DataLad as an outlook.
 - Archiving on GitHub is not enough
 :::
 
-## DataLad
-
-:::: {.columns}
-::: {.column width="50%"}
-![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd052810s.gif)](http://phdcomics.com/comics/archive/phd052810s.gif)
-:::
-::: {.column width="50%"}
-![](../images/datalad-logo-full.svg){width="100%"}
-:::
-::::
 
 ## Schedule
 
