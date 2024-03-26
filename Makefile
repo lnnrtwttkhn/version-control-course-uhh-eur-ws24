@@ -14,8 +14,8 @@ render: clean images
 deploy: clean
 	quarto publish gh-pages
 
-.PHONY: download-images
-download-images:
+.PHONY: images
+images:
 	wget $(IMAGES_URL) -O $(IMAGES_ARCHIVE)
 	unzip -j -o $(IMAGES_ARCHIVE) -d $(IMAGES_DIR)
 	rm -f $(IMAGES_ARCHIVE)
