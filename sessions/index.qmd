@@ -2,7 +2,9 @@
 title: "Sessions"
 listing:
   id: sessions
-  contents: "session01.qmd"
+  contents:
+    - "session01.qmd"
+    - "session02.qmd"
   type: default
   sort: "date desc"
   categories: false
