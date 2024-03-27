@@ -358,3 +358,26 @@ Note: We will focus on Git and only refer to DataLad as an outlook.
 #| warning: false
 create_schedule()
 ```
+
+## "Homework" Tasks
+
+::::: {.columns}
+
+:::: {.column width="50%"}
+::: {.fragment}
+### Windows User {{< fa brands windows >}}
+
+- Download and Install [GitBASH](https://gitforwindows.org) until **next week**
+- You can find a tutorial in our [Version Control Book](https://lennartwittkuhn.com/version-control-book/chapters/installation.html)
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.fragment}
+### Apple  {{< fa brands apple >}} or Linux User {{< fa brands linux >}} 
+
+- Download and Install [Git](https://git-scm.com) until **15.04.** (in two weeks)
+- You can find a tutorial in our [Version Control Book](https://lennartwittkuhn.com/version-control-book/chapters/installation.html)
+:::
+::::
+:::::
