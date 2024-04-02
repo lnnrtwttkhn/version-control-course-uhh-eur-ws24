@@ -13,8 +13,8 @@ website:
   title: "Version Control of Code and Data"
   favicon: images/git-icon.svg
   description: "Website for a full-semester course at University of Hamburg on version control of code and data"
-  site-url: "{{< var links.site >}}"
-  repo-url: "{{< var links.github >}}"
+  site-url: "https://lennartwittkuhn.com/version-control-course-uhh-ss24/"
+  repo-url: "https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24/"
   open-graph: false
   navbar:
     background: light
