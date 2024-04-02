@@ -21,7 +21,8 @@ links:
   github: "https://github.com/lnnrtwttkhn/{{< var project.name >}}"
   issues: "{{< var links.github >}}/issues"
   site: "https://lennartwittkuhn.com/{{< var project.name >}}"
-  proposal: https://lennartwittkuhn.com/ddlitlab-proposal
+  ddlitlab-proposal: https://lennartwittkuhn.com/ddlitlab-proposal
+  illf-proposal: https://lennartwittkuhn.com/illf-application/
   nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG
   stine: https://stine.uni-hamburg.de/
   hedgedoc: https://pad.uni-hamburg.de/
@@ -33,7 +34,7 @@ links:
   email-mailing-list: version-control-course.psych@lists.uni-hamburg.de
   mailto-mailing-list: "mailto:{{< var links.email-mailing-list >}}"
   book: https://lennartwittkuhn.com/version-control-book/
-years: "2023 -- 2024"
+years: "2023 -- 2025"
 team:
   lennart:
     id: lennart
