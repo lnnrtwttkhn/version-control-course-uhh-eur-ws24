@@ -11,7 +11,7 @@ render: clean images
 	quarto render
 
 .PHONY: deploy
-deploy: clean
+deploy: clean images
 	quarto publish gh-pages
 
 .PHONY: images
