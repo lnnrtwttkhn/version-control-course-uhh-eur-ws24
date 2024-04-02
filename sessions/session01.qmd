@@ -48,8 +48,7 @@ A few technical remarks about the survey:
 The survey will ask you for two codewords: a **personal codeword** and a **course code**.
 
 The **personal codeword** is used to associate your responses with a unique identifier.
-This will allow us to relate your responses across surveys while ensuring anonymity.
-Note that you can also complete the survey without providing a personal codeword.
+This will allow us to identify and relate your responses across surveys while ensuring anonymity.
 By providing a personal codeword, you will allow us to draw more detailed insights from your responses that will help us improve the course for you.
 The survey will contain an explanation of how to generate your personal codeword.
 
