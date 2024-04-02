@@ -1,9 +1,26 @@
-title: "Effective Progress Tracking and Collaboration: An Introduction to Version Control of Code and Data"
+project:
+  name: "version-control-course-uhh-ss24"
+  title: "Track, organize and share your work: An introduction to Git for psychological research"
+  instructors: "Dr. Lennart Wittkuhn"
+  when-long: "Summer 2024 (April to July), every Monday, 12:15 to 13:45"
+  when-short: "Summer 2024 (Apr-Jul), Mondays, 12:15 - 13:45"
+  when-semester: "Summer semester 2024 (April to July)"
+  when-time: "Mondays, 12:15 - 13:45 (90 Minutes)"
+  where-institution: "University of Hamburg"
+  where-address: "Von-Melle-Park 5"
+  where-room: "Room 3016"
+  where-long: "{{< var project.where-institution >}}, {{< var project.where-address >}}, {{< var project.where-room >}}"
+  where-short: "{{< var project.where-institution >}} (VMP 5, 3016)"
+  target-group: "Psychology Master's students"
+  tag: "PsyM14-PsyWB-K04"
+  registration-start: "February 26th 2024 at 9:00"
+  registration-end: "March 07th 2024 at 13:00"
 links:
-  email: mailto:lennart.wittkuhn@uni-hamburg.de
-  github: https://github.com/lnnrtwttkhn/version-control-course-uhh-ws23
-  issues: https://github.com/lnnrtwttkhn/version-control-course-uhh-ws23/issues
-  site: https://lennartwittkuhn.com/version-control-course-uhh-ws23
+  email: "lennart.wittkuhn@uni-hamburg.de"
+  mailto: "mailto:{{< var links.email >}}"
+  github: "https://github.com/lnnrtwttkhn/{{< var project.name >}}"
+  issues: "{{< var links.github >}}/issues"
+  site: "https://lennartwittkuhn.com/{{< var project.name >}}"
   proposal: https://lennartwittkuhn.com/ddlitlab-proposal
   nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG
   stine: https://stine.uni-hamburg.de/
@@ -48,3 +65,19 @@ slides:
   license-long: "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"
   license-short: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
   license-badge: "[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)"
+dates:
+  one: "2024-04-08"
+  two: "2024-04-15"
+  three: "2024-04-22"
+  four: "2024-04-29"
+  five: "2024-05-06"
+  six: "2024-05-13"
+  seven: "2024-05-20"
+  eight: "2024-05-27"
+  nine: "2024-06-03"
+  ten: "2024-06-10"
+  eleven: "2024-06-17"
+  twelve: "2024-06-24"
+  thirteen: "2024-07-01"
+  fourteen: "2024-07-08"
+  

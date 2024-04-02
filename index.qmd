@@ -1,8 +1,7 @@
 ---
-title: "Effective Progress Tracking and Collaboration: An Introduction to Version Control of Code and Data"
+title: "{{< var project.title >}}"
 subtitle: "A full-semester course at the University of Hamburg"
 image: "images/version_control_scriberia.jpg"
-comments: false
 toc: false
 about:
   template: trestles
@@ -12,35 +11,29 @@ about:
 
 ### Welcome!
 
-This is the website for the full-semester seminar course on "{{< meta title >}}" at the University of Hamburg, taught by Dr. Lennart Wittkuhn.
+This is the website for the full-semester course "{{< var project.title >}}" at {{< var project.where-institution >}}, instructed by {{< var project.instructors >}}.
 
 ---
 
 {{< fa circle-info >}} **What?** Full-semester course on version control
 
-{{< fa calendar-days >}} **When?** Winter 23/24 (Oct-Feb), Fridays, 10:15 - 11:45
+{{< fa calendar-days >}} **When?** {{< var project.when-short >}}
 
-{{< fa building-columns >}} **Where?** University of Hamburg (VMP 5, 4047)
+{{< fa building-columns >}} **Where?** {{< var project.where-short >}}
 
-{{< fa user-group >}} **Who?** Psychology Master's students
+{{< fa user-group >}} **Who?** {{< var project.target-group >}}
 
-{{< fa brain >}} **Focus?** Psychology and Cognitive Neuroscience
-
-{{< fa gear >}} **How?** Read about [how this course will work](mechanics.qmd).
+{{< fa gear >}} **How?** Read about [how this course will work](mechanics.qmd)
 
 ---
 
-{{< fa user-plus >}} **Jobs?** Join our [team](team.qmd){target="_self"}!
-
 {{< fa brands github >}} **Code?** Find all source code [on GitHub]({{< var links.github >}})!
 
-{{< fa lightbulb >}} **Details?** Read our project [proposal]({{< var links.proposal >}})!
+{{< fa bug >}} **Bug?** Open an [issue]({{< var links.issues >}}) or send an [email]({{< var links.mailto >}})!
 
-{{< fa bug >}} **Bug?** Open an [issue]({{< var links.issues >}})  or send an [email]({{< var links.email >}}){target="_blank"}!
+{{< fa circle-question >}} **Questions?** Open an [issue]({{< var links.issues >}}) or send an [email]({{< var links.mailto >}})!
 
-{{< fa circle-question >}} **Questions?** Read the [FAQ](faq.qmd){target="_self"} or send an [email]({{< var links.email >}}){target="_blank"}!
-
-{{< fa heart >}} **Thanks!** Thanks to all our [supporters](acknowledgements.qmd){target="_self"}!
+{{< fa heart >}} **Thanks!** Thanks to our [supporters](acknowledgements.qmd)!
 
 ---
 

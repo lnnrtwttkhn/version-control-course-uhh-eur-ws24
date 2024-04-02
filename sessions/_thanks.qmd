@@ -7,7 +7,7 @@
 
 #### Dr. Lennart Wittkuhn
 
-{{< fa envelope >}} [{{< var email >}}]({{< var mailto >}})<br>
+{{< fa envelope >}} [{{< var links.email >}}]({{< var links.mailto >}})<br>
 {{< fa home-user >}} [{{< var homepage >}}]({{< var homepage >}})<br>
 {{< fa brands github >}} [GitHub]({{< var github >}}) 
 {{< fa brands mastodon >}} [Mastodon]({{< var mastodon >}}) 
@@ -28,7 +28,7 @@
 
 {{< fa scale-balanced >}} **License:** {{< var license-long >}}
 
-:speech_balloon: **Contact:** I welcome any feedback via [email]({{< var mailto >}}) or [GitHub issues]({{< var issues >}}).
+:speech_balloon: **Contact:** I welcome any feedback via [email]({{< var links.mailto >}}) or [GitHub issues]({{< var issues >}}).
 Thank you!
 :::
 

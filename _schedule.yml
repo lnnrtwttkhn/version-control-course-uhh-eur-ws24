@@ -1,26 +1,17 @@
 session01:
-  date: 2023-10-20
+  date: 2024-04-08
   title: Introduction to version control
   contents:
     - "Organisational matters"
     - "Overview of seminar sessions"
-    - "Computational reproducibility"
     - "Introduction to version control"
     - "Introduction to Git and its advantages"
-  mechanics:
-    - "[Particify](https://particify.uni-hamburg.de/)"
-    - Pair Programming
-    - HedgeDoc
   reading:
     - "[Intro to version control](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html)"
-  notes: https://pad.uni-hamburg.de/L7JO6dsiTtSzWhjV6SvyKg?both
-  questions:
-    - "Do you have prior coding experience?"
-    - "Make a guess: How many published studies are reproducible?"
   survey:
-    - "[Course introduction survey](https://version-control-intro.formr.org)"
+    - "[Course introduction Survey](https://version-control-intro.formr.org)"
 session02:
-  date: 2023-10-27
+  date: 2024-04-15
   title: Command line
   contents:
     - "File Systems"
@@ -28,38 +19,21 @@ session02:
     - "Basic Command Line commands"
   reading:
     - "[Command Line](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html)"
-  objectives:
-    - "What are the benefits of the command line?"
-    - "Why git works best with text files?"
   survey:
-    - "[Command Line survey](https://version-control-cli.formr.org)"
+    - "[Command Line Quiz](https://version-control-cli.formr.org)"
 session03:
-  date: 2023-11-03
-  title: "Git Basics"
+  date: 2024-04-22
+  title: "Setup + Git Fundamentals"
   contents:
     - "Installation and configuration of Git"
     - "Initializing a Git repository"
     - "Basic Git commands"
-    - "Ignoring files with .gitignore"
-    - "Good commit messages"
   reading:
-    - "[Installation](https://lennartwittkuhn.com/version-control-book/chapters/installation.html), [setup](https://lennartwittkuhn.com/version-control-book/chapters/setup.html), [first steps with Git](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)"
-  commands:
-    - git config
-    - git init
-    - git status
-    - git add
-    - git commit
-    - git log
-    - git diff
+    - "[Installation](https://lennartwittkuhn.com/version-control-book/chapters/installation.html), [Setup](https://lennartwittkuhn.com/version-control-book/chapters/setup.html), [First steps with Git](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)"
   survey:
-    - "[Installation survey](https://version-control-installation.formr.org), [Git Basics survey](https://version-control-basics.formr.org)"
+    - "[Installation Survey](https://version-control-installation.formr.org), [Git Basics Quiz](https://version-control-basics.formr.org)"
 session04:
-  date: 2023-11-10
-  title: "Cancelled"
-  contents: "Cancelled"
-session05:
-  date: 2023-11-17
+  date: 2024-04-29
   title: "Basic Git workflow"
   contents:
     - "Practicing basic Git commands"
@@ -67,109 +41,90 @@ session05:
     - "Good commit messages"
   reading:
     - "[First steps with Git](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)"
-  commands:
-    - git init
-    - git status
-    - git add
-    - git commit
-    - git log
-    - git diff
   survey:
-    - "[Git Basics survey](https://version-control-basics.formr.org)"
+    - "[Git Basics Quiz](https://version-control-basics.formr.org)"
+session05:
+  date: 2024-05-06
+  title: "Quarto Workshop"
+  contents:
+    - "Introduction to [Quarto](https://quarto.org)"
 session06:
-  date: 2023-11-24
-  title: "Cancelled"
-  contents: "Cancelled"
-session07:
-  date: 2023-12-01
-  title: "Quarto workshop"
-  contents:
-    - "Introduction to Quarto"
-    - "Usecases as a scientist"
-    - "Markdown Syntax"
-    - "Using code chunks"
-  reading:
-    - "[Workshop Slides](https://lennartwittkuhn.com/quarto-workshop/)"
-session08:
-  date: 2023-12-08
+  date: 2024-05-13
   title: "Git Branching and Merging"
-  contents:
+  contents: 
     - "Understanding branches in Git"
     - "Creating and switching between branches"
     - "Merging branches: fast-forward and recursive"
     - "Resolving merge conflicts"
     - "Stashing and retrieving changes"
-    - "Undoing changes"
-    - "Removing files"
-  commands:
-    - git branch
-    - git checkout
-    - git switch
-    - git merge
   reading:
     - "[Branches](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)"
-  objectives:
-    - "What are benefits of working with branches?"
-    - "What is a good commit message?"
   survey:
-  - "[Git branches survey](https://version-control-branches.formr.org)"
-session09:
-  date: 2023-12-15
+    - "[Git branches Quiz](https://version-control-branches.formr.org)"
+Whit Monday:
+  date: 2024-05-20
+  title: "Whit Monday"
+  contents: "Cancelled"
+session07:
+  date: 2024-05-27
   title: "Introduction to GitHub"
   contents:
     - "Introduction to remote repositories"
     - "Creating a GitHub account"
     - "Creating and managing repositories on GitHub"
-    - "Cloning/Forking a remote repository"
     - "Pushing and pulling changes"
-    - "Branching and merging in a collaborative environment"
-    - "Graphical User Interfaces (GUIs), e.g., GitKraken"
-  commands:
-    - git clone
-    - git remote
-    - git push
-    - git pull
-    - git fetch
   reading:
     - "[GitHub Intro](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html)"
   survey:
-    - "[GitHub Survey](https://version-control-github.formr.org)"
-session10:
-  date: 2023-12-22
-  title: "Repetition and practice"
+    - "[GitHub Quiz](https://version-control-github.formr.org)"
+session08:
+  date: 2024-06-03
+  title: "GitHub with collaborators"
   contents:
-    - "Initializing repository"
-    - "Staging and committing"
-    - "Creating and merging branches"
-session11:
-  date: 2024-01-12
-  title: "GitHub: Collaboration" 
-  contents:
-    - "Organizing Git repositories and projects"
-    - "Collaborating with team members using issues and pull requests"
-    - "Using pull requests"
-    - "Understanding different Git workflows"
-    - "Introduction to Gitflow workflow"
-    - "Working with feature branches in Gitflow"
-session12:
-  date: 2024-01-19
-  title: "GitHub: Advanced, Tags/Releases"
-  contents:
-    - "README.md"
-    - "Licenses"
-    - "Contributions"
-    - "Forking"
-    - "Practicing GitHub workflow "
-    - "Introduction to tags and their importance"
-    - "Best practices for tagging in Git"
-    - "Integration with Zenodo"
+    - "Cloning a remote repository"
+    - "Branching and merging in a collaborative environment"
+    - "Pull Requests"
+    - "GitHub Issues"
+    - "Graphical User Interfaces (GUIs), e.g., GitKraken"
   reading:
+    - "[GitHub Intro](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html), [GitHub Issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)"
+  survey:
+    - "[GitHub Quiz](https://version-control-github.formr.org)"
+session09:
+  date: 2024-06-10
+  title: "GitHub with the world"
+  contents:
+    - "Forking a remote repository "
+    - "README files"
+    - "Project Management"
+  reading:
+    - "[GitHub Intro](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html), [GitHub Issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)"
+  survey:
+    - "[GitHub Quiz](https://version-control-github.formr.org)"
+session10:
+  date: 2024-06-17
+  title: "Publishing" 
+  contents:
+    - "Creating Tags with Git"
+    - "Creating Releases with GitHub"
+    - "Using [Zenodo](https://zenodo.org) for scientific publishing"
+    - "Licences"
+    - "Citation Files"
+  reading:
+    - "[Tags and Releases](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)"
+session11:
+  date: 2024-06-24
+  title: "Repetition and Practice"
+  contents:
+    - "Repetition and Practice"
+session12:
+  date: 2024-07-01
+  title: "Repetition and Practice"
+  contents:
+    - "Repetition and Practice"
 session13:
-  date: 2024-01-26
-  title: "Introduction to [DataLad](https://www.datalad.org/) - Version control of (large) datasets"
-  contents: |
-    Guest Lecture by [Adina Wagner](https://www.adina-wagner.com/) (DataLad Developer & Project Lead of the [DataLad Handbook](https://handbook.datalad.org/en/latest/))
-session14:
-  date: 2024-02-02
+  date: 2024-07-08
   title: "Summary & Wrap-Up"
   contents: "Summary & Wrap-Up"
+  commands: ".."
+  

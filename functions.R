@@ -15,22 +15,23 @@ create_schedule <- function() {
   library("magrittr")
   library("data.table")
   variables <- yaml::read_yaml("_schedule.yml")
+  session_url <- "https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session%s"
   variables_padded = pad_list(variables)
   dt_load <- data.table::rbindlist(variables_padded, fill = TRUE, idcol = "session") %>%
     .[!is.na(commands), commands := sprintf("`%s`", commands)] %>%
     .[commands == "``", commands := NA] 
-  cols = c("contents", "mechanics", "objectives", "commands", "questions")
+  cols = c("contents")
   dt = dt_load %>%
     replace(is.na(.), "") %>%
     .[, by = .(session), (cols) := lapply(.SD, paste, collapse = "<br>"), .SDcols = cols] %>%
     unique(.) %>%
-    .[!(title == ""), title := sprintf("**%s**", title)] %>%
-    .[!(notes == ""), notes := sprintf("[{{< fa clipboard-list >}}](%s)", notes)] %>%
-    .[!(reading == ""), reading := paste("{{< fa book >}}", reading)] %>%
     .[, No := seq.int(nrow(.))] %>%
+    .[!(title == ""), title := sprintf("**[%s](%s)**", title, sprintf(session_url, sprintf("%02d", No)))] %>%
+    .[!(reading == ""), reading := paste("{{< fa book >}}", reading)] %>%
     setnames(.,
-             old = c("No", "date", "title", "contents", "reading", "notes", "commands", "objectives", "survey"),
-             new = c("No", "Date", "Title", "Contents", "Reading", "Notes", "Commands", "Objectives", "Survey")) %>%
-    .[, c("No", "Date", "Title", "Notes", "Contents", "Reading", "Survey")]
+             old = c("No", "date", "title", "contents", "reading", "survey"),
+             new = c("No", "Date", "Title", "Contents", "Reading", "Survey/Quiz")) %>%
+    .[, c("No", "Date", "Title", "Contents", "Reading", "Survey/Quiz")] %>%
+    setcolorder(., c("No", "Date", "Title", "Contents", "Reading", "Survey/Quiz"))
   knitr::kable(dt, format = "markdown", align = "l")
 }

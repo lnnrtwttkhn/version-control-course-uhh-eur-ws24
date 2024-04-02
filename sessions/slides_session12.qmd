@@ -1,7 +1,7 @@
 ---
 title: "Session 12: Advanced GitHub"
 subtitle: |
-  {{< var title >}}
+  {{< var project.title >}}
   
   [{{< fa brands internet-explorer >}} Slides]({{< var links.site >}}) |
   [{{< fa brands github >}} Source]({{< var links.github >}})

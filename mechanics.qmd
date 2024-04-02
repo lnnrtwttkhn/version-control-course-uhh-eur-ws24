@@ -1,6 +1,5 @@
 ---
-title: "Mechanics: Course Overview"
-comments: false
+title: "Mechanics"
 nocite: |
   @wilson2021, @millman2018
 ---
@@ -8,35 +7,41 @@ nocite: |
 ## Overview
 
 :::: {.columns}
-::: {.column width="50%"}
-{{< fa calendar-days >}} **Date:** Winter semester 2023/24 (Oct to Feb)
+::: {.column width="65%"}
+{{< fa calendar-days >}} **Date:** {{< var project.when-semester >}}
 :::
-::: {.column width="50%"}
+::: {.column width="35%"}
 {{< fa chalkboard >}} **Event:** Seminar
 :::
-::: {.column width="50%"}
-{{< fa clock >}} **Time:** Fridays, 10:15 to 11:45 am (90 minutes)
+::: {.column width="65%"}
+{{< fa clock >}} **Time:** {{< var project.when-time >}}
 :::
-::: {.column width="50%"}
+::: {.column width="35%"}
 {{< fa gem >}} **Credits:** 4,0
 :::
-::: {.column width="50%"}
-{{< fa building-columns >}} **Room:** UHH, VMP 5, Room 4047
+::: {.column width="65%"}
+{{< fa building-columns >}} **Room:** {{< var project.where-long >}}
 :::
-::: {.column width="50%"}
-{{< fa language >}} **Language:** English / German
+::: {.column width="35%"}
+{{< fa language >}} **Language:** English
 :::
-::: {.column width="50%"}
+::: {.column width="65%"}
 {{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
 :::
-::: {.column width="50%"}
-{{< fa tag >}} **Tag:** PsyM14-PsyWB-K02 
+::: {.column width="35%"}
+{{< fa tag >}} **Tag:** {{< var project.tag >}}
 :::
 ::: {.column width="100%"}
-{{< fa file-signature >}} **Registration:** The registration period starts on September 4th 2023 at 9:00 and ends on September 21th 2023 at 13:00.
+{{< fa file-signature >}} **Registration:** The registration period starts on {{< var project.registration-start >}} and ends on {{< var project.registration-end >}}.
 MSc Psychology students at University of Hamburg can enroll via [Stine]({{< var links.stine >}}).
 :::
 ::::
+```{r}
+```
+
+
+```{r}
+```
 
 ## What will the average seminar session look like?
 
@@ -54,26 +59,14 @@ Instructor-led quiz questions may also be interspersed throughout.
 3. {{< fa laptop-code >}} **Exercises & Implementation (up to 60 minutes):**
 <br>Course participants actively delve into hands-on exercises and assignments.
 
-Note, that course participants are **not required** (but are of course free) **to work on course materials outside of class time**.
-All course contents will be covered during class time.
-
-## Summary of course mechanics
-
-This course will be conducted in person, but all [course materials](#course-materials) will be available online.
-The course follows a [partially flipped classroom](#partially-flipped-classroom) and [active learning](#active-learning) approach, which means that students will learn the [content](#course-materials) outside of class and engage in [assignments](#assignments) during class.
-
-## Partially Flipped Classroom
-
-The flipped classroom is an educational approach where **students learn the instructional content outside of class** (e.g., through videos or online resources) and **use class time for interactive activities**, discussions, and collaboration.
-In this course, students will have the opportunity to learn at home using the available [course materials](#course-materials).
-We will, however, reserve time in the beginning of each class (roughly 15 - 30 minutes of 90 minutes) to allow all course participants to catch up with the content of the current session.
-The rest of the class time is dedicated to discussion, exercises implementation.
+Note, that course participants are **sometimes required to work on course materials outside of class time**.
+Not **all** course contents will be covered during class time.
 
 ## Course Materials
 
 ### Textbook: Version Control Book
 
-In preparation for each seminar session, students will be asked to study specific chapters in the [Version Control Book](https://lennartwittkuhn.com/version-control-book/).
+Students will be asked to study specific chapters in the [Version Control Book](https://lennartwittkuhn.com/version-control-book/).
 The Version Control Book aims to summarize all the relevant course contents for the students, effectively serving as a textbook for the course.
 In addition, we will provide references to multiple other learning resources, allowing students to pick from those learning resources that they feel supports their learning process best.
 

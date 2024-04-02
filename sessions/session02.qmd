@@ -1,7 +1,7 @@
 ---
 title: "Command Line"
 subtitle: "Session 02"
-date: 2023-10-27
+date: 2024-04-15
 about:
   id: hero-heading
   template: solana
@@ -9,7 +9,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/slides_session02.html
+      href: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session02.html
       aria-label: display
     - icon: book
       text: Chapter

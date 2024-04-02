@@ -62,4 +62,4 @@ Did you spot an error?
 Is there an issue with the website?
 Do you have feedback, questions or comments?
 We would love to hear from you!
-Open an [issue on GitHub]({{< var links.issues >}}) or write an [email]({{< var links.email >}}){target="_blank"}.
+Open an [issue on GitHub]({{< var links.issues >}}) or write an [email]({{< var links.mailto >}}){target="_blank"}.

@@ -1,5 +1,5 @@
 ---
-title: "{{< var title >}}"
+title: "{{< var project.title >}}"
 subtitle: |
   Session 1
   
@@ -7,11 +7,12 @@ subtitle: |
   [{{< fa brands github >}} Source]({{< var links.github >}})
   
   {{< var slides.license-badge >}}
-date: "2023-10-20"
+date: "2024-04-08"
 format: revealjs
 metadata-files:
   - _slides.yml
 ---
+
 
 # Logistics and admin
 
@@ -69,9 +70,9 @@ metadata-files:
 
 :::: {.columns}
 ::: {.column width="50%"}
-- {{< fa calendar-days >}} **Date:** Winter semester 2023/24 (Oct to Feb)
-- {{< fa clock >}} **Time:** Fridays, 10:15 to 11:45 am (90 minutes)
-- {{< fa building-columns >}} **Room:** UHH, VMP 5, Room 4047
+- {{< fa calendar-days >}} **Date:** {{< var project.when-semester >}}
+- {{< fa clock >}} **Time:** {{< var project.when-time >}}
+- {{< fa building-columns >}} **Room:** {{< var project.where-long >}}
 - {{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
 - {{< fa user-plus >}} **Assistant:** [Konrad Pagenstedt]({{< var team.konrad.mailto >}})
 :::
@@ -79,14 +80,14 @@ metadata-files:
 - {{< fa chalkboard >}} **Event:** Seminar
 - {{< fa gem >}} **Credits:** 4,0
 - {{< fa language >}} **Language:** English / German
-- {{< fa tag >}} **Tag:** PsyM14-PsyWB-K02 
+- {{< fa tag >}} **Tag:** {{< var project.tag >}}
 :::
 ::::
 
 ## What will the average seminar session look like?
 
 ::: {.fragment}
-{{< fa clock >}} The course will consist of up to 14 sessions (90 minutes each)
+{{< fa clock >}} The course will consist of up to 13 sessions (90 minutes each)
 :::
 
 ::: {.fragment}
@@ -115,8 +116,8 @@ Talk to use if you don't have a laptop.
 :::
 
 ::: {.fragment}
-Note, that course participants are **not required** (but are of course free) **to work on course materials outside of class time**.
-All course contents will be covered during class time.
+Note, that course participants are **sometimes required to work on course materials outside of class time**.
+Not all course contents will be covered during class time.
 :::
 
 ## Schedule
@@ -131,10 +132,10 @@ create_schedule()
 
 ## Course Website
 
-{{< fa brands internet-explorer >}} [lennartwittkuhn.com/version-control-course-uhh-ws23](https://lennartwittkuhn.com/version-control-course-uhh-ws23/)
+{{< fa brands internet-explorer >}} [lennartwittkuhn.com/version-control-course-uhh-ss24](https://lennartwittkuhn.com/version-control-course-uhh-ss24/)
 
 ```{=html}
-<iframe width="100%" height="74%" src="https://lennartwittkuhn.com/version-control-course-uhh-ws23/" title="Course Website"></iframe>
+<iframe width="100%" height="74%" src="https://lennartwittkuhn.com/version-control-course-uhh-ss24/" title="Course Website"></iframe>
 ```
 
 ::: {.notes}
@@ -168,97 +169,48 @@ create_schedule()
 - if you want your data to be deleted, send an email with your codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}})
 :::
 
-## Collaborative notes
-
-:::: {.columns}
-::: {.column width="40%"}
-
-![](../images/hedgedoc-logo.png)
-
-#### HedgeDoc (UHH Pad)
-
-- {{< fa house >}} [HedgeDoc (UHH Pad)]({{< var links.hedgedoc >}})
-- {{< fa link >}} [Notepad for Session 1](https://pad.uni-hamburg.de/L7JO6dsiTtSzWhjV6SvyKg?both)
-- {{< fa pen-to-square >}} Edit notes using [Markdown]({{< var links.markdown >}}) (see [HedgeDoc Features]({{< var links.hedgedoc-features >}}) and Session 4)
-- {{< fa key >}} No account or log-in required
-- {{< fa warning >}} Notes are public!
-Don't use it for personal or sensitive data!
-- {{< fa clipboard >}} One notepad per session
-- {{< fa lock >}} Notepad will be locked at the next session
-
-:::
-::: {.column width="60%"}
-
-![](../images/hedgedoc-screenshot.png)
-:::
-::::
-
 ## Your role, questions and interactions
 
-::: {.fragment}
-#### **Activate participation**
-- This is a pass / fail course
-- Requirement 1: Come to at least 12 out of 14 sessions (85%) and sign the attendance list
-- Requirement 2: Complete the exercises and quizzes (in class and online)
-:::
 ::: {.fragment}
 #### **Questions & discussions *during* class time**
 - Ask questions!
 There are no stupid questions!
-- Share your ideas in writing via the notepads
 - Participate in the discussions
 :::
 ::: {.fragment}
 #### **Questions & discussions *outside of* class time**
 - Ask questions!
 There are no stupid questions!
-- Share your ideas in writing via the notepads
 - Send questions to our mailing list: [{{< var links.email-mailing-list >}}]({{< var links.mailto-mailing-list >}})
 - Send questions to [Lennart]({{< var team.lennart.mailto >}}) and / or [Konrad]({{< var team.konrad.mailto >}})
 - Office hours by appointment
 - Give use feedback!
 :::
 
+## Your role, Participation and exercises
+
+::: {.fragment}
+#### **Active participation**
+- This is a pass / fail course
+- Requirement 1: Come to at least **12 out of 14 sessions** (85%) and sign the attendance list
+- Requirement 2: Fill out all **surveys/quizzes** (They are not that long)
+- Requirement 3: Do **all mandatory exercises**
+:::
+
+::: {.fragment}
+#### **Mandatory Exercise**
+- Most will focus on building a Recipe Resource 
+:::
+
+## Recipe Resource 
+
+```{=html}
+<iframe width="100%" height="100%" src="https://lennartwittkuhn.com/recipes/" title="Course Website"></iframe>
+```
+
 ## Code of Conduct
 
 {{< include ../_code-of-conduct.qmd >}}
-
-## Two RA positions in our group!
-
-:::: {.columns}
-::: {.column width="50%"}
-::: {.fragment}
-![[git-scm.com](https://git-scm.com/)](../images/git-logo-full.svg){fig-align="center" width="85%"}
-
-### Version Control of Code & Data
-
-- :notebook: **Tasks:** Support our teaching project!
-- :calendar: **Duration:** as soon as possible until March 31 2024
-- :clock1: **Time:** flexible, up to 37 hours / month (WHK)
-- :moneybag: **Salary:** 12.00 € / hour (SHK) / 13.95 € / hour (WHK)
-- :envelope: **Contact:** [{{< var team.lennart.email >}}]({{< var team.lennart.mailto >}})
-
-:::
-:::
-::: {.column width="50%"}
-::: {.fragment}
-
-::: {layout-ncol=2}
-![](../images/mri.png){width=50%}
-
-![](../images/brain-anatomical.png){width=40%}
-:::
-### Memory reactivation in older adults
-
-- :notebook: **Tasks:** Support of fMRI data collection
-- :calendar: **Duration:** as soon as possible
-- :clock1: **Time:** flexible, 60 - 80 hours / month
-- :moneybag: **Salary:** 12.00 € / hour (SHK) / 13.95 € / hour (WHK)
-- :envelope: **Contact:** [erc-studies-luv.psych@uni-hamburg.de](mailto:erc-studies-luv.psych@uni-hamburg.de)
-
-:::
-:::
-::::
 
 # Survey results
 
@@ -346,11 +298,9 @@ Read [Chapter 1: "Introduction to Version Control"](https://lennartwittkuhn.com/
 ::::
 :::::
 
-## What are git and DataLad?
+## What is Git?
 
 :::: {.columns}
-
-::: {.column width="50%"}
 
 ::: {.fragment}
 ![[git-scm.com](https://git-scm.com/)](../images/git-logo-full.svg){fig-align="center" width=50%}
@@ -363,27 +313,10 @@ Read [Chapter 1: "Introduction to Version Control"](https://lennartwittkuhn.com/
 
 :::
 
-:::
-
-::: {.column width="50%"}
-
-::: {.fragment}
-![[datalad.org](https://www.datalad.org/)](../images/datalad-logo-full.svg){fig-align="center" width=50%}
-
-- "git for (large) data"
-- free, [open-source](https://github.com/datalad/datalad) command-line tool
-- builds on top of [git](https://git-scm.com/) and [git-annex](https://git-annex.branchable.com/)
-- allows to version control arbitrarily large datasets ^[see DataLad dataset of 80TB / 15 million files from the Human Connectome Project (see [details](https://handbook.datalad.org/en/latest/usecases/HCP_dataset.html#usecase-hcp-dataset))]
-- graphical user interface exists: [DataLad Gooey](http://docs.datalad.org/projects/gooey/en/latest/index.html)
-
-:::
-
-:::
-
 ::::
 
 ::: {.fragment}
-Note: We will mainly focus on Git and only refer to DataLad as an outlook.
+Note: We will focus on Git and only refer to DataLad as an outlook.
 :::
 
 ::: {.notes}
@@ -415,16 +348,6 @@ Note: We will mainly focus on Git and only refer to DataLad as an outlook.
 - Archiving on GitHub is not enough
 :::
 
-## DataLad
-
-:::: {.columns}
-::: {.column width="50%"}
-![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd052810s.gif)](http://phdcomics.com/comics/archive/phd052810s.gif)
-:::
-::: {.column width="50%"}
-![](../images/datalad-logo-full.svg){width="100%"}
-:::
-::::
 
 ## Schedule
 
@@ -435,3 +358,26 @@ Note: We will mainly focus on Git and only refer to DataLad as an outlook.
 #| warning: false
 create_schedule()
 ```
+
+## "Homework" Tasks
+
+::::: {.columns}
+
+:::: {.column width="50%"}
+::: {.fragment}
+### Windows User {{< fa brands windows >}}
+
+- Download and Install [GitBASH](https://gitforwindows.org) until **next week**
+- You can find a tutorial in our [Version Control Book](https://lennartwittkuhn.com/version-control-book/chapters/installation.html)
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.fragment}
+### Apple  {{< fa brands apple >}} or Linux User {{< fa brands linux >}} 
+
+- Download and Install [Git](https://git-scm.com) until **15.04.** (in two weeks)
+- You can find a tutorial in our [Version Control Book](https://lennartwittkuhn.com/version-control-book/chapters/installation.html)
+:::
+::::
+:::::

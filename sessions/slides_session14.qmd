@@ -1,10 +1,10 @@
 ---
 title: "Session 14: Summary & Wrap-Up"
 subtitle: |
-  {{< var title >}}
+  {{< var project.title >}}
   
-  [{{< fa brands internet-explorer >}} Slides]({{< var website >}}) |
-  [{{< fa brands github >}} Source]({{< var source >}})
+  [{{< fa brands internet-explorer >}} Slides]({{< var links.site >}}) |
+  [{{< fa brands github >}} Source]({{< var links.github >}})
   
   {{< var slides.license-badge >}}
 date: 2024-02-02
