@@ -15,6 +15,7 @@ create_schedule <- function() {
   library("magrittr")
   library("data.table")
   variables <- yaml::read_yaml("_schedule.yml")
+  current_date <- Sys.Date()
   session_url <- "https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session%s"
   variables_padded = pad_list(variables)
   dt_load <- data.table::rbindlist(variables_padded, fill = TRUE, idcol = "session") %>%
@@ -25,8 +26,11 @@ create_schedule <- function() {
     replace(is.na(.), "") %>%
     .[, by = .(session), (cols) := lapply(.SD, paste, collapse = "<br>"), .SDcols = cols] %>%
     unique(.) %>%
+    .[, date_dist := as.numeric(as.Date(date) - as.Date(current_date))] %>%
+    .[, date_next := replace(rep(0, length(date_dist)), 1:which.max(1 / date_dist), 1)] %>%
     .[, No := seq.int(nrow(.))] %>%
-    .[!(title == ""), title := sprintf("**[%s](%s)**", title, sprintf(session_url, sprintf("%02d", No)))] %>%
+    .[!(title == "") & date_next == 0, title := sprintf("**%s**", title)] %>%
+    .[!(title == "") & date_next == 1, title := sprintf("**[%s](%s)**", title, sprintf(session_url, sprintf("%02d", No)))] %>%
     .[!(reading == ""), reading := paste("{{< fa book >}}", reading)] %>%
     setnames(.,
              old = c("No", "date", "title", "contents", "reading", "survey"),
