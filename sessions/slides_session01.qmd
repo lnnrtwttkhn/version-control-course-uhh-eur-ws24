@@ -47,6 +47,89 @@ metadata-files:
 
 ::::
 
+## Research on "Mechanisms of Learning and Change"
+::: {.fragment}
+#### How does the brain use past experience to guide future decisions?
+<br>
+:::
+
+::::: {.columns}
+:::: {.column width="60%"}
+::: {.fragment}
+![taken from @lake2016: "Building machines that learn and think like people"](images/lake-learning.jpeg)
+:::
+::::
+:::: {.column width="40%"}
+::: {.fragment}
+![](images/research-areas.png)
+:::
+::::
+:::::
+
+::: {.notes}
+- we heard a lot about artificial intelligence
+- what does "intelligence" even mean?
+- as psychologists & cognitive neuroscientists we are interested in understanding human "natural" or biological intelligence
+- our group: intersted in the convergence between neuroscience and artifiicial intelligence research ("neuro AI")
+- e.g., "why are humans so fast in learning a wide range of tasks in complex environments"
+- we use cogntive and psychological approaches, neural measurmenet using fMRI and EEG and integrate and compare them with computational approaches from reinforcement learning and artificial neural networks
+:::
+
+## Computational Reproducibility
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.fragment}
+*"... when the **same analysis** steps performed on the **same dataset** consistently produce the **same answer**."* ^[@turingway2022, see ["Guide on Reproducible Research"](https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions)]
+
+![by [Scriberia]({{< var links.scriberia >}}) for @turingway2022 ([Link](https://zenodo.org/record/3678226/), [CC BY
+4.0]({{< var links.ccby40 >}}))](images/turing-way-reproducibility.png)
+:::
+::::
+:::: {.column width="50%"}
+::: {.fragment}
+### The problem
+:::
+::: {.incremental}
+- about **more than half** of research is **not reproducible** [^1]
+  - research data, code, software and materials are **often not available** "upon *reasonable* [sic] request"
+  - if resources are shared, they are **often incomplete**
+- 90% of researchers: "reproducibility crisis" (*N* = 1576) ^[see @baker2016, *Nature*]
+
+:::
+::: {.fragment}
+### Why?
+:::
+::: {.incremental}
+- computational reproducibility is hard
+- researchers lack training 
+- incentives are not (yet) aligned ^[see e.g., @poldrack2019]
+- "natural selection of bad science" ^[see @smaldino2016]
+:::
+::::
+:::::
+
+::: {.fragment}
+"*... accumulated evidence indicates that there is **substantial room for improvement** with regard to research practices to maximize the efficiency of the research community's use of the public's financial investment.*" [@munafò2017]
+:::
+::: {.fragment}
+We need a **professional toolkit** for digital scientific outputs!
+:::
+
+[^1]: for example, in Psychology: @crüwell2023; @hardwicke2021; @obels2020; @wicherts2006
+
+
+::: {.notes}
+- also called "analytical reproducibility"
+- in contrast: "Replication" = same analysis on different data
+- computational reproducibility should be a *minimum* requirement
+- 90% of respondents to a survey in Nature agreed that there is a "reproducibility crisis"
+- non-scientist friends react very surprised at the lack of professionalization in science
+- we are currently violating the public's trust = deep ethical problem
+- natural selection: as a researcher, what's good for your career is not necessarily good for science (how to get funding, how to get published, how to get cited)
+- journals are interested in selling us back our data, not improving the quality of science
+:::
+
 ## Who are you?
 
 :::: {.columns}
