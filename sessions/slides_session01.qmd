@@ -130,6 +130,17 @@ We need a **professional toolkit** for digital scientific outputs!
 - journals are interested in selling us back our data, not improving the quality of science
 :::
 
+## Research Colloquium - Cognitive Neuroscience
+
+| When?    | Where?   | Who?     |
+|----------|----------|----------|
+| Wednesday, 24.04.2024, 15:00   | [Zoom](https://uni-hamburg.zoom.us/j/61795089301?pwd=UzN5UVBpS1ZZUjI1Njd6VGZ2MmdKdz09)  | Jae-Young Son & Feldman Hall  |   
+| Wednesday, 08.05.2024, 16:00  |[Zoom](https://uni-hamburg.zoom.us/j/61795089301?pwd=UzN5UVBpS1ZZUjI1Njd6VGZ2MmdKdz09) & VMP 5, 4018  | Bob Wilson   |   
+| Wednesday, 15.05.2024, 10:15   | [Zoom](https://uni-hamburg.zoom.us/j/61795089301?pwd=UzN5UVBpS1ZZUjI1Njd6VGZ2MmdKdz09) & VMP 5, 4054 (William-Stern-Raum) | Tobias Donner   | 
+| Wednesday, 22.05.2024, 14:00   | [Zoom](https://uni-hamburg.zoom.us/j/61795089301?pwd=UzN5UVBpS1ZZUjI1Njd6VGZ2MmdKdz09) & VMP 5, 4054 (William-Stern-Raum)  | Ben Eppinger   |    
+
+
+
 ## Who are you?
 
 :::: {.columns}
@@ -464,3 +475,13 @@ create_schedule()
 :::
 ::::
 :::::
+
+## Research Colloquium - Cognitive Neuroscience
+
+| When?    | Where?   | Who?     |
+|----------|----------|----------|
+| Wednesday, 24.04.2024, 15:00   | [Zoom](https://uni-hamburg.zoom.us/j/61795089301?pwd=UzN5UVBpS1ZZUjI1Njd6VGZ2MmdKdz09)  | Jae-Young Son & Feldman Hall  |   
+| Wednesday, 08.05.2024, 16:00  |[Zoom](https://uni-hamburg.zoom.us/j/61795089301?pwd=UzN5UVBpS1ZZUjI1Njd6VGZ2MmdKdz09) & VMP 5, 4018  | Bob Wilson   |   
+| Wednesday, 15.05.2024, 10:15   | [Zoom](https://uni-hamburg.zoom.us/j/61795089301?pwd=UzN5UVBpS1ZZUjI1Njd6VGZ2MmdKdz09) & VMP 5, 4054 (William-Stern-Raum) | Tobias Donner   | 
+| Wednesday, 22.05.2024, 14:00   | [Zoom](https://uni-hamburg.zoom.us/j/61795089301?pwd=UzN5UVBpS1ZZUjI1Njd6VGZ2MmdKdz09) & VMP 5, 4054 (William-Stern-Raum)  | Ben Eppinger   |    
+
