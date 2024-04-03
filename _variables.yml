@@ -34,6 +34,8 @@ links:
   email-mailing-list: version-control-course.psych@lists.uni-hamburg.de
   mailto-mailing-list: "mailto:{{< var links.email-mailing-list >}}"
   book: https://lennartwittkuhn.com/version-control-book/
+  scriberia: "https://www.scriberia.com/"
+  ccby40: "https://creativecommons.org/licenses/by/4.0/"
 years: "2023 -- 2025"
 team:
   lennart:
