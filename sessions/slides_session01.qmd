@@ -474,3 +474,7 @@ create_schedule()
 | Wednesday, 15.05.2024, 10:15   | [Zoom](https://uni-hamburg.zoom.us/j/61795089301?pwd=UzN5UVBpS1ZZUjI1Njd6VGZ2MmdKdz09) & VMP 5, 4054 (William-Stern-Raum) | Tobias Donner   | 
 | Wednesday, 22.05.2024, 14:00   | [Zoom](https://uni-hamburg.zoom.us/j/61795089301?pwd=UzN5UVBpS1ZZUjI1Njd6VGZ2MmdKdz09) & VMP 5, 4054 (William-Stern-Raum)  | Ben Eppinger   |    
 
+## References
+
+:::{#refs}
+:::
