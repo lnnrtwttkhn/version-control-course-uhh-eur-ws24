@@ -300,6 +300,42 @@ Example: <https://lennartwittkuhn.com/recipes>
 
 # Survey results
 
+## Expectations
+
+- No Idea (e.g "i really have no idea about that")
+
+- Data Analysis (e.g. "How to work with research data")
+
+- **Git/GitHub** (e.g. "Practical Tasks with git and github, theoretical background")
+
+## Hope
+
+- Data Analysis skills (e.g. "Learning practical information about data analyses")
+
+- Coding Skills (e.g. "Hopes for better coding skills post-course")
+
+- Science Communication (e.g. "Science communication and networking using research") 
+
+- Version Control Skills (e.g. "Getting an idea of what is possible with GitHub")
+
+
+
+## Worries
+
+- Lack of Coding Skills (e.g. "My low ability in coding" )
+
+- Inadequate Previous Knowledge (e.g. “I worry that I don’t have enough previous knowledge")
+
+- Language Barrier 
+
+- Learning Pace
+
+## Motivation
+
+- Academic Advancement and Course Selection (e.g. "I needed a course for ‘Wahlbereich’ and this one was the only available one.")
+
+- Learning New Skill (e.g. “For me it is very important to get to know tools and learn how to handle them.")
+
 # Introduction to version control
 
 ## Learning objectives
