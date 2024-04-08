@@ -306,10 +306,7 @@ Example: <https://lennartwittkuhn.com/recipes>
 
 At the end of this session, you should be able to answer the following questions:
 
-1. What is version control?
-1. Why is version control useful (for research)?
-1. What are Git and GitHub?
-1. What is the difference between Git and GitHub?
+{{< include ../objectives/_objectives-intro.qmd >}}
 
 ## Your turn
 
