@@ -275,9 +275,14 @@ At the end of this session, you should be able to answer the following questions
 
 ## Your turn
 
-Read [Chapter 1: "Introduction to Version Control"](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html) in the [Version Control Book]({{< var links.book >}})
+1. Read [Chapter 1: "Introduction to Version Control"](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html) in the [Version Control Book]({{< var links.book >}})
+1. Discuss the learning objectives with your desk neighbor (quietly)
 
-## Computational Reproducibility
+#### Learning objectives
+
+{{< include ../objectives/_objectives-intro.qmd >}}
+
+## The issue of computational reproducibility in science
 
 ::::: {.columns}
 :::: {.column width="50%"}
@@ -360,7 +365,7 @@ We need a **professional toolkit** for digital research!
 - Credit: Adapted from [Slides on "Research Data Management with DataLad"](http://datasets.datalad.org/datalad/datalad-course/html/mpsc-introduction.html#/5) by Adina Wagner & Michael Hanke]
 :::
 
-## What is version control
+## What is version control?
 
 ::: {.fragment}
 *"Version control is a systematic approach to record changes made in a [...] set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later [...]"* ([Turing Way](https://the-turing-way.netlify.app/reproducible-research/vcs.html))
@@ -418,10 +423,6 @@ We need a **professional toolkit** for digital research!
 
 ::::
 
-::: {.fragment}
-Note: We will focus on Git and only refer to DataLad as an outlook.
-:::
-
 ::: {.notes}
 - Version control is relevant for anyone who wants to track the evolution of digital objects
 :::
@@ -451,7 +452,6 @@ Note: We will focus on Git and only refer to DataLad as an outlook.
 - Archiving on GitHub is not enough
 :::
 
-
 ## Schedule
 
 ```{r}
@@ -462,37 +462,51 @@ Note: We will focus on Git and only refer to DataLad as an outlook.
 create_schedule()
 ```
 
-## "Homework" Tasks
+## Next week: The command line
 
-::::: {.columns}
+![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
 
-:::: {.column width="50%"}
-::: {.fragment}
-### Windows User {{< fa brands windows >}}
+## Homework
 
-- Download and Install [GitBASH](https://gitforwindows.org) until **next week**
-- You can find a tutorial in our [Version Control Book](https://lennartwittkuhn.com/version-control-book/chapters/installation.html)
+::::: {.fragment}
+### 1. Check if you have Git / a command line installed
+:::: {.columns}
+::: {.column width="50%"}
+#### Windows Users {{< fa brands windows >}}
+
+- Download and install [Git for Windows](https://gitforwindows.org) until **next week**
+- You can find a tutorial in the [Version Control Book](https://lennartwittkuhn.com/version-control-book/chapters/installation.html)
 :::
-::::
 
-:::: {.column width="50%"}
-::: {.fragment}
-### Apple  {{< fa brands apple >}} or Linux User {{< fa brands linux >}} 
+::: {.column width="50%"}
+#### Apple {{< fa brands apple >}} or Linux Users {{< fa brands linux >}} 
 
-- Download and Install [Git](https://git-scm.com) until **15.04.** (in two weeks)
+- Download and install [Git](https://git-scm.com) until **15.04.** (in two weeks)
 - You can find a tutorial in our [Version Control Book](https://lennartwittkuhn.com/version-control-book/chapters/installation.html)
+
 :::
 ::::
 :::::
 
-## Research Colloquium - Cognitive Neuroscience
+::: {.fragment}
+### 2. Complete the pre-course survey
+:::
 
-| When?    | Where?   | Who?     |
-|----------|----------|----------|
-| Wednesday, 24.04.2024, 15:00   | [Zoom](https://uni-hamburg.zoom.us/j/61795089301?pwd=UzN5UVBpS1ZZUjI1Njd6VGZ2MmdKdz09)  | Jae-Young Son & Feldman Hall  |   
-| Wednesday, 08.05.2024, 16:00  |[Zoom](https://uni-hamburg.zoom.us/j/61795089301?pwd=UzN5UVBpS1ZZUjI1Njd6VGZ2MmdKdz09) & VMP 5, 4018  | Bob Wilson   |   
-| Wednesday, 15.05.2024, 10:15   | [Zoom](https://uni-hamburg.zoom.us/j/61795089301?pwd=UzN5UVBpS1ZZUjI1Njd6VGZ2MmdKdz09) & VMP 5, 4054 (William-Stern-Raum) | Tobias Donner   | 
-| Wednesday, 22.05.2024, 14:00   | [Zoom](https://uni-hamburg.zoom.us/j/61795089301?pwd=UzN5UVBpS1ZZUjI1Njd6VGZ2MmdKdz09) & VMP 5, 4054 (William-Stern-Raum)  | Ben Eppinger   |    
+## Research Colloquium: Cognitive Neuroscience
+
+| Date   | Time  | Topic                                                   | Presenter               | Room     |
+|--------|-------|---------------------------------------------------------|-------------------------|----------|
+| 03 Apr | 17:00 | Hippocampal Remapping and Reward coding in mice         | Mari Sosa (Stanford)    | Zoom     |
+| 10 Apr | 10:15 | Meta Learning of Learning Rates                         | Jonas Simoens (U Ghent) | VMP 5 4018 |
+| 17 Apr | 10:15 | Decision Making Strategies in younger and older adults  | Alexa Ruel (UHH)        | VMP 5 4018 |
+| 24 Apr | 15:15 | Replay shapes abstract cognitive maps for efficient social navigation | Jae-Young Son (Brown) | VMP 5 4054 |
+| 08 May | 16:00 | TBD                                                     | Bob Wilson (U Arizona)  | VMP 5 4018 |
+| 15 May | 10:15 | TBD                                                     | Tobias Donner (UKE Hamburg) | VMP 5 4054 |
+| 29 May | 14:00 | TBD                                                     | Ben Eppinger (U Greifswald) | VMP 5 4054 |
+| 05 Jun | 10:15 | Memory replay in younger and older adults               | Xiangjuan Ren (UHH)     | VMP 5 4018 |
+| 12 Jun | 10:15 | Generalisation through replay                            | Fabian Renz (UHH)       | VMP 5 4018 |
+| 19 Jun | TBD   |                                                         |                         | VMP 5 4018 |
+| 26 Jun | TBD   |                                                         |                         | VMP 5 4018 |
 
 {{< include _job-advertizement.qmd >}}
 
