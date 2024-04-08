@@ -38,6 +38,10 @@ jobs:
       - name: Download images
         run: |
           make images
+          
+      - name: Download objectives
+        run: |
+          make objectives
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
