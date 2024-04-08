@@ -31,7 +31,7 @@ links:
   formr: https://formr.org/
   email-secretary: sekretariat-luv.psych@uni-hamburg.de
   mailto-secretary: "mailto:{{< var links.email-secretary >}}"
-  email-mailing-list: version-control-course.psych@lists.uni-hamburg.de
+  email-mailing-list: version-control-course-ss24.psych@lists.uni-hamburg.de
   mailto-mailing-list: "mailto:{{< var links.email-mailing-list >}}"
   book: https://lennartwittkuhn.com/version-control-book/
   scriberia: "https://www.scriberia.com/"
