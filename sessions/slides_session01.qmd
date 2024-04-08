@@ -251,7 +251,7 @@ We will send our secretary a list of personal codewords and she will return a li
 
 :::
 
-## Course exercise: Buiding an online recipes book
+## Course exercise: Building an online recipes book
 
 Example: <https://lennartwittkuhn.com/recipes>
 
