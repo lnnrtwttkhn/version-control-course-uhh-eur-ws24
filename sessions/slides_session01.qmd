@@ -267,54 +267,55 @@ Example: <https://lennartwittkuhn.com/recipes>
 
 ## Expectations
 
-- No Idea (e.g "i really have no idea about that")
+- No idea (for example: "i really have no idea about that")
 
-- Data Analysis (e.g. "How to work with research data")
+- Data analysis (for example: "How to work with research data")
 
-- **Git/GitHub** (e.g. "Practical Tasks with git and github, theoretical background")
+- **Git/GitHub** (for example: "Practical tasks with git and github, theoretical background")
 
-## Hope
+## Hopes
 
-- Data Analysis skills (e.g. "Learning practical information about data analyses")
+- Data analysis skills (for example: "Learning practical information about data analyses")
 
-- Coding Skills (e.g. "Hopes for better coding skills post-course")
+- Coding skills (for example: "Hopes for better coding skills post-course")
 
-- Science Communication (e.g. "Science communication and networking using research") 
+- Science Communication (for example: "Science communication and networking using research") 
 
-- Version Control Skills (e.g. "Getting an idea of what is possible with GitHub")
-
+- Version Control Skills (for example: "Getting an idea of what is possible with GitHub")
 
 ## Worries
 
-- Lack of Coding Skills (e.g. "My low ability in coding" )
+- Lack of coding skills (for example: "My low ability in coding")
 
-- Inadequate Previous Knowledge (e.g. “I worry that I don’t have enough previous knowledge")
+- Inadequate previous knowledge (for example: "I worry that I don't have enough previous knowledge")
 
-- Language Barrier 
+- Language barrier 
 
-- Learning Pace
+- Learning pace
 
 ## Motivation
 
-- Academic Advancement and Course Selection (e.g. "I needed a course for ‘Wahlbereich’ and this one was the only available one.")
+- Pragmatic course selection (for example:  "I needed a course for 'Wahlbereich' and this one was the only available one.")
 
-- Learning New Skill (e.g. “For me it is very important to get to know tools and learn how to handle them.")
+- Learning new skills (for example: "For me it is very important to get to know tools and learn how to handle them.")
 
-## Can you briefly define the term version control?
+## Version Control
 
-- No idea (e.g. "I don’t know what that is")
+### Can you briefly define the term version control?
 
-- "Ich glaube dabei handelt es sich um ein Tool, das Änderungen am Projekt ( Inhalte, Statistik, Programmierung) speichert bzw. Alle Versionen einer Datei abspeichert und nicht nur die neusten"
+- No idea (for example: "I don’t know what that is")
 
-- " (...) it’s about comparing the latest version of someone else who is working on the same project as me with my version"
+- "(...) it's about comparing the latest version of someone else who is working on the same project as me with my version"
 
-## Imagine a scenario where you crafted a brilliant paragraph for your document (for example, your paper, thesis or report), but then accidentally ruined it. How would you retrieve the earlier brilliant version? Is it even possible?
+## Scenarios
 
-- “In the past, I mostly worked with doc documents (word) and saved every day a new version when I was the only person working on the document. This was not very practical and I hope to learn an alternative during this course”
+#### Imagine a scenario where you crafted a brilliant paragraph for your document (for example, your paper, thesis or report), but then accidentally ruined it. How would you retrieve the earlier brilliant version? Is it even possible?
 
-## (...) Consider a situation where you are working with five co-authors on a paper. How do you handle the changes and comments they make to the document
+- "In the past, I mostly worked with doc documents (word) and saved every day a new version when I was the only person working on the document. This was not very practical and I hope to learn an alternative during this course"
 
-- “I know that you can accept changes and comments in word, but I always find it confusing and complex to keep the overview. I don’t know what happens to the history of modifications.”
+#### (...) Consider a situation where you are working with five co-authors on a paper. How do you handle the changes and comments they make to the document
+
+- "I know that you can accept changes and comments in word, but I always find it confusing and complex to keep the overview. I don't know what happens to the history of modifications."
 
 # Introduction to version control
 
