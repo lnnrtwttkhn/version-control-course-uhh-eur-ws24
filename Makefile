@@ -20,6 +20,12 @@ images:
 	unzip -j -o $(IMAGES_ARCHIVE) -d $(IMAGES_DIR)
 	rm -f $(IMAGES_ARCHIVE)
 
+.PHONY: objectives
+objectives: objectives.txt
+	rm -rf ./objectives
+	mkdir -p objectives
+	wget -P ./objectives -i objectives.txt  
+
 .PHONY: clean
 clean:
 	rm -rf _site $(IMAGES_DIR)*

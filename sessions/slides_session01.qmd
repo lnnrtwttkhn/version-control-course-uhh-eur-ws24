@@ -47,17 +47,55 @@ metadata-files:
 
 ::::
 
+## Research on "Mechanisms of Learning & Change"
+::: {.fragment}
+#### How does the brain use past experience to guide future decisions?
+<br>
+:::
+
+::::: {.columns}
+:::: {.column width="60%"}
+::: {.fragment}
+![taken from @lake2016: "Building machines that learn and think like people"](../images/lake-learning.jpeg)
+:::
+::::
+:::: {.column width="40%"}
+::: {.fragment}
+![](../images/research-areas.png)
+:::
+::::
+:::::
+
+::: {.fragment}
+Find out more on our group's website: <https://schucklab.gitlab.io/>
+:::
+
+::: {.notes}
+- we heard a lot about artificial intelligence
+- what does "intelligence" even mean?
+- as psychologists & cognitive neuroscientists we are interested in understanding human "natural" or biological intelligence
+- our group is interested in the convergence between neuroscience and artificial intelligence research ("Neuro AI")
+- e.g., "why are humans so fast in learning a wide range of tasks in complex environments"
+- we use cognitive and psychological approaches, neural measurement using fMRI and EEG and integrate and compare them with computational approaches from reinforcement learning and artificial neural networks
+:::
+
+{{< include _job-advertizement.qmd >}}
+
 ## Who are you?
 
 :::: {.columns}
 ::: {.column width="50%"}
-- Your name?
-- Your preferred pronouns?
-- Which study program are you currently enrolled in?
-- What did you study before and where?
-- What do you expect from this course?
-- A fun fact about you?
-- Your mood on rubber duck scale?
+
+1. Your name?
+1. Your preferred pronouns?
+1. *One* (fun) fact about you? For example:
+    - What did you study before and where?
+    - What do you expect from this course?
+    - What's your hobby?
+    - Do you have a pet?
+    - What's your favorite color?
+    - Your mood on rubber duck scale?
+    
 :::
 ::: {.column width="45%"}
 ::: {.fragment}
@@ -72,14 +110,14 @@ metadata-files:
 ::: {.column width="50%"}
 - {{< fa calendar-days >}} **Date:** {{< var project.when-semester >}}
 - {{< fa clock >}} **Time:** {{< var project.when-time >}}
-- {{< fa building-columns >}} **Room:** {{< var project.where-long >}}
+- {{< fa building-columns >}} **Room:** {{< var project.where-address >}}, {{< var project.where-room >}}
 - {{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
 - {{< fa user-plus >}} **Assistant:** [Konrad Pagenstedt]({{< var team.konrad.mailto >}})
 :::
 ::: {.column width="50%"}
 - {{< fa chalkboard >}} **Event:** Seminar
-- {{< fa gem >}} **Credits:** 4,0
-- {{< fa language >}} **Language:** English / German
+- {{< fa gem >}} **Credits:** 4,0 (2 SWS)
+- {{< fa language >}} **Language:** English
 - {{< fa tag >}} **Tag:** {{< var project.tag >}}
 :::
 ::::
@@ -92,7 +130,7 @@ metadata-files:
 
 ::: {.fragment}
 1. {{< fa book-open >}} **Content Review (up to 30 minutes):**
-<br> Course participants engage with [the online materials](https://lennartwittkuhn.com/version-control-book/), supplemented by concise presentations by the instructors.
+<br> Course participants engage with [the online materials](https://lennartwittkuhn.com/version-control-book/) (aka. our "Version Control Book"), supplemented by short presentations by the instructors.
 Some course preparation may occur outside of the class.
 :::
 
@@ -111,12 +149,13 @@ Instructor-led quiz questions may also be interspersed throughout.
 ### Logistics
 
 - {{< fa laptop >}} You need a laptop.
-Talk to use if you don't have a laptop.
+Talk to us if you don't have a laptop.
 
 :::
 
 ::: {.fragment}
 Note, that course participants are **sometimes required to work on course materials outside of class time**.
+
 Not all course contents will be covered during class time.
 :::
 
@@ -155,21 +194,20 @@ create_schedule()
 ## Exercises, quizzes & surveys
 
 ::: {.fragment}
-- we use surveys to ask you questions and implement exercises or quizzes
-- implemented in the [formr]({{< var links.formr >}}) survey framework
+- We use online surveys to ask you questions and implement exercises or quizzes
+- Implemented in the [formr]({{< var links.formr >}}) survey framework (open-source, hosted in Germany)
 :::
 
 ::: {.fragment}
 #### Anonymity & data usage
 
-- all raw data are kept **anonymous**, will only be used for the course and **never shared publicly**
-- the data will be used exclusively **for educational purposes** as part of the course
+- all raw data are kept **anonymous** and will only be **used for research and educational purposes**
 - if responses are shared as part of the course, they will be aggregated to ensure anonymity is maintained
-- you can also complete survey without providing a personal codeword
-- if you want your data to be deleted, send an email with your codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}})
+- if you want your data to be deleted, send an email with your personal codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}}) (Christine Manor).
+Our secretary forwards your codeword to us (without your name).
 :::
 
-## Your role, questions and interactions
+## Your role: questions and communication
 
 ::: {.fragment}
 #### **Questions & discussions *during* class time**
@@ -178,31 +216,44 @@ There are no stupid questions!
 - Participate in the discussions
 :::
 ::: {.fragment}
+- Ask questions!
+There are no stupid questions!
+:::
+::: {.fragment}
 #### **Questions & discussions *outside of* class time**
 - Ask questions!
 There are no stupid questions!
 - Send questions to our mailing list: [{{< var links.email-mailing-list >}}]({{< var links.mailto-mailing-list >}})
 - Send questions to [Lennart]({{< var team.lennart.mailto >}}) and / or [Konrad]({{< var team.konrad.mailto >}})
-- Office hours by appointment
-- Give use feedback!
+- Office hours by appointment via email
+- Be proactive: Give us feedback!
 :::
 
-## Your role, Participation and exercises
+## Your role: active participation
 
 ::: {.fragment}
 #### **Active participation**
-- This is a pass / fail course
-- Requirement 1: Come to at least **12 out of 14 sessions** (85%) and sign the attendance list
-- Requirement 2: Fill out all **surveys/quizzes** (They are not that long)
-- Requirement 3: Do **all mandatory exercises**
+- This is a pass / fail course.
+You pass if you fulfill all course requirements:
+- Requirement 1: Come to at least **11 out of 13 sessions** (85%)
+- Requirement 2: Complete all **surveys/quizzes**
+- Requirement 3: Complete **all mandatory exercises** (implemented in Git)
 :::
 
 ::: {.fragment}
-#### **Mandatory Exercise**
-- Most will focus on building a Recipe Resource 
+#### How do we verify the course requirements?
+
+1. Requirement 1: **Sign the attendance list**
+1. Requirement 2: **Provide a personal codeword**.
+At the end of the semester, send an email with your personal codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}}) (Christine Manor).
+We will send our secretary a list of personal codewords and she will return a list of names.
+1. Requirement 3: At the end of the semester, **send a link to your completed exercises**.
+
 :::
 
-## Recipe Resource 
+## Course exercise: Building an online recipes book
+
+Example: <https://lennartwittkuhn.com/recipes>
 
 ```{=html}
 <iframe width="100%" height="100%" src="https://lennartwittkuhn.com/recipes/" title="Course Website"></iframe>
@@ -214,20 +265,129 @@ There are no stupid questions!
 
 # Survey results
 
+## Expectations
+
+- No idea (for example: "i really have no idea about that")
+
+- Data analysis (for example: "How to work with research data")
+
+- **Git/GitHub** (for example: "Practical tasks with git and github, theoretical background")
+
+## Hopes
+
+- Data analysis skills (for example: "Learning practical information about data analyses")
+
+- Coding skills (for example: "Hopes for better coding skills post-course")
+
+- Science Communication (for example: "Science communication and networking using research") 
+
+- Version Control Skills (for example: "Getting an idea of what is possible with GitHub")
+
+## Worries
+
+- Lack of coding skills (for example: "My low ability in coding")
+
+- Inadequate previous knowledge (for example: "I worry that I don't have enough previous knowledge")
+
+- Language barrier 
+
+- Learning pace
+
+## Motivation
+
+- Pragmatic course selection (for example:  "I needed a course for 'Wahlbereich' and this one was the only available one.")
+
+- Learning new skills (for example: "For me it is very important to get to know tools and learn how to handle them.")
+
+## Version Control
+
+### Can you briefly define the term version control?
+
+- No idea (for example: "I don’t know what that is")
+
+- "(...) it's about comparing the latest version of someone else who is working on the same project as me with my version"
+
+## Scenarios
+
+#### Imagine a scenario where you crafted a brilliant paragraph for your document (for example, your paper, thesis or report), but then accidentally ruined it. How would you retrieve the earlier brilliant version? Is it even possible?
+
+- "In the past, I mostly worked with doc documents (word) and saved every day a new version when I was the only person working on the document. This was not very practical and I hope to learn an alternative during this course"
+
+#### (...) Consider a situation where you are working with five co-authors on a paper. How do you handle the changes and comments they make to the document
+
+- "I know that you can accept changes and comments in word, but I always find it confusing and complex to keep the overview. I don't know what happens to the history of modifications."
+
 # Introduction to version control
 
 ## Learning objectives
 
 At the end of this session, you should be able to answer the following questions:
 
-1. What is version control?
-1. Why is version control useful (for research)?
-1. What are Git and GitHub?
-1. What is the difference between Git and GitHub?
+{{< include ../objectives/_objectives-intro.qmd >}}
 
 ## Your turn
 
-Read [Chapter 1: "Introduction to Version Control"](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html) in the [Version Control Book]({{< var links.book >}})
+1. Read [Chapter 1: "Introduction to Version Control"](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html) in the [Version Control Book]({{< var links.book >}})
+1. Discuss the learning objectives with your desk neighbor (quietly)
+
+#### Learning objectives
+
+{{< include ../objectives/_objectives-intro.qmd >}}
+
+## The issue of computational reproducibility in science
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.fragment}
+*"... when the **same analysis** steps performed on the **same dataset** consistently produce the **same answer**."* ^[@turingway2022, see ["Guide on Reproducible Research"](https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions)]
+
+![by [Scriberia]({{< var links.scriberia >}}) for @turingway2022 ([Link](https://zenodo.org/record/3678226/), [CC BY
+4.0]({{< var links.ccby40 >}}))](../images/turing-way-reproducibility.png)
+:::
+::::
+:::: {.column width="50%"}
+::: {.fragment}
+### The problem
+:::
+::: {.incremental}
+- about **more than half** of research is **not reproducible** [^1]
+  - research data, code, software & materials are **often not available** "upon *reasonable* [sic] request"
+  - if resources are shared, they are **often incomplete**
+- 90% of researchers: "reproducibility crisis" (*N* = 1576) ^[see @baker2016, *Nature*]
+
+:::
+::: {.fragment}
+### Why?
+:::
+::: {.incremental}
+- computational reproducibility is hard
+- researchers lack training 
+- incentives are not (yet) aligned ^[see e.g., @poldrack2019]
+- "natural selection of bad science" ^[see @smaldino2016]
+:::
+::::
+:::::
+
+::: {.fragment}
+"*... accumulated evidence indicates [...] **substantial room for improvement** with regard to research practices to maximize the efficiency of the research community's use of the public's financial investment.*" [@munafò2017]
+:::
+::: {.fragment}
+We need a **professional toolkit** for digital research!
+:::
+
+[^1]: for example, in Psychology: @crüwell2023; @hardwicke2021; @obels2020; @wicherts2006
+
+
+::: {.notes}
+- also called "analytical reproducibility"
+- in contrast: "Replication" = same analysis on different data
+- computational reproducibility should be a *minimum* requirement
+- 90% of respondents to a survey in Nature agreed that there is a "reproducibility crisis"
+- non-scientist friends react very surprised at the lack of professionalization in science
+- we are currently violating the public's trust = deep ethical problem
+- natural selection: as a researcher, what's good for your career is not necessarily good for science (how to get funding, how to get published, how to get cited)
+- journals are interested in selling us back our data, not improving the quality of science
+:::
 
 ## Why we need version control ...
 
@@ -257,7 +417,7 @@ Read [Chapter 1: "Introduction to Version Control"](https://lennartwittkuhn.com/
 - Credit: Adapted from [Slides on "Research Data Management with DataLad"](http://datasets.datalad.org/datalad/datalad-course/html/mpsc-introduction.html#/5) by Adina Wagner & Michael Hanke]
 :::
 
-## What is version control
+## What is version control?
 
 ::: {.fragment}
 *"Version control is a systematic approach to record changes made in a [...] set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later [...]"* ([Turing Way](https://the-turing-way.netlify.app/reproducible-research/vcs.html))
@@ -315,10 +475,6 @@ Read [Chapter 1: "Introduction to Version Control"](https://lennartwittkuhn.com/
 
 ::::
 
-::: {.fragment}
-Note: We will focus on Git and only refer to DataLad as an outlook.
-:::
-
 ::: {.notes}
 - Version control is relevant for anyone who wants to track the evolution of digital objects
 :::
@@ -348,7 +504,6 @@ Note: We will focus on Git and only refer to DataLad as an outlook.
 - Archiving on GitHub is not enough
 :::
 
-
 ## Schedule
 
 ```{r}
@@ -359,25 +514,55 @@ Note: We will focus on Git and only refer to DataLad as an outlook.
 create_schedule()
 ```
 
-## "Homework" Tasks
+## Next week: The command line
 
-::::: {.columns}
+![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
 
-:::: {.column width="50%"}
-::: {.fragment}
-### Windows User {{< fa brands windows >}}
+## Homework
 
-- Download and Install [GitBASH](https://gitforwindows.org) until **next week**
-- You can find a tutorial in our [Version Control Book](https://lennartwittkuhn.com/version-control-book/chapters/installation.html)
+::::: {.fragment}
+### 1. Check if you have Git / a command line installed
+:::: {.columns}
+::: {.column width="50%"}
+#### Windows Users {{< fa brands windows >}}
+
+- Download and install [Git for Windows](https://gitforwindows.org) until **next week**
+- You can find a tutorial in the [Version Control Book](https://lennartwittkuhn.com/version-control-book/chapters/installation.html)
 :::
-::::
 
-:::: {.column width="50%"}
-::: {.fragment}
-### Apple  {{< fa brands apple >}} or Linux User {{< fa brands linux >}} 
+::: {.column width="50%"}
+#### Apple {{< fa brands apple >}} or Linux Users {{< fa brands linux >}} 
 
-- Download and Install [Git](https://git-scm.com) until **15.04.** (in two weeks)
+- Download and install [Git](https://git-scm.com) until **15.04.** (in two weeks)
 - You can find a tutorial in our [Version Control Book](https://lennartwittkuhn.com/version-control-book/chapters/installation.html)
+
 :::
 ::::
 :::::
+
+::: {.fragment}
+### 2. Complete the pre-course survey
+:::
+
+## Research Colloquium: Cognitive Neuroscience
+
+| Date   | Time  | Topic                                                   | Presenter               | Room     |
+|--------|-------|---------------------------------------------------------|-------------------------|----------|
+| 03 Apr | 17:00 | Hippocampal Remapping and Reward coding in mice         | Mari Sosa (Stanford)    | Zoom     |
+| 10 Apr | 10:15 | Meta Learning of Learning Rates                         | Jonas Simoens (U Ghent) | VMP 5 4018 |
+| 17 Apr | 10:15 | Decision Making Strategies in younger and older adults  | Alexa Ruel (UHH)        | VMP 5 4018 |
+| 24 Apr | 15:15 | Replay shapes abstract cognitive maps for efficient social navigation | Jae-Young Son (Brown) | VMP 5 4054 |
+| 08 May | 16:00 | TBD                                                     | Bob Wilson (U Arizona)  | VMP 5 4018 |
+| 15 May | 10:15 | TBD                                                     | Tobias Donner (UKE Hamburg) | VMP 5 4054 |
+| 29 May | 14:00 | TBD                                                     | Ben Eppinger (U Greifswald) | VMP 5 4054 |
+| 05 Jun | 10:15 | Memory replay in younger and older adults               | Xiangjuan Ren (UHH)     | VMP 5 4018 |
+| 12 Jun | 10:15 | Generalisation through replay                            | Fabian Renz (UHH)       | VMP 5 4018 |
+| 19 Jun | TBD   |                                                         |                         | VMP 5 4018 |
+| 26 Jun | TBD   |                                                         |                         | VMP 5 4018 |
+
+{{< include _job-advertizement.qmd >}}
+
+## References
+
+:::{#refs}
+:::
