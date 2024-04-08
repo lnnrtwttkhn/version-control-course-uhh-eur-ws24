@@ -47,7 +47,7 @@ metadata-files:
 
 ::::
 
-## Research on "Mechanisms of Learning and Change"
+## Research on "Mechanisms of Learning & Change"
 ::: {.fragment}
 #### How does the brain use past experience to guide future decisions?
 <br>
@@ -66,6 +66,10 @@ metadata-files:
 ::::
 :::::
 
+::: {.fragment}
+Find out more on our group's website: <https://schucklab.gitlab.io/>
+:::
+
 ::: {.notes}
 - we heard a lot about artificial intelligence
 - what does "intelligence" even mean?
@@ -75,17 +79,58 @@ metadata-files:
 - we use cognitive and psychological approaches, neural measurement using fMRI and EEG and integrate and compare them with computational approaches from reinforcement learning and artificial neural networks
 :::
 
+## Research / teaching assistant positions + thesis projects
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.fragment}
+![[git-scm.com](https://git-scm.com/)](../images/git-logo-full.svg){fig-align="center" width="85%"}
+
+### Version Control Course
+
+- :notebook: **Tasks:** Support our teaching project!
+- :calendar: **Duration:** flexible
+- :clock1: **Time:** flexible
+- :moneybag: **Salary:** 12.00 € / hour (SHK) / 13.95 € / hour (WHK)
+- :envelope: **Contact:** [{{< var team.lennart.email >}}]({{< var team.lennart.mailto >}})
+
+:::
+:::
+::: {.column width="50%"}
+::: {.fragment}
+
+::: {layout-ncol=2}
+![](../images/mri.png){width=50%}
+
+![](../images/brain-anatomical.png){width=40%}
+:::
+### Research projects in our group
+
+- :notebook: **Tasks:** data collection & analysis (e.g., fMRI)
+- :calendar: **Duration:** felxible
+- :clock1: **Time:** flexible
+- :moneybag: **Salary:** 12.00 € / hour (SHK) / 13.95 € / hour (WHK)
+- :envelope: **Contact:** [sekretariat-luv.psych@uni-hamburg.de](mailto:sekretariat-luv.psych@uni-hamburg.de)
+
+:::
+:::
+::::
+
 ## Who are you?
 
 :::: {.columns}
 ::: {.column width="50%"}
-- Your name?
-- Your preferred pronouns?
-- Which study program are you currently enrolled in?
-- What did you study before and where?
-- What do you expect from this course?
-- A fun fact about you?
-- Your mood on rubber duck scale?
+
+1. Your name?
+1. Your preferred pronouns?
+1. *One* (fun) fact about you? For example:
+    - What did you study before and where?
+    - What do you expect from this course?
+    - What's your hobby?
+    - Do you have a pet?
+    - What's your favorite color?
+    - Your mood on rubber duck scale?
+    
 :::
 ::: {.column width="45%"}
 ::: {.fragment}
@@ -100,14 +145,14 @@ metadata-files:
 ::: {.column width="50%"}
 - {{< fa calendar-days >}} **Date:** {{< var project.when-semester >}}
 - {{< fa clock >}} **Time:** {{< var project.when-time >}}
-- {{< fa building-columns >}} **Room:** {{< var project.where-long >}}
+- {{< fa building-columns >}} **Room:** {{< var project.where-address >}}, {{< var project.where-room >}}
 - {{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
 - {{< fa user-plus >}} **Assistant:** [Konrad Pagenstedt]({{< var team.konrad.mailto >}})
 :::
 ::: {.column width="50%"}
 - {{< fa chalkboard >}} **Event:** Seminar
-- {{< fa gem >}} **Credits:** 4,0
-- {{< fa language >}} **Language:** English / German
+- {{< fa gem >}} **Credits:** 4,0 (2 SWS)
+- {{< fa language >}} **Language:** English
 - {{< fa tag >}} **Tag:** {{< var project.tag >}}
 :::
 ::::
@@ -120,7 +165,7 @@ metadata-files:
 
 ::: {.fragment}
 1. {{< fa book-open >}} **Content Review (up to 30 minutes):**
-<br> Course participants engage with [the online materials](https://lennartwittkuhn.com/version-control-book/), supplemented by concise presentations by the instructors.
+<br> Course participants engage with [the online materials](https://lennartwittkuhn.com/version-control-book/) (aka. our "Version Control Book"), supplemented by short presentations by the instructors.
 Some course preparation may occur outside of the class.
 :::
 
@@ -139,12 +184,13 @@ Instructor-led quiz questions may also be interspersed throughout.
 ### Logistics
 
 - {{< fa laptop >}} You need a laptop.
-Talk to use if you don't have a laptop.
+Talk to us if you don't have a laptop.
 
 :::
 
 ::: {.fragment}
 Note, that course participants are **sometimes required to work on course materials outside of class time**.
+
 Not all course contents will be covered during class time.
 :::
 
@@ -183,21 +229,20 @@ create_schedule()
 ## Exercises, quizzes & surveys
 
 ::: {.fragment}
-- we use surveys to ask you questions and implement exercises or quizzes
-- implemented in the [formr]({{< var links.formr >}}) survey framework
+- We use online surveys to ask you questions and implement exercises or quizzes
+- Implemented in the [formr]({{< var links.formr >}}) survey framework (open-source, hosted in Germany)
 :::
 
 ::: {.fragment}
 #### Anonymity & data usage
 
-- all raw data are kept **anonymous**, will only be used for the course and **never shared publicly**
-- the data will be used exclusively **for educational purposes** as part of the course
+- all raw data are kept **anonymous** and will only be **used for research and educational purposes**
 - if responses are shared as part of the course, they will be aggregated to ensure anonymity is maintained
-- you can also complete survey without providing a personal codeword
-- if you want your data to be deleted, send an email with your codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}})
+- if you want your data to be deleted, send an email with your personal codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}}) (Christine Manor).
+Our secretary forwards your codeword to us (without your name).
 :::
 
-## Your role, questions and interactions
+## Your role: questions and communication
 
 ::: {.fragment}
 #### **Questions & discussions *during* class time**
@@ -206,31 +251,44 @@ There are no stupid questions!
 - Participate in the discussions
 :::
 ::: {.fragment}
+- Ask questions!
+There are no stupid questions!
+:::
+::: {.fragment}
 #### **Questions & discussions *outside of* class time**
 - Ask questions!
 There are no stupid questions!
 - Send questions to our mailing list: [{{< var links.email-mailing-list >}}]({{< var links.mailto-mailing-list >}})
 - Send questions to [Lennart]({{< var team.lennart.mailto >}}) and / or [Konrad]({{< var team.konrad.mailto >}})
-- Office hours by appointment
-- Give use feedback!
+- Office hours by appointment via email
+- Be proactive: Give us feedback!
 :::
 
-## Your role, Participation and exercises
+## Your role: active participation
 
 ::: {.fragment}
 #### **Active participation**
-- This is a pass / fail course
-- Requirement 1: Come to at least **12 out of 14 sessions** (85%) and sign the attendance list
-- Requirement 2: Fill out all **surveys/quizzes** (They are not that long)
-- Requirement 3: Do **all mandatory exercises**
+- This is a pass / fail course.
+You pass if you fulfill all course requirements:
+- Requirement 1: Come to at least **11 out of 13 sessions** (85%)
+- Requirement 2: Complete all **surveys/quizzes**
+- Requirement 3: Complete **all mandatory exercises** (implemented in Git)
 :::
 
 ::: {.fragment}
-#### **Mandatory Exercise**
-- Most will focus on building a Recipe Resource 
+#### How do we verify the course requirements?
+
+1. Requirement 1: **Sign the attendance list**
+1. Requirement 2: **Provide a personal codeword**.
+At the end of the semester, send an email with your personal codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}}) (Christine Manor).
+We will send our secretary a list of personal codewords and she will return a list of names.
+1. Requirement 3: At the end of the semester, **send a link to your completed exercises**.
+
 :::
 
-## Recipe Resource 
+## Course exercise: Buiding an online recipes book
+
+Example: <https://lennartwittkuhn.com/recipes>
 
 ```{=html}
 <iframe width="100%" height="100%" src="https://lennartwittkuhn.com/recipes/" title="Course Website"></iframe>
