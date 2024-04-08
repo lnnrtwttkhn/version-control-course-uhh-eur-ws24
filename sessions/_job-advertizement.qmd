@@ -1,0 +1,36 @@
+## Research / teaching assistant positions + thesis projects
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.fragment}
+![[git-scm.com](https://git-scm.com/)](../images/git-logo-full.svg){fig-align="center" width="85%"}
+
+### Version Control Course
+
+- :notebook: **Tasks:** Support our teaching project!
+- :calendar: **Duration:** flexible
+- :clock1: **Time:** flexible
+- :moneybag: **Salary:** 12.00 € / hour (SHK) / 13.95 € / hour (WHK)
+- :envelope: **Contact:** [{{< var team.lennart.email >}}]({{< var team.lennart.mailto >}})
+
+:::
+:::
+::: {.column width="50%"}
+::: {.fragment}
+
+::: {layout-ncol=2}
+![](../images/mri.png){width=50%}
+
+![](../images/brain-anatomical.png){width=40%}
+:::
+### Research projects in our group
+
+- :notebook: **Tasks:** data collection & analysis (e.g., fMRI)
+- :calendar: **Duration:** felxible
+- :clock1: **Time:** flexible
+- :moneybag: **Salary:** 12.00 € / hour (SHK) / 13.95 € / hour (WHK)
+- :envelope: **Contact:** [sekretariat-luv.psych@uni-hamburg.de](mailto:sekretariat-luv.psych@uni-hamburg.de)
+
+:::
+:::
+::::
