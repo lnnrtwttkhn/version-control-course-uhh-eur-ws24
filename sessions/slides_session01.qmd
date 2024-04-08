@@ -79,42 +79,7 @@ Find out more on our group's website: <https://schucklab.gitlab.io/>
 - we use cognitive and psychological approaches, neural measurement using fMRI and EEG and integrate and compare them with computational approaches from reinforcement learning and artificial neural networks
 :::
 
-## Research / teaching assistant positions + thesis projects
-
-:::: {.columns}
-::: {.column width="50%"}
-::: {.fragment}
-![[git-scm.com](https://git-scm.com/)](../images/git-logo-full.svg){fig-align="center" width="85%"}
-
-### Version Control Course
-
-- :notebook: **Tasks:** Support our teaching project!
-- :calendar: **Duration:** flexible
-- :clock1: **Time:** flexible
-- :moneybag: **Salary:** 12.00 € / hour (SHK) / 13.95 € / hour (WHK)
-- :envelope: **Contact:** [{{< var team.lennart.email >}}]({{< var team.lennart.mailto >}})
-
-:::
-:::
-::: {.column width="50%"}
-::: {.fragment}
-
-::: {layout-ncol=2}
-![](../images/mri.png){width=50%}
-
-![](../images/brain-anatomical.png){width=40%}
-:::
-### Research projects in our group
-
-- :notebook: **Tasks:** data collection & analysis (e.g., fMRI)
-- :calendar: **Duration:** felxible
-- :clock1: **Time:** flexible
-- :moneybag: **Salary:** 12.00 € / hour (SHK) / 13.95 € / hour (WHK)
-- :envelope: **Contact:** [sekretariat-luv.psych@uni-hamburg.de](mailto:sekretariat-luv.psych@uni-hamburg.de)
-
-:::
-:::
-::::
+{{< include _job-advertizement.qmd >}}
 
 ## Who are you?
 
@@ -528,6 +493,8 @@ create_schedule()
 | Wednesday, 08.05.2024, 16:00  |[Zoom](https://uni-hamburg.zoom.us/j/61795089301?pwd=UzN5UVBpS1ZZUjI1Njd6VGZ2MmdKdz09) & VMP 5, 4018  | Bob Wilson   |   
 | Wednesday, 15.05.2024, 10:15   | [Zoom](https://uni-hamburg.zoom.us/j/61795089301?pwd=UzN5UVBpS1ZZUjI1Njd6VGZ2MmdKdz09) & VMP 5, 4054 (William-Stern-Raum) | Tobias Donner   | 
 | Wednesday, 22.05.2024, 14:00   | [Zoom](https://uni-hamburg.zoom.us/j/61795089301?pwd=UzN5UVBpS1ZZUjI1Njd6VGZ2MmdKdz09) & VMP 5, 4054 (William-Stern-Raum)  | Ben Eppinger   |    
+
+{{< include _job-advertizement.qmd >}}
 
 ## References
 
