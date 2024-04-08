@@ -32,7 +32,7 @@ format:
     overview: true
     menu: true
     scrollable: true
-    footer: "Version control of code and data"
+    footer: "Version Control Course"
     fig-cap-location: bottom
     link-external-newwindow: true
     reference-location: document
