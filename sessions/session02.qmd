@@ -29,3 +29,8 @@ about:
 ```{=html}
 <iframe width="100%" height=500 src="slides_session02.html"></iframe>
 ```
+
+## Missed Session?
+
+1. Read the Command Line [chapter](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html) of the version control book 
+1. Complete the exercises in the [Command Line quiz](https://version-control-cli.formr.org)
