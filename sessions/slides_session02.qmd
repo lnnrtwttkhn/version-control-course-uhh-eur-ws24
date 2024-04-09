@@ -25,6 +25,26 @@ create_schedule()
 
 # Survey Results
 
+## Paired Programming
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.fragment}
+
+- Find yourself in pairs of two
+
+- Complete the exercises
+:::
+:::
+
+
+::: {.column width="50%"}
+::: {.fragment}
+![Source: [comicswithac](https://www.instagram.com/comicswithak/?hl=de)](../images/paired_programming.png)
+:::
+:::
+::::
+
 ## Today: The command line
 
 ![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
