@@ -23,6 +23,14 @@ metadata-files:
 create_schedule()
 ```
 
+## Clarification: Missing Classes
+
+- If you miss a class, please find your tasks on the course website
+
+```{=html}
+<iframe width="100%" height="100%" src="https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/" title="Version Control Book"></iframe>
+```
+
 # Survey Results
 
 ## Paired Programming
@@ -36,7 +44,6 @@ create_schedule()
 - Complete the exercises
 :::
 :::
-
 
 ::: {.column width="50%"}
 ::: {.fragment}
