@@ -24,17 +24,30 @@ about:
 ::: {#hero-heading}
 :::
 
+## This session
+
+In this session, you will complete the following tasks:
+
+1. Complete the [pre-course survey](https://version-control-intro.formr.org/).
+1. Read the [chapter "Introduction"](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html) of the Version Control Book.
+1. Check whether you have achieved the [learning objectives](#learning-objectives).
+1. After the session: complete the [homework](#homework).
+
+## Homework
+
+Check if you have Git and / or a command line installed.
+For detailed instructions for Windows and macOS users, see the [chapter "Installation"](https://lennartwittkuhn.com/version-control-book/chapters/installation.html) of the Version Control Book.
+
+## Learning objectives
+
+{{< include ../objectives/_objectives-intro.qmd >}}
+
 ## Slides
 
 ```{=html}
 <iframe width="100%" height=500 src="slides_session01.html"></iframe>
 ```
 
-## Missed Session?
-
-1. Complete the [survey](https://version-control-intro.formr.org/)
-1. Read the first [chapter](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html) of the version control book 
-1. Look at the slides and complete the homework. (Downloading [Git for Windows](https://gitforwindows.org)/[Git](https://git-scm.com))
 
 ## Email
 
