@@ -18,11 +18,24 @@ about:
     - icon: input-cursor-text
       text: Exercises
       href: https://version-control-cli.formr.org/
-      aria-label:  input-cursor-text
+      aria-label: input-cursor-text
 ---
 
 ::: {#hero-heading}
 :::
+
+## This session
+
+In this session, you will complete the following tasks:
+
+1. Read the [chapter "Command Line"](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html) of the Version Control Book.
+1. Try out the commands in the chapter and play around with them.
+1. Complete the exercises in the [Command Line quiz](https://version-control-cli.formr.org).
+1. Check whether you have achieved the [learning objectives](#learning-objectives).
+
+## Learning objectives
+
+{{< include ../objectives/_objectives-cli.qmd >}}
 
 ## Slides
 
