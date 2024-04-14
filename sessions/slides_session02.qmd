@@ -3,7 +3,7 @@ title: "Session 2: Command Line"
 subtitle: |
   {{< var project.title >}}
   
-  [{{< fa brands internet-explorer >}} Slides]({{< var links.site >}}) |
+  [{{< fa display >}} Slides]({{< var links.site >}}) |
   [{{< fa brands github >}} Source]({{< var links.github >}})
   
   {{< var slides.license-badge >}}
@@ -12,6 +12,8 @@ format: revealjs
 metadata-files:
   - _slides.yml
 ---
+
+# Admin
 
 ## Schedule
 
@@ -23,42 +25,44 @@ metadata-files:
 create_schedule()
 ```
 
-## Clarification: Missing Classes
+## Clarification: "What happens if I miss a session?"
 
-- If you miss a class, please find your tasks on the course website
+- Short answer: If you miss a session, please review the materials and complete the tasks until next session.
+- We will list the workload (and any homework) explicitly for each session on the course website.
 
 ```{=html}
-<iframe width="100%" height="100%" src="https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/" title="Version Control Book"></iframe>
+<iframe width="100%" height="60%" src="https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session02.html" title="Version Control Book"></iframe>
 ```
 
-# Survey Results
+{{< fa display >}} [lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session02.html](https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session02.html)
 
-## Paired Programming
+# Survey results
 
-:::: {.columns}
-::: {.column width="50%"}
-::: {.fragment}
+# Today's session
 
+## Pair Programming (variant)
+
+::::: {.columns}
+:::: {.column width="50%"}
 - Find yourself in pairs of two
-
-- Complete the exercises
-:::
-:::
-
-::: {.column width="50%"}
-::: {.fragment}
-![Source: [comicswithac](https://www.instagram.com/comicswithak/?hl=de)](../images/paired_programming.png)
-:::
-:::
+- Complete the exercises together
 ::::
+:::: {.column width="40%"}
+![This illustration is created by [Scriberia](https://www.scriberia.com/) with [The Turing Way community](https://the-turing-way.netlify.app/welcome). Used under a [CC-BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/). DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3695300)](../images/turing-way-community.svg)
+::::
+:::::
 
 ## Today: The command line
 
 ![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
 
+## Learning objectives
+
+{{< include ../objectives/_objectives-cli.qmd >}}
+
 ## Today's chapter
 
-{{< fa brands internet-explorer >}} [lennartwittkuhn.com/version-control-book/chapters/command-line.html](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html)
+{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/command-line.html](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html)
 
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html" title="Version Control Book"></iframe>
@@ -66,7 +70,7 @@ create_schedule()
 
 ## Your turn
 
-1. {{< fa brands microsoft >}} **Windows users**: Make sure GitBASH is installed and set up!
+1. {{< fa brands microsoft >}} **Windows users**: Make sure that [Git for Windows](https://gitforwindows.org/) is installed and set up!
 1. {{< fa book-open >}} **Content Review**: Read the chapter ["Command Line"](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html) in the Version Control Book
 1. {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!
 1. {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-cli.formr.org/)
