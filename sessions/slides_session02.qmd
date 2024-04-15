@@ -60,6 +60,14 @@ After the last session, you should now be able to answer the following questions
 ::::
 :::::
 
+## Course exercise: Building an online recipes book
+
+Example: <https://lennartwittkuhn.com/recipes>
+
+```{=html}
+<iframe width="100%" height="100%" src="https://lennartwittkuhn.com/recipes/" title="Course Website"></iframe>
+```
+
 ## Today: The command line
 
 ![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
