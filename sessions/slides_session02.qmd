@@ -38,6 +38,14 @@ create_schedule()
 
 # Survey results
 
+# Last session
+
+## Last week's learning objectives
+
+After the last session, you should now be able to answer the following questions:
+
+{{< include ../objectives/_objectives-intro.qmd >}}
+
 # Today's session
 
 ## Pair Programming (variant)
