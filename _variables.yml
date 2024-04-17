@@ -68,6 +68,7 @@ slides:
   license-long: "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"
   license-short: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
   license-badge: "[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)"
+  doi-badge: "[![DOI](https://www.fdr.uni-hamburg.de/badge/DOI/10.25592/uhhfdm.14149.svg)](https://doi.org/10.25592/uhhfdm.14149)"
 dates:
   one: "2024-04-08"
   two: "2024-04-15"

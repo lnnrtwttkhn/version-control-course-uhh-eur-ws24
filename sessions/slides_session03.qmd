@@ -7,6 +7,7 @@ subtitle: |
   [{{< fa brands github >}} Source]({{< var links.github >}})
   
   {{< var slides.license-badge >}}
+  {{< var slides.doi-badge >}}
 date: "2023-11-03"
 format: revealjs
 metadata-files:
