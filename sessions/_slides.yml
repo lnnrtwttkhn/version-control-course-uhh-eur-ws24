@@ -41,6 +41,8 @@ format:
     toc: true
     toc-title: "Agenda"
     toc-depth: 1
+    number-sections: true
+    number-depth: 1
 mainfont: Atkinson Hyperlegible
 engine: knitr
 execute:
