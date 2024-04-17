@@ -3,28 +3,16 @@ title: "Session 3: First steps with Git"
 subtitle: |
   {{< var project.title >}}
   
-  [{{< fa brands internet-explorer >}} Slides]({{< var links.site >}}) |
+  [{{< fa display >}} Slides]({{< var links.site >}}) |
   [{{< fa brands github >}} Source]({{< var links.github >}})
   
   {{< var slides.license-badge >}}
   {{< var slides.doi-badge >}}
-date: "2023-11-03"
+date: "2024-04-22"
 format: revealjs
 metadata-files:
   - _slides.yml
 ---
-
-## How are you today?
-
-Your mood on cat scale?
-
-::: {.fragment}
-![](../images/mood-cat.png){width="50%"}
-:::
-
-## Last time: The command line
-
-![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
 
 ## Schedule
 
@@ -36,13 +24,59 @@ Your mood on cat scale?
 create_schedule()
 ```
 
+# Last week: The command line
+
+## Last week: The command line
+
+![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
+
+## Last week's learning objectives
+
+After the last session, you should now be able to answer the following questions / do the following:
+
+{{< include ../objectives/_objectives-cli.qmd >}}
+
+::: {.fragment}
+
+### `recipes` project
+
+At the end of last week's session, you should have accomplished the following:
+
+1. You used the command line to create a folder on your computer called `recipes`.
+1. You used the command line to create a file called `recipes.txt` inside the `recipes` folder.
+
+Please keep the `recipes` folder!
+We will continue to use it in the following sessions.
+
+:::
+
+## Command Line Quiz Results
+
+# This week: First steps with Git
+
 ## Today's chapter
 
-{{< fa brands internet-explorer >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
+{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
 
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
 ```
+
+## This and next week's learning objectives
+
+::: {.fragment}
+### Setup
+{{< include ../objectives/_objectives-setup.qmd >}}
+:::
+
+::: {.fragment}
+### First steps with Git
+{{< include ../objectives/_objectives-firststeps.qmd >}}
+:::
+
+::: {.fragment}
+Note: These are the learning objectives for this and next week.
+:::
 
 ## Your turn
 
@@ -50,11 +84,29 @@ create_schedule()
 1. {{< fa book-open >}} **Content Review**: Read the chapters ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) and ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book
 1. {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!
 1. **Note:** We will do the implementation exercises in class together, step-by-step.
-1. {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-basics.formr.org/).
 :::
 
 ::: {.fragment}
 Ask questions!
 
 Let's *git* started!
+:::
+
+## Implementation exercises
+
+::: {.fragment}
+:memo: Set your Git username and email address.<br>
+:memo: Change the default name of the initial "branch".<br>
+:rocket: Optional: Change your default text editor.
+:::
+
+::: {.fragment}
+:memo: **Setup:** Create a `recipes` folder and **turn it into a Git repository.** <br>
+:memo: **Add Content:** Write down a *short* recipe (any favorite or an intriguing AI-generated one) in `recipes.txt`. <br>
+:memo: **Save Changes:**  Stage and commit your changes to the repository. <br>
+:::
+
+::: {.fragment}
+Note: There are several terms in these instructions that might still be unfamiliar to you, for example "repository", "stage" or "commit".
+Don't worry, you will learn about what these terms mean in the chapters.
 :::

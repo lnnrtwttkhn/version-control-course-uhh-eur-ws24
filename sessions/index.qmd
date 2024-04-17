@@ -5,6 +5,7 @@ listing:
   contents:
     - "session01.qmd"
     - "session02.qmd"
+    - "session03.qmd"
   type: default
   sort: "date desc"
   categories: false

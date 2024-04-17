@@ -1,2 +1,4 @@
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-intro.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-cli.qmd
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-setup.qmd
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-firststeps.qmd

@@ -1,7 +1,7 @@
 ---
 title: "First steps with Git"
 subtitle: "Session 03"
-date: 2023-11-03
+date: 2024-04-22
 about:
   id: hero-heading
   template: solana
@@ -9,8 +9,12 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/slides_session03.html
+      href: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session03.html
       aria-label: display
+    - icon: book
+      text: "Chapter: Installation"
+      href: https://lennartwittkuhn.com/version-control-book/chapters/installation.html
+      aria-label: book
     - icon: book
       text: "Chapter: Setup"
       href: https://lennartwittkuhn.com/version-control-book/chapters/setup.html
@@ -20,13 +24,46 @@ about:
       href: https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html
       aria-label: book
     - icon: input-cursor-text
-      text: Exercises
-      href: https://version-control-basics.formr.org/
+      text: "Survey: Installation"
+      href: https://version-control-installation.formr.org
       aria-label: input-cursor-text
+    # - icon: input-cursor-text
+    #   text: "Survey: Git Basics"
+    #   href: https://version-control-basics.formr.org/
+    #   aria-label: input-cursor-text
 ---
 
 ::: {#hero-heading}
 :::
+
+## This session
+
+In this session, you will complete the following tasks:
+
+1. Read the chapters ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) and ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book.
+1. Complete the exercises for the [`recipes` project](#recipes-project) in the ["Setup" chapter](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) and ["First steps with Git" chapter](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book
+
+As always:
+
+1. Try out the commands in the chapters and play around with them.
+1. Check whether you have achieved the [learning objectives](#learning-objectives).
+
+## `recipes` project
+
+At the end of this session, you should have accomplished the following:
+
+1. You set up Git.
+1. You initialized your `recipes` folder as a Git repository.
+1. You committed your first recipe to the `recipes` repository.
+
+Please keep the `recipes` folder!
+We will continue to use it in the following sessions.
+
+## Learning objectives
+
+{{< include ../objectives/_objectives-setup.qmd >}}
+
+{{< include ../objectives/_objectives-firststeps.qmd >}}
 
 ## Slides
 
@@ -38,27 +75,33 @@ about:
 
 Dear course participants,
 
-You are receiving this email because you are enrolled in the course "Version Control of Code & Data", which is taking place this winter semester at the University of Hamburg.
-This is one of the rare occasions when we will ask you to complete a small task outside of class time.
+You are receiving this email because you are enrolled in the course "{{< var project.title >}}", which is taking place this summer semester at the University of Hamburg.
+This is one of the few occasions when we will ask you to complete additional tasks outside of class time.
 
-We are very much looking forward to our next session on Friday when we will take our first steps in using Git!
+First, we hope that your initial explorations of the command line were intriguing and insightful.
+Regarding this session's contents, we kindly ask you to complete the following tasks:
+
+1. Finish reviewing the chapter about the command line and explore the various commands
+1. Complete the exercises/quiz questions in this online survey: <https://version-control-cli.formr.org/>
+
+We are very much looking forward to our next session on Monday when we will take our first steps in using Git!
 For this session, it is important that you verify whether Git is installed on your computer.
-To do this, we kindly ask you to complete the following tasks before our session on Friday:
+To do this, we kindly ask you to complete the following tasks before our next meeting:
 
-1. Please review the "Installation" chapter in our course guide: https://lennartwittkuhn.com/version-control-book/chapters/installation.html
-1. Complete our survey regarding the installation process: https://version-control-installation.formr.org
+1. If you haven't yet completed the installation, please install Git.
+The Version Control Book provides a chapter about "Installation" which should help you with the installation process: <https://lennartwittkuhn.com/version-control-book/chapters/installation.html>
+Send us an email if you encounter any problems during the installation process.
+1. Everyone: Please complete our (short) survey regarding the installation process: <https://version-control-installation.formr.org>
 
-Overall, this should not take more than 15 minutes.
+Please ensure that you complete the surveys before our next session, ideally by Sunday evening at the latest.
+This will give us enough time to review your responses before our session on Monday.
 
-Please ensure that you complete the survey before our next session, ideally by Thursday evening (November 2nd, 2023). This will give us enough time to review your responses before our first session on Friday.
-
-Apart from checking your Git installation and answering the survey, you don't need to prepare anything else for our next session on Friday.
-
-Further information about the course can be found on our course website: https://lennartwittkuhn.com/version-control-course-uhh-ws23/
+Further information about the course can be found on our course website: <https://lennartwittkuhn.com/version-control-course-uhh-ss24/>
 
 If you encounter any issues or have any questions, please feel free to contact us directly via email.
 
-We are looking forward to seeing you for the next session on Friday!
+We are looking forward to seeing you for the next session on Monday!
 
 Best wishes,
+
 Lennart Wittkuhn (Instructor) & Konrad Pagenstedt (Teaching Assistant)
