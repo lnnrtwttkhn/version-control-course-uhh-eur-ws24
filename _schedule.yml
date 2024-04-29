@@ -45,11 +45,6 @@ session04:
     - "[Git Basics Quiz](https://version-control-basics.formr.org)"
 session05:
   date: 2024-05-06
-  title: "Quarto Workshop"
-  contents:
-    - "Introduction to [Quarto](https://quarto.org)"
-session06:
-  date: 2024-05-13
   title: "Git Branching and Merging"
   contents: 
     - "Understanding branches in Git"
@@ -61,6 +56,11 @@ session06:
     - "[Branches](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)"
   survey:
     - "[Git branches Quiz](https://version-control-branches.formr.org)"
+session06:
+  date: 2024-05-13
+  title: "Quarto Workshop"
+  contents:
+    - "Introduction to [Quarto](https://quarto.org)"
 Whit Monday:
   date: 2024-05-20
   title: "Whit Monday"

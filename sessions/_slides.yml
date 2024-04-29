@@ -1,3 +1,11 @@
+subtitle: |
+  {{< var project.title >}}
+  
+  [{{< fa display >}} Slides]({{< var links.site >}}) |
+  [{{< fa brands github >}} Source]({{< var links.github >}})
+  
+  {{< var slides.license-badge >}}
+  {{< var slides.doi-badge >}}
 authors:
   - id: wittkuhn
     name:

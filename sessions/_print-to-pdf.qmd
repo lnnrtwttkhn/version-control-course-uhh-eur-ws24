@@ -1,0 +1,21 @@
+::: {.callout-note title="How can I download the slides as PDF?" collapse="true"}
+
+To print the slides to PDF, do the following:
+
+1.  Toggle into Print View using the <kbd>E</kbd> key (or using the [Navigation Menu](https://quarto.org/docs/presentations/revealjs/presenting.html#navigation-menu)).
+2.  Open the in-browser print dialog (CTRL/CMD+P).
+3.  Change the **Destination** setting to **Save as PDF**.
+4.  Change the **Layout** to **Landscape**.
+5.  Change the **Margins** to **None**.
+6.  Enable the **Background graphics** option.
+7.  Click **Save**.
+
+Note: This feature has been confirmed to work in [Google Chrome](https://google.com/chrome), [Chromium](https://www.chromium.org/Home) as well as in [Firefox](https://www.mozilla.org/en-US/firefox/).
+
+Here's what the Chrome print dialog would look like with these settings enabled:
+
+![](../images/print-to-pdf.png){.border fig-alt="Screenshot of Chrome print dialog with the first slide/page of 43 shown on the left, and print options on the right. The Destination print option has Save as PDF selected."}
+
+These instructions were copied from the [Quarto documentation](https://quarto.org/docs/presentations/revealjs/presenting.html#print-to-pdf) ([MIT License](https://opensource.org/license/mit/)) and slightly modified.
+
+:::

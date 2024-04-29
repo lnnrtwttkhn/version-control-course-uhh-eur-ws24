@@ -1,13 +1,5 @@
 ---
 title: "Session 3: First steps with Git"
-subtitle: |
-  {{< var project.title >}}
-  
-  [{{< fa display >}} Slides]({{< var links.site >}}) |
-  [{{< fa brands github >}} Source]({{< var links.github >}})
-  
-  {{< var slides.license-badge >}}
-  {{< var slides.doi-badge >}}
 date: "2024-04-22"
 format: revealjs
 metadata-files:

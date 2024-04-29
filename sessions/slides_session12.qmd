@@ -1,12 +1,5 @@
 ---
 title: "Session 12: Advanced GitHub"
-subtitle: |
-  {{< var project.title >}}
-  
-  [{{< fa brands internet-explorer >}} Slides]({{< var links.site >}}) |
-  [{{< fa brands github >}} Source]({{< var links.github >}})
-  
-  {{< var slides.license-badge >}}
 date: 2024-01-19
 format: revealjs
 metadata-files:
