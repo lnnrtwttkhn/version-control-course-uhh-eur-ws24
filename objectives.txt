@@ -2,3 +2,4 @@ https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectiv
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-cli.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-setup.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-firststeps.qmd
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-branches.qmd

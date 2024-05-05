@@ -49,13 +49,12 @@ session05:
   contents: 
     - "Understanding branches in Git"
     - "Creating and switching between branches"
-    - "Merging branches: fast-forward and recursive"
+    - "Merging branches"
     - "Resolving merge conflicts"
-    - "Stashing and retrieving changes"
   reading:
     - "[Branches](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)"
   survey:
-    - "[Git branches Quiz](https://version-control-branches.formr.org)"
+    - "[Git Branches Quiz](https://version-control-branches.formr.org)"
 session06:
   date: 2024-05-13
   title: "Quarto Workshop"

@@ -1,0 +1,142 @@
+---
+title: "Session 5: Branches"
+date: 2024-05-06
+format: revealjs
+metadata-files:
+  - _slides.yml
+---
+
+## Schedule
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+create_schedule()
+```
+
+# Last week: First steps with Git
+
+## Last week: First steps with Git
+
+{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
+```
+
+## Last week's question: Saving command line history?
+
+Use this:
+
+```{zsh}
+history > history.txt
+```
+
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history)
+
+```{=html}
+<iframe width="100%" height="70%" src="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history" title="Version Control Book"></iframe>
+```
+
+## Last week's question: Commit `.gitignore`?
+
+Yes, commit your project-specific `.gitignore` file.
+
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#ignoring-files-and-folders-.gitignore](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#ignoring-files-and-folders-.gitignore)
+
+```{=html}
+<iframe width="100%" height="70%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#ignoring-files-and-folders-.gitignore" title="Version Control Book"></iframe>
+```
+
+## Last week's learning objectives
+
+::: fragment
+### Setup
+
+{{< include ../objectives/_objectives-setup.qmd >}}
+:::
+
+::: fragment
+### First steps with Git
+
+{{< include ../objectives/_objectives-firststeps.qmd >}}
+:::
+
+# Survey Results
+
+# Today's topic: Branches
+
+## Today's topic: Branches
+
+![Image from [Chapter "Git Branches"](https://book.the-turing-way.org/reproducible-research/vcs/vcs-git-branches.html) of the ["The Turing Way handbook to reproducible, ethical and collaborative data science"](https://book.the-turing-way.org/), used under a [Creative Commons Attribution 4.0 License](https://github.com/the-turing-way/the-turing-way/blob/main/LICENSE.md).](../images/turing-way-branches.png){#fig-branches}
+
+::: {.notes}
+**Illustration of branches in a Git repository.** Each circle represents a commit. Commits on the `Main` branch are shown in gray. The branch `Feature A` (blue circles) was created from the `Main` branch and later merged again. In-between, another branch `Feature A-1` was created from the `Feature A` branch (green circles) and merged with that branch again before the `Feature A` branch was eventually merged with the `Main` branch. The branch `Feature B` was created but abandoned and not merged with the `Main` branch. 
+:::
+
+## Today's chapter
+
+{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/branches.html>
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/branches.html" title="Version Control Book"></iframe>
+```
+
+## This weeks learning objectives
+
+{{< include ../objectives/_objectives-branches.qmd >}}
+
+## Your turn
+
+::: incremental
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["Branches"](https://lennartwittkuhn.com/version-control-book/chapters/branches.html) in the Version Control Book.
+2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!
+3.  **Note:** We will do the implementation exercises in class together, step-by-step.
+4.  {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-branches.formr.org/).
+:::
+
+::: fragment
+Ask questions!
+
+Let's *git* started!
+:::
+::: fragment
+and *branch* out
+:::
+
+## Implementation Exercises
+
+::: fragment
+
+### 1. Create and merge a branch
+
+1. Create a new branch called `feature`.
+1. Switch to your new branch.
+1. Add a new recipe to your recipes text file.
+1. Switch back to the default branch (`main` or `master`).
+1. Merge the `feature` branch with your default branch and delete the `feature` branch afterwards.
+:::
+
+::: fragment
+
+### 2. Create and resolve a  merge conflict
+
+Deliberately create a merge conflict by editing the same section of a file on two separate branches and attempting to merge them.
+An example can be found in the Version Control Book chapter.
+Resolve the merge conflict and delete the feature branch afterwards.
+
+:::
+
+::: fragment
+### 3. Complete the [branches quiz](https://version-control-branches.formr.org)
+:::
+
+# GUIs
+
+## GUIs 
+
+{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/gui.html](https://lennartwittkuhn.com/version-control-book/chapters/gui.html)
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/gui.html" title="Version Control Book"></iframe>
+```
