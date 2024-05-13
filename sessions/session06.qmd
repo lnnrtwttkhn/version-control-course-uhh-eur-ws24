@@ -1,0 +1,66 @@
+---
+title: "Quarto"
+subtitle: "Session 06"
+date: 2024-05-13
+about:
+  id: hero-heading
+  template: solana
+  image-width: 0em
+  links:
+    - icon: display
+      text: Slides
+      href: https://lennartwittkuhn.com/quarto-workshop/
+      aria-label: display
+---
+
+::: {#hero-heading}
+:::
+
+## This session
+
+In this session, you will complete the following tasks:
+
+1. Complete the tasks in the [slides](#slides).
+
+## `recipes` project
+
+At the end of this session, you should have accomplished the following.
+
+For more details, please see the [slides](#slides).
+
+### Task 1
+
+1. You created a new `quarto` branch in your `recipes` repository and switched to it.
+
+### Task 2
+
+1. You create a new **empty Quarto file** called `recipes.qmd` and saved it in your `recipes` repository.
+1. You wrote a **short introduction note** to your recipes repository.
+1. You **staged** and **committed** your changes.
+
+### Task 3
+
+1. You **added a recipe** to the `recipes.qmd` file.
+1. You formatted the text by applying at least **three types of Markdown syntax**.
+1. You **staged** and **committed** your changes.
+
+### Task 4
+
+1. You **added a YAML header** to your Quarto file.
+1. You included **your name**, a **title**, an [**output format**](https://quarto.org/docs/output-formats/all-formats.html) (e.g., HTML) and a [**theme**](https://quarto.org/docs/output-formats/html-themes.html).
+1. You **staged** and **committed** your changes.
+
+#### Task 5
+
+4. You **merged** your `quarto` branch into your main branch
+
+Please keep the `recipes` folder!
+We will continue to use it in the following sessions.
+
+## Slides
+
+{{< include _print-to-pdf.qmd >}}
+
+```{=html}
+<iframe width="100%" height=500 src="https://lennartwittkuhn.com/quarto-workshop/"></iframe>
+```

@@ -8,6 +8,7 @@ listing:
     - "session03.qmd"
     - "session04.qmd"
     - "session05.qmd"
+    - "session06.qmd"
   type: default
   sort: "date desc"
   categories: false
