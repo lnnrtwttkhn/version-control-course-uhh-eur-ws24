@@ -1,7 +1,7 @@
 ---
-title: "Branches"
+title: "GitHub - Intro"
 subtitle: "Session 08"
-date: 2023-12-08
+date: 2024-05-27
 about:
   id: hero-heading
   template: solana
@@ -9,20 +9,62 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/slides_session08.html
+      href: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session08.html
       aria-label: display
     - icon: book
-      text: "Chapter: Branches"
-      href: https://lennartwittkuhn.com/version-control-book/chapters/branches.html
+      text: "Chapter: GitHub Intro"
+      href: https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html
       aria-label: book
     - icon: input-cursor-text
       text: Exercises
-      href: https://version-control-branches.formr.org/
+      href: https://version-control-github.formr.org/
       aria-label: input-cursor-text
 ---
 
 ::: {#hero-heading}
 :::
+
+## This session
+
+In this session, you will complete the following tasks:
+
+1. Complete the chapter ["GitHub Intro"](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html) in the Version Control Book.
+1. Complete the exercises for the [`recipes` project](#recipes-project).
+
+As always:
+
+1. Try out the commands in the chapter and play around with them.
+1. Check whether you have achieved the [learning objectives](#learning-objectives).
+
+## `recipes` project
+
+At the end of this session, you should have accomplished the following:
+
+1. You connected your GitHub account to your local Git.
+1. You created a new GitHub repository and uploaded (i.e., "pushed") your `recipes` project.
+1. You cleaned up your project by deleting unnecessary files and branches.
+1. You created a short `README.md` file in your repository.
+
+## Learning objectives
+
+{{< include ../objectives/_objectives-github-intro.qmd >}}
+
+## Email
+
+Dear course participants,
+
+We have a last-minute preparation request for our seminar today (sorry, for the short notice, it will only take a few minutes):
+
+Please ensure you have a working GitHub account before our next session today. 
+If you do not have one yet, please create an account at <https://github.com/>.
+
+If you encounter any issues or have any questions, feel free to contact us via email.
+
+We look forward to seeing you later!
+
+Best wishes,
+
+Lennart Wittkuhn (Instructor) & Konrad Pagenstedt (Teaching Assistant)
 
 ## Slides
 

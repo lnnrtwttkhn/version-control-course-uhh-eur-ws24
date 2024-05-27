@@ -1,16 +1,12 @@
 ---
-title: "Session 8: Branches"
-date: 2023-12-08
+title: "Session 8: GitHub - Intro"
+date: 2024-05-20
 format: revealjs
 metadata-files:
   - _slides.yml
 ---
 
-## How are you today?
-
-::: fragment
-![](../images/paintings_moodscale.jpg){width="50%"}
-:::
+# Schedule
 
 ## Schedule
 
@@ -22,30 +18,79 @@ metadata-files:
 create_schedule()
 ```
 
-## Looking back: Git basics
+# Last Session
 
--   **Survey results**
+## Last session: Quarto Workshop
 
-## Today's topic: Branches
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session06](https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session06)
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session06" title="Version Control Book"></iframe>
+```
 
-::: fragment
-![](../images/branches.png){width="70%"}
+## Last week: Questions about Quarto?
+
+## Important note: Git repository in `user` folder?
+
+::: {.fragment}
+- Please make sure that your `recipes` repository is in a suitable place (for example, in the `Desktop`, `Documents` folders or where you keep your university-related files, ...) and **not** in your user directory!
+- Also: Always remember to `cd` into your repository before you execute Git commands!
+- If your repository is in your user directory, please **tell Lennart** and we can fix it.
+:::
+
+::: {.fragment}
+**Tip:** To prevent ever creating a Git repository inside your `user` folder, you can use:
+
+::: {.columns}
+::: {.column width="40%"}
+```{zsh filename="Code"}
+touch ~/.git
+```
+:::
+:::
+:::
+
+::: {.fragment}
+
+Running `git init` in the `user` directory now results in a (desired) error:
+
+::: {.column width="40%"}
+```{zsh filename="Output"}
+fatal: invalid gitfile format: /Users/user/.git
+```
+:::
+
+Thanks to [Eamon Caddigan](https://social.coop/@eamon/112434377857903339) for the idea!
+::: 
+
+# This week: Introduction to GitHub
+
+## Today's topic: Introduction to GitHub
+
+::: {.fragment}
+
+![Image from [Techdobz](https://medium.com/analytics-vidhya/version-control-using-git-github-ff4c3f7c752e)](../images/git-github-integration.png){width="70%"}
+:::
+
+## This weeks learning objectives
+
+::: {.fragment}
+{{< include ../objectives/_objectives-github-intro.qmd >}
 :::
 
 ## Today's chapter
 
-{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/branches.html>
+{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html>
 
 ```{=html}
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/branches.html" title="Version Control Book"></iframe>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html" title="Version Control Book"></iframe>
 ```
+
 ## Your turn
 
 ::: incremental
-1.  {{< fa book-open >}} **Content Review**: Read the chapter ["Branches"](https://lennartwittkuhn.com/version-control-book/chapters/branches.html) in the Version Control Book.
-2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!
-3.  **Note:** We will do the implementation exercises in class together, step-by-step.
-4.  {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-branches.formr.org/).
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GitHub - Intro"](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html) in the Version Control Book.
+2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
+3.  **Note:** Please complete the implementation exercises on the next slide
 :::
 
 ::: fragment
@@ -53,7 +98,60 @@ Ask questions!
 
 Let's *git* started!
 :::
-::: fragment
-and *branch* out
-:::
 
+## Implementation exercises
+
+::::: {.columns}
+:::: {.column width="33%"}
+::: {.fragment}
+
+### Task 1: Upload and manage your repo on GitHub
+
+- **Connect your GitHub account**
+  1. Generate a personal access token (PAT) on GitHub
+  1. Use the PAT for GitHub authentication
+- **Upload your repository**
+  1. Create a new **private**(!) repository on GitHub.
+  2. Set the remote URL for your local Git repository.
+  3. Push your `main` branch to GitHub.
+- **Optional: Manage branches**
+  1. Push other branches with changes to GitHub.
+  2. Delete unused branches.
+  
+:::
+::::
+:::: {.column width="33%"}
+::: {.fragment}
+### Task 2: Maintain your repo and collaborate
+- **Clean up your repository on GitHub**:
+  1. Delete unnecessary files or add a new recipe.
+  2. Commit changes with a message.
+  3. Pull the changes to your local repository.
+- **Collaboration**:
+  1. Add collaborators to your repository: Lennart ([\@lnnrtwttkhn](https://github.com/lnnrtwttkhn)) and Konrad ([\@konradpa](https://github.com/konradpa?tab=repositories)).
+  
+:::
+::::
+:::: {.column width="33%"}
+::: {.fragment}
+### Task 3: Create a `README` file
+
+1. Navigate to your repository on GitHub, click "Add file", and select "Create new file".
+1. Name the file `README.md`, add a brief description of your project, and provide a commit message.
+Play around with Markdown syntax!
+1. Click the green "Commit new file" button to save the `README.md` file to the repository.
+1. Pull the changes to your local repository.
+
+:::
+::::
+:::::
+
+## Implementation exercises (optional bonus)
+
+::: {.fragment}
+### Task 4: Clone and synac your repo (optional)
+1. Clone your repository from GitHub to a different location on your computer.
+2. Make and push changes.
+3. Pull changes to the repository in the original location.
+4. Delete your newly cloned repository.
+:::
