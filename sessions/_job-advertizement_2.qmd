@@ -1,0 +1,116 @@
+## Work with us! Research and teaching assistant positions
+
+### Projects
+
+::::: {.columns}
+:::: {.column width="33%"}
+::: {.fragment}
+#### P1: Version Control Course
+
+Course on Git for researchers
+
+- Develop "Version Control Book"
+- Maintain project website
+- Create exercises and quizzes
+- Tools: Git, Quarto
+:::
+::::
+:::: {.column width="33%"}
+::: {.fragment}
+#### P2: Open Educational Resources
+
+Course on OER for researchers
+
+- Create new course (website)
+- Create new online guide
+- Conducting interviews
+- Tools: Git, Quarto
+:::
+::::
+:::: {.column width="33%"}
+::: {.fragment}
+#### Project 3: Digital Research Skills
+
+- Development of course book
+- Development of project website
+- Creating exercises and quizzes
+- Like Git course
+- Tools: Git, Quarto + *new tool(s)*
+    - "Git for data" (DataLad)
+    - Software Containers (Docker)
+:::
+::::
+:::::
+
+### General
+
+::::: {.columns}
+:::: {.column width="33%"}
+::: {.fragment}
+#### :wrench: Tools
+::: {layout-ncol=2}
+![[git-scm.com](https://git-scm.com/)](../images/git-logo-full.svg){fig-align="center"}
+
+![[quarto.org/](https://quarto.org/)](../images/quarto-logo.png){fig-align="center"}
+:::
+:::
+::::
+:::: {.column width="33%"}
+::: {.fragment}
+#### :moneybag: Salary
+
+- **RA:** 12.00 € / hour (SHK) / 13.95 € / hour (WHK)
+- **TA:** 299.04 € / month (SHK) or 467.20 € / month (WHK)
+:::
+::::
+:::: {.column width="33%"}
+::: {.fragment}
+#### :envelope: Contact
+
+-  Questions, interest: [{{< var team.lennart.email >}}]({{< var team.lennart.mailto >}})
+- Get in touch with Konrad ([{{< var team.konrad.email >}}]({{< var team.konrad.mailto >}})) if you would like to know what the work is like
+:::
+::::
+:::::
+
+## Details about project positions
+
+::: {.fragment}
+#### Position 1: Research Assistant for new course on "Digital Research Skills"
+
+- :notebook: **Project:** Support development of new course on "Digital Research Skills"
+- :calendar: **Duration:** 01.08.2024 - 30.09.2025 (flexible)
+- :clock1: **Time:** up to 20 hours / month
+:::
+
+::: {.fragment}
+#### Position 2: Research Assistant for new course on "Open Educational Materials"
+
+- :notebook: **Project:** Create course and manual for "Open Educational Materials" with Quarto and Git
+- :calendar: **Duration:** 15.08.2024 - 31.08.2025 (flexible)
+- :clock1: **Time:** up to 30 hours / month
+:::
+
+::: {.fragment}
+#### Position 3: Teaching Assistant for Version Control Course in WS 24/25
+
+- :notebook: **Project:** Support international virtual "Version Control Course" with Erasmus University Rotterdam
+- :calendar: **Duration:** 14.10.2024 - 01.02.2025 (WS 24/25)
+- :clock1: **Time:** ~ 2 hours per week
+:::
+
+::: {.fragment}
+#### Position 4: Teaching Assistant for "Open Educational Resources" in WS 24/25
+
+- :notebook: **Project:** Support course at UHH on creating Open Educational Resources with Git and Quarto
+- :calendar: **Duration:** 14.10.2024 - 01.02.2025 (WS 24/25)
+- :clock1: **Time:** ~ 2 hours per week
+:::
+
+::: {.fragment}
+#### Position 5: Teaching Assistant for "Digital Research Skills" in WS 24/25 *or* SS24
+
+- :notebook: **Project:** Support teaching new course on "Digital Research Skills"
+- :calendar: **Duration:** 14.10.2024 - 01.02.2025 (WS 24/25) *or* 07.04.2025 - 19.07.2025 (SS 24)
+- :clock1: **Time:** ~ 2 hours per week
+:::

@@ -1,16 +1,16 @@
 ---
-title: "Session 9: GitHub"
-date: 2023-12-15
+title: "Session 9: GitHub - Collaboration"
+date: 2024-06-03
 format: revealjs
 metadata-files:
   - _slides.yml
 ---
 
-## How are you today?
+# Jobs!
 
-::: fragment
-![](../images/mood-spongebob.png){width="50%"}
-:::
+{{< include _job-advertizement_2.qmd >}}
+
+# Schedule
 
 ## Schedule
 
@@ -22,39 +22,58 @@ metadata-files:
 create_schedule()
 ```
 
-## Last week: Branches
+# Last session: GitHub - Intro
 
+## Last session: GitHub - Intro
 
-::: fragment
-![](../images/branches.png){width="70%"}
-:::
-
-::: fragment
-### Questions?
-
-### Survey results!
-:::
-
-## Today: GitHub
-
-::: fragment
-![](../images/git-github-integration.png){width="70%"}
-:::
-
-## Today's chapter
-
-{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html>
-
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html)
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html" title="Version Control Book"></iframe>
 ```
+
+## Last session's learning objectives
+
+{{< include ../objectives/_objectives-github-intro.qmd >}}
+
+## Questions about the last session?
+
+# This session's topic: Github - Collaboration
+
+## Today's topic: GitHub with collaborators
+
+::: fragment
+
+![Image from [Techdobz](https://medium.com/analytics-vidhya/version-control-using-git-github-ff4c3f7c752e)](../images/git-github-integration.png){width="70%"}
+
+:::
+
+## GitHub flow
+
+::: fragment
+
+![Image from [Sebass van Boxel](https://github.com/SvanBoxel/release-based-workflow/issues/1)](../images/github_flow.png){width="70%"}
+
+:::
+
+## This and next session's learning objectives
+
+{{< include ../objectives/_objectives-github-advanced.qmd >}}
+
+## Today's chapter
+
+{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html>
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html" title="Version Control Book"></iframe>
+```
+
 ## Your turn
 
 ::: incremental
-1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GitHub"](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html) in the Version Control Book.
-2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!
-3.  **Note:** We will do the implementation exercises in class together, step-by-step.
-4.  {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-github.formr.org/).
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) in the Version Control Book.
+2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
+3.  **Note:** Please complete the implementation exercises on the next slide
+3.  {{< fa dumbbell >}} **Quiz**: Complete the exercises in the [survey](https://version-control-github.formr.org/).
 :::
 
 ::: fragment
@@ -62,7 +81,38 @@ Ask questions!
 
 Let's *git* started!
 :::
+
+## Implementation Exercises
+
+::::: {.columns}
+:::: {.column width="33%"}
 ::: fragment
-And *git* it up to GitHub! :rocket:
+#### Task 1: **Private collaboration** with pull requests (using "GitHub flow")
+
+1. Add your partner as a collaborator to your `recipes` repo
+1. Clone your partner's repository
+1. Create a new branch in your partner's repository
+1. Add a recipe to your partner's `recipe.qmd` file
+1. Add and commit the changes
+1. Create a Pull Request
+1. Review the PR your partner made in your repository
+1. Merge the PR into your repository
+:::
 :::
 
+::: {.column width="33%"}
+::: fragment
+#### Task 2: Complete the [GitHub Quiz](https://version-control-github.formr.org)
+:::
+:::
+
+::: {.column width="33%"}
+::: fragment
+#### Task 3: **Clean up** your repo and improve your `README.md` (optional)
+:::
+:::
+::::
+
+# Jobs!
+
+{{< include _job-advertizement_2.qmd >}}
