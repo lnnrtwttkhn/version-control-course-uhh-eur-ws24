@@ -59,7 +59,7 @@ Course on OER for researchers
 ::: {.fragment}
 #### :moneybag: Salary
 
-- **RA:** 12.00 € / hour (SHK) / 13.95 € / hour (WHK)
+- **RA:** 13.25 € / hour (SHK) / 15.21 € / hour (WHK)
 - **TA:** 299.04 € / month (SHK) or 467.20 € / month (WHK)
 :::
 ::::
