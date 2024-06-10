@@ -57,6 +57,18 @@ create_schedule()
 ![Image from [Techdobz](https://medium.com/analytics-vidhya/version-control-using-git-github-ff4c3f7c752e)](../images/git-github-integration.png){width="70%"}
 :::
 
+## Today's topic: Issues
+
+![](../images/issue-example.png){width="100%" height="80%"}
+
+[Link to Issue](https://github.com/lnnrtwttkhn/version-control-survey/issues/28)
+
+## Issues in Lennart's `recipes` repository
+
+![](../images/issue-example-recipes-tiramisu.png){width="80%"}
+
+[Link to Issue](https://github.com/lnnrtwttkhn/recipes/issues/1)
+
 ## This session's learning objectives
 
 #### GitHub - Advanced
@@ -76,7 +88,13 @@ create_schedule()
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/recipes/" title="Lennart`s recipe project"></iframe>
 ```
 
-# Demoing Exercise
+# Exercise demonstration
+
+## Oh, another issue!
+
+![](../images/issue-example-recipes-ramen.png){width="100%" height="80%"}
+
+[Link to Issue](https://github.com/lnnrtwttkhn/recipes/issues/22)
 
 ## Your turn
 
