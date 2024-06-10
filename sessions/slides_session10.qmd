@@ -123,6 +123,14 @@ Let's *git* started!
     1. **Push** your changes to GitHub
     1. **Create a pull request** with your changes (hint: from the fork to the original repo) and refer to the issue in your pull request
 
+::: fragment
+### Homework: Clean up your repository
+
+1. Find an issue created by Konrad in your `recipes` repository with recommendations how to improve your repository
+1. Implement the recommended changes (for example, using a pull request in your own repository)
+1. :rocket: Link your commits to the issue, for example using `git commit -m "remove empty .txt file, see issue #1"`
+:::
+
 # Jobs!
 
 {{< include _job-advertizement_2.qmd >}}
