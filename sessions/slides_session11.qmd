@@ -1,16 +1,12 @@
 ---
-title: "Session 11: GitHub: Collaboration"
-date: 2024-01-12
+title: "Session 11: Repetition & Practice"
+date: 2024-06-17
 format: revealjs
 metadata-files:
   - _slides.yml
 ---
 
-## How are you today?
-
-::: fragment
-![](../images/mood-yoda.jpg){width="50%"}
-:::
+# Schedule
 
 ## Schedule
 
@@ -22,74 +18,50 @@ metadata-files:
 create_schedule()
 ```
 
-## Looking Back: Introduction to GitHub
+# Last session: Git(Hub) with the world 
 
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html" title="Version Control Book">
+## Last session: Git(Hub) with the world
 
-</iframe>
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/github-advanced](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html)
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html" title="Version Control Book"></iframe>
+```
 
-## Today: Collaboration with GitHub
+## Your questions about the last session?
 
-### Example
+# Your Pull Requests
 
-![](../images/issue-example.png){width="100%" height="80%"}
+# This session: Repetition & Practice
 
-[Link to Issue](https://github.com/lnnrtwttkhn/version-control-survey/issues/28)
+## Today's topic: Repetition & Practice
 
-## Your turn
-
-::: {.fragment .fade-in}
-### Part 1
-
-1.  **Find a partner** to work with today
-
-2.  Give each other the **rights to collaborate** on your recipe repositories
-
-3.  **Create an issue** on your partner's repository (maybe their repo is missing a great recipe?)
-:::
-
-::: {.fragment .fade-in}
-### Part 2
-
-4.  **Clone** your partners repository
-
-5.  **Create a new branch** and create **one or multiple commits** "fixing" the issue
-
-6.  **Push** your changes to GitHub
-:::
-
-::: {.fragment .fade-in}
-### Part 3
-
-7.  **Create a pull request** with your changes and refer to the issue
-
-8.  **Close the pull request** of your partner
-:::
-
+::::: {.columns}
+:::: {.column width="33%"}
 ::: fragment
-Ask questions!
 
-Let's *git* started!
+#### Task 1: **Pull Request to Lennart** 
+- Continue to complete the reviewed PR to Lennart's recipe repo
+
+:::
 :::
 
-## Bonus / Homework
-
+::: {.column width="33%"}
 ::: fragment
-1. Find out what [forking](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html#forking-a-repository) is
-1. **Fork the recipes repository** of another course participant (who is not your partner from the previous exercise)
-1. Repeat the steps from the previous exercise using the forked repository:
-    1. **Clone** the *forked* repository
-    1. **Create a new branch** and create **one or multiple commits** "fixing" the issue
-    1. **Push** your changes to GitHub
-    1. **Create a pull request** with your changes (hint: from the fork to the original repo) and refer to the issue
+#### Task 2: **Fix your issue**
+- Complete the tasks outlined in the issue in your repo and close the issue
+- :rocket: Fix the issue on a separate branch and create a PR in your own repo
+:::
 :::
 
+::: {.column width="33%"}
 ::: fragment
-#### Learning questions
-
-Some learning questions to pay attention to during the exercise:
-
--   How does forking differ from the previous approach to collaboration?
--   Did you notice any hurdles when comparing these different approaches to collaboration?
--   In which scenarios are different approaches to collaboration applicable?
+#### Task 3: **(Bonus)**
+- Add another recipe to Lennart's repository or a repository from another course participant
 :::
+:::
+::::
+
+
+# Jobs!
+
+{{< include _job-advertizement_2.qmd >}}

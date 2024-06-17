@@ -1,7 +1,7 @@
 ---
-title: "GitHub: Collaboration"
+title: "Repetition & Practice"
 subtitle: "Session 11"
-date: 2024-01-12
+date: 2024-06-17
 about:
   id: hero-heading
   template: solana
@@ -9,22 +9,53 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/slides_session11.html
+      href: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session11.html
       aria-label: display
     - icon: book
-      text: "Chapter: GitHub"
-      href: https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html
+      text: "Chapter: GitHub - Advanced"
+      href: https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html
       aria-label: book
-    - icon: input-cursor-text
-      text: Exercises
-      href: https://version-control-github.formr.org
-      aria-label: input-cursor-text
+    - icon: book
+      text: "Chapter: Issues"
+      href: https://lennartwittkuhn.com/version-control-book/chapters/issues.html
+      aria-label: book
+    - icon: book
+      text: "Chapter: Graphical User Interfaces"
+      href: https://lennartwittkuhn.com/version-control-book/chapters/gui.html
+      aria-label: book
 ---
+
 
 ::: {#hero-heading}
 :::
 
+# This session
+
+In this session, you will complete the following tasks:
+
+1. Complete the chapter ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) in the Version Control Book.
+1. Complete the chapter ["Issues"]( https://lennartwittkuhn.com/version-control-book/chapters/issues.html) in the Version Control Book.
+1. Complete the exercises for the [`recipes` project](#recipes-project).
+
+As always:
+
+1. Try out the commands in the chapter and play around with them.
+
+## `recipes` project
+
+At the end of this session, you should have accomplished the following:
+
+1. Successfully added a recipe to [Lennart's recipe project](https://github.com/lnnrtwttkhn/recipes) (for more details, see [slides](#slides))
+1. Cleaned up your repository, like detailed in your received GitHub issue.
+
+## Learning objectives
+
+{{< include ../objectives/_objectives-github-advanced.qmd >}}
+{{< include ../objectives/_objectives-issues.qmd >}}
+
 ## Slides
+
+{{< include _print-to-pdf.qmd >}}
 
 ```{=html}
 <iframe width="100%" height=500 src="slides_session11.html"></iframe>

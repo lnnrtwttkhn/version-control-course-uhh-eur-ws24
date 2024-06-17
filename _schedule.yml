@@ -64,7 +64,7 @@ Whit Monday:
   date: 2024-05-20
   title: "Whit Monday"
   contents: "Cancelled"
-session07:
+session08:
   date: 2024-05-27
   title: "Introduction to GitHub"
   contents:
@@ -76,7 +76,7 @@ session07:
     - "[GitHub Intro](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html)"
   survey:
     - "[GitHub Quiz](https://version-control-github.formr.org)"
-session08:
+session09:
   date: 2024-06-03
   title: "GitHub with collaborators"
   contents:
@@ -89,7 +89,7 @@ session08:
     - "[GitHub Intro](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html), [GitHub Issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)"
   survey:
     - "[GitHub Quiz](https://version-control-github.formr.org)"
-session09:
+session10:
   date: 2024-06-10
   title: "GitHub with the world"
   contents:
@@ -100,7 +100,12 @@ session09:
     - "[GitHub Intro](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html), [GitHub Issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)"
   survey:
     - "[GitHub Quiz](https://version-control-github.formr.org)"
-session10:
+session11:
+  date: 2024-06-17
+  title: "Repetition and Practice"
+  contents:
+    - "Repetition and Practice"
+session12:
   date: 2024-06-17
   title: "Publishing" 
   contents:
@@ -111,17 +116,12 @@ session10:
     - "Citation Files"
   reading:
     - "[Tags and Releases](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)"
-session11:
-  date: 2024-06-24
-  title: "Repetition and Practice"
-  contents:
-    - "Repetition and Practice"
-session12:
+session13:
   date: 2024-07-01
   title: "Repetition and Practice"
   contents:
     - "Repetition and Practice"
-session13:
+session14:
   date: 2024-07-08
   title: "Summary & Wrap-Up"
   contents: "Summary & Wrap-Up"
