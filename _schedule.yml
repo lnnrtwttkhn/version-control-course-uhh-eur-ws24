@@ -106,7 +106,7 @@ session11:
   contents:
     - "Repetition and Practice"
 session12:
-  date: 2024-06-17
+  date: 2024-06-24
   title: "Publishing" 
   contents:
     - "Creating Tags with Git"

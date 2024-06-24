@@ -1,16 +1,12 @@
 ---
-title: "Session 12: Advanced GitHub"
-date: 2024-01-19
+title: "Session 12: Tags, Releases & Publication"
+date: 2024-06-24
 format: revealjs
 metadata-files:
   - _slides.yml
 ---
 
-## How are you today?
-
-::: fragment
-![](../images/mood-animals.jpg){width="50%"}
-:::
+# Schedule
 
 ## Schedule
 
@@ -22,100 +18,187 @@ metadata-files:
 create_schedule()
 ```
 
-## Next week: DataLad Talk
+# Last session: Repetition & Practice 
 
+## Last session: Repetition & Practice
+
+{{< fa display >}} [https://github.com/lnnrtwttkhn/recipes/pulls](https://github.com/lnnrtwttkhn/recipes/pulls)
 ```{=html}
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/session13.html" title="DataLad Talk"></iframe>
+<iframe width="100%" height="80%" src="https://github.com/lnnrtwttkhn/recipes/pulls" title="Your PR`s"></iframe>
 ```
 
-## Survey Participation
+## Questions about the last session?
+
+# This session's topic: Tags & Releases
+
+## Today's topic: Tags & Releases 
+
+{{< fa display >}} <https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html>
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html" title="Version Control Book"></iframe>
+```
+
+# Tags & Releases: Examples
+
+## Example 1: MATLAB code for an experimental task in research
+
+[![](https://zenodo.org/badge/DOI/10.5281/zenodo.4305888.svg){height="100%"}](https://zenodo.org/badge/latestdoi/310215989)
+
+{{< fa display >}} <https://github.com/lnnrtwttkhn/highspeed-task>
+
+{{< fa display >}} See [Code Availability Statement](https://www.nature.com/articles/s41467-021-21970-2#code-availability) of paper:
+
+> All code to run the behavioral task can be found at (<https://github.com/lnnrtwttkhn/highspeed-task>; <https://doi.org/10.5281/zenodo.4305888>)
 
 ::: {.fragment}
-Please complete the surveys!
-:::
 
-## Looking Back: GitHub for collaboration
+### Advantages
 
-### Part 1
-
-1.  **Find a partner** to work with today
-
-2.  Give each other the **rights to collaborate** on your recipe repositories
-
-3.  **Create an issue** on your partner's repository (maybe their repo is missing a great recipe?)
-
-### Part 2
-
-4.  **Clone** your partners repository
-
-5.  **Create a new branch** and create **one or multiple commits** "fixing" the issue
-
-6.  **Push** your changes to GitHub
-
-### Part 3
-
-7.  **Create a pull request** with your changes and refer to the issue
-
-8.  **Close the pull request** of your partner
-
-
-## Today: More GitHub!
-
-1. Creating a **README.md** and **committing changes on GitHub**
-
-1. **Forking** workflow 
-
-1. Optional: **Tags and Releases**
-
-## Your turn (Part 1)
-
-::: {.fragment .fade-in}
-
-### Create a `README.md`
-
-1. Go to your repositories main page and click on **add a README**
-
-1. Use **Markdown syntax** and add the **most important facts** about the repository (link to our seminar website)
-
-1. Click on **Commit changes** and write a relevant **commit message**
+1. **Reusability:** Code is on GitHub and can be forked, reviewed, reused, extended, etc.
+1. **Reproducibility:** The *specific* version that was used in the original study is tagged.
+1. **Modularity:** Other researchers can independently reuse only the code for the experimental task.
+1. **Backup:** Code can be accessedd in *at least* two locations.
+1. **Independence:** If GitHub disappears, a copy of the code is still on Zenodo.
+1. **Recognition:** Other researchers can cite the code + views and downloads metrics on Zenodo.
 
 :::
 
-::: {.fragment .fade-in}
+## Example 2: Code releases in software development
 
-### Clean up your repository (optional) 
+{{< fa display >}} <https://github.com/lnnrtwttkhn/version-control-book/releases/tag/v1.0>
 
-If you have unnecessary files in your repository:
+::: {.fragment}
 
-1. Click on the file you want to delete and choose **Delete file**
+### Advantages (non-exhaustive list)
 
-1. **Commit** the change and choose a **commit message**
-
-1. **Pull** the changes to your local repository
+- Automated Change Log based on PR titles
+- Automated appreciation of new contributors
 
 :::
 
-## Your turn (Part 2)
+## This session's learning objectives
 
-::: {.fragment .fade-in}
+{{< include ../objectives/_objectives-tags-releases.qmd >}}
 
-1. Find out what [forking](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html#forking-a-repository) is
-1. **Fork the recipes repository** of another course participant (including Lennart or Konrad)
-1. Repeat the steps from the previous exercise using the forked repository:
-    1. **Clone** the *forked* repository
-    1. **Create a new branch** and create **one or multiple commits** "fixing" the issue
-    1. **Push** your changes to GitHub
-    1. **Create a pull request** with your changes (hint: from the fork to the original repo) and refer to the issue
-::: 
+## Your turn
 
-::: {.fragment .fade-in}
-- Lennart's `recipes` repository: <https://github.com/lnnrtwttkhn/recipes>
-- Konrad's `recipes` repository: <https://github.com/konradpa/Recipes>
-- Your repositories?
+::: incremental
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["Tags & Releases"](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html) in the Version Control Book.
+2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
+3.  **Note:** Please complete the implementation exercises on the next slide.
 :::
 
-## Bonus exercise
+::: fragment
+Ask questions!
 
-1. Read the [Tags and Releases chapter](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)
-1. **Create a tag** marking your recipe repository version
-1. **Create a release** of your "finished" repository on GitHub
+Let's *git* started!
+:::
+
+# Demo exercise 
+
+## `recipes` project
+
+At the end of this session, you should have accomplished the following:
+
+1. You created an annotated Tag and a GitHub Release.
+2. You linked the release to Zenodo's sandbox and minted a DOI.
+
+## Implementation Exercises
+
+::::: {.columns}
+
+:::: {.column width="33%"}
+::: fragment
+
+### Task 1: **Create a Tag**
+
+1. Preparation: Clean-up your repo, merge any changes that you still want to integrate
+1. Publish your repo: Go to "Settings", click "General", scroll down and change repository visibility
+1. Create an annotated tag on the `main` branch in your recipe repo named `v1.0.0.`
+1. Push the Tag to GitHub
+
+:::
+::::
+
+:::: {.column width="33%"}
+::: fragment
+
+### Task 2: **Create a Zenodo account and link it to GitHub**
+
+1. Create a Zenodo account by visiting the Zenodo website and signing up.
+1. Link your GitHub account to Zenodo
+1. Go to the GitHub section in the [Zenodo sandbox](https://sandbox.zenodo.org) and enable syncing your `recipes` repository
+:::
+::::
+
+:::: {.column width="33%"}
+::: fragment
+
+### Task 2: **Create a GitHub Release and mint a DOI**
+
+1. Go to your repository on GitHub.
+1. Click on "Releases" then "Draft a new release".
+1. Choose the tag `v1.0.0` from the list 
+1. Fill in the release title and description.
+1. Click "Publish release".
+1. Go to the GitHub section in the [Zenodo sandbox](https://sandbox.zenodo.org) and look at your DOI
+
+:::
+::::
+:::::
+
+## Next week: Practice with GUIs (+ course evaluation!)
+
+... following [popular request](https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24/labels/feedback)
+
+::: columns
+::: {.column width="35%"}
+::: fragment
+### Integrated Development Environments (IDEs)
+
+#### RStudio
+
+[![](../images/gui-rstudio.png)](https://microsite.geo.uzh.ch/reproducible_research/post/rr-rstudio-git/)
+:::
+
+::: fragment
+#### MATLAB
+
+[![](../images/gui-matlab.png)](https://de.mathworks.com/help/matlab/matlab_prog/branch-and-merge-with-git.html)
+:::
+:::
+
+::: {.column width="35%"}
+::: fragment
+### Git Clients
+
+### GitKraken
+
+[![](../images/gui-gitkraken.png)](https://jonbunator.github.io/gitkraken-custom-themes/)
+:::
+
+::: fragment
+### GitHub Desktop
+
+[![](../images/gui-githubdesktop.png)](https://desktop.github.com/)
+:::
+:::
+
+::: {.column width="25%"}
+::: fragment
+### Mobile
+
+#### Working Copy (iOS)
+
+[![](../images/gui-workingcopy.png)](https://workingcopyapp.com/users-guide)
+:::
+:::
+:::
+
+## Homework
+
+1. Sign-up for [GitHub Education](https://education.github.com/discount_requests/application) to get access to the Student Developer Pack
+1. Install [GitKraken](https://www.gitkraken.com/github-student-developer-pack) and sign-up with your GitHub account
+1. :rocket: Optional: Check out other Git GUIs that you'd like to try (e.g., RStudio)
+

@@ -1,7 +1,7 @@
 ---
-title: "Advanced GitHub"
+title: "Tags, Releases & Publication"
 subtitle: "Session 12"
-date: 2024-01-19
+date: 2024-06-24
 about:
   id: hero-heading
   template: solana
@@ -9,22 +9,43 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/slides_session12.html
+      href: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session12.html
       aria-label: display
     - icon: book
-      text: "Chapter: GitHub"
-      href: https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html
+      text: "Tags & Releases"
+      href: https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html
       aria-label: book
-    - icon: input-cursor-text
-      text: Exercises
-      href: https://version-control-github.formr.org
-      aria-label: input-cursor-text
 ---
+
 
 ::: {#hero-heading}
 :::
 
+# This session
+
+In this session, you will complete the following tasks:
+
+1. Complete the chapter ["Tags & Releases"](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html) in the Version Control Book.
+1. Complete the exercises for the [`recipes` project](#recipes-project).
+
+As always:
+
+1. Try out the commands in the chapter and play around with them.
+
+## `recipes` project
+
+At the end of this session, you should have accomplished the following:
+
+1. You created an annotated Tag and a GitHub Release.
+2. You linked the release to Zenodo's sandbox and minted a DOI.
+
+## Learning objectives
+
+{{< include ../objectives/_objectives-tags-releases.qmd >}}
+
 ## Slides
+
+{{< include _print-to-pdf.qmd >}}
 
 ```{=html}
 <iframe width="100%" height=500 src="slides_session12.html"></iframe>

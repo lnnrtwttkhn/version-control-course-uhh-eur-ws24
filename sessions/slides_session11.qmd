@@ -56,7 +56,7 @@ create_schedule()
 ::: {.column width="33%"}
 ::: fragment
 #### Task 3: **(Bonus)**
-- Open a new issue in the [coure respository](https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24/issues) with feedback on what you would still like to learn about / do in the last few sessions of the course.
+- Open a new issue in the [course repository](https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24/issues) with feedback on what you would still like to learn about / do in the last few sessions of the course.
 
 #### Task 4: **(Bonus)**
 - Add another recipe to Lennart's repository or a repository from another course participant
