@@ -13,7 +13,7 @@ about:
       aria-label: display
     - icon: book
       text: "Chapter: GitHub"
-      href: https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html
+      href: https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html
       aria-label: book
     - icon: input-cursor-text
       text: Exercises

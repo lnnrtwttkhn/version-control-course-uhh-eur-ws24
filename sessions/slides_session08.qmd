@@ -74,21 +74,21 @@ Thanks to [Eamon Caddigan](https://social.coop/@eamon/112434377857903339) for th
 ## This weeks learning objectives
 
 ::: {.fragment}
-{{< include ../objectives/_objectives-github-intro.qmd >}
+{{< include ../objectives/_objectives-remotes-intro.qmd >}
 :::
 
 ## Today's chapter
 
-{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html>
+{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html>
 
 ```{=html}
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html" title="Version Control Book"></iframe>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html" title="Version Control Book"></iframe>
 ```
 
 ## Your turn
 
 ::: incremental
-1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GitHub - Intro"](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html) in the Version Control Book.
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GitHub - Intro"](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html) in the Version Control Book.
 2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
 3.  **Note:** Please complete the implementation exercises on the next slide
 :::

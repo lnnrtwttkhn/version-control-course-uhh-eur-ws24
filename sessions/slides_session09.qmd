@@ -26,14 +26,14 @@ create_schedule()
 
 ## Last session: GitHub - Intro
 
-{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html)
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html)
 ```{=html}
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html" title="Version Control Book"></iframe>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html" title="Version Control Book"></iframe>
 ```
 
 ## Last session's learning objectives
 
-{{< include ../objectives/_objectives-github-intro.qmd >}}
+{{< include ../objectives/_objectives-remotes-intro.qmd >}}
 
 ## Questions about the last session?
 

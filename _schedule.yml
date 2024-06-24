@@ -73,7 +73,7 @@ session08:
     - "Creating and managing repositories on GitHub"
     - "Pushing and pulling changes"
   reading:
-    - "[GitHub Intro](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html)"
+    - "[GitHub Intro](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html)"
   survey:
     - "[GitHub Quiz](https://version-control-github.formr.org)"
 session09:
@@ -86,7 +86,7 @@ session09:
     - "GitHub Issues"
     - "Graphical User Interfaces (GUIs), e.g., GitKraken"
   reading:
-    - "[GitHub Intro](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html), [GitHub Issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)"
+    - "[GitHub Intro](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html), [GitHub Issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)"
   survey:
     - "[GitHub Quiz](https://version-control-github.formr.org)"
 session10:
@@ -97,7 +97,7 @@ session10:
     - "README files"
     - "Project Management"
   reading:
-    - "[GitHub Intro](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html), [GitHub Issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)"
+    - "[GitHub Intro](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html), [GitHub Issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)"
   survey:
     - "[GitHub Quiz](https://version-control-github.formr.org)"
 session11:

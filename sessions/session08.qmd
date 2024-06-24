@@ -13,7 +13,7 @@ about:
       aria-label: display
     - icon: book
       text: "Chapter: GitHub Intro"
-      href: https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html
+      href: https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html
       aria-label: book
     - icon: input-cursor-text
       text: Exercises
@@ -28,7 +28,7 @@ about:
 
 In this session, you will complete the following tasks:
 
-1. Complete the chapter ["GitHub Intro"](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html) in the Version Control Book.
+1. Complete the chapter ["GitHub Intro"](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html) in the Version Control Book.
 1. Complete the exercises for the [`recipes` project](#recipes-project).
 
 As always:
@@ -47,7 +47,7 @@ At the end of this session, you should have accomplished the following:
 
 ## Learning objectives
 
-{{< include ../objectives/_objectives-github-intro.qmd >}}
+{{< include ../objectives/_objectives-remotes-intro.qmd >}}
 
 ## Email
 

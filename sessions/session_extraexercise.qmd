@@ -8,7 +8,7 @@ about:
   links:
     - icon: book
       text: "Chapter: GitHub"
-      href: https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html
+      href: https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html
       aria-label: book
     - icon: input-cursor-text
       text: "Survey: GitHub"
@@ -24,7 +24,7 @@ number-sections: true
 
 If you missed more than two course sessions, you are asked to complete an **additional assignment**.
 This additional assignment **builds on the contents of previous course sessions** and is (roughly) the equivalent of what you would complete in a regular course session.
-If you need help, please consult the relevant chapters in the [Version Control Book]({{< var links.book >}}) (in particular the chapter on [GitHub](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html)).
+If you need help, please consult the relevant chapters in the [Version Control Book]({{< var links.book >}}) (in particular the chapter on [GitHub](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html)).
 While the assignment covers many aspects of our course, it's not an exam.
 So please [get in touch]({{< var links.mailto >}}) if you are getting stuck or have any questions about the assignment or the course contents.
 
@@ -54,7 +54,7 @@ You complete this assignment by sending a link to your `recipes` repository [to 
 
 ### Forking 
 
-1.    Find out what [forking](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html#forking-a-repository) is.
+1.    Find out what [forking](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html#forking-a-repository) is.
 1.    Fork [Lennart's recipes repository](https://github.com/lnnrtwttkhn/recipes/).
 1.    Create an issue in Lennart's repository (maybe the repo is missing a great recipe?).
 1.    Clone the *forked* repository to your computer.

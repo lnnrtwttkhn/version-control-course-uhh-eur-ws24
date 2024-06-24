@@ -99,7 +99,7 @@ If you have unnecessary files in your repository:
 
 ::: {.fragment .fade-in}
 
-1. Find out what [forking](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html#forking-a-repository) is
+1. Find out what [forking](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html#forking-a-repository) is
 1. **Fork the recipes repository** of another course participant (including Lennart or Konrad)
 1. Repeat the steps from the previous exercise using the forked repository:
     1. **Clone** the *forked* repository
