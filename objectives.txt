@@ -3,6 +3,6 @@ https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectiv
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-setup.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-firststeps.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-branches.qmd
-https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-github-intro.qmd
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-remotes-intro.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-github-advanced.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-issues.qmd
