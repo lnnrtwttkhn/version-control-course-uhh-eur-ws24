@@ -1,16 +1,12 @@
 ---
 title: "Session 14: Summary & Wrap-Up"
-date: 2024-02-02
+date: 2024-07-08
 format: revealjs
 metadata-files:
   - _slides.yml
 ---
 
-## How are you today?
-
-::: fragment
-![](../images/moodscale_14.jpeg){width="50%"}
-:::
+# Schedule
 
 ## Schedule
 
@@ -22,64 +18,252 @@ metadata-files:
 create_schedule()
 ```
 
-## Survey Participation
+# Last session: Tags, Releases and Publishing
 
-::: fragment
--   **Thank you** for completing the surveys!
+## Last session: Tags, Releases and Publishing
+
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html" title="Version Control Book"></iframe>
+```
+
+## Your questions about the last session?
+
+# Course evaluation
+
+Check your mailbox for the link to the evaluation form!
+
+# Course requirements
+
+## From session 1: Your role
+
+::: {.fragment}
+#### **Active participation**
+- This is a pass / fail course.
+You pass if you fulfill all course requirements:
+- Requirement 1: Come to at least **11 out of 13 sessions** (85%)
+- Requirement 2: Complete all **surveys/quizzes**
+- Requirement 3: Complete **all mandatory exercises** (implemented in Git)
 :::
 
-## Last week: DataLad Talk
+::: {.fragment}
+#### How do we verify the course requirements?
 
--   **Question/Comments?**
+1. Requirement 1: **Sign the attendance list**
+1. Requirement 2: **Provide a personal codeword**.
+At the end of the semester, send an email with your personal codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}}) (Christine Manor).
+We will send our secretary a list of personal codewords and she will return a list of names.
+1. Requirement 3: We check your GitHub repositories.
+
+:::
+
+## Your tasks
+
+**In order to pass this course**, you should have accomplished the following tasks:
+
+1. You have a public `recipes` repository on GitHub.
+1. You added a text file (e.g., `.qmd` or `.txt`) with at least one recipe to the repository.
+1. You created a pull request in a partner's repository (e.g., adding a new recipe).
+1. You reviewed and merged the pull request of a partner in your `recipes` repository.
+1. You create a pull request in Lennart's `recipes` repository, you implemented all additional requests and your pull request was approved and merged by Lennart.
+1. You implemented the changes suggested by Konrad in your `recipes` repository and closed the issue.
+1. You created a release of your `recipes` repository on GitHub.
+
+1. You completed all quizzes (see next slide).
+1. You completed the extra assignment (if necessary, see next slide).
+
+**Deadline:** Please complete these tasks until **end of July**.
+
+## Quiz participation
+
+**In order to pass this course**, you should have completed all quizzes:
+
+1. [Command Line](https://version-control-cli.formr.org)
+1. [Git Basics](https://version-control-basics.formr.org)
+1. [Branches](https://version-control-branches.formr.org)
+1. [GitHub](https://version-control-github.formr.org)
+
+::: {.fragment}
+### How to verify participation
+
+1. At the end of the semester, send an email with your personal codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}}) (Christine Manor), **not to us!**
+1. Our secretary sends us an unsorted list with codewords.
+1. We verify the quiz participation for each codeword and send Christine a list with codewords that completed all quizzes.
+1. Christine compares the codewords with your names and send us an unsorted list with names.
+:::
+
+## Missed more than two sessions?
+
+We will send you an email with an extra assignment.
+
+# This session
+
+## Your feedack
+
+... following [popular request](https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24/labels/feedback)
+
+> [...] sometimes I loose track of where I am in the Git/GitHub Space.
+Maybe you can create a "map" on how the things are related and which codes get me from one point to another?
+
+> [...] Could you explain how Github enables us to see the version history and how we can access files at different time points?
+
+> [...] For the last seminar sessions it might be interesting to look more into GUIs for Git.
+
+> [...] what about GUIs?
+Which one has which benefits and what are payment options?
+Git kraken looked really promising, is it worth it?
+
+> [...] I definitely support the plan to practice what we've learned so far so that I don't forget about it once the semester is over.
+
+## This session's learning objectives
+
+{{< include ../objectives/_objectives-gui.qmd >}}
+
+## Today's chapter
+
+{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/gui.html>
 
 ```{=html}
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/session13.html" title="DataLad Talk"></iframe>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/gui.html" title="Version Control Book"></iframe>
 ```
-## Seminar evaluation
 
--   **Thank you** for completing the evaluation
+# Demonstration: GitKraken/Rstudio 
+
+## Your turn
+
+::: incremental
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GUIs"](https://lennartwittkuhn.com/version-control-book/chapters/gui.html) in the Version Control Book.
+2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
+3.  **Note:** Please complete the implementation exercises on the next slide
+:::
 
 ::: fragment
--   Any **more suggested improvements?**
+Ask questions!
+
+Let's *git* started!
 :::
 
-## Open Questions about Git or GitHub?
+## Implementation Exercise
 
-## Reviewing your pull requests
-
-## Kahoot {{< fa gamepad >}}
-
-::: {.notes}
-Link: https://create.kahoot.it/details/e4f54859-c04d-4d74-a314-29eb72e9eb50
-:::
-
-## Logo Reveal
-
-:::: columns
-::: {.column width="15%"}
 ::: fragment
-![](../images/git-logo.png)
+#### Complete the course requirements
+
+We are here to help if you are stuck.
 :::
-:::
-::: {.column width="15%"}
+
 ::: fragment
-![](../images/uhh-logo.png)
+#### Done? Collaborate with pull requests (using "GUIs")
+
+1. Find a partner.
+1. Using a GUI, clone their repository if not already done (and pull the newest version).
+1. Create a new branch.
+1. Create a new file called `crazy_recipe.txt` or `crazy_recipe.qmd`.
+1. Input three random ingredients and two kitchen utensils.
+1. Add, commit and push the changes.
+1. Create a Pull Request.
+1. Review the Pull Request from your partner and create a coherent recipe.
+1. Merge the Pull Request.
 :::
-:::
-::: {.column width="15%"}
-::: {style="font-size: 500%;"}
+
+# There's more ...
+
+## Graphical User Interfaces (GUIs) for Git
+
+::: columns
+::: {.column width="35%"}
 ::: fragment
-🪄
+### Integrated Development Environments (IDEs)
+
+#### RStudio
+
+[![](../images/gui-rstudio.png)](https://microsite.geo.uzh.ch/reproducible_research/post/rr-rstudio-git/)
 :::
+
+::: fragment
+#### MATLAB
+
+[![](../images/gui-matlab.png)](https://de.mathworks.com/help/matlab/matlab_prog/branch-and-merge-with-git.html)
+:::
+:::
+
+::: {.column width="35%"}
+::: fragment
+### Git Clients
+
+### GitKraken
+
+[![](../images/gui-gitkraken.png)](https://jonbunator.github.io/gitkraken-custom-themes/)
+:::
+
+::: fragment
+### GitHub Desktop
+
+[![](../images/gui-githubdesktop.png)](https://desktop.github.com/)
+:::
+:::
+
+::: {.column width="25%"}
+::: fragment
+### Mobile
+
+#### Working Copy (iOS)
+
+[![](../images/gui-workingcopy.png)](https://workingcopyapp.com/users-guide)
+:::
+:::
+:::
+
+## Continuous Integration & Deployment (CI/CD)
+
+::::: columns
+:::: {.column width="65%"}
+![from [Suresoft](https://suresoft.dev/knowledge-hub/continuous-integration/gitlab-ci/)](../images/gitlab-ci.jpg)
+::::
+:::: {.column width="35%"}
+#### Example: Lennart's `recipes` repo
+
+- Automated spell check
+- Rebuilding of project website
+
+{{< fa display >}} [github.com/lnnrtwttkhn/recipes](https://github.com/lnnrtwttkhn/recipes/)
+::::
+:::::
+
+## Version Control for *data*: DataLad
+
+::::: columns
+:::: {.column width="55%"}
+::: fragment
+... for **data** (binary files) ![© Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd052810s.gif)
+:::
+::::
+:::: {.column width="45%"}
+::: {.fragment}
+Sadly, Git does not handle large files well.
+![](../images/git-snapshot.png){fig-align="center" width=100%}
+:::
+::: {.fragment}
+::: {layout-ncol=2}
+![[datalad.org](https://www.datalad.org/) (from the [DataLad Handbook](https://handbook.datalad.org/en/latest/index.html) by Wagner et al.)](../images/datalad-logo-full.svg)
+
+[![](../images/datalad-handbook-logo.svg)](https://handbook.datalad.org/en/latest/)
 :::
 :::
 ::::
+:::::
 
-:::: columns
-::: {.column width="50%"}
-::: fragment
-![](../images/uhh_git_logo.jpg){fig-align="left"}
-:::
-:::
-::::
+# Jobs
 
+## Jobs
+
+::: {layout-ncol=2}
+
+![](../images/ra-advertizement-alexa-1.png)
+
+![](../images/ra-advertizement-alexa-2.png)
+
+:::
+
+# Thank you! {.unnumbered}
+
+## Thank you!

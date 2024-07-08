@@ -118,7 +118,7 @@ session12:
     - "[Tags and Releases](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)"
 session13:
   date: 2024-07-01
-  title: "Graphical User Interfaces"
+  title: "Graphical User Interfaces (cancelled)"
   contents:
     - "Repetition and Practice"
     - "Introduction to using GUIs"
@@ -127,6 +127,11 @@ session13:
 session14:
   date: 2024-07-08
   title: "Summary & Wrap-Up"
-  contents: "Summary & Wrap-Up"
-  commands: ".."
-  
+  contents:
+    - "Course evaluation"
+    - "Repetition and Practice"
+    - "Introduction to using GUIs"
+  reading:
+    - "[Graphical User Interfaces](https://lennartwittkuhn.com/version-control-book/chapters/gui.html)"
+
+    

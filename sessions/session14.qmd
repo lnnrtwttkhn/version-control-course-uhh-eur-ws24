@@ -1,7 +1,7 @@
 ---
 title: "Summary & Wrap-Up"
 subtitle: "Session 14"
-date: 2024-02-02
+date: 2024-07-08
 about:
   id: hero-heading
   template: solana
@@ -9,14 +9,35 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/slides_session14.html
+      href: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session14.html
       aria-label: display
+    - icon: book
+      text: "Chapter: GUIs"
+      href: https://lennartwittkuhn.com/version-control-book/chapters/gui.html
+      aria-label: book
 ---
 
 ::: {#hero-heading}
 :::
 
+# This session
+
+In this session, you will complete the following tasks:
+
+1. Complete the chapter ["GUIs"](https://lennartwittkuhn.com/version-control-book/chapters/gui.html) in the Version Control Book.
+1. Complete the exercises for the [`recipes` project](#recipes-project).
+
+As always:
+
+1. Try out the commands in the chapter and play around with them.
+
+## Learning objectives
+
+{{< include ../objectives/_objectives-gui.qmd >}}
+
 ## Slides
+
+{{< include _print-to-pdf.qmd >}}
 
 ```{=html}
 <iframe width="100%" height=500 src="slides_session14.html"></iframe>

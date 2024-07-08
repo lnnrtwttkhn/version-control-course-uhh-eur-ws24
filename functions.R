@@ -18,9 +18,7 @@ create_schedule <- function() {
   current_date <- Sys.Date()
   session_url <- "https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session%s"
   variables_padded = pad_list(variables)
-  dt_load <- data.table::rbindlist(variables_padded, fill = TRUE, idcol = "session") %>%
-    .[!is.na(commands), commands := sprintf("`%s`", commands)] %>%
-    .[commands == "``", commands := NA] 
+  dt_load <- data.table::rbindlist(variables_padded, fill = TRUE, idcol = "session")
   cols = c("contents")
   dt = dt_load %>%
     replace(is.na(.), "") %>%
