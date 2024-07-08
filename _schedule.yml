@@ -118,9 +118,12 @@ session12:
     - "[Tags and Releases](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)"
 session13:
   date: 2024-07-01
-  title: "Repetition and Practice"
+  title: "Graphical User Interfaces"
   contents:
     - "Repetition and Practice"
+    - "Introduction to using GUIs"
+  reading:
+    - "[Graphical User Interfaces](https://lennartwittkuhn.com/version-control-book/chapters/gui.html)"
 session14:
   date: 2024-07-08
   title: "Summary & Wrap-Up"

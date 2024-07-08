@@ -1,0 +1,78 @@
+---
+title: "Session 11: Graphical User Interfaces"
+date: 2024-07-01
+format: revealjs
+metadata-files:
+  - _slides.yml
+---
+
+# Schedule
+
+## Schedule
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+create_schedule()
+```
+
+# Last session: Tags, Releases and Publishing
+
+## Last session: Tags, Releases and Publishing
+
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html" title="Version Control Book"></iframe>
+```
+
+## Your questions about the last session?
+
+# Your tasks completion
+
+# Quiz participation
+
+# `recipe` repository tasks
+
+## This session's learning objectives
+
+{{< include ../objectives/_objectives-gui.qmd >}}
+
+## Today's chapter
+
+{{< fa display >}} <https://lennartwittkuhn.com/version-control-book/chapters/gui.html>
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/gui.html" title="Version Control Book"></iframe>
+```
+
+# Demonstration: GitKraken/RStudio 
+
+## Your turn
+
+::: incremental
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GUIs"](https://lennartwittkuhn.com/version-control-book/chapters/gui.html) in the Version Control Book.
+2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
+3.  **Note:** Please complete the implementation exercises on the next slide
+:::
+
+::: fragment
+Ask questions!
+
+Let's *git* started!
+:::
+
+## Implementation Exercise
+
+#### Collaborate with pull requests (using "GUIs")
+
+1. Find a partner.
+1. Using a GUI, clone their repository if not already done (and pull the newest version).
+1. Create a new branch.
+1. Create a new file called `crazy_recipe.txt` or `crazy_recipe.qmd`.
+1. Input three random ingredients and two kitchen utensils.
+1. Add and commit the changes.
+1. Create a Pull Request.
+1. Review the Pull Request from your partner and create a coherent recipe.
+1. Merge the Pull Request.

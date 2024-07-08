@@ -7,3 +7,4 @@ https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectiv
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-github-advanced.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-issues.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-tags-releases.qmd
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/objectives/_objectives-gui.qmd
