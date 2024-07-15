@@ -1,4 +1,4 @@
-project:
+course:
   name: "version-control-course-uhh-ss24"
   title: "Track, organize and share your work: An introduction to Git for psychological research"
   instructors: "Dr. Lennart Wittkuhn"
@@ -9,8 +9,8 @@ project:
   where-institution: "University of Hamburg"
   where-address: "Von-Melle-Park 5"
   where-room: "Room 3016"
-  where-long: "{{< var project.where-institution >}}, {{< var project.where-address >}}, {{< var project.where-room >}}"
-  where-short: "{{< var project.where-institution >}} (VMP 5, 3016)"
+  where-long: "{{< var course.where-institution >}}, {{< var course.where-address >}}, {{< var course.where-room >}}"
+  where-short: "{{< var course.where-institution >}} (VMP 5, 3016)"
   target-group: "Psychology Master's students"
   tag: "PsyM14-PsyWB-K04"
   registration-start: "February 26th 2024 at 9:00"
@@ -18,9 +18,9 @@ project:
 links:
   email: "lennart.wittkuhn@uni-hamburg.de"
   mailto: "mailto:{{< var links.email >}}"
-  github: "https://github.com/lnnrtwttkhn/{{< var project.name >}}"
+  github: "https://github.com/lnnrtwttkhn/{{< var course.name >}}"
   issues: "{{< var links.github >}}/issues"
-  site: "https://lennartwittkuhn.com/{{< var project.name >}}"
+  site: "https://lennartwittkuhn.com/{{< var course.name >}}"
   ddlitlab-proposal: https://lennartwittkuhn.com/ddlitlab-proposal
   illf-proposal: https://lennartwittkuhn.com/illf-application/
   nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG

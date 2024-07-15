@@ -1,5 +1,5 @@
 ---
-title: "{{< var project.title >}}"
+title: "{{< var course.title >}}"
 subtitle: "A full-semester course at the University of Hamburg"
 image: "images/version_control_scriberia.jpg"
 toc: false
@@ -11,17 +11,17 @@ about:
 
 ### Welcome!
 
-This is the website for the full-semester course "{{< var project.title >}}" at {{< var project.where-institution >}}, instructed by {{< var project.instructors >}}.
+This is the website for the full-semester course "{{< var course.title >}}" at {{< var course.where-institution >}}, instructed by {{< var course.instructors >}}.
 
 ---
 
 {{< fa circle-info >}} **What?** Full-semester course on version control
 
-{{< fa calendar-days >}} **When?** {{< var project.when-short >}}
+{{< fa calendar-days >}} **When?** {{< var course.when-short >}}
 
-{{< fa building-columns >}} **Where?** {{< var project.where-short >}}
+{{< fa building-columns >}} **Where?** {{< var course.where-short >}}
 
-{{< fa user-group >}} **Who?** {{< var project.target-group >}}
+{{< fa user-group >}} **Who?** {{< var course.target-group >}}
 
 {{< fa gear >}} **How?** Read about [how this course will work](mechanics.qmd)
 

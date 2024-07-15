@@ -1,5 +1,5 @@
 subtitle: |
-  {{< var project.title >}}
+  {{< var course.title >}}
   
   [{{< fa display >}} Slides]({{< var links.site >}}) |
   [{{< fa brands github >}} Source]({{< var links.github >}})

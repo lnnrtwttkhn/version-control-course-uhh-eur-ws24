@@ -101,9 +101,9 @@ Find out more on our group's website: <https://schucklab.gitlab.io/>
 
 :::: {.columns}
 ::: {.column width="50%"}
-- {{< fa calendar-days >}} **Date:** {{< var project.when-semester >}}
-- {{< fa clock >}} **Time:** {{< var project.when-time >}}
-- {{< fa building-columns >}} **Room:** {{< var project.where-address >}}, {{< var project.where-room >}}
+- {{< fa calendar-days >}} **Date:** {{< var course.when-semester >}}
+- {{< fa clock >}} **Time:** {{< var course.when-time >}}
+- {{< fa building-columns >}} **Room:** {{< var course.where-address >}}, {{< var course.where-room >}}
 - {{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
 - {{< fa user-plus >}} **Assistant:** [Konrad Pagenstedt]({{< var team.konrad.mailto >}})
 :::
@@ -111,7 +111,7 @@ Find out more on our group's website: <https://schucklab.gitlab.io/>
 - {{< fa chalkboard >}} **Event:** Seminar
 - {{< fa gem >}} **Credits:** 4,0 (2 SWS)
 - {{< fa language >}} **Language:** English
-- {{< fa tag >}} **Tag:** {{< var project.tag >}}
+- {{< fa tag >}} **Tag:** {{< var course.tag >}}
 :::
 ::::
 

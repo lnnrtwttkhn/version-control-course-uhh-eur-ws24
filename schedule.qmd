@@ -2,9 +2,9 @@
 title: "Schedule"
 ---
 
-{{< fa calendar-days >}} **When?** {{< var project.when-long >}} (detailed schedule below)
+{{< fa calendar-days >}} **When?** {{< var course.when-long >}} (detailed schedule below)
 
-{{< fa building-columns >}} **Where?** {{< var project.where-long >}}
+{{< fa building-columns >}} **Where?** {{< var course.where-long >}}
 
 ::: {.callout-note collapse=false}
 ## The course schedule is under constant development! {{< fa wrench >}}
