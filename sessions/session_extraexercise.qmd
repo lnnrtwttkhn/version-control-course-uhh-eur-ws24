@@ -24,7 +24,7 @@ number-sections: true
 
 If you missed more than two course sessions, you are asked to complete an **additional assignment**.
 This additional assignment **builds on the contents of previous course sessions** and is (roughly) the equivalent of what you would complete in a regular course session.
-If you need help, please consult the relevant chapters in the [Version Control Book]({{< var project.book >}}) (in particular the chapter on [GitHub](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html)).
+If you need help, please consult the relevant chapters in the [Version Control Book]({{< var links.book >}}) (in particular the chapter on [GitHub](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html)).
 While the assignment covers many aspects of our course, it's not an exam.
 So please [get in touch]({{< var project.mailto >}}) if you are getting stuck or have any questions about the assignment or the course contents.
 

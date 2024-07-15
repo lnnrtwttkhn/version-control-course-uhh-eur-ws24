@@ -5,21 +5,10 @@ project:
   issues: "{{< var project.github >}}/issues"
   site: "https://lennartwittkuhn.com/{{< var course.name >}}"
   years: "2023 -- 2025"
-  ddlitlab-proposal: https://lennartwittkuhn.com/ddlitlab-proposal
-  illf-proposal: https://lennartwittkuhn.com/illf-application/
-  nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG
-  stine: https://stine.uni-hamburg.de/
-  hedgedoc: https://pad.uni-hamburg.de/
-  hedgedoc-features: https://demo.hedgedoc.org/s/features
-  markdown: https://www.markdownguide.org/
-  formr: https://formr.org/
   email-secretary: sekretariat-luv.psych@uni-hamburg.de
   mailto-secretary: "mailto:{{< var project.email-secretary >}}"
   email-mailing-list: version-control-course-ss24.psych@lists.uni-hamburg.de
   mailto-mailing-list: "mailto:{{< var project.email-mailing-list >}}"
-  book: https://lennartwittkuhn.com/version-control-book/
-  scriberia: "https://www.scriberia.com/"
-  ccby40: "https://creativecommons.org/licenses/by/4.0/"
 course:
   name: "version-control-course-uhh-ss24"
   title: "Track, organize and share your work: An introduction to Git for psychological research"
@@ -37,6 +26,15 @@ course:
   tag: "PsyM14-PsyWB-K04"
   registration-start: "February 26th 2024 at 9:00"
   registration-end: "March 07th 2024 at 13:00"
+links:
+  ddlitlab-proposal: https://lennartwittkuhn.com/ddlitlab-proposal
+  illf-proposal: https://lennartwittkuhn.com/illf-application/
+  nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG
+  stine: https://stine.uni-hamburg.de/
+  formr: https://formr.org/
+  book: https://lennartwittkuhn.com/version-control-book/
+  scriberia: "https://www.scriberia.com/"
+  ccby40: "https://creativecommons.org/licenses/by/4.0/"
 team:
   lennart:
     id: lennart
