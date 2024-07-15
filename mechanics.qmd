@@ -33,7 +33,7 @@ nocite: |
 :::
 ::: {.column width="100%"}
 {{< fa file-signature >}} **Registration:** The registration period starts on {{< var course.registration-start >}} and ends on {{< var course.registration-end >}}.
-MSc Psychology students at University of Hamburg can enroll via [Stine]({{< var links.stine >}}).
+MSc Psychology students at University of Hamburg can enroll via [Stine]({{< var project.stine >}}).
 :::
 ::::
 ```{r}

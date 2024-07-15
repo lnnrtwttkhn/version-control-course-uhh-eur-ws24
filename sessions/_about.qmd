@@ -10,7 +10,7 @@
 
 :microscope: **Research:** I study the role of fast neural memory reactivation ("[replay](https://en.wikipedia.org/wiki/Hippocampal_replay)") in the human brain using fMRI
 
-:link: **Contact:** You can connect with me via [email]({{< var links.mailto >}}), [Twitter]({{< var twitter >}}), [Mastodon]({{< var mastodon >}}),
+:link: **Contact:** You can connect with me via [email]({{< var project.mailto >}}), [Twitter]({{< var twitter >}}), [Mastodon]({{< var mastodon >}}),
 [GitHub]({{< var github >}}) or
 [LinkedIn]({{< var linkedin >}})
 
@@ -22,7 +22,7 @@
 
 ### This presentation
 
-:computer: **Slides:** Slides are publicly available at [{{< var links.site >}}]({{< var links.site >}})
+:computer: **Slides:** Slides are publicly available at [{{< var project.site >}}]({{< var project.site >}})
 
 :package: **Software:** Reproducible slides built with [Quarto](https://quarto.org/) and deployed to [GitHub Pages](https://pages.github.com/) using [GitHub Actions](https://github.com/features/actions)
 
@@ -30,8 +30,8 @@
 :trackball: **DOI:** [10.5281/zenodo.5012476](http://doi.org/10.5281/zenodo.5012476) (generated using GitHub releases + Zenodo, see details [here](https://guides.github.com/activities/citable-code/))
 -->
 
-{{< fa brands github >}} **Source:** Source code is publicly available on GitHub at [{{< var links.github >}}]({{< var links.github >}})
+{{< fa brands github >}} **Source:** Source code is publicly available on GitHub at [{{< var project.github >}}]({{< var project.github >}})
 
-:pray: **Contact:** I am happy for any feedback or suggestions via [email]({{< var links.mailto >}}) or [GitHub issues]({{< var issues >}}). Thank you!
+:pray: **Contact:** I am happy for any feedback or suggestions via [email]({{< var project.mailto >}}) or [GitHub issues]({{< var issues >}}). Thank you!
 
 :::

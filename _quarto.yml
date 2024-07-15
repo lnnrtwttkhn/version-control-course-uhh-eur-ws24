@@ -44,16 +44,16 @@ website:
     right:
       - icon: envelope
         aria-label: Email
-        href: "{{< var links.mailto >}}"
+        href: "{{< var project.mailto >}}"
       - icon: github
         aria-label: GitHub
-        href: "{{< var links.github >}}"
+        href: "{{< var project.github >}}"
         
   page-footer:
     background: light
     border: true
     left: |
-      © {{< var years >}} [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
+      © {{< var project.years >}} [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
     center:
       - text: "Acknowledgements"
         href: acknowledgements.qmd

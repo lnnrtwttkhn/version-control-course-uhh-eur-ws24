@@ -80,7 +80,7 @@ The course codeword allows us to distinguish responses from different course set
 
 Apart from answering the survey, you don't need to prepare anything else for our first session on Monday.
 
-Further information about the course can be found on our course website: [{{< var links.site >}}]({{< var links.site >}})
+Further information about the course can be found on our course website: [{{< var project.site >}}]({{< var project.site >}})
 
 If you have any questions, feel free to contact us directly via email.
 

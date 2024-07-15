@@ -188,7 +188,7 @@ create_schedule()
 
 ::: {.fragment}
 - We use online surveys to ask you questions and implement exercises or quizzes
-- Implemented in the [formr]({{< var links.formr >}}) survey framework (open-source, hosted in Germany)
+- Implemented in the [formr]({{< var project.formr >}}) survey framework (open-source, hosted in Germany)
 :::
 
 ::: {.fragment}
@@ -196,7 +196,7 @@ create_schedule()
 
 - all raw data are kept **anonymous** and will only be **used for research and educational purposes**
 - if responses are shared as part of the course, they will be aggregated to ensure anonymity is maintained
-- if you want your data to be deleted, send an email with your personal codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}}) (Christine Manor).
+- if you want your data to be deleted, send an email with your personal codeword to [{{< var project.email-secretary >}}]({{< var project.mailto-secretary >}}) (Christine Manor).
 Our secretary forwards your codeword to us (without your name).
 :::
 
@@ -216,7 +216,7 @@ There are no stupid questions!
 #### **Questions & discussions *outside of* class time**
 - Ask questions!
 There are no stupid questions!
-- Send questions to our mailing list: [{{< var links.email-mailing-list >}}]({{< var links.mailto-mailing-list >}})
+- Send questions to our mailing list: [{{< var project.email-mailing-list >}}]({{< var project.mailto-mailing-list >}})
 - Send questions to [Lennart]({{< var team.lennart.mailto >}}) and / or [Konrad]({{< var team.konrad.mailto >}})
 - Office hours by appointment via email
 - Be proactive: Give us feedback!
@@ -238,7 +238,7 @@ You pass if you fulfill all course requirements:
 
 1. Requirement 1: **Sign the attendance list**
 1. Requirement 2: **Provide a personal codeword**.
-At the end of the semester, send an email with your personal codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}}) (Christine Manor).
+At the end of the semester, send an email with your personal codeword to [{{< var project.email-secretary >}}]({{< var project.mailto-secretary >}}) (Christine Manor).
 We will send our secretary a list of personal codewords and she will return a list of names.
 1. Requirement 3: At the end of the semester, **send a link to your completed exercises**.
 
@@ -320,7 +320,7 @@ At the end of this session, you should be able to answer the following questions
 
 ## Your turn
 
-1. Read [Chapter 1: "Introduction to Version Control"](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html) in the [Version Control Book]({{< var links.book >}})
+1. Read [Chapter 1: "Introduction to Version Control"](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html) in the [Version Control Book]({{< var project.book >}})
 1. Discuss the learning objectives with your desk neighbor (quietly)
 
 #### Learning objectives
@@ -334,8 +334,8 @@ At the end of this session, you should be able to answer the following questions
 ::: {.fragment}
 *"... when the **same analysis** steps performed on the **same dataset** consistently produce the **same answer**."* ^[@turingway2022, see ["Guide on Reproducible Research"](https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions)]
 
-![by [Scriberia]({{< var links.scriberia >}}) for @turingway2022 ([Link](https://zenodo.org/record/3678226/), [CC BY
-4.0]({{< var links.ccby40 >}}))](../images/turing-way-reproducibility.png)
+![by [Scriberia]({{< var project.scriberia >}}) for @turingway2022 ([Link](https://zenodo.org/record/3678226/), [CC BY
+4.0]({{< var project.ccby40 >}}))](../images/turing-way-reproducibility.png)
 :::
 ::::
 :::: {.column width="50%"}

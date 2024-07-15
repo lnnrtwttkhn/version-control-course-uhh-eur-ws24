@@ -1,8 +1,8 @@
 subtitle: |
   {{< var course.title >}}
   
-  [{{< fa display >}} Slides]({{< var links.site >}}) |
-  [{{< fa brands github >}} Source]({{< var links.github >}})
+  [{{< fa display >}} Slides]({{< var project.site >}}) |
+  [{{< fa brands github >}} Source]({{< var project.github >}})
   
   {{< var slides.license-badge >}}
   {{< var slides.doi-badge >}}

@@ -27,11 +27,11 @@ This is the website for the full-semester course "{{< var course.title >}}" at {
 
 ---
 
-{{< fa brands github >}} **Code?** Find all source code [on GitHub]({{< var links.github >}})!
+{{< fa brands github >}} **Code?** Find all source code [on GitHub]({{< var project.github >}})!
 
-{{< fa bug >}} **Bug?** Open an [issue]({{< var links.issues >}}) or send an [email]({{< var links.mailto >}})!
+{{< fa bug >}} **Bug?** Open an [issue]({{< var project.issues >}}) or send an [email]({{< var project.mailto >}})!
 
-{{< fa circle-question >}} **Questions?** Open an [issue]({{< var links.issues >}}) or send an [email]({{< var links.mailto >}})!
+{{< fa circle-question >}} **Questions?** Open an [issue]({{< var project.issues >}}) or send an [email]({{< var project.mailto >}})!
 
 {{< fa heart >}} **Thanks!** Thanks to our [supporters](acknowledgements.qmd)!
 

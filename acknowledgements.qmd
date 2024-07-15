@@ -10,11 +10,11 @@ execute:
 ## Funding
 
 This project is currently funded by the Federal Ministry of Education and Research (BMBF) and the Free and Hanseatic City of Hamburg under the Excellence Strategy of the Federal Government and the Länder as part of the [International Teaching and Learning Formats (ILLF@home) program](https://www.uni-hamburg.de/en/internationales/mitarbeitende/mitarbeitende-wissenschaft/foerderprogramme-austauschprogramme-gesamt/internationale-lehr-und-lernformate-at-home.html) at [University of Hamburg](https://www.uni-hamburg.de/en.html).
-Our ILLF@home project proposal can be found [here]({{< var links.illf-proposal >}}).
+Our ILLF@home project proposal can be found [here]({{< var project.illf-proposal >}}).
 
 The project was previously funded by the [Digital and Data Literacy in Teaching Lab (DDLitLab)](https://www.isa.uni-hamburg.de/en/ddlitlab.html), an initiative by the [ISA-Zentrum](https://www.isa.uni-hamburg.de/) at the [University of Hamburg](https://www.uni-hamburg.de/en.html).
 The Digital and Data Literacy in Teaching Lab program is in turn funded by the [Stiftung Innovation in der Hochschullehre](https://stiftung-hochschullehre.de/en/) (details can be found [here](https://stiftung-hochschullehre.de/projekt/ddlitlab/)).
-Our DDLitLab project proposal can be found [here]({{< var links.ddlitlab-proposal >}}) (in German).
+Our DDLitLab project proposal can be found [here]({{< var project.ddlitlab-proposal >}}) (in German).
 Special thanks to [Carolin Scharfenberg](https://www.isa.uni-hamburg.de/en/ddlitlab/team/scharfenberg-carolin.html) as well as [Moritz Kreinsen](https://www.isa.uni-hamburg.de/en/ddlitlab/team/kreinsen-moritz.html) and [Sören-Kristian Berger](https://www.isa.uni-hamburg.de/en/ddlitlab/team/berger-soeren-kristian.html) for help with project coordination, administration, and the grant application process.
 
 ## Website
@@ -23,11 +23,11 @@ Special thanks to [Carolin Scharfenberg](https://www.isa.uni-hamburg.de/en/ddlit
 
 This website is made with 🖤 and [Quarto](https://quarto.org/).
 
-The source code for this website can be found [on GitHub]({{< var links.github >}}) {{< fa brands github >}}.
+The source code for this website can be found [on GitHub]({{< var project.github >}}) {{< fa brands github >}}.
 
 ### Images
 
-Images are stored on [Nextcloud]({{< var links.nextcloud >}}) (UHH Cloud).
+Images are stored on [Nextcloud]({{< var project.nextcloud >}}) (UHH Cloud).
 They can be retrieved using `make download-images`.
 
 <details>
@@ -63,4 +63,4 @@ Did you spot an error?
 Is there an issue with the website?
 Do you have feedback, questions or comments?
 We would love to hear from you!
-Open an [issue on GitHub]({{< var links.issues >}}) or write an [email]({{< var links.mailto >}}){target="_blank"}.
+Open an [issue on GitHub]({{< var project.issues >}}) or write an [email]({{< var project.mailto >}}){target="_blank"}.
