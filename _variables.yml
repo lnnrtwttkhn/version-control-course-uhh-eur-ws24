@@ -1,14 +1,14 @@
 project:
   email: "lennart.wittkuhn@uni-hamburg.de"
-  mailto: "mailto:{{< var project.email >}}"
-  github: "https://github.com/lnnrtwttkhn/{{< var course.name >}}"
-  issues: "{{< var project.github >}}/issues"
-  site: "https://lennartwittkuhn.com/{{< var course.name >}}"
+  mailto: "mailto:lennart.wittkuhn@uni-hamburg.de"
+  github: "https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24"
+  issues: "https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24/issues"
+  site: "https://lennartwittkuhn.com/version-control-course-uhh-ss24"
   years: "2023 -- 2025"
-  email-secretary: sekretariat-luv.psych@uni-hamburg.de
-  mailto-secretary: "mailto:{{< var project.email-secretary >}}"
-  email-mailing-list: version-control-course-ss24.psych@lists.uni-hamburg.de
-  mailto-mailing-list: "mailto:{{< var project.email-mailing-list >}}"
+  email-secretary: "sekretariat-luv.psych@uni-hamburg.de"
+  mailto-secretary: "mailto:sekretariat-luv.psych@uni-hamburg.de"
+  email-mailing-list: "version-control-course-ss24.psych@lists.uni-hamburg.de"
+  mailto-mailing-list: "mailto:version-control-course-ss24.psych@lists.uni-hamburg.de"
 course:
   name: "version-control-course-uhh-ss24"
   title: "Track, organize and share your work: An introduction to Git for psychological research"
@@ -26,6 +26,7 @@ course:
   tag: "PsyM14-PsyWB-K04"
   registration-start: "February 26th 2024 at 9:00"
   registration-end: "March 07th 2024 at 13:00"
+  duration: "full-semester"
 links:
   ddlitlab-proposal: https://lennartwittkuhn.com/ddlitlab-proposal
   illf-proposal: https://lennartwittkuhn.com/illf-application/

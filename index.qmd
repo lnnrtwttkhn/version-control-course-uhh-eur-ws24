@@ -1,6 +1,6 @@
 ---
 title: "{{< var course.title >}}"
-subtitle: "A full-semester course at the University of Hamburg"
+subtitle: "A {{< var course.duration >}} course at {{< var course.where-institution >}}"
 image: "images/version_control_scriberia.jpg"
 toc: false
 about:
@@ -11,11 +11,11 @@ about:
 
 ### Welcome!
 
-This is the website for the full-semester course "{{< var course.title >}}" at {{< var course.where-institution >}}, instructed by {{< var course.instructors >}}.
+This is the website for the {{< var course.duration >}} course "{{< var course.title >}}" at {{< var course.where-institution >}}, instructed by {{< var course.instructors >}}.
 
 ---
 
-{{< fa circle-info >}} **What?** Full-semester course on version control
+{{< fa circle-info >}} **What?** A {{< var course.duration >}} course about version control and collaboration in psychological research with Git
 
 {{< fa calendar-days >}} **When?** {{< var course.when-short >}}
 
