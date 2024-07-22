@@ -27,16 +27,16 @@ website:
         href: about.qmd
       - text: "{{< fa clipboard-list >}} Schedule"
         href: schedule.qmd
-      - text:  "{{< fa list-ol >}} Sessions"
-        href: sessions/index.qmd
+      # - text:  "{{< fa list-ol >}} Sessions"
+      #   href: sessions/index.qmd
       # - text: "{{< fa wrench >}} Tools"
       #   href: tools.qmd
       - text: "{{< fa chalkboard-user >}} Team"
         href: team.qmd
       # - text: "{{< fa gem >}} Resources"
       #  href: resources.qmd
-      - text: "{{< fa gear >}} Mechanics"
-        href: mechanics.qmd
+      # - text: "{{< fa gear >}} Mechanics"
+      #   href: mechanics.qmd
       - text: "{{< fa circle-exclamation >}} Code of Conduct"
         href: code-of-conduct.qmd
       - text: "{{< fa heart >}} Acknowledgements"
