@@ -7,6 +7,8 @@ toc-title: "Team"
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
 library("magrittr")
+library("knitr")
+library("data.table")
 ```
 
 ```{r}
@@ -37,18 +39,6 @@ dt <- data.table::rbindlist(variables$team, fill=TRUE) %>%
   .[complete.cases(.[, "value"])] %>%
   .[, button := sprintf('{{< fa %s >}} [%s](%s){target="_blank"}', icon, text, href)] %>%
   .[, button_icon := sprintf('[{{< fa %s >}}](%s){target="_blank"}', icon, href)]
-
-create_grid = function(buttons) {
-  content <- sprintf(" %s ", buttons)
-  n_char <- unlist(lapply(content, function(x) nchar(x)))
-  content <- paste0("|", paste(content, collapse = "|"), "|")
-  n_buttons <- length(buttons)
-  border_start <- paste0("+", strrep("-", n_char[1]), "+")
-  border_rest <- paste0(strrep("-", n_char[2:length(n_char)]), rep("+", n_buttons - 1))
-  borders <- paste(c(border_start, border_rest), collapse = "")
-  text <- paste(borders, borders, content, borders, sep = "\n")
-  return(text)
-}
 ```
 
 ## Project Leader & Instructor
@@ -62,11 +52,6 @@ create_grid = function(buttons) {
 ### Dr. Lennart Wittkuhn
 
 Lennart is a **Postdoctoral Researcher** and **Lab Manager** in the [Research Group "Mechanisms of Learning and Change"](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html) at the [University of Hamburg](https://www.uni-hamburg.de/en.html) and the [Max Planck Research Group NeuroCode](https://www.mpib-berlin.mpg.de/research/research-groups/mprg-neurocode) at the [Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/en) in Berlin. In his scientific work, Lennart investigates **neural replay of task representations** in the human brain using functional magnetic resonance imaging (fMRI). He is also passionate about **open science**, **research data management**, **reproducibility** and tools that improve the scientific workflow.
-
-```{r, results='asis', echo=FALSE}
-buttons <- dt %>% .[id == "lennart"] %>% .$button_icon %>% create_grid()
-cat(buttons)
-```
 :::
 :::
 
@@ -77,11 +62,6 @@ cat(buttons)
 ### Prof. Dr. Nicolas Schuck
 
 Nico is a professor of Psychology and principal investigator of the [Research Group "Mechanisms of Learning and Change"](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/kognitive-neurowissenschaften-insb-lern-und-veraenderungsmechanismen.html) at the [University of Hamburg](https://www.uni-hamburg.de/en.html) and the [Max Planck Research Group NeuroCode](https://www.mpib-berlin.mpg.de/research/research-groups/mprg-neurocode) at the [Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/en) in Berlin.
-
-```{r, results='asis', echo=FALSE}
-buttons <- dt %>% .[id == "nico"] %>% .$button_icon %>% create_grid()
-cat(buttons)
-```
 :::
 
 ::: g-col-4
@@ -102,11 +82,6 @@ cat(buttons)
 Konrad is a **Bachelor Student** of Psychology at the [University of Hamburg](https://www.uni-hamburg.de/en.html).
 Konrad is enthusiastic about exploring various areas within the field of psychology, open science, research data management and reproducibility.
 He supports the project as a student research and teaching assistant.
-
-```{r, results='asis', echo=FALSE}
-buttons <- dt %>% .[id == "konrad"] %>% .$button_icon %>% create_grid()
-cat(buttons)
-```
 
 :::
 :::
