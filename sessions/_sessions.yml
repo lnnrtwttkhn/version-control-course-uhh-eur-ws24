@@ -1,0 +1,6 @@
+date-format: "MMMM DD YYYY (HH:mm a)"
+published-title: "Starts at:"
+engine: knitr
+execute:
+  eval: false
+  echo: true
