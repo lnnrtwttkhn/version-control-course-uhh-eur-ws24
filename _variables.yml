@@ -14,10 +14,10 @@ project:
 course:
   title: "Track, organize and share your work: An introduction to Git for research"
   instructors: "Dr. Lennart Wittkuhn"
-  when-long: "Winter 2024/25 (October to February), every Friday, 10:15 to 12:45"
-  when-short: "Winter 2024/25 (Oct-Feb), Fridays, 10:15 - 12:45"
+  when-long: "Winter 2024/25 (October to February), every Friday, 10:15 to 11:45"
+  when-short: "Winter 2024/25 (Oct-Feb), Fridays, 10:15 - 11:45"
   when-semester: "Winter semester 2024/25 (October to February)"
-  when-time: "Fridays, 10:15 - 12:45 (90 Minutes)"
+  when-time: "Fridays, 10:15 - 11:45 (90 Minutes)"
   where-institution: "University of Hamburg & Erasmus University Rotterdam"
   where-address: "Online"
   where-room: "Zoom"
