@@ -1,6 +1,8 @@
 subtitle: |
   {{< var course.title >}}
   
+  Course at {{< var project.where-institution >}}
+  
   [{{< fa display >}} Slides]({{< var project.site >}}) |
   [{{< fa brands github >}} Source]({{< var project.github >}})
   
