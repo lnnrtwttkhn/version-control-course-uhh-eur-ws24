@@ -1,6 +1,6 @@
 ---
 title: "Session 12: Tags, Releases & Publication"
-date: 2024-06-24
+date: 2024-06-24T12:15
 format: revealjs
 metadata-files:
   - _slides.yml

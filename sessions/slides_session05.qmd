@@ -1,6 +1,6 @@
 ---
 title: "Session 5: Branches"
-date: 2024-05-06
+date: 2024-05-06T12:15
 format: revealjs
 metadata-files:
   - _slides.yml

@@ -1,11 +1,10 @@
 ---
 title: "Session 1: Introduction"
-date: "2024-04-08"
+date: 2024-04-08T12:15
 format: revealjs
 metadata-files:
   - _slides.yml
 ---
-
 
 # Logistics and admin
 

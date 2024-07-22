@@ -1,6 +1,6 @@
 ---
 title: "Session 8: GitHub - Intro"
-date: 2024-05-20
+date: 2024-05-20T12:15
 format: revealjs
 metadata-files:
   - _slides.yml

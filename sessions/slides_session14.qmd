@@ -1,6 +1,6 @@
 ---
 title: "Session 14: Summary & Wrap-Up"
-date: 2024-07-08
+date: 2024-07-08T12:15
 format: revealjs
 metadata-files:
   - _slides.yml
