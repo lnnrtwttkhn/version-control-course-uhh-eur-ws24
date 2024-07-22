@@ -1,7 +1,9 @@
 ---
 title: "GitHub - Intro"
 subtitle: "Session 08"
-date: 2024-05-27
+date: 2024-05-27T12:15
+metadata-files:
+  - _sessions.yml
 about:
   id: hero-heading
   template: solana

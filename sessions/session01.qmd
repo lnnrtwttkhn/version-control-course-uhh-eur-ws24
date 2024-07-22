@@ -1,7 +1,9 @@
 ---
 title: "Introduction to Version Control"
 subtitle: "Session 01"
-date: 2024-04-08
+date: 2024-04-08T12:15
+metadata-files:
+  - _sessions.yml
 about:
   id: hero-heading
   template: solana

@@ -1,7 +1,9 @@
 ---
 title: "Command Line"
 subtitle: "Session 02"
-date: 2024-04-15
+date: 2024-04-15T12:15
+metadata-files:
+  - _sessions.yml
 about:
   id: hero-heading
   template: solana

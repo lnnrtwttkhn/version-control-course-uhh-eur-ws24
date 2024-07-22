@@ -1,7 +1,9 @@
 ---
 title: "Quarto"
 subtitle: "Session 06"
-date: 2024-05-13
+date: 2024-05-13T12:15
+metadata-files:
+  - _sessions.yml
 about:
   id: hero-heading
   template: solana

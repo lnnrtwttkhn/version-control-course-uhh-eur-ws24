@@ -1,7 +1,9 @@
 ---
 title: "Git(Hub) with the world"
 subtitle: "Session 10"
-date: 2024-06-10
+date: 2024-06-10T12:15
+metadata-files:
+  - _sessions.yml
 about:
   id: hero-heading
   template: solana
