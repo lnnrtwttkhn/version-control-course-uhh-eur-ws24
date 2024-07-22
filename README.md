@@ -1,19 +1,39 @@
-# Version control of code and data with Git and Datalad
+# Track, organize and share your work: An introduction to Git for research
 
-[![Quarto Publish](https://github.com/lnnrtwttkhn/versioncontrol-course-uhh-ws23/actions/workflows/publish.yml/badge.svg)](https://github.com/lnnrtwttkhn/versioncontrol-course-uhh-ws23/actions/workflows/publish.yml)
+[![Quarto Publish](https://github.com/lnnrtwttkhn/version-control-course-uhh-eur-ws24/actions/workflows/publish.yml/badge.svg)](https://github.com/lnnrtwttkhn/version-control-course-uhh-eur-ws24/actions/workflows/publish.yml)
 [![All Contributors](https://img.shields.io/github/all-contributors/projectOwner/projectName?color=ee8449&style=flat-square)](#contributors)
 
-## Requirements
+## Create course
 
-```r
-yaml
-data.table
-magrittr
-rmarkdown
-downlit
-xml2
-googlesheets4
-DT
+Starting a new course.
+Here is a list of things to update:
+
+- [ ] Rename the `.Rproj` file
+- [ ] Update the `README.md` file
+- [ ] Update `_variables.yml`
+- [ ] Optional: Disable "Sessions" page
+
+- [ ] Update `plausible.html`
+- [ ] Add website on [plausible.io/](https://plausible.io/)
+
+- [ ] Create a new remote repository
+- [ ] Update the remote URL
+
+```bash
+git remote set-url origin git@github.com:lnnrtwttkhn/version-control-course-uhh-eur-ws24.git
+```
+
+Check if this worked:
+
+```bash
+git remote -v
+```
+
+- [ ] Deploy the website manually before the first push to the remote.
+You can use the following command:
+
+```
+make deploy
 ```
 
 ## Contributors
