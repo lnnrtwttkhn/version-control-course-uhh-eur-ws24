@@ -1,7 +1,9 @@
 ---
 title: "Branches"
 subtitle: "Session 05"
-date: 2024-05-06
+date: 2024-05-06T12:15
+metadata-files:
+  - _sessions.yml
 about:
   id: hero-heading
   template: solana

@@ -1,6 +1,6 @@
 ---
 title: "Session 10: Git(Hub) with the world"
-date: 2024-06-10
+date: 2024-06-10T12:15
 format: revealjs
 metadata-files:
   - _slides.yml

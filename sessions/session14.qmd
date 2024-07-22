@@ -1,7 +1,9 @@
 ---
 title: "Summary & Wrap-Up"
 subtitle: "Session 14"
-date: 2024-07-08
+date: 2024-07-08T12:15
+metadata-files:
+  - _sessions.yml
 about:
   id: hero-heading
   template: solana

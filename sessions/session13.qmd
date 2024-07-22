@@ -1,7 +1,9 @@
 ---
 title: "Introduction to Graphical User Interfaces"
 subtitle: "Session 13"
-date: 2024-07-01
+date: 2024-07-01T12:15
+metadata-files:
+  - _sessions.yml
 about:
   id: hero-heading
   template: solana

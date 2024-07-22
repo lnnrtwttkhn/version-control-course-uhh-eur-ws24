@@ -23,12 +23,12 @@ Special thanks to [Carolin Scharfenberg](https://www.isa.uni-hamburg.de/en/ddlit
 
 This website is made with 🖤 and [Quarto](https://quarto.org/).
 
-The source code for this website can be found [on GitHub]({{< var links.github >}}) {{< fa brands github >}}.
+The source code for this website can be found [on GitHub]({{< var project.github >}}) {{< fa brands github >}}.
 
 ### Images
 
-Images are stored on [Nextcloud]({{< var links.nextcloud >}}) (UHH Cloud).
-They can be retrieved using `make download-images`.
+Images are stored on [Nextcloud]({{< var project.nextcloud >}}) (UHH Cloud).
+They can be retrieved using `make images`.
 
 <details>
 <summary>Click here to view the full `Makefile` of this project.</summary>
@@ -55,7 +55,7 @@ Plausible is an "intuitive, lightweight and open source web analytics", does not
 
 ### License
 
-All contents are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), unless indicated otherwise.
+All contents are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), unless indicated otherwise.
 
 ### Contact
 
@@ -63,4 +63,4 @@ Did you spot an error?
 Is there an issue with the website?
 Do you have feedback, questions or comments?
 We would love to hear from you!
-Open an [issue on GitHub]({{< var links.issues >}}) or write an [email]({{< var links.mailto >}}){target="_blank"}.
+Open an [issue on GitHub]({{< var project.issues >}}) or write an [email]({{< var project.mailto >}}){target="_blank"}.

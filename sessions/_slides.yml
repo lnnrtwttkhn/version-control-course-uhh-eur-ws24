@@ -1,8 +1,10 @@
 subtitle: |
-  {{< var project.title >}}
+  {{< var course.title >}}
   
-  [{{< fa display >}} Slides]({{< var links.site >}}) |
-  [{{< fa brands github >}} Source]({{< var links.github >}})
+  Course at {{< var course.where-institution >}}
+  
+  [{{< fa display >}} Slides]({{< var project.site >}}) |
+  [{{< fa brands github >}} Source]({{< var project.github >}})
   
   {{< var slides.license-badge >}}
   {{< var slides.doi-badge >}}
@@ -29,7 +31,7 @@ authors:
       corresponding: false
       equal-contributor: false
 from: markdown+emoji
-date-format: long
+date-format: "MMMM DD YYYY (HH:mm a)"
 format:
   revealjs:
     theme: [default, slides.scss]
@@ -52,9 +54,8 @@ format:
     number-sections: true
     number-depth: 1
 mainfont: Atkinson Hyperlegible
+monofont: "Fira Code"
 engine: knitr
 execute:
   eval: false
   echo: true
-  
-  

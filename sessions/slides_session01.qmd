@@ -1,11 +1,10 @@
 ---
 title: "Session 1: Introduction"
-date: "2024-04-08"
+date: 2024-04-08T12:15
 format: revealjs
 metadata-files:
   - _slides.yml
 ---
-
 
 # Logistics and admin
 
@@ -101,9 +100,9 @@ Find out more on our group's website: <https://schucklab.gitlab.io/>
 
 :::: {.columns}
 ::: {.column width="50%"}
-- {{< fa calendar-days >}} **Date:** {{< var project.when-semester >}}
-- {{< fa clock >}} **Time:** {{< var project.when-time >}}
-- {{< fa building-columns >}} **Room:** {{< var project.where-address >}}, {{< var project.where-room >}}
+- {{< fa calendar-days >}} **Date:** {{< var course.when-semester >}}
+- {{< fa clock >}} **Time:** {{< var course.when-time >}}
+- {{< fa building-columns >}} **Room:** {{< var course.where-address >}}, {{< var course.where-room >}}
 - {{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
 - {{< fa user-plus >}} **Assistant:** [Konrad Pagenstedt]({{< var team.konrad.mailto >}})
 :::
@@ -111,7 +110,7 @@ Find out more on our group's website: <https://schucklab.gitlab.io/>
 - {{< fa chalkboard >}} **Event:** Seminar
 - {{< fa gem >}} **Credits:** 4,0 (2 SWS)
 - {{< fa language >}} **Language:** English
-- {{< fa tag >}} **Tag:** {{< var project.tag >}}
+- {{< fa tag >}} **Tag:** {{< var course.tag >}}
 :::
 ::::
 
@@ -196,7 +195,7 @@ create_schedule()
 
 - all raw data are kept **anonymous** and will only be **used for research and educational purposes**
 - if responses are shared as part of the course, they will be aggregated to ensure anonymity is maintained
-- if you want your data to be deleted, send an email with your personal codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}}) (Christine Manor).
+- if you want your data to be deleted, send an email with your personal codeword to [{{< var project.email-secretary >}}]({{< var project.mailto-secretary >}}) (Christine Manor).
 Our secretary forwards your codeword to us (without your name).
 :::
 
@@ -216,7 +215,7 @@ There are no stupid questions!
 #### **Questions & discussions *outside of* class time**
 - Ask questions!
 There are no stupid questions!
-- Send questions to our mailing list: [{{< var links.email-mailing-list >}}]({{< var links.mailto-mailing-list >}})
+- Send questions to our mailing list: [{{< var project.email-mailing-list >}}]({{< var project.mailto-mailing-list >}})
 - Send questions to [Lennart]({{< var team.lennart.mailto >}}) and / or [Konrad]({{< var team.konrad.mailto >}})
 - Office hours by appointment via email
 - Be proactive: Give us feedback!
@@ -238,7 +237,7 @@ You pass if you fulfill all course requirements:
 
 1. Requirement 1: **Sign the attendance list**
 1. Requirement 2: **Provide a personal codeword**.
-At the end of the semester, send an email with your personal codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}}) (Christine Manor).
+At the end of the semester, send an email with your personal codeword to [{{< var project.email-secretary >}}]({{< var project.mailto-secretary >}}) (Christine Manor).
 We will send our secretary a list of personal codewords and she will return a list of names.
 1. Requirement 3: At the end of the semester, **send a link to your completed exercises**.
 

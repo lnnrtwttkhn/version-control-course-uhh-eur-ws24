@@ -1,7 +1,9 @@
 ---
 title: "Tags, Releases & Publication"
 subtitle: "Session 12"
-date: 2024-06-24
+date: 2024-06-24T12:15
+metadata-files:
+  - _sessions.yml
 about:
   id: hero-heading
   template: solana

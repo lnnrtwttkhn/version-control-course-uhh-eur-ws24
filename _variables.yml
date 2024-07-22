@@ -1,4 +1,16 @@
 project:
+  email: "lennart.wittkuhn@uni-hamburg.de"
+  mailto: "mailto:lennart.wittkuhn@uni-hamburg.de"
+  github: "https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24"
+  issues: "https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24/issues"
+  site: "https://lennartwittkuhn.com/version-control-course-uhh-ss24"
+  years: "2023 -- 2025"
+  email-secretary: "sekretariat-luv.psych@uni-hamburg.de"
+  mailto-secretary: "mailto:sekretariat-luv.psych@uni-hamburg.de"
+  email-mailing-list: "version-control-course-ss24.psych@lists.uni-hamburg.de"
+  mailto-mailing-list: "mailto:version-control-course-ss24.psych@lists.uni-hamburg.de"
+  nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG
+course:
   name: "version-control-course-uhh-ss24"
   title: "Track, organize and share your work: An introduction to Git for psychological research"
   instructors: "Dr. Lennart Wittkuhn"
@@ -9,60 +21,47 @@ project:
   where-institution: "University of Hamburg"
   where-address: "Von-Melle-Park 5"
   where-room: "Room 3016"
-  where-long: "{{< var project.where-institution >}}, {{< var project.where-address >}}, {{< var project.where-room >}}"
-  where-short: "{{< var project.where-institution >}} (VMP 5, 3016)"
+  where-long: "{{< var course.where-institution >}}, {{< var course.where-address >}}, {{< var course.where-room >}}"
+  where-short: "{{< var course.where-institution >}} (VMP 5, 3016)"
   target-group: "Psychology Master's students"
   tag: "PsyM14-PsyWB-K04"
   registration-start: "February 26th 2024 at 9:00"
   registration-end: "March 07th 2024 at 13:00"
+  duration: "full-semester"
 links:
-  email: "lennart.wittkuhn@uni-hamburg.de"
-  mailto: "mailto:{{< var links.email >}}"
-  github: "https://github.com/lnnrtwttkhn/{{< var project.name >}}"
-  issues: "{{< var links.github >}}/issues"
-  site: "https://lennartwittkuhn.com/{{< var project.name >}}"
   ddlitlab-proposal: https://lennartwittkuhn.com/ddlitlab-proposal
   illf-proposal: https://lennartwittkuhn.com/illf-application/
-  nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG
   stine: https://stine.uni-hamburg.de/
-  hedgedoc: https://pad.uni-hamburg.de/
-  hedgedoc-features: https://demo.hedgedoc.org/s/features
-  markdown: https://www.markdownguide.org/
   formr: https://formr.org/
-  email-secretary: sekretariat-luv.psych@uni-hamburg.de
-  mailto-secretary: "mailto:{{< var links.email-secretary >}}"
-  email-mailing-list: version-control-course-ss24.psych@lists.uni-hamburg.de
-  mailto-mailing-list: "mailto:{{< var links.email-mailing-list >}}"
   book: https://lennartwittkuhn.com/version-control-book/
   scriberia: "https://www.scriberia.com/"
   ccby40: "https://creativecommons.org/licenses/by/4.0/"
-years: "2023 -- 2025"
 team:
   lennart:
     id: lennart
-    email: lennart.wittkuhn@uni-hamburg.de
+    email: "lennart.wittkuhn@uni-hamburg.de"
     mailto: "mailto:{{< var team.lennart.email >}}"
-    website: https://lennartwittkuhn.com/
-    github: https://github.com/lnnrtwttkhn
-    twitter: https://twitter.com/lnnrtwttkhn
-    mastodon: https://fediscience.org/users/lnnrtwttkhn
-    scholar: https://scholar.google.de/citations?user=GXvJB1kAAAAJ&hl=en
-    linkedin: https://www.linkedin.com/in/dr-lennart-wittkuhn-6a079a1a8/
+    website: "https://lennartwittkuhn.com/"
+    github: "https://github.com/lnnrtwttkhn"
+    twitter: "https://twitter.com/lnnrtwttkhn"
+    mastodon: "https://fediscience.org/users/lnnrtwttkhn"
+    scholar: "https://scholar.google.de/citations?user=GXvJB1kAAAAJ&hl=en"
+    linkedin: "https://www.linkedin.com/in/dr-lennart-wittkuhn-6a079a1a8/"
   nico:
     id: nico
-    email: nicolas.schuck@uni-hamburg.de
+    email: "nicolas.schuck@uni-hamburg.de"
     mailto: "mailto:{{< var team.nico.email >}}"
-    website: https://schucklab.gitlab.io/
-    github: https://github.com/nschuck/
-    twitter: https://twitter.com/nico_schuck
-    mastodon: https://mastodon.online/@nicoschuck
-    scholar: https://scholar.google.com/citations?user=n21HDbAAAAAJ&hl=en
-    linkedin: https://www.linkedin.com/in/nicolas-schuck-72542247/
+    website: "https://schucklab.gitlab.io/"
+    github: "https://github.com/nschuck/"
+    twitter: "https://twitter.com/nico_schuck"
+    mastodon: "https://mastodon.online/@nicoschuck"
+    scholar: "https://scholar.google.com/citations?user=n21HDbAAAAAJ&hl=en"
+    linkedin: "https://www.linkedin.com/in/nicolas-schuck-72542247/"
   konrad:
     id: konrad
-    email: konrad.pagenstedt@uni-hamburg.de
+    email: "konrad.pagenstedt@uni-hamburg.de"
     mailto: "mailto:{{< var team.konrad.email >}}"
-    github: https://github.com/konradpa
+    github: "https://github.com/konradpa"
 slides:
   title: "Slide title"
   license-long: "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"

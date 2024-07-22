@@ -1,6 +1,6 @@
 ---
 title: "Session 14: Summary & Wrap-Up"
-date: 2024-07-08
+date: 2024-07-08T12:15
 format: revealjs
 metadata-files:
   - _slides.yml
@@ -51,7 +51,7 @@ You pass if you fulfill all course requirements:
 
 1. Requirement 1: **Sign the attendance list**
 1. Requirement 2: **Provide a personal codeword**.
-At the end of the semester, send an email with your personal codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}}) (Christine Manor).
+At the end of the semester, send an email with your personal codeword to [{{< var project.email-secretary >}}]({{< var project.mailto-secretary >}}) (Christine Manor).
 We will send our secretary a list of personal codewords and she will return a list of names.
 1. Requirement 3: We check your GitHub repositories.
 
@@ -86,7 +86,7 @@ We will send our secretary a list of personal codewords and she will return a li
 ::: {.fragment}
 ### How to verify participation
 
-1. At the end of the semester, send an email with your personal codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}}) (Christine Manor), **not to us!**
+1. At the end of the semester, send an email with your personal codeword to [{{< var project.email-secretary >}}]({{< var project.mailto-secretary >}}) (Christine Manor), **not to us!**
 1. Our secretary sends us an unsorted list with codewords.
 1. We verify the quiz participation for each codeword and send Christine a list with codewords that completed all quizzes.
 1. Christine compares the codewords with your names and send us an unsorted list with names.

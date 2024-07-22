@@ -2,14 +2,14 @@
 title: "Schedule"
 ---
 
-{{< fa calendar-days >}} **When?** {{< var project.when-long >}} (detailed schedule below)
+{{< fa calendar-days >}} **When?** {{< var course.when-long >}} (detailed schedule below)
 
-{{< fa building-columns >}} **Where?** {{< var project.where-long >}}
+{{< fa building-columns >}} **Where?** {{< var course.where-long >}}
 
 ::: {.callout-note collapse=false}
 ## The course schedule is under constant development! {{< fa wrench >}}
 We are continuously updating information on this website.
-If you have any urgent questions, always feel free to write an [email]({{< var links.mailto >}}).
+If you have any urgent questions, always feel free to write an [email]({{< var project.mailto >}}).
 Note, that this syllabus provides a comprehensive outline of the topics to be covered in the course.
 The actual pace and content covered may vary based on the instructor's discretion and the needs of the students.
 :::

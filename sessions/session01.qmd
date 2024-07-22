@@ -1,7 +1,9 @@
 ---
 title: "Introduction to Version Control"
 subtitle: "Session 01"
-date: 2024-04-08
+date: 2024-04-08T12:15
+metadata-files:
+  - _sessions.yml
 about:
   id: hero-heading
   template: solana
@@ -54,9 +56,9 @@ For detailed instructions for Windows and macOS users, see the [chapter "Install
 
 Dear course participants,
 
-You are receiving this email because you are enrolled in the course "{{< var project.title >}}", taking place this summer semester 2024 (April to July) at {{< var project.where-institution >}}.
+You are receiving this email because you are enrolled in the course "{{< var course.title >}}", taking place this summer semester 2024 (April to July) at {{< var course.where-institution >}}.
 We are excited that you have signed up for this course and can't wait to delve into the world of version control with you.
-Our first session takes place next Monday, April 08, 2024, from 12:15 to 13:45 at {{< var project.where-address >}}, {{< var project.where-room >}}.
+Our first session takes place next Monday, April 08, 2024, from 12:15 to 13:45 at {{< var course.where-address >}}, {{< var course.where-room >}}.
 
 In order to tailor the course to your prior experience and needs, we have prepared a **short survey** with a few questions.
 Please **complete the survey before our first session**, ideally **by Sunday evening** (April 07, 2024).
@@ -72,7 +74,7 @@ This will allow us to identify and relate your responses across surveys while en
 By providing a personal codeword, you will allow us to draw more detailed insights from your responses that will help us improve the course for you.
 The survey will contain an explanation of how to generate your personal codeword.
 
-The **course codeword** is used to tag your responses as coming from a course participant at {{< var project.where-institution >}}.
+The **course codeword** is used to tag your responses as coming from a course participant at {{< var course.where-institution >}}.
 We might also use the survey to collect responses from participants in other course settings.
 The course codeword allows us to distinguish responses from different course settings.
 
@@ -80,7 +82,7 @@ The course codeword allows us to distinguish responses from different course set
 
 Apart from answering the survey, you don't need to prepare anything else for our first session on Monday.
 
-Further information about the course can be found on our course website: [{{< var links.site >}}]({{< var links.site >}})
+Further information about the course can be found on our course website: [{{< var project.site >}}]({{< var project.site >}})
 
 If you have any questions, feel free to contact us directly via email.
 

@@ -8,19 +8,19 @@ nocite: |
 
 :::: {.columns}
 ::: {.column width="65%"}
-{{< fa calendar-days >}} **Date:** {{< var project.when-semester >}}
+{{< fa calendar-days >}} **Date:** {{< var course.when-semester >}}
 :::
 ::: {.column width="35%"}
 {{< fa chalkboard >}} **Event:** Seminar
 :::
 ::: {.column width="65%"}
-{{< fa clock >}} **Time:** {{< var project.when-time >}}
+{{< fa clock >}} **Time:** {{< var course.when-time >}}
 :::
 ::: {.column width="35%"}
 {{< fa gem >}} **Credits:** 4,0
 :::
 ::: {.column width="65%"}
-{{< fa building-columns >}} **Room:** {{< var project.where-long >}}
+{{< fa building-columns >}} **Room:** {{< var course.where-long >}}
 :::
 ::: {.column width="35%"}
 {{< fa language >}} **Language:** English
@@ -29,10 +29,10 @@ nocite: |
 {{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
 :::
 ::: {.column width="35%"}
-{{< fa tag >}} **Tag:** {{< var project.tag >}}
+{{< fa tag >}} **Tag:** {{< var course.tag >}}
 :::
 ::: {.column width="100%"}
-{{< fa file-signature >}} **Registration:** The registration period starts on {{< var project.registration-start >}} and ends on {{< var project.registration-end >}}.
+{{< fa file-signature >}} **Registration:** The registration period starts on {{< var course.registration-start >}} and ends on {{< var course.registration-end >}}.
 MSc Psychology students at University of Hamburg can enroll via [Stine]({{< var links.stine >}}).
 :::
 ::::

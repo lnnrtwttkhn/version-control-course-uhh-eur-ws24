@@ -44,21 +44,21 @@ website:
     right:
       - icon: envelope
         aria-label: Email
-        href: "{{< var links.mailto >}}"
+        href: "{{< var project.mailto >}}"
       - icon: github
         aria-label: GitHub
-        href: "{{< var links.github >}}"
+        href: "{{< var project.github >}}"
         
   page-footer:
     background: light
     border: true
     left: |
-      © {{< var years >}} [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
+      © {{< var project.years >}} [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
     center:
       - text: "Acknowledgements"
         href: acknowledgements.qmd
     right: |
-      License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+      License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 bibliography: references.bib
 csl: apa-annotated-bibliography.csl
@@ -68,6 +68,7 @@ format:
     theme: [litera, custom.scss]
     from: markdown+emoji
     mainfont: "Atkinson Hyperlegible"
+    monofont: "Fira Code"
     page-layout: full
     fontcolor: black
     linkcolor: black
