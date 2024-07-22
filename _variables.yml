@@ -9,6 +9,7 @@ project:
   mailto-secretary: "mailto:sekretariat-luv.psych@uni-hamburg.de"
   email-mailing-list: "version-control-course-ss24.psych@lists.uni-hamburg.de"
   mailto-mailing-list: "mailto:version-control-course-ss24.psych@lists.uni-hamburg.de"
+  nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG
 course:
   name: "version-control-course-uhh-ss24"
   title: "Track, organize and share your work: An introduction to Git for psychological research"
@@ -30,7 +31,6 @@ course:
 links:
   ddlitlab-proposal: https://lennartwittkuhn.com/ddlitlab-proposal
   illf-proposal: https://lennartwittkuhn.com/illf-application/
-  nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG
   stine: https://stine.uni-hamburg.de/
   formr: https://formr.org/
   book: https://lennartwittkuhn.com/version-control-book/

@@ -27,8 +27,8 @@ The source code for this website can be found [on GitHub]({{< var project.github
 
 ### Images
 
-Images are stored on [Nextcloud]({{< var links.nextcloud >}}) (UHH Cloud).
-They can be retrieved using `make download-images`.
+Images are stored on [Nextcloud]({{< var project.nextcloud >}}) (UHH Cloud).
+They can be retrieved using `make images`.
 
 <details>
 <summary>Click here to view the full `Makefile` of this project.</summary>
