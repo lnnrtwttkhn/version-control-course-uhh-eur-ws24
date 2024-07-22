@@ -23,7 +23,7 @@ This is the website for the {{< var course.duration >}} course "{{< var course.t
 
 {{< fa user-group >}} **Who?** {{< var course.target-group >}}
 
-{{< fa gear >}} **How?** Read about [how this course will work](mechanics.qmd)
+{{< fa gear >}} **How?** Read about [how this course will work](about.qmd)
 
 ---
 
