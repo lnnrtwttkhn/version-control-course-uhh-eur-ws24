@@ -10,11 +10,11 @@ project:
     navigate: true
 
 website:
-  title: "Version Control of Code and Data"
+  title: "An introduction to Git for research"
   favicon: images/uhh_git_logo.jpg
-  description: "Website for a full-semester course at University of Hamburg on version control of code and data"
-  site-url: "https://lennartwittkuhn.com/version-control-course-uhh-ss24/"
-  repo-url: "https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24/"
+  description: "Website for a full-semester course at University of Hamburg and Erasmus University Rotterdam on version control of code and data using Git"
+  site-url: "https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/"
+  repo-url: "https://github.com/lnnrtwttkhn/version-control-course-uhh-eur-ws24/"
   open-graph: false
   navbar:
     background: light
