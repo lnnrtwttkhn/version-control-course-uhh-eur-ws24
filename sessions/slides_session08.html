@@ -11,9 +11,9 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.5.55">
+  <meta name="generator" content="quarto-1.3.450">
 
-  <title>An introduction to Git for research – Session 8: GitHub - Intro</title>
+  <title>Version Control of Code and Data - Session 8: GitHub - Intro</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -33,7 +33,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -44,7 +44,7 @@
     }
     @media print {
     pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
     }
     pre.numberSource code
       { counter-reset: source-line 0; }
@@ -72,7 +72,7 @@
     code span.at { color: #657422; } /* Attribute */
     code span.bn { color: #ad0000; } /* BaseN */
     code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.cf { color: #003b4f; } /* ControlFlow */
     code span.ch { color: #20794d; } /* Char */
     code span.cn { color: #8f5902; } /* Constant */
     code span.co { color: #5e5e5e; } /* Comment */
@@ -86,7 +86,7 @@
     code span.fu { color: #4758ab; } /* Function */
     code span.im { color: #00769e; } /* Import */
     code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.kw { color: #003b4f; } /* Keyword */
     code span.op { color: #5e5e5e; } /* Operator */
     code span.ot { color: #003b4f; } /* Other */
     code span.pp { color: #ad0000; } /* Preprocessor */
@@ -225,8 +225,7 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    padding-bottom: 0.5rem;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -397,9 +396,9 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Session 8: GitHub - Intro</h1>
-  <p class="subtitle"></p><p>Track, organize and share your work: An introduction to Git for research</p>
-<p>Course at University of Hamburg &amp; Erasmus University Rotterdam</p>
-<p><a href="{{< var project.site >}}"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a> | <a href="{{< var project.github >}}"><i class="fa-brands fa-github" aria-label="github"></i> Source</a></p>
+  <p class="subtitle"></p><p>Track, organize and share your work: An introduction to Git for psychological research</p>
+<p>Course at University of Hamburg</p>
+<p><a href="https://lennartwittkuhn.com/version-control-course-uhh-ss24"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a> | <a href="https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24"><i class="fa-brands fa-github" aria-label="github"></i> Source</a></p>
 <p><a href="https://creativecommons.org/licenses/by/4.0/"><img data-src="https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg" alt="License: CC BY 4.0"></a> <a href="https://doi.org/10.25592/uhhfdm.14149"><img data-src="https://www.fdr.uni-hamburg.de/badge/DOI/10.25592/uhhfdm.14149.svg" alt="DOI"></a></p><p></p>
 
 <div class="quarto-title-authors">
@@ -441,7 +440,7 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <h2>Schedule</h2>
 <div class="cell">
 <div class="cell-output-display">
-<table class="caption-top">
+<table>
 <thead>
 <tr class="header">
 <th style="text-align: left;">No</th>
@@ -601,10 +600,11 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <div class="code-with-filename-file">
 <pre><strong>Code</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a></a><span class="fu">touch</span> ~/.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">touch</span> ~/.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
-</div></div>
+</div>
+</div>
 </div>
 <div class="fragment">
 <p>Running <code>git init</code> in the <code>user</code> directory now results in a (desired) error:</p>
@@ -614,10 +614,11 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <div class="code-with-filename-file">
 <pre><strong>Output</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb2-1"><a></a><span class="ex">fatal:</span> invalid gitfile format: /Users/user/.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">fatal:</span> invalid gitfile format: /Users/user/.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
-</div><p>Thanks to <a href="https://social.coop/@eamon/112434377857903339">Eamon Caddigan</a> for the idea!</p>
+</div>
+<p>Thanks to <a href="https://social.coop/@eamon/112434377857903339">Eamon Caddigan</a> for the idea!</p>
 </div>
 </section></section>
 <section>
@@ -639,7 +640,100 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <section id="this-weeks-learning-objectives" class="slide level2">
 <h2>This weeks learning objectives</h2>
 <div class="fragment">
+<p></p>
+</div>
+</section>
+<section id="todays-chapter" class="slide level2">
+<h2>Today’s chapter</h2>
+<p><i class="fa-brands fa-internet-explorer" aria-label="internet-explorer"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html" class="uri">https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html</a></p>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html" title="Version Control Book"></iframe>
+</section>
+<section id="your-turn" class="slide level2">
+<h2>Your turn</h2>
+<div>
+<ol type="1">
+<li class="fragment"><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Content Review</strong>: Read the chapter <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html">“GitHub - Intro”</a> in the Version Control Book.</li>
+<li class="fragment"><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter! Play around! Have fun!.</li>
+<li class="fragment"><strong>Note:</strong> Please complete the implementation exercises on the next slide</li>
+</ol>
+</div>
+<div class="fragment">
+<p>Ask questions!</p>
+<p>Let’s <em>git</em> started!</p>
+</div>
+</section>
+<section id="implementation-exercises" class="slide level2">
+<h2>Implementation exercises</h2>
+<div class="columns">
+<div class="column" style="width:33%;">
+<div class="fragment">
+<!-- -->
+<h3 id="task-1-upload-and-manage-your-repo-on-github">Task 1: Upload and manage your repo on GitHub</h3>
+<ul>
+<li><strong>Connect your GitHub account</strong>
+<ol type="1">
+<li>Generate a personal access token (PAT) on GitHub</li>
+<li>Use the PAT for GitHub authentication</li>
+</ol></li>
+<li><strong>Upload your repository</strong>
+<ol type="1">
+<li>Create a new <strong>private</strong>(!) repository on GitHub.</li>
+<li>Set the remote URL for your local Git repository.</li>
+<li>Push your <code>main</code> branch to GitHub.</li>
+</ol></li>
+<li><strong>Optional: Manage branches</strong>
+<ol type="1">
+<li>Push other branches with changes to GitHub.</li>
+<li>Delete unused branches.</li>
+</ol></li>
+</ul>
+</div>
+</div><div class="column" style="width:33%;">
+<div class="fragment">
+<!-- -->
+<h3 id="task-2-maintain-your-repo-and-collaborate">Task 2: Maintain your repo and collaborate</h3>
+<ul>
+<li><strong>Clean up your repository on GitHub</strong>:
+<ol type="1">
+<li>Delete unnecessary files or add a new recipe.</li>
+<li>Commit changes with a message.</li>
+<li>Pull the changes to your local repository.</li>
+</ol></li>
+<li><strong>Collaboration</strong>:
+<ol type="1">
+<li>Add collaborators to your repository: Lennart (<a href="https://github.com/lnnrtwttkhn">@lnnrtwttkhn</a>) and Konrad (<a href="https://github.com/konradpa?tab=repositories">@konradpa</a>).</li>
+</ol></li>
+</ul>
+</div>
+</div><div class="column" style="width:33%;">
+<div class="fragment">
+<!-- -->
+<h3 id="task-3-create-a-readme-file">Task 3: Create a <code>README</code> file</h3>
+<ol type="1">
+<li>Navigate to your repository on GitHub, click “Add file”, and select “Create new file”.</li>
+<li>Name the file <code>README.md</code>, add a brief description of your project, and provide a commit message. Play around with Markdown syntax!</li>
+<li>Click the green “Commit new file” button to save the <code>README.md</code> file to the repository.</li>
+<li>Pull the changes to your local repository.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="implementation-exercises-optional-bonus" class="slide level2">
+<h2>Implementation exercises (optional bonus)</h2>
+<div class="fragment">
+<!-- -->
+<h3 id="task-4-clone-and-synac-your-repo-optional">Task 4: Clone and synac your repo (optional)</h3>
+<ol type="1">
+<li>Clone your repository from GitHub to a different location on your computer.</li>
+<li>Make and push changes.</li>
+<li>Pull changes to the repository in the original location.</li>
+<li>Delete your newly cloned repository.</li>
+</ol>
+</div>
 
+<div class="footer footer-default">
+<p>Version Control Course</p>
 </div>
 </section></section>
     </div>
@@ -669,6 +763,7 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
+'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -924,7 +1019,18 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
         }
         return false;
       }
-      const onCopySuccess = function(e) {
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+      });
+      clipboard.on('success', function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -956,55 +1062,11 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
         }, 1000);
         // clear code selection
         e.clearSelection();
-      }
-      const getTextToCopy = function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-      }
-      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-        text: getTextToCopy
       });
-      clipboard.on('success', onCopySuccess);
-      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-        // For code content inside modals, clipBoardJS needs to be initialized with a container option
-        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-          text: getTextToCopy,
-          container: window.document.getElementById('quarto-embedded-source-code-modal')
-        });
-        clipboardModal.on('success', onCopySuccess);
-      }
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-        var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp("https:\/\/lennartwittkuhn\.com\/version-control-course-uhh-eur-ws24\/");
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-        }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-            // undo the damage that might have been done by quarto-nav.js in the case of
-            // links that we want to consider external
-            if (link.dataset.originalHref !== undefined) {
-              link.href = link.dataset.originalHref;
-            }
-              // target, if specified
-              link.setAttribute("target", "_blank");
-              if (link.getAttribute("rel") === null) {
-                link.setAttribute("rel", "noopener");
-              }
-          }
-        }
-      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      function tippyHover(el, contentFn) {
         const config = {
           allowHTML: true,
+          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1014,17 +1076,8 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start',
+          placement: 'bottom-start'
         };
-        if (contentFn) {
-          config.content = contentFn;
-        }
-        if (onTriggerFn) {
-          config.onTrigger = onTriggerFn;
-        }
-        if (onUntriggerFn) {
-          config.onUntrigger = onUntriggerFn;
-        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -1038,11 +1091,7 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          if (note) {
-            return note.innerHTML;
-          } else {
-            return "";
-          }
+          return note.innerHTML;
         });
       }
       const findCites = (el) => {
@@ -1082,6 +1131,20 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
           });
         }
       }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var filterRegex = new RegExp("https:\/\/lennartwittkuhn\.com\/version-control-course-uhh-ss24\/");
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+              // target, if specified
+              link.setAttribute("target", "_blank");
+          }
+        }
     });
     </script>
     

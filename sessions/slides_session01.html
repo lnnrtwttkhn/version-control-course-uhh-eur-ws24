@@ -11,9 +11,9 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.5.55">
+  <meta name="generator" content="quarto-1.3.450">
 
-  <title>An introduction to Git for research – Session 1: Introduction</title>
+  <title>Version Control of Code and Data - Session 1: Introduction</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -35,7 +35,6 @@
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
-      margin-bottom: 0em;
     }
     .hanging-indent div.csl-entry {
       margin-left:2em;
@@ -180,8 +179,7 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    padding-bottom: 0.5rem;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -352,9 +350,9 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Session 1: Introduction</h1>
-  <p class="subtitle"></p><p>Track, organize and share your work: An introduction to Git for research</p>
-<p>Course at University of Hamburg &amp; Erasmus University Rotterdam</p>
-<p><a href="{{< var project.site >}}"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a> | <a href="{{< var project.github >}}"><i class="fa-brands fa-github" aria-label="github"></i> Source</a></p>
+  <p class="subtitle"></p><p>Track, organize and share your work: An introduction to Git for psychological research</p>
+<p>Course at University of Hamburg</p>
+<p><a href="https://lennartwittkuhn.com/version-control-course-uhh-ss24"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a> | <a href="https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24"><i class="fa-brands fa-github" aria-label="github"></i> Source</a></p>
 <p><a href="https://creativecommons.org/licenses/by/4.0/"><img data-src="https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg" alt="License: CC BY 4.0"></a> <a href="https://doi.org/10.25592/uhhfdm.14149"><img data-src="https://www.fdr.uni-hamburg.de/badge/DOI/10.25592/uhhfdm.14149.svg" alt="DOI"></a></p><p></p>
 
 <div class="quarto-title-authors">
@@ -399,13 +397,14 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <h3 id="instructor">Instructor</h3>
 <p><img data-src="../images/photo-wittkuhn-uhh.jpg" style="width:89.0%" alt="A portrait photo of Lennart Wittkuhn."></p>
 <h4 id="dr.-lennart-wittkuhn">Dr.&nbsp;Lennart Wittkuhn</h4>
-<p><i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:">lennart.wittkuhn@uni-hamburg.de</a><br> <i class="fa-brands fa-github" aria-label="github"></i> <a href="https://github.com/lnnrtwttkhn">GitHub</a> <i class="fa-solid fa-home-user" aria-label="home-user"></i> <a href="https://lennartwittkuhn.com/">lennartwittkuhn.com</a></p>
+<p><i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:lennart.wittkuhn@uni-hamburg.de">lennart.wittkuhn@uni-hamburg.de</a><br> <i class="fa-brands fa-github" aria-label="github"></i> <a href="https://github.com/lnnrtwttkhn">GitHub</a> <i class="fa-solid fa-home-user" aria-label="home-user"></i> <a href="https://lennartwittkuhn.com/">lennartwittkuhn.com</a></p>
 </div><div class="column" style="width:35%;">
 <h3 id="teaching-assistant">Teaching Assistant</h3>
 <p><img data-src="../images/photo_pagenstedt_portrait.jpeg" alt="A portrait photo of Konrad Pagenstedt."></p>
 <h4 id="konrad-pagenstedt">Konrad Pagenstedt</h4>
-<p><i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:">konrad.pagenstedt@uni-hamburg.de</a><br> <i class="fa-brands fa-github" aria-label="github"></i> <a href="https://github.com/konradpa">GitHub</a></p>
-</div></div>
+<p><i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:konrad.pagenstedt@uni-hamburg.de">konrad.pagenstedt@uni-hamburg.de</a><br> <i class="fa-brands fa-github" aria-label="github"></i> <a href="https://github.com/konradpa">GitHub</a></p>
+</div>
+</div>
 </section>
 <section id="research-on-mechanisms-of-learning-change" class="slide level2">
 <h2>Research on “Mechanisms of Learning &amp; Change”</h2>
@@ -428,7 +427,8 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <div class="fragment">
 <p><img data-src="../images/research-areas.png"></p>
 </div>
-</div></div>
+</div>
+</div>
 <div class="fragment">
 <p>Find out more on our group’s website: <a href="https://schucklab.gitlab.io/" class="uri">https://schucklab.gitlab.io/</a></p>
 </div>
@@ -470,16 +470,13 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> flexible</li>
 <li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> flexible</li>
 <li><span class="emoji" data-emoji="moneybag">💰</span> <strong>Salary:</strong> 12.00 € / hour (SHK) / 13.95 € / hour (WHK)</li>
-<li><span class="emoji" data-emoji="envelope">✉️</span> <strong>Contact:</strong> <a href="mailto:">lennart.wittkuhn@uni-hamburg.de</a></li>
+<li><span class="emoji" data-emoji="envelope">✉️</span> <strong>Contact:</strong> <a href="mailto:lennart.wittkuhn@uni-hamburg.de">lennart.wittkuhn@uni-hamburg.de</a></li>
 </ul>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="fragment">
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
 <div class="quarto-layout-cell" style="flex-basis: 55.6%;justify-content: center;">
 <p><img data-src="../images/mri.png"></p>
 </div>
@@ -497,9 +494,10 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <li><span class="emoji" data-emoji="envelope">✉️</span> <strong>Contact:</strong> <a href="mailto:sekretariat-luv.psych@uni-hamburg.de">sekretariat-luv.psych@uni-hamburg.de</a></li>
 </ul>
 </div>
-</div></div>
+</div>
+</div>
 </section>
-<section id="who-are-you" class="slide level2 scrollable">
+<section id="who-are-you" class="slide level2">
 <h2>Who are you?</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -520,29 +518,31 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <div class="fragment">
 <p><img data-src="../images/mood-rubber-duck.png" alt="Mood on a rubber duck scale."></p>
 </div>
-</div></div>
+</div>
+</div>
 </section>
 <section id="course-overview" class="slide level2">
 <h2>Course overview</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
-<li><i class="fa-solid fa-calendar-days" aria-label="calendar-days"></i> <strong>Date:</strong> Winter semester 2024/25 (October to February)</li>
-<li><i class="fa-solid fa-clock" aria-label="clock"></i> <strong>Time:</strong> Fridays, 10:15 - 12:45 (90 Minutes)</li>
-<li><i class="fa-solid fa-building-columns" aria-label="building-columns"></i> <strong>Room:</strong> Online, Zoom</li>
+<li><i class="fa-solid fa-calendar-days" aria-label="calendar-days"></i> <strong>Date:</strong> Summer semester 2024 (April to July)</li>
+<li><i class="fa-solid fa-clock" aria-label="clock"></i> <strong>Time:</strong> Mondays, 12:15 - 13:45 (90 Minutes)</li>
+<li><i class="fa-solid fa-building-columns" aria-label="building-columns"></i> <strong>Room:</strong> Von-Melle-Park 5, Room 3016</li>
 <li><i class="fa-solid fa-person-chalkboard" aria-label="person-chalkboard"></i> <strong>Instructor:</strong> <a href="https://lennartwittkuhn.com/">Dr.&nbsp;Lennart Wittkuhn</a></li>
-<li><i class="fa-solid fa-user-plus" aria-label="user-plus"></i> <strong>Assistant:</strong> <a href="mailto:">Konrad Pagenstedt</a></li>
+<li><i class="fa-solid fa-user-plus" aria-label="user-plus"></i> <strong>Assistant:</strong> <a href="mailto:konrad.pagenstedt@uni-hamburg.de">Konrad Pagenstedt</a></li>
 </ul>
 </div><div class="column" style="width:50%;">
 <ul>
 <li><i class="fa-solid fa-chalkboard" aria-label="chalkboard"></i> <strong>Event:</strong> Seminar</li>
 <li><i class="fa-solid fa-gem" aria-label="gem"></i> <strong>Credits:</strong> 4,0 (2 SWS)</li>
 <li><i class="fa-solid fa-language" aria-label="language"></i> <strong>Language:</strong> English</li>
-<li><i class="fa-solid fa-tag" aria-label="tag"></i> <strong>Tag:</strong> PsyM14-PsyWB-K01</li>
+<li><i class="fa-solid fa-tag" aria-label="tag"></i> <strong>Tag:</strong> PsyM14-PsyWB-K04</li>
 </ul>
-</div></div>
+</div>
+</div>
 </section>
-<section id="what-will-the-average-seminar-session-look-like" class="slide level2 scrollable">
+<section id="what-will-the-average-seminar-session-look-like" class="slide level2">
 <h2>What will the average seminar session look like?</h2>
 <div class="fragment">
 <p><i class="fa-solid fa-clock" aria-label="clock"></i> The course will consist of up to 13 sessions (90 minutes each)</p>
@@ -578,7 +578,7 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <h2>Schedule</h2>
 <div class="cell">
 <div class="cell-output-display">
-<table class="caption-top">
+<table>
 <thead>
 <tr class="header">
 <th style="text-align: left;">No</th>
@@ -772,14 +772,14 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <h4 id="questions-discussions-outside-of-class-time"><strong>Questions &amp; discussions <em>outside of</em> class time</strong></h4>
 <ul>
 <li>Ask questions! There are no stupid questions!</li>
-<li>Send questions to our mailing list: <a href="mailto:version-control-course-ws24.psych@lists.uni-hamburg.de">version-control-course-ws24.psych@lists.uni-hamburg.de</a></li>
-<li>Send questions to <a href="mailto:">Lennart</a> and / or <a href="mailto:">Konrad</a></li>
+<li>Send questions to our mailing list: <a href="mailto:version-control-course-ss24.psych@lists.uni-hamburg.de">version-control-course-ss24.psych@lists.uni-hamburg.de</a></li>
+<li>Send questions to <a href="mailto:lennart.wittkuhn@uni-hamburg.de">Lennart</a> and / or <a href="mailto:konrad.pagenstedt@uni-hamburg.de">Konrad</a></li>
 <li>Office hours by appointment via email</li>
 <li>Be proactive: Give us feedback!</li>
 </ul>
 </div>
 </section>
-<section id="your-role-active-participation" class="slide level2 scrollable">
+<section id="your-role-active-participation" class="slide level2">
 <h2>Your role: active participation</h2>
 <div class="fragment">
 <!-- -->
@@ -808,7 +808,7 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 </section>
 <section id="code-of-conduct" class="slide level2">
 <h2>Code of Conduct</h2>
-<p>During this course, we want to ensure a safe, productive, and welcoming environment for everyone who attends. All participants and speakers are expected to abide by this code of conduct. We do not tolerate any form of discrimination or harassment in any form or by any means. If you experience harassment or hear of any incidents of unacceptable behavior, please reach out to the course instructor, Lennart Wittkuhn (<a href="mailto:">lennart.wittkuhn@uni-hamburg.de</a>), so that we can take the appropriate action.</p>
+<p>During this course, we want to ensure a safe, productive, and welcoming environment for everyone who attends. All participants and speakers are expected to abide by this code of conduct. We do not tolerate any form of discrimination or harassment in any form or by any means. If you experience harassment or hear of any incidents of unacceptable behavior, please reach out to the course instructor, Lennart Wittkuhn (<a href="mailto:lennart.wittkuhn@uni-hamburg.de">lennart.wittkuhn@uni-hamburg.de</a>), so that we can take the appropriate action.</p>
 <p>Unacceptable behavior is defined as:</p>
 <ul>
 <li>Harassment, intimidation, or discrimination in any form, verbal abuse of any attendee, speaker, or other person. Examples include, but are not limited to, verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, national origin, inappropriate use of nudity and/or sexual images in public spaces or in presentations, or threatening or stalking.</li>
@@ -884,7 +884,7 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <p>At the end of this session, you should be able to answer the following questions:</p>
 <p><span class="emoji" data-emoji="bulb">💡</span> You know what version control is.<br> <span class="emoji" data-emoji="bulb">💡</span> You can argue why version control is useful (for research).<br> <span class="emoji" data-emoji="bulb">💡</span> You can name benefits of Git compared to other approaches to version control.<br> <span class="emoji" data-emoji="bulb">💡</span> You can explain the difference between Git and GitHub.<br></p>
 </section>
-<section id="your-turn" class="slide level2 scrollable">
+<section id="your-turn" class="slide level2">
 <h2>Your turn</h2>
 <ol type="1">
 <li>Read <a href="https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html">Chapter 1: “Introduction to Version Control”</a> in the <a href="https://lennartwittkuhn.com/version-control-book/">Version Control Book</a></li>
@@ -933,7 +933,8 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <li class="fragment">“natural selection of bad science” <a href="#/footnotes" class="footnote-ref" id="fnref5" role="doc-noteref" data-footnote-href="#/fn5" onclick=""><sup>5</sup></a></li>
 </ul>
 </div>
-</div></div>
+</div>
+</div>
 <div class="fragment">
 <p>“<em>… accumulated evidence indicates […] <strong>substantial room for improvement</strong> with regard to research practices to maximize the efficiency of the research community’s use of the public’s financial investment.</em>” <span class="citation" data-cites="munafò2017">(<a href="#/references" role="doc-biblioref" onclick="">Munafò et al., 2017</a>)</span></p>
 </div>
@@ -980,7 +981,8 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <div class="fragment">
 <p><strong>… track everything.</strong></p>
 </div>
-</div></div>
+</div>
+</div>
 <aside class="notes">
 <ul>
 <li>Version control is relevant for anyone who wants to track the evolution of digital objects</li>
@@ -1032,7 +1034,8 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 </figure>
 </div>
 </div>
-</div></div>
+</div>
+</div>
 </section>
 <section id="what-is-git" class="slide level2">
 <h2>What is Git?</h2>
@@ -1074,7 +1077,7 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <h2>Schedule</h2>
 <div class="cell">
 <div class="cell-output-display">
-<table class="caption-top">
+<table>
 <thead>
 <tr class="header">
 <th style="text-align: left;">No</th>
@@ -1214,18 +1217,19 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <h3 id="check-if-you-have-git-a-command-line-installed">1. Check if you have Git / a command line installed</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
-<h4 id="windows-users">Windows Users <i class="fa-brands fa-windows" aria-label="windows"></i></h4>
+<h4 id="windows-users-fa-brands-windows">Windows Users <i class="fa-brands fa-windows" aria-label="windows"></i></h4>
 <ul>
 <li>Download and install <a href="https://gitforwindows.org">Git for Windows</a> until <strong>next week</strong></li>
 <li>You can find a tutorial in the <a href="https://lennartwittkuhn.com/version-control-book/chapters/installation.html">Version Control Book</a></li>
 </ul>
 </div><div class="column" style="width:50%;">
-<h4 id="apple-or-linux-users">Apple <i class="fa-brands fa-apple" aria-label="apple"></i> or Linux Users <i class="fa-brands fa-linux" aria-label="linux"></i></h4>
+<h4 id="apple-fa-brands-apple-or-linux-users-fa-brands-linux">Apple <i class="fa-brands fa-apple" aria-label="apple"></i> or Linux Users <i class="fa-brands fa-linux" aria-label="linux"></i></h4>
 <ul>
 <li>Download and install <a href="https://git-scm.com">Git</a> until <strong>15.04.</strong> (in two weeks)</li>
 <li>You can find a tutorial in our <a href="https://lennartwittkuhn.com/version-control-book/chapters/installation.html">Version Control Book</a></li>
 </ul>
-</div></div>
+</div>
+</div>
 </div>
 <div class="fragment">
 <!-- -->
@@ -1234,7 +1238,7 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 </section>
 <section id="research-colloquium-cognitive-neuroscience" class="slide level2">
 <h2>Research Colloquium: Cognitive Neuroscience</h2>
-<table class="caption-top">
+<table>
 <colgroup>
 <col style="width: 7%">
 <col style="width: 6%">
@@ -1349,16 +1353,13 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> flexible</li>
 <li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> flexible</li>
 <li><span class="emoji" data-emoji="moneybag">💰</span> <strong>Salary:</strong> 12.00 € / hour (SHK) / 13.95 € / hour (WHK)</li>
-<li><span class="emoji" data-emoji="envelope">✉️</span> <strong>Contact:</strong> <a href="mailto:">lennart.wittkuhn@uni-hamburg.de</a></li>
+<li><span class="emoji" data-emoji="envelope">✉️</span> <strong>Contact:</strong> <a href="mailto:lennart.wittkuhn@uni-hamburg.de">lennart.wittkuhn@uni-hamburg.de</a></li>
 </ul>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="fragment">
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
 <div class="quarto-layout-cell" style="flex-basis: 55.6%;justify-content: center;">
 <p><img data-src="../images/mri.png"></p>
 </div>
@@ -1376,11 +1377,12 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <li><span class="emoji" data-emoji="envelope">✉️</span> <strong>Contact:</strong> <a href="mailto:sekretariat-luv.psych@uni-hamburg.de">sekretariat-luv.psych@uni-hamburg.de</a></li>
 </ul>
 </div>
-</div></div>
+</div>
+</div>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
 <div id="ref-baker2016" class="csl-entry" role="listitem">
 Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. <em>Nature</em>, <em>533</em>(7604), 452–454. <a href="https://doi.org/10.1038/533452a">https://doi.org/10.1038/533452a</a>.
 </div>
@@ -1413,10 +1415,8 @@ Wicherts, J. M., Borsboom, D., Kats, J., &amp; Molenaar, D. (2006). The poor ava
 </div>
 </div>
 
-<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 <p>Version Control Course</p>
-</div>
 </div>
 </section></section>
 <section id="footnotes" class="footnotes footnotes-end-of-document smaller scrollable" role="doc-endnotes"><h2>Footnotes</h2>
@@ -1458,6 +1458,7 @@ Wicherts, J. M., Borsboom, D., Kats, J., &amp; Molenaar, D. (2006). The poor ava
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
+'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -1713,7 +1714,18 @@ Wicherts, J. M., Borsboom, D., Kats, J., &amp; Molenaar, D. (2006). The poor ava
         }
         return false;
       }
-      const onCopySuccess = function(e) {
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+      });
+      clipboard.on('success', function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -1745,55 +1757,11 @@ Wicherts, J. M., Borsboom, D., Kats, J., &amp; Molenaar, D. (2006). The poor ava
         }, 1000);
         // clear code selection
         e.clearSelection();
-      }
-      const getTextToCopy = function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-      }
-      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-        text: getTextToCopy
       });
-      clipboard.on('success', onCopySuccess);
-      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-        // For code content inside modals, clipBoardJS needs to be initialized with a container option
-        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-          text: getTextToCopy,
-          container: window.document.getElementById('quarto-embedded-source-code-modal')
-        });
-        clipboardModal.on('success', onCopySuccess);
-      }
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-        var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp("https:\/\/lennartwittkuhn\.com\/version-control-course-uhh-eur-ws24\/");
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-        }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-            // undo the damage that might have been done by quarto-nav.js in the case of
-            // links that we want to consider external
-            if (link.dataset.originalHref !== undefined) {
-              link.href = link.dataset.originalHref;
-            }
-              // target, if specified
-              link.setAttribute("target", "_blank");
-              if (link.getAttribute("rel") === null) {
-                link.setAttribute("rel", "noopener");
-              }
-          }
-        }
-      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      function tippyHover(el, contentFn) {
         const config = {
           allowHTML: true,
+          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1803,17 +1771,8 @@ Wicherts, J. M., Borsboom, D., Kats, J., &amp; Molenaar, D. (2006). The poor ava
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start',
+          placement: 'bottom-start'
         };
-        if (contentFn) {
-          config.content = contentFn;
-        }
-        if (onTriggerFn) {
-          config.onTrigger = onTriggerFn;
-        }
-        if (onUntriggerFn) {
-          config.onUntrigger = onUntriggerFn;
-        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -1827,11 +1786,7 @@ Wicherts, J. M., Borsboom, D., Kats, J., &amp; Molenaar, D. (2006). The poor ava
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          if (note) {
-            return note.innerHTML;
-          } else {
-            return "";
-          }
+          return note.innerHTML;
         });
       }
       const findCites = (el) => {
@@ -1871,6 +1826,20 @@ Wicherts, J. M., Borsboom, D., Kats, J., &amp; Molenaar, D. (2006). The poor ava
           });
         }
       }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var filterRegex = new RegExp("https:\/\/lennartwittkuhn\.com\/version-control-course-uhh-ss24\/");
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+              // target, if specified
+              link.setAttribute("target", "_blank");
+          }
+        }
     });
     </script>
     

@@ -11,9 +11,9 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.5.55">
+  <meta name="generator" content="quarto-1.3.450">
 
-  <title>An introduction to Git for research – Session 5: Branches</title>
+  <title>Version Control of Code and Data - Session 5: Branches</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -33,7 +33,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -44,7 +44,7 @@
     }
     @media print {
     pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
     }
     pre.numberSource code
       { counter-reset: source-line 0; }
@@ -72,7 +72,7 @@
     code span.at { color: #657422; } /* Attribute */
     code span.bn { color: #ad0000; } /* BaseN */
     code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.cf { color: #003b4f; } /* ControlFlow */
     code span.ch { color: #20794d; } /* Char */
     code span.cn { color: #8f5902; } /* Constant */
     code span.co { color: #5e5e5e; } /* Comment */
@@ -86,7 +86,7 @@
     code span.fu { color: #4758ab; } /* Function */
     code span.im { color: #00769e; } /* Import */
     code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.kw { color: #003b4f; } /* Keyword */
     code span.op { color: #5e5e5e; } /* Operator */
     code span.ot { color: #003b4f; } /* Other */
     code span.pp { color: #ad0000; } /* Preprocessor */
@@ -225,8 +225,7 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    padding-bottom: 0.5rem;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -397,9 +396,9 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Session 5: Branches</h1>
-  <p class="subtitle"></p><p>Track, organize and share your work: An introduction to Git for research</p>
-<p>Course at University of Hamburg &amp; Erasmus University Rotterdam</p>
-<p><a href="{{< var project.site >}}"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a> | <a href="{{< var project.github >}}"><i class="fa-brands fa-github" aria-label="github"></i> Source</a></p>
+  <p class="subtitle"></p><p>Track, organize and share your work: An introduction to Git for psychological research</p>
+<p>Course at University of Hamburg</p>
+<p><a href="https://lennartwittkuhn.com/version-control-course-uhh-ss24"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a> | <a href="https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24"><i class="fa-brands fa-github" aria-label="github"></i> Source</a></p>
 <p><a href="https://creativecommons.org/licenses/by/4.0/"><img data-src="https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg" alt="License: CC BY 4.0"></a> <a href="https://doi.org/10.25592/uhhfdm.14149"><img data-src="https://www.fdr.uni-hamburg.de/badge/DOI/10.25592/uhhfdm.14149.svg" alt="DOI"></a></p><p></p>
 
 <div class="quarto-title-authors">
@@ -437,7 +436,7 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <h2>Schedule</h2>
 <div class="cell">
 <div class="cell-output-display">
-<table class="caption-top">
+<table>
 <thead>
 <tr class="header">
 <th style="text-align: left;">No</th>
@@ -580,7 +579,7 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <h2>Last week’s question: Saving command line history?</h2>
 <p>Use this:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a></a><span class="bu">history</span> <span class="op">&gt;</span> history.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a href="#cb1-1"></a><span class="bu">history</span> <span class="op">&gt;</span> history.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history">https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history</a></p>
 <iframe width="100%" height="70%" src="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history" title="Version Control Book"></iframe>
@@ -637,9 +636,7 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <section id="todays-topic-branches-1" class="slide level2">
 <h2>Today’s topic: Branches</h2>
 
-<img data-src="../images/turing-way-branches.png" class="r-stretch quarto-figure-center"><p class="caption">
-Figure&nbsp;1: Image from <a href="https://book.the-turing-way.org/reproducible-research/vcs/vcs-git-branches.html">Chapter “Git Branches”</a> of the <a href="https://book.the-turing-way.org/">“The Turing Way handbook to reproducible, ethical and collaborative data science”</a>, used under a <a href="https://github.com/the-turing-way/the-turing-way/blob/main/LICENSE.md">Creative Commons Attribution 4.0 License</a>.
-</p><aside class="notes">
+<img data-src="../images/turing-way-branches.png" class="r-stretch quarto-figure-center"><p class="caption">Figure&nbsp;1: Image from <a href="https://book.the-turing-way.org/reproducible-research/vcs/vcs-git-branches.html">Chapter “Git Branches”</a> of the <a href="https://book.the-turing-way.org/">“The Turing Way handbook to reproducible, ethical and collaborative data science”</a>, used under a <a href="https://github.com/the-turing-way/the-turing-way/blob/main/LICENSE.md">Creative Commons Attribution 4.0 License</a>.</p><aside class="notes">
 <p><strong>Illustration of branches in a Git repository.</strong> Each circle represents a commit. Commits on the <code>Main</code> branch are shown in gray. The branch <code>Feature A</code> (blue circles) was created from the <code>Main</code> branch and later merged again. In-between, another branch <code>Feature A-1</code> was created from the <code>Feature A</code> branch (green circles) and merged with that branch again before the <code>Feature A</code> branch was eventually merged with the <code>Main</code> branch. The branch <code>Feature B</code> was created but abandoned and not merged with the <code>Main</code> branch.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -662,7 +659,7 @@ Figure&nbsp;1: Image from <a href="https://book.the-turing-way.org/reproducible-
 <h2>This weeks learning objectives</h2>
 <p><span class="emoji" data-emoji="bulb">💡</span> You understand the purpose and benefits of using branches in Git<br> <span class="emoji" data-emoji="bulb">💡</span> You can create and switch between branches<br> <span class="emoji" data-emoji="bulb">💡</span> You can merge branches and resolve merge conflicts<br> <span class="emoji" data-emoji="bulb">💡</span> You can name at least three best practices when working with branches<br></p>
 </section>
-<section id="your-turn" class="slide level2 scrollable">
+<section id="your-turn" class="slide level2">
 <h2>Your turn</h2>
 <div>
 <ol type="1">
@@ -680,7 +677,7 @@ Figure&nbsp;1: Image from <a href="https://book.the-turing-way.org/reproducible-
 <p>and <em>branch</em> out</p>
 </div>
 </section>
-<section id="implementation-exercises" class="slide level2 scrollable">
+<section id="implementation-exercises" class="slide level2">
 <h2>Implementation Exercises</h2>
 <div class="fragment">
 <!-- -->
@@ -713,10 +710,8 @@ Figure&nbsp;1: Image from <a href="https://book.the-turing-way.org/reproducible-
 <p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/gui.html">lennartwittkuhn.com/version-control-book/chapters/gui.html</a></p>
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/gui.html" title="Version Control Book"></iframe>
 
-<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 <p>Version Control Course</p>
-</div>
 </div>
 </section></section>
     </div>
@@ -746,6 +741,7 @@ Figure&nbsp;1: Image from <a href="https://book.the-turing-way.org/reproducible-
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
+'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -1001,7 +997,18 @@ Figure&nbsp;1: Image from <a href="https://book.the-turing-way.org/reproducible-
         }
         return false;
       }
-      const onCopySuccess = function(e) {
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+      });
+      clipboard.on('success', function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -1033,55 +1040,11 @@ Figure&nbsp;1: Image from <a href="https://book.the-turing-way.org/reproducible-
         }, 1000);
         // clear code selection
         e.clearSelection();
-      }
-      const getTextToCopy = function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-      }
-      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-        text: getTextToCopy
       });
-      clipboard.on('success', onCopySuccess);
-      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-        // For code content inside modals, clipBoardJS needs to be initialized with a container option
-        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-          text: getTextToCopy,
-          container: window.document.getElementById('quarto-embedded-source-code-modal')
-        });
-        clipboardModal.on('success', onCopySuccess);
-      }
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-        var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp("https:\/\/lennartwittkuhn\.com\/version-control-course-uhh-eur-ws24\/");
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-        }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-            // undo the damage that might have been done by quarto-nav.js in the case of
-            // links that we want to consider external
-            if (link.dataset.originalHref !== undefined) {
-              link.href = link.dataset.originalHref;
-            }
-              // target, if specified
-              link.setAttribute("target", "_blank");
-              if (link.getAttribute("rel") === null) {
-                link.setAttribute("rel", "noopener");
-              }
-          }
-        }
-      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      function tippyHover(el, contentFn) {
         const config = {
           allowHTML: true,
+          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1091,17 +1054,8 @@ Figure&nbsp;1: Image from <a href="https://book.the-turing-way.org/reproducible-
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start',
+          placement: 'bottom-start'
         };
-        if (contentFn) {
-          config.content = contentFn;
-        }
-        if (onTriggerFn) {
-          config.onTrigger = onTriggerFn;
-        }
-        if (onUntriggerFn) {
-          config.onUntrigger = onUntriggerFn;
-        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -1115,11 +1069,7 @@ Figure&nbsp;1: Image from <a href="https://book.the-turing-way.org/reproducible-
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          if (note) {
-            return note.innerHTML;
-          } else {
-            return "";
-          }
+          return note.innerHTML;
         });
       }
       const findCites = (el) => {
@@ -1159,6 +1109,20 @@ Figure&nbsp;1: Image from <a href="https://book.the-turing-way.org/reproducible-
           });
         }
       }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var filterRegex = new RegExp("https:\/\/lennartwittkuhn\.com\/version-control-course-uhh-ss24\/");
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+              // target, if specified
+              link.setAttribute("target", "_blank");
+          }
+        }
     });
     </script>
     
