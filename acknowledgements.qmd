@@ -55,7 +55,7 @@ Plausible is an "intuitive, lightweight and open source web analytics", does not
 
 ### License
 
-All contents are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), unless indicated otherwise.
+All contents are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), unless indicated otherwise.
 
 ### Contact
 
