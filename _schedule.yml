@@ -23,6 +23,11 @@ session02:
     - "[Command Line Quiz](https://version-control-cli.formr.org)"
 session03:
   date: 2024-11-01
+  title: "Quarto Workshop"
+  contents:
+    - "Introduction to [Quarto](https://quarto.org)"
+session04:
+  date: 2024-11-08
   title: "Setup + Git Fundamentals"
   contents:
     - "Installation and configuration of Git"
@@ -32,8 +37,8 @@ session03:
     - "[Installation](https://lennartwittkuhn.com/version-control-book/chapters/installation.html), [Setup](https://lennartwittkuhn.com/version-control-book/chapters/setup.html), [First steps with Git](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)"
   survey:
     - "[Installation Survey](https://version-control-installation.formr.org), [Git Basics Quiz](https://version-control-basics.formr.org)"
-session04:
-  date: 2024-11-08
+session05:
+  date: 2024-11-15
   title: "Basic Git workflow"
   contents:
     - "Practicing basic Git commands"
@@ -43,23 +48,18 @@ session04:
     - "[First steps with Git](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)"
   survey:
     - "[Git Basics Quiz](https://version-control-basics.formr.org)"
-session05:
-  date: 2024-11-15
+session06:
+  date: 2024-11-22
   title: "Git Branching and Merging"
   contents: 
     - "Understanding branches in Git"
     - "Creating and switching between branches"
     - "Merging branches"
-    - "Resolving merge conflicts"
+    - "Resolving merge conflict"
   reading:
     - "[Branches](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)"
   survey:
     - "[Git Branches Quiz](https://version-control-branches.formr.org)"
-session06:
-  date: 2024-11-22
-  title: "Quarto Workshop"
-  contents:
-    - "Introduction to [Quarto](https://quarto.org)"
 session07:
   date: 2024-11-29
   title: "Introduction to GitHub"
