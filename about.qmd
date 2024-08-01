@@ -10,7 +10,7 @@ title: "About"
 
 {{< fa building-columns >}} **Where?** {{< var course.where-long >}}
 
-{{< fa user-group >}} **Who?** This course is offered to {{< var course.target-group >}} at {{< var course.where-institution }}.
+{{< fa user-group >}} **Who?** This course is offered to {{< var course.target-group >}} at {{< var course.where-institution >}}.
 
 {{< fa gear >}} **How?** Read more about [how the course will work](mechanics.qmd).
 
