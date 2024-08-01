@@ -16,9 +16,13 @@ title: "About"
 
 ## Description
 
+::: {.callout-note title="Same information as on Stine"}
+For course participants enrolled at University of Hamburg: The information provided in this section are the same as on [Stine]({{< var links.stine >}}).
+:::
+
 ### Content
 
-In today's digital age, the majority of scientific insights in psychological research are gained from the analysis of data using programming code.
+In today's digital age, the majority of scientific insights in quantitative research are gained from the analysis of data using programming code.
 Although data and code are integral parts of their work, scientists often handle digital objects on their computers in a somewhat chaotic, unreliable, and irreproducible manner.
 It's not uncommon to hear researchers wondering, "Which version of my data and code did I use to get this result?" or "I found a bug in my code. Since when was it there?" and "This code used to work! What did I change?".
 This not only affects the reproducibility and trustworthiness of science but also frequently leads to frustration, a waste of time, and, at worst, the loss of painstakingly accumulated work.
@@ -28,11 +32,30 @@ In this hands-on course with practical exercises, participants will learn how to
 
 ### Goals
 
-The primary aim of this course is to empower students with the skills to efficiently organize projects on their computers using Git and GitHub.
+The main goal of this course is to empower students with the skills to efficiently organize projects on their computers using Git and GitHub.
 Participants will actively engage in hands-on experiences with these tools, exploring both the command-line and Graphical User Interfaces.
 Proficiency in Git and GitHub not only enhances students' effectiveness in conducting research projects by ensuring organized and reproducible workflows but also elevates their employability.
 The technical skills acquired in this course are increasingly sought after in various work settings, providing students with a competitive edge in today's dynamic job market.
 
 ### Mechanics
 
-Guided by the seminar instructor, participants will receive input while working through a dedicated Git Handbook (<https://lennartwittkuhn.com/version-control-book/>) that is tuned to the structure of the course and needs of the students, as well as engaging in practical hands-on exercises with Git and GitHub.
+This course is an international teaching collaboration between the University of Hamburg and Erasmus University Rotterdam.
+Course participants from both sites will interact online (via Zoom) and work together on the course exercises.
+This course is therefore also aimed at fostering intercultural exchange among the course participants from both institutions.
+Guided by the seminar instructor, course participants will receive input while working through a dedicated Git Handbook ([{{< var links.book >}}]({{< var links.book >}})) that is tuned to the structure of the course and needs of the course participants, as well as engaging in practical hands-on exercises with Git and GitHub.
+
+### Literature
+
+The main textbook for this course is the "Version Control Book" ([{{< var links.book >}}]({{< var links.book >}})) that is developed for this course.
+The reading materials relevant for each session will be announced in the respective session.
+
+### Examination
+
+This is a pass/fail course.
+Course participants pass if they fulfill all course requirements:
+
+1. Active participation in at least 12 out of 14 course sessions (~ 85%)
+1. Completion of all surveys and quizzes throughout the course
+1. Completion of all mandatory exercises (implemented in Git) throughout the course
+
+Further details will be announced in the first course session.
