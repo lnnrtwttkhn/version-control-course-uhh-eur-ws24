@@ -55,15 +55,20 @@ For detailed instructions for Windows and macOS users, see the [chapter "Install
 
 ## Email
 
-Dear course participants,
+Dear course participant,
 
-You are receiving this email because you are enrolled in the course "{{< var course.title >}}", taking place this summer semester 2024 (April to July) at {{< var course.where-institution >}}.
-We are excited that you have signed up for this course and can't wait to delve into the world of version control with you.
-Our first session takes place next Monday, April 08, 2024, from 12:15 to 13:45 at {{< var course.where-address >}}, {{< var course.where-room >}}.
+You are receiving this email because you have signed up for the course "{{< var course.title >}}", taking place this {{< var course.when-semester >}}, {{< var course.when-time >}}, at {{< var course.where-institution >}}.
+We are excited that you have signed up for this course and can't wait to delve into the world of version control with you!
+Our first session takes place next Friday, October 18, 2024, from 10:15 to 11:45 online via Zoom (see access details below).
 
-In order to tailor the course to your prior experience and needs, we have prepared a **short survey** with a few questions.
-Please **complete the survey before our first session**, ideally **by Sunday evening** (April 07, 2024).
+Compared to previous versions of this course, which were held in person at the University of Hamburg, this semester's course is special.
+Supported by funding from the International Office at the University of Hamburg, this course will take place fully online, with participants from both the University of Hamburg and our partner institution, Erasmus University Rotterdam. 
+Students from both universities, Hamburg and Rotterdam, will come together in this online course, thereby not only having the opportunity to learn about effective version control and collaboration with Git but also getting to know each other and strengthening the intercultural and academic exchange between the partner institutions.
+
+In order to tailor the course to your prior experience and needs, we have prepared a **survey** with a few questions.
+Please **complete the survey before our first session**, ideally **by Thursday evening** (October 15, 2024).
 This will give us enough time to review your responses before our first session on Monday.
+In total, the survey should **take about 20 minutes** (not much longer).
 
 The survey can be accessed here: **https://version-control-intro.formr.org**
 
@@ -71,19 +76,21 @@ A few technical remarks about the survey:
 The survey will ask you for two codewords: a **personal codeword** and a **course codeword**.
 
 The **personal codeword** is used to associate your responses with a unique identifier.
-This will allow us to identify and relate your responses across surveys while ensuring anonymity.
+This will allow us to identify and relate your responses across all surveys used in the course while ensuring anonymity.
 By providing a personal codeword, you will allow us to draw more detailed insights from your responses that will help us improve the course for you.
-The survey will contain an explanation of how to generate your personal codeword.
+The survey will contain an explanation at the beginning on how to generate your personal codeword.
 
 The **course codeword** is used to tag your responses as coming from a course participant at {{< var course.where-institution >}}.
 We might also use the survey to collect responses from participants in other course settings.
-The course codeword allows us to distinguish responses from different course settings.
+The course codeword therefore allows us to distinguish responses from different course settings.
 
 **The course codeword is: `--------`** (course password will be announced during the course).
 
-Apart from answering the survey, you don't need to prepare anything else for our first session on Monday.
+Please note that you might be asked for the codewords repeatedly.
+This is not an error in the survey but the result of combining separate smaller surveys into a longer one.
+If this happens, please just enter the personal and course codeword again.
 
-Further information about the course can be found on our course website: [{{< var project.site >}}]({{< var project.site >}})
+Further information about the course can be found on our course website: [{{< var project.site >}}]({{< var project.site >}}).
 
 If you have any questions, feel free to contact us directly via email.
 
@@ -91,4 +98,4 @@ We are looking forward to seeing you for the first session on Monday!
 
 Best wishes,
 
-Lennart Wittkuhn (Instructor) & Konrad Pagenstedt (Teaching Assistant)
+Lennart Wittkuhn (Instructor) & Ana Martinovici (Teaching Collaborator)
