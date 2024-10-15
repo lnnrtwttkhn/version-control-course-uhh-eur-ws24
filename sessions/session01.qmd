@@ -79,6 +79,9 @@ The **personal codeword** is used to associate your responses with a unique iden
 This will allow us to identify and relate your responses across all surveys used in the course while ensuring anonymity.
 By providing a personal codeword, you will allow us to draw more detailed insights from your responses that will help us improve the course for you.
 The survey will contain an explanation at the beginning on how to generate your personal codeword.
+For students at University of Hamburg: **The surveys are part of your mandatory course work**.
+We will later use your personal codeword to confirm the completion of all mandatory surveys.
+More details about this procedure will be shared in our first course session.
 
 The **course codeword** is used to tag your responses as coming from a course participant at {{< var course.where-institution >}}.
 We might also use the survey to collect responses from participants in other course settings.
