@@ -59,7 +59,7 @@ Lennart is a **Postdoctoral Researcher** and **Lab Manager** in the [Research Gr
 
 ::: grid
 ::: g-col-4
-![](images/photo-martinovici.png){fig-alt="A portrait photo of Ana Martinovici."}
+![](images/photo-martinovici.png){fig-alt="A portrait photo of Ana Martinovici." width="110%"}
 :::
 
 ::: g-col-8
