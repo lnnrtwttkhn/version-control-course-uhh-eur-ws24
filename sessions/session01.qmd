@@ -64,10 +64,9 @@ Our first session takes place next Friday, October 18, 2024, from 10:15 to 11:45
 Compared to previous versions of this course, which were held in person at the University of Hamburg, this semester's course is special.
 Supported by funding from the International Office at the University of Hamburg, this course will take place fully online, with participants from both the University of Hamburg and our partner institution, Erasmus University Rotterdam. 
 Students from both universities, Hamburg and Rotterdam, will come together in this online course, thereby not only having the opportunity to learn about effective version control and collaboration with Git but also getting to know each other and strengthening the intercultural and academic exchange between the partner institutions.
-
 In order to tailor the course to your prior experience and needs, we have prepared a **survey** with a few questions.
-Please **complete the survey before our first session**, ideally **by Thursday evening** (October 15, 2024).
-This will give us enough time to review your responses before our first session on Monday.
+Please **complete the survey before our first session**, ideally **by Thursday evening** (October 17, 2024).
+This will give us enough time to review your responses before our first session on Friday.
 In total, the survey should **take about 20 minutes** (not much longer).
 
 The survey can be accessed here: **https://version-control-intro.formr.org**
