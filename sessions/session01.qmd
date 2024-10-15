@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Version Control"
 subtitle: "Session 01"
-date: 2024-04-08T12:15
+date: 2024-10-18T10:15
 metadata-files:
   - _sessions.yml
 about:
@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session01.html
+      href: https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/sessions/slides_session01.html
       aria-label: display
     - icon: book
       text: Chapter
@@ -42,15 +42,16 @@ For detailed instructions for Windows and macOS users, see the [chapter "Install
 
 ## Learning objectives
 
+{{< include _learning-objectives-note.qmd >}}
 {{< include ../objectives/_objectives-intro.qmd >}}
 
 ## Slides
 
-{{< include _print-to-pdf.qmd >}}
-
 ```{=html}
 <iframe width="100%" height=500 src="slides_session01.html"></iframe>
 ```
+
+{{< include _print-to-pdf.qmd >}}
 
 ## Email
 
