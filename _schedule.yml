@@ -2,7 +2,7 @@ session01:
   date: 2024-10-18
   title: Introduction to version control
   contents:
-    - "Organisational matters"
+    - "Organizational matters"
     - "Overview of seminar sessions"
     - "Introduction to version control"
     - "Introduction to Git and its advantages"
@@ -102,7 +102,7 @@ session10:
   contents:
     - "Repetition and Practice"
 session11:
-  date: 2024-01-10
+  date: 2025-01-10
   title: "Publishing" 
   contents:
     - "Creating Tags with Git"
@@ -113,7 +113,7 @@ session11:
   reading:
     - "[Tags and Releases](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)"
 session12:
-  date: 2024-01-17
+  date: 2025-01-17
   title: "Graphical User Interfaces "
   contents:
     - "Repetition and Practice"
@@ -121,12 +121,12 @@ session12:
   reading:
     - "[Graphical User Interfaces](https://lennartwittkuhn.com/version-control-book/chapters/gui.html)"
 session13:
-  date: 2024-01-24
+  date: 2025-01-24
   title: "Repetition and Practice"
   contents:
     - "Repetition and Practice"
 session14:
-  date: 2024-01-31
+  date: 2025-01-31
   title: "Summary & Wrap-Up"
   contents:
     - "Course evaluation"
