@@ -61,6 +61,17 @@ team:
     email: "konrad.pagenstedt@uni-hamburg.de"
     mailto: "mailto:{{< var team.konrad.email >}}"
     github: "https://github.com/konradpa"
+  ana:
+    id: ana
+    email: "martinovici@rsm.nl"
+    mailto: "mailto:{{< var team.ana.email >}}"
+    github: "https://github.com/anamartinovici"
+    website: "https://anamartinovici.com/"
+  reza:
+    id: reza
+    email: "reza.hakimazar@uni-hamburg.de"
+    mailto: "mailto:{{< var team.reza.email >}}"
+    github: "https://github.com/rezahakimazar"
 slides:
   title: "Slide title"
   license-long: "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"

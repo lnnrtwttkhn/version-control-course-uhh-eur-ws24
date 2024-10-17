@@ -11,7 +11,7 @@ metadata-files:
 ## Team
 
 :::: {.columns}
-::: {.column width="35%"}
+::: {.column width="33%"}
 
 ### Instructor
 
@@ -24,17 +24,30 @@ metadata-files:
 {{< fa home-user >}} [lennartwittkuhn.com]({{< var team.lennart.website >}})
 :::
 
-::: {.column width="35%"}
+::: {.column width="33%"}
 
 ### Teaching Assistant
 
-![](../images/photo_pagenstedt_portrait.jpeg){fig-alt="A portrait photo of Konrad Pagenstedt."}
+![](../images/photo-reza-hakimazar.jpeg){fig-alt="A portrait photo of Reza Hakimazar." width="90%"}
 
-#### Konrad Pagenstedt
+#### Reza Hakimazar
 
-{{< fa envelope >}} [{{< var team.konrad.email >}}]({{< var team.konrad.mailto >}})<br>
-{{< fa brands github >}} [GitHub]({{< var team.konrad.github >}})
+{{< fa envelope >}} [{{< var team.reza.email >}}]({{< var team.reza.mailto >}})<br>
+{{< fa brands github >}} [GitHub]({{< var team.reza.github >}})
 
+:::
+
+::: {.column width="33%"}
+
+### Teaching Collaborator
+
+![](../images/photo-martinovici.png){fig-alt="A portrait photo of Dr. Ana Martinovici." width="120%"}
+
+#### Dr. Ana Martinovici
+
+{{< fa envelope >}} [{{< var team.ana.email >}}]({{< var team.ana.mailto >}})<br>
+{{< fa brands github >}} [GitHub]({{< var team.ana.github >}})
+{{< fa home-user >}} [anamartinovici.com]({{< var team.ana.website >}})
 :::
 
 ::::
@@ -104,7 +117,7 @@ Find out more on our group's website: <https://schucklab.gitlab.io/>
 - {{< fa clock >}} **Time:** {{< var course.when-time >}}
 - {{< fa building-columns >}} **Room:** {{< var course.where-address >}}, {{< var course.where-room >}}
 - {{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
-- {{< fa user-plus >}} **Assistant:** [Konrad Pagenstedt]({{< var team.konrad.mailto >}})
+- {{< fa user-plus >}} **Collaborator:** [Dr. Ana Martinovici](mailto:martinovici@rsm.nl)
 :::
 ::: {.column width="50%"}
 - {{< fa chalkboard >}} **Event:** Seminar
