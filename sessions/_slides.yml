@@ -63,7 +63,7 @@ format:
     number-sections: true
     number-depth: 1
 mainfont: Atkinson Hyperlegible
-monofont: "Fira Code"
+monofont: Fira Code
 engine: knitr
 execute:
   eval: false
