@@ -8,8 +8,8 @@ project:
   years: "2024 -- 2025"
   email-secretary: "sekretariat-luv.psych@uni-hamburg.de"
   mailto-secretary: "mailto:sekretariat-luv.psych@uni-hamburg.de"
-  email-mailing-list: "version-control-course-ws24.psych@lists.uni-hamburg.de"
-  mailto-mailing-list: "mailto:version-control-course-ws24.psych@lists.uni-hamburg.de"
+  email-mailing-list: "version-control-course-uhh-eur-ws24.psych@lists.uni-hamburg.de"
+  mailto-mailing-list: "mailto:version-control-course-uhh-eur-ws24.psych@lists.uni-hamburg.de"
   nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG
 course:
   title: "Track, organize and share your work: An introduction to Git for research"
@@ -33,9 +33,10 @@ links:
   illf-proposal: https://lennartwittkuhn.com/illf-application/
   stine: https://stine.uni-hamburg.de/
   formr: https://formr.org/
-  book: https://lennartwittkuhn.com/version-control-book/
+  book: "https://lennartwittkuhn.com/version-control-book/"
   scriberia: "https://www.scriberia.com/"
   ccby40: "https://creativecommons.org/licenses/by/4.0/"
+  city-guide: "https://lennartwittkuhn.com/uhh-eur-city-guide/"
 team:
   lennart:
     id: lennart
@@ -61,25 +62,22 @@ team:
     email: "konrad.pagenstedt@uni-hamburg.de"
     mailto: "mailto:{{< var team.konrad.email >}}"
     github: "https://github.com/konradpa"
+  ana:
+    id: ana
+    email: "martinovici@rsm.nl"
+    mailto: "mailto:{{< var team.ana.email >}}"
+    github: "https://github.com/anamartinovici"
+    website: "https://anamartinovici.com/"
+  reza:
+    id: reza
+    email: "reza.hakimazar@uni-hamburg.de"
+    mailto: "mailto:{{< var team.reza.email >}}"
+    github: "https://github.com/rezahakimazar"
 slides:
   title: "Slide title"
   license-long: "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"
   license-short: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
   license-badge: "[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)"
   doi-badge: "[![DOI](https://www.fdr.uni-hamburg.de/badge/DOI/10.25592/uhhfdm.14149.svg)](https://doi.org/10.25592/uhhfdm.14149)"
-dates:
-  one: "2024-04-08"
-  two: "2024-04-15"
-  three: "2024-04-22"
-  four: "2024-04-29"
-  five: "2024-05-06"
-  six: "2024-05-13"
-  seven: "2024-05-20"
-  eight: "2024-05-27"
-  nine: "2024-06-03"
-  ten: "2024-06-10"
-  eleven: "2024-06-17"
-  twelve: "2024-06-24"
-  thirteen: "2024-07-01"
-  fourteen: "2024-07-08"
+
   

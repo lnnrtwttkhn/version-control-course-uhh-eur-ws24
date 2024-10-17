@@ -3,8 +3,8 @@ subtitle: |
   
   Course at {{< var course.where-institution >}}
   
-  [{{< fa display >}} Slides]({{< var project.site >}}) |
-  [{{< fa brands github >}} Source]({{< var project.github >}})
+  [{{< fa display >}} Slides](https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/) |
+  [{{< fa brands github >}} Source](https://github.com/lnnrtwttkhn/version-control-course-uhh-eur-ws24/)
   
   {{< var slides.license-badge >}}
   {{< var slides.doi-badge >}}
@@ -16,17 +16,26 @@ authors:
       literal: Dr. Lennart Wittkuhn
     url: https://lennartwittkuhn.com/
     email: lennart.wittkuhn@uni-hamburg.de
-    orcid: 0000-0003-2966-6888
+    # orcid: 0000-0003-2966-6888
     attributes:
       corresponding: true
       equal-contributor: true
-  - id: pagenstedt
+  - id: martinovici
     name:
-      given: Konrad
-      family: Pagenstedt
-      literal: Konrad Pagenstedt
-    email: konrad.pagenstedt@uni-hamburg.de
-    orcid: 0009-0000-6867-1546
+      given: Ana
+      family: Martinovici
+      literal: Dr. Ana Martinovici
+    email: martinovici@rsm.nl
+    # orcid: 0000-0003-1940-0293
+    attributes:
+      corresponding: false
+      equal-contributor: false
+  - id: hakimazar
+    name:
+      given: Reza
+      family: Hakimazar
+      literal: Reza Hakimazar
+    email: reza.hakimazar@uni-hamburg.de
     attributes:
       corresponding: false
       equal-contributor: false
@@ -54,7 +63,7 @@ format:
     number-sections: true
     number-depth: 1
 mainfont: Atkinson Hyperlegible
-monofont: "Fira Code"
+monofont: Fira Code
 engine: knitr
 execute:
   eval: false

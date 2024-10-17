@@ -1,6 +1,6 @@
 ---
-title: "Session 1: Introduction"
-date: 2024-04-08T12:15
+title: "Session 1: Introduction to Version Control"
+date: 2024-10-18T10:15
 format: revealjs
 metadata-files:
   - _slides.yml
@@ -11,7 +11,7 @@ metadata-files:
 ## Team
 
 :::: {.columns}
-::: {.column width="35%"}
+::: {.column width="33%"}
 
 ### Instructor
 
@@ -24,17 +24,30 @@ metadata-files:
 {{< fa home-user >}} [lennartwittkuhn.com]({{< var team.lennart.website >}})
 :::
 
-::: {.column width="35%"}
+::: {.column width="33%"}
 
 ### Teaching Assistant
 
-![](../images/photo_pagenstedt_portrait.jpeg){fig-alt="A portrait photo of Konrad Pagenstedt."}
+![](../images/photo-reza-hakimazar.jpeg){fig-alt="A portrait photo of Reza Hakimazar." width="90%"}
 
-#### Konrad Pagenstedt
+#### Reza Hakimazar
 
-{{< fa envelope >}} [{{< var team.konrad.email >}}]({{< var team.konrad.mailto >}})<br>
-{{< fa brands github >}} [GitHub]({{< var team.konrad.github >}})
+{{< fa envelope >}} [{{< var team.reza.email >}}]({{< var team.reza.mailto >}})<br>
+{{< fa brands github >}} [GitHub]({{< var team.reza.github >}})
 
+:::
+
+::: {.column width="33%"}
+
+### Teaching Collaborator
+
+![](../images/photo-martinovici.png){fig-alt="A portrait photo of Dr. Ana Martinovici." width="120%"}
+
+#### Dr. Ana Martinovici
+
+{{< fa envelope >}} [{{< var team.ana.email >}}]({{< var team.ana.mailto >}})<br>
+{{< fa brands github >}} [GitHub]({{< var team.ana.github >}})
+{{< fa home-user >}} [anamartinovici.com]({{< var team.ana.website >}})
 :::
 
 ::::
@@ -71,8 +84,6 @@ Find out more on our group's website: <https://schucklab.gitlab.io/>
 - we use cognitive and psychological approaches, neural measurement using fMRI and EEG and integrate and compare them with computational approaches from reinforcement learning and artificial neural networks
 :::
 
-{{< include _job-advertizement.qmd >}}
-
 ## Who are you?
 
 :::: {.columns}
@@ -104,7 +115,8 @@ Find out more on our group's website: <https://schucklab.gitlab.io/>
 - {{< fa clock >}} **Time:** {{< var course.when-time >}}
 - {{< fa building-columns >}} **Room:** {{< var course.where-address >}}, {{< var course.where-room >}}
 - {{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
-- {{< fa user-plus >}} **Assistant:** [Konrad Pagenstedt]({{< var team.konrad.mailto >}})
+- {{< fa user-plus >}} **Collaborator:** [Dr. Ana Martinovici]({{< var team.ana.website >}})
+- {{< fa user-plus >}} **Assistant:** [Reza Hakimazar](mailto:{{< var team.reza.email >}})
 :::
 ::: {.column width="50%"}
 - {{< fa chalkboard >}} **Event:** Seminar
@@ -122,7 +134,7 @@ Find out more on our group's website: <https://schucklab.gitlab.io/>
 
 ::: {.fragment}
 1. {{< fa book-open >}} **Content Review (up to 30 minutes):**
-<br> Course participants engage with [the online materials](https://lennartwittkuhn.com/version-control-book/) (aka. our "Version Control Book"), supplemented by short presentations by the instructors.
+<br> Course participants engage with [the online materials]({{< var links.book >}}) (aka. our "Version Control Book"), supplemented by short presentations by the instructors.
 Some course preparation may occur outside of the class.
 :::
 
@@ -163,10 +175,10 @@ create_schedule()
 
 ## Course Website
 
-{{< fa brands internet-explorer >}} [lennartwittkuhn.com/version-control-course-uhh-ss24](https://lennartwittkuhn.com/version-control-course-uhh-ss24/)
+{{< fa display >}} [{{< var project.site >}}]({{< var project.site >}})
 
 ```{=html}
-<iframe width="100%" height="74%" src="https://lennartwittkuhn.com/version-control-course-uhh-ss24/" title="Course Website"></iframe>
+<iframe width="100%" height="74%" src="{{< var project.site >}}" title="Course Website"></iframe>
 ```
 
 ::: {.notes}
@@ -177,10 +189,10 @@ create_schedule()
 
 ## Version Control Book
 
-{{< fa brands internet-explorer >}} [lennartwittkuhn.com/version-control-book](https://lennartwittkuhn.com/version-control-book)
+{{< fa display >}} [{{< var links.book >}}]({{< links.book >}})
 
 ```{=html}
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book" title="Version Control Book"></iframe>
+<iframe width="100%" height="80%" src="{{< links.book >}}" title="Version Control Book"></iframe>
 ```
 
 ## Exercises, quizzes & surveys
@@ -199,13 +211,14 @@ create_schedule()
 Our secretary forwards your codeword to us (without your name).
 :::
 
-## Your role: questions and communication
+## Your role: Questions and communication
 
 ::: {.fragment}
 #### **Questions & discussions *during* class time**
 - Ask questions!
 There are no stupid questions!
 - Participate in the discussions
+- We can use Zoom Breakout Rooms to address individual questions
 :::
 ::: {.fragment}
 - Ask questions!
@@ -216,18 +229,18 @@ There are no stupid questions!
 - Ask questions!
 There are no stupid questions!
 - Send questions to our mailing list: [{{< var project.email-mailing-list >}}]({{< var project.mailto-mailing-list >}})
-- Send questions to [Lennart]({{< var team.lennart.mailto >}}) and / or [Konrad]({{< var team.konrad.mailto >}})
+- Send questions to [Lennart]({{< var team.lennart.mailto >}}) and / or [Reza]({{< var team.reza.mailto >}})
 - Office hours by appointment via email
 - Be proactive: Give us feedback!
 :::
 
-## Your role: active participation
+## Your role: Active participation
 
 ::: {.fragment}
 #### **Active participation**
 - This is a pass / fail course.
 You pass if you fulfill all course requirements:
-- Requirement 1: Come to at least **11 out of 13 sessions** (85%)
+- Requirement 1: Come to at least **12 out of 14 sessions** (85%)
 - Requirement 2: Complete all **surveys/quizzes**
 - Requirement 3: Complete **all mandatory exercises** (implemented in Git)
 :::
@@ -243,12 +256,12 @@ We will send our secretary a list of personal codewords and she will return a li
 
 :::
 
-## Course exercise: Building an online recipes book
+## Course exercise: Building an online city guide
 
-Example: <https://lennartwittkuhn.com/recipes>
+{{< fa display >}} [{{< var links.city-guide >}}]({{< links.city-guide >}})
 
 ```{=html}
-<iframe width="100%" height="100%" src="https://lennartwittkuhn.com/recipes/" title="Course Website"></iframe>
+<iframe width="100%" height="100%" src="{{< links.city-guide >}}" title="Course Website"></iframe>
 ```
 
 ## Code of Conduct
@@ -313,14 +326,14 @@ Example: <https://lennartwittkuhn.com/recipes>
 
 ## Learning objectives
 
-At the end of this session, you should be able to answer the following questions:
-
+{{< include _learning-objectives-note.qmd >}}
 {{< include ../objectives/_objectives-intro.qmd >}}
 
 ## Your turn
 
-1. Read [Chapter 1: "Introduction to Version Control"](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html) in the [Version Control Book]({{< var links.book >}})
-1. Discuss the learning objectives with your desk neighbor (quietly)
+1. Read [Chapter 1: "Introduction to Version Control"](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html) in the [Version Control Book]({{< var links.book >}}).
+1. Introduce yourself to your course partner.
+1. Discuss the learning objectives with your course partner.
 
 #### Learning objectives
 
@@ -518,14 +531,14 @@ create_schedule()
 ::: {.column width="50%"}
 #### Windows Users {{< fa brands windows >}}
 
-- Download and install [Git for Windows](https://gitforwindows.org) until **next week**
+- Download and install [Git for Windows](https://gitforwindows.org)
 - You can find a tutorial in the [Version Control Book](https://lennartwittkuhn.com/version-control-book/chapters/installation.html)
 :::
 
 ::: {.column width="50%"}
 #### Apple {{< fa brands apple >}} or Linux Users {{< fa brands linux >}} 
 
-- Download and install [Git](https://git-scm.com) until **15.04.** (in two weeks)
+- Download and install [Git](https://git-scm.com) (might already be installed)
 - You can find a tutorial in our [Version Control Book](https://lennartwittkuhn.com/version-control-book/chapters/installation.html)
 
 :::
@@ -533,26 +546,18 @@ create_schedule()
 :::::
 
 ::: {.fragment}
-### 2. Complete the pre-course survey
+### 2. Install RStudio & Quarto
+
+- RStudio Desktop: <https://posit.co/download/rstudio-desktop/>
+- Quarto: <https://quarto.org/>
+- Will be needed from Session 03 (in two weeks) onwards
+
+If you have any problems with installation, please get in touch!
 :::
 
-## Research Colloquium: Cognitive Neuroscience
-
-| Date   | Time  | Topic                                                   | Presenter               | Room     |
-|--------|-------|---------------------------------------------------------|-------------------------|----------|
-| 03 Apr | 17:00 | Hippocampal Remapping and Reward coding in mice         | Mari Sosa (Stanford)    | Zoom     |
-| 10 Apr | 10:15 | Meta Learning of Learning Rates                         | Jonas Simoens (U Ghent) | VMP 5 4018 |
-| 17 Apr | 10:15 | Decision Making Strategies in younger and older adults  | Alexa Ruel (UHH)        | VMP 5 4018 |
-| 24 Apr | 15:15 | Replay shapes abstract cognitive maps for efficient social navigation | Jae-Young Son (Brown) | VMP 5 4054 |
-| 08 May | 16:00 | TBD                                                     | Bob Wilson (U Arizona)  | VMP 5 4018 |
-| 15 May | 10:15 | TBD                                                     | Tobias Donner (UKE Hamburg) | VMP 5 4054 |
-| 29 May | 14:00 | TBD                                                     | Ben Eppinger (U Greifswald) | VMP 5 4054 |
-| 05 Jun | 10:15 | Memory replay in younger and older adults               | Xiangjuan Ren (UHH)     | VMP 5 4018 |
-| 12 Jun | 10:15 | Generalisation through replay                            | Fabian Renz (UHH)       | VMP 5 4018 |
-| 19 Jun | TBD   |                                                         |                         | VMP 5 4018 |
-| 26 Jun | TBD   |                                                         |                         | VMP 5 4018 |
-
-{{< include _job-advertizement.qmd >}}
+::: {.fragment}
+### 3. Complete the pre-course survey
+:::
 
 ## References
 
