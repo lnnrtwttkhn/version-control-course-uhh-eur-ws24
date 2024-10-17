@@ -13,7 +13,7 @@
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.450">
 
-  <title>An introduction to Git for research - Session 1: Introduction</title>
+  <title>An introduction to Git for research - Session 1: Introduction to Version Control</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -349,16 +349,16 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Session 1: Introduction</h1>
+  <h1 class="title">Session 1: Introduction to Version Control</h1>
   <p class="subtitle"></p><p>Track, organize and share your work: An introduction to Git for research</p>
 <p>Course at University of Hamburg &amp; Erasmus University Rotterdam</p>
-<p><a href="https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a> | <a href="https://github.com/lnnrtwttkhn/version-control-course-uhh-eur-ws24"><i class="fa-brands fa-github" aria-label="github"></i> Source</a></p>
+<p><a href="https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a> | <a href="https://github.com/lnnrtwttkhn/version-control-course-uhh-eur-ws24/"><i class="fa-brands fa-github" aria-label="github"></i> Source</a></p>
 <p><a href="https://creativecommons.org/licenses/by/4.0/"><img data-src="https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg" alt="License: CC BY 4.0"></a> <a href="https://doi.org/10.25592/uhhfdm.14149"><img data-src="https://www.fdr.uni-hamburg.de/badge/DOI/10.25592/uhhfdm.14149.svg" alt="DOI"></a></p><p></p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-<a href="https://lennartwittkuhn.com/">Dr.&nbsp;Lennart Wittkuhn</a> <a href="https://orcid.org/0000-0003-2966-6888" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
+<a href="https://lennartwittkuhn.com/">Dr.&nbsp;Lennart Wittkuhn</a> 
 </div>
 <div class="quarto-title-author-email">
 <a href="mailto:lennart.wittkuhn@uni-hamburg.de">lennart.wittkuhn@uni-hamburg.de</a>
@@ -366,15 +366,23 @@
 </div>
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
+Dr.&nbsp;Ana Martinovici 
 </div>
 <div class="quarto-title-author-email">
-<a href="mailto:konrad.pagenstedt@uni-hamburg.de">konrad.pagenstedt@uni-hamburg.de</a>
+<a href="mailto:martinovici@rsm.nl">martinovici@rsm.nl</a>
+</div>
+</div>
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Reza Hakimazar 
+</div>
+<div class="quarto-title-author-email">
+<a href="mailto:reza.hakimazar@uni-hamburg.de">reza.hakimazar@uni-hamburg.de</a>
 </div>
 </div>
 </div>
 
-  <p class="date">April 08 2024 (12:15 pm)</p>
+  <p class="date">October 18 2024 (10:15 am)</p>
 </section><section id="TOC">
 <nav role="doc-toc"> 
 <h2 id="toc-title">Agenda</h2>
@@ -393,16 +401,21 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <section id="team" class="slide level2">
 <h2>Team</h2>
 <div class="columns">
-<div class="column" style="width:35%;">
+<div class="column" style="width:33%;">
 <h3 id="instructor">Instructor</h3>
 <p><img data-src="../images/photo-wittkuhn-uhh.jpg" style="width:89.0%" alt="A portrait photo of Lennart Wittkuhn."></p>
 <h4 id="dr.-lennart-wittkuhn">Dr.&nbsp;Lennart Wittkuhn</h4>
 <p><i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:lennart.wittkuhn@uni-hamburg.de">lennart.wittkuhn@uni-hamburg.de</a><br> <i class="fa-brands fa-github" aria-label="github"></i> <a href="https://github.com/lnnrtwttkhn">GitHub</a> <i class="fa-solid fa-home-user" aria-label="home-user"></i> <a href="https://lennartwittkuhn.com/">lennartwittkuhn.com</a></p>
-</div><div class="column" style="width:35%;">
+</div><div class="column" style="width:33%;">
 <h3 id="teaching-assistant">Teaching Assistant</h3>
-<p><img data-src="../images/photo_pagenstedt_portrait.jpeg" alt="A portrait photo of Konrad Pagenstedt."></p>
-<h4 id="konrad-pagenstedt">Konrad Pagenstedt</h4>
-<p><i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:konrad.pagenstedt@uni-hamburg.de">konrad.pagenstedt@uni-hamburg.de</a><br> <i class="fa-brands fa-github" aria-label="github"></i> <a href="https://github.com/konradpa">GitHub</a></p>
+<p><img data-src="../images/photo-reza-hakimazar.jpeg" style="width:90.0%" alt="A portrait photo of Reza Hakimazar."></p>
+<h4 id="reza-hakimazar">Reza Hakimazar</h4>
+<p><i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:reza.hakimazar@uni-hamburg.de">reza.hakimazar@uni-hamburg.de</a><br> <i class="fa-brands fa-github" aria-label="github"></i> <a href="https://github.com/rezahakimazar">GitHub</a></p>
+</div><div class="column" style="width:33%;">
+<h3 id="teaching-collaborator">Teaching Collaborator</h3>
+<p><img data-src="../images/photo-martinovici.png" style="width:120.0%" alt="A portrait photo of Dr. Ana Martinovici."></p>
+<h4 id="dr.-ana-martinovici">Dr.&nbsp;Ana Martinovici</h4>
+<p><i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:martinovici@rsm.nl">martinovici@rsm.nl</a><br> <i class="fa-brands fa-github" aria-label="github"></i> <a href="https://github.com/anamartinovici">GitHub</a> <i class="fa-solid fa-home-user" aria-label="home-user"></i> <a href="https://anamartinovici.com/">anamartinovici.com</a></p>
 </div>
 </div>
 </section>
@@ -453,50 +466,6 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
           display:block!important;
       }</style></aside>
 </section>
-<section id="research-teaching-assistant-positions-thesis-projects" class="slide level2">
-<h2>Research / teaching assistant positions + thesis projects</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="fragment">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../images/git-logo-full.svg" style="width:85.0%"></p>
-<figcaption><a href="https://git-scm.com/">git-scm.com</a></figcaption>
-</figure>
-</div>
-<h3 id="version-control-course">Version Control Course</h3>
-<ul>
-<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Tasks:</strong> Support our teaching project!</li>
-<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> flexible</li>
-<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> flexible</li>
-<li><span class="emoji" data-emoji="moneybag">💰</span> <strong>Salary:</strong> 12.00 € / hour (SHK) / 13.95 € / hour (WHK)</li>
-<li><span class="emoji" data-emoji="envelope">✉️</span> <strong>Contact:</strong> <a href="mailto:lennart.wittkuhn@uni-hamburg.de">lennart.wittkuhn@uni-hamburg.de</a></li>
-</ul>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="fragment">
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 55.6%;justify-content: center;">
-<p><img data-src="../images/mri.png"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 44.4%;justify-content: center;">
-<p><img data-src="../images/brain-anatomical.png"></p>
-</div>
-</div>
-</div>
-<h3 id="research-projects-in-our-group">Research projects in our group</h3>
-<ul>
-<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Tasks:</strong> data collection &amp; analysis (e.g., fMRI)</li>
-<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> felxible</li>
-<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> flexible</li>
-<li><span class="emoji" data-emoji="moneybag">💰</span> <strong>Salary:</strong> 12.00 € / hour (SHK) / 13.95 € / hour (WHK)</li>
-<li><span class="emoji" data-emoji="envelope">✉️</span> <strong>Contact:</strong> <a href="mailto:sekretariat-luv.psych@uni-hamburg.de">sekretariat-luv.psych@uni-hamburg.de</a></li>
-</ul>
-</div>
-</div>
-</div>
-</section>
 <section id="who-are-you" class="slide level2">
 <h2>Who are you?</h2>
 <div class="columns">
@@ -530,7 +499,8 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <li><i class="fa-solid fa-clock" aria-label="clock"></i> <strong>Time:</strong> Fridays, 10:15 - 11:45 (90 Minutes)</li>
 <li><i class="fa-solid fa-building-columns" aria-label="building-columns"></i> <strong>Room:</strong> Online, Zoom</li>
 <li><i class="fa-solid fa-person-chalkboard" aria-label="person-chalkboard"></i> <strong>Instructor:</strong> <a href="https://lennartwittkuhn.com/">Dr.&nbsp;Lennart Wittkuhn</a></li>
-<li><i class="fa-solid fa-user-plus" aria-label="user-plus"></i> <strong>Assistant:</strong> <a href="mailto:konrad.pagenstedt@uni-hamburg.de">Konrad Pagenstedt</a></li>
+<li><i class="fa-solid fa-user-plus" aria-label="user-plus"></i> <strong>Collaborator:</strong> <a href="https://anamartinovici.com/">Dr.&nbsp;Ana Martinovici</a></li>
+<li><i class="fa-solid fa-user-plus" aria-label="user-plus"></i> <strong>Assistant:</strong> <a href="mailto:reza.hakimazar@uni-hamburg.de">Reza Hakimazar</a></li>
 </ul>
 </div><div class="column" style="width:50%;">
 <ul>
@@ -709,8 +679,8 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 </section>
 <section id="course-website" class="slide level2">
 <h2>Course Website</h2>
-<p><i class="fa-brands fa-internet-explorer" aria-label="internet-explorer"></i> <a href="https://lennartwittkuhn.com/version-control-course-uhh-ss24/">lennartwittkuhn.com/version-control-course-uhh-ss24</a></p>
-<iframe width="100%" height="74%" src="https://lennartwittkuhn.com/version-control-course-uhh-ss24/" title="Course Website"></iframe>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24">https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24</a></p>
+<iframe width="100%" height="74%" src="https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24" title="Course Website"></iframe>
 <aside class="notes">
 <ul>
 <li>Course website is the main entry point for students before, during and after the course</li>
@@ -731,8 +701,8 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 </section>
 <section id="version-control-book" class="slide level2">
 <h2>Version Control Book</h2>
-<p><i class="fa-brands fa-internet-explorer" aria-label="internet-explorer"></i> <a href="https://lennartwittkuhn.com/version-control-book">lennartwittkuhn.com/version-control-book</a></p>
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book" title="Version Control Book"></iframe>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="">https://lennartwittkuhn.com/version-control-book/</a></p>
+<iframe width="100%" height="80%" src="{{< links.book >}}" title="Version Control Book"></iframe>
 </section>
 <section id="exercises-quizzes-surveys" class="slide level2">
 <h2>Exercises, quizzes &amp; surveys</h2>
@@ -753,13 +723,14 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 </div>
 </section>
 <section id="your-role-questions-and-communication" class="slide level2">
-<h2>Your role: questions and communication</h2>
+<h2>Your role: Questions and communication</h2>
 <div class="fragment">
 <!-- -->
 <h4 id="questions-discussions-during-class-time"><strong>Questions &amp; discussions <em>during</em> class time</strong></h4>
 <ul>
 <li>Ask questions! There are no stupid questions!</li>
 <li>Participate in the discussions</li>
+<li>We can use Zoom Breakout Rooms to address individual questions</li>
 </ul>
 </div>
 <div class="fragment">
@@ -772,21 +743,21 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <h4 id="questions-discussions-outside-of-class-time"><strong>Questions &amp; discussions <em>outside of</em> class time</strong></h4>
 <ul>
 <li>Ask questions! There are no stupid questions!</li>
-<li>Send questions to our mailing list: <a href="mailto:version-control-course-ws24.psych@lists.uni-hamburg.de">version-control-course-ws24.psych@lists.uni-hamburg.de</a></li>
-<li>Send questions to <a href="mailto:lennart.wittkuhn@uni-hamburg.de">Lennart</a> and / or <a href="mailto:konrad.pagenstedt@uni-hamburg.de">Konrad</a></li>
+<li>Send questions to our mailing list: <a href="mailto:version-control-course-uhh-eur-ws24.psych@lists.uni-hamburg.de">version-control-course-uhh-eur-ws24.psych@lists.uni-hamburg.de</a></li>
+<li>Send questions to <a href="mailto:lennart.wittkuhn@uni-hamburg.de">Lennart</a> and / or <a href="mailto:reza.hakimazar@uni-hamburg.de">Reza</a></li>
 <li>Office hours by appointment via email</li>
 <li>Be proactive: Give us feedback!</li>
 </ul>
 </div>
 </section>
 <section id="your-role-active-participation" class="slide level2">
-<h2>Your role: active participation</h2>
+<h2>Your role: Active participation</h2>
 <div class="fragment">
 <!-- -->
 <h4 id="active-participation"><strong>Active participation</strong></h4>
 <ul>
 <li>This is a pass / fail course. You pass if you fulfill all course requirements:</li>
-<li>Requirement 1: Come to at least <strong>11 out of 13 sessions</strong> (85%)</li>
+<li>Requirement 1: Come to at least <strong>12 out of 14 sessions</strong> (85%)</li>
 <li>Requirement 2: Complete all <strong>surveys/quizzes</strong></li>
 <li>Requirement 3: Complete <strong>all mandatory exercises</strong> (implemented in Git)</li>
 </ul>
@@ -801,10 +772,10 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 </ol>
 </div>
 </section>
-<section id="course-exercise-building-an-online-recipes-book" class="slide level2">
-<h2>Course exercise: Building an online recipes book</h2>
-<p>Example: <a href="https://lennartwittkuhn.com/recipes" class="uri">https://lennartwittkuhn.com/recipes</a></p>
-<iframe width="100%" height="100%" src="https://lennartwittkuhn.com/recipes/" title="Course Website"></iframe>
+<section id="course-exercise-building-an-online-city-guide" class="slide level2">
+<h2>Course exercise: Building an online city guide</h2>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="">https://lennartwittkuhn.com/uhh-eur-city-guide/</a></p>
+<iframe width="100%" height="100%" src="{{< links.city-guide >}}" title="Course Website"></iframe>
 </section>
 <section id="code-of-conduct" class="slide level2">
 <h2>Code of Conduct</h2>
@@ -881,14 +852,15 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 </section>
 <section id="learning-objectives" class="slide level2">
 <h2>Learning objectives</h2>
-<p>At the end of this session, you should be able to answer the following questions:</p>
+<p>At the end of this session, you should be able to answer the following questions and / or achieve the following learning objectives:</p>
 <p><span class="emoji" data-emoji="bulb">💡</span> You know what version control is.<br> <span class="emoji" data-emoji="bulb">💡</span> You can argue why version control is useful (for research).<br> <span class="emoji" data-emoji="bulb">💡</span> You can name benefits of Git compared to other approaches to version control.<br> <span class="emoji" data-emoji="bulb">💡</span> You can explain the difference between Git and GitHub.<br></p>
 </section>
 <section id="your-turn" class="slide level2">
 <h2>Your turn</h2>
 <ol type="1">
-<li>Read <a href="https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html">Chapter 1: “Introduction to Version Control”</a> in the <a href="https://lennartwittkuhn.com/version-control-book/">Version Control Book</a></li>
-<li>Discuss the learning objectives with your desk neighbor (quietly)</li>
+<li>Read <a href="https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html">Chapter 1: “Introduction to Version Control”</a> in the <a href="https://lennartwittkuhn.com/version-control-book/">Version Control Book</a>.</li>
+<li>Introduce yourself to your course partner.</li>
+<li>Discuss the learning objectives with your course partner.</li>
 </ol>
 <h4 id="learning-objectives-1">Learning objectives</h4>
 <p><span class="emoji" data-emoji="bulb">💡</span> You know what version control is.<br> <span class="emoji" data-emoji="bulb">💡</span> You can argue why version control is useful (for research).<br> <span class="emoji" data-emoji="bulb">💡</span> You can name benefits of Git compared to other approaches to version control.<br> <span class="emoji" data-emoji="bulb">💡</span> You can explain the difference between Git and GitHub.<br></p>
@@ -1219,13 +1191,13 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <div class="column" style="width:50%;">
 <h4 id="windows-users-fa-brands-windows">Windows Users <i class="fa-brands fa-windows" aria-label="windows"></i></h4>
 <ul>
-<li>Download and install <a href="https://gitforwindows.org">Git for Windows</a> until <strong>next week</strong></li>
+<li>Download and install <a href="https://gitforwindows.org">Git for Windows</a></li>
 <li>You can find a tutorial in the <a href="https://lennartwittkuhn.com/version-control-book/chapters/installation.html">Version Control Book</a></li>
 </ul>
 </div><div class="column" style="width:50%;">
 <h4 id="apple-fa-brands-apple-or-linux-users-fa-brands-linux">Apple <i class="fa-brands fa-apple" aria-label="apple"></i> or Linux Users <i class="fa-brands fa-linux" aria-label="linux"></i></h4>
 <ul>
-<li>Download and install <a href="https://git-scm.com">Git</a> until <strong>15.04.</strong> (in two weeks)</li>
+<li>Download and install <a href="https://git-scm.com">Git</a> (might already be installed)</li>
 <li>You can find a tutorial in our <a href="https://lennartwittkuhn.com/version-control-book/chapters/installation.html">Version Control Book</a></li>
 </ul>
 </div>
@@ -1233,151 +1205,17 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 </div>
 <div class="fragment">
 <!-- -->
-<h3 id="complete-the-pre-course-survey">2. Complete the pre-course survey</h3>
-</div>
-</section>
-<section id="research-colloquium-cognitive-neuroscience" class="slide level2">
-<h2>Research Colloquium: Cognitive Neuroscience</h2>
-<table>
-<colgroup>
-<col style="width: 7%">
-<col style="width: 6%">
-<col style="width: 53%">
-<col style="width: 23%">
-<col style="width: 9%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Date</th>
-<th>Time</th>
-<th>Topic</th>
-<th>Presenter</th>
-<th>Room</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>03 Apr</td>
-<td>17:00</td>
-<td>Hippocampal Remapping and Reward coding in mice</td>
-<td>Mari Sosa (Stanford)</td>
-<td>Zoom</td>
-</tr>
-<tr class="even">
-<td>10 Apr</td>
-<td>10:15</td>
-<td>Meta Learning of Learning Rates</td>
-<td>Jonas Simoens (U Ghent)</td>
-<td>VMP 5 4018</td>
-</tr>
-<tr class="odd">
-<td>17 Apr</td>
-<td>10:15</td>
-<td>Decision Making Strategies in younger and older adults</td>
-<td>Alexa Ruel (UHH)</td>
-<td>VMP 5 4018</td>
-</tr>
-<tr class="even">
-<td>24 Apr</td>
-<td>15:15</td>
-<td>Replay shapes abstract cognitive maps for efficient social navigation</td>
-<td>Jae-Young Son (Brown)</td>
-<td>VMP 5 4054</td>
-</tr>
-<tr class="odd">
-<td>08 May</td>
-<td>16:00</td>
-<td>TBD</td>
-<td>Bob Wilson (U Arizona)</td>
-<td>VMP 5 4018</td>
-</tr>
-<tr class="even">
-<td>15 May</td>
-<td>10:15</td>
-<td>TBD</td>
-<td>Tobias Donner (UKE Hamburg)</td>
-<td>VMP 5 4054</td>
-</tr>
-<tr class="odd">
-<td>29 May</td>
-<td>14:00</td>
-<td>TBD</td>
-<td>Ben Eppinger (U Greifswald)</td>
-<td>VMP 5 4054</td>
-</tr>
-<tr class="even">
-<td>05 Jun</td>
-<td>10:15</td>
-<td>Memory replay in younger and older adults</td>
-<td>Xiangjuan Ren (UHH)</td>
-<td>VMP 5 4018</td>
-</tr>
-<tr class="odd">
-<td>12 Jun</td>
-<td>10:15</td>
-<td>Generalisation through replay</td>
-<td>Fabian Renz (UHH)</td>
-<td>VMP 5 4018</td>
-</tr>
-<tr class="even">
-<td>19 Jun</td>
-<td>TBD</td>
-<td></td>
-<td></td>
-<td>VMP 5 4018</td>
-</tr>
-<tr class="odd">
-<td>26 Jun</td>
-<td>TBD</td>
-<td></td>
-<td></td>
-<td>VMP 5 4018</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="research-teaching-assistant-positions-thesis-projects-1" class="slide level2">
-<h2>Research / teaching assistant positions + thesis projects</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="fragment">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../images/git-logo-full.svg" style="width:85.0%"></p>
-<figcaption><a href="https://git-scm.com/">git-scm.com</a></figcaption>
-</figure>
-</div>
-<h3 id="version-control-course-1">Version Control Course</h3>
+<h3 id="install-rstudio-quarto">2. Install RStudio &amp; Quarto</h3>
 <ul>
-<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Tasks:</strong> Support our teaching project!</li>
-<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> flexible</li>
-<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> flexible</li>
-<li><span class="emoji" data-emoji="moneybag">💰</span> <strong>Salary:</strong> 12.00 € / hour (SHK) / 13.95 € / hour (WHK)</li>
-<li><span class="emoji" data-emoji="envelope">✉️</span> <strong>Contact:</strong> <a href="mailto:lennart.wittkuhn@uni-hamburg.de">lennart.wittkuhn@uni-hamburg.de</a></li>
+<li>RStudio Desktop: <a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a></li>
+<li>Quarto: <a href="https://quarto.org/" class="uri">https://quarto.org/</a></li>
+<li>Will be needed from Session 03 (in two weeks) onwards</li>
 </ul>
+<p>If you have any problems with installation, please get in touch!</p>
 </div>
-</div><div class="column" style="width:50%;">
 <div class="fragment">
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 55.6%;justify-content: center;">
-<p><img data-src="../images/mri.png"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 44.4%;justify-content: center;">
-<p><img data-src="../images/brain-anatomical.png"></p>
-</div>
-</div>
-</div>
-<h3 id="research-projects-in-our-group-1">Research projects in our group</h3>
-<ul>
-<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Tasks:</strong> data collection &amp; analysis (e.g., fMRI)</li>
-<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> felxible</li>
-<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> flexible</li>
-<li><span class="emoji" data-emoji="moneybag">💰</span> <strong>Salary:</strong> 12.00 € / hour (SHK) / 13.95 € / hour (WHK)</li>
-<li><span class="emoji" data-emoji="envelope">✉️</span> <strong>Contact:</strong> <a href="mailto:sekretariat-luv.psych@uni-hamburg.de">sekretariat-luv.psych@uni-hamburg.de</a></li>
-</ul>
-</div>
-</div>
+<!-- -->
+<h3 id="complete-the-pre-course-survey">3. Complete the pre-course survey</h3>
 </div>
 </section>
 <section id="references" class="slide level2 smaller scrollable">

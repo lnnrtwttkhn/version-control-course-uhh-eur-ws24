@@ -1318,231 +1318,210 @@
   {
     "objectID": "sessions/slides_session01.html#team",
     "href": "sessions/slides_session01.html#team",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Team",
-    "text": "Team\n\n\nInstructor\n\nDr. Lennart Wittkuhn\n lennart.wittkuhn@uni-hamburg.de  GitHub  lennartwittkuhn.com\n\nTeaching Assistant\n\nKonrad Pagenstedt\n konrad.pagenstedt@uni-hamburg.de  GitHub"
+    "text": "Team\n\n\nInstructor\n\nDr. Lennart Wittkuhn\n lennart.wittkuhn@uni-hamburg.de  GitHub  lennartwittkuhn.com\n\nTeaching Assistant\n\nReza Hakimazar\n reza.hakimazar@uni-hamburg.de  GitHub\n\nTeaching Collaborator\n\nDr. Ana Martinovici\n martinovici@rsm.nl  GitHub  anamartinovici.com"
   },
   {
     "objectID": "sessions/slides_session01.html#research-on-mechanisms-of-learning-change",
     "href": "sessions/slides_session01.html#research-on-mechanisms-of-learning-change",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Research on “Mechanisms of Learning & Change”",
     "text": "Research on “Mechanisms of Learning & Change”\n\n\nHow does the brain use past experience to guide future decisions?\n\n\n\n\n\n\n\n\ntaken from Lake et al. (2016): “Building machines that learn and think like people”\n\n\n\n\n\n\n\n\n\n\nFind out more on our group’s website: https://schucklab.gitlab.io/\n\n\n\nwe heard a lot about artificial intelligence\nwhat does “intelligence” even mean?\nas psychologists & cognitive neuroscientists we are interested in understanding human “natural” or biological intelligence\nour group is interested in the convergence between neuroscience and artificial intelligence research (“Neuro AI”)\ne.g., “why are humans so fast in learning a wide range of tasks in complex environments”\nwe use cognitive and psychological approaches, neural measurement using fMRI and EEG and integrate and compare them with computational approaches from reinforcement learning and artificial neural networks"
   },
   {
-    "objectID": "sessions/slides_session01.html#research-teaching-assistant-positions-thesis-projects",
-    "href": "sessions/slides_session01.html#research-teaching-assistant-positions-thesis-projects",
-    "title": "Session 1: Introduction",
-    "section": "Research / teaching assistant positions + thesis projects",
-    "text": "Research / teaching assistant positions + thesis projects\n\n\n\n\n\n\ngit-scm.com\n\n\nVersion Control Course\n\n📓 Tasks: Support our teaching project!\n📆 Duration: flexible\n🕐 Time: flexible\n💰 Salary: 12.00 € / hour (SHK) / 13.95 € / hour (WHK)\n✉️ Contact: lennart.wittkuhn@uni-hamburg.de\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResearch projects in our group\n\n📓 Tasks: data collection & analysis (e.g., fMRI)\n📆 Duration: felxible\n🕐 Time: flexible\n💰 Salary: 12.00 € / hour (SHK) / 13.95 € / hour (WHK)\n✉️ Contact: sekretariat-luv.psych@uni-hamburg.de"
-  },
-  {
     "objectID": "sessions/slides_session01.html#who-are-you",
     "href": "sessions/slides_session01.html#who-are-you",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Who are you?",
     "text": "Who are you?\n\n\n\nYour name?\nYour preferred pronouns?\nOne (fun) fact about you? For example:\n\nWhat did you study before and where?\nWhat do you expect from this course?\nWhat’s your hobby?\nDo you have a pet?\nWhat’s your favorite color?\nYour mood on rubber duck scale?"
   },
   {
     "objectID": "sessions/slides_session01.html#course-overview",
     "href": "sessions/slides_session01.html#course-overview",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Course overview",
-    "text": "Course overview\n\n\n\n Date: Winter semester 2024/25 (October to January)\n Time: Fridays, 10:15 - 11:45 (90 Minutes)\n Room: Online, Zoom\n Instructor: Dr. Lennart Wittkuhn\n Assistant: Konrad Pagenstedt\n\n\n\n Event: Seminar\n Credits: 4,0 (2 SWS)\n Language: English\n Tag: PsyM14-PsyWB-K01"
+    "text": "Course overview\n\n\n\n Date: Winter semester 2024/25 (October to January)\n Time: Fridays, 10:15 - 11:45 (90 Minutes)\n Room: Online, Zoom\n Instructor: Dr. Lennart Wittkuhn\n Collaborator: Dr. Ana Martinovici\n Assistant: Reza Hakimazar\n\n\n\n Event: Seminar\n Credits: 4,0 (2 SWS)\n Language: English\n Tag: PsyM14-PsyWB-K01"
   },
   {
     "objectID": "sessions/slides_session01.html#what-will-the-average-seminar-session-look-like",
     "href": "sessions/slides_session01.html#what-will-the-average-seminar-session-look-like",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "What will the average seminar session look like?",
     "text": "What will the average seminar session look like?\n\n The course will consist of up to 13 sessions (90 minutes each)\n\n\n\n Content Review (up to 30 minutes):  Course participants engage with the online materials (aka. our “Version Control Book”), supplemented by short presentations by the instructors. Some course preparation may occur outside of the class.\n\n\n\n\n Interactive Discussions & Quizzes (up to 15 minutes): Course participants collectively address any inquiries related to the session’s content and online materials. Instructor-led quiz questions may also be interspersed throughout.\n\n\n\n\n Exercises & Implementation (up to 60 minutes): Course participants actively delve into hands-on exercises and assignments.\n\n\n\n\nLogistics\n\n You need a laptop. Talk to us if you don’t have a laptop.\n\n\n\nNote, that course participants are sometimes required to work on course materials outside of class time.\nNot all course contents will be covered during class time."
   },
   {
     "objectID": "sessions/slides_session01.html#schedule",
     "href": "sessions/slides_session01.html#schedule",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Schedule",
     "text": "Schedule\n\n\n\n\n\nNo\nDate\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2024-10-18\nIntroduction to version control\nOrganizational mattersOverview of seminar sessionsIntroduction to version controlIntroduction to Git and its advantages\n Intro to version control\nCourse introduction Survey\n\n\n2\n2024-10-25\nCommand line\nFile SystemsBenefits of the Command LineBasic Command Line commands\n Command Line\nCommand Line Quiz\n\n\n3\n2024-11-01\nQuarto Workshop\nIntroduction to Quarto\n\n\n\n\n4\n2024-11-08\nSetup + Git Fundamentals\nInstallation and configuration of GitInitializing a Git repositoryBasic Git commands\n Installation, Setup, First steps with Git\nInstallation Survey, Git Basics Quiz\n\n\n5\n2024-11-15\nBasic Git workflow\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n First steps with Git\nGit Basics Quiz\n\n\n6\n2024-11-22\nGit Branching and Merging\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflict\n Branches\nGit Branches Quiz\n\n\n7\n2024-11-29\nIntroduction to GitHub\nIntroduction to remote repositoriesCreating a GitHub accountCreating and managing repositories on GitHubPushing and pulling changes\n GitHub Intro\nGitHub Quiz\n\n\n8\n2024-12-06\nGitHub with collaborators\nCloning a remote repositoryBranching and merging in a collaborative environmentPull RequestsGitHub IssuesGraphical User Interfaces (GUIs), e.g., GitKraken\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n9\n2024-12-13\nGitHub with the world\nForking a remote repository README filesProject Management\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n10\n2025-12-20\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n11\n2025-01-10\nPublishing\nCreating Tags with GitCreating Releases with GitHubUsing Zenodo for scientific publishingLicencesCitation Files\n Tags and Releases\n\n\n\n12\n2025-01-17\nGraphical User Interfaces \nRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces\n\n\n\n13\n2025-01-24\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n14\n2025-01-31\nSummary & Wrap-Up\nCourse evaluationRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces"
   },
   {
     "objectID": "sessions/slides_session01.html#course-website",
     "href": "sessions/slides_session01.html#course-website",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Course Website",
-    "text": "Course Website\n lennartwittkuhn.com/version-control-course-uhh-ss24\n\n\n\nCourse website is the main entry point for students before, during and after the course\nContents: Overview, course details, schedule, information about the team, additional resources and course mechanics\nPractical advantage: Update course information independently from university websites that are out of your control"
+    "text": "Course Website\n https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24\n\n\n\nCourse website is the main entry point for students before, during and after the course\nContents: Overview, course details, schedule, information about the team, additional resources and course mechanics\nPractical advantage: Update course information independently from university websites that are out of your control"
   },
   {
     "objectID": "sessions/slides_session01.html#version-control-book",
     "href": "sessions/slides_session01.html#version-control-book",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Version Control Book",
-    "text": "Version Control Book\n lennartwittkuhn.com/version-control-book"
+    "text": "Version Control Book\n https://lennartwittkuhn.com/version-control-book/"
   },
   {
     "objectID": "sessions/slides_session01.html#exercises-quizzes-surveys",
     "href": "sessions/slides_session01.html#exercises-quizzes-surveys",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Exercises, quizzes & surveys",
     "text": "Exercises, quizzes & surveys\n\n\nWe use online surveys to ask you questions and implement exercises or quizzes\nImplemented in the formr survey framework (open-source, hosted in Germany)\n\n\n\n\nAnonymity & data usage\n\nall raw data are kept anonymous and will only be used for research and educational purposes\nif responses are shared as part of the course, they will be aggregated to ensure anonymity is maintained\nif you want your data to be deleted, send an email with your personal codeword to sekretariat-luv.psych@uni-hamburg.de (Christine Manor). Our secretary forwards your codeword to us (without your name)."
   },
   {
     "objectID": "sessions/slides_session01.html#your-role-questions-and-communication",
     "href": "sessions/slides_session01.html#your-role-questions-and-communication",
-    "title": "Session 1: Introduction",
-    "section": "Your role: questions and communication",
-    "text": "Your role: questions and communication\n\n\nQuestions & discussions during class time\n\nAsk questions! There are no stupid questions!\nParticipate in the discussions\n\n\n\n\nAsk questions! There are no stupid questions!\n\n\n\n\nQuestions & discussions outside of class time\n\nAsk questions! There are no stupid questions!\nSend questions to our mailing list: version-control-course-ws24.psych@lists.uni-hamburg.de\nSend questions to Lennart and / or Konrad\nOffice hours by appointment via email\nBe proactive: Give us feedback!"
+    "title": "Session 1: Introduction to Version Control",
+    "section": "Your role: Questions and communication",
+    "text": "Your role: Questions and communication\n\n\nQuestions & discussions during class time\n\nAsk questions! There are no stupid questions!\nParticipate in the discussions\nWe can use Zoom Breakout Rooms to address individual questions\n\n\n\n\nAsk questions! There are no stupid questions!\n\n\n\n\nQuestions & discussions outside of class time\n\nAsk questions! There are no stupid questions!\nSend questions to our mailing list: version-control-course-uhh-eur-ws24.psych@lists.uni-hamburg.de\nSend questions to Lennart and / or Reza\nOffice hours by appointment via email\nBe proactive: Give us feedback!"
   },
   {
     "objectID": "sessions/slides_session01.html#your-role-active-participation",
     "href": "sessions/slides_session01.html#your-role-active-participation",
-    "title": "Session 1: Introduction",
-    "section": "Your role: active participation",
-    "text": "Your role: active participation\n\n\nActive participation\n\nThis is a pass / fail course. You pass if you fulfill all course requirements:\nRequirement 1: Come to at least 11 out of 13 sessions (85%)\nRequirement 2: Complete all surveys/quizzes\nRequirement 3: Complete all mandatory exercises (implemented in Git)\n\n\n\n\nHow do we verify the course requirements?\n\nRequirement 1: Sign the attendance list\nRequirement 2: Provide a personal codeword. At the end of the semester, send an email with your personal codeword to sekretariat-luv.psych@uni-hamburg.de (Christine Manor). We will send our secretary a list of personal codewords and she will return a list of names.\nRequirement 3: At the end of the semester, send a link to your completed exercises."
+    "title": "Session 1: Introduction to Version Control",
+    "section": "Your role: Active participation",
+    "text": "Your role: Active participation\n\n\nActive participation\n\nThis is a pass / fail course. You pass if you fulfill all course requirements:\nRequirement 1: Come to at least 12 out of 14 sessions (85%)\nRequirement 2: Complete all surveys/quizzes\nRequirement 3: Complete all mandatory exercises (implemented in Git)\n\n\n\n\nHow do we verify the course requirements?\n\nRequirement 1: Sign the attendance list\nRequirement 2: Provide a personal codeword. At the end of the semester, send an email with your personal codeword to sekretariat-luv.psych@uni-hamburg.de (Christine Manor). We will send our secretary a list of personal codewords and she will return a list of names.\nRequirement 3: At the end of the semester, send a link to your completed exercises."
   },
   {
-    "objectID": "sessions/slides_session01.html#course-exercise-building-an-online-recipes-book",
-    "href": "sessions/slides_session01.html#course-exercise-building-an-online-recipes-book",
-    "title": "Session 1: Introduction",
-    "section": "Course exercise: Building an online recipes book",
-    "text": "Course exercise: Building an online recipes book\nExample: https://lennartwittkuhn.com/recipes"
+    "objectID": "sessions/slides_session01.html#course-exercise-building-an-online-city-guide",
+    "href": "sessions/slides_session01.html#course-exercise-building-an-online-city-guide",
+    "title": "Session 1: Introduction to Version Control",
+    "section": "Course exercise: Building an online city guide",
+    "text": "Course exercise: Building an online city guide\n https://lennartwittkuhn.com/uhh-eur-city-guide/"
   },
   {
     "objectID": "sessions/slides_session01.html#code-of-conduct",
     "href": "sessions/slides_session01.html#code-of-conduct",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Code of Conduct",
     "text": "Code of Conduct\nDuring this course, we want to ensure a safe, productive, and welcoming environment for everyone who attends. All participants and speakers are expected to abide by this code of conduct. We do not tolerate any form of discrimination or harassment in any form or by any means. If you experience harassment or hear of any incidents of unacceptable behavior, please reach out to the course instructor, Lennart Wittkuhn (lennart.wittkuhn@uni-hamburg.de), so that we can take the appropriate action.\nUnacceptable behavior is defined as:\n\nHarassment, intimidation, or discrimination in any form, verbal abuse of any attendee, speaker, or other person. Examples include, but are not limited to, verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, national origin, inappropriate use of nudity and/or sexual images in public spaces or in presentations, or threatening or stalking.\nDisruption of presentations throughout the course. We ask all participants to comply to the instructions of the speaker with regard to dedicated discussion space and time.\nParticipants should not take pictures of any activity in the course room without asking all involved participants for consent and receiving this consent.\n\nA first violation of this code of conduct will result in a warning, and subsequent violations by the same person can result in the immediate removal from the course without further warning. The organizers also reserve the right to prohibit attendance of excluded participants from similar future workshops, courses or meetings they organize."
   },
   {
     "objectID": "sessions/slides_session01.html#expectations",
     "href": "sessions/slides_session01.html#expectations",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Expectations",
     "text": "Expectations\n\nNo idea (for example: “i really have no idea about that”)\nData analysis (for example: “How to work with research data”)\nGit/GitHub (for example: “Practical tasks with git and github, theoretical background”)"
   },
   {
     "objectID": "sessions/slides_session01.html#hopes",
     "href": "sessions/slides_session01.html#hopes",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Hopes",
     "text": "Hopes\n\nData analysis skills (for example: “Learning practical information about data analyses”)\nCoding skills (for example: “Hopes for better coding skills post-course”)\nScience Communication (for example: “Science communication and networking using research”)\nVersion Control Skills (for example: “Getting an idea of what is possible with GitHub”)"
   },
   {
     "objectID": "sessions/slides_session01.html#worries",
     "href": "sessions/slides_session01.html#worries",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Worries",
     "text": "Worries\n\nLack of coding skills (for example: “My low ability in coding”)\nInadequate previous knowledge (for example: “I worry that I don’t have enough previous knowledge”)\nLanguage barrier\nLearning pace"
   },
   {
     "objectID": "sessions/slides_session01.html#motivation",
     "href": "sessions/slides_session01.html#motivation",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Motivation",
     "text": "Motivation\n\nPragmatic course selection (for example: “I needed a course for ‘Wahlbereich’ and this one was the only available one.”)\nLearning new skills (for example: “For me it is very important to get to know tools and learn how to handle them.”)"
   },
   {
     "objectID": "sessions/slides_session01.html#version-control",
     "href": "sessions/slides_session01.html#version-control",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Version Control",
     "text": "Version Control\nCan you briefly define the term version control?\n\nNo idea (for example: “I don’t know what that is”)\n“(…) it’s about comparing the latest version of someone else who is working on the same project as me with my version”"
   },
   {
     "objectID": "sessions/slides_session01.html#scenarios",
     "href": "sessions/slides_session01.html#scenarios",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Scenarios",
     "text": "Scenarios\nImagine a scenario where you crafted a brilliant paragraph for your document (for example, your paper, thesis or report), but then accidentally ruined it. How would you retrieve the earlier brilliant version? Is it even possible?\n\n“In the past, I mostly worked with doc documents (word) and saved every day a new version when I was the only person working on the document. This was not very practical and I hope to learn an alternative during this course”\n\n(…) Consider a situation where you are working with five co-authors on a paper. How do you handle the changes and comments they make to the document\n\n“I know that you can accept changes and comments in word, but I always find it confusing and complex to keep the overview. I don’t know what happens to the history of modifications.”"
   },
   {
     "objectID": "sessions/slides_session01.html#learning-objectives",
     "href": "sessions/slides_session01.html#learning-objectives",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of this session, you should be able to answer the following questions:\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub."
+    "text": "Learning objectives\nAt the end of this session, you should be able to answer the following questions and / or achieve the following learning objectives:\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub."
   },
   {
     "objectID": "sessions/slides_session01.html#your-turn",
     "href": "sessions/slides_session01.html#your-turn",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Your turn",
-    "text": "Your turn\n\nRead Chapter 1: “Introduction to Version Control” in the Version Control Book\nDiscuss the learning objectives with your desk neighbor (quietly)\n\nLearning objectives\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub."
+    "text": "Your turn\n\nRead Chapter 1: “Introduction to Version Control” in the Version Control Book.\nIntroduce yourself to your course partner.\nDiscuss the learning objectives with your course partner.\n\nLearning objectives\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub."
   },
   {
     "objectID": "sessions/slides_session01.html#the-issue-of-computational-reproducibility-in-science",
     "href": "sessions/slides_session01.html#the-issue-of-computational-reproducibility-in-science",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "The issue of computational reproducibility in science",
     "text": "The issue of computational reproducibility in science\n\n\n\n“… when the same analysis steps performed on the same dataset consistently produce the same answer.” 1\n\n\n\nby Scriberia for The Turing Way Community (2022) (Link, CC BY 4.0)\n\n\n\n\n\n\nThe problem\n\n\n\nabout more than half of research is not reproducible 2\n\nresearch data, code, software & materials are often not available “upon reasonable [sic] request”\nif resources are shared, they are often incomplete\n\n90% of researchers: “reproducibility crisis” (N = 1576) 3\n\n\n\n\nWhy?\n\n\n\ncomputational reproducibility is hard\nresearchers lack training\nincentives are not (yet) aligned 4\n“natural selection of bad science” 5\n\n\n\n\n\n“… accumulated evidence indicates […] substantial room for improvement with regard to research practices to maximize the efficiency of the research community’s use of the public’s financial investment.” (Munafò et al., 2017)\n\n\nWe need a professional toolkit for digital research!\n\n\n\nalso called “analytical reproducibility”\nin contrast: “Replication” = same analysis on different data\ncomputational reproducibility should be a minimum requirement\n90% of respondents to a survey in Nature agreed that there is a “reproducibility crisis”\nnon-scientist friends react very surprised at the lack of professionalization in science\nwe are currently violating the public’s trust = deep ethical problem\nnatural selection: as a researcher, what’s good for your career is not necessarily good for science (how to get funding, how to get published, how to get cited)\njournals are interested in selling us back our data, not improving the quality of science"
   },
   {
     "objectID": "sessions/slides_session01.html#why-we-need-version-control",
     "href": "sessions/slides_session01.html#why-we-need-version-control",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Why we need version control …",
     "text": "Why we need version control …\n\n\n\n… for code (text files) \n\n\n\n… for data (binary files) \n\n\nWhen everything is relevant …\n\n\n… track everything.\n\n\n\n\n\nVersion control is relevant for anyone who wants to track the evolution of digital objects\nCredit: Adapted from Slides on “Research Data Management with DataLad” by Adina Wagner & Michael Hanke]"
   },
   {
     "objectID": "sessions/slides_session01.html#what-is-version-control",
     "href": "sessions/slides_session01.html#what-is-version-control",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "What is version control?",
     "text": "What is version control?\n\n“Version control is a systematic approach to record changes made in a […] set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later […]” (Turing Way)\n\n\n\n\n keep track of changes in a directory (a “repository”)\n take snapshots (“commits”) of your repo at any time\n know the history: what was changed when by whom\n compare commits and go back to any previous state\n work on parallel “branches” & flexibly “merge” them\n\n\n\nby Scriberia for The Turing Way community (CC-BY 4.0)\n\n\n\n\n\n “push” your repo to a “remote” location & share it\n  share repos on platforms like GitHub or GitLab\n work together on the same files at the same time\n others can read, copy, edit and suggest changes\n make your repo public and openly share your work\n\n\n\nby Scriberia for The Turing Way community (CC-BY 4.0)"
   },
   {
     "objectID": "sessions/slides_session01.html#what-is-git",
     "href": "sessions/slides_session01.html#what-is-git",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "What is Git?",
     "text": "What is Git?\n\n\n\n\n\ngit-scm.com\n\n\n\nmost popular version control system\nfree, open-source command-line tool\ngraphical user interfaces exist, e.g., GitKraken\nstandard tool for most (all?) software developers\n100 million GitHub users 6\n\n\n\n\n\nVersion control is relevant for anyone who wants to track the evolution of digital objects"
   },
   {
     "objectID": "sessions/slides_session01.html#schedule-1",
     "href": "sessions/slides_session01.html#schedule-1",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Schedule",
     "text": "Schedule\n\n\n\n\n\nNo\nDate\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2024-10-18\nIntroduction to version control\nOrganizational mattersOverview of seminar sessionsIntroduction to version controlIntroduction to Git and its advantages\n Intro to version control\nCourse introduction Survey\n\n\n2\n2024-10-25\nCommand line\nFile SystemsBenefits of the Command LineBasic Command Line commands\n Command Line\nCommand Line Quiz\n\n\n3\n2024-11-01\nQuarto Workshop\nIntroduction to Quarto\n\n\n\n\n4\n2024-11-08\nSetup + Git Fundamentals\nInstallation and configuration of GitInitializing a Git repositoryBasic Git commands\n Installation, Setup, First steps with Git\nInstallation Survey, Git Basics Quiz\n\n\n5\n2024-11-15\nBasic Git workflow\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n First steps with Git\nGit Basics Quiz\n\n\n6\n2024-11-22\nGit Branching and Merging\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflict\n Branches\nGit Branches Quiz\n\n\n7\n2024-11-29\nIntroduction to GitHub\nIntroduction to remote repositoriesCreating a GitHub accountCreating and managing repositories on GitHubPushing and pulling changes\n GitHub Intro\nGitHub Quiz\n\n\n8\n2024-12-06\nGitHub with collaborators\nCloning a remote repositoryBranching and merging in a collaborative environmentPull RequestsGitHub IssuesGraphical User Interfaces (GUIs), e.g., GitKraken\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n9\n2024-12-13\nGitHub with the world\nForking a remote repository README filesProject Management\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n10\n2025-12-20\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n11\n2025-01-10\nPublishing\nCreating Tags with GitCreating Releases with GitHubUsing Zenodo for scientific publishingLicencesCitation Files\n Tags and Releases\n\n\n\n12\n2025-01-17\nGraphical User Interfaces \nRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces\n\n\n\n13\n2025-01-24\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n14\n2025-01-31\nSummary & Wrap-Up\nCourse evaluationRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces"
   },
   {
     "objectID": "sessions/slides_session01.html#next-week-the-command-line",
     "href": "sessions/slides_session01.html#next-week-the-command-line",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Next week: The command line",
     "text": "Next week: The command line\n\nSource: Wikimedia Commons (free license)"
   },
   {
     "objectID": "sessions/slides_session01.html#homework",
     "href": "sessions/slides_session01.html#homework",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Homework",
-    "text": "Homework\n\n\n1. Check if you have Git / a command line installed\n\n\nWindows Users \n\nDownload and install Git for Windows until next week\nYou can find a tutorial in the Version Control Book\n\n\nApple  or Linux Users \n\nDownload and install Git until 15.04. (in two weeks)\nYou can find a tutorial in our Version Control Book\n\n\n\n\n\n\n2. Complete the pre-course survey"
-  },
-  {
-    "objectID": "sessions/slides_session01.html#research-colloquium-cognitive-neuroscience",
-    "href": "sessions/slides_session01.html#research-colloquium-cognitive-neuroscience",
-    "title": "Session 1: Introduction",
-    "section": "Research Colloquium: Cognitive Neuroscience",
-    "text": "Research Colloquium: Cognitive Neuroscience\n\n\n\n\n\n\n\n\n\n\nDate\nTime\nTopic\nPresenter\nRoom\n\n\n\n\n03 Apr\n17:00\nHippocampal Remapping and Reward coding in mice\nMari Sosa (Stanford)\nZoom\n\n\n10 Apr\n10:15\nMeta Learning of Learning Rates\nJonas Simoens (U Ghent)\nVMP 5 4018\n\n\n17 Apr\n10:15\nDecision Making Strategies in younger and older adults\nAlexa Ruel (UHH)\nVMP 5 4018\n\n\n24 Apr\n15:15\nReplay shapes abstract cognitive maps for efficient social navigation\nJae-Young Son (Brown)\nVMP 5 4054\n\n\n08 May\n16:00\nTBD\nBob Wilson (U Arizona)\nVMP 5 4018\n\n\n15 May\n10:15\nTBD\nTobias Donner (UKE Hamburg)\nVMP 5 4054\n\n\n29 May\n14:00\nTBD\nBen Eppinger (U Greifswald)\nVMP 5 4054\n\n\n05 Jun\n10:15\nMemory replay in younger and older adults\nXiangjuan Ren (UHH)\nVMP 5 4018\n\n\n12 Jun\n10:15\nGeneralisation through replay\nFabian Renz (UHH)\nVMP 5 4018\n\n\n19 Jun\nTBD\n\n\nVMP 5 4018\n\n\n26 Jun\nTBD\n\n\nVMP 5 4018"
-  },
-  {
-    "objectID": "sessions/slides_session01.html#research-teaching-assistant-positions-thesis-projects-1",
-    "href": "sessions/slides_session01.html#research-teaching-assistant-positions-thesis-projects-1",
-    "title": "Session 1: Introduction",
-    "section": "Research / teaching assistant positions + thesis projects",
-    "text": "Research / teaching assistant positions + thesis projects\n\n\n\n\n\n\ngit-scm.com\n\n\nVersion Control Course\n\n📓 Tasks: Support our teaching project!\n📆 Duration: flexible\n🕐 Time: flexible\n💰 Salary: 12.00 € / hour (SHK) / 13.95 € / hour (WHK)\n✉️ Contact: lennart.wittkuhn@uni-hamburg.de\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResearch projects in our group\n\n📓 Tasks: data collection & analysis (e.g., fMRI)\n📆 Duration: felxible\n🕐 Time: flexible\n💰 Salary: 12.00 € / hour (SHK) / 13.95 € / hour (WHK)\n✉️ Contact: sekretariat-luv.psych@uni-hamburg.de"
+    "text": "Homework\n\n\n1. Check if you have Git / a command line installed\n\n\nWindows Users \n\nDownload and install Git for Windows\nYou can find a tutorial in the Version Control Book\n\n\nApple  or Linux Users \n\nDownload and install Git (might already be installed)\nYou can find a tutorial in our Version Control Book\n\n\n\n\n\n\n2. Install RStudio & Quarto\n\nRStudio Desktop: https://posit.co/download/rstudio-desktop/\nQuarto: https://quarto.org/\nWill be needed from Session 03 (in two weeks) onwards\n\nIf you have any problems with installation, please get in touch!\n\n\n\n3. Complete the pre-course survey"
   },
   {
     "objectID": "sessions/slides_session01.html#references",
     "href": "sessions/slides_session01.html#references",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "References",
     "text": "References\n\n\nBaker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604), 452–454. https://doi.org/10.1038/533452a.\n\n\nCrüwell, S., Apthorp, D., Baker, B. J., Colling, L., Elson, M., Geiger, S. J., Lobentanzer, S., Monéger, J., Patterson, A., Schwarzkopf, D. S., Zaneva, M., & Brown, N. J. L. (2023). What’s in a Badge? A Computational Reproducibility Investigation of the Open Data Badge Policy in One Issue of Psychological Science. Psychological Science, 34(4), 512–522. https://doi.org/10.1177/09567976221140828.\n\n\nHardwicke, T. E., Bohn, M., MacDonald, K., Hembacher, E., Nuijten, M. B., Peloquin, B. N., deMayo, B. E., Long, B., Yoon, E. J., & Frank, M. C. (2021). Analytic reproducibility in articles receiving open data badges at the journal Psychological Science : an observational study. Royal Society Open Science, 8(1). https://doi.org/10.1098/rsos.201494.\n\n\nLake, B. M., Ullman, T. D., Tenenbaum, J. B., & Gershman, S. J. (2016). Building machines that learn and think like people. Behavioral and Brain Sciences, 40. https://doi.org/10.1017/s0140525x16001837.\n\n\nMunafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Percie du Sert, N., Simonsohn, U., Wagenmakers, E.-J., Ware, J. J., & Ioannidis, J. P. A. (2017). A manifesto for reproducible science. Nature Human Behaviour, 1(1). https://doi.org/10.1038/s41562-016-0021.\n\n\nObels, P., Lakens, D., Coles, N. A., Gottfried, J., & Green, S. A. (2020). Analysis of Open Data and Computational Reproducibility in Registered Reports in Psychology. Advances in Methods and Practices in Psychological Science, 3(2), 229–237. https://doi.org/10.1177/2515245920918872.\n\n\nPoldrack, R. A. (2019). The Costs of Reproducibility. Neuron, 101(1), 11–14. https://doi.org/10.1016/j.neuron.2018.11.030.\n\n\nSmaldino, P. E., & McElreath, R. (2016). The natural selection of bad science. Royal Society Open Science, 3(9), 160384. https://doi.org/10.1098/rsos.160384.\n\n\nThe Turing Way Community. (2022). The turing way: A handbook for reproducible, ethical and collaborative research. Zenodo. https://doi.org/10.5281/zenodo.3233853.\n\n\nWicherts, J. M., Borsboom, D., Kats, J., & Molenaar, D. (2006). The poor availability of psychological research data for reanalysis. American Psychologist, 61(7), 726–728. https://doi.org/10.1037/0003-066x.61.7.726.\n\n\n\n\nVersion Control Course"
   },
   {
     "objectID": "sessions/slides_session01.html#footnotes",
     "href": "sessions/slides_session01.html#footnotes",
-    "title": "Session 1: Introduction",
+    "title": "Session 1: Introduction to Version Control",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nThe Turing Way Community (2022), see “Guide on Reproducible Research”\nfor example, in Psychology: Crüwell et al. (2023); Hardwicke et al. (2021); Obels et al. (2020); Wicherts et al. (2006)\nsee Baker (2016), Nature\nsee e.g., Poldrack (2019)\nsee Smaldino & McElreath (2016)\n(Source: Wikipedia)\npull requests on GitHub, merge requests on GitLab"
   },
