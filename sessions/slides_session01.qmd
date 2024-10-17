@@ -52,7 +52,7 @@ metadata-files:
 
 ::::
 
-## Research on "Mechanisms of Learning & Change"
+## Research on "Cognitive Neuroscience of Learning & Change"
 ::: {.fragment}
 #### How does the brain use past experience to guide future decisions?
 <br>
@@ -83,6 +83,42 @@ Find out more on our group's website: <https://schucklab.gitlab.io/>
 - e.g., "why are humans so fast in learning a wide range of tasks in complex environments"
 - we use cognitive and psychological approaches, neural measurement using fMRI and EEG and integrate and compare them with computational approaches from reinforcement learning and artificial neural networks
 :::
+
+## Research profile of Dr. Ana Martinovici
+
+:::: {.columns}
+::: {.column width="40%"}
+
+![](../images/photo-martinovici.png){fig-alt="A portrait photo of Dr. Ana Martinovici." width="50%"}
+
+### Dr. Ana Martinovici
+
+{{< fa envelope >}} [{{< var team.ana.email >}}]({{< var team.ana.mailto >}})<br>
+{{< fa brands github >}} [GitHub]({{< var team.ana.github >}})
+{{< fa home-user >}} [anamartinovici.com]({{< var team.ana.website >}})
+
+:::
+::: {.column width="40%"}
+
+### Background
+
+- PhD in Marketing (Tilburg University)
+- MSc in Econometrics and Mathematical Economics (Tilburg University)
+
+### Interests
+
+- (Visual) Attention
+- Privacy and data protection
+- Open Science
+
+### Experience with
+
+- Eye tracking data
+- Choice modeling
+- R, Stan, Git
+
+:::
+::::
 
 ## Who are you?
 
