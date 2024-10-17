@@ -1323,11 +1323,18 @@
     "text": "Team\n\n\nInstructor\n\nDr. Lennart Wittkuhn\n lennart.wittkuhn@uni-hamburg.de  GitHub  lennartwittkuhn.com\n\nTeaching Assistant\n\nReza Hakimazar\n reza.hakimazar@uni-hamburg.de  GitHub\n\nTeaching Collaborator\n\nDr. Ana Martinovici\n martinovici@rsm.nl  GitHub  anamartinovici.com"
   },
   {
-    "objectID": "sessions/slides_session01.html#research-on-mechanisms-of-learning-change",
-    "href": "sessions/slides_session01.html#research-on-mechanisms-of-learning-change",
+    "objectID": "sessions/slides_session01.html#research-on-cognitive-neuroscience-of-learning-change",
+    "href": "sessions/slides_session01.html#research-on-cognitive-neuroscience-of-learning-change",
     "title": "Session 1: Introduction to Version Control",
-    "section": "Research on “Mechanisms of Learning & Change”",
-    "text": "Research on “Mechanisms of Learning & Change”\n\n\nHow does the brain use past experience to guide future decisions?\n\n\n\n\n\n\n\n\ntaken from Lake et al. (2016): “Building machines that learn and think like people”\n\n\n\n\n\n\n\n\n\n\nFind out more on our group’s website: https://schucklab.gitlab.io/\n\n\n\nwe heard a lot about artificial intelligence\nwhat does “intelligence” even mean?\nas psychologists & cognitive neuroscientists we are interested in understanding human “natural” or biological intelligence\nour group is interested in the convergence between neuroscience and artificial intelligence research (“Neuro AI”)\ne.g., “why are humans so fast in learning a wide range of tasks in complex environments”\nwe use cognitive and psychological approaches, neural measurement using fMRI and EEG and integrate and compare them with computational approaches from reinforcement learning and artificial neural networks"
+    "section": "Research on “Cognitive Neuroscience of Learning & Change”",
+    "text": "Research on “Cognitive Neuroscience of Learning & Change”\n\n\nHow does the brain use past experience to guide future decisions?\n\n\n\n\n\n\n\n\ntaken from Lake et al. (2016): “Building machines that learn and think like people”\n\n\n\n\n\n\n\n\n\n\nFind out more on our group’s website: https://schucklab.gitlab.io/\n\n\n\nwe heard a lot about artificial intelligence\nwhat does “intelligence” even mean?\nas psychologists & cognitive neuroscientists we are interested in understanding human “natural” or biological intelligence\nour group is interested in the convergence between neuroscience and artificial intelligence research (“Neuro AI”)\ne.g., “why are humans so fast in learning a wide range of tasks in complex environments”\nwe use cognitive and psychological approaches, neural measurement using fMRI and EEG and integrate and compare them with computational approaches from reinforcement learning and artificial neural networks"
+  },
+  {
+    "objectID": "sessions/slides_session01.html#research-profile-of-dr.-ana-martinovici",
+    "href": "sessions/slides_session01.html#research-profile-of-dr.-ana-martinovici",
+    "title": "Session 1: Introduction to Version Control",
+    "section": "Research profile of Dr. Ana Martinovici",
+    "text": "Research profile of Dr. Ana Martinovici\n\n\n\nDr. Ana Martinovici\n martinovici@rsm.nl  GitHub  anamartinovici.com\n\nBackground\n\nPhD in Marketing (Tilburg University)\nMSc in Econometrics and Mathematical Economics (Tilburg University)\n\nInterests\n\n(Visual) Attention\nPrivacy and data protection\nOpen Science\n\nExperience with\n\nEye tracking data\nChoice modeling\nR, Stan, Git"
   },
   {
     "objectID": "sessions/slides_session01.html#who-are-you",
