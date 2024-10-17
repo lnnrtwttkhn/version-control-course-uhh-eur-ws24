@@ -3,8 +3,8 @@ subtitle: |
   
   Course at {{< var course.where-institution >}}
   
-  [{{< fa display >}} Slides]({{< var project.site >}}) |
-  [{{< fa brands github >}} Source]({{< var project.github >}})
+  [{{< fa display >}} Slides](https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/) |
+  [{{< fa brands github >}} Source](https://github.com/lnnrtwttkhn/version-control-course-uhh-eur-ws24/)
   
   {{< var slides.license-badge >}}
   {{< var slides.doi-badge >}}
