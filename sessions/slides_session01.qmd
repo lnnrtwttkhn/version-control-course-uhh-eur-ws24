@@ -245,10 +245,10 @@ create_schedule()
 
 ## Version Control Book
 
-{{< fa display >}} [{{< var links.book >}}]({{< links.book >}})
+{{< fa display >}} [{{< var links.book >}}]({{< var links.book >}})
 
 ```{=html}
-<iframe width="100%" height="80%" src="{{< links.book >}}" title="Version Control Book"></iframe>
+<iframe width="100%" height="80%" src="{{< var links.book >}}" title="Version Control Book"></iframe>
 ```
 
 ## Exercises, quizzes & surveys
@@ -263,7 +263,7 @@ create_schedule()
 
 - all raw data are kept **anonymous** and will only be **used for research and educational purposes**
 - if responses are shared as part of the course, they will be aggregated to ensure anonymity is maintained
-- if you want your data to be deleted, send an email with your personal codeword to [{{< var project.email-secretary >}}]({{< var project.mailto-secretary >}}) (Christine Manor).
+- if you want your data to be deleted *after the course*, send an email with your personal codeword to [{{< var project.email-secretary >}}]({{< var project.mailto-secretary >}}) (Christine Manor).
 Our secretary forwards your codeword to us (without your name).
 :::
 
@@ -305,6 +305,8 @@ You pass if you fulfill all course requirements:
 #### How do we verify the course requirements?
 
 1. Requirement 1: **Sign the attendance list**
+    - We take screenshots of the Zoom participants list
+    - University of Hamburg: You may need to sign the attendance list (at the end of the semester; TBA)
 1. Requirement 2: **Provide a personal codeword**.
 At the end of the semester, send an email with your personal codeword to [{{< var project.email-secretary >}}]({{< var project.mailto-secretary >}}) (Christine Manor).
 We will send our secretary a list of personal codewords and she will return a list of names.
@@ -314,10 +316,10 @@ We will send our secretary a list of personal codewords and she will return a li
 
 ## Course exercise: Building an online city guide
 
-{{< fa display >}} [{{< var links.city-guide >}}]({{< links.city-guide >}})
+{{< fa display >}} [{{< var links.city-guide >}}]({{< var links.city-guide >}})
 
 ```{=html}
-<iframe width="100%" height="100%" src="{{< links.city-guide >}}" title="Course Website"></iframe>
+<iframe width="100%" height="100%" src="{{< var links.city-guide >}}" title="Course Website"></iframe>
 ```
 
 ## Code of Conduct
