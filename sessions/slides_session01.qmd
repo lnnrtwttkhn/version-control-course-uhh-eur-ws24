@@ -53,27 +53,32 @@ metadata-files:
 ::::
 
 ## Research on "Cognitive Neuroscience of Learning & Change"
-::: {.fragment}
+::: {.fragment fragment-index=1}
 #### How does the brain use past experience to guide future decisions?
 <br>
 :::
-
 ::::: {.columns}
 :::: {.column width="60%"}
-::: {.fragment}
+::: {.fragment fragment-index=2}
 ![taken from @lake2016: "Building machines that learn and think like people"](../images/lake-learning.jpeg)
+:::
+::: {.fragment fragment-index=5}
+Find out more on our group's website: <https://schucklab.gitlab.io/>
 :::
 ::::
 :::: {.column width="40%"}
-::: {.fragment}
-![](../images/research-areas.png)
+::: {.fragment fragment-index=3}
+### Key research areas
+- Representation of task states
+- Memory reactivation and decision-making
+- The influence of task irrelevant information on decision-making
+- The effect of aging, genes and disease on (spatial) memory and learning
+:::
+::: {.fragment fragment-index=4}
+![](../images/research-areas.png){width="75%"}
 :::
 ::::
 :::::
-
-::: {.fragment}
-Find out more on our group's website: <https://schucklab.gitlab.io/>
-:::
 
 ::: {.notes}
 - we heard a lot about artificial intelligence
