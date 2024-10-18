@@ -52,6 +52,21 @@ metadata-files:
 
 ::::
 
+## International Teaching Collaboration
+
+> "*A new funding line allows researchers at University of Hamburg to develop virtual teaching [...] formats with international partner universities. Students can also gain international experience without going abroad.*"
+
+:::: {.columns}
+::: {.column width="47.5%"}
+### Hamburg, Germany
+![[Dietmar Rabich](https://commons.wikimedia.org/wiki/User:XRay), [Hamburg, Landungsbrücken -- 2016 -- 3131-7](https://commons.wikimedia.org/wiki/File:Hamburg,_Landungsbr%C3%BCcken_--_2016_--_3131-7.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)](../images/hamburg.jpg)
+:::
+::: {.column width="52.5%"}
+### Rotterdam, The Netherlands
+![Zairon, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons](../images/rotterdam.jpg)
+:::
+::::
+
 ## Research on "Cognitive Neuroscience of Learning & Change"
 ::: {.fragment fragment-index=1}
 #### How does the brain use past experience to guide future decisions?
