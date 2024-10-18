@@ -1323,11 +1323,18 @@
     "text": "Team\n\n\nInstructor\n\nDr. Lennart Wittkuhn\n lennart.wittkuhn@uni-hamburg.de  GitHub  lennartwittkuhn.com\n\nTeaching Assistant\n\nReza Hakimazar\n reza.hakimazar@uni-hamburg.de  GitHub\n\nTeaching Collaborator\n\nDr. Ana Martinovici\n martinovici@rsm.nl  GitHub  anamartinovici.com"
   },
   {
+    "objectID": "sessions/slides_session01.html#international-teaching-collaboration",
+    "href": "sessions/slides_session01.html#international-teaching-collaboration",
+    "title": "Session 1: Introduction to Version Control",
+    "section": "International Teaching Collaboration",
+    "text": "International Teaching Collaboration\n\n“A new funding line allows researchers at University of Hamburg to develop virtual teaching […] formats with international partner universities. Students can also gain international experience without going abroad.”\n\n\n\nHamburg, Germany\n\n\n\nDietmar Rabich, Hamburg, Landungsbrücken – 2016 – 3131-7, CC BY-SA 4.0\n\n\n\nRotterdam, The Netherlands\n\n\n\nZairon, CC BY-SA 4.0, via Wikimedia Commons"
+  },
+  {
     "objectID": "sessions/slides_session01.html#research-on-cognitive-neuroscience-of-learning-change",
     "href": "sessions/slides_session01.html#research-on-cognitive-neuroscience-of-learning-change",
     "title": "Session 1: Introduction to Version Control",
     "section": "Research on “Cognitive Neuroscience of Learning & Change”",
-    "text": "Research on “Cognitive Neuroscience of Learning & Change”\n\n\nHow does the brain use past experience to guide future decisions?\n\n\n\n\n\n\n\n\ntaken from Lake et al. (2016): “Building machines that learn and think like people”\n\n\n\n\n\n\n\n\n\n\nFind out more on our group’s website: https://schucklab.gitlab.io/\n\n\n\nwe heard a lot about artificial intelligence\nwhat does “intelligence” even mean?\nas psychologists & cognitive neuroscientists we are interested in understanding human “natural” or biological intelligence\nour group is interested in the convergence between neuroscience and artificial intelligence research (“Neuro AI”)\ne.g., “why are humans so fast in learning a wide range of tasks in complex environments”\nwe use cognitive and psychological approaches, neural measurement using fMRI and EEG and integrate and compare them with computational approaches from reinforcement learning and artificial neural networks"
+    "text": "Research on “Cognitive Neuroscience of Learning & Change”\n\n\nHow does the brain use past experience to guide future decisions?\n\n\n\n\n\n\n\n\ntaken from Lake et al. (2016): “Building machines that learn and think like people”\n\n\n\n\nFind out more on our group’s website: https://schucklab.gitlab.io/\n\n\n\n\nKey research areas\n\nRepresentation of task states\nMemory reactivation and decision-making\nThe influence of task irrelevant information on decision-making\nThe effect of aging, genes and disease on (spatial) memory and learning\n\n\n\n\n\n\n\n\n\nwe heard a lot about artificial intelligence\nwhat does “intelligence” even mean?\nas psychologists & cognitive neuroscientists we are interested in understanding human “natural” or biological intelligence\nour group is interested in the convergence between neuroscience and artificial intelligence research (“Neuro AI”)\ne.g., “why are humans so fast in learning a wide range of tasks in complex environments”\nwe use cognitive and psychological approaches, neural measurement using fMRI and EEG and integrate and compare them with computational approaches from reinforcement learning and artificial neural networks"
   },
   {
     "objectID": "sessions/slides_session01.html#research-profile-of-dr.-ana-martinovici",
@@ -1383,7 +1390,7 @@
     "href": "sessions/slides_session01.html#exercises-quizzes-surveys",
     "title": "Session 1: Introduction to Version Control",
     "section": "Exercises, quizzes & surveys",
-    "text": "Exercises, quizzes & surveys\n\n\nWe use online surveys to ask you questions and implement exercises or quizzes\nImplemented in the formr survey framework (open-source, hosted in Germany)\n\n\n\n\nAnonymity & data usage\n\nall raw data are kept anonymous and will only be used for research and educational purposes\nif responses are shared as part of the course, they will be aggregated to ensure anonymity is maintained\nif you want your data to be deleted, send an email with your personal codeword to sekretariat-luv.psych@uni-hamburg.de (Christine Manor). Our secretary forwards your codeword to us (without your name)."
+    "text": "Exercises, quizzes & surveys\n\n\nWe use online surveys to ask you questions and implement exercises or quizzes\nImplemented in the formr survey framework (open-source, hosted in Germany)\n\n\n\n\nAnonymity & data usage\n\nall raw data are kept anonymous and will only be used for research and educational purposes\nif responses are shared as part of the course, they will be aggregated to ensure anonymity is maintained\nif you want your data to be deleted after the course, send an email with your personal codeword to sekretariat-luv.psych@uni-hamburg.de (Christine Manor). Our secretary forwards your codeword to us (without your name)."
   },
   {
     "objectID": "sessions/slides_session01.html#your-role-questions-and-communication",
@@ -1397,7 +1404,7 @@
     "href": "sessions/slides_session01.html#your-role-active-participation",
     "title": "Session 1: Introduction to Version Control",
     "section": "Your role: Active participation",
-    "text": "Your role: Active participation\n\n\nActive participation\n\nThis is a pass / fail course. You pass if you fulfill all course requirements:\nRequirement 1: Come to at least 12 out of 14 sessions (85%)\nRequirement 2: Complete all surveys/quizzes\nRequirement 3: Complete all mandatory exercises (implemented in Git)\n\n\n\n\nHow do we verify the course requirements?\n\nRequirement 1: Sign the attendance list\nRequirement 2: Provide a personal codeword. At the end of the semester, send an email with your personal codeword to sekretariat-luv.psych@uni-hamburg.de (Christine Manor). We will send our secretary a list of personal codewords and she will return a list of names.\nRequirement 3: At the end of the semester, send a link to your completed exercises."
+    "text": "Your role: Active participation\n\n\nActive participation\n\nThis is a pass / fail course. You pass if you fulfill all course requirements:\nRequirement 1: Come to at least 12 out of 14 sessions (85%)\nRequirement 2: Complete all surveys/quizzes\nRequirement 3: Complete all mandatory exercises (implemented in Git)\n\n\n\n\nHow do we verify the course requirements?\n\nRequirement 1: Sign the attendance list\n\nWe take screenshots of the Zoom participants list\nUniversity of Hamburg: You may need to sign the attendance list (at the end of the semester; TBA)\n\nRequirement 2: Provide a personal codeword. At the end of the semester, send an email with your personal codeword to sekretariat-luv.psych@uni-hamburg.de (Christine Manor). We will send our secretary a list of personal codewords and she will return a list of names.\nRequirement 3: At the end of the semester, send a link to your completed exercises."
   },
   {
     "objectID": "sessions/slides_session01.html#course-exercise-building-an-online-city-guide",
@@ -1412,48 +1419,6 @@
     "title": "Session 1: Introduction to Version Control",
     "section": "Code of Conduct",
     "text": "Code of Conduct\nDuring this course, we want to ensure a safe, productive, and welcoming environment for everyone who attends. All participants and speakers are expected to abide by this code of conduct. We do not tolerate any form of discrimination or harassment in any form or by any means. If you experience harassment or hear of any incidents of unacceptable behavior, please reach out to the course instructor, Lennart Wittkuhn (lennart.wittkuhn@uni-hamburg.de), so that we can take the appropriate action.\nUnacceptable behavior is defined as:\n\nHarassment, intimidation, or discrimination in any form, verbal abuse of any attendee, speaker, or other person. Examples include, but are not limited to, verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, national origin, inappropriate use of nudity and/or sexual images in public spaces or in presentations, or threatening or stalking.\nDisruption of presentations throughout the course. We ask all participants to comply to the instructions of the speaker with regard to dedicated discussion space and time.\nParticipants should not take pictures of any activity in the course room without asking all involved participants for consent and receiving this consent.\n\nA first violation of this code of conduct will result in a warning, and subsequent violations by the same person can result in the immediate removal from the course without further warning. The organizers also reserve the right to prohibit attendance of excluded participants from similar future workshops, courses or meetings they organize."
-  },
-  {
-    "objectID": "sessions/slides_session01.html#expectations",
-    "href": "sessions/slides_session01.html#expectations",
-    "title": "Session 1: Introduction to Version Control",
-    "section": "Expectations",
-    "text": "Expectations\n\nNo idea (for example: “i really have no idea about that”)\nData analysis (for example: “How to work with research data”)\nGit/GitHub (for example: “Practical tasks with git and github, theoretical background”)"
-  },
-  {
-    "objectID": "sessions/slides_session01.html#hopes",
-    "href": "sessions/slides_session01.html#hopes",
-    "title": "Session 1: Introduction to Version Control",
-    "section": "Hopes",
-    "text": "Hopes\n\nData analysis skills (for example: “Learning practical information about data analyses”)\nCoding skills (for example: “Hopes for better coding skills post-course”)\nScience Communication (for example: “Science communication and networking using research”)\nVersion Control Skills (for example: “Getting an idea of what is possible with GitHub”)"
-  },
-  {
-    "objectID": "sessions/slides_session01.html#worries",
-    "href": "sessions/slides_session01.html#worries",
-    "title": "Session 1: Introduction to Version Control",
-    "section": "Worries",
-    "text": "Worries\n\nLack of coding skills (for example: “My low ability in coding”)\nInadequate previous knowledge (for example: “I worry that I don’t have enough previous knowledge”)\nLanguage barrier\nLearning pace"
-  },
-  {
-    "objectID": "sessions/slides_session01.html#motivation",
-    "href": "sessions/slides_session01.html#motivation",
-    "title": "Session 1: Introduction to Version Control",
-    "section": "Motivation",
-    "text": "Motivation\n\nPragmatic course selection (for example: “I needed a course for ‘Wahlbereich’ and this one was the only available one.”)\nLearning new skills (for example: “For me it is very important to get to know tools and learn how to handle them.”)"
-  },
-  {
-    "objectID": "sessions/slides_session01.html#version-control",
-    "href": "sessions/slides_session01.html#version-control",
-    "title": "Session 1: Introduction to Version Control",
-    "section": "Version Control",
-    "text": "Version Control\nCan you briefly define the term version control?\n\nNo idea (for example: “I don’t know what that is”)\n“(…) it’s about comparing the latest version of someone else who is working on the same project as me with my version”"
-  },
-  {
-    "objectID": "sessions/slides_session01.html#scenarios",
-    "href": "sessions/slides_session01.html#scenarios",
-    "title": "Session 1: Introduction to Version Control",
-    "section": "Scenarios",
-    "text": "Scenarios\nImagine a scenario where you crafted a brilliant paragraph for your document (for example, your paper, thesis or report), but then accidentally ruined it. How would you retrieve the earlier brilliant version? Is it even possible?\n\n“In the past, I mostly worked with doc documents (word) and saved every day a new version when I was the only person working on the document. This was not very practical and I hope to learn an alternative during this course”\n\n(…) Consider a situation where you are working with five co-authors on a paper. How do you handle the changes and comments they make to the document\n\n“I know that you can accept changes and comments in word, but I always find it confusing and complex to keep the overview. I don’t know what happens to the history of modifications.”"
   },
   {
     "objectID": "sessions/slides_session01.html#learning-objectives",
