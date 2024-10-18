@@ -328,58 +328,6 @@ We will send our secretary a list of personal codewords and she will return a li
 
 # Survey results
 
-## Expectations
-
-- No idea (for example: "i really have no idea about that")
-
-- Data analysis (for example: "How to work with research data")
-
-- **Git/GitHub** (for example: "Practical tasks with git and github, theoretical background")
-
-## Hopes
-
-- Data analysis skills (for example: "Learning practical information about data analyses")
-
-- Coding skills (for example: "Hopes for better coding skills post-course")
-
-- Science Communication (for example: "Science communication and networking using research") 
-
-- Version Control Skills (for example: "Getting an idea of what is possible with GitHub")
-
-## Worries
-
-- Lack of coding skills (for example: "My low ability in coding")
-
-- Inadequate previous knowledge (for example: "I worry that I don't have enough previous knowledge")
-
-- Language barrier 
-
-- Learning pace
-
-## Motivation
-
-- Pragmatic course selection (for example:  "I needed a course for 'Wahlbereich' and this one was the only available one.")
-
-- Learning new skills (for example: "For me it is very important to get to know tools and learn how to handle them.")
-
-## Version Control
-
-### Can you briefly define the term version control?
-
-- No idea (for example: "I don’t know what that is")
-
-- "(...) it's about comparing the latest version of someone else who is working on the same project as me with my version"
-
-## Scenarios
-
-#### Imagine a scenario where you crafted a brilliant paragraph for your document (for example, your paper, thesis or report), but then accidentally ruined it. How would you retrieve the earlier brilliant version? Is it even possible?
-
-- "In the past, I mostly worked with doc documents (word) and saved every day a new version when I was the only person working on the document. This was not very practical and I hope to learn an alternative during this course"
-
-#### (...) Consider a situation where you are working with five co-authors on a paper. How do you handle the changes and comments they make to the document
-
-- "I know that you can accept changes and comments in word, but I always find it confusing and complex to keep the overview. I don't know what happens to the history of modifications."
-
 # Introduction to version control
 
 ## Learning objectives
