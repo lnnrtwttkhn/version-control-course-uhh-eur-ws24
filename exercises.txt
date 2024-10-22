@@ -1,6 +1,7 @@
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/exercises/_exercises-cli.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/exercises/_solutions-cli.qmd
-https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-cli.sh
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-cli-recipes.sh
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-cli-city-guide.sh
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/exercises/_exercises-setup.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/exercises/_solutions-setup.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-setup.sh
