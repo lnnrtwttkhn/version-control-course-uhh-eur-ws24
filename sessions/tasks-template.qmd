@@ -1,0 +1,13 @@
+In this session, you will work on the following tasks:
+
+1. {{< fa book-open >}} **Reading**: Read the chapter ["{{< meta chapter-title >}}"]({{< meta chapter-url >}}) in the Version Control Book.
+1. {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter.
+1. {{< fa list-check >}} **Exercises**: Work on the [exercises](#exercises) for the [`{{< var course.project >}}` project](#{{< var course.project >}}-project).
+1. {{< fa clipboard-question >}} **Quiz**: Test your knowledge with the [quiz]({{< meta quiz-url >}}).
+
+As always:
+
+1. Try out the commands of this session and play around with them.
+1. Check whether you have achieved the [learning objectives](#learning-objectives).
+1. Ask questions!
+1. Let's *git* started!
