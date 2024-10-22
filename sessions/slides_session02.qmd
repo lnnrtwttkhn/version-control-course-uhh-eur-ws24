@@ -1,12 +1,16 @@
 ---
-title: "Session 2: Command Line"
-date: 2024-04-15T12:15
+title: "Session 2: Basics of the Command Line"
+date: 2024-10-25T10:15
 format: revealjs
 metadata-files:
   - _slides.yml
+session-title: "Basics of the Command Line"
+chapter-title: "Command Line"
+chapter-url: https://lennartwittkuhn.com/version-control-book/chapters/command-line.html
+quiz-url: https://version-control-cli.formr.org/
 ---
 
-# Admin
+# Logistics & Admin
 
 ## Schedule
 
@@ -18,7 +22,7 @@ metadata-files:
 create_schedule()
 ```
 
-## Clarification: "What happens if I miss a session?"
+## Clarification: "What happens if I miss a session?" {visibility="hidden"}
 
 - Short answer: If you miss a session, please review the materials and complete the tasks until next session.
 - We will list the workload (and any homework) explicitly for each session on the course website.
@@ -29,8 +33,6 @@ create_schedule()
 
 {{< fa display >}} [lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session02.html](https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session02.html)
 
-# Survey results
-
 # Last session
 
 ## Last week's learning objectives
@@ -39,29 +41,33 @@ After the last session, you should now be able to answer the following questions
 
 {{< include ../objectives/_objectives-intro.qmd >}}
 
-# Today's session
+# {{< meta session-title >}}
 
 ## Pair Programming (variant)
 
 ::::: {.columns}
 :::: {.column width="50%"}
-- Find yourself in pairs of two
+- We will assign you to Zoom breakout rooms
+- Introduce yourself to your partner (see conversation starters on later slide)
 - Complete the exercises together
+- Help each other out
+- Lennart and {{< var course.teaching-assistant >}} will move between breakout rooms to offer help
+- Send a message in the chat to Lennart or {{< var course.teaching-assistant >}} if you need help
 ::::
 :::: {.column width="40%"}
 ![This illustration is created by [Scriberia](https://www.scriberia.com/) with [The Turing Way community](https://the-turing-way.netlify.app/welcome). Used under a [CC-BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/). DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3695300)](../images/turing-way-community.svg)
 ::::
 :::::
 
-## Course exercise: Building an online recipes book
+## Course exercise: Building an online {{< var course.project >}} book
 
-Example: <https://lennartwittkuhn.com/recipes>
+{{< fa display >}} [{{< var course.project-site >}}]({{< var course.project-site >}})
 
 ```{=html}
-<iframe width="100%" height="100%" src="https://lennartwittkuhn.com/recipes/" title="Course Website"></iframe>
+<iframe width="100%" height="80%" src="{{< var course.project-site >}}" title="Course Website"></iframe>
 ```
 
-## Today: The command line
+## This session: {{< meta session-title >}}
 
 ![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
 
@@ -69,19 +75,75 @@ Example: <https://lennartwittkuhn.com/recipes>
 
 {{< include ../objectives/_objectives-cli.qmd >}}
 
-## Today's chapter
+## Reading
 
-{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/command-line.html](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html)
+{{< fa display >}} [{{< meta chapter-url >}}]({{< meta chapter-url >}})
 
 ```{=html}
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html" title="Version Control Book"></iframe>
+<iframe width="100%" height="80%" src="{{< meta chapter-url >}}"></iframe>
 ```
 
-## Your turn
+## Cheatsheet
 
-1. {{< fa brands microsoft >}} **Windows users**: Make sure that [Git for Windows](https://gitforwindows.org/) is installed and set up!
-1. {{< fa book-open >}} **Content Review**: Read the chapter ["Command Line"](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html) in the Version Control Book
-1. {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!
-1. {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-cli.formr.org/)
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "cli"), format = "markdown", row.names = FALSE)
+```
 
-Ask questions!
+## Tasks
+
+{{< include tasks-template.qmd >}}
+
+## `{{< var course.project >}}` project
+
+{{< include project/project-cli.qmd >}}
+
+## Conversation starter
+
+:::: {.columns}
+::: {.column width="50%"}
+
+1. Your name?
+1. Are you based in Hamburg or Rotterdam?
+1. A (fun) fact about you? For example:
+    - What did you study before and where?
+    - What do you expect from this course?
+    - What's your hobby?
+    - Do you have a pet?
+    - What's your favorite color?
+    - Your mood on sheep scale?
+    
+:::
+::: {.column width="50%"}
+::: {.fragment}
+![](../images/mood-sheep.png){fig-alt="Mood on a sheep scale."}
+:::
+:::
+::::
+
+## Exercises
+
+{{< include ../exercises/_exercises-cli.qmd >}}
+
+## Solutions
+
+### Navigate the file system
+
+```{zsh filename="Code"}
+cd /path/to/your/chosen/directory # <1>
+```
+1. Navigate into the chosen location.
+Replace `/path/to/your/chosen/directory` with a path on your computer.
+A good location might be within your `/Documents` folder or a dedicated `/Projects` or `/University` folder.
+This can help to easily find course-related files on your computer.
+
+### Create files and folders
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-cli-city-guide.sh
+```
+{{< include ../exercises/_solutions-cli.qmd >}}

@@ -1,0 +1,7 @@
+At the end of this session, you should have accomplished the following:
+
+1. You used the command line to create a folder on your computer called `{{< var course.project >}}`.
+1. You used the command line to create a file called `{{< var course.project >}}.txt` inside the `{{< var course.project >}}` folder.
+
+Please keep the `{{< var course.project >}}` folder!
+We will continue to use it in the following sessions.
