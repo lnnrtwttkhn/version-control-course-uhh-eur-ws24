@@ -161,88 +161,18 @@
     "text": "Details about project positions\n\n\nPosition 1: Research Assistant for new course on “Digital Research Skills”\n\n📓 Project: Support development of new course on “Digital Research Skills”\n📆 Duration: 01.08.2024 - 30.09.2025 (flexible)\n🕐 Time: up to 20 hours / month\n\n\n\n\nPosition 2: Research Assistant for new course on “Open Educational Materials”\n\n📓 Project: Create course and manual for “Open Educational Materials” with Quarto and Git\n📆 Duration: 15.08.2024 - 31.08.2025 (flexible)\n🕐 Time: up to 30 hours / month\n\n\n\n\nPosition 3: Teaching Assistant for Version Control Course in WS 24/25\n\n📓 Project: Support international virtual “Version Control Course” with Erasmus University Rotterdam\n📆 Duration: 14.10.2024 - 01.02.2025 (WS 24/25)\n🕐 Time: ~ 2 hours per week\n\n\n\n\nPosition 4: Teaching Assistant for “Open Educational Resources” in WS 24/25\n\n📓 Project: Support course at UHH on creating Open Educational Resources with Git and Quarto\n📆 Duration: 14.10.2024 - 01.02.2025 (WS 24/25)\n🕐 Time: ~ 2 hours per week\n\n\n\n\nPosition 5: Teaching Assistant for “Digital Research Skills” in WS 24/25 or SS24\n\n📓 Project: Support teaching new course on “Digital Research Skills”\n📆 Duration: 14.10.2024 - 01.02.2025 (WS 24/25) or 07.04.2025 - 19.07.2025 (SS 24)\n🕐 Time: ~ 2 hours per week\n\n\n\n\nVersion Control Course"
   },
   {
-    "objectID": "sessions/slides_session05.html#schedule",
-    "href": "sessions/slides_session05.html#schedule",
-    "title": "Session 5: Branches",
-    "section": "Schedule",
-    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2024-10-18\nIntroduction to version control\nOrganizational mattersOverview of seminar sessionsIntroduction to version controlIntroduction to Git and its advantages\n Intro to version control\nCourse introduction Survey\n\n\n2\n2024-10-25\nCommand line\nFile SystemsBenefits of the Command LineBasic Command Line commands\n Command Line\nCommand Line Quiz\n\n\n3\n2024-11-01\nQuarto Workshop\nIntroduction to Quarto\n\n\n\n\n4\n2024-11-08\nSetup + Git Fundamentals\nInstallation and configuration of GitInitializing a Git repositoryBasic Git commands\n Installation, Setup, First steps with Git\nInstallation Survey, Git Basics Quiz\n\n\n5\n2024-11-15\nBasic Git workflow\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n First steps with Git\nGit Basics Quiz\n\n\n6\n2024-11-22\nGit Branching and Merging\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflict\n Branches\nGit Branches Quiz\n\n\n7\n2024-11-29\nIntroduction to GitHub\nIntroduction to remote repositoriesCreating a GitHub accountCreating and managing repositories on GitHubPushing and pulling changes\n GitHub Intro\nGitHub Quiz\n\n\n8\n2024-12-06\nGitHub with collaborators\nCloning a remote repositoryBranching and merging in a collaborative environmentPull RequestsGitHub IssuesGraphical User Interfaces (GUIs), e.g., GitKraken\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n9\n2024-12-13\nGitHub with the world\nForking a remote repository README filesProject Management\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n10\n2025-12-20\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n11\n2025-01-10\nPublishing\nCreating Tags with GitCreating Releases with GitHubUsing Zenodo for scientific publishingLicencesCitation Files\n Tags and Releases\n\n\n\n12\n2025-01-17\nGraphical User Interfaces \nRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces\n\n\n\n13\n2025-01-24\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n14\n2025-01-31\nSummary & Wrap-Up\nCourse evaluationRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces"
+    "objectID": "sessions/tasks-template.html",
+    "href": "sessions/tasks-template.html",
+    "title": "An introduction to Git for research",
+    "section": "",
+    "text": "In this session, you will work on the following tasks:\n\n Reading: Read the chapter “?meta:chapter-title” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the city-guide project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
-    "objectID": "sessions/slides_session05.html#last-week-first-steps-with-git-1",
-    "href": "sessions/slides_session05.html#last-week-first-steps-with-git-1",
-    "title": "Session 5: Branches",
-    "section": "Last week: First steps with Git",
-    "text": "Last week: First steps with Git\n lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html"
-  },
-  {
-    "objectID": "sessions/slides_session05.html#last-weeks-question-saving-command-line-history",
-    "href": "sessions/slides_session05.html#last-weeks-question-saving-command-line-history",
-    "title": "Session 5: Branches",
-    "section": "Last week’s question: Saving command line history?",
-    "text": "Last week’s question: Saving command line history?\nUse this:\n\nhistory &gt; history.txt\n\n https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history"
-  },
-  {
-    "objectID": "sessions/slides_session05.html#last-weeks-question-commit-.gitignore",
-    "href": "sessions/slides_session05.html#last-weeks-question-commit-.gitignore",
-    "title": "Session 5: Branches",
-    "section": "Last week’s question: Commit .gitignore?",
-    "text": "Last week’s question: Commit .gitignore?\nYes, commit your project-specific .gitignore file.\n https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#ignoring-files-and-folders-.gitignore"
-  },
-  {
-    "objectID": "sessions/slides_session05.html#last-weeks-learning-objectives",
-    "href": "sessions/slides_session05.html#last-weeks-learning-objectives",
-    "title": "Session 5: Branches",
-    "section": "Last week’s learning objectives",
-    "text": "Last week’s learning objectives\n\n\nSetup\n💡 You know how to set up Git for the first time 💡 You have set up Git on your computer 💡 You understand the difference between the three Git configuration levels 💡 You know how to configure your username and email address in Git 💡 You have set up your preferred text editor when working with Git 💡 You can escape the command-line text editor Vim\n\n\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes"
-  },
-  {
-    "objectID": "sessions/slides_session05.html#recap-best-practices-for-commit-messages",
-    "href": "sessions/slides_session05.html#recap-best-practices-for-commit-messages",
-    "title": "Session 5: Branches",
-    "section": "Recap: Best practices for commit messages",
-    "text": "Recap: Best practices for commit messages\n\n\n\n\n\nTry to keep commit messages short (less than 72 characters)\nUse present tense and start with an imperative verb to indicate the purpose of the commit, for example “add”, “fix”, “improve” (as if you are giving orders to the codebase to change its behavior)\n\n\nIf applied, this commit will … [your commit message]\n\n\nTry to describe why a change is being made\nLink specific issues that are addressed by your commit\nUse the description for more explanation and context"
-  },
-  {
-    "objectID": "sessions/slides_session05.html#todays-topic-branches-1",
-    "href": "sessions/slides_session05.html#todays-topic-branches-1",
-    "title": "Session 5: Branches",
-    "section": "Today’s topic: Branches",
-    "text": "Today’s topic: Branches\n\nFigure 1: Image from Chapter “Git Branches” of the “The Turing Way handbook to reproducible, ethical and collaborative data science”, used under a Creative Commons Attribution 4.0 License.\nIllustration of branches in a Git repository. Each circle represents a commit. Commits on the Main branch are shown in gray. The branch Feature A (blue circles) was created from the Main branch and later merged again. In-between, another branch Feature A-1 was created from the Feature A branch (green circles) and merged with that branch again before the Feature A branch was eventually merged with the Main branch. The branch Feature B was created but abandoned and not merged with the Main branch."
-  },
-  {
-    "objectID": "sessions/slides_session05.html#todays-chapter",
-    "href": "sessions/slides_session05.html#todays-chapter",
-    "title": "Session 5: Branches",
-    "section": "Today’s chapter",
-    "text": "Today’s chapter\n https://lennartwittkuhn.com/version-control-book/chapters/branches.html"
-  },
-  {
-    "objectID": "sessions/slides_session05.html#this-weeks-learning-objectives",
-    "href": "sessions/slides_session05.html#this-weeks-learning-objectives",
-    "title": "Session 5: Branches",
-    "section": "This weeks learning objectives",
-    "text": "This weeks learning objectives\n💡 You understand the purpose and benefits of using branches in Git. 💡 You can create and switch between branches. 💡 You can merge branches and resolve merge conflicts. 💡 You can name at least three best practices when working with branches."
-  },
-  {
-    "objectID": "sessions/slides_session05.html#your-turn",
-    "href": "sessions/slides_session05.html#your-turn",
-    "title": "Session 5: Branches",
-    "section": "Your turn",
-    "text": "Your turn\n\n\n Content Review: Read the chapter “Branches” in the Version Control Book.\n Implementation: Try out the commands in the chapter! Play around! Have fun!\nNote: We will do the implementation exercises in class together, step-by-step.\n Exercises: Complete the exercises in the survey.\n\n\n\nAsk questions!\nLet’s git started!\n\n\nand branch out"
-  },
-  {
-    "objectID": "sessions/slides_session05.html#implementation-exercises",
-    "href": "sessions/slides_session05.html#implementation-exercises",
-    "title": "Session 5: Branches",
-    "section": "Implementation Exercises",
-    "text": "Implementation Exercises\n\n\n1. Create and merge a branch\n\nCreate a new branch called feature.\nSwitch to your new branch.\nAdd a new recipe to your recipes text file.\nSwitch back to the default branch (main or master).\nMerge the feature branch with your default branch and delete the feature branch afterwards.\n\n\n\n\n2. Create and resolve a merge conflict\nDeliberately create a merge conflict by editing the same section of a file on two separate branches and attempting to merge them. An example can be found in the Version Control Book chapter. Resolve the merge conflict and delete the feature branch afterwards.\n\n\n\n3. Complete the branches quiz"
-  },
-  {
-    "objectID": "sessions/slides_session05.html#guis-1",
-    "href": "sessions/slides_session05.html#guis-1",
-    "title": "Session 5: Branches",
-    "section": "GUIs",
-    "text": "GUIs\n lennartwittkuhn.com/version-control-book/chapters/gui.html\n\n\n\nVersion Control Course"
+    "objectID": "sessions/project/project-cli.html",
+    "href": "sessions/project/project-cli.html",
+    "title": "An introduction to Git for research",
+    "section": "",
+    "text": "At the end of this session, you should have accomplished the following:\n\nYou used the command line to create a folder on your computer called city-guide.\nYou used the command line to create a file called city-guide.txt inside the city-guide folder.\n\nPlease keep the city-guide folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/slides_session12.html#schedule-1",
@@ -366,65 +296,93 @@
   {
     "objectID": "sessions/slides_session02.html#schedule",
     "href": "sessions/slides_session02.html#schedule",
-    "title": "Session 2: Command Line",
+    "title": "Session 2: Basics of the Command Line",
     "section": "Schedule",
     "text": "Schedule\n\n\n\n\n\nNo\nDate\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2024-10-18\nIntroduction to version control\nOrganizational mattersOverview of seminar sessionsIntroduction to version controlIntroduction to Git and its advantages\n Intro to version control\nCourse introduction Survey\n\n\n2\n2024-10-25\nCommand line\nFile SystemsBenefits of the Command LineBasic Command Line commands\n Command Line\nCommand Line Quiz\n\n\n3\n2024-11-01\nQuarto Workshop\nIntroduction to Quarto\n\n\n\n\n4\n2024-11-08\nSetup + Git Fundamentals\nInstallation and configuration of GitInitializing a Git repositoryBasic Git commands\n Installation, Setup, First steps with Git\nInstallation Survey, Git Basics Quiz\n\n\n5\n2024-11-15\nBasic Git workflow\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n First steps with Git\nGit Basics Quiz\n\n\n6\n2024-11-22\nGit Branching and Merging\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflict\n Branches\nGit Branches Quiz\n\n\n7\n2024-11-29\nIntroduction to GitHub\nIntroduction to remote repositoriesCreating a GitHub accountCreating and managing repositories on GitHubPushing and pulling changes\n GitHub Intro\nGitHub Quiz\n\n\n8\n2024-12-06\nGitHub with collaborators\nCloning a remote repositoryBranching and merging in a collaborative environmentPull RequestsGitHub IssuesGraphical User Interfaces (GUIs), e.g., GitKraken\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n9\n2024-12-13\nGitHub with the world\nForking a remote repository README filesProject Management\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n10\n2025-12-20\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n11\n2025-01-10\nPublishing\nCreating Tags with GitCreating Releases with GitHubUsing Zenodo for scientific publishingLicencesCitation Files\n Tags and Releases\n\n\n\n12\n2025-01-17\nGraphical User Interfaces \nRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces\n\n\n\n13\n2025-01-24\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n14\n2025-01-31\nSummary & Wrap-Up\nCourse evaluationRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces"
   },
   {
-    "objectID": "sessions/slides_session02.html#clarification-what-happens-if-i-miss-a-session",
-    "href": "sessions/slides_session02.html#clarification-what-happens-if-i-miss-a-session",
-    "title": "Session 2: Command Line",
-    "section": "Clarification: “What happens if I miss a session?”",
-    "text": "Clarification: “What happens if I miss a session?”\n\nShort answer: If you miss a session, please review the materials and complete the tasks until next session.\nWe will list the workload (and any homework) explicitly for each session on the course website.\n\n\n lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session02.html"
-  },
-  {
     "objectID": "sessions/slides_session02.html#last-weeks-learning-objectives",
     "href": "sessions/slides_session02.html#last-weeks-learning-objectives",
-    "title": "Session 2: Command Line",
+    "title": "Session 2: Basics of the Command Line",
     "section": "Last week’s learning objectives",
     "text": "Last week’s learning objectives\nAfter the last session, you should now be able to answer the following questions:\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub."
   },
   {
     "objectID": "sessions/slides_session02.html#pair-programming-variant",
     "href": "sessions/slides_session02.html#pair-programming-variant",
-    "title": "Session 2: Command Line",
+    "title": "Session 2: Basics of the Command Line",
     "section": "Pair Programming (variant)",
-    "text": "Pair Programming (variant)\n\n\n\nFind yourself in pairs of two\nComplete the exercises together\n\n\n\n\n\nThis illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807"
+    "text": "Pair Programming (variant)\n\n\n\nWe will assign you to Zoom breakout rooms\nIntroduce yourself to your partner (see conversation starters on later slide)\nComplete the exercises together\nHelp each other out\nLennart and Reza will move between breakout rooms to offer help\nSend a message in the chat to Lennart or Reza if you need help\n\n\n\n\n\nThis illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807"
   },
   {
-    "objectID": "sessions/slides_session02.html#course-exercise-building-an-online-recipes-book",
-    "href": "sessions/slides_session02.html#course-exercise-building-an-online-recipes-book",
-    "title": "Session 2: Command Line",
-    "section": "Course exercise: Building an online recipes book",
-    "text": "Course exercise: Building an online recipes book\nExample: https://lennartwittkuhn.com/recipes"
+    "objectID": "sessions/slides_session02.html#course-exercise-building-an-online-var-course.project-book",
+    "href": "sessions/slides_session02.html#course-exercise-building-an-online-var-course.project-book",
+    "title": "Session 2: Basics of the Command Line",
+    "section": "Course exercise: Building an online city-guide book",
+    "text": "Course exercise: Building an online city-guide book\n https://lennartwittkuhn.com/uhh-eur-city-guide/"
   },
   {
-    "objectID": "sessions/slides_session02.html#today-the-command-line",
-    "href": "sessions/slides_session02.html#today-the-command-line",
-    "title": "Session 2: Command Line",
-    "section": "Today: The command line",
-    "text": "Today: The command line\n\nSource: Wikimedia Commons (free license)"
+    "objectID": "sessions/slides_session02.html#this-session-meta-session-title",
+    "href": "sessions/slides_session02.html#this-session-meta-session-title",
+    "title": "Session 2: Basics of the Command Line",
+    "section": "This session: Basics of the Command Line",
+    "text": "This session: Basics of the Command Line\n\nSource: Wikimedia Commons (free license)"
   },
   {
     "objectID": "sessions/slides_session02.html#learning-objectives",
     "href": "sessions/slides_session02.html#learning-objectives",
-    "title": "Session 2: Command Line",
+    "title": "Session 2: Basics of the Command Line",
     "section": "Learning objectives",
     "text": "Learning objectives\n💡 You can navigate directories using the command line. 💡 You can use shortcuts like the tilde or dots to navigate your file system. 💡 You can explain the difference between absolute and relative paths. 💡 You can use arguments and flags to modify command-line commands. 💡 You understand the concept of wild cards (*) and can use it for system navigation."
   },
   {
-    "objectID": "sessions/slides_session02.html#todays-chapter",
-    "href": "sessions/slides_session02.html#todays-chapter",
-    "title": "Session 2: Command Line",
-    "section": "Today’s chapter",
-    "text": "Today’s chapter\n lennartwittkuhn.com/version-control-book/chapters/command-line.html"
+    "objectID": "sessions/slides_session02.html#reading",
+    "href": "sessions/slides_session02.html#reading",
+    "title": "Session 2: Basics of the Command Line",
+    "section": "Reading",
+    "text": "Reading\n https://lennartwittkuhn.com/version-control-book/chapters/command-line.html"
   },
   {
-    "objectID": "sessions/slides_session02.html#your-turn",
-    "href": "sessions/slides_session02.html#your-turn",
-    "title": "Session 2: Command Line",
-    "section": "Your turn",
-    "text": "Your turn\n\n Windows users: Make sure that Git for Windows is installed and set up!\n Content Review: Read the chapter “Command Line” in the Version Control Book\n Implementation: Try out the commands in the chapter! Play around! Have fun!\n Exercises: Complete the exercises in the survey\n\nAsk questions!\n\n\nVersion Control Course"
+    "objectID": "sessions/slides_session02.html#cheatsheet",
+    "href": "sessions/slides_session02.html#cheatsheet",
+    "title": "Session 2: Basics of the Command Line",
+    "section": "Cheatsheet",
+    "text": "Cheatsheet\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\npwd\nDisplays the path of the current working directory\n\n\ncd &lt;PATH&gt;\nChanges the current working directory to &lt;PATH&gt;\n\n\ncd ~\nChanges the current working directory to the user’s home directory\n\n\ncd ..\nMoves up one folder\n\n\ncd ../..\nMoves up two folders\n\n\nclear\nClears the contents of your command line window\n\n\nls\nLists files and folders in the current working directory\n\n\nls &lt;PATH&gt;\nLists files and folders in &lt;PATH&gt;\n\n\nls -a\nLists all files (including hidden files) in the current working directory\n\n\nls -alh\nLists all files in a long format that is easy to read for humans\n\n\n[Command] --help\nDisplays all possible flags for a specific command (on Windows)\n\n\nman [Command]\nDisplays all possible flags for a specific command (on macOS)\n\n\nmkdir &lt;FOLDER&gt;\nCreates a new folder called &lt;FOLDER&gt;\n\n\nmkdir &lt;FOLDER1&gt; &lt;FOLDER2&gt;\nCreates two separate folders called &lt;FOLDER1&gt; and &lt;FOLDER2&gt;\n\n\ntouch &lt;FILE&gt;\nCreates a new empty file called &lt;FILE&gt;\n\n\nopen &lt;FILE&gt;\nOpens the file called &lt;FILE&gt; (on macOS)\n\n\nstart &lt;FILE&gt;\nOpens the file called &lt;FILE&gt; (on Windows)\n\n\necho \"example text\" &gt;&gt; file.txt\nWrites “example text” into file.txt\n\n\ncat &lt;FILE&gt;\nDisplays the content of &lt;FILE&gt;\n\n\nmv FILE.txt &lt;FOLDER&gt;\nMove FILE.txt into &lt;FOLDER&gt;\n\n\nmv &lt;FOLDER_OLD&gt; &lt;FOLDER_NEW&gt;\nRenames &lt;FOLDER_OLD&gt; to &lt;FOLDER_NEW&gt;\n\n\nls -alh *.csv\nUses a wildcard to list all .csv files in the current working directory\n\n\nrm -r &lt;FOLDER&gt;\nRemoves the folder &lt;FOLDER&gt;\n\n\nhistory\nDisplay the command history of the current terminal session\n\n\nhistory &gt; history.txt\nSaves the entire command history to a file named history.txt (overwrites existing content in history.txt)\n\n\nhistory &gt;&gt; history.txt\nAdds the entire command history to the end of the file named history.txt\n\n\ntree\nDisplays a graphical representation of the directory structure\n\n\nwget &lt;URL&gt;\nDownloads a file from the specified  to the current directory"
+  },
+  {
+    "objectID": "sessions/slides_session02.html#tasks",
+    "href": "sessions/slides_session02.html#tasks",
+    "title": "Session 2: Basics of the Command Line",
+    "section": "Tasks",
+    "text": "Tasks\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter “Command Line” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the city-guide project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
+  },
+  {
+    "objectID": "sessions/slides_session02.html#var-course.project-project",
+    "href": "sessions/slides_session02.html#var-course.project-project",
+    "title": "Session 2: Basics of the Command Line",
+    "section": "city-guide project",
+    "text": "city-guide project\nAt the end of this session, you should have accomplished the following:\n\nYou used the command line to create a folder on your computer called city-guide.\nYou used the command line to create a file called city-guide.txt inside the city-guide folder.\n\nPlease keep the city-guide folder! We will continue to use it in the following sessions."
+  },
+  {
+    "objectID": "sessions/slides_session02.html#conversation-starter",
+    "href": "sessions/slides_session02.html#conversation-starter",
+    "title": "Session 2: Basics of the Command Line",
+    "section": "Conversation starter",
+    "text": "Conversation starter\n\n\n\nYour name?\nAre you based in Hamburg or Rotterdam?\nA (fun) fact about you? For example:\n\nWhat did you study before and where?\nWhat do you expect from this course?\nWhat’s your hobby?\nDo you have a pet?\nWhat’s your favorite color?\nYour mood on sheep scale?"
+  },
+  {
+    "objectID": "sessions/slides_session02.html#exercises",
+    "href": "sessions/slides_session02.html#exercises",
+    "title": "Session 2: Basics of the Command Line",
+    "section": "Exercises",
+    "text": "Exercises\nNavigate the file system\nIdentify a folder on your computer where you (want to) keep course-related files. If you don’t have one, choose a suitable location in your file system.\n\nNavigate into the chosen location using the command line.\nUse the command line to display the path of your chosen folder. What is the output?\n\nCreate files and folders\n\nWithin your chosen folder, create a new subfolder and give it a relevant name.\nNavigate into the newly created subfolder.\nCreate a new text file and name it appropriately.\nConfirm that the files was created by listing the contents of the folder."
+  },
+  {
+    "objectID": "sessions/slides_session02.html#solutions",
+    "href": "sessions/slides_session02.html#solutions",
+    "title": "Session 2: Basics of the Command Line",
+    "section": "Solutions",
+    "text": "Solutions\nNavigate the file system\n\n\n\nCode\n\ncd /path/to/your/chosen/directory # &lt;1&gt;\n\n\n\nNavigate into the chosen location. Replace /path/to/your/chosen/directory with a path on your computer. A good location might be within your /Documents folder or a dedicated /Projects or /University folder. This can help to easily find course-related files on your computer.\n\nCreate files and folders\n\n\n\nCode\n\n#!/bin/bash\n\npwd # &lt;2&gt;\nmkdir city-guide # &lt;3&gt;\ncd city-guide # &lt;4&gt;\ntouch city-guide.txt # &lt;5&gt;\nls # &lt;6&gt;\n\n\n\nUse pwd to display the path of your current working directory.\nUse mkdir to create a new subfolder and give it a name, within your chosen folder.\nUse cd to navigate into the newly created subfolder.\nUse touch to create a new file and name it appropriately.\nUse ls to confirm that the files was created by listing the contents of the folder.\n\n\n\nVersion Control Course"
   },
   {
     "objectID": "sessions/slides_session10.html#work-with-us-research-and-teaching-assistant-positions",
@@ -1250,28 +1208,35 @@
     "href": "sessions/session02.html#this-session",
     "title": "Command Line",
     "section": "This session",
-    "text": "This session\nIn this session, you will complete the following tasks:\n\nRead the chapter “Command Line” of the Version Control\nComplete the exercises for the recipes project.\nComplete the quiz questions / exercises in the Command Line survey.\n\nAs always:\n\nTry out the commands in the chapter and play around with them.\nCheck whether you have achieved the learning objectives."
-  },
-  {
-    "objectID": "sessions/session02.html#recipes-project",
-    "href": "sessions/session02.html#recipes-project",
-    "title": "Command Line",
-    "section": "recipes project",
-    "text": "recipes project\nAt the end of this session, you should have accomplished the following:\n\nYou used the command line to create a folder on your computer called recipes.\nYou used the command line to create a file called recipes.txt inside the recipes folder.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
+    "text": "This session\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter “Command Line” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the city-guide project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
     "objectID": "sessions/session02.html#learning-objectives",
     "href": "sessions/session02.html#learning-objectives",
     "title": "Command Line",
     "section": "Learning objectives",
-    "text": "Learning objectives\n💡 You can navigate directories using the command line. 💡 You can use shortcuts like the tilde or dots to navigate your file system. 💡 You can explain the difference between absolute and relative paths. 💡 You can use arguments and flags to modify command-line commands. 💡 You understand the concept of wild cards (*) and can use it for system navigation."
+    "text": "Learning objectives\nAt the end of this session, you should be able to answer the following questions and / or achieve the following learning objectives:\n💡 You can navigate directories using the command line. 💡 You can use shortcuts like the tilde or dots to navigate your file system. 💡 You can explain the difference between absolute and relative paths. 💡 You can use arguments and flags to modify command-line commands. 💡 You understand the concept of wild cards (*) and can use it for system navigation."
+  },
+  {
+    "objectID": "sessions/session02.html#var-course.project-project",
+    "href": "sessions/session02.html#var-course.project-project",
+    "title": "Command Line",
+    "section": "city-guide project",
+    "text": "city-guide project\nAt the end of this session, you should have accomplished the following:\n\nYou used the command line to create a folder on your computer called city-guide.\nYou used the command line to create a file called city-guide.txt inside the city-guide folder.\n\nPlease keep the city-guide folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/session02.html#slides",
     "href": "sessions/session02.html#slides",
     "title": "Command Line",
     "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\nHow can I download the slides as PDF?\n\n\n\n\n\nTo print the slides to PDF, do the following:\n\nToggle into Print View using the E key (or using the Navigation Menu).\nOpen the in-browser print dialog (CTRL/CMD+P).\nChange the Destination setting to Save as PDF.\nChange the Layout to Landscape.\nChange the Margins to None.\nEnable the Background graphics option.\nClick Save.\n\nNote: This feature has been confirmed to work in Google Chrome, Chromium as well as in Firefox.\nHere’s what the Chrome print dialog would look like with these settings enabled:\n\nThese instructions were copied from the Quarto documentation (MIT License) and slightly modified."
+    "text": "Slides\n\n\n\n\n\n\n\nHow can I download the slides as PDF?\n\n\n\n\n\nTo print the slides to PDF, do the following:\n\nToggle into Print View using the E key (or using the Navigation Menu).\nOpen the in-browser print dialog (CTRL/CMD+P).\nChange the Destination setting to Save as PDF.\nChange the Layout to Landscape.\nChange the Margins to None.\nEnable the Background graphics option.\nClick Save.\n\nNote: This feature has been confirmed to work in Google Chrome, Chromium as well as in Firefox.\nHere’s what the Chrome print dialog would look like with these settings enabled:\n\nThese instructions were copied from the Quarto documentation (MIT License) and slightly modified."
+  },
+  {
+    "objectID": "sessions/session02.html#cheatsheet",
+    "href": "sessions/session02.html#cheatsheet",
+    "title": "Command Line",
+    "section": "Cheatsheet",
+    "text": "Cheatsheet\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\npwd\nDisplays the path of the current working directory\n\n\ncd &lt;PATH&gt;\nChanges the current working directory to &lt;PATH&gt;\n\n\ncd ~\nChanges the current working directory to the user’s home directory\n\n\ncd ..\nMoves up one folder\n\n\ncd ../..\nMoves up two folders\n\n\nclear\nClears the contents of your command line window\n\n\nls\nLists files and folders in the current working directory\n\n\nls &lt;PATH&gt;\nLists files and folders in &lt;PATH&gt;\n\n\nls -a\nLists all files (including hidden files) in the current working directory\n\n\nls -alh\nLists all files in a long format that is easy to read for humans\n\n\n[Command] --help\nDisplays all possible flags for a specific command (on Windows)\n\n\nman [Command]\nDisplays all possible flags for a specific command (on macOS)\n\n\nmkdir &lt;FOLDER&gt;\nCreates a new folder called &lt;FOLDER&gt;\n\n\nmkdir &lt;FOLDER1&gt; &lt;FOLDER2&gt;\nCreates two separate folders called &lt;FOLDER1&gt; and &lt;FOLDER2&gt;\n\n\ntouch &lt;FILE&gt;\nCreates a new empty file called &lt;FILE&gt;\n\n\nopen &lt;FILE&gt;\nOpens the file called &lt;FILE&gt; (on macOS)\n\n\nstart &lt;FILE&gt;\nOpens the file called &lt;FILE&gt; (on Windows)\n\n\necho \"example text\" &gt;&gt; file.txt\nWrites “example text” into file.txt\n\n\ncat &lt;FILE&gt;\nDisplays the content of &lt;FILE&gt;\n\n\nmv FILE.txt &lt;FOLDER&gt;\nMove FILE.txt into &lt;FOLDER&gt;\n\n\nmv &lt;FOLDER_OLD&gt; &lt;FOLDER_NEW&gt;\nRenames &lt;FOLDER_OLD&gt; to &lt;FOLDER_NEW&gt;\n\n\nls -alh *.csv\nUses a wildcard to list all .csv files in the current working directory\n\n\nrm -r &lt;FOLDER&gt;\nRemoves the folder &lt;FOLDER&gt;\n\n\nhistory\nDisplay the command history of the current terminal session\n\n\nhistory &gt; history.txt\nSaves the entire command history to a file named history.txt (overwrites existing content in history.txt)\n\n\nhistory &gt;&gt; history.txt\nAdds the entire command history to the end of the file named history.txt\n\n\ntree\nDisplays a graphical representation of the directory structure\n\n\nwget &lt;URL&gt;\nDownloads a file from the specified  to the current directory"
   },
   {
     "objectID": "sessions/session03.html",
@@ -1547,6 +1512,90 @@
     "text": "Implementation Exercise\nCollaborate with pull requests (using “GUIs”)\n\nFind a partner.\nUsing a GUI, clone their repository if not already done (and pull the newest version).\nCreate a new branch.\nCreate a new file called crazy_recipe.txt or crazy_recipe.qmd.\nInput three random ingredients and two kitchen utensils.\nAdd and commit the changes.\nCreate a Pull Request.\nReview the Pull Request from your partner and create a coherent recipe.\nMerge the Pull Request.\n\n\n\nVersion Control Course"
   },
   {
+    "objectID": "sessions/slides_session05.html#schedule",
+    "href": "sessions/slides_session05.html#schedule",
+    "title": "Session 5: Branches",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2024-10-18\nIntroduction to version control\nOrganizational mattersOverview of seminar sessionsIntroduction to version controlIntroduction to Git and its advantages\n Intro to version control\nCourse introduction Survey\n\n\n2\n2024-10-25\nCommand line\nFile SystemsBenefits of the Command LineBasic Command Line commands\n Command Line\nCommand Line Quiz\n\n\n3\n2024-11-01\nQuarto Workshop\nIntroduction to Quarto\n\n\n\n\n4\n2024-11-08\nSetup + Git Fundamentals\nInstallation and configuration of GitInitializing a Git repositoryBasic Git commands\n Installation, Setup, First steps with Git\nInstallation Survey, Git Basics Quiz\n\n\n5\n2024-11-15\nBasic Git workflow\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n First steps with Git\nGit Basics Quiz\n\n\n6\n2024-11-22\nGit Branching and Merging\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflict\n Branches\nGit Branches Quiz\n\n\n7\n2024-11-29\nIntroduction to GitHub\nIntroduction to remote repositoriesCreating a GitHub accountCreating and managing repositories on GitHubPushing and pulling changes\n GitHub Intro\nGitHub Quiz\n\n\n8\n2024-12-06\nGitHub with collaborators\nCloning a remote repositoryBranching and merging in a collaborative environmentPull RequestsGitHub IssuesGraphical User Interfaces (GUIs), e.g., GitKraken\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n9\n2024-12-13\nGitHub with the world\nForking a remote repository README filesProject Management\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n10\n2025-12-20\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n11\n2025-01-10\nPublishing\nCreating Tags with GitCreating Releases with GitHubUsing Zenodo for scientific publishingLicencesCitation Files\n Tags and Releases\n\n\n\n12\n2025-01-17\nGraphical User Interfaces \nRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces\n\n\n\n13\n2025-01-24\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n14\n2025-01-31\nSummary & Wrap-Up\nCourse evaluationRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces"
+  },
+  {
+    "objectID": "sessions/slides_session05.html#last-week-first-steps-with-git-1",
+    "href": "sessions/slides_session05.html#last-week-first-steps-with-git-1",
+    "title": "Session 5: Branches",
+    "section": "Last week: First steps with Git",
+    "text": "Last week: First steps with Git\n lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html"
+  },
+  {
+    "objectID": "sessions/slides_session05.html#last-weeks-question-saving-command-line-history",
+    "href": "sessions/slides_session05.html#last-weeks-question-saving-command-line-history",
+    "title": "Session 5: Branches",
+    "section": "Last week’s question: Saving command line history?",
+    "text": "Last week’s question: Saving command line history?\nUse this:\n\nhistory &gt; history.txt\n\n https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history"
+  },
+  {
+    "objectID": "sessions/slides_session05.html#last-weeks-question-commit-.gitignore",
+    "href": "sessions/slides_session05.html#last-weeks-question-commit-.gitignore",
+    "title": "Session 5: Branches",
+    "section": "Last week’s question: Commit .gitignore?",
+    "text": "Last week’s question: Commit .gitignore?\nYes, commit your project-specific .gitignore file.\n https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#ignoring-files-and-folders-.gitignore"
+  },
+  {
+    "objectID": "sessions/slides_session05.html#last-weeks-learning-objectives",
+    "href": "sessions/slides_session05.html#last-weeks-learning-objectives",
+    "title": "Session 5: Branches",
+    "section": "Last week’s learning objectives",
+    "text": "Last week’s learning objectives\n\n\nSetup\n💡 You know how to set up Git for the first time 💡 You have set up Git on your computer 💡 You understand the difference between the three Git configuration levels 💡 You know how to configure your username and email address in Git 💡 You have set up your preferred text editor when working with Git 💡 You can escape the command-line text editor Vim\n\n\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes"
+  },
+  {
+    "objectID": "sessions/slides_session05.html#recap-best-practices-for-commit-messages",
+    "href": "sessions/slides_session05.html#recap-best-practices-for-commit-messages",
+    "title": "Session 5: Branches",
+    "section": "Recap: Best practices for commit messages",
+    "text": "Recap: Best practices for commit messages\n\n\n\n\n\nTry to keep commit messages short (less than 72 characters)\nUse present tense and start with an imperative verb to indicate the purpose of the commit, for example “add”, “fix”, “improve” (as if you are giving orders to the codebase to change its behavior)\n\n\nIf applied, this commit will … [your commit message]\n\n\nTry to describe why a change is being made\nLink specific issues that are addressed by your commit\nUse the description for more explanation and context"
+  },
+  {
+    "objectID": "sessions/slides_session05.html#todays-topic-branches-1",
+    "href": "sessions/slides_session05.html#todays-topic-branches-1",
+    "title": "Session 5: Branches",
+    "section": "Today’s topic: Branches",
+    "text": "Today’s topic: Branches\n\nFigure 1: Image from Chapter “Git Branches” of the “The Turing Way handbook to reproducible, ethical and collaborative data science”, used under a Creative Commons Attribution 4.0 License.\nIllustration of branches in a Git repository. Each circle represents a commit. Commits on the Main branch are shown in gray. The branch Feature A (blue circles) was created from the Main branch and later merged again. In-between, another branch Feature A-1 was created from the Feature A branch (green circles) and merged with that branch again before the Feature A branch was eventually merged with the Main branch. The branch Feature B was created but abandoned and not merged with the Main branch."
+  },
+  {
+    "objectID": "sessions/slides_session05.html#todays-chapter",
+    "href": "sessions/slides_session05.html#todays-chapter",
+    "title": "Session 5: Branches",
+    "section": "Today’s chapter",
+    "text": "Today’s chapter\n https://lennartwittkuhn.com/version-control-book/chapters/branches.html"
+  },
+  {
+    "objectID": "sessions/slides_session05.html#this-weeks-learning-objectives",
+    "href": "sessions/slides_session05.html#this-weeks-learning-objectives",
+    "title": "Session 5: Branches",
+    "section": "This weeks learning objectives",
+    "text": "This weeks learning objectives\n💡 You understand the purpose and benefits of using branches in Git. 💡 You can create and switch between branches. 💡 You can merge branches and resolve merge conflicts. 💡 You can name at least three best practices when working with branches."
+  },
+  {
+    "objectID": "sessions/slides_session05.html#your-turn",
+    "href": "sessions/slides_session05.html#your-turn",
+    "title": "Session 5: Branches",
+    "section": "Your turn",
+    "text": "Your turn\n\n\n Content Review: Read the chapter “Branches” in the Version Control Book.\n Implementation: Try out the commands in the chapter! Play around! Have fun!\nNote: We will do the implementation exercises in class together, step-by-step.\n Exercises: Complete the exercises in the survey.\n\n\n\nAsk questions!\nLet’s git started!\n\n\nand branch out"
+  },
+  {
+    "objectID": "sessions/slides_session05.html#implementation-exercises",
+    "href": "sessions/slides_session05.html#implementation-exercises",
+    "title": "Session 5: Branches",
+    "section": "Implementation Exercises",
+    "text": "Implementation Exercises\n\n\n1. Create and merge a branch\n\nCreate a new branch called feature.\nSwitch to your new branch.\nAdd a new recipe to your recipes text file.\nSwitch back to the default branch (main or master).\nMerge the feature branch with your default branch and delete the feature branch afterwards.\n\n\n\n\n2. Create and resolve a merge conflict\nDeliberately create a merge conflict by editing the same section of a file on two separate branches and attempting to merge them. An example can be found in the Version Control Book chapter. Resolve the merge conflict and delete the feature branch afterwards.\n\n\n\n3. Complete the branches quiz"
+  },
+  {
+    "objectID": "sessions/slides_session05.html#guis-1",
+    "href": "sessions/slides_session05.html#guis-1",
+    "title": "Session 5: Branches",
+    "section": "GUIs",
+    "text": "GUIs\n lennartwittkuhn.com/version-control-book/chapters/gui.html\n\n\n\nVersion Control Course"
+  },
+  {
     "objectID": "sessions/slides_session09.html#work-with-us-research-and-teaching-assistant-positions",
     "href": "sessions/slides_session09.html#work-with-us-research-and-teaching-assistant-positions",
     "title": "Session 9: GitHub - Collaboration",
@@ -1663,7 +1712,7 @@
     "href": "acknowledgements.html#website",
     "title": "Acknowledgements & Attribution",
     "section": "Website",
-    "text": "Website\n\nCode\nThis website is made with 🖤 and Quarto.\nThe source code for this website can be found on GitHub .\n\n\nImages\nImages are stored on Nextcloud (UHH Cloud). They can be retrieved using make images.\n\n\nClick here to view the full Makefile of this project.\n\n\n\n\nMakefile\n\nIMAGES_URL=https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG/download\nIMAGES_ARCHIVE=version-control-course.zip\nIMAGES_DIR=images/\n\n.PHONY: preview\npreview:\n    quarto preview\n\n.PHONY: render\nrender: clean images\n    quarto render\n\n.PHONY: deploy\ndeploy: clean images\n    quarto publish gh-pages\n\n.PHONY: images\nimages:\n    wget $(IMAGES_URL) -O $(IMAGES_ARCHIVE)\n    unzip -j -o $(IMAGES_ARCHIVE) -d $(IMAGES_DIR)\n    rm -f $(IMAGES_ARCHIVE)\n\n.PHONY: objectives\nobjectives: objectives.txt\n    rm -rf ./objectives\n    mkdir -p objectives\n    wget -P ./objectives -i objectives.txt  \n\n.PHONY: clean\nclean:\n    rm -rf _site $(IMAGES_DIR)*\n\n\n\nThe illustration on the homepage is an illustration created by Scriberia with The Turing Way community. It is used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.\n\n\nFont\nThis website uses the Atkinson Hyperlegible font. Copyright © 2020, Braille Institute of America, Inc., https://www.brailleinstitute.org/freefont with Reserved Typeface Name Atkinson Hyperlegible Font. Details of the license can be found here.\n\n\nAnalytics\nWe use Plausible for website analytics. Plausible is an “intuitive, lightweight and open source web analytics”, does not use cookies and is fully compliant with GDPR, CCPA and PECR.\n\n\nLicense\nAll contents are licensed under CC BY 4.0, unless indicated otherwise.\n\n\nContact\nDid you spot an error? Is there an issue with the website? Do you have feedback, questions or comments? We would love to hear from you! Open an issue on GitHub or write an email."
+    "text": "Website\n\nCode\nThis website is made with 🖤 and Quarto.\nThe source code for this website can be found on GitHub .\n\n\nImages\nImages are stored on Nextcloud (UHH Cloud). They can be retrieved using make images.\n\n\nClick here to view the full Makefile of this project.\n\n\n\n\nMakefile\n\nIMAGES_URL=https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG/download\nIMAGES_ARCHIVE=version-control-course.zip\nIMAGES_DIR=images/\nCHEATSHEET_URL=https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/cheatsheet.json\n\n.PHONY: preview\npreview:\n    quarto preview\n\n.PHONY: render\nrender: clean images\n    quarto render\n\n.PHONY: deploy\ndeploy: clean images\n    quarto publish gh-pages\n\n.PHONY: images\nimages:\n    wget $(IMAGES_URL) -O $(IMAGES_ARCHIVE)\n    unzip -j -o $(IMAGES_ARCHIVE) -d $(IMAGES_DIR)\n    rm -f $(IMAGES_ARCHIVE)\n\n.PHONY: objectives\nobjectives: objectives.txt\n    rm -rf ./objectives\n    mkdir -p objectives\n    wget -P ./objectives -i objectives.txt  \n\n.PHONY: exercises\nexercises: exercises.txt\n    rm -rf ./exercises\n    mkdir -p exercises\n    wget -P ./exercises -i exercises.txt \n\n.PHONY: cheatsheet\ncheatsheet:\n    rm -rf cheatsheet.json\n    wget $(CHEATSHEET_URL)\n\n.PHONY: clean\nclean:\n    rm -rf _site $(IMAGES_DIR)*\n\n\n\nThe illustration on the homepage is an illustration created by Scriberia with The Turing Way community. It is used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.\n\n\nFont\nThis website uses the Atkinson Hyperlegible font. Copyright © 2020, Braille Institute of America, Inc., https://www.brailleinstitute.org/freefont with Reserved Typeface Name Atkinson Hyperlegible Font. Details of the license can be found here.\n\n\nAnalytics\nWe use Plausible for website analytics. Plausible is an “intuitive, lightweight and open source web analytics”, does not use cookies and is fully compliant with GDPR, CCPA and PECR.\n\n\nLicense\nAll contents are licensed under CC BY 4.0, unless indicated otherwise.\n\n\nContact\nDid you spot an error? Is there an issue with the website? Do you have feedback, questions or comments? We would love to hear from you! Open an issue on GitHub or write an email."
   },
   {
     "objectID": "about.html",
