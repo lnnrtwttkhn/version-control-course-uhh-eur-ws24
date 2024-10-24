@@ -16,7 +16,7 @@ create_schedule <- function() {
   library("data.table")
   variables <- yaml::read_yaml("_schedule.yml")
   current_date <- Sys.Date()
-  session_url <- "https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session%s"
+  session_url <- "https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/sessions/session%s"
   variables_padded = pad_list(variables)
   dt_load <- data.table::rbindlist(variables_padded, fill = TRUE, idcol = "session")
   cols = c("contents")
