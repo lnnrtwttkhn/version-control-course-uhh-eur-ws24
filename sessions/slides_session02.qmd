@@ -45,6 +45,28 @@ After the last session, you should now be able to answer the following questions
 ### Any questions?
 :::
 
+## Homework
+
+::::: {.fragment}
+### 1. Check if you have Git / a command line installed
+:::: {.columns}
+::: {.column width="50%"}
+#### Windows Users {{< fa brands windows >}}
+
+- Download and install [Git for Windows](https://gitforwindows.org)
+- You can find a tutorial in the [Version Control Book](https://lennartwittkuhn.com/version-control-book/chapters/installation.html)
+:::
+
+::: {.column width="50%"}
+#### Apple {{< fa brands apple >}} or Linux Users {{< fa brands linux >}} 
+
+- Download and install [Git](https://git-scm.com) (might already be installed)
+- You can find a tutorial in our [Version Control Book](https://lennartwittkuhn.com/version-control-book/chapters/installation.html)
+
+:::
+::::
+:::::
+
 # {{< meta session-title >}}
 
 ## Pair Programming (variant)
