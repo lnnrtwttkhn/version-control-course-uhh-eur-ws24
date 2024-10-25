@@ -308,6 +308,13 @@
     "text": "Last week’s learning objectives\nAfter the last session, you should now be able to answer the following questions:\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub.\n\n\nAny questions?"
   },
   {
+    "objectID": "sessions/slides_session02.html#homework",
+    "href": "sessions/slides_session02.html#homework",
+    "title": "Session 2: Basics of the Command Line",
+    "section": "Homework",
+    "text": "Homework\n\n\n1. Check if you have Git / a command line installed\n\n\nWindows Users \n\nDownload and install Git for Windows\nYou can find a tutorial in the Version Control Book\n\n\nApple  or Linux Users \n\nDownload and install Git (might already be installed)\nYou can find a tutorial in our Version Control Book"
+  },
+  {
     "objectID": "sessions/slides_session02.html#pair-programming-variant",
     "href": "sessions/slides_session02.html#pair-programming-variant",
     "title": "Session 2: Basics of the Command Line",
