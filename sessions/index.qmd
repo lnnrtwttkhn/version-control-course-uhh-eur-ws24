@@ -5,7 +5,7 @@ listing:
   contents:
     - "session01.qmd"
     - "session02.qmd"
-    # - "session03.qmd"
+    - "session03.qmd"
     # - "session04.qmd"
     # - "session05.qmd"
     # - "session06.qmd"

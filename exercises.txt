@@ -4,10 +4,13 @@ https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/ma
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-cli-city-guide.sh
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/exercises/_exercises-setup.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/exercises/_solutions-setup.qmd
-https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-setup.sh
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-setup-recipes.sh
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-setup-city-guide.sh
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/exercises/_exercises-first-steps-git.qmd
-https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/exercises/_solutions-first-steps-git.qmd
-https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-first-steps-git.sh
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/exercises/_solutions-first-steps-git-recipes.qmd
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/exercises/_solutions-first-steps-git-city-guide.qmd
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-first-steps-git-recipes.sh
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-first-steps-git-city-guide.sh
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/exercises/_exercises-essentials-amend.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/exercises/_solutions-essentials-amend.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-essentials-amend.sh

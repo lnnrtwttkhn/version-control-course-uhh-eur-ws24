@@ -5,8 +5,7 @@ format: revealjs
 metadata-files:
   - _slides.yml
 session-title: "Basics of the Command Line"
-chapter-title: "Command Line"
-chapter-url: https://lennartwittkuhn.com/version-control-book/chapters/command-line.html
+chapter: "[Command Line](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html)"
 quiz-url: https://version-control-cli.formr.org/
 ---
 
@@ -104,7 +103,7 @@ After the last session, you should now be able to answer the following questions
 
 ## Reading
 
-{{< fa display >}} [{{< meta chapter-url >}}]({{< meta chapter-url >}})
+{{< fa display >}} {{< meta chapter >}}
 
 ```{=html}
 <iframe width="100%" height="80%" src="{{< meta chapter-url >}}"></iframe>

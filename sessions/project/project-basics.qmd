@@ -1,0 +1,8 @@
+At the end of this session, you should have accomplished the following:
+
+1. You set up Git.
+1. You initialized your `{{< var course.project >}}` folder as a Git repository.
+1. You committed your first file to the `{{< var course.project >}}` repository.
+
+Please keep the `{{< var course.project >}}` folder!
+We will continue to use it in the following sessions.

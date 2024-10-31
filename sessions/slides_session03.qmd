@@ -1,10 +1,16 @@
 ---
 title: "Session 3: First steps with Git"
-date: 2024-04-22T12:15
+date: 2024-11-01T10:15
 format: revealjs
 metadata-files:
   - _slides.yml
+session-title: "First steps with Git"
+chapter: |
+  ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) and ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
+quiz-url: https://version-control-cli.formr.org/
 ---
+
+# Logistics & Admin
 
 ## Schedule
 
@@ -16,13 +22,13 @@ metadata-files:
 create_schedule()
 ```
 
-# Last week: The command line
+# Last session: The command line
 
-## Last week: The command line
+## Last session: The command line
 
 ![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
 
-## Last week's learning objectives
+## Last session's learning objectives
 
 After the last session, you should now be able to answer the following questions / do the following:
 
@@ -30,31 +36,23 @@ After the last session, you should now be able to answer the following questions
 
 ::: {.fragment}
 
-### `recipes` project
+### `{{< var course.project >}}` project
 
-At the end of last week's session, you should have accomplished the following:
-
-1. You used the command line to create a folder on your computer called `recipes`.
-1. You used the command line to create a file called `recipes.txt` inside the `recipes` folder.
-
-Please keep the `recipes` folder!
-We will continue to use it in the following sessions.
+{{< include project/project-cli.qmd >}}
 
 :::
 
-## Command Line Quiz Results
+# This session: {{< meta session-title >}}
 
-# This week: First steps with Git
+## Reading
 
-## Today's chapter
-
-{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
+{{< fa display >}} {{< meta chapter >}}
 
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
 ```
 
-## This and next week's learning objectives
+## Learning objectives
 
 ::: {.fragment}
 ### Setup
@@ -70,35 +68,72 @@ We will continue to use it in the following sessions.
 Note: These are the learning objectives for this and next week.
 :::
 
-## Your turn
+## Tasks
 
-::: {.incremental}
-1. {{< fa book-open >}} **Content Review**: Read the chapters ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) and ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book
-1. {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!
-1. **Note:** We will do the implementation exercises in class together, step-by-step.
-:::
+{{< include tasks-template.qmd >}}
 
-::: {.fragment}
-Ask questions!
+## `{{< var course.project >}}` project
 
-Let's *git* started!
-:::
-
-## Implementation exercises
+{{< include project/project-basics.qmd >}}
 
 ::: {.fragment}
-:memo: Set your Git username and email address.<br>
-:memo: Change the default name of the initial "branch".<br>
-:rocket: Optional: Change your default text editor.
+
+### Today's team topic
+
+- Interview each other about your favorite **cultural place** (e.g., museum, art gallery, cultural center)
+- Add the recommendation *of your partner* to your text file.
+- Help each other in completing the exercises.
+
 :::
 
-::: {.fragment}
-:memo: **Setup:** Create a `recipes` folder and **turn it into a Git repository.** <br>
-:memo: **Add Content:** Write down a *short* recipe (any favorite or an intriguing AI-generated one) in `recipes.txt`. <br>
-:memo: **Save Changes:**  Stage and commit your changes to the repository. <br>
+## Conversation starter
+
+:::: {.columns}
+::: {.column width="50%"}
+
+1. Your name?
+1. Are you based in Hamburg or Rotterdam?
+1. A (fun) fact about you? For example:
+    - What did you study before and where?
+    - What do you expect from this course?
+    - What's your hobby?
+    - Do you have a pet?
+    - What's your favorite color?
+    - Your mood on a cat scale?
+    
 :::
+::: {.column width="50%"}
+::: {.fragment}
+![](../images/mood-cat.png){fig-alt="Mood on a cat scale." width="50%"}
+:::
+:::
+::::
+
+## Exercises
+
+### Configure Git
+
+{{< include ../exercises/_exercises-setup.qmd >}}
+
+{{< include ../exercises/_exercises-first-steps-git.qmd >}}
 
 ::: {.fragment}
 Note: There are several terms in these instructions that might still be unfamiliar to you, for example "repository", "stage" or "commit".
 Don't worry, you will learn about what these terms mean in the chapters.
 :::
+
+## Solutions: Setup
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-setup-city-guide.sh
+```
+{{< include ../exercises/_solutions-setup.qmd >}}
+
+## Solutions: First steps with Git
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-first-steps-git-city-guide.sh
+```
+{{< include ../exercises/_solutions-first-steps-git-city-guide.qmd >}}

@@ -1,7 +1,7 @@
 ---
 title: "First steps with Git"
 subtitle: "Session 03"
-date: 2024-04-22T12:15
+date: 2024-11-01T10:15
 metadata-files:
   - _sessions.yml
 about:
@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session03.html
+      href: https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/sessions/slides_session03.html
       aria-label: display
     - icon: book
       text: "Chapter: Installation"
@@ -33,6 +33,9 @@ about:
     #   text: "Survey: Git Basics"
     #   href: https://version-control-basics.formr.org/
     #   aria-label: input-cursor-text
+chapter: |
+  ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) and ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
+quiz-url: https://version-control-basics.formr.org/
 ---
 
 ::: {#hero-heading}
@@ -40,72 +43,57 @@ about:
 
 ## This session
 
-In this session, you will complete the following tasks:
-
-1. Read the chapters ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) and ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book.
-1. Complete the exercises for the [`recipes` project](#recipes-project) in the ["Setup" chapter](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) and ["First steps with Git" chapter](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book
-
-As always:
-
-1. Try out the commands in the chapters and play around with them.
-1. Check whether you have achieved the [learning objectives](#learning-objectives).
-
-## `recipes` project
-
-At the end of this session, you should have accomplished the following:
-
-1. You set up Git.
-1. You initialized your `recipes` folder as a Git repository.
-1. You committed your first recipe to the `recipes` repository.
-
-Please keep the `recipes` folder!
-We will continue to use it in the following sessions.
+{{< include tasks-template.qmd >}}
 
 ## Learning objectives
 
+### Setup
+
 {{< include ../objectives/_objectives-setup.qmd >}}
+
+### First steps with Git
 
 {{< include ../objectives/_objectives-firststeps.qmd >}}
 
-## Slides
+## `{{< var course.project >}}` project
 
-{{< include _print-to-pdf.qmd >}}
+{{< include project/project-basics.qmd >}}
+
+## Exercises
+
+### Configure Git
+
+{{< include ../exercises/_exercises-setup.qmd >}}
+
+{{< include ../exercises/_exercises-first-steps-git.qmd >}}
+
+## Slides
 
 ```{=html}
 <iframe width="100%" height=500 src="slides_session03.html"></iframe>
 ```
 
-## Email
+{{< include _print-to-pdf.qmd >}}
 
-Dear course participants,
+## Cheatsheet
 
-You are receiving this email because you are enrolled in the course "{{< var course.title >}}", which is taking place this summer semester at the University of Hamburg.
-This is one of the few occasions when we will ask you to complete additional tasks outside of class time.
 
-First, we hope that your initial explorations of the command line were intriguing and insightful.
-Regarding this session's contents, we kindly ask you to complete the following tasks:
+### Setup
 
-1. Finish reviewing the chapter about the command line and explore the various commands
-1. Complete the exercises/quiz questions in this online survey: <https://version-control-cli.formr.org/>
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "config"), format = "markdown", row.names = FALSE)
+```
 
-We are very much looking forward to our next session on Monday when we will take our first steps in using Git!
-For this session, it is important that you verify whether Git is installed on your computer.
-To do this, we kindly ask you to complete the following tasks before our next meeting:
+### First steps with Git
 
-1. If you haven't yet completed the installation, please install Git.
-The Version Control Book provides a chapter about "Installation" which should help you with the installation process: <https://lennartwittkuhn.com/version-control-book/chapters/installation.html>
-Send us an email if you encounter any problems during the installation process.
-1. Everyone: Please complete our (short) survey regarding the installation process: <https://version-control-installation.formr.org>
-
-Please ensure that you complete the surveys before our next session, ideally by Sunday evening at the latest.
-This will give us enough time to review your responses before our session on Monday.
-
-Further information about the course can be found on our course website: <https://lennartwittkuhn.com/version-control-course-uhh-ss24/>
-
-If you encounter any issues or have any questions, please feel free to contact us directly via email.
-
-We are looking forward to seeing you for the next session on Monday!
-
-Best wishes,
-
-Lennart Wittkuhn (Instructor) & Konrad Pagenstedt (Teaching Assistant)
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = FALSE)
+```
