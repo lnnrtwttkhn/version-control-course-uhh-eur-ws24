@@ -21,8 +21,7 @@ about:
       text: Exercises
       href: https://version-control-cli.formr.org/
       aria-label: input-cursor-text
-chapter-title: "Command Line"
-chapter-url: https://lennartwittkuhn.com/version-control-book/chapters/command-line.html
+chapter: "[Command Line](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html)"
 quiz-url: https://version-control-cli.formr.org/
 ---
 
