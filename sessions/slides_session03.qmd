@@ -104,7 +104,7 @@ Note: These are the learning objectives for this and next week.
 :::
 ::: {.column width="50%"}
 ::: {.fragment}
-![](../images/mood-cat.png){fig-alt="Mood on a cat scale." width="50%"}
+![](../images/mood-cat.png){fig-alt="Mood on a cat scale."}
 :::
 :::
 ::::
