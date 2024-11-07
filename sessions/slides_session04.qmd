@@ -33,7 +33,7 @@ quiz-url: https://version-control-basics.formr.org/
 <iframe width="100%" height="75%" src="https://quarto.org/" style="border:2px solid black;" title="Quarto website"></iframe>
 ```
 
-## More questions from last week
+## More questions from last session
 
 ::: fragment
 #### {{< fa circle-question >}} *"How can I enable copy-paste in Git Bash?"*
@@ -55,6 +55,26 @@ quiz-url: https://version-control-basics.formr.org/
 #### {{< fa circle-question >}} *"What should my `{{< var course.project >}}` folder look like?"*
 At least, a folder with `{{< var course.project >}}.txt` inside with at least one commit.
 :::
+
+## Even more questions from last session
+
+::: fragment
+#### {{< fa circle-question >}} *"How can I check if my folder is a Git repository?"*
+- Use `ls -a` (to also show hidden files) and look for the `.git` folder
+:::
+
+::: fragment
+#### {{< fa circle-question >}} *"The command line does not give feedback!"*
+- Yes, I'm sorry ...
+- Example: After `mkdir city-guide`, use `ls` to check if the `/city-guide` folder was created.
+:::
+
+::: fragment
+#### {{< fa circle-question >}} *"Why can't I see my repository on my GitHub account?"*
+- You need to explicitly connect the repository on your computer to GitHub.
+- We will cover this topic in the sessions about GitHub (see schedule).
+:::
+
 
 # Last session: Setup and first steps with Git
 
