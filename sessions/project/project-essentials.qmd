@@ -1,0 +1,12 @@
+At the end of this session, you should have accomplished the following:
+
+1. Commit at least three changes in `{{< var course.project >}}.txt`.
+1. Make at least one commit using `git commit --amend`.
+    - For example, add a a new entry without a title first, commit, then add a title and use `git commit --amend` to add the title change to the same commit.
+1. Create a `.gitignore` file.
+    - Everyone: Create a random file that you want to ignore, for example `image.jpg`.
+    - All macOS users: Let your repository ignore `.DS_Store`.
+1. :rocket: Optional: Commit `.gitkeep` in an otherwise empty directory.
+
+Please keep the `{{< var course.project >}}` folder!
+We will continue to use it in the following sessions.

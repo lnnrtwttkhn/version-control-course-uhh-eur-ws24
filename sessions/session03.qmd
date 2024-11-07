@@ -77,7 +77,6 @@ quiz-url: https://version-control-basics.formr.org/
 
 ## Cheatsheet
 
-
 ### Setup
 
 ```{r}
