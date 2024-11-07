@@ -1,7 +1,7 @@
 ---
 title: "Basic Git workflow"
 subtitle: "Session 04"
-date: 2024-04-29T12:15
+date: 2024-11-08T10:15
 metadata-files:
   - _sessions.yml
 about:
@@ -11,16 +11,23 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session04.html
+      href: https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/sessions/slides_session04.html
       aria-label: display
     - icon: book
       text: "Chapter: First steps with Git"
       href: https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html
       aria-label: book
+    - icon: book
+      text: "Chapter: Git Essentials"
+      href: https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html
+      aria-label: book
     - icon: input-cursor-text
       text: Quiz
       href: https://version-control-basics.formr.org/
       aria-label: input-cursor-text
+chapter: |
+  ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) and ["Git Essentials"](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)
+quiz-url: https://version-control-basics.formr.org/
 ---
 
 ::: {#hero-heading}
@@ -28,41 +35,60 @@ about:
 
 ## This session
 
-In this session, you will complete the following tasks:
-
-1. Complete the chapter ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book.
-1. Complete the exercises for the [`recipes` project](#recipes-project).
-1. Complete the [quiz](https://version-control-basics.formr.org/).
-
-As always:
-
-1. Try out the commands in the chapter and play around with them.
-1. Check whether you have achieved the [learning objectives](#learning-objectives).
-
-## `recipes` project
-
-At the end of this session, you should have accomplished the following:
-
-1. Commit at least three changes in `recipes.txt`.
-1. Make at least one commit using `git commit --amend`.
-    - For example, add a recipe without a title first, commit, then add a title and use `git commit --amend` to add the title change to the same commit.
-1. Create a `.gitignore` file
-    - Everyone: Create a random file that you want to ignore, for example `random-file.docx`.
-    - All macOS users: Let your repository ignore `.DS_Store`
-1. :rocket: Optional: Commit `.gitkeep` in an otherwise empty directory
-
-Please keep the `recipes` folder!
-We will continue to use it in the following sessions.
+{{< include tasks-template.qmd >}}
 
 ## Learning objectives
 
+### First steps with Git
+
 {{< include ../objectives/_objectives-firststeps.qmd >}}
 
-## Slides
+### Git Essentials
 
-{{< include _print-to-pdf.qmd >}}
+{{< include ../objectives/_objectives-essentials.qmd >}}
+
+## `{{< var course.project >}}` project
+
+{{< include project/project-essentials.qmd >}}
+
+## Exercises
+
+{{< include ../exercises/_exercises-first-steps-git.qmd >}}
+
+### Amend a commit
+
+{{< include ../exercises/_exercises-essentials-amend.qmd >}}
+
+### Create a `.gitignore` file
+
+{{< include ../exercises/_exercises-essentials-gitignore.qmd >}}
+
+## Slides
 
 ```{=html}
 <iframe width="100%" height=500 src="slides_session04.html"></iframe>
 ```
 
+{{< include _print-to-pdf.qmd >}}
+
+## Cheatsheet
+
+### First steps with Git
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = FALSE)
+```
+
+### Git Essentials
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "essentials"), format = "markdown", row.names = FALSE)
+```

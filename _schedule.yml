@@ -34,11 +34,6 @@ session03:
     - "[Installation Survey](https://version-control-installation.formr.org), [Git Basics Quiz](https://version-control-basics.formr.org)"
 session04:
   date: 2024-11-08
-  title: "Quarto Workshop"
-  contents:
-    - "Introduction to [Quarto](https://quarto.org)"
-session05:
-  date: 2024-11-15
   title: "Basic Git workflow"
   contents:
     - "Practicing basic Git commands"
@@ -46,6 +41,17 @@ session05:
     - "Good commit messages"
   reading:
     - "[First steps with Git](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)"
+  survey:
+    - "[Git Basics Quiz](https://version-control-basics.formr.org)"
+session05:
+  date: 2024-11-15
+  title: "Repetition & Practice"
+  contents: 
+    - "Practicing basic Git commands"
+    - "Ignoring files with .gitignore"
+    - "Good commit messages"
+  reading:
+    - "[Git Essentials](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)"
   survey:
     - "[Git Basics Quiz](https://version-control-basics.formr.org)"
 session06:
@@ -62,6 +68,11 @@ session06:
     - "[Git Branches Quiz](https://version-control-branches.formr.org)"
 session07:
   date: 2024-11-29
+  title: "Quarto Workshop"
+  contents:
+    - "Introduction to [Quarto](https://quarto.org)"
+session08:
+  date: 2024-11-06
   title: "Introduction to GitHub"
   contents:
     - "Introduction to remote repositories"
@@ -72,8 +83,8 @@ session07:
     - "[GitHub Intro](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html)"
   survey:
     - "[GitHub Quiz](https://version-control-github.formr.org)"
-session08:
-  date: 2024-12-06
+session09:
+  date: 2024-12-13
   title: "GitHub with collaborators"
   contents:
     - "Cloning a remote repository"
@@ -85,8 +96,13 @@ session08:
     - "[GitHub Intro](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html), [GitHub Issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)"
   survey:
     - "[GitHub Quiz](https://version-control-github.formr.org)"
-session09:
-  date: 2024-12-13
+session10:
+  date: 2024-12-20
+  title: "Repetition and Practice"
+  contents:
+    - "Repetition and Practice"
+session11:
+  date: 2025-01-10
   title: "GitHub with the world"
   contents:
     - "Forking a remote repository "
@@ -96,13 +112,8 @@ session09:
     - "[GitHub Intro](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html), [GitHub Issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)"
   survey:
     - "[GitHub Quiz](https://version-control-github.formr.org)"
-session10:
-  date: 2025-12-20
-  title: "Repetition and Practice"
-  contents:
-    - "Repetition and Practice"
-session11:
-  date: 2025-01-10
+session12:
+  date: 2025-01-17
   title: "Publishing" 
   contents:
     - "Creating Tags with Git"
@@ -112,19 +123,19 @@ session11:
     - "Citation Files"
   reading:
     - "[Tags and Releases](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)"
-session12:
-  date: 2025-01-17
-  title: "Graphical User Interfaces "
+session13:
+  date: 2025-01-24
+  title: "Graphical User Interfaces"
   contents:
     - "Repetition and Practice"
     - "Introduction to using GUIs"
   reading:
     - "[Graphical User Interfaces](https://lennartwittkuhn.com/version-control-book/chapters/gui.html)"
-session13:
-  date: 2025-01-24
-  title: "Repetition and Practice"
-  contents:
-    - "Repetition and Practice"
+# session13:
+#   date: 2025-01-31
+#   title: "Repetition and Practice"
+#   contents:
+#     - "Repetition and Practice"
 session14:
   date: 2025-01-31
   title: "Summary & Wrap-Up"
