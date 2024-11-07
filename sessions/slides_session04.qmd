@@ -79,22 +79,23 @@ At least, a folder with `{{< var course.project >}}.txt` inside with at least on
 
 ::: fragment
 #### {{< fa circle-exclamation >}} Make sure that there is no Git repository in your home directory!
-- Your home directory is at `/Users/yourname` (macOS) or `C:\Users\yourname` (Windows)
-- There should be no `git` folder in your home directory (check with `ls -a`; see previous slide)
-- If you find a `.git` folder in your home directory, **don't do anything and talk to us!**
+- Your home directory is at `/Users/yourname` (macOS) or `C:\Users\yourname` (Windows).
+- There should be no `.git` folder in your home directory (check with `ls -a`; see previous slide).
+- If you find a `.git` folder in your home directory, **don't do anything and talk to us first!**
+- We want to make sure that you don't accidentally track files in Git that you don't want to track.
 :::
 
 ::: fragment
 #### {{< fa circle-exclamation >}} After you open a fresh terminal, you always need to navigate to your repository first!
 - Yes, I'm sorry ...
-- Use `pwd` to check your current location and `cd` to move to another directory
+- Use `pwd` to check your current location and `cd` to move to another directory.
 :::
 
 ::: fragment
 #### {{< fa circle-exclamation >}} Use a Git `user.name` and `user.email` that you are comfortable with
-- We will eventually practice to share Git repositories publicly on GitHub
-- Your `user.name` and `user.email` will be part of your commit history
-- A public repository will therefore reveal your `user.name` and `user.email`
+- We will eventually practice to share Git repositories publicly on GitHub.
+- Your `user.name` and `user.email` will be part of your commit history.
+- A public repository will therefore reveal your `user.name` and `user.email`.
 :::
 
 # Last session: Setup and first steps with Git
