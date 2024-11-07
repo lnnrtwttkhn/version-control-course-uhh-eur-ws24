@@ -1,18 +1,16 @@
 ---
 title: "Session 4: Basic Git workflow"
-date: 2024-04-29T12:15
+date: 2024-11-08T10:15
 format: revealjs
 metadata-files:
   - _slides.yml
+session-title: "Basic Git workflow"
+chapter: |
+  ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) and ["Git Essentials"](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)
+quiz-url: https://version-control-basics.formr.org/
 ---
 
 # Admin
-
-## {{< fa circle-question >}} How can I download the slides as PDF?
-
-Instructions can now be found above the slides on the course website:
-
-{{< include _print-to-pdf.qmd >}}
 
 ## {{< fa circle-question >}} When do I have to "Take the quiz"?
 
@@ -38,12 +36,6 @@ Instructions can now be found above the slides on the course website:
 ## More questions from last week
 
 ::: fragment
-#### {{< fa circle-question >}} *"Where can I find an overview of all the commands we learned about?"*
-
-See the **Cheatsheet** section at the end of each chapter in the Version Control Book.
-:::
-
-::: fragment
 #### {{< fa circle-question >}} *"How can I enable copy-paste in Git Bash?"*
 
 1.    Click on the Git Bash icon in the top-left corner.
@@ -60,11 +52,11 @@ See the **Cheatsheet** section at the end of each chapter in the Version Control
 :::
 
 ::: fragment
-#### {{< fa circle-question >}} *"What should my `recipes` folder look like?"*
-At least, a folder with `recipes.txt` inside with at least one commit.
+#### {{< fa circle-question >}} *"What should my `{{< var course.project >}}` folder look like?"*
+At least, a folder with `{{< var course.project >}}.txt` inside with at least one commit.
 :::
 
-# Last week: Setup and first steps with Git
+# Last session: Setup and first steps with Git
 
 ## Schedule
 
@@ -76,14 +68,16 @@ At least, a folder with `recipes.txt` inside with at least one commit.
 create_schedule()
 ```
 
-## Last week: Setup and first steps with Git
+## Last session: Setup and first steps with Git
 
 {{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
 ```
 
-## Last and this week's learning objectives
+## Last and (partly) this session's learning objectives
+
+After the last session, you should now be able to answer the following questions / do the following:
 
 ::: fragment
 ### Setup
@@ -97,9 +91,95 @@ create_schedule()
 {{< include ../objectives/_objectives-firststeps.qmd >}}
 :::
 
-::: fragment
-Note: These are the learning objectives for this and next week.
+::: {.fragment}
+
+### `{{< var course.project >}}` project
+
+{{< include project/project-basics.qmd >}}
+
 :::
+
+# Live demonstrations
+
+# This session: {{< meta session-title >}}
+
+## Reading
+
+{{< fa display >}} {{< meta chapter >}}
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
+```
+
+## Learning objectives
+
+### First steps with Git
+
+{{< include ../objectives/_objectives-firststeps.qmd >}}
+
+### Git Essentials
+
+{{< include ../objectives/_objectives-essentials.qmd >}}
+
+## Tasks
+
+{{< include tasks-template.qmd >}}
+
+## `{{< var course.project >}}` project
+
+{{< include project/project-essentials.qmd >}}
+
+::: {.fragment}
+
+### Today's team topic
+
+- Interview each other about your favorite **café**.
+- Add the recommendation *of your partner* to your text file.
+- Help each other in completing the exercises.
+
+:::
+
+## Conversation starter
+
+:::: {.columns}
+::: {.column width="50%"}
+
+1. Your name?
+1. Are you based in Hamburg or Rotterdam?
+1. A (fun) fact about you? For example:
+    - What did you study before and where?
+    - What do you expect from this course?
+    - What's your hobby?
+    - Do you have a pet?
+    - What's your favorite color?
+    - Your mood on a paintings scale?
+    
+:::
+::: {.column width="50%"}
+::: {.fragment}
+![](../images/paintings_moodscale.jpg)
+:::
+:::
+::::
+
+
+## Exercises 1
+
+{{< include ../exercises/_exercises-first-steps-git.qmd >}}
+
+## Exercises 2
+
+### Amend a commit
+
+{{< include ../exercises/_exercises-essentials-amend.qmd >}}
+
+## Exercises 3
+
+### Create a `.gitignore` file
+
+{{< include ../exercises/_exercises-essentials-gitignore.qmd >}}
+
+# Appendix
 
 ## Staging and Committing
 
@@ -187,8 +267,6 @@ Date:   Wed Mar 6 13:51:07 2024 +0100
 
 ## Terminology: What are "branches"?
 
-See next week!
-
 {{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/branches.html](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)
 
 ```{=html}
@@ -202,44 +280,3 @@ See next week!
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#head" title="Version Control Book"></iframe>
 ```
-
-# Live demonstrations
-
-# This week
-
-## Today's chapter
-
-{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
-
-```{=html}
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#logging-commits" title="Version Control Book"></iframe>
-```
-
-## Your turn
-
-::: incremental
-1.  {{< fa book-open >}} **Content Review**: Read the chapter ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book. Start at "Logging commits"
-2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!
-4.  {{< fa dumbbell >}} **Exercises**: Complete the implementation exercises (see below).
-4.  {{< fa lightbulb >}} **Quiz**: Complete the [online quiz](https://version-control-basics.formr.org/).
-:::
-
-::: fragment
-### Implementation Exercises
-
-1. Commit at least three changes in `recipes.txt`.
-1. Make at least one commit using `git commit --amend`.
-    - For example, add a recipe without a title first, commit, then add a title and use `git commit --amend` to add the title change to the same commit.
-1. Create a `.gitignore` file
-    - Everyone: Create a random file that you want to ignore, for example `random-file.docx`.
-    - All macOS users: Let your repository ignore `.DS_Store`
-1. :rocket: Optional: Commit `.gitkeep` in an otherwise empty directory
-:::
-
-::: fragment
-Ask questions!
-
-Let's *git* started!
-:::
-
-
