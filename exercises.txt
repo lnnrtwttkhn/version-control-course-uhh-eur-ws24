@@ -13,10 +13,12 @@ https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/ma
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-first-steps-git-city-guide.sh
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/exercises/_exercises-essentials-amend.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/exercises/_solutions-essentials-amend.qmd
-https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-essentials-amend.sh
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-essentials-amend-recipes.sh
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-essentials-amend-city-guide.sh
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/exercises/_exercises-essentials-gitignore.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/exercises/_solutions-essentials-gitignore.qmd
-https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-essentials-gitignore.sh
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-essentials-gitignore-recipes.sh
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-essentials-gitignore-city-guide.sh
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/exercises/_exercises-branches.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/exercises/_solutions-branches.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-branches.sh

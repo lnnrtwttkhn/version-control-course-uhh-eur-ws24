@@ -15,19 +15,15 @@ quiz-url: https://version-control-basics.formr.org/
 ## {{< fa circle-question >}} When do I have to "Take the quiz"?
 
 - Many chapters contain a "Take the quiz!" button
-- These are the same quizzes that we assign to your as part of the sessions' learning objectives
-- TL;DR: Take the quiz when we tell you
-
-{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
-
-```{=html}
-<iframe width="100%" height="60%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" style="border:2px solid black;" title="Version Control Book"></iframe>
-```
+- These are the same quizzes that we assign to your as part of the sessions' learning objectives.
+- **Take the quiz when you feel ready**, i.e., when you believe that **you reached the learning objectives**.
+- Alternative: We'll let you know during the course when we think it's a good time to take the quiz.
+- Remember: The quizzes are part of your **mandatory** course work!
 
 ## {{< fa circle-question >}} Will we also learn about Python or R?
 
 - No, not directly, but you are free to use Git to track Python or R files that you use for other projects
-- We will have a [Quarto](https://quarto.org/) workshop in two weeks:
+- We will have a [Quarto](https://quarto.org/) workshop in a later session:
 
 ```{=html}
 <iframe width="100%" height="75%" src="https://quarto.org/" style="border:2px solid black;" title="Quarto website"></iframe>
@@ -97,6 +93,23 @@ At least, a folder with `{{< var course.project >}}.txt` inside with at least on
 - Your `user.name` and `user.email` will be part of your commit history.
 - A public repository will therefore reveal your `user.name` and `user.email`.
 :::
+
+## Tip if you feel lost: Solutions
+
+- All course exercises are documented in a dedicated chapter: [https://lennartwittkuhn.com/version-control-book/misc/exercises.html](https://lennartwittkuhn.com/version-control-book/misc/exercises.html), including **solutions**!
+- Exercise solutions can also be found **at the end of the slides**
+
+::: fragment
+### Caveats
+
+- The solutions are just *one way* to implement the exercises.
+- As always: Copy-pasting solutions might not help your understanding.
+:::
+
+```{=html}
+<iframe width="100%" height="50%" src="https://lennartwittkuhn.com/version-control-book/misc/exercises.html" style="border:2px solid black;" title="Website showing course exercises"></iframe>
+```
+
 
 # Last session: Setup and first steps with Git
 
@@ -220,6 +233,30 @@ After the last session, you should now be able to answer the following questions
 ### Create a `.gitignore` file
 
 {{< include ../exercises/_exercises-essentials-gitignore.qmd >}}
+
+## Solutions: First steps with Git
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-first-steps-git-city-guide.sh
+```
+{{< include ../exercises/_solutions-first-steps-git-city-guide.qmd >}}
+
+## Solutions: Amend a commit
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-essentials-amend-city-guide.sh
+```
+{{< include ../exercises/_solutions-essentials-amend.qmd >}}
+
+## Solutions: Create a `.gitignore` file
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-essentials-gitignore-city-guide.sh
+```
+{{< include ../exercises/_solutions-essentials-gitignore.qmd >}}
 
 # Appendix
 
