@@ -15,19 +15,15 @@ quiz-url: https://version-control-basics.formr.org/
 ## {{< fa circle-question >}} When do I have to "Take the quiz"?
 
 - Many chapters contain a "Take the quiz!" button
-- These are the same quizzes that we assign to your as part of the sessions' learning objectives
-- TL;DR: Take the quiz when we tell you
-
-{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
-
-```{=html}
-<iframe width="100%" height="60%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" style="border:2px solid black;" title="Version Control Book"></iframe>
-```
+- These are the same quizzes that we assign to your as part of the sessions' learning objectives.
+- **Take the quiz when you feel ready**, i.e., when you believe that **you reached the learning objectives**.
+- Alternative: We'll let you know during the course when we think it's a good time to take the quiz.
+- Remember: The quizzes are part of your **mandatory** course work!
 
 ## {{< fa circle-question >}} Will we also learn about Python or R?
 
 - No, not directly, but you are free to use Git to track Python or R files that you use for other projects
-- We will have a [Quarto](https://quarto.org/) workshop in two weeks:
+- We will have a [Quarto](https://quarto.org/) workshop in a later session:
 
 ```{=html}
 <iframe width="100%" height="75%" src="https://quarto.org/" style="border:2px solid black;" title="Quarto website"></iframe>
