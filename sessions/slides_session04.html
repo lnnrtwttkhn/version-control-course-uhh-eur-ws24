@@ -450,17 +450,17 @@ Reza Hakimazar
 <h2><i class="fa-solid fa-circle-question" aria-label="circle-question"></i> When do I have to “Take the quiz”?</h2>
 <ul>
 <li>Many chapters contain a “Take the quiz!” button</li>
-<li>These are the same quizzes that we assign to your as part of the sessions’ learning objectives</li>
-<li>TL;DR: Take the quiz when we tell you</li>
+<li>These are the same quizzes that we assign to your as part of the sessions’ learning objectives.</li>
+<li><strong>Take the quiz when you feel ready</strong>, i.e., when you believe that <strong>you reached the learning objectives</strong>.</li>
+<li>Alternative: We’ll let you know during the course when we think it’s a good time to take the quiz.</li>
+<li>Remember: The quizzes are part of your <strong>mandatory</strong> course work!</li>
 </ul>
-<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html">lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html</a></p>
-<iframe width="100%" height="60%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" style="border:2px solid black;" title="Version Control Book"></iframe>
 </section>
 <section id="fa-circle-question-will-we-also-learn-about-python-or-r" class="slide level2">
 <h2><i class="fa-solid fa-circle-question" aria-label="circle-question"></i> Will we also learn about Python or R?</h2>
 <ul>
 <li>No, not directly, but you are free to use Git to track Python or R files that you use for other projects</li>
-<li>We will have a <a href="https://quarto.org/">Quarto</a> workshop in two weeks:</li>
+<li>We will have a <a href="https://quarto.org/">Quarto</a> workshop in a later session:</li>
 </ul>
 <iframe width="100%" height="75%" src="https://quarto.org/" style="border:2px solid black;" title="Quarto website"></iframe>
 </section>
@@ -546,6 +546,22 @@ Reza Hakimazar
 <li>A public repository will therefore reveal your <code>user.name</code> and <code>user.email</code>.</li>
 </ul>
 </div>
+</section>
+<section id="tip-if-you-feel-lost-solutions" class="slide level2">
+<h2>Tip if you feel lost: Solutions</h2>
+<ul>
+<li>All course exercises are documented in a dedicated chapter: <a href="https://lennartwittkuhn.com/version-control-book/misc/exercises.html">https://lennartwittkuhn.com/version-control-book/misc/exercises.html</a>, including <strong>solutions</strong>!</li>
+<li>Exercise solutions can also be found <strong>at the end of the slides</strong></li>
+</ul>
+<div class="fragment">
+<!-- -->
+<h3 id="caveats">Caveats</h3>
+<ul>
+<li>The solutions are just <em>one way</em> to implement the exercises.</li>
+<li>As always: Copy-pasting solutions might not help your understanding.</li>
+</ul>
+</div>
+<iframe width="100%" height="50%" src="https://lennartwittkuhn.com/version-control-book/misc/exercises.html" style="border:2px solid black;" title="Website showing course exercises"></iframe>
 </section></section>
 <section>
 <section id="last-session-setup-and-first-steps-with-git" class="title-slide slide level1 center" data-number="2">
@@ -825,19 +841,19 @@ Reza Hakimazar
 <h2>Exercises 2</h2>
 <h3 id="amend-a-commit">Amend a commit</h3>
 <ol type="1">
-<li>If needed, navigate into the <code>recipes</code> repository using <code>cd recipes</code> (or a similar path).</li>
-<li>Make additional changes to your <code>recipes.txt</code> file.</li>
+<li>If needed, navigate to the project folder using the command line.</li>
+<li>Make additional changes to your project text file.</li>
 <li>Stage the changes.</li>
 <li>Amend the previous commit to include the new changes.</li>
 <li>Check the commit history to verify that the last commit message has not changed.</li>
 </ol>
-<p>For example, add a recipe without a title first, commit, then add a title and amend the previous commit to add the title change to the same commit.</p>
+<p>For example, add a new entry without a title first, commit, then add a title and amend the previous commit to add the title change to the same commit.</p>
 </section>
 <section id="exercises-3" class="slide level2">
 <h2>Exercises 3</h2>
 <h3 id="create-a-.gitignore-file">Create a <code>.gitignore</code> file</h3>
 <ol type="1">
-<li>If needed, navigate into the <code>recipes</code> repository using <code>cd recipes</code> (or a similar path).</li>
+<li>If needed, navigate to the project folder using the command line.</li>
 <li>Add a random file to your repository that you want to ignore, for example an image file like <code>image.jpg</code>.</li>
 <li>Check the state of your repository to confirm that Git noticed the added file.</li>
 <li>Create a <code>.gitignore</code> file.</li>
@@ -846,6 +862,95 @@ Reza Hakimazar
 <li>Stage the changes in your repository.</li>
 <li>Commit the <code>.gitignore</code> file using a descriptive commit message.</li>
 <li><span class="emoji" data-emoji="rocket">🚀</span> All macOS users: Let your repository ignore <code>.DS_Store</code>.</li>
+</ol>
+</section>
+<section id="solutions-first-steps-with-git" class="slide level2">
+<h2>Solutions: First steps with Git</h2>
+<div class="cell" data-file="exercises/code-exercises-first-steps-git-city-guide.sh">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Code</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="bu">cd</span> city-guide <span class="co"># &lt;1&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="fu">git</span> init <span class="co"># &lt;2&gt;</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="fu">touch</span> city-guide.txt <span class="co"># &lt;3&gt;</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="fu">cat</span> <span class="op">&gt;</span> city-guide.txt <span class="op">&lt;&lt;- EOM</span> <span class="co"># &lt;4&gt;</span></span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="st">Hamburg Planetarium</span></span>
+<span id="cb1-8"><a href="#cb1-8"></a></span>
+<span id="cb1-9"><a href="#cb1-9"></a><span class="st">- It is one of the world's oldest, and one of Europe's most visited planetariums.</span></span>
+<span id="cb1-10"><a href="#cb1-10"></a><span class="st">- It is located in the district of Winterhude, Hamburg, Germany.</span></span>
+<span id="cb1-11"><a href="#cb1-11"></a><span class="op">EOM</span></span>
+<span id="cb1-12"><a href="#cb1-12"></a><span class="fu">git</span> add city-guide.txt <span class="co"># &lt;5&gt;</span></span>
+<span id="cb1-13"><a href="#cb1-13"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add Hamburg Planetarium to city-guide.txt"</span> <span class="co"># &lt;6&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<ol type="1">
+<li>If needed, navigate into the <code>city-guide</code> subfolder using <code>cd city-guide</code> (or a similar path).</li>
+<li>Initialize a new Git repository in the <code>city-guide</code> folder using <code>git init</code>.</li>
+<li>Create a new file called <code>city-guide.txt</code> using <code>touch</code>. Note that you can also use a regular text editor to do this.</li>
+<li>Add a <em>short</em> entry to <code>city-guide.txt</code>. In this example, <code>cat</code> is used to add text to <code>city-guide.txt</code>. This command would also create the file if <code>city-guide.txt</code> wouldn’t exist yet. Note that you can also use a regular text editor to do this.</li>
+<li>Stage the new <code>city-guide.txt</code> file using <code>git add</code>.</li>
+<li>Commit the changes in <code>city-guide.txt</code> with a descriptive commit message using <code>git commit</code>.</li>
+</ol>
+</section>
+<section id="solutions-amend-a-commit" class="slide level2">
+<h2>Solutions: Amend a commit</h2>
+<div class="cell" data-file="exercises/code-exercises-essentials-amend-city-guide.sh">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Code</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb2-1"><a href="#cb2-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="bu">cd</span> city-guide <span class="co"># &lt;1&gt;</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a><span class="bu">echo</span> <span class="st">"- It is housed in a former water tower at the center of Hamburg Stadtpark."</span> <span class="op">&gt;&gt;</span> city-guide.txt <span class="co"># &lt;2&gt;</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="fu">git</span> add city-guide.txt <span class="co"># &lt;3&gt;</span></span>
+<span id="cb2-6"><a href="#cb2-6"></a><span class="fu">git</span> commit <span class="at">--amend</span> <span class="at">--no-edit</span> <span class="co"># &lt;4&gt;</span></span>
+<span id="cb2-7"><a href="#cb2-7"></a><span class="fu">git</span> log <span class="at">--oneline</span> <span class="co"># &lt;5&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<ol type="1">
+<li>Optional: Navigate into the project repository using <code>cd</code> (in combination with an absolute or relative path).</li>
+<li>Make an additional change to the project text file. In this example, <code>echo</code> is used to append text to text file. Note that you can also use a regular text editor to do this.</li>
+<li>Stage the changes using <code>git add</code>.</li>
+<li>Amend the previous commit to include the new changes using <code>git commit --amend</code>. In this example, the <code>--no-edit</code> flag is used to amend the commit without changing the commit message.</li>
+<li>Check the commit history using <code>git log</code> to verify that the last commit message has not changed. Here, we add the <code>--oneline</code> flag to show a concise summary of the past commits.</li>
+</ol>
+</section>
+<section id="solutions-create-a-.gitignore-file" class="slide level2">
+<h2>Solutions: Create a <code>.gitignore</code> file</h2>
+<div class="cell" data-file="exercises/code-exercises-essentials-gitignore-city-guide.sh">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Code</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb3-1"><a href="#cb3-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a></span>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="bu">cd</span> city-guide <span class="co"># &lt;1&gt;</span></span>
+<span id="cb3-4"><a href="#cb3-4"></a><span class="fu">wget</span> <span class="at">-nv</span> <span class="at">-O</span> hamburg-planetarium.jpg https://upload.wikimedia.org/wikipedia/commons/3/3a/Hamburg_Planetarium_10881zh.jpg <span class="co"># &lt;2&gt;</span></span>
+<span id="cb3-5"><a href="#cb3-5"></a><span class="fu">git</span> status <span class="co"># &lt;3&gt;</span></span>
+<span id="cb3-6"><a href="#cb3-6"></a><span class="fu">touch</span> .gitignore <span class="co"># &lt;4&gt;</span></span>
+<span id="cb3-7"><a href="#cb3-7"></a><span class="bu">echo</span> <span class="st">"*.jpg"</span> <span class="op">&gt;</span> .gitignore <span class="co"># &lt;5&gt;</span></span>
+<span id="cb3-8"><a href="#cb3-8"></a><span class="fu">git</span> status <span class="co"># &lt;6&gt;</span></span>
+<span id="cb3-9"><a href="#cb3-9"></a><span class="fu">git</span> add <span class="at">--all</span> <span class="co"># &lt;7&gt;</span></span>
+<span id="cb3-10"><a href="#cb3-10"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add .gitignore and ignore all files that end with .jpg"</span> <span class="co"># &lt;8&gt;</span></span>
+<span id="cb3-11"><a href="#cb3-11"></a><span class="bu">echo</span> <span class="st">".DS_Store"</span> <span class="op">&gt;&gt;</span> .gitignore <span class="co"># &lt;9&gt;</span></span>
+<span id="cb3-12"><a href="#cb3-12"></a><span class="fu">git</span> add .gitignore <span class="co"># &lt;9&gt;</span></span>
+<span id="cb3-13"><a href="#cb3-13"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Ignore .DS_Store"</span> <span class="co"># &lt;9&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<ol type="1">
+<li>Optional: Navigate into the project repository using <code>cd</code> (in combination with an absolute or relative path).</li>
+<li>Download an image from the internet using <code>wget</code>. This command download a picture of pasta from the internet and saves the output <code>-O</code> as <code>pasta.jpg</code>. The <code>-nv</code> (or <code>--no-verbose</code>) argument makes the command output less text.</li>
+<li>Check the state of your repository using <code>git status</code>. Git will notice the new file and list it as untracked.</li>
+<li>Create a <code>.gitignore</code> file using <code>touch</code>. Note that you can also use a regular text editor to do this.</li>
+<li>Add <code>*.jpg</code> to the <code>.gitignore</code> file to ignore all files that end with the <code>.jpg</code> file extension. In this example, <code>echo</code> is used to append text to the text file. Note that you can also use a regular text editor to do this. This command would also create the file if <code>.gitignore</code> wouldn’t exist yet.</li>
+<li>Check the state of your repository again using <code>git status</code>. The new file should disappear from the output and is not listed as untracked anymore.</li>
+<li>Stage all changes using <code>git add --all</code>. This command should generally be avoided as it may lead to staging and committing changes that should not added to the repository’s history. Here, we use it to demonstrate that only the <code>.gitignore</code> will be staged but not the pasta image file because it is ignored.</li>
+<li>Commit the changes in <code>.gitignore</code> with a descriptive commit message using <code>git commit</code>.</li>
+<li>Add <code>.DS_Store</code> to the <code>.gitignore</code> file to ignore it. Again, <code>echo</code> is used to append text to the text file. Note that you can also use a regular text editor to do this. Stage and commit your changes using a descriptive commit message.</li>
 </ol>
 </section></section>
 <section>
@@ -882,51 +987,51 @@ Reza Hakimazar
 <section id="git-log" class="slide level2">
 <h2><code>git log</code></h2>
 <div class="fragment">
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">git</span> log</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">git</span> log</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>e.g:</p>
 </div>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="fragment">
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a></span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="ex">commit</span> 3f6db14ed93d6e92a207a9a3ac5f8b8c5c5c5c34 <span class="er">(</span><span class="ex">HEAD</span> <span class="at">-</span><span class="op">&gt;</span> main, origin/master, origin/HEAD<span class="kw">)</span></span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="ex">Author:</span> Jane Doe <span class="op">&lt;</span>jane@example.com<span class="op">&gt;</span></span>
-<span id="cb2-4"><a href="#cb2-4"></a><span class="ex">Date:</span>   Tue Apr 24 14:24:48 2024 <span class="at">-0700</span></span>
-<span id="cb2-5"><a href="#cb2-5"></a></span>
-<span id="cb2-6"><a href="#cb2-6"></a>    <span class="ex">Fix</span> the widget rendering issue in the dashboard</span>
-<span id="cb2-7"><a href="#cb2-7"></a></span>
-<span id="cb2-8"><a href="#cb2-8"></a><span class="ex">commit</span> a4324f44d3e85723a4d91cb9e07132b7115e4941</span>
-<span id="cb2-9"><a href="#cb2-9"></a><span class="ex">Author:</span> John Smith <span class="op">&lt;</span>john@example.com<span class="op">&gt;</span></span>
-<span id="cb2-10"><a href="#cb2-10"></a><span class="ex">Date:</span>   Mon Apr 23 16:17:59 2024 <span class="at">-0700</span></span>
-<span id="cb2-11"><a href="#cb2-11"></a></span>
-<span id="cb2-12"><a href="#cb2-12"></a>    <span class="ex">Update</span> dependencies to newer versions</span>
-<span id="cb2-13"><a href="#cb2-13"></a></span>
-<span id="cb2-14"><a href="#cb2-14"></a><span class="ex">commit</span> fa204b9145bf7fc7ff226a26b49a567fc2eb1b94</span>
-<span id="cb2-15"><a href="#cb2-15"></a><span class="ex">Author:</span> Alice Johnson <span class="op">&lt;</span>alice@example.com<span class="op">&gt;</span></span>
-<span id="cb2-16"><a href="#cb2-16"></a><span class="ex">Date:</span>   Sun Apr 22 15:08:43 2024 <span class="at">-0700</span></span>
-<span id="cb2-17"><a href="#cb2-17"></a></span>
-<span id="cb2-18"><a href="#cb2-18"></a>    <span class="ex">Initial</span> commit of project files</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1"></a></span>
+<span id="cb5-2"><a href="#cb5-2"></a><span class="ex">commit</span> 3f6db14ed93d6e92a207a9a3ac5f8b8c5c5c5c34 <span class="er">(</span><span class="ex">HEAD</span> <span class="at">-</span><span class="op">&gt;</span> main, origin/master, origin/HEAD<span class="kw">)</span></span>
+<span id="cb5-3"><a href="#cb5-3"></a><span class="ex">Author:</span> Jane Doe <span class="op">&lt;</span>jane@example.com<span class="op">&gt;</span></span>
+<span id="cb5-4"><a href="#cb5-4"></a><span class="ex">Date:</span>   Tue Apr 24 14:24:48 2024 <span class="at">-0700</span></span>
+<span id="cb5-5"><a href="#cb5-5"></a></span>
+<span id="cb5-6"><a href="#cb5-6"></a>    <span class="ex">Fix</span> the widget rendering issue in the dashboard</span>
+<span id="cb5-7"><a href="#cb5-7"></a></span>
+<span id="cb5-8"><a href="#cb5-8"></a><span class="ex">commit</span> a4324f44d3e85723a4d91cb9e07132b7115e4941</span>
+<span id="cb5-9"><a href="#cb5-9"></a><span class="ex">Author:</span> John Smith <span class="op">&lt;</span>john@example.com<span class="op">&gt;</span></span>
+<span id="cb5-10"><a href="#cb5-10"></a><span class="ex">Date:</span>   Mon Apr 23 16:17:59 2024 <span class="at">-0700</span></span>
+<span id="cb5-11"><a href="#cb5-11"></a></span>
+<span id="cb5-12"><a href="#cb5-12"></a>    <span class="ex">Update</span> dependencies to newer versions</span>
+<span id="cb5-13"><a href="#cb5-13"></a></span>
+<span id="cb5-14"><a href="#cb5-14"></a><span class="ex">commit</span> fa204b9145bf7fc7ff226a26b49a567fc2eb1b94</span>
+<span id="cb5-15"><a href="#cb5-15"></a><span class="ex">Author:</span> Alice Johnson <span class="op">&lt;</span>alice@example.com<span class="op">&gt;</span></span>
+<span id="cb5-16"><a href="#cb5-16"></a><span class="ex">Date:</span>   Sun Apr 22 15:08:43 2024 <span class="at">-0700</span></span>
+<span id="cb5-17"><a href="#cb5-17"></a></span>
+<span id="cb5-18"><a href="#cb5-18"></a>    <span class="ex">Initial</span> commit of project files</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="fragment">
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a></span>
-<span id="cb3-2"><a href="#cb3-2"></a><span class="ex">commit</span> b9690b287bdfec6e17af39b7337b84e9ebf6f046</span>
-<span id="cb3-3"><a href="#cb3-3"></a><span class="ex">Author:</span> Lennart Wittkuhn <span class="op">&lt;</span>lennart.wittkuhn@tutanota.com<span class="op">&gt;</span></span>
-<span id="cb3-4"><a href="#cb3-4"></a><span class="ex">Date:</span>   Fri Mar 22 15:19:43 2024 +0100</span>
-<span id="cb3-5"><a href="#cb3-5"></a></span>
-<span id="cb3-6"><a href="#cb3-6"></a>    <span class="ex">move</span> illustration of bad git commits <span class="er">(</span><span class="ex">xkcd</span> comic<span class="kw">)</span> <span class="ex">and</span> edit sentence</span>
-<span id="cb3-7"><a href="#cb3-7"></a></span>
-<span id="cb3-8"><a href="#cb3-8"></a><span class="ex">commit</span> d8d770dd84cd19086f41d8d38752b223c8130859</span>
-<span id="cb3-9"><a href="#cb3-9"></a><span class="ex">Author:</span> konradpa <span class="op">&lt;</span>konrad@pagenstedt.de<span class="op">&gt;</span></span>
-<span id="cb3-10"><a href="#cb3-10"></a><span class="ex">Date:</span>   Wed Mar 6 13:51:13 2024 +0100</span>
-<span id="cb3-11"><a href="#cb3-11"></a></span>
-<span id="cb3-12"><a href="#cb3-12"></a>    <span class="ex">add</span> image to setup chapter</span>
-<span id="cb3-13"><a href="#cb3-13"></a></span>
-<span id="cb3-14"><a href="#cb3-14"></a><span class="ex">commit</span> 074c9f6e12dd5fc8cc61de9f31efbdbce41a7583</span>
-<span id="cb3-15"><a href="#cb3-15"></a><span class="ex">Author:</span> konradpa <span class="op">&lt;</span>konrad@pagenstedt.de<span class="op">&gt;</span></span>
-<span id="cb3-16"><a href="#cb3-16"></a><span class="ex">Date:</span>   Wed Mar 6 13:51:07 2024 +0100</span>
-<span id="cb3-17"><a href="#cb3-17"></a></span>
-<span id="cb3-18"><a href="#cb3-18"></a>    <span class="ex">add</span> image to rewriting history chapter</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1"></a></span>
+<span id="cb6-2"><a href="#cb6-2"></a><span class="ex">commit</span> b9690b287bdfec6e17af39b7337b84e9ebf6f046</span>
+<span id="cb6-3"><a href="#cb6-3"></a><span class="ex">Author:</span> Lennart Wittkuhn <span class="op">&lt;</span>lennart.wittkuhn@tutanota.com<span class="op">&gt;</span></span>
+<span id="cb6-4"><a href="#cb6-4"></a><span class="ex">Date:</span>   Fri Mar 22 15:19:43 2024 +0100</span>
+<span id="cb6-5"><a href="#cb6-5"></a></span>
+<span id="cb6-6"><a href="#cb6-6"></a>    <span class="ex">move</span> illustration of bad git commits <span class="er">(</span><span class="ex">xkcd</span> comic<span class="kw">)</span> <span class="ex">and</span> edit sentence</span>
+<span id="cb6-7"><a href="#cb6-7"></a></span>
+<span id="cb6-8"><a href="#cb6-8"></a><span class="ex">commit</span> d8d770dd84cd19086f41d8d38752b223c8130859</span>
+<span id="cb6-9"><a href="#cb6-9"></a><span class="ex">Author:</span> konradpa <span class="op">&lt;</span>konrad@pagenstedt.de<span class="op">&gt;</span></span>
+<span id="cb6-10"><a href="#cb6-10"></a><span class="ex">Date:</span>   Wed Mar 6 13:51:13 2024 +0100</span>
+<span id="cb6-11"><a href="#cb6-11"></a></span>
+<span id="cb6-12"><a href="#cb6-12"></a>    <span class="ex">add</span> image to setup chapter</span>
+<span id="cb6-13"><a href="#cb6-13"></a></span>
+<span id="cb6-14"><a href="#cb6-14"></a><span class="ex">commit</span> 074c9f6e12dd5fc8cc61de9f31efbdbce41a7583</span>
+<span id="cb6-15"><a href="#cb6-15"></a><span class="ex">Author:</span> konradpa <span class="op">&lt;</span>konrad@pagenstedt.de<span class="op">&gt;</span></span>
+<span id="cb6-16"><a href="#cb6-16"></a><span class="ex">Date:</span>   Wed Mar 6 13:51:07 2024 +0100</span>
+<span id="cb6-17"><a href="#cb6-17"></a></span>
+<span id="cb6-18"><a href="#cb6-18"></a>    <span class="ex">add</span> image to rewriting history chapter</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
