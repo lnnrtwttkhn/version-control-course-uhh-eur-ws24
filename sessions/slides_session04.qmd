@@ -221,6 +221,30 @@ After the last session, you should now be able to answer the following questions
 
 {{< include ../exercises/_exercises-essentials-gitignore.qmd >}}
 
+## Solutions: First steps with Git
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-first-steps-git-city-guide.sh
+```
+{{< include ../exercises/_solutions-first-steps-git-city-guide.qmd >}}
+
+## Solutions: Amend a commit
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-essentials-amend-city-guide.sh
+```
+{{< include ../exercises/_solutions-essentials-amend.qmd >}}
+
+## Solutions: Create a `.gitignore` file
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-essentials-gitignore-city-guide.sh
+```
+{{< include ../exercises/_solutions-essentials-gitignore.qmd >}}
+
 # Appendix
 
 ## Staging and Committing
