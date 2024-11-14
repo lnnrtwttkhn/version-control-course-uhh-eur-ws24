@@ -45,7 +45,7 @@ session04:
     - "[Git Basics Quiz](https://version-control-basics.formr.org)"
 session05:
   date: 2024-11-15
-  title: "Repetition & Practice"
+  title: "Git Essentials (Repetition & Practice)"
   contents: 
     - "Practicing basic Git commands"
     - "Ignoring files with .gitignore"

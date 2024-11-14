@@ -1,0 +1,249 @@
+---
+title: "Session 4: Git Essentials"
+date: 2024-11-15T10:15
+format: revealjs
+metadata-files:
+  - _slides.yml
+session-title: "Git Essentials"
+chapter: |
+  ["Git Essentials"](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)
+quiz-url: https://version-control-basics.formr.org/
+---
+
+# Last session: Basic Git workflow
+
+## Schedule
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+create_schedule()
+```
+
+## Last session: Basic Git workflow
+
+{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
+```
+
+## Last session's learning objectives
+
+After the last session, you should now be able to answer the following questions / do the following:
+
+::: fragment
+### First steps with Git
+
+{{< include ../objectives/_objectives-firststeps.qmd >}}
+:::
+
+::: {.fragment}
+
+### `{{< var course.project >}}` project
+
+{{< include project/project-basics.qmd >}}
+
+:::
+
+# Live demonstrations
+
+# This session: {{< meta session-title >}}
+
+## Reading
+
+{{< fa display >}} {{< meta chapter >}}
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html" title="Version Control Book"></iframe>
+```
+
+## Learning objectives
+
+### Git Essentials
+
+{{< include ../objectives/_objectives-essentials.qmd >}}
+
+## Tasks
+
+{{< include tasks-template.qmd >}}
+
+## `{{< var course.project >}}` project
+
+{{< include project/project-essentials.qmd >}}
+
+::: {.fragment}
+
+### Today's team topic
+
+- Interview each other about your favorite **outdoor activity**.
+- Add the recommendation *of your partner* to your text file.
+- Help each other in completing the exercises.
+
+:::
+
+## Conversation starter
+
+:::: {.columns}
+::: {.column width="50%"}
+
+1. Your name?
+1. Are you based in Hamburg or Rotterdam?
+1. A (fun) fact about you? For example:
+    - What did you study before and where?
+    - What's your hobby?
+    - Do you have a pet?
+    - What's your favorite color?
+    - Your mood on a baby yoda scale?
+   
+:::
+::: {.column width="50%"}
+::: {.fragment}
+![](../images/mood-yoda.jpg)
+:::
+:::
+::::
+
+
+## Exercises (from last time)
+
+{{< include ../exercises/_exercises-first-steps-git.qmd >}}
+
+## Exercises 2
+
+### Amend a commit
+
+{{< include ../exercises/_exercises-essentials-amend.qmd >}}
+
+## Exercises 3
+
+### Create a `.gitignore` file
+
+{{< include ../exercises/_exercises-essentials-gitignore.qmd >}}
+
+## Solutions: First steps with Git
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-first-steps-git-city-guide.sh
+```
+{{< include ../exercises/_solutions-first-steps-git-city-guide.qmd >}}
+
+## Solutions: Amend a commit
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-essentials-amend-city-guide.sh
+```
+{{< include ../exercises/_solutions-essentials-amend.qmd >}}
+
+## Solutions: Create a `.gitignore` file
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-essentials-gitignore-city-guide.sh
+```
+{{< include ../exercises/_solutions-essentials-gitignore.qmd >}}
+
+# Appendix
+
+## Staging and Committing
+
+::: columns
+::: {.column width="50%"}
+### Staging:
+
+-   Command: `git add`
+-   Purpose: Preparing and organizing files before they are recorded in the repository's history.
+:::
+
+::: {.column width="50%"}
+### Committing:
+
+-   Command: `git commit -m "commit message"`
+-   Purpose: Saving the changes in the staged files to the repository's history, creating a snapshot.
+:::
+:::
+
+::: fragment
+![Source: [git-scm.com](https://git-scm.com/book/en/v2)](../images/git-staging-diagram.png){width="500"}
+:::
+
+## `git log`
+
+::: fragment
+``` bash
+git log
+```
+
+e.g:
+:::
+
+::: columns
+::: {.column width="50%"}
+::: fragment
+``` bash
+
+commit 3f6db14ed93d6e92a207a9a3ac5f8b8c5c5c5c34 (HEAD -> main, origin/master, origin/HEAD)
+Author: Jane Doe <jane@example.com>
+Date:   Tue Apr 24 14:24:48 2024 -0700
+
+    Fix the widget rendering issue in the dashboard
+
+commit a4324f44d3e85723a4d91cb9e07132b7115e4941
+Author: John Smith <john@example.com>
+Date:   Mon Apr 23 16:17:59 2024 -0700
+
+    Update dependencies to newer versions
+
+commit fa204b9145bf7fc7ff226a26b49a567fc2eb1b94
+Author: Alice Johnson <alice@example.com>
+Date:   Sun Apr 22 15:08:43 2024 -0700
+
+    Initial commit of project files
+```
+:::
+:::
+
+::: {.column width="50%"}
+::: fragment
+``` bash
+
+commit b9690b287bdfec6e17af39b7337b84e9ebf6f046
+Author: Lennart Wittkuhn <lennart.wittkuhn@tutanota.com>
+Date:   Fri Mar 22 15:19:43 2024 +0100
+
+    move illustration of bad git commits (xkcd comic) and edit sentence
+
+commit d8d770dd84cd19086f41d8d38752b223c8130859
+Author: konradpa <konrad@pagenstedt.de>
+Date:   Wed Mar 6 13:51:13 2024 +0100
+
+    add image to setup chapter
+
+commit 074c9f6e12dd5fc8cc61de9f31efbdbce41a7583
+Author: konradpa <konrad@pagenstedt.de>
+Date:   Wed Mar 6 13:51:07 2024 +0100
+
+    add image to rewriting history chapter
+```
+:::
+:::
+:::
+
+## Terminology: What are "branches"?
+
+{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/branches.html](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)
+
+```{=html}
+<iframe width="100%" height="75%" src="https://lennartwittkuhn.com/version-control-book/chapters/branches.html" title="Version Control Book"></iframe>
+```
+
+## Terminology: What is `HEAD`?
+
+{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#head](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#head)
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#head" title="Version Control Book"></iframe>
+```
