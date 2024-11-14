@@ -13,7 +13,7 @@
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.450">
 
-  <title>An introduction to Git for research - Session 4: Basic Git workflow</title>
+  <title>An introduction to Git for research - Session 4: Git Essentials</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -395,7 +395,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Session 4: Basic Git workflow</h1>
+  <h1 class="title">Session 4: Git Essentials</h1>
   <p class="subtitle"></p><p>Track, organize and share your work: An introduction to Git for research</p>
 <p>Course at University of Hamburg &amp; Erasmus University Rotterdam</p>
 <p><a href="https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a> | <a href="https://github.com/lnnrtwttkhn/version-control-course-uhh-eur-ws24/"><i class="fa-brands fa-github" aria-label="github"></i> Source</a></p>
@@ -428,144 +428,21 @@ Reza Hakimazar
 </div>
 </div>
 
-  <p class="date">November 08 2024 (10:15 am)</p>
+  <p class="date">November 15 2024 (10:15 am)</p>
 </section><section id="TOC">
 <nav role="doc-toc"> 
 <h2 id="toc-title">Agenda</h2>
 <ul>
-<li><a href="#/admin" id="/toc-admin"><span class="header-section-number">1</span> Admin</a></li>
-<li><a href="#/last-session-setup-and-first-steps-with-git" id="/toc-last-session-setup-and-first-steps-with-git"><span class="header-section-number">2</span> Last session: Setup and first steps with Git</a></li>
-<li><a href="#/live-demonstrations" id="/toc-live-demonstrations"><span class="header-section-number">3</span> Live demonstrations</a></li>
-<li><a href="#/this-session-meta-session-title" id="/toc-this-session-meta-session-title"><span class="header-section-number">4</span> This session: Basic Git workflow</a></li>
-<li><a href="#/appendix" id="/toc-appendix"><span class="header-section-number">5</span> Appendix</a></li>
+<li><a href="#/last-session-basic-git-workflow" id="/toc-last-session-basic-git-workflow"><span class="header-section-number">1</span> Last session: Basic Git workflow</a></li>
+<li><a href="#/live-demonstrations" id="/toc-live-demonstrations"><span class="header-section-number">2</span> Live demonstrations</a></li>
+<li><a href="#/this-session-meta-session-title" id="/toc-this-session-meta-session-title"><span class="header-section-number">3</span> This session: Git Essentials</a></li>
+<li><a href="#/appendix" id="/toc-appendix"><span class="header-section-number">4</span> Appendix</a></li>
 </ul>
 </nav>
 </section>
 <section>
-<section id="admin" class="title-slide slide level1 center" data-number="1">
-<h1><span class="header-section-number">1</span> Admin</h1>
-
-</section>
-<section id="fa-circle-question-when-do-i-have-to-take-the-quiz" class="slide level2">
-<h2><i class="fa-solid fa-circle-question" aria-label="circle-question"></i> When do I have to “Take the quiz”?</h2>
-<ul>
-<li>Many chapters contain a “Take the quiz!” button</li>
-<li>These are the same quizzes that we assign to your as part of the sessions’ learning objectives.</li>
-<li><strong>Take the quiz when you feel ready</strong>, i.e., when you believe that <strong>you reached the learning objectives</strong>.</li>
-<li>Alternative: We’ll let you know during the course when we think it’s a good time to take the quiz.</li>
-<li>Remember: The quizzes are part of your <strong>mandatory</strong> course work!</li>
-</ul>
-</section>
-<section id="fa-circle-question-will-we-also-learn-about-python-or-r" class="slide level2">
-<h2><i class="fa-solid fa-circle-question" aria-label="circle-question"></i> Will we also learn about Python or R?</h2>
-<ul>
-<li>No, not directly, but you are free to use Git to track Python or R files that you use for other projects</li>
-<li>We will have a <a href="https://quarto.org/">Quarto</a> workshop in a later session:</li>
-</ul>
-<iframe width="100%" height="75%" src="https://quarto.org/" style="border:2px solid black;" title="Quarto website"></iframe>
-</section>
-<section id="more-questions-from-last-session" class="slide level2">
-<h2>More questions from last session</h2>
-<div class="fragment">
-<!-- -->
-<h4 id="fa-circle-question-how-can-i-enable-copy-paste-in-git-bash"><i class="fa-solid fa-circle-question" aria-label="circle-question"></i> <em>“How can I enable copy-paste in Git Bash?”</em></h4>
-<ol type="1">
-<li>Click on the Git Bash icon in the top-left corner.</li>
-<li>Choose <strong>Options</strong>.</li>
-<li>Go to <strong>Keys menu</strong>.</li>
-<li>Enable Copy and Paste (Ctrl/Shift + Ins) option.</li>
-<li>Click <strong>Apply and Save</strong>.</li>
-</ol>
-</div>
-<div class="fragment">
-<!-- -->
-<h4 id="fa-circle-question-how-do-i-find-the-users-folder-on-windows"><i class="fa-solid fa-circle-question" aria-label="circle-question"></i> <em>“How do I find the <code>Users</code> folder on Windows?”</em></h4>
-<ul>
-<li>Use <code>~</code></li>
-<li>If <code>pwd</code> is at <code>/:</code> you can still use <code>cd C:</code></li>
-</ul>
-</div>
-<div class="fragment">
-<!-- -->
-<h4 id="fa-circle-question-what-should-my-var-course.project-folder-look-like"><i class="fa-solid fa-circle-question" aria-label="circle-question"></i> <em>“What should my <code>city-guide</code> folder look like?”</em></h4>
-<p>At least, a folder with <code>city-guide.txt</code> inside with at least one commit.</p>
-</div>
-</section>
-<section id="even-more-questions-from-last-session" class="slide level2">
-<h2>Even more questions from last session</h2>
-<div class="fragment">
-<!-- -->
-<h4 id="fa-circle-question-how-can-i-check-if-my-folder-is-a-git-repository"><i class="fa-solid fa-circle-question" aria-label="circle-question"></i> <em>“How can I check if my folder is a Git repository?”</em></h4>
-<ul>
-<li>Use <code>ls -a</code> (to also show hidden files) and look for the <code>.git</code> folder</li>
-</ul>
-</div>
-<div class="fragment">
-<!-- -->
-<h4 id="fa-circle-question-the-command-line-does-not-give-feedback"><i class="fa-solid fa-circle-question" aria-label="circle-question"></i> <em>“The command line does not give feedback!”</em></h4>
-<ul>
-<li>Yes, I’m sorry …</li>
-<li>Example: After <code>mkdir city-guide</code>, use <code>ls</code> to check if the <code>/city-guide</code> folder was created.</li>
-</ul>
-</div>
-<div class="fragment">
-<!-- -->
-<h4 id="fa-circle-question-why-cant-i-see-my-repository-on-my-github-account"><i class="fa-solid fa-circle-question" aria-label="circle-question"></i> <em>“Why can’t I see my repository on my GitHub account?”</em></h4>
-<ul>
-<li>You need to explicitly connect the repository on your computer to GitHub.</li>
-<li>We will cover this topic in the sessions about GitHub (see schedule).</li>
-</ul>
-</div>
-</section>
-<section id="important-notes" class="slide level2">
-<h2>Important notes</h2>
-<div class="fragment">
-<!-- -->
-<h4 id="fa-circle-exclamation-make-sure-that-there-is-no-git-repository-in-your-home-directory"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> Make sure that there is no Git repository in your home directory!</h4>
-<ul>
-<li>Your home directory is at <code>/Users/yourname</code> (macOS) or <code>C:\Users\yourname</code> (Windows).</li>
-<li>There should be no <code>.git</code> folder in your home directory (check with <code>ls -a</code>; see previous slide).</li>
-<li>If you find a <code>.git</code> folder in your home directory, <strong>don’t do anything and talk to us first!</strong></li>
-<li>We want to make sure that you don’t accidentally track files in Git that you don’t want to track.</li>
-</ul>
-</div>
-<div class="fragment">
-<!-- -->
-<h4 id="fa-circle-exclamation-after-you-open-a-fresh-terminal-you-always-need-to-navigate-to-your-repository-first"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> After you open a fresh terminal, you always need to navigate to your repository first!</h4>
-<ul>
-<li>Yes, I’m sorry …</li>
-<li>Use <code>pwd</code> to check your current location and <code>cd</code> to move to another directory.</li>
-</ul>
-</div>
-<div class="fragment">
-<!-- -->
-<h4 id="fa-circle-exclamation-use-a-git-user.name-and-user.email-that-you-are-comfortable-with"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> Use a Git <code>user.name</code> and <code>user.email</code> that you are comfortable with</h4>
-<ul>
-<li>We will eventually practice to share Git repositories publicly on GitHub.</li>
-<li>Your <code>user.name</code> and <code>user.email</code> will be part of your commit history.</li>
-<li>A public repository will therefore reveal your <code>user.name</code> and <code>user.email</code>.</li>
-</ul>
-</div>
-</section>
-<section id="tip-if-you-feel-lost-solutions" class="slide level2">
-<h2>Tip if you feel lost: Solutions</h2>
-<ul>
-<li>All course exercises are documented in a dedicated chapter: <a href="https://lennartwittkuhn.com/version-control-book/misc/exercises.html">https://lennartwittkuhn.com/version-control-book/misc/exercises.html</a>, including <strong>solutions</strong>!</li>
-<li>Exercise solutions can also be found <strong>at the end of the slides</strong></li>
-</ul>
-<div class="fragment">
-<!-- -->
-<h3 id="caveats">Caveats</h3>
-<ul>
-<li>The solutions are just <em>one way</em> to implement the exercises.</li>
-<li>As always: Copy-pasting solutions might not help your understanding.</li>
-</ul>
-</div>
-<iframe width="100%" height="50%" src="https://lennartwittkuhn.com/version-control-book/misc/exercises.html" style="border:2px solid black;" title="Website showing course exercises"></iframe>
-</section></section>
-<section>
-<section id="last-session-setup-and-first-steps-with-git" class="title-slide slide level1 center" data-number="2">
-<h1><span class="header-section-number">2</span> Last session: Setup and first steps with Git</h1>
+<section id="last-session-basic-git-workflow" class="title-slide slide level1 center" data-number="1">
+<h1><span class="header-section-number">1</span> Last session: Basic Git workflow</h1>
 
 </section>
 <section id="schedule" class="slide level2">
@@ -701,19 +578,14 @@ Reza Hakimazar
 </div>
 </div>
 </section>
-<section id="last-session-setup-and-first-steps-with-git-1" class="slide level2">
-<h2>Last session: Setup and first steps with Git</h2>
+<section id="last-session-basic-git-workflow-1" class="slide level2">
+<h2>Last session: Basic Git workflow</h2>
 <p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html">lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html</a></p>
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
 </section>
-<section id="last-and-partly-this-sessions-learning-objectives" class="slide level2">
-<h2>Last and (partly) this session’s learning objectives</h2>
+<section id="last-sessions-learning-objectives" class="slide level2">
+<h2>Last session’s learning objectives</h2>
 <p>After the last session, you should now be able to answer the following questions / do the following:</p>
-<div class="fragment">
-<!-- -->
-<h3 id="setup">Setup</h3>
-<p><span class="emoji" data-emoji="bulb">💡</span> You know how to set up Git for the first time<br> <span class="emoji" data-emoji="bulb">💡</span> You have set up Git on your computer<br> <span class="emoji" data-emoji="bulb">💡</span> You understand the difference between the three Git configuration levels<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to configure your username and email address in Git<br> <span class="emoji" data-emoji="bulb">💡</span> You have set up your preferred text editor when working with Git<br> <span class="emoji" data-emoji="bulb">💡</span> You can escape the command-line text editor Vim</p>
-</div>
 <div class="fragment">
 <!-- -->
 <h3 id="first-steps-with-git">First steps with Git</h3>
@@ -731,25 +603,23 @@ Reza Hakimazar
 <p>Please keep the <code>city-guide</code> folder! We will continue to use it in the following sessions.</p>
 </div>
 </section></section>
-<section id="live-demonstrations" class="title-slide slide level1 center" data-number="3">
-<h1><span class="header-section-number">3</span> Live demonstrations</h1>
+<section id="live-demonstrations" class="title-slide slide level1 center" data-number="2">
+<h1><span class="header-section-number">2</span> Live demonstrations</h1>
 
 </section>
 
 <section>
-<section id="this-session-meta-session-title" class="title-slide slide level1 center" data-number="4">
-<h1><span class="header-section-number">4</span> This session: Basic Git workflow</h1>
+<section id="this-session-meta-session-title" class="title-slide slide level1 center" data-number="3">
+<h1><span class="header-section-number">3</span> This session: Git Essentials</h1>
 
 </section>
 <section id="reading" class="slide level2">
 <h2>Reading</h2>
-<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html">“First steps with Git”</a> and <a href="https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html">“Git Essentials”</a></p>
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html">“Git Essentials”</a></p>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html" title="Version Control Book"></iframe>
 </section>
 <section id="learning-objectives" class="slide level2">
 <h2>Learning objectives</h2>
-<h3 id="first-steps-with-git-1">First steps with Git</h3>
-<p><span class="emoji" data-emoji="bulb">💡</span> You can initialize a Git repository<br> <span class="emoji" data-emoji="bulb">💡</span> You can stage and commit changes<br></p>
 <h3 id="git-essentials">Git Essentials</h3>
 <p><span class="emoji" data-emoji="bulb">💡</span> You know how to explore the commit history<br> <span class="emoji" data-emoji="bulb">💡</span> You can compare different commits<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to use and create a <code>.gitignore</code> file<br> <span class="emoji" data-emoji="bulb">💡</span> You can discuss which files can (not) be tracked well with Git and why<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to track empty folders in Git repositories</p>
 </section>
@@ -757,7 +627,7 @@ Reza Hakimazar
 <h2>Tasks</h2>
 <p>In this session, you will work on the following tasks:</p>
 <ol type="1">
-<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Reading</strong>: Read the chapter(s) <a href="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html">“First steps with Git”</a> and <a href="https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html">“Git Essentials”</a> in the Version Control Book.</li>
+<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Reading</strong>: Read the chapter(s) <a href="https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html">“Git Essentials”</a> in the Version Control Book.</li>
 <li><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter.</li>
 <li><i class="fa-solid fa-list-check" aria-label="list-check"></i> <strong>Exercises</strong>: Work on the <a href="#/exercises">exercises</a> for the <a href="#/city-guide-project"><code>city-guide</code> project</a>.</li>
 <li><i class="fa-solid fa-clipboard-question" aria-label="clipboard-question"></i> <strong>Quiz</strong>: Test your knowledge with the <a href="https://version-control-basics.formr.org/">quiz</a>.</li>
@@ -791,7 +661,7 @@ Reza Hakimazar
 <!-- -->
 <h3 id="todays-team-topic">Today’s team topic</h3>
 <ul>
-<li>Interview each other about your favorite <strong>café</strong>.</li>
+<li>Interview each other about your favorite <strong>outdoor activity</strong>.</li>
 <li>Add the recommendation <em>of your partner</em> to your text file.</li>
 <li>Help each other in completing the exercises.</li>
 </ul>
@@ -807,22 +677,21 @@ Reza Hakimazar
 <li>A (fun) fact about you? For example:
 <ul>
 <li>What did you study before and where?</li>
-<li>What do you expect from this course?</li>
 <li>What’s your hobby?</li>
 <li>Do you have a pet?</li>
 <li>What’s your favorite color?</li>
-<li>Your mood on a paintings scale?</li>
+<li>Your mood on a baby yoda scale?</li>
 </ul></li>
 </ol>
 </div><div class="column" style="width:50%;">
 <div class="fragment">
-<p><img data-src="../images/paintings_moodscale.jpg"></p>
+<p><img data-src="../images/mood-yoda.jpg"></p>
 </div>
 </div>
 </div>
 </section>
-<section id="exercises-1" class="slide level2">
-<h2>Exercises 1</h2>
+<section id="exercises-from-last-time" class="slide level2">
+<h2>Exercises (from last time)</h2>
 <h3 id="initialize-a-git-repository">Initialize a Git repository</h3>
 <ol type="1">
 <li>If needed, navigate to the project folder using the command line.</li>
@@ -954,8 +823,8 @@ Reza Hakimazar
 </ol>
 </section></section>
 <section>
-<section id="appendix" class="title-slide slide level1 center" data-number="5">
-<h1><span class="header-section-number">5</span> Appendix</h1>
+<section id="appendix" class="title-slide slide level1 center" data-number="4">
+<h1><span class="header-section-number">4</span> Appendix</h1>
 
 </section>
 <section id="staging-and-committing" class="slide level2">
