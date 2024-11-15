@@ -1,5 +1,5 @@
 ---
-title: "Session 4: Git Essentials"
+title: "Session 5: Git Essentials"
 date: 2024-11-15T10:15
 format: revealjs
 metadata-files:
