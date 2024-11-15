@@ -805,144 +805,291 @@
     "text": "Slides"
   },
   {
-    "objectID": "sessions/sessions05.html",
-    "href": "sessions/sessions05.html",
-    "title": "Git Essentials",
-    "section": "",
-    "text": "Slides\n  \n  \n    \n     Chapter: First steps with Git\n  \n  \n    \n     Chapter: Git Essentials\n  \n  \n    \n     Quiz"
+    "objectID": "sessions/slides_sessions05.html#behind-the-scenes-interview-about-our-course",
+    "href": "sessions/slides_sessions05.html#behind-the-scenes-interview-about-our-course",
+    "title": "Session 5: Git Essentials",
+    "section": "Behind-the-scenes: Interview about our course",
+    "text": "Behind-the-scenes: Interview about our course\n https://lecture2go.uni-hamburg.de/l2go/-/get/v/70364"
   },
   {
-    "objectID": "sessions/sessions05.html#this-session",
-    "href": "sessions/sessions05.html#this-session",
-    "title": "Git Essentials",
-    "section": "This session",
-    "text": "This session\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) “Git Essentials” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the city-guide project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
+    "objectID": "sessions/slides_sessions05.html#schedule",
+    "href": "sessions/slides_sessions05.html#schedule",
+    "title": "Session 5: Git Essentials",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2024-10-18\nIntroduction to version control\nOrganizational mattersOverview of seminar sessionsIntroduction to version controlIntroduction to Git and its advantages\n Intro to version control\nCourse introduction Survey\n\n\n2\n2024-10-25\nCommand line\nFile SystemsBenefits of the Command LineBasic Command Line commands\n Command Line\nCommand Line Quiz\n\n\n3\n2024-11-01\nSetup + Git Fundamentals\nInstallation and configuration of GitInitializing a Git repositoryBasic Git commands\n Installation, Setup, First steps with Git\nInstallation Survey, Git Basics Quiz\n\n\n4\n2024-11-08\nBasic Git workflow\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n First steps with Git\nGit Basics Quiz\n\n\n5\n2024-11-15\nGit Essentials (Repetition & Practice)\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n Git Essentials\nGit Basics Quiz\n\n\n6\n2024-11-22\nGit Branching and Merging\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflict\n Branches\nGit Branches Quiz\n\n\n7\n2024-11-29\nQuarto Workshop\nIntroduction to Quarto\n\n\n\n\n8\n2024-11-06\nIntroduction to GitHub\nIntroduction to remote repositoriesCreating a GitHub accountCreating and managing repositories on GitHubPushing and pulling changes\n GitHub Intro\nGitHub Quiz\n\n\n9\n2024-12-13\nGitHub with collaborators\nCloning a remote repositoryBranching and merging in a collaborative environmentPull RequestsGitHub IssuesGraphical User Interfaces (GUIs), e.g., GitKraken\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n10\n2024-12-20\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n11\n2025-01-10\nGitHub with the world\nForking a remote repository README filesProject Management\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n12\n2025-01-17\nPublishing\nCreating Tags with GitCreating Releases with GitHubUsing Zenodo for scientific publishingLicencesCitation Files\n Tags and Releases\n\n\n\n13\n2025-01-24\nGraphical User Interfaces\nRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces\n\n\n\n14\n2025-01-31\nSummary & Wrap-Up\nCourse evaluationRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces"
   },
   {
-    "objectID": "sessions/sessions05.html#learning-objectives",
-    "href": "sessions/sessions05.html#learning-objectives",
-    "title": "Git Essentials",
+    "objectID": "sessions/slides_sessions05.html#last-session-basic-git-workflow-1",
+    "href": "sessions/slides_sessions05.html#last-session-basic-git-workflow-1",
+    "title": "Session 5: Git Essentials",
+    "section": "Last session: Basic Git workflow",
+    "text": "Last session: Basic Git workflow\n lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html"
+  },
+  {
+    "objectID": "sessions/slides_sessions05.html#last-sessions-learning-objectives",
+    "href": "sessions/slides_sessions05.html#last-sessions-learning-objectives",
+    "title": "Session 5: Git Essentials",
+    "section": "Last session’s learning objectives",
+    "text": "Last session’s learning objectives\nAfter the last session, you should now be able to answer the following questions / do the following:\n\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes\n\n\n\ncity-guide project\nAt the end of this session, you should have accomplished the following:\n\nYou set up Git.\nYou initialized your city-guide folder as a Git repository.\nYou committed your first file to the city-guide repository.\n\nPlease keep the city-guide folder! We will continue to use it in the following sessions."
+  },
+  {
+    "objectID": "sessions/slides_sessions05.html#reading",
+    "href": "sessions/slides_sessions05.html#reading",
+    "title": "Session 5: Git Essentials",
+    "section": "Reading",
+    "text": "Reading\n “Git Essentials”"
+  },
+  {
+    "objectID": "sessions/slides_sessions05.html#learning-objectives",
+    "href": "sessions/slides_sessions05.html#learning-objectives",
+    "title": "Session 5: Git Essentials",
     "section": "Learning objectives",
-    "text": "Learning objectives\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes\n\n\nGit Essentials\n💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file 💡 You can discuss which files can (not) be tracked well with Git and why 💡 You know how to track empty folders in Git repositories"
+    "text": "Learning objectives\nGit Essentials\n💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file 💡 You can discuss which files can (not) be tracked well with Git and why 💡 You know how to track empty folders in Git repositories"
   },
   {
-    "objectID": "sessions/sessions05.html#var-course.project-project",
-    "href": "sessions/sessions05.html#var-course.project-project",
-    "title": "Git Essentials",
+    "objectID": "sessions/slides_sessions05.html#tasks",
+    "href": "sessions/slides_sessions05.html#tasks",
+    "title": "Session 5: Git Essentials",
+    "section": "Tasks",
+    "text": "Tasks\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) “Git Essentials” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the city-guide project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
+  },
+  {
+    "objectID": "sessions/slides_sessions05.html#var-course.project-project-1",
+    "href": "sessions/slides_sessions05.html#var-course.project-project-1",
+    "title": "Session 5: Git Essentials",
     "section": "city-guide project",
-    "text": "city-guide project\nAt the end of this session, you should have accomplished the following:\n\nCommit at least three changes in city-guide.txt.\nMake at least one commit using git commit --amend.\n\nFor example, add a a new entry without a title first, commit, then add a title and use git commit --amend to add the title change to the same commit.\n\nCreate a .gitignore file.\n\nEveryone: Create a random file that you want to ignore, for example image.jpg.\nAll macOS users: Let your repository ignore .DS_Store.\n\n🚀 Optional: Commit .gitkeep in an otherwise empty directory.\n\nPlease keep the city-guide folder! We will continue to use it in the following sessions."
+    "text": "city-guide project\nAt the end of this session, you should have accomplished the following:\n\nCommit at least three changes in city-guide.txt.\nMake at least one commit using git commit --amend.\n\nFor example, add a a new entry without a title first, commit, then add a title and use git commit --amend to add the title change to the same commit.\n\nCreate a .gitignore file.\n\nEveryone: Create a random file that you want to ignore, for example image.jpg.\nAll macOS users: Let your repository ignore .DS_Store.\n\n🚀 Optional: Commit .gitkeep in an otherwise empty directory.\n\nPlease keep the city-guide folder! We will continue to use it in the following sessions.\n\n\nToday’s team topic\n\nInterview each other about your favorite outdoor activity.\nAdd the recommendation of your partner to your text file.\nHelp each other in completing the exercises."
   },
   {
-    "objectID": "sessions/sessions05.html#exercises",
-    "href": "sessions/sessions05.html#exercises",
-    "title": "Git Essentials",
-    "section": "Exercises",
-    "text": "Exercises\n\nAmend a commit\n\nIf needed, navigate to the project folder using the command line.\nMake additional changes to your project text file.\nStage the changes.\nAmend the previous commit to include the new changes.\nCheck the commit history to verify that the last commit message has not changed.\n\nFor example, add a new entry without a title first, commit, then add a title and amend the previous commit to add the title change to the same commit.\n\n\nCreate a .gitignore file\n\nIf needed, navigate to the project folder using the command line.\nAdd a random file to your repository that you want to ignore, for example an image file like image.jpg.\nCheck the state of your repository to confirm that Git noticed the added file.\nCreate a .gitignore file.\nAdd the random file to the .gitignore file.\nCheck the state of your repository again to confirm that Git now ignores the added file.\nStage the changes in your repository.\nCommit the .gitignore file using a descriptive commit message.\n🚀 All macOS users: Let your repository ignore .DS_Store."
+    "objectID": "sessions/slides_sessions05.html#conversation-starter",
+    "href": "sessions/slides_sessions05.html#conversation-starter",
+    "title": "Session 5: Git Essentials",
+    "section": "Conversation starter",
+    "text": "Conversation starter\n\n\n\nYour name?\nAre you based in Hamburg or Rotterdam?\nA (fun) fact about you? For example:\n\nWhat did you study before and where?\nWhat’s your hobby?\nDo you have a pet?\nWhat’s your favorite color?\nYour mood on a baby yoda scale?"
   },
   {
-    "objectID": "sessions/sessions05.html#slides",
-    "href": "sessions/sessions05.html#slides",
-    "title": "Git Essentials",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\n\nHow can I download the slides as PDF?\n\n\n\n\n\nTo print the slides to PDF, do the following:\n\nToggle into Print View using the E key (or using the Navigation Menu).\nOpen the in-browser print dialog (CTRL/CMD+P).\nChange the Destination setting to Save as PDF.\nChange the Layout to Landscape.\nChange the Margins to None.\nEnable the Background graphics option.\nClick Save.\n\nNote: This feature has been confirmed to work in Google Chrome, Chromium as well as in Firefox.\nHere’s what the Chrome print dialog would look like with these settings enabled:\n\nThese instructions were copied from the Quarto documentation (MIT License) and slightly modified."
+    "objectID": "sessions/slides_sessions05.html#exercises-from-last-time",
+    "href": "sessions/slides_sessions05.html#exercises-from-last-time",
+    "title": "Session 5: Git Essentials",
+    "section": "Exercises (from last time)",
+    "text": "Exercises (from last time)\nInitialize a Git repository\n\nIf needed, navigate to the project folder using the command line.\nInitialize a new Git repository in the project folder.\n\nAdd content and commit changes\n\nCreate a new text file and name it appropriately.\nAdd a short entry to the text file (any favorite or an intriguing AI-generated one).\nStage the new file.\nCommit the changes in the text file with a descriptive commit message.\n\n🚀 Optional: Commit at least three additional changes in your new file."
   },
   {
-    "objectID": "sessions/sessions05.html#cheatsheet",
-    "href": "sessions/sessions05.html#cheatsheet",
-    "title": "Git Essentials",
-    "section": "Cheatsheet",
-    "text": "Cheatsheet\n\nFirst steps with Git\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit init\nInitializes a folder as a Git repository\n\n\ngit status\nShows Git tracking status of files in the repository\n\n\ngit add\nAdds file(s) to the staging area\n\n\ngit commit\nCommits staged files\n\n\ngit commit -m \"commit message\"\nCommits staged files with a commit message\n\n\n\n\n\n\n\nGit Essentials\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit log\nViews past commits\n\n\ngit diff\nViews made changes compared to the last commit\n\n\ngit mv\nRenames or moves files and automatically stages the changes"
+    "objectID": "sessions/slides_sessions05.html#exercises-2",
+    "href": "sessions/slides_sessions05.html#exercises-2",
+    "title": "Session 5: Git Essentials",
+    "section": "Exercises 2",
+    "text": "Exercises 2\nAmend a commit\n\nIf needed, navigate to the project folder using the command line.\nMake additional changes to your project text file.\nStage the changes.\nAmend the previous commit to include the new changes.\nCheck the commit history to verify that the last commit message has not changed.\n\nFor example, add a new entry without a title first, commit, then add a title and amend the previous commit to add the title change to the same commit."
   },
   {
-    "objectID": "sessions/session04.html",
-    "href": "sessions/session04.html",
-    "title": "Basic Git workflow",
-    "section": "",
-    "text": "Slides\n  \n  \n    \n     Chapter: First steps with Git\n  \n  \n    \n     Chapter: Git Essentials\n  \n  \n    \n     Quiz"
+    "objectID": "sessions/slides_sessions05.html#exercises-3",
+    "href": "sessions/slides_sessions05.html#exercises-3",
+    "title": "Session 5: Git Essentials",
+    "section": "Exercises 3",
+    "text": "Exercises 3\nCreate a .gitignore file\n\nIf needed, navigate to the project folder using the command line.\nAdd a random file to your repository that you want to ignore, for example an image file like image.jpg.\nCheck the state of your repository to confirm that Git noticed the added file.\nCreate a .gitignore file.\nAdd the random file to the .gitignore file.\nCheck the state of your repository again to confirm that Git now ignores the added file.\nStage the changes in your repository.\nCommit the .gitignore file using a descriptive commit message.\n🚀 All macOS users: Let your repository ignore .DS_Store."
   },
   {
-    "objectID": "sessions/session04.html#this-session",
-    "href": "sessions/session04.html#this-session",
-    "title": "Basic Git workflow",
-    "section": "This session",
-    "text": "This session\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) “First steps with Git” and “Git Essentials” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the city-guide project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
+    "objectID": "sessions/slides_sessions05.html#solutions-first-steps-with-git",
+    "href": "sessions/slides_sessions05.html#solutions-first-steps-with-git",
+    "title": "Session 5: Git Essentials",
+    "section": "Solutions: First steps with Git",
+    "text": "Solutions: First steps with Git\n\n\n\nCode\n\n#!/bin/bash\n\ncd city-guide # &lt;1&gt;\ngit init # &lt;2&gt;\ntouch city-guide.txt # &lt;3&gt;\ncat &gt; city-guide.txt &lt;&lt;- EOM # &lt;4&gt;\nHamburg Planetarium\n\n- It is one of the world's oldest, and one of Europe's most visited planetariums.\n- It is located in the district of Winterhude, Hamburg, Germany.\nEOM\ngit add city-guide.txt # &lt;5&gt;\ngit commit -m \"Add Hamburg Planetarium to city-guide.txt\" # &lt;6&gt;\n\n\n\nIf needed, navigate into the city-guide subfolder using cd city-guide (or a similar path).\nInitialize a new Git repository in the city-guide folder using git init.\nCreate a new file called city-guide.txt using touch. Note that you can also use a regular text editor to do this.\nAdd a short entry to city-guide.txt. In this example, cat is used to add text to city-guide.txt. This command would also create the file if city-guide.txt wouldn’t exist yet. Note that you can also use a regular text editor to do this.\nStage the new city-guide.txt file using git add.\nCommit the changes in city-guide.txt with a descriptive commit message using git commit."
   },
   {
-    "objectID": "sessions/session04.html#learning-objectives",
-    "href": "sessions/session04.html#learning-objectives",
-    "title": "Basic Git workflow",
-    "section": "Learning objectives",
-    "text": "Learning objectives\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes\n\n\nGit Essentials\n💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file 💡 You can discuss which files can (not) be tracked well with Git and why 💡 You know how to track empty folders in Git repositories"
+    "objectID": "sessions/slides_sessions05.html#solutions-amend-a-commit",
+    "href": "sessions/slides_sessions05.html#solutions-amend-a-commit",
+    "title": "Session 5: Git Essentials",
+    "section": "Solutions: Amend a commit",
+    "text": "Solutions: Amend a commit\n\n\n\nCode\n\n#!/bin/bash\n\ncd city-guide # &lt;1&gt;\necho \"- It is housed in a former water tower at the center of Hamburg Stadtpark.\" &gt;&gt; city-guide.txt # &lt;2&gt;\ngit add city-guide.txt # &lt;3&gt;\ngit commit --amend --no-edit # &lt;4&gt;\ngit log --oneline # &lt;5&gt;\n\n\n\nOptional: Navigate into the project repository using cd (in combination with an absolute or relative path).\nMake an additional change to the project text file. In this example, echo is used to append text to text file. Note that you can also use a regular text editor to do this.\nStage the changes using git add.\nAmend the previous commit to include the new changes using git commit --amend. In this example, the --no-edit flag is used to amend the commit without changing the commit message.\nCheck the commit history using git log to verify that the last commit message has not changed. Here, we add the --oneline flag to show a concise summary of the past commits."
   },
   {
-    "objectID": "sessions/session04.html#var-course.project-project",
-    "href": "sessions/session04.html#var-course.project-project",
-    "title": "Basic Git workflow",
-    "section": "city-guide project",
-    "text": "city-guide project\nAt the end of this session, you should have accomplished the following:\n\nCommit at least three changes in city-guide.txt.\nMake at least one commit using git commit --amend.\n\nFor example, add a a new entry without a title first, commit, then add a title and use git commit --amend to add the title change to the same commit.\n\nCreate a .gitignore file.\n\nEveryone: Create a random file that you want to ignore, for example image.jpg.\nAll macOS users: Let your repository ignore .DS_Store.\n\n🚀 Optional: Commit .gitkeep in an otherwise empty directory.\n\nPlease keep the city-guide folder! We will continue to use it in the following sessions."
+    "objectID": "sessions/slides_sessions05.html#solutions-create-a-.gitignore-file",
+    "href": "sessions/slides_sessions05.html#solutions-create-a-.gitignore-file",
+    "title": "Session 5: Git Essentials",
+    "section": "Solutions: Create a .gitignore file",
+    "text": "Solutions: Create a .gitignore file\n\n\n\nCode\n\n#!/bin/bash\n\ncd city-guide # &lt;1&gt;\nwget -nv -O hamburg-planetarium.jpg https://upload.wikimedia.org/wikipedia/commons/3/3a/Hamburg_Planetarium_10881zh.jpg # &lt;2&gt;\ngit status # &lt;3&gt;\ntouch .gitignore # &lt;4&gt;\necho \"*.jpg\" &gt; .gitignore # &lt;5&gt;\ngit status # &lt;6&gt;\ngit add --all # &lt;7&gt;\ngit commit -m \"Add .gitignore and ignore all files that end with .jpg\" # &lt;8&gt;\necho \".DS_Store\" &gt;&gt; .gitignore # &lt;9&gt;\ngit add .gitignore # &lt;9&gt;\ngit commit -m \"Ignore .DS_Store\" # &lt;9&gt;\n\n\n\nOptional: Navigate into the project repository using cd (in combination with an absolute or relative path).\nDownload an image from the internet using wget. This command download a picture of pasta from the internet and saves the output -O as pasta.jpg. The -nv (or --no-verbose) argument makes the command output less text.\nCheck the state of your repository using git status. Git will notice the new file and list it as untracked.\nCreate a .gitignore file using touch. Note that you can also use a regular text editor to do this.\nAdd *.jpg to the .gitignore file to ignore all files that end with the .jpg file extension. In this example, echo is used to append text to the text file. Note that you can also use a regular text editor to do this. This command would also create the file if .gitignore wouldn’t exist yet.\nCheck the state of your repository again using git status. The new file should disappear from the output and is not listed as untracked anymore.\nStage all changes using git add --all. This command should generally be avoided as it may lead to staging and committing changes that should not added to the repository’s history. Here, we use it to demonstrate that only the .gitignore will be staged but not the pasta image file because it is ignored.\nCommit the changes in .gitignore with a descriptive commit message using git commit.\nAdd .DS_Store to the .gitignore file to ignore it. Again, echo is used to append text to the text file. Note that you can also use a regular text editor to do this. Stage and commit your changes using a descriptive commit message."
   },
   {
-    "objectID": "sessions/session04.html#exercises",
-    "href": "sessions/session04.html#exercises",
-    "title": "Basic Git workflow",
-    "section": "Exercises",
-    "text": "Exercises\n\nInitialize a Git repository\n\nIf needed, navigate to the project folder using the command line.\nInitialize a new Git repository in the project folder.\n\n\n\nAdd content and commit changes\n\nCreate a new text file and name it appropriately.\nAdd a short entry to the text file (any favorite or an intriguing AI-generated one).\nStage the new file.\nCommit the changes in the text file with a descriptive commit message.\n\n🚀 Optional: Commit at least three additional changes in your new file.\n\n\nAmend a commit\n\nIf needed, navigate to the project folder using the command line.\nMake additional changes to your project text file.\nStage the changes.\nAmend the previous commit to include the new changes.\nCheck the commit history to verify that the last commit message has not changed.\n\nFor example, add a new entry without a title first, commit, then add a title and amend the previous commit to add the title change to the same commit.\n\n\nCreate a .gitignore file\n\nIf needed, navigate to the project folder using the command line.\nAdd a random file to your repository that you want to ignore, for example an image file like image.jpg.\nCheck the state of your repository to confirm that Git noticed the added file.\nCreate a .gitignore file.\nAdd the random file to the .gitignore file.\nCheck the state of your repository again to confirm that Git now ignores the added file.\nStage the changes in your repository.\nCommit the .gitignore file using a descriptive commit message.\n🚀 All macOS users: Let your repository ignore .DS_Store."
+    "objectID": "sessions/slides_sessions05.html#staging-and-committing",
+    "href": "sessions/slides_sessions05.html#staging-and-committing",
+    "title": "Session 5: Git Essentials",
+    "section": "Staging and Committing",
+    "text": "Staging and Committing\n\n\nStaging:\n\nCommand: git add\nPurpose: Preparing and organizing files before they are recorded in the repository’s history.\n\n\nCommitting:\n\nCommand: git commit -m \"commit message\"\nPurpose: Saving the changes in the staged files to the repository’s history, creating a snapshot.\n\n\n\n\n\n\n\nSource: git-scm.com"
   },
   {
-    "objectID": "sessions/session04.html#slides",
-    "href": "sessions/session04.html#slides",
-    "title": "Basic Git workflow",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\n\nHow can I download the slides as PDF?\n\n\n\n\n\nTo print the slides to PDF, do the following:\n\nToggle into Print View using the E key (or using the Navigation Menu).\nOpen the in-browser print dialog (CTRL/CMD+P).\nChange the Destination setting to Save as PDF.\nChange the Layout to Landscape.\nChange the Margins to None.\nEnable the Background graphics option.\nClick Save.\n\nNote: This feature has been confirmed to work in Google Chrome, Chromium as well as in Firefox.\nHere’s what the Chrome print dialog would look like with these settings enabled:\n\nThese instructions were copied from the Quarto documentation (MIT License) and slightly modified."
+    "objectID": "sessions/slides_sessions05.html#git-log",
+    "href": "sessions/slides_sessions05.html#git-log",
+    "title": "Session 5: Git Essentials",
+    "section": "git log",
+    "text": "git log\n\ngit log\ne.g:\n\n\n\n\n\ncommit 3f6db14ed93d6e92a207a9a3ac5f8b8c5c5c5c34 (HEAD -&gt; main, origin/master, origin/HEAD)\nAuthor: Jane Doe &lt;jane@example.com&gt;\nDate:   Tue Apr 24 14:24:48 2024 -0700\n\n    Fix the widget rendering issue in the dashboard\n\ncommit a4324f44d3e85723a4d91cb9e07132b7115e4941\nAuthor: John Smith &lt;john@example.com&gt;\nDate:   Mon Apr 23 16:17:59 2024 -0700\n\n    Update dependencies to newer versions\n\ncommit fa204b9145bf7fc7ff226a26b49a567fc2eb1b94\nAuthor: Alice Johnson &lt;alice@example.com&gt;\nDate:   Sun Apr 22 15:08:43 2024 -0700\n\n    Initial commit of project files\n\n\n\n\ncommit b9690b287bdfec6e17af39b7337b84e9ebf6f046\nAuthor: Lennart Wittkuhn &lt;lennart.wittkuhn@tutanota.com&gt;\nDate:   Fri Mar 22 15:19:43 2024 +0100\n\n    move illustration of bad git commits (xkcd comic) and edit sentence\n\ncommit d8d770dd84cd19086f41d8d38752b223c8130859\nAuthor: konradpa &lt;konrad@pagenstedt.de&gt;\nDate:   Wed Mar 6 13:51:13 2024 +0100\n\n    add image to setup chapter\n\ncommit 074c9f6e12dd5fc8cc61de9f31efbdbce41a7583\nAuthor: konradpa &lt;konrad@pagenstedt.de&gt;\nDate:   Wed Mar 6 13:51:07 2024 +0100\n\n    add image to rewriting history chapter"
   },
   {
-    "objectID": "sessions/session04.html#cheatsheet",
-    "href": "sessions/session04.html#cheatsheet",
-    "title": "Basic Git workflow",
-    "section": "Cheatsheet",
-    "text": "Cheatsheet\n\nFirst steps with Git\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit init\nInitializes a folder as a Git repository\n\n\ngit status\nShows Git tracking status of files in the repository\n\n\ngit add\nAdds file(s) to the staging area\n\n\ngit commit\nCommits staged files\n\n\ngit commit -m \"commit message\"\nCommits staged files with a commit message\n\n\n\n\n\n\n\nGit Essentials\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit log\nViews past commits\n\n\ngit diff\nViews made changes compared to the last commit\n\n\ngit mv\nRenames or moves files and automatically stages the changes"
+    "objectID": "sessions/slides_sessions05.html#terminology-what-are-branches",
+    "href": "sessions/slides_sessions05.html#terminology-what-are-branches",
+    "title": "Session 5: Git Essentials",
+    "section": "Terminology: What are “branches”?",
+    "text": "Terminology: What are “branches”?\n lennartwittkuhn.com/version-control-book/chapters/branches.html"
   },
   {
-    "objectID": "sessions/session01.html",
-    "href": "sessions/session01.html",
-    "title": "Introduction to Version Control",
-    "section": "",
-    "text": "Slides\n  \n  \n    \n     Chapter\n  \n  \n    \n     Exercises"
+    "objectID": "sessions/slides_sessions05.html#terminology-what-is-head",
+    "href": "sessions/slides_sessions05.html#terminology-what-is-head",
+    "title": "Session 5: Git Essentials",
+    "section": "Terminology: What is HEAD?",
+    "text": "Terminology: What is HEAD?\n lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#head\n\n\n\nVersion Control Course"
   },
   {
-    "objectID": "sessions/session01.html#this-session",
-    "href": "sessions/session01.html#this-session",
-    "title": "Introduction to Version Control",
-    "section": "This session",
-    "text": "This session\nIn this session, you will complete the following tasks:\n\nComplete the pre-course survey.\nRead the chapter “Introduction” of the Version Control Book.\nCheck whether you have achieved the learning objectives.\nAfter the session: complete the homework."
+    "objectID": "sessions/slides_sessions06.html#schedule",
+    "href": "sessions/slides_sessions06.html#schedule",
+    "title": "Session 5: Branches",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2024-10-18\nIntroduction to version control\nOrganizational mattersOverview of seminar sessionsIntroduction to version controlIntroduction to Git and its advantages\n Intro to version control\nCourse introduction Survey\n\n\n2\n2024-10-25\nCommand line\nFile SystemsBenefits of the Command LineBasic Command Line commands\n Command Line\nCommand Line Quiz\n\n\n3\n2024-11-01\nSetup + Git Fundamentals\nInstallation and configuration of GitInitializing a Git repositoryBasic Git commands\n Installation, Setup, First steps with Git\nInstallation Survey, Git Basics Quiz\n\n\n4\n2024-11-08\nBasic Git workflow\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n First steps with Git\nGit Basics Quiz\n\n\n5\n2024-11-15\nGit Essentials (Repetition & Practice)\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n Git Essentials\nGit Basics Quiz\n\n\n6\n2024-11-22\nGit Branching and Merging\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflict\n Branches\nGit Branches Quiz\n\n\n7\n2024-11-29\nQuarto Workshop\nIntroduction to Quarto\n\n\n\n\n8\n2024-11-06\nIntroduction to GitHub\nIntroduction to remote repositoriesCreating a GitHub accountCreating and managing repositories on GitHubPushing and pulling changes\n GitHub Intro\nGitHub Quiz\n\n\n9\n2024-12-13\nGitHub with collaborators\nCloning a remote repositoryBranching and merging in a collaborative environmentPull RequestsGitHub IssuesGraphical User Interfaces (GUIs), e.g., GitKraken\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n10\n2024-12-20\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n11\n2025-01-10\nGitHub with the world\nForking a remote repository README filesProject Management\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n12\n2025-01-17\nPublishing\nCreating Tags with GitCreating Releases with GitHubUsing Zenodo for scientific publishingLicencesCitation Files\n Tags and Releases\n\n\n\n13\n2025-01-24\nGraphical User Interfaces\nRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces\n\n\n\n14\n2025-01-31\nSummary & Wrap-Up\nCourse evaluationRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces"
   },
   {
-    "objectID": "sessions/session01.html#homework",
-    "href": "sessions/session01.html#homework",
-    "title": "Introduction to Version Control",
-    "section": "Homework",
-    "text": "Homework\nCheck if you have Git and / or a command line installed. For detailed instructions for Windows and macOS users, see the chapter “Installation” of the Version Control Book."
+    "objectID": "sessions/slides_sessions06.html#last-week-first-steps-with-git-1",
+    "href": "sessions/slides_sessions06.html#last-week-first-steps-with-git-1",
+    "title": "Session 5: Branches",
+    "section": "Last week: First steps with Git",
+    "text": "Last week: First steps with Git\n lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html"
   },
   {
-    "objectID": "sessions/session01.html#learning-objectives",
-    "href": "sessions/session01.html#learning-objectives",
-    "title": "Introduction to Version Control",
-    "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of this session, you should be able to answer the following questions and / or achieve the following learning objectives:\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub."
+    "objectID": "sessions/slides_sessions06.html#last-weeks-question-saving-command-line-history",
+    "href": "sessions/slides_sessions06.html#last-weeks-question-saving-command-line-history",
+    "title": "Session 5: Branches",
+    "section": "Last week’s question: Saving command line history?",
+    "text": "Last week’s question: Saving command line history?\nUse this:\n\nhistory &gt; history.txt\n\n https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history"
   },
   {
-    "objectID": "sessions/session01.html#slides",
-    "href": "sessions/session01.html#slides",
-    "title": "Introduction to Version Control",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\n\nHow can I download the slides as PDF?\n\n\n\n\n\nTo print the slides to PDF, do the following:\n\nToggle into Print View using the E key (or using the Navigation Menu).\nOpen the in-browser print dialog (CTRL/CMD+P).\nChange the Destination setting to Save as PDF.\nChange the Layout to Landscape.\nChange the Margins to None.\nEnable the Background graphics option.\nClick Save.\n\nNote: This feature has been confirmed to work in Google Chrome, Chromium as well as in Firefox.\nHere’s what the Chrome print dialog would look like with these settings enabled:\n\nThese instructions were copied from the Quarto documentation (MIT License) and slightly modified."
+    "objectID": "sessions/slides_sessions06.html#last-weeks-question-commit-.gitignore",
+    "href": "sessions/slides_sessions06.html#last-weeks-question-commit-.gitignore",
+    "title": "Session 5: Branches",
+    "section": "Last week’s question: Commit .gitignore?",
+    "text": "Last week’s question: Commit .gitignore?\nYes, commit your project-specific .gitignore file.\n https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#ignoring-files-and-folders-.gitignore"
   },
   {
-    "objectID": "sessions/session01.html#email",
-    "href": "sessions/session01.html#email",
-    "title": "Introduction to Version Control",
-    "section": "Email",
-    "text": "Email\nDear course participant,\nYou are receiving this email because you have signed up for the course “Track, organize and share your work: An introduction to Git for research”, taking place this Winter semester 2024/25 (October to January), Fridays, 10:15 - 11:45 (90 Minutes), at University of Hamburg & Erasmus University Rotterdam. We are excited that you have signed up for this course and can’t wait to delve into the world of version control with you! Our first session takes place next Friday, October 18, 2024, from 10:15 to 11:45 online via Zoom (see access details below).\nCompared to previous versions of this course, which were held in person at the University of Hamburg, this semester’s course is special. Supported by funding from the International Office at the University of Hamburg, this course will take place fully online, with participants from both the University of Hamburg and our partner institution, Erasmus University Rotterdam. Students from both universities, Hamburg and Rotterdam, will come together in this online course, thereby not only having the opportunity to learn about effective version control and collaboration with Git but also getting to know each other and strengthening the intercultural and academic exchange between the partner institutions. In order to tailor the course to your prior experience and needs, we have prepared a survey with a few questions. Please complete the survey before our first session, ideally by Thursday evening (October 17, 2024). This will give us enough time to review your responses before our first session on Friday. In total, the survey should take about 20 minutes (not much longer).\nThe survey can be accessed here: https://version-control-intro.formr.org\nA few technical remarks about the survey: The survey will ask you for two codewords: a personal codeword and a course codeword.\nThe personal codeword is used to associate your responses with a unique identifier. This will allow us to identify and relate your responses across all surveys used in the course while ensuring anonymity. By providing a personal codeword, you will allow us to draw more detailed insights from your responses that will help us improve the course for you. The survey will contain an explanation at the beginning on how to generate your personal codeword. For students at University of Hamburg: The surveys are part of your mandatory course work. We will later use your personal codeword to confirm the completion of all mandatory surveys. More details about this procedure will be shared in our first course session.\nThe course codeword is used to tag your responses as coming from a course participant at University of Hamburg & Erasmus University Rotterdam. We might also use the survey to collect responses from participants in other course settings. The course codeword therefore allows us to distinguish responses from different course settings.\nThe course codeword is: -------- (course password will be announced during the course).\nPlease note that you might be asked for the codewords repeatedly. This is not an error in the survey but the result of combining separate smaller surveys into a longer one. If this happens, please just enter the personal and course codeword again.\nFurther information about the course can be found on our course website: https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24.\nIf you have any questions, feel free to contact us directly via email.\nWe are looking forward to seeing you for the first session on Monday!\nBest wishes,\nLennart Wittkuhn (Instructor) & Ana Martinovici (Teaching Collaborator)"
+    "objectID": "sessions/slides_sessions06.html#last-weeks-learning-objectives",
+    "href": "sessions/slides_sessions06.html#last-weeks-learning-objectives",
+    "title": "Session 5: Branches",
+    "section": "Last week’s learning objectives",
+    "text": "Last week’s learning objectives\n\n\nSetup\n💡 You know how to set up Git for the first time 💡 You have set up Git on your computer 💡 You understand the difference between the three Git configuration levels 💡 You know how to configure your username and email address in Git 💡 You have set up your preferred text editor when working with Git 💡 You can escape the command-line text editor Vim\n\n\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes"
+  },
+  {
+    "objectID": "sessions/slides_sessions06.html#recap-best-practices-for-commit-messages",
+    "href": "sessions/slides_sessions06.html#recap-best-practices-for-commit-messages",
+    "title": "Session 5: Branches",
+    "section": "Recap: Best practices for commit messages",
+    "text": "Recap: Best practices for commit messages\n\n\n\n\n\nTry to keep commit messages short (less than 72 characters)\nUse present tense and start with an imperative verb to indicate the purpose of the commit, for example “add”, “fix”, “improve” (as if you are giving orders to the codebase to change its behavior)\n\n\nIf applied, this commit will … [your commit message]\n\n\nTry to describe why a change is being made\nLink specific issues that are addressed by your commit\nUse the description for more explanation and context"
+  },
+  {
+    "objectID": "sessions/slides_sessions06.html#todays-topic-branches-1",
+    "href": "sessions/slides_sessions06.html#todays-topic-branches-1",
+    "title": "Session 5: Branches",
+    "section": "Today’s topic: Branches",
+    "text": "Today’s topic: Branches\n\nFigure 1: Image from Chapter “Git Branches” of the “The Turing Way handbook to reproducible, ethical and collaborative data science”, used under a Creative Commons Attribution 4.0 License.\nIllustration of branches in a Git repository. Each circle represents a commit. Commits on the Main branch are shown in gray. The branch Feature A (blue circles) was created from the Main branch and later merged again. In-between, another branch Feature A-1 was created from the Feature A branch (green circles) and merged with that branch again before the Feature A branch was eventually merged with the Main branch. The branch Feature B was created but abandoned and not merged with the Main branch."
+  },
+  {
+    "objectID": "sessions/slides_sessions06.html#todays-chapter",
+    "href": "sessions/slides_sessions06.html#todays-chapter",
+    "title": "Session 5: Branches",
+    "section": "Today’s chapter",
+    "text": "Today’s chapter\n https://lennartwittkuhn.com/version-control-book/chapters/branches.html"
+  },
+  {
+    "objectID": "sessions/slides_sessions06.html#this-weeks-learning-objectives",
+    "href": "sessions/slides_sessions06.html#this-weeks-learning-objectives",
+    "title": "Session 5: Branches",
+    "section": "This weeks learning objectives",
+    "text": "This weeks learning objectives\n💡 You understand the purpose and benefits of using branches in Git. 💡 You can create and switch between branches. 💡 You can merge branches and resolve merge conflicts. 💡 You can name at least three best practices when working with branches."
+  },
+  {
+    "objectID": "sessions/slides_sessions06.html#your-turn",
+    "href": "sessions/slides_sessions06.html#your-turn",
+    "title": "Session 5: Branches",
+    "section": "Your turn",
+    "text": "Your turn\n\n\n Content Review: Read the chapter “Branches” in the Version Control Book.\n Implementation: Try out the commands in the chapter! Play around! Have fun!\nNote: We will do the implementation exercises in class together, step-by-step.\n Exercises: Complete the exercises in the survey.\n\n\n\nAsk questions!\nLet’s git started!\n\n\nand branch out"
+  },
+  {
+    "objectID": "sessions/slides_sessions06.html#implementation-exercises",
+    "href": "sessions/slides_sessions06.html#implementation-exercises",
+    "title": "Session 5: Branches",
+    "section": "Implementation Exercises",
+    "text": "Implementation Exercises\n\n\n1. Create and merge a branch\n\nCreate a new branch called feature.\nSwitch to your new branch.\nAdd a new recipe to your recipes text file.\nSwitch back to the default branch (main or master).\nMerge the feature branch with your default branch and delete the feature branch afterwards.\n\n\n\n\n2. Create and resolve a merge conflict\nDeliberately create a merge conflict by editing the same section of a file on two separate branches and attempting to merge them. An example can be found in the Version Control Book chapter. Resolve the merge conflict and delete the feature branch afterwards.\n\n\n\n3. Complete the branches quiz"
+  },
+  {
+    "objectID": "sessions/slides_sessions06.html#guis-1",
+    "href": "sessions/slides_sessions06.html#guis-1",
+    "title": "Session 5: Branches",
+    "section": "GUIs",
+    "text": "GUIs\n lennartwittkuhn.com/version-control-book/chapters/gui.html\n\n\n\nVersion Control Course"
+  },
+  {
+    "objectID": "sessions/slides_session08.html#schedule-1",
+    "href": "sessions/slides_session08.html#schedule-1",
+    "title": "Session 8: GitHub - Intro",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2024-10-18\nIntroduction to version control\nOrganizational mattersOverview of seminar sessionsIntroduction to version controlIntroduction to Git and its advantages\n Intro to version control\nCourse introduction Survey\n\n\n2\n2024-10-25\nCommand line\nFile SystemsBenefits of the Command LineBasic Command Line commands\n Command Line\nCommand Line Quiz\n\n\n3\n2024-11-01\nSetup + Git Fundamentals\nInstallation and configuration of GitInitializing a Git repositoryBasic Git commands\n Installation, Setup, First steps with Git\nInstallation Survey, Git Basics Quiz\n\n\n4\n2024-11-08\nBasic Git workflow\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n First steps with Git\nGit Basics Quiz\n\n\n5\n2024-11-15\nGit Essentials (Repetition & Practice)\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n Git Essentials\nGit Basics Quiz\n\n\n6\n2024-11-22\nGit Branching and Merging\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflict\n Branches\nGit Branches Quiz\n\n\n7\n2024-11-29\nQuarto Workshop\nIntroduction to Quarto\n\n\n\n\n8\n2024-11-06\nIntroduction to GitHub\nIntroduction to remote repositoriesCreating a GitHub accountCreating and managing repositories on GitHubPushing and pulling changes\n GitHub Intro\nGitHub Quiz\n\n\n9\n2024-12-13\nGitHub with collaborators\nCloning a remote repositoryBranching and merging in a collaborative environmentPull RequestsGitHub IssuesGraphical User Interfaces (GUIs), e.g., GitKraken\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n10\n2024-12-20\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n11\n2025-01-10\nGitHub with the world\nForking a remote repository README filesProject Management\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n12\n2025-01-17\nPublishing\nCreating Tags with GitCreating Releases with GitHubUsing Zenodo for scientific publishingLicencesCitation Files\n Tags and Releases\n\n\n\n13\n2025-01-24\nGraphical User Interfaces\nRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces\n\n\n\n14\n2025-01-31\nSummary & Wrap-Up\nCourse evaluationRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces"
+  },
+  {
+    "objectID": "sessions/slides_session08.html#last-session-quarto-workshop",
+    "href": "sessions/slides_session08.html#last-session-quarto-workshop",
+    "title": "Session 8: GitHub - Intro",
+    "section": "Last session: Quarto Workshop",
+    "text": "Last session: Quarto Workshop\n https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session06"
+  },
+  {
+    "objectID": "sessions/slides_session08.html#last-week-questions-about-quarto",
+    "href": "sessions/slides_session08.html#last-week-questions-about-quarto",
+    "title": "Session 8: GitHub - Intro",
+    "section": "Last week: Questions about Quarto?",
+    "text": "Last week: Questions about Quarto?"
+  },
+  {
+    "objectID": "sessions/slides_session08.html#important-note-git-repository-in-user-folder",
+    "href": "sessions/slides_session08.html#important-note-git-repository-in-user-folder",
+    "title": "Session 8: GitHub - Intro",
+    "section": "Important note: Git repository in user folder?",
+    "text": "Important note: Git repository in user folder?\n\n\nPlease make sure that your recipes repository is in a suitable place (for example, in the Desktop, Documents folders or where you keep your university-related files, …) and not in your user directory!\nAlso: Always remember to cd into your repository before you execute Git commands!\nIf your repository is in your user directory, please tell Lennart and we can fix it.\n\n\n\nTip: To prevent ever creating a Git repository inside your user folder, you can use:\n\n\n\n\n\nCode\n\ntouch ~/.git\n\n\n\n\n\n\nRunning git init in the user directory now results in a (desired) error:\n\n\n\n\nOutput\n\nfatal: invalid gitfile format: /Users/user/.git\n\n\n\nThanks to Eamon Caddigan for the idea!"
+  },
+  {
+    "objectID": "sessions/slides_session08.html#todays-topic-introduction-to-github",
+    "href": "sessions/slides_session08.html#todays-topic-introduction-to-github",
+    "title": "Session 8: GitHub - Intro",
+    "section": "Today’s topic: Introduction to GitHub",
+    "text": "Today’s topic: Introduction to GitHub\n\n\n\n\nImage from Techdobz"
+  },
+  {
+    "objectID": "sessions/slides_session08.html#this-weeks-learning-objectives",
+    "href": "sessions/slides_session08.html#this-weeks-learning-objectives",
+    "title": "Session 8: GitHub - Intro",
+    "section": "This weeks learning objectives",
+    "text": "This weeks learning objectives"
+  },
+  {
+    "objectID": "sessions/slides_session08.html#todays-chapter",
+    "href": "sessions/slides_session08.html#todays-chapter",
+    "title": "Session 8: GitHub - Intro",
+    "section": "Today’s chapter",
+    "text": "Today’s chapter\n https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html"
+  },
+  {
+    "objectID": "sessions/slides_session08.html#your-turn",
+    "href": "sessions/slides_session08.html#your-turn",
+    "title": "Session 8: GitHub - Intro",
+    "section": "Your turn",
+    "text": "Your turn\n\n\n Content Review: Read the chapter “GitHub - Intro” in the Version Control Book.\n Implementation: Try out the commands in the chapter! Play around! Have fun!.\nNote: Please complete the implementation exercises on the next slide\n\n\n\nAsk questions!\nLet’s git started!"
+  },
+  {
+    "objectID": "sessions/slides_session08.html#implementation-exercises",
+    "href": "sessions/slides_session08.html#implementation-exercises",
+    "title": "Session 8: GitHub - Intro",
+    "section": "Implementation exercises",
+    "text": "Implementation exercises\n\n\n\n\nTask 1: Upload and manage your repo on GitHub\n\nConnect your GitHub account\n\nGenerate a personal access token (PAT) on GitHub\nUse the PAT for GitHub authentication\n\nUpload your repository\n\nCreate a new private(!) repository on GitHub.\nSet the remote URL for your local Git repository.\nPush your main branch to GitHub.\n\nOptional: Manage branches\n\nPush other branches with changes to GitHub.\nDelete unused branches.\n\n\n\n\n\n\nTask 2: Maintain your repo and collaborate\n\nClean up your repository on GitHub:\n\nDelete unnecessary files or add a new recipe.\nCommit changes with a message.\nPull the changes to your local repository.\n\nCollaboration:\n\nAdd collaborators to your repository: Lennart (@lnnrtwttkhn) and Konrad (@konradpa).\n\n\n\n\n\n\nTask 3: Create a README file\n\nNavigate to your repository on GitHub, click “Add file”, and select “Create new file”.\nName the file README.md, add a brief description of your project, and provide a commit message. Play around with Markdown syntax!\nClick the green “Commit new file” button to save the README.md file to the repository.\nPull the changes to your local repository."
+  },
+  {
+    "objectID": "sessions/slides_session08.html#implementation-exercises-optional-bonus",
+    "href": "sessions/slides_session08.html#implementation-exercises-optional-bonus",
+    "title": "Session 8: GitHub - Intro",
+    "section": "Implementation exercises (optional bonus)",
+    "text": "Implementation exercises (optional bonus)\n\n\nTask 4: Clone and synac your repo (optional)\n\nClone your repository from GitHub to a different location on your computer.\nMake and push changes.\nPull changes to the repository in the original location.\nDelete your newly cloned repository.\n\n\n\n\nVersion Control Course"
   },
   {
     "objectID": "sessions/slides_session14.html#schedule-1",
@@ -1141,291 +1288,144 @@
     "text": "Email 2\nDear … and … ,\nWe noticed that you have missed more than two sessions of our course “Track, organize and share your work: An introduction to Git for psychological research”.\nTo meet the course requirements, we kindly ask you to complete an additional exercise:\nPlease work together to each add a recipe to your partner’s repository following GitHub Flow. Detailed instructions can be found in the slides for session 9 (Task 1) and session 10. We leave it up to you whether you add each other as collaborators to your repositories or use a fork. Please don’t forget to open an issue in your partner’s repository first and, ideally, close the issue by referencing it in your pull request or commit. The assignment is completed once your PR is merged.\nPlease complete this extra assignment together with the other requirements by the end of July.\nIf you encounter any issues or have any questions, feel free to contact us directly via email.\nBest wishes,\nLennart Wittkuhn (Instructor) & Konrad Pagenstedt (Teaching Assistant)"
   },
   {
-    "objectID": "sessions/slides_session08.html#schedule-1",
-    "href": "sessions/slides_session08.html#schedule-1",
-    "title": "Session 8: GitHub - Intro",
-    "section": "Schedule",
-    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2024-10-18\nIntroduction to version control\nOrganizational mattersOverview of seminar sessionsIntroduction to version controlIntroduction to Git and its advantages\n Intro to version control\nCourse introduction Survey\n\n\n2\n2024-10-25\nCommand line\nFile SystemsBenefits of the Command LineBasic Command Line commands\n Command Line\nCommand Line Quiz\n\n\n3\n2024-11-01\nSetup + Git Fundamentals\nInstallation and configuration of GitInitializing a Git repositoryBasic Git commands\n Installation, Setup, First steps with Git\nInstallation Survey, Git Basics Quiz\n\n\n4\n2024-11-08\nBasic Git workflow\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n First steps with Git\nGit Basics Quiz\n\n\n5\n2024-11-15\nGit Essentials (Repetition & Practice)\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n Git Essentials\nGit Basics Quiz\n\n\n6\n2024-11-22\nGit Branching and Merging\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflict\n Branches\nGit Branches Quiz\n\n\n7\n2024-11-29\nQuarto Workshop\nIntroduction to Quarto\n\n\n\n\n8\n2024-11-06\nIntroduction to GitHub\nIntroduction to remote repositoriesCreating a GitHub accountCreating and managing repositories on GitHubPushing and pulling changes\n GitHub Intro\nGitHub Quiz\n\n\n9\n2024-12-13\nGitHub with collaborators\nCloning a remote repositoryBranching and merging in a collaborative environmentPull RequestsGitHub IssuesGraphical User Interfaces (GUIs), e.g., GitKraken\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n10\n2024-12-20\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n11\n2025-01-10\nGitHub with the world\nForking a remote repository README filesProject Management\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n12\n2025-01-17\nPublishing\nCreating Tags with GitCreating Releases with GitHubUsing Zenodo for scientific publishingLicencesCitation Files\n Tags and Releases\n\n\n\n13\n2025-01-24\nGraphical User Interfaces\nRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces\n\n\n\n14\n2025-01-31\nSummary & Wrap-Up\nCourse evaluationRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces"
+    "objectID": "sessions/session05.html",
+    "href": "sessions/session05.html",
+    "title": "Git Essentials",
+    "section": "",
+    "text": "Slides\n  \n  \n    \n     Chapter: First steps with Git\n  \n  \n    \n     Chapter: Git Essentials\n  \n  \n    \n     Quiz"
   },
   {
-    "objectID": "sessions/slides_session08.html#last-session-quarto-workshop",
-    "href": "sessions/slides_session08.html#last-session-quarto-workshop",
-    "title": "Session 8: GitHub - Intro",
-    "section": "Last session: Quarto Workshop",
-    "text": "Last session: Quarto Workshop\n https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session06"
+    "objectID": "sessions/session05.html#this-session",
+    "href": "sessions/session05.html#this-session",
+    "title": "Git Essentials",
+    "section": "This session",
+    "text": "This session\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) “Git Essentials” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the city-guide project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
-    "objectID": "sessions/slides_session08.html#last-week-questions-about-quarto",
-    "href": "sessions/slides_session08.html#last-week-questions-about-quarto",
-    "title": "Session 8: GitHub - Intro",
-    "section": "Last week: Questions about Quarto?",
-    "text": "Last week: Questions about Quarto?"
-  },
-  {
-    "objectID": "sessions/slides_session08.html#important-note-git-repository-in-user-folder",
-    "href": "sessions/slides_session08.html#important-note-git-repository-in-user-folder",
-    "title": "Session 8: GitHub - Intro",
-    "section": "Important note: Git repository in user folder?",
-    "text": "Important note: Git repository in user folder?\n\n\nPlease make sure that your recipes repository is in a suitable place (for example, in the Desktop, Documents folders or where you keep your university-related files, …) and not in your user directory!\nAlso: Always remember to cd into your repository before you execute Git commands!\nIf your repository is in your user directory, please tell Lennart and we can fix it.\n\n\n\nTip: To prevent ever creating a Git repository inside your user folder, you can use:\n\n\n\n\n\nCode\n\ntouch ~/.git\n\n\n\n\n\n\nRunning git init in the user directory now results in a (desired) error:\n\n\n\n\nOutput\n\nfatal: invalid gitfile format: /Users/user/.git\n\n\n\nThanks to Eamon Caddigan for the idea!"
-  },
-  {
-    "objectID": "sessions/slides_session08.html#todays-topic-introduction-to-github",
-    "href": "sessions/slides_session08.html#todays-topic-introduction-to-github",
-    "title": "Session 8: GitHub - Intro",
-    "section": "Today’s topic: Introduction to GitHub",
-    "text": "Today’s topic: Introduction to GitHub\n\n\n\n\nImage from Techdobz"
-  },
-  {
-    "objectID": "sessions/slides_session08.html#this-weeks-learning-objectives",
-    "href": "sessions/slides_session08.html#this-weeks-learning-objectives",
-    "title": "Session 8: GitHub - Intro",
-    "section": "This weeks learning objectives",
-    "text": "This weeks learning objectives"
-  },
-  {
-    "objectID": "sessions/slides_session08.html#todays-chapter",
-    "href": "sessions/slides_session08.html#todays-chapter",
-    "title": "Session 8: GitHub - Intro",
-    "section": "Today’s chapter",
-    "text": "Today’s chapter\n https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html"
-  },
-  {
-    "objectID": "sessions/slides_session08.html#your-turn",
-    "href": "sessions/slides_session08.html#your-turn",
-    "title": "Session 8: GitHub - Intro",
-    "section": "Your turn",
-    "text": "Your turn\n\n\n Content Review: Read the chapter “GitHub - Intro” in the Version Control Book.\n Implementation: Try out the commands in the chapter! Play around! Have fun!.\nNote: Please complete the implementation exercises on the next slide\n\n\n\nAsk questions!\nLet’s git started!"
-  },
-  {
-    "objectID": "sessions/slides_session08.html#implementation-exercises",
-    "href": "sessions/slides_session08.html#implementation-exercises",
-    "title": "Session 8: GitHub - Intro",
-    "section": "Implementation exercises",
-    "text": "Implementation exercises\n\n\n\n\nTask 1: Upload and manage your repo on GitHub\n\nConnect your GitHub account\n\nGenerate a personal access token (PAT) on GitHub\nUse the PAT for GitHub authentication\n\nUpload your repository\n\nCreate a new private(!) repository on GitHub.\nSet the remote URL for your local Git repository.\nPush your main branch to GitHub.\n\nOptional: Manage branches\n\nPush other branches with changes to GitHub.\nDelete unused branches.\n\n\n\n\n\n\nTask 2: Maintain your repo and collaborate\n\nClean up your repository on GitHub:\n\nDelete unnecessary files or add a new recipe.\nCommit changes with a message.\nPull the changes to your local repository.\n\nCollaboration:\n\nAdd collaborators to your repository: Lennart (@lnnrtwttkhn) and Konrad (@konradpa).\n\n\n\n\n\n\nTask 3: Create a README file\n\nNavigate to your repository on GitHub, click “Add file”, and select “Create new file”.\nName the file README.md, add a brief description of your project, and provide a commit message. Play around with Markdown syntax!\nClick the green “Commit new file” button to save the README.md file to the repository.\nPull the changes to your local repository."
-  },
-  {
-    "objectID": "sessions/slides_session08.html#implementation-exercises-optional-bonus",
-    "href": "sessions/slides_session08.html#implementation-exercises-optional-bonus",
-    "title": "Session 8: GitHub - Intro",
-    "section": "Implementation exercises (optional bonus)",
-    "text": "Implementation exercises (optional bonus)\n\n\nTask 4: Clone and synac your repo (optional)\n\nClone your repository from GitHub to a different location on your computer.\nMake and push changes.\nPull changes to the repository in the original location.\nDelete your newly cloned repository.\n\n\n\n\nVersion Control Course"
-  },
-  {
-    "objectID": "sessions/slides_sessions06.html#schedule",
-    "href": "sessions/slides_sessions06.html#schedule",
-    "title": "Session 5: Branches",
-    "section": "Schedule",
-    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2024-10-18\nIntroduction to version control\nOrganizational mattersOverview of seminar sessionsIntroduction to version controlIntroduction to Git and its advantages\n Intro to version control\nCourse introduction Survey\n\n\n2\n2024-10-25\nCommand line\nFile SystemsBenefits of the Command LineBasic Command Line commands\n Command Line\nCommand Line Quiz\n\n\n3\n2024-11-01\nSetup + Git Fundamentals\nInstallation and configuration of GitInitializing a Git repositoryBasic Git commands\n Installation, Setup, First steps with Git\nInstallation Survey, Git Basics Quiz\n\n\n4\n2024-11-08\nBasic Git workflow\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n First steps with Git\nGit Basics Quiz\n\n\n5\n2024-11-15\nGit Essentials (Repetition & Practice)\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n Git Essentials\nGit Basics Quiz\n\n\n6\n2024-11-22\nGit Branching and Merging\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflict\n Branches\nGit Branches Quiz\n\n\n7\n2024-11-29\nQuarto Workshop\nIntroduction to Quarto\n\n\n\n\n8\n2024-11-06\nIntroduction to GitHub\nIntroduction to remote repositoriesCreating a GitHub accountCreating and managing repositories on GitHubPushing and pulling changes\n GitHub Intro\nGitHub Quiz\n\n\n9\n2024-12-13\nGitHub with collaborators\nCloning a remote repositoryBranching and merging in a collaborative environmentPull RequestsGitHub IssuesGraphical User Interfaces (GUIs), e.g., GitKraken\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n10\n2024-12-20\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n11\n2025-01-10\nGitHub with the world\nForking a remote repository README filesProject Management\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n12\n2025-01-17\nPublishing\nCreating Tags with GitCreating Releases with GitHubUsing Zenodo for scientific publishingLicencesCitation Files\n Tags and Releases\n\n\n\n13\n2025-01-24\nGraphical User Interfaces\nRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces\n\n\n\n14\n2025-01-31\nSummary & Wrap-Up\nCourse evaluationRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces"
-  },
-  {
-    "objectID": "sessions/slides_sessions06.html#last-week-first-steps-with-git-1",
-    "href": "sessions/slides_sessions06.html#last-week-first-steps-with-git-1",
-    "title": "Session 5: Branches",
-    "section": "Last week: First steps with Git",
-    "text": "Last week: First steps with Git\n lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html"
-  },
-  {
-    "objectID": "sessions/slides_sessions06.html#last-weeks-question-saving-command-line-history",
-    "href": "sessions/slides_sessions06.html#last-weeks-question-saving-command-line-history",
-    "title": "Session 5: Branches",
-    "section": "Last week’s question: Saving command line history?",
-    "text": "Last week’s question: Saving command line history?\nUse this:\n\nhistory &gt; history.txt\n\n https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history"
-  },
-  {
-    "objectID": "sessions/slides_sessions06.html#last-weeks-question-commit-.gitignore",
-    "href": "sessions/slides_sessions06.html#last-weeks-question-commit-.gitignore",
-    "title": "Session 5: Branches",
-    "section": "Last week’s question: Commit .gitignore?",
-    "text": "Last week’s question: Commit .gitignore?\nYes, commit your project-specific .gitignore file.\n https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#ignoring-files-and-folders-.gitignore"
-  },
-  {
-    "objectID": "sessions/slides_sessions06.html#last-weeks-learning-objectives",
-    "href": "sessions/slides_sessions06.html#last-weeks-learning-objectives",
-    "title": "Session 5: Branches",
-    "section": "Last week’s learning objectives",
-    "text": "Last week’s learning objectives\n\n\nSetup\n💡 You know how to set up Git for the first time 💡 You have set up Git on your computer 💡 You understand the difference between the three Git configuration levels 💡 You know how to configure your username and email address in Git 💡 You have set up your preferred text editor when working with Git 💡 You can escape the command-line text editor Vim\n\n\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes"
-  },
-  {
-    "objectID": "sessions/slides_sessions06.html#recap-best-practices-for-commit-messages",
-    "href": "sessions/slides_sessions06.html#recap-best-practices-for-commit-messages",
-    "title": "Session 5: Branches",
-    "section": "Recap: Best practices for commit messages",
-    "text": "Recap: Best practices for commit messages\n\n\n\n\n\nTry to keep commit messages short (less than 72 characters)\nUse present tense and start with an imperative verb to indicate the purpose of the commit, for example “add”, “fix”, “improve” (as if you are giving orders to the codebase to change its behavior)\n\n\nIf applied, this commit will … [your commit message]\n\n\nTry to describe why a change is being made\nLink specific issues that are addressed by your commit\nUse the description for more explanation and context"
-  },
-  {
-    "objectID": "sessions/slides_sessions06.html#todays-topic-branches-1",
-    "href": "sessions/slides_sessions06.html#todays-topic-branches-1",
-    "title": "Session 5: Branches",
-    "section": "Today’s topic: Branches",
-    "text": "Today’s topic: Branches\n\nFigure 1: Image from Chapter “Git Branches” of the “The Turing Way handbook to reproducible, ethical and collaborative data science”, used under a Creative Commons Attribution 4.0 License.\nIllustration of branches in a Git repository. Each circle represents a commit. Commits on the Main branch are shown in gray. The branch Feature A (blue circles) was created from the Main branch and later merged again. In-between, another branch Feature A-1 was created from the Feature A branch (green circles) and merged with that branch again before the Feature A branch was eventually merged with the Main branch. The branch Feature B was created but abandoned and not merged with the Main branch."
-  },
-  {
-    "objectID": "sessions/slides_sessions06.html#todays-chapter",
-    "href": "sessions/slides_sessions06.html#todays-chapter",
-    "title": "Session 5: Branches",
-    "section": "Today’s chapter",
-    "text": "Today’s chapter\n https://lennartwittkuhn.com/version-control-book/chapters/branches.html"
-  },
-  {
-    "objectID": "sessions/slides_sessions06.html#this-weeks-learning-objectives",
-    "href": "sessions/slides_sessions06.html#this-weeks-learning-objectives",
-    "title": "Session 5: Branches",
-    "section": "This weeks learning objectives",
-    "text": "This weeks learning objectives\n💡 You understand the purpose and benefits of using branches in Git. 💡 You can create and switch between branches. 💡 You can merge branches and resolve merge conflicts. 💡 You can name at least three best practices when working with branches."
-  },
-  {
-    "objectID": "sessions/slides_sessions06.html#your-turn",
-    "href": "sessions/slides_sessions06.html#your-turn",
-    "title": "Session 5: Branches",
-    "section": "Your turn",
-    "text": "Your turn\n\n\n Content Review: Read the chapter “Branches” in the Version Control Book.\n Implementation: Try out the commands in the chapter! Play around! Have fun!\nNote: We will do the implementation exercises in class together, step-by-step.\n Exercises: Complete the exercises in the survey.\n\n\n\nAsk questions!\nLet’s git started!\n\n\nand branch out"
-  },
-  {
-    "objectID": "sessions/slides_sessions06.html#implementation-exercises",
-    "href": "sessions/slides_sessions06.html#implementation-exercises",
-    "title": "Session 5: Branches",
-    "section": "Implementation Exercises",
-    "text": "Implementation Exercises\n\n\n1. Create and merge a branch\n\nCreate a new branch called feature.\nSwitch to your new branch.\nAdd a new recipe to your recipes text file.\nSwitch back to the default branch (main or master).\nMerge the feature branch with your default branch and delete the feature branch afterwards.\n\n\n\n\n2. Create and resolve a merge conflict\nDeliberately create a merge conflict by editing the same section of a file on two separate branches and attempting to merge them. An example can be found in the Version Control Book chapter. Resolve the merge conflict and delete the feature branch afterwards.\n\n\n\n3. Complete the branches quiz"
-  },
-  {
-    "objectID": "sessions/slides_sessions06.html#guis-1",
-    "href": "sessions/slides_sessions06.html#guis-1",
-    "title": "Session 5: Branches",
-    "section": "GUIs",
-    "text": "GUIs\n lennartwittkuhn.com/version-control-book/chapters/gui.html\n\n\n\nVersion Control Course"
-  },
-  {
-    "objectID": "sessions/slides_sessions05.html#behind-the-scenes-interview-about-our-course",
-    "href": "sessions/slides_sessions05.html#behind-the-scenes-interview-about-our-course",
-    "title": "Session 4: Git Essentials",
-    "section": "Behind-the-scenes: Interview about our course",
-    "text": "Behind-the-scenes: Interview about our course\n https://lecture2go.uni-hamburg.de/l2go/-/get/v/70364"
-  },
-  {
-    "objectID": "sessions/slides_sessions05.html#schedule",
-    "href": "sessions/slides_sessions05.html#schedule",
-    "title": "Session 4: Git Essentials",
-    "section": "Schedule",
-    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2024-10-18\nIntroduction to version control\nOrganizational mattersOverview of seminar sessionsIntroduction to version controlIntroduction to Git and its advantages\n Intro to version control\nCourse introduction Survey\n\n\n2\n2024-10-25\nCommand line\nFile SystemsBenefits of the Command LineBasic Command Line commands\n Command Line\nCommand Line Quiz\n\n\n3\n2024-11-01\nSetup + Git Fundamentals\nInstallation and configuration of GitInitializing a Git repositoryBasic Git commands\n Installation, Setup, First steps with Git\nInstallation Survey, Git Basics Quiz\n\n\n4\n2024-11-08\nBasic Git workflow\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n First steps with Git\nGit Basics Quiz\n\n\n5\n2024-11-15\nGit Essentials (Repetition & Practice)\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n Git Essentials\nGit Basics Quiz\n\n\n6\n2024-11-22\nGit Branching and Merging\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflict\n Branches\nGit Branches Quiz\n\n\n7\n2024-11-29\nQuarto Workshop\nIntroduction to Quarto\n\n\n\n\n8\n2024-11-06\nIntroduction to GitHub\nIntroduction to remote repositoriesCreating a GitHub accountCreating and managing repositories on GitHubPushing and pulling changes\n GitHub Intro\nGitHub Quiz\n\n\n9\n2024-12-13\nGitHub with collaborators\nCloning a remote repositoryBranching and merging in a collaborative environmentPull RequestsGitHub IssuesGraphical User Interfaces (GUIs), e.g., GitKraken\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n10\n2024-12-20\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n11\n2025-01-10\nGitHub with the world\nForking a remote repository README filesProject Management\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n12\n2025-01-17\nPublishing\nCreating Tags with GitCreating Releases with GitHubUsing Zenodo for scientific publishingLicencesCitation Files\n Tags and Releases\n\n\n\n13\n2025-01-24\nGraphical User Interfaces\nRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces\n\n\n\n14\n2025-01-31\nSummary & Wrap-Up\nCourse evaluationRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces"
-  },
-  {
-    "objectID": "sessions/slides_sessions05.html#last-session-basic-git-workflow-1",
-    "href": "sessions/slides_sessions05.html#last-session-basic-git-workflow-1",
-    "title": "Session 4: Git Essentials",
-    "section": "Last session: Basic Git workflow",
-    "text": "Last session: Basic Git workflow\n lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html"
-  },
-  {
-    "objectID": "sessions/slides_sessions05.html#last-sessions-learning-objectives",
-    "href": "sessions/slides_sessions05.html#last-sessions-learning-objectives",
-    "title": "Session 4: Git Essentials",
-    "section": "Last session’s learning objectives",
-    "text": "Last session’s learning objectives\nAfter the last session, you should now be able to answer the following questions / do the following:\n\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes\n\n\n\ncity-guide project\nAt the end of this session, you should have accomplished the following:\n\nYou set up Git.\nYou initialized your city-guide folder as a Git repository.\nYou committed your first file to the city-guide repository.\n\nPlease keep the city-guide folder! We will continue to use it in the following sessions."
-  },
-  {
-    "objectID": "sessions/slides_sessions05.html#reading",
-    "href": "sessions/slides_sessions05.html#reading",
-    "title": "Session 4: Git Essentials",
-    "section": "Reading",
-    "text": "Reading\n “Git Essentials”"
-  },
-  {
-    "objectID": "sessions/slides_sessions05.html#learning-objectives",
-    "href": "sessions/slides_sessions05.html#learning-objectives",
-    "title": "Session 4: Git Essentials",
+    "objectID": "sessions/session05.html#learning-objectives",
+    "href": "sessions/session05.html#learning-objectives",
+    "title": "Git Essentials",
     "section": "Learning objectives",
-    "text": "Learning objectives\nGit Essentials\n💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file 💡 You can discuss which files can (not) be tracked well with Git and why 💡 You know how to track empty folders in Git repositories"
+    "text": "Learning objectives\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes\n\n\nGit Essentials\n💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file 💡 You can discuss which files can (not) be tracked well with Git and why 💡 You know how to track empty folders in Git repositories"
   },
   {
-    "objectID": "sessions/slides_sessions05.html#tasks",
-    "href": "sessions/slides_sessions05.html#tasks",
-    "title": "Session 4: Git Essentials",
-    "section": "Tasks",
-    "text": "Tasks\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) “Git Essentials” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the city-guide project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
-  },
-  {
-    "objectID": "sessions/slides_sessions05.html#var-course.project-project-1",
-    "href": "sessions/slides_sessions05.html#var-course.project-project-1",
-    "title": "Session 4: Git Essentials",
+    "objectID": "sessions/session05.html#var-course.project-project",
+    "href": "sessions/session05.html#var-course.project-project",
+    "title": "Git Essentials",
     "section": "city-guide project",
-    "text": "city-guide project\nAt the end of this session, you should have accomplished the following:\n\nCommit at least three changes in city-guide.txt.\nMake at least one commit using git commit --amend.\n\nFor example, add a a new entry without a title first, commit, then add a title and use git commit --amend to add the title change to the same commit.\n\nCreate a .gitignore file.\n\nEveryone: Create a random file that you want to ignore, for example image.jpg.\nAll macOS users: Let your repository ignore .DS_Store.\n\n🚀 Optional: Commit .gitkeep in an otherwise empty directory.\n\nPlease keep the city-guide folder! We will continue to use it in the following sessions.\n\n\nToday’s team topic\n\nInterview each other about your favorite outdoor activity.\nAdd the recommendation of your partner to your text file.\nHelp each other in completing the exercises."
+    "text": "city-guide project\nAt the end of this session, you should have accomplished the following:\n\nCommit at least three changes in city-guide.txt.\nMake at least one commit using git commit --amend.\n\nFor example, add a a new entry without a title first, commit, then add a title and use git commit --amend to add the title change to the same commit.\n\nCreate a .gitignore file.\n\nEveryone: Create a random file that you want to ignore, for example image.jpg.\nAll macOS users: Let your repository ignore .DS_Store.\n\n🚀 Optional: Commit .gitkeep in an otherwise empty directory.\n\nPlease keep the city-guide folder! We will continue to use it in the following sessions."
   },
   {
-    "objectID": "sessions/slides_sessions05.html#conversation-starter",
-    "href": "sessions/slides_sessions05.html#conversation-starter",
-    "title": "Session 4: Git Essentials",
-    "section": "Conversation starter",
-    "text": "Conversation starter\n\n\n\nYour name?\nAre you based in Hamburg or Rotterdam?\nA (fun) fact about you? For example:\n\nWhat did you study before and where?\nWhat’s your hobby?\nDo you have a pet?\nWhat’s your favorite color?\nYour mood on a baby yoda scale?"
+    "objectID": "sessions/session05.html#exercises",
+    "href": "sessions/session05.html#exercises",
+    "title": "Git Essentials",
+    "section": "Exercises",
+    "text": "Exercises\n\nAmend a commit\n\nIf needed, navigate to the project folder using the command line.\nMake additional changes to your project text file.\nStage the changes.\nAmend the previous commit to include the new changes.\nCheck the commit history to verify that the last commit message has not changed.\n\nFor example, add a new entry without a title first, commit, then add a title and amend the previous commit to add the title change to the same commit.\n\n\nCreate a .gitignore file\n\nIf needed, navigate to the project folder using the command line.\nAdd a random file to your repository that you want to ignore, for example an image file like image.jpg.\nCheck the state of your repository to confirm that Git noticed the added file.\nCreate a .gitignore file.\nAdd the random file to the .gitignore file.\nCheck the state of your repository again to confirm that Git now ignores the added file.\nStage the changes in your repository.\nCommit the .gitignore file using a descriptive commit message.\n🚀 All macOS users: Let your repository ignore .DS_Store."
   },
   {
-    "objectID": "sessions/slides_sessions05.html#exercises-from-last-time",
-    "href": "sessions/slides_sessions05.html#exercises-from-last-time",
-    "title": "Session 4: Git Essentials",
-    "section": "Exercises (from last time)",
-    "text": "Exercises (from last time)\nInitialize a Git repository\n\nIf needed, navigate to the project folder using the command line.\nInitialize a new Git repository in the project folder.\n\nAdd content and commit changes\n\nCreate a new text file and name it appropriately.\nAdd a short entry to the text file (any favorite or an intriguing AI-generated one).\nStage the new file.\nCommit the changes in the text file with a descriptive commit message.\n\n🚀 Optional: Commit at least three additional changes in your new file."
+    "objectID": "sessions/session05.html#slides",
+    "href": "sessions/session05.html#slides",
+    "title": "Git Essentials",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\n\nHow can I download the slides as PDF?\n\n\n\n\n\nTo print the slides to PDF, do the following:\n\nToggle into Print View using the E key (or using the Navigation Menu).\nOpen the in-browser print dialog (CTRL/CMD+P).\nChange the Destination setting to Save as PDF.\nChange the Layout to Landscape.\nChange the Margins to None.\nEnable the Background graphics option.\nClick Save.\n\nNote: This feature has been confirmed to work in Google Chrome, Chromium as well as in Firefox.\nHere’s what the Chrome print dialog would look like with these settings enabled:\n\nThese instructions were copied from the Quarto documentation (MIT License) and slightly modified."
   },
   {
-    "objectID": "sessions/slides_sessions05.html#exercises-2",
-    "href": "sessions/slides_sessions05.html#exercises-2",
-    "title": "Session 4: Git Essentials",
-    "section": "Exercises 2",
-    "text": "Exercises 2\nAmend a commit\n\nIf needed, navigate to the project folder using the command line.\nMake additional changes to your project text file.\nStage the changes.\nAmend the previous commit to include the new changes.\nCheck the commit history to verify that the last commit message has not changed.\n\nFor example, add a new entry without a title first, commit, then add a title and amend the previous commit to add the title change to the same commit."
+    "objectID": "sessions/session05.html#cheatsheet",
+    "href": "sessions/session05.html#cheatsheet",
+    "title": "Git Essentials",
+    "section": "Cheatsheet",
+    "text": "Cheatsheet\n\nFirst steps with Git\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit init\nInitializes a folder as a Git repository\n\n\ngit status\nShows Git tracking status of files in the repository\n\n\ngit add\nAdds file(s) to the staging area\n\n\ngit commit\nCommits staged files\n\n\ngit commit -m \"commit message\"\nCommits staged files with a commit message\n\n\n\n\n\n\n\nGit Essentials\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit log\nViews past commits\n\n\ngit diff\nViews made changes compared to the last commit\n\n\ngit mv\nRenames or moves files and automatically stages the changes"
   },
   {
-    "objectID": "sessions/slides_sessions05.html#exercises-3",
-    "href": "sessions/slides_sessions05.html#exercises-3",
-    "title": "Session 4: Git Essentials",
-    "section": "Exercises 3",
-    "text": "Exercises 3\nCreate a .gitignore file\n\nIf needed, navigate to the project folder using the command line.\nAdd a random file to your repository that you want to ignore, for example an image file like image.jpg.\nCheck the state of your repository to confirm that Git noticed the added file.\nCreate a .gitignore file.\nAdd the random file to the .gitignore file.\nCheck the state of your repository again to confirm that Git now ignores the added file.\nStage the changes in your repository.\nCommit the .gitignore file using a descriptive commit message.\n🚀 All macOS users: Let your repository ignore .DS_Store."
+    "objectID": "sessions/session01.html",
+    "href": "sessions/session01.html",
+    "title": "Introduction to Version Control",
+    "section": "",
+    "text": "Slides\n  \n  \n    \n     Chapter\n  \n  \n    \n     Exercises"
   },
   {
-    "objectID": "sessions/slides_sessions05.html#solutions-first-steps-with-git",
-    "href": "sessions/slides_sessions05.html#solutions-first-steps-with-git",
-    "title": "Session 4: Git Essentials",
-    "section": "Solutions: First steps with Git",
-    "text": "Solutions: First steps with Git\n\n\n\nCode\n\n#!/bin/bash\n\ncd city-guide # &lt;1&gt;\ngit init # &lt;2&gt;\ntouch city-guide.txt # &lt;3&gt;\ncat &gt; city-guide.txt &lt;&lt;- EOM # &lt;4&gt;\nHamburg Planetarium\n\n- It is one of the world's oldest, and one of Europe's most visited planetariums.\n- It is located in the district of Winterhude, Hamburg, Germany.\nEOM\ngit add city-guide.txt # &lt;5&gt;\ngit commit -m \"Add Hamburg Planetarium to city-guide.txt\" # &lt;6&gt;\n\n\n\nIf needed, navigate into the city-guide subfolder using cd city-guide (or a similar path).\nInitialize a new Git repository in the city-guide folder using git init.\nCreate a new file called city-guide.txt using touch. Note that you can also use a regular text editor to do this.\nAdd a short entry to city-guide.txt. In this example, cat is used to add text to city-guide.txt. This command would also create the file if city-guide.txt wouldn’t exist yet. Note that you can also use a regular text editor to do this.\nStage the new city-guide.txt file using git add.\nCommit the changes in city-guide.txt with a descriptive commit message using git commit."
+    "objectID": "sessions/session01.html#this-session",
+    "href": "sessions/session01.html#this-session",
+    "title": "Introduction to Version Control",
+    "section": "This session",
+    "text": "This session\nIn this session, you will complete the following tasks:\n\nComplete the pre-course survey.\nRead the chapter “Introduction” of the Version Control Book.\nCheck whether you have achieved the learning objectives.\nAfter the session: complete the homework."
   },
   {
-    "objectID": "sessions/slides_sessions05.html#solutions-amend-a-commit",
-    "href": "sessions/slides_sessions05.html#solutions-amend-a-commit",
-    "title": "Session 4: Git Essentials",
-    "section": "Solutions: Amend a commit",
-    "text": "Solutions: Amend a commit\n\n\n\nCode\n\n#!/bin/bash\n\ncd city-guide # &lt;1&gt;\necho \"- It is housed in a former water tower at the center of Hamburg Stadtpark.\" &gt;&gt; city-guide.txt # &lt;2&gt;\ngit add city-guide.txt # &lt;3&gt;\ngit commit --amend --no-edit # &lt;4&gt;\ngit log --oneline # &lt;5&gt;\n\n\n\nOptional: Navigate into the project repository using cd (in combination with an absolute or relative path).\nMake an additional change to the project text file. In this example, echo is used to append text to text file. Note that you can also use a regular text editor to do this.\nStage the changes using git add.\nAmend the previous commit to include the new changes using git commit --amend. In this example, the --no-edit flag is used to amend the commit without changing the commit message.\nCheck the commit history using git log to verify that the last commit message has not changed. Here, we add the --oneline flag to show a concise summary of the past commits."
+    "objectID": "sessions/session01.html#homework",
+    "href": "sessions/session01.html#homework",
+    "title": "Introduction to Version Control",
+    "section": "Homework",
+    "text": "Homework\nCheck if you have Git and / or a command line installed. For detailed instructions for Windows and macOS users, see the chapter “Installation” of the Version Control Book."
   },
   {
-    "objectID": "sessions/slides_sessions05.html#solutions-create-a-.gitignore-file",
-    "href": "sessions/slides_sessions05.html#solutions-create-a-.gitignore-file",
-    "title": "Session 4: Git Essentials",
-    "section": "Solutions: Create a .gitignore file",
-    "text": "Solutions: Create a .gitignore file\n\n\n\nCode\n\n#!/bin/bash\n\ncd city-guide # &lt;1&gt;\nwget -nv -O hamburg-planetarium.jpg https://upload.wikimedia.org/wikipedia/commons/3/3a/Hamburg_Planetarium_10881zh.jpg # &lt;2&gt;\ngit status # &lt;3&gt;\ntouch .gitignore # &lt;4&gt;\necho \"*.jpg\" &gt; .gitignore # &lt;5&gt;\ngit status # &lt;6&gt;\ngit add --all # &lt;7&gt;\ngit commit -m \"Add .gitignore and ignore all files that end with .jpg\" # &lt;8&gt;\necho \".DS_Store\" &gt;&gt; .gitignore # &lt;9&gt;\ngit add .gitignore # &lt;9&gt;\ngit commit -m \"Ignore .DS_Store\" # &lt;9&gt;\n\n\n\nOptional: Navigate into the project repository using cd (in combination with an absolute or relative path).\nDownload an image from the internet using wget. This command download a picture of pasta from the internet and saves the output -O as pasta.jpg. The -nv (or --no-verbose) argument makes the command output less text.\nCheck the state of your repository using git status. Git will notice the new file and list it as untracked.\nCreate a .gitignore file using touch. Note that you can also use a regular text editor to do this.\nAdd *.jpg to the .gitignore file to ignore all files that end with the .jpg file extension. In this example, echo is used to append text to the text file. Note that you can also use a regular text editor to do this. This command would also create the file if .gitignore wouldn’t exist yet.\nCheck the state of your repository again using git status. The new file should disappear from the output and is not listed as untracked anymore.\nStage all changes using git add --all. This command should generally be avoided as it may lead to staging and committing changes that should not added to the repository’s history. Here, we use it to demonstrate that only the .gitignore will be staged but not the pasta image file because it is ignored.\nCommit the changes in .gitignore with a descriptive commit message using git commit.\nAdd .DS_Store to the .gitignore file to ignore it. Again, echo is used to append text to the text file. Note that you can also use a regular text editor to do this. Stage and commit your changes using a descriptive commit message."
+    "objectID": "sessions/session01.html#learning-objectives",
+    "href": "sessions/session01.html#learning-objectives",
+    "title": "Introduction to Version Control",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nAt the end of this session, you should be able to answer the following questions and / or achieve the following learning objectives:\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub."
   },
   {
-    "objectID": "sessions/slides_sessions05.html#staging-and-committing",
-    "href": "sessions/slides_sessions05.html#staging-and-committing",
-    "title": "Session 4: Git Essentials",
-    "section": "Staging and Committing",
-    "text": "Staging and Committing\n\n\nStaging:\n\nCommand: git add\nPurpose: Preparing and organizing files before they are recorded in the repository’s history.\n\n\nCommitting:\n\nCommand: git commit -m \"commit message\"\nPurpose: Saving the changes in the staged files to the repository’s history, creating a snapshot.\n\n\n\n\n\n\n\nSource: git-scm.com"
+    "objectID": "sessions/session01.html#slides",
+    "href": "sessions/session01.html#slides",
+    "title": "Introduction to Version Control",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\n\nHow can I download the slides as PDF?\n\n\n\n\n\nTo print the slides to PDF, do the following:\n\nToggle into Print View using the E key (or using the Navigation Menu).\nOpen the in-browser print dialog (CTRL/CMD+P).\nChange the Destination setting to Save as PDF.\nChange the Layout to Landscape.\nChange the Margins to None.\nEnable the Background graphics option.\nClick Save.\n\nNote: This feature has been confirmed to work in Google Chrome, Chromium as well as in Firefox.\nHere’s what the Chrome print dialog would look like with these settings enabled:\n\nThese instructions were copied from the Quarto documentation (MIT License) and slightly modified."
   },
   {
-    "objectID": "sessions/slides_sessions05.html#git-log",
-    "href": "sessions/slides_sessions05.html#git-log",
-    "title": "Session 4: Git Essentials",
-    "section": "git log",
-    "text": "git log\n\ngit log\ne.g:\n\n\n\n\n\ncommit 3f6db14ed93d6e92a207a9a3ac5f8b8c5c5c5c34 (HEAD -&gt; main, origin/master, origin/HEAD)\nAuthor: Jane Doe &lt;jane@example.com&gt;\nDate:   Tue Apr 24 14:24:48 2024 -0700\n\n    Fix the widget rendering issue in the dashboard\n\ncommit a4324f44d3e85723a4d91cb9e07132b7115e4941\nAuthor: John Smith &lt;john@example.com&gt;\nDate:   Mon Apr 23 16:17:59 2024 -0700\n\n    Update dependencies to newer versions\n\ncommit fa204b9145bf7fc7ff226a26b49a567fc2eb1b94\nAuthor: Alice Johnson &lt;alice@example.com&gt;\nDate:   Sun Apr 22 15:08:43 2024 -0700\n\n    Initial commit of project files\n\n\n\n\ncommit b9690b287bdfec6e17af39b7337b84e9ebf6f046\nAuthor: Lennart Wittkuhn &lt;lennart.wittkuhn@tutanota.com&gt;\nDate:   Fri Mar 22 15:19:43 2024 +0100\n\n    move illustration of bad git commits (xkcd comic) and edit sentence\n\ncommit d8d770dd84cd19086f41d8d38752b223c8130859\nAuthor: konradpa &lt;konrad@pagenstedt.de&gt;\nDate:   Wed Mar 6 13:51:13 2024 +0100\n\n    add image to setup chapter\n\ncommit 074c9f6e12dd5fc8cc61de9f31efbdbce41a7583\nAuthor: konradpa &lt;konrad@pagenstedt.de&gt;\nDate:   Wed Mar 6 13:51:07 2024 +0100\n\n    add image to rewriting history chapter"
+    "objectID": "sessions/session01.html#email",
+    "href": "sessions/session01.html#email",
+    "title": "Introduction to Version Control",
+    "section": "Email",
+    "text": "Email\nDear course participant,\nYou are receiving this email because you have signed up for the course “Track, organize and share your work: An introduction to Git for research”, taking place this Winter semester 2024/25 (October to January), Fridays, 10:15 - 11:45 (90 Minutes), at University of Hamburg & Erasmus University Rotterdam. We are excited that you have signed up for this course and can’t wait to delve into the world of version control with you! Our first session takes place next Friday, October 18, 2024, from 10:15 to 11:45 online via Zoom (see access details below).\nCompared to previous versions of this course, which were held in person at the University of Hamburg, this semester’s course is special. Supported by funding from the International Office at the University of Hamburg, this course will take place fully online, with participants from both the University of Hamburg and our partner institution, Erasmus University Rotterdam. Students from both universities, Hamburg and Rotterdam, will come together in this online course, thereby not only having the opportunity to learn about effective version control and collaboration with Git but also getting to know each other and strengthening the intercultural and academic exchange between the partner institutions. In order to tailor the course to your prior experience and needs, we have prepared a survey with a few questions. Please complete the survey before our first session, ideally by Thursday evening (October 17, 2024). This will give us enough time to review your responses before our first session on Friday. In total, the survey should take about 20 minutes (not much longer).\nThe survey can be accessed here: https://version-control-intro.formr.org\nA few technical remarks about the survey: The survey will ask you for two codewords: a personal codeword and a course codeword.\nThe personal codeword is used to associate your responses with a unique identifier. This will allow us to identify and relate your responses across all surveys used in the course while ensuring anonymity. By providing a personal codeword, you will allow us to draw more detailed insights from your responses that will help us improve the course for you. The survey will contain an explanation at the beginning on how to generate your personal codeword. For students at University of Hamburg: The surveys are part of your mandatory course work. We will later use your personal codeword to confirm the completion of all mandatory surveys. More details about this procedure will be shared in our first course session.\nThe course codeword is used to tag your responses as coming from a course participant at University of Hamburg & Erasmus University Rotterdam. We might also use the survey to collect responses from participants in other course settings. The course codeword therefore allows us to distinguish responses from different course settings.\nThe course codeword is: -------- (course password will be announced during the course).\nPlease note that you might be asked for the codewords repeatedly. This is not an error in the survey but the result of combining separate smaller surveys into a longer one. If this happens, please just enter the personal and course codeword again.\nFurther information about the course can be found on our course website: https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24.\nIf you have any questions, feel free to contact us directly via email.\nWe are looking forward to seeing you for the first session on Monday!\nBest wishes,\nLennart Wittkuhn (Instructor) & Ana Martinovici (Teaching Collaborator)"
   },
   {
-    "objectID": "sessions/slides_sessions05.html#terminology-what-are-branches",
-    "href": "sessions/slides_sessions05.html#terminology-what-are-branches",
-    "title": "Session 4: Git Essentials",
-    "section": "Terminology: What are “branches”?",
-    "text": "Terminology: What are “branches”?\n lennartwittkuhn.com/version-control-book/chapters/branches.html"
+    "objectID": "sessions/session04.html",
+    "href": "sessions/session04.html",
+    "title": "Basic Git workflow",
+    "section": "",
+    "text": "Slides\n  \n  \n    \n     Chapter: First steps with Git\n  \n  \n    \n     Chapter: Git Essentials\n  \n  \n    \n     Quiz"
   },
   {
-    "objectID": "sessions/slides_sessions05.html#terminology-what-is-head",
-    "href": "sessions/slides_sessions05.html#terminology-what-is-head",
-    "title": "Session 4: Git Essentials",
-    "section": "Terminology: What is HEAD?",
-    "text": "Terminology: What is HEAD?\n lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#head\n\n\n\nVersion Control Course"
+    "objectID": "sessions/session04.html#this-session",
+    "href": "sessions/session04.html#this-session",
+    "title": "Basic Git workflow",
+    "section": "This session",
+    "text": "This session\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) “First steps with Git” and “Git Essentials” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the city-guide project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
+  },
+  {
+    "objectID": "sessions/session04.html#learning-objectives",
+    "href": "sessions/session04.html#learning-objectives",
+    "title": "Basic Git workflow",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes\n\n\nGit Essentials\n💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file 💡 You can discuss which files can (not) be tracked well with Git and why 💡 You know how to track empty folders in Git repositories"
+  },
+  {
+    "objectID": "sessions/session04.html#var-course.project-project",
+    "href": "sessions/session04.html#var-course.project-project",
+    "title": "Basic Git workflow",
+    "section": "city-guide project",
+    "text": "city-guide project\nAt the end of this session, you should have accomplished the following:\n\nCommit at least three changes in city-guide.txt.\nMake at least one commit using git commit --amend.\n\nFor example, add a a new entry without a title first, commit, then add a title and use git commit --amend to add the title change to the same commit.\n\nCreate a .gitignore file.\n\nEveryone: Create a random file that you want to ignore, for example image.jpg.\nAll macOS users: Let your repository ignore .DS_Store.\n\n🚀 Optional: Commit .gitkeep in an otherwise empty directory.\n\nPlease keep the city-guide folder! We will continue to use it in the following sessions."
+  },
+  {
+    "objectID": "sessions/session04.html#exercises",
+    "href": "sessions/session04.html#exercises",
+    "title": "Basic Git workflow",
+    "section": "Exercises",
+    "text": "Exercises\n\nInitialize a Git repository\n\nIf needed, navigate to the project folder using the command line.\nInitialize a new Git repository in the project folder.\n\n\n\nAdd content and commit changes\n\nCreate a new text file and name it appropriately.\nAdd a short entry to the text file (any favorite or an intriguing AI-generated one).\nStage the new file.\nCommit the changes in the text file with a descriptive commit message.\n\n🚀 Optional: Commit at least three additional changes in your new file.\n\n\nAmend a commit\n\nIf needed, navigate to the project folder using the command line.\nMake additional changes to your project text file.\nStage the changes.\nAmend the previous commit to include the new changes.\nCheck the commit history to verify that the last commit message has not changed.\n\nFor example, add a new entry without a title first, commit, then add a title and amend the previous commit to add the title change to the same commit.\n\n\nCreate a .gitignore file\n\nIf needed, navigate to the project folder using the command line.\nAdd a random file to your repository that you want to ignore, for example an image file like image.jpg.\nCheck the state of your repository to confirm that Git noticed the added file.\nCreate a .gitignore file.\nAdd the random file to the .gitignore file.\nCheck the state of your repository again to confirm that Git now ignores the added file.\nStage the changes in your repository.\nCommit the .gitignore file using a descriptive commit message.\n🚀 All macOS users: Let your repository ignore .DS_Store."
+  },
+  {
+    "objectID": "sessions/session04.html#slides",
+    "href": "sessions/session04.html#slides",
+    "title": "Basic Git workflow",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\n\nHow can I download the slides as PDF?\n\n\n\n\n\nTo print the slides to PDF, do the following:\n\nToggle into Print View using the E key (or using the Navigation Menu).\nOpen the in-browser print dialog (CTRL/CMD+P).\nChange the Destination setting to Save as PDF.\nChange the Layout to Landscape.\nChange the Margins to None.\nEnable the Background graphics option.\nClick Save.\n\nNote: This feature has been confirmed to work in Google Chrome, Chromium as well as in Firefox.\nHere’s what the Chrome print dialog would look like with these settings enabled:\n\nThese instructions were copied from the Quarto documentation (MIT License) and slightly modified."
+  },
+  {
+    "objectID": "sessions/session04.html#cheatsheet",
+    "href": "sessions/session04.html#cheatsheet",
+    "title": "Basic Git workflow",
+    "section": "Cheatsheet",
+    "text": "Cheatsheet\n\nFirst steps with Git\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit init\nInitializes a folder as a Git repository\n\n\ngit status\nShows Git tracking status of files in the repository\n\n\ngit add\nAdds file(s) to the staging area\n\n\ngit commit\nCommits staged files\n\n\ngit commit -m \"commit message\"\nCommits staged files with a commit message\n\n\n\n\n\n\n\nGit Essentials\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit log\nViews past commits\n\n\ngit diff\nViews made changes compared to the last commit\n\n\ngit mv\nRenames or moves files and automatically stages the changes"
   },
   {
     "objectID": "sessions/slides_session03.html#schedule",
@@ -1789,7 +1789,7 @@
     "href": "sessions/index.html",
     "title": "Sessions",
     "section": "",
-    "text": "Basic Git workflow\n\n\nSession 04\n\n\n\n\n\n\nNovember 8, 2024\n\n\n\n\n\n\n\n\nFirst steps with Git\n\n\nSession 03\n\n\n\n\n\n\nNovember 1, 2024\n\n\n\n\n\n\n\n\nCommand Line\n\n\nSession 02\n\n\n\n\n\n\nOctober 25, 2024\n\n\n\n\n\n\n\n\nIntroduction to Version Control\n\n\nSession 01\n\n\n\n\n\n\nOctober 18, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Git Essentials\n\n\nSession 05\n\n\n\n\n\n\nNovember 15, 2024\n\n\n\n\n\n\n\n\nBasic Git workflow\n\n\nSession 04\n\n\n\n\n\n\nNovember 8, 2024\n\n\n\n\n\n\n\n\nFirst steps with Git\n\n\nSession 03\n\n\n\n\n\n\nNovember 1, 2024\n\n\n\n\n\n\n\n\nCommand Line\n\n\nSession 02\n\n\n\n\n\n\nOctober 25, 2024\n\n\n\n\n\n\n\n\nIntroduction to Version Control\n\n\nSession 01\n\n\n\n\n\n\nOctober 18, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/session_extraexercise.html",
