@@ -10,6 +10,16 @@ chapter: |
 quiz-url: https://version-control-basics.formr.org/
 ---
 
+# Admin
+
+## Behind-the-scenes: Interview about our course
+
+{{< fa display >}} [https://lecture2go.uni-hamburg.de/l2go/-/get/v/70364](https://lecture2go.uni-hamburg.de/l2go/-/get/v/70364)
+
+```{=html}
+<iframe src='https://lecture2go.uni-hamburg.de/o/iframe/?obj=70364'  title='Video: Versionskontrolle? Können wir alle gebrauchen!' frameborder='0' width='647' height='373' allowfullscreen></iframe>
+```
+
 # Last session: Basic Git workflow
 
 ## Schedule
