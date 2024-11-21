@@ -41,6 +41,16 @@ quiz-url: https://version-control-branches.formr.org/
 
 {{< include project/project-branches.qmd >}}
 
+## Exercises
+
+### Create and merge a new branch
+
+{{< include ../exercises/_exercises-branches.qmd >}}
+
+### Create and resolve a merge conflict
+
+{{< include ../exercises/_exercises-branches-merge-conflict.qmd >}}
+
 ## Slides
 
 ```{=html}
