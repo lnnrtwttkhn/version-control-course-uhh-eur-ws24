@@ -21,7 +21,8 @@ https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/ma
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-essentials-gitignore-city-guide.sh
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/exercises/_exercises-branches.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/exercises/_solutions-branches.qmd
-https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-branches.sh
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-branches-recipes.sh
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-branches-city-guide.sh
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/exercises/_exercises-branches-merge-conflict.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/exercises/_solutions-branches-merge-conflict.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/code/code-exercises-branches-merge-conflict.sh

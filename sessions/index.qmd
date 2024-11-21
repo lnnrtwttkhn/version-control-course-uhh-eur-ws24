@@ -8,7 +8,7 @@ listing:
     - "session03.qmd"
     - "session04.qmd"
     - "session05.qmd"
-    # - "session06.qmd"
+    - "session06.qmd"
     # - "session08.qmd"
     # - "session09.qmd"
     # - "session10.qmd"
