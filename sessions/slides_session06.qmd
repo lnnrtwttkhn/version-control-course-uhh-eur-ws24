@@ -1,0 +1,147 @@
+---
+title: "Session 6: Branches"
+date: 2024-11-22T10:15
+format: revealjs
+metadata-files:
+  - _slides.yml
+session-title: "Branches"
+chapter: |
+  ["Branches"](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)
+quiz-url: https://version-control-branches.formr.org/
+---
+
+# Admin
+
+## Schedule
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+create_schedule()
+```
+
+# Last session: Git Essentials
+
+## Last session: Git Essentials
+
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html" title="Version Control Book"></iframe>
+```
+
+## Last sessions's learning objectives
+
+### Git Essentials
+
+{{< include ../objectives/_objectives-essentials.qmd >}}
+
+::: {.fragment}
+
+### `{{< var course.project >}}` project
+
+{{< include project/project-essentials.qmd >}}
+
+:::
+
+## Recap: Best practices for commit messages
+
+::: fragment
+![](../images/xkcd-git-commit.png)
+:::
+
+::: fragment
+- Try to keep commit messages **short** (less than 72 characters)
+- Use **present tense** and start with an **imperative** verb to indicate the purpose of the commit, for example "add", "fix", "improve" (as if you are giving orders to the codebase to change its behavior)
+
+> If applied, this commit will ... [*your commit message*]
+
+- Try to describe **why** a change is being made
+- Link specific [issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html) that are addressed by your commit
+- Use the **description** for more explanation and context
+:::
+
+# This session: {{< meta session-title >}}
+
+## This session: {{< meta session-title >}}
+
+![Image from [Chapter "Git Branches"](https://book.the-turing-way.org/reproducible-research/vcs/vcs-git-branches.html) of the ["The Turing Way handbook to reproducible, ethical and collaborative data science"](https://book.the-turing-way.org/), used under a [Creative Commons Attribution 4.0 License](https://github.com/the-turing-way/the-turing-way/blob/main/LICENSE.md).](../images/turing-way-branches.png){#fig-branches}
+
+::: {.notes}
+**Illustration of branches in a Git repository.** Each circle represents a commit. Commits on the `Main` branch are shown in gray. The branch `Feature A` (blue circles) was created from the `Main` branch and later merged again. In-between, another branch `Feature A-1` was created from the `Feature A` branch (green circles) and merged with that branch again before the `Feature A` branch was eventually merged with the `Main` branch. The branch `Feature B` was created but abandoned and not merged with the `Main` branch. 
+:::
+
+## Reading
+
+{{< fa display >}} {{< meta chapter >}}
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/branches.html" title="Version Control Book"></iframe>
+```
+
+## Learning objectives
+
+### {{< meta session-title >}}
+
+{{< include ../objectives/_objectives-branches.qmd >}}
+
+## Tasks
+
+{{< include tasks-template.qmd >}}
+
+## `{{< var course.project >}}` project
+
+{{< include project/project-branches.qmd >}}
+
+::: {.fragment}
+
+### Today's team topic
+
+- Interview each other about your favorite **activity involving water**.
+- Add the recommendation *of your partner* to your text file.
+- Help each other in completing the exercises.
+
+:::
+
+## Conversation starter
+
+:::: {.columns}
+::: {.column width="50%"}
+
+1. Your name?
+1. Are you based in Hamburg or Rotterdam?
+1. A (fun) fact about you? For example:
+    - What did you study before and where?
+    - What's your hobby?
+    - Do you have a pet?
+    - What's your favorite color?
+    - Your mood on an animals scale?
+   
+:::
+::: {.column width="50%"}
+::: {.fragment}
+![](../images/mood-animals.jpg)
+:::
+:::
+::::
+
+## Exercises 1
+
+### Create and merge a new branch
+
+{{< include ../exercises/_exercises-branches.qmd >}}
+
+## Exercises 2
+
+### Create and resolve a merge conflict
+
+{{< include ../exercises/_exercises-branches-merge-conflict.qmd >}}
+
+## Solutions: Create and merge a new branch
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-branches-city-guide.sh
+```
+{{< include ../exercises/_solutions-branches.qmd >}}
