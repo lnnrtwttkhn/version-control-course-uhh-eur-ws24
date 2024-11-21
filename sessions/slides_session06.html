@@ -13,7 +13,7 @@
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.450">
 
-  <title>An introduction to Git for research - Session 5: Branches</title>
+  <title>An introduction to Git for research - Session 6: Branches</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -395,7 +395,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Session 5: Branches</h1>
+  <h1 class="title">Session 6: Branches</h1>
   <p class="subtitle"></p><p>Track, organize and share your work: An introduction to Git for research</p>
 <p>Course at University of Hamburg &amp; Erasmus University Rotterdam</p>
 <p><a href="https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a> | <a href="https://github.com/lnnrtwttkhn/version-control-course-uhh-eur-ws24/"><i class="fa-brands fa-github" aria-label="github"></i> Source</a></p>
@@ -428,17 +428,21 @@ Reza Hakimazar
 </div>
 </div>
 
-  <p class="date">May 06 2024 (12:15 pm)</p>
+  <p class="date">November 22 2024 (10:15 am)</p>
 </section><section id="TOC">
 <nav role="doc-toc"> 
 <h2 id="toc-title">Agenda</h2>
 <ul>
-<li><a href="#/last-week-first-steps-with-git" id="/toc-last-week-first-steps-with-git"><span class="header-section-number">1</span> Last week: First steps with Git</a></li>
-<li><a href="#/survey-results" id="/toc-survey-results"><span class="header-section-number">2</span> Survey results</a></li>
-<li><a href="#/todays-topic-branches" id="/toc-todays-topic-branches"><span class="header-section-number">3</span> Today’s topic: Branches</a></li>
-<li><a href="#/guis" id="/toc-guis"><span class="header-section-number">4</span> GUIs</a></li>
+<li><a href="#/admin" id="/toc-admin"><span class="header-section-number">1</span> Admin</a></li>
+<li><a href="#/last-session-git-essentials" id="/toc-last-session-git-essentials"><span class="header-section-number">2</span> Last session: Git Essentials</a></li>
+<li><a href="#/this-session-meta-session-title" id="/toc-this-session-meta-session-title"><span class="header-section-number">3</span> This session: Branches</a></li>
 </ul>
 </nav>
+</section>
+<section>
+<section id="admin" class="title-slide slide level1 center" data-number="1">
+<h1><span class="header-section-number">1</span> Admin</h1>
+
 </section>
 <section id="schedule" class="slide level2">
 <h2>Schedule</h2>
@@ -499,7 +503,7 @@ Reza Hakimazar
 <tr class="even">
 <td style="text-align: left;">6</td>
 <td style="text-align: left;">2024-11-22</td>
-<td style="text-align: left;"><strong>Git Branching and Merging</strong></td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/sessions/session06">Git Branching and Merging</a></strong></td>
 <td style="text-align: left;">Understanding branches in Git<br>Creating and switching between branches<br>Merging branches<br>Resolving merge conflict</td>
 <td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html">Branches</a></td>
 <td style="text-align: left;"><a href="https://version-control-branches.formr.org">Git Branches Quiz</a></td>
@@ -572,49 +576,40 @@ Reza Hakimazar
 </table>
 </div>
 </div>
-</section>
-<section>
-<section id="last-week-first-steps-with-git" class="title-slide slide level1 center" data-number="1">
-<h1><span class="header-section-number">1</span> Last week: First steps with Git</h1>
-
-</section>
-<section id="last-week-first-steps-with-git-1" class="slide level2">
-<h2>Last week: First steps with Git</h2>
-<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html">lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html</a></p>
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
-</section>
-<section id="last-weeks-question-saving-command-line-history" class="slide level2">
-<h2>Last week’s question: Saving command line history?</h2>
-<p>Use this:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a href="#cb1-1"></a><span class="bu">history</span> <span class="op">&gt;</span> history.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history">https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history</a></p>
-<iframe width="100%" height="70%" src="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history" title="Version Control Book"></iframe>
-</section>
-<section id="last-weeks-question-commit-.gitignore" class="slide level2">
-<h2>Last week’s question: Commit <code>.gitignore</code>?</h2>
-<p>Yes, commit your project-specific <code>.gitignore</code> file.</p>
-<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#ignoring-files-and-folders-.gitignore">https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#ignoring-files-and-folders-.gitignore</a></p>
-<iframe width="100%" height="70%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#ignoring-files-and-folders-.gitignore" title="Version Control Book"></iframe>
-</section>
-<section id="last-weeks-learning-objectives" class="slide level2">
-<h2>Last week’s learning objectives</h2>
-<div class="fragment">
-<!-- -->
-<h3 id="setup">Setup</h3>
-<p><span class="emoji" data-emoji="bulb">💡</span> You know how to set up Git for the first time<br> <span class="emoji" data-emoji="bulb">💡</span> You have set up Git on your computer<br> <span class="emoji" data-emoji="bulb">💡</span> You understand the difference between the three Git configuration levels<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to configure your username and email address in Git<br> <span class="emoji" data-emoji="bulb">💡</span> You have set up your preferred text editor when working with Git<br> <span class="emoji" data-emoji="bulb">💡</span> You can escape the command-line text editor Vim</p>
-</div>
-<div class="fragment">
-<!-- -->
-<h3 id="first-steps-with-git">First steps with Git</h3>
-<p><span class="emoji" data-emoji="bulb">💡</span> You can initialize a Git repository<br> <span class="emoji" data-emoji="bulb">💡</span> You can stage and commit changes<br></p>
-</div>
 </section></section>
 <section>
-<section id="survey-results" class="title-slide slide level1 center" data-number="2">
-<h1><span class="header-section-number">2</span> Survey results</h1>
+<section id="last-session-git-essentials" class="title-slide slide level1 center" data-number="2">
+<h1><span class="header-section-number">2</span> Last session: Git Essentials</h1>
 
+</section>
+<section id="last-session-git-essentials-1" class="slide level2">
+<h2>Last session: Git Essentials</h2>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html">https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html</a></p>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html" title="Version Control Book"></iframe>
+</section>
+<section id="last-sessionss-learning-objectives" class="slide level2">
+<h2>Last sessions’s learning objectives</h2>
+<h3 id="git-essentials">Git Essentials</h3>
+<p><span class="emoji" data-emoji="bulb">💡</span> You know how to explore the commit history<br> <span class="emoji" data-emoji="bulb">💡</span> You can compare different commits<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to use and create a <code>.gitignore</code> file<br> <span class="emoji" data-emoji="bulb">💡</span> You can discuss which files can (not) be tracked well with Git and why<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to track empty folders in Git repositories</p>
+<div class="fragment">
+<!-- -->
+<h3 id="var-course.project-project"><code>city-guide</code> project</h3>
+<p>At the end of this session, you should have accomplished the following:</p>
+<ol type="1">
+<li>Commit at least three changes in <code>city-guide.txt</code>.</li>
+<li>Make at least one commit using <code>git commit --amend</code>.
+<ul>
+<li>For example, add a a new entry without a title first, commit, then add a title and use <code>git commit --amend</code> to add the title change to the same commit.</li>
+</ul></li>
+<li>Create a <code>.gitignore</code> file.
+<ul>
+<li>Everyone: Create a random file that you want to ignore, for example <code>image.jpg</code>.</li>
+<li>All macOS users: Let your repository ignore <code>.DS_Store</code>.</li>
+</ul></li>
+<li><span class="emoji" data-emoji="rocket">🚀</span> Optional: Commit <code>.gitkeep</code> in an otherwise empty directory.</li>
+</ol>
+<p>Please keep the <code>city-guide</code> folder! We will continue to use it in the following sessions.</p>
+</div>
 </section>
 <section id="recap-best-practices-for-commit-messages" class="slide level2">
 <h2>Recap: Best practices for commit messages</h2>
@@ -637,12 +632,12 @@ Reza Hakimazar
 </div>
 </section></section>
 <section>
-<section id="todays-topic-branches" class="title-slide slide level1 center" data-number="3">
-<h1><span class="header-section-number">3</span> Today’s topic: Branches</h1>
+<section id="this-session-meta-session-title" class="title-slide slide level1 center" data-number="3">
+<h1><span class="header-section-number">3</span> This session: Branches</h1>
 
 </section>
-<section id="todays-topic-branches-1" class="slide level2">
-<h2>Today’s topic: Branches</h2>
+<section id="this-session-meta-session-title-1" class="slide level2">
+<h2>This session: Branches</h2>
 
 <img data-src="../images/turing-way-branches.png" class="r-stretch quarto-figure-center"><p class="caption">Figure&nbsp;1: Image from <a href="https://book.the-turing-way.org/reproducible-research/vcs/vcs-git-branches.html">Chapter “Git Branches”</a> of the <a href="https://book.the-turing-way.org/">“The Turing Way handbook to reproducible, ethical and collaborative data science”</a>, used under a <a href="https://github.com/the-turing-way/the-turing-way/blob/main/LICENSE.md">Creative Commons Attribution 4.0 License</a>.</p><aside class="notes">
 <p><strong>Illustration of branches in a Git repository.</strong> Each circle represents a commit. Commits on the <code>Main</code> branch are shown in gray. The branch <code>Feature A</code> (blue circles) was created from the <code>Main</code> branch and later merged again. In-between, another branch <code>Feature A-1</code> was created from the <code>Feature A</code> branch (green circles) and merged with that branch again before the <code>Feature A</code> branch was eventually merged with the <code>Main</code> branch. The branch <code>Feature B</code> was created but abandoned and not merged with the <code>Main</code> branch.</p>
@@ -658,65 +653,144 @@ Reza Hakimazar
           display:block!important;
       }</style></aside>
 </section>
-<section id="todays-chapter" class="slide level2">
-<h2>Today’s chapter</h2>
-<p><i class="fa-brands fa-internet-explorer" aria-label="internet-explorer"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html" class="uri">https://lennartwittkuhn.com/version-control-book/chapters/branches.html</a></p>
+<section id="reading" class="slide level2">
+<h2>Reading</h2>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html">“Branches”</a></p>
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/branches.html" title="Version Control Book"></iframe>
 </section>
-<section id="this-weeks-learning-objectives" class="slide level2">
-<h2>This weeks learning objectives</h2>
+<section id="learning-objectives" class="slide level2">
+<h2>Learning objectives</h2>
+<h3 id="meta-session-title">Branches</h3>
 <p><span class="emoji" data-emoji="bulb">💡</span> You understand the purpose and benefits of using branches in Git.<br> <span class="emoji" data-emoji="bulb">💡</span> You can create and switch between branches.<br> <span class="emoji" data-emoji="bulb">💡</span> You can merge branches and resolve merge conflicts.<br> <span class="emoji" data-emoji="bulb">💡</span> You can name at least three best practices when working with branches.</p>
 </section>
-<section id="your-turn" class="slide level2">
-<h2>Your turn</h2>
-<div>
+<section id="tasks" class="slide level2">
+<h2>Tasks</h2>
+<p>In this session, you will work on the following tasks:</p>
 <ol type="1">
-<li class="fragment"><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Content Review</strong>: Read the chapter <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html">“Branches”</a> in the Version Control Book.</li>
-<li class="fragment"><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter! Play around! Have fun!</li>
-<li class="fragment"><strong>Note:</strong> We will do the implementation exercises in class together, step-by-step.</li>
-<li class="fragment"><i class="fa-solid fa-dumbbell" aria-label="dumbbell"></i> <strong>Exercises</strong>: Complete the exercises in the <a href="https://version-control-branches.formr.org/">survey</a>.</li>
+<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Reading</strong>: Read the chapter(s) <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html">“Branches”</a> in the Version Control Book.</li>
+<li><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter.</li>
+<li><i class="fa-solid fa-list-check" aria-label="list-check"></i> <strong>Exercises</strong>: Work on the <a href="#/exercises">exercises</a> for the <a href="#/city-guide-project"><code>city-guide</code> project</a>.</li>
+<li><i class="fa-solid fa-clipboard-question" aria-label="clipboard-question"></i> <strong>Quiz</strong>: Test your knowledge with the <a href="https://version-control-branches.formr.org/">quiz</a>.</li>
 </ol>
-</div>
-<div class="fragment">
-<p>Ask questions!</p>
-<p>Let’s <em>git</em> started!</p>
-</div>
-<div class="fragment">
-<p>and <em>branch</em> out</p>
-</div>
+<p>As always:</p>
+<ol type="1">
+<li>Try out the commands of this session and play around with them.</li>
+<li>Check whether you have achieved the <a href="#/learning-objectives">learning objectives</a>.</li>
+<li>Ask questions!</li>
+<li>Let’s <em>git</em> started!</li>
+</ol>
 </section>
-<section id="implementation-exercises" class="slide level2">
-<h2>Implementation Exercises</h2>
+<section id="var-course.project-project-1" class="slide level2">
+<h2><code>city-guide</code> project</h2>
+<p>At the end of this session, you should have accomplished the following:</p>
+<ol type="1">
+<li>You created a new branch and merged changes into your default branch (<code>main</code> or <code>master</code>).</li>
+<li>You created and resolved a merge conflict.</li>
+</ol>
+<p>Please keep the <code>city-guide</code> folder! We will continue to use it in the following sessions.</p>
 <div class="fragment">
 <!-- -->
-<h3 id="create-and-merge-a-branch">1. Create and merge a branch</h3>
+<h3 id="todays-team-topic">Today’s team topic</h3>
+<ul>
+<li>Interview each other about your favorite <strong>activity involving water</strong>.</li>
+<li>Add the recommendation <em>of your partner</em> to your text file.</li>
+<li>Help each other in completing the exercises.</li>
+</ul>
+</div>
+</section>
+<section id="conversation-starter" class="slide level2">
+<h2>Conversation starter</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ol type="1">
+<li>Your name?</li>
+<li>Are you based in Hamburg or Rotterdam?</li>
+<li>A (fun) fact about you? For example:
+<ul>
+<li>What did you study before and where?</li>
+<li>What’s your hobby?</li>
+<li>Do you have a pet?</li>
+<li>What’s your favorite color?</li>
+<li>Your mood on an animals scale?</li>
+</ul></li>
+</ol>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<p><img data-src="../images/mood-animals.jpg"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="exercises-1" class="slide level2">
+<h2>Exercises 1</h2>
+<h3 id="create-and-merge-a-new-branch">Create and merge a new branch</h3>
+<ol type="1">
+<li>If needed, navigate to the project repository using the command line.</li>
 <li>Create a new branch called <code>feature</code>.</li>
-<li>Switch to your new branch.</li>
-<li>Add a new recipe to your recipes text file.</li>
+<li>Switch to the new branch.</li>
+<li>Add a new entry to your project text file.</li>
+<li>Stage and commit the changes to the project text file on the <code>feature</code> branch.</li>
+<li>View the contents of project text file to verify your changes.</li>
 <li>Switch back to the default branch (<code>main</code> or <code>master</code>).</li>
-<li>Merge the <code>feature</code> branch with your default branch and delete the <code>feature</code> branch afterwards.</li>
+<li>View the contents of the project text file again to confirm that the previous changes do not exist on the default branch.</li>
+<li>Merge the <code>feature</code> branch into your default branch.</li>
+<li>Delete the <code>feature</code> branch.</li>
+<li>View the contents of project text file yet again to confirm that the previous changes have been merged into the default branch.</li>
 </ol>
-</div>
-<div class="fragment">
-<!-- -->
-<h3 id="create-and-resolve-a-merge-conflict">2. Create and resolve a merge conflict</h3>
-<p>Deliberately create a merge conflict by editing the same section of a file on two separate branches and attempting to merge them. An example can be found in the Version Control Book chapter. Resolve the merge conflict and delete the feature branch afterwards.</p>
-</div>
-<div class="fragment">
-<!-- -->
-<h3 id="complete-the-branches-quiz">3. Complete the <a href="https://version-control-branches.formr.org">branches quiz</a></h3>
-</div>
-</section></section>
-<section>
-<section id="guis" class="title-slide slide level1 center" data-number="4">
-<h1><span class="header-section-number">4</span> GUIs</h1>
-
 </section>
-<section id="guis-1" class="slide level2">
-<h2>GUIs</h2>
-<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/gui.html">lennartwittkuhn.com/version-control-book/chapters/gui.html</a></p>
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/gui.html" title="Version Control Book"></iframe>
+<section id="exercises-2" class="slide level2">
+<h2>Exercises 2</h2>
+<h3 id="create-and-resolve-a-merge-conflict">Create and resolve a merge conflict</h3>
+<ol type="1">
+<li>Deliberately create a merge conflict by editing the same section of a file on two separate branches and attempting to merge them. An example can be found in the <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html">branches</a> chapter.</li>
+<li>Resolve the merge conflict.</li>
+<li>Delete the merged branch afterwards.</li>
+</ol>
+</section>
+<section id="solutions-create-and-merge-a-new-branch" class="slide level2">
+<h2>Solutions: Create and merge a new branch</h2>
+<div class="cell" data-file="exercises/code-exercises-branches-city-guide.sh">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Code</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="bu">cd</span> city-guide <span class="co"># &lt;1&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="fu">git</span> branch feature <span class="co"># &lt;2&gt;</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="fu">git</span> switch feature <span class="co"># &lt;3&gt;</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="fu">cat</span> <span class="op">&gt;&gt;</span> city-guide.txt <span class="op">&lt;&lt;- EOM</span> <span class="co"># &lt;4&gt;</span></span>
+<span id="cb1-7"><a href="#cb1-7"></a></span>
+<span id="cb1-8"><a href="#cb1-8"></a><span class="st">Paddle tour of the Alster canals</span></span>
+<span id="cb1-9"><a href="#cb1-9"></a></span>
+<span id="cb1-10"><a href="#cb1-10"></a><span class="st">- If you're not afraid of the water and would like to enjoy a really super day whilst at the same time doing a bit of upper body exercise, then why not pick up a paddle and work your way down the Alster canals in a canoe.</span></span>
+<span id="cb1-11"><a href="#cb1-11"></a><span class="st">- Just go to any one of the countless boat and canoe hire points on the Alster to begin your adventure.</span></span>
+<span id="cb1-12"><a href="#cb1-12"></a></span>
+<span id="cb1-13"><a href="#cb1-13"></a><span class="st">taken from https://www.hamburg-travel.com/see-explore/sports-recreation/sports-physical-activity/paddle-tour-of-the-alster-canals/</span></span>
+<span id="cb1-14"><a href="#cb1-14"></a><span class="op">EOM</span></span>
+<span id="cb1-15"><a href="#cb1-15"></a><span class="fu">git</span> add city-guide.txt <span class="co"># &lt;5&gt;</span></span>
+<span id="cb1-16"><a href="#cb1-16"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add paddle tour of the Alster canals to city-guide.txt"</span> <span class="co"># &lt;5&gt;</span></span>
+<span id="cb1-17"><a href="#cb1-17"></a><span class="fu">cat</span> city-guide.txt <span class="co"># &lt;6&gt;</span></span>
+<span id="cb1-18"><a href="#cb1-18"></a><span class="fu">git</span> checkout main <span class="co"># &lt;7&gt;</span></span>
+<span id="cb1-19"><a href="#cb1-19"></a><span class="fu">cat</span> city-guide.txt <span class="co"># &lt;8&gt;</span></span>
+<span id="cb1-20"><a href="#cb1-20"></a><span class="fu">git</span> merge feature <span class="co"># &lt;9&gt;</span></span>
+<span id="cb1-21"><a href="#cb1-21"></a><span class="fu">git</span> branch <span class="at">-d</span> feature <span class="co"># &lt;10&gt; </span></span>
+<span id="cb1-22"><a href="#cb1-22"></a><span class="fu">cat</span> city-guide.txt <span class="co"># &lt;11&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<ol type="1">
+<li>Optional: Navigate into the project repository using <code>cd</code> (or a similar path).</li>
+<li>Create a new branch called <code>feature</code> using <code>git branch feature</code>.</li>
+<li>Switch to the new branch using <code>git switch feature</code>. You can also create and switch the branch in one step using <code>git checkout -b feature</code>.</li>
+<li>Add a new entry to your project text file file. You can use your regular text editor. Here, we add a new entry from the command line using <code>cat</code>.</li>
+<li>Stage and commit the changes to your project text file using <code>git add</code> and <code>git commit</code>.</li>
+<li>View the contents of your project text file to verify your changes. Here, we use the <code>cat</code> command again.</li>
+<li>Switch back to the default branch (<code>main</code> in this example). Here, we use <code>git checkout main</code> but you can also use <code>git switch main</code>.</li>
+<li>View the contents of your project text file again to confirm that the previous changes do not exist on the <code>main</code> branch.</li>
+<li>Merge the changes <code>feature</code> branch into the <code>main</code> branch.</li>
+<li>Delete the merged <code>feature</code> branch using <code>git branch -d feature</code>.</li>
+<li>View the contents of your project text file yet again to confirm that the previous changes have been merged into the <code>main</code> branch.</li>
+</ol>
 
 <div class="footer footer-default">
 <p>Version Control Course</p>

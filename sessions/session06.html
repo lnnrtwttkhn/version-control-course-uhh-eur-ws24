@@ -137,9 +137,15 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#this-session" id="toc-this-session" class="nav-link active" data-scroll-target="#this-session">This session</a></li>
-  <li><a href="#recipes-project" id="toc-recipes-project" class="nav-link" data-scroll-target="#recipes-project"><code>recipes</code> project</a></li>
   <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#var-course.project-project" id="toc-var-course.project-project" class="nav-link" data-scroll-target="#var-course.project-project"><code>city-guide</code> project</a></li>
+  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a>
+  <ul>
+  <li><a href="#create-and-merge-a-new-branch" id="toc-create-and-merge-a-new-branch" class="nav-link" data-scroll-target="#create-and-merge-a-new-branch">Create and merge a new branch</a></li>
+  <li><a href="#create-and-resolve-a-merge-conflict" id="toc-create-and-resolve-a-merge-conflict" class="nav-link" data-scroll-target="#create-and-resolve-a-merge-conflict">Create and resolve a merge conflict</a></li>
+  </ul></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#cheatsheet" id="toc-cheatsheet" class="nav-link" data-scroll-target="#cheatsheet">Cheatsheet</a></li>
   </ul>
 </nav>
     </div>
@@ -154,18 +160,18 @@ ul.task-list li input[type="checkbox"] {
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Branches</h1>
-<p class="subtitle lead">Session 05</p>
+<p class="subtitle lead">Session 06</p>
 </div>
 <div class="quarto-title-meta">
     <div>
     <div class="quarto-title-meta-heading">Starts at:</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 06 2024 (12:15 pm)</p>
+      <p class="date">November 22 2024 (10:15 am)</p>
     </div>
   </div>
   </div>
 </header> <div class="about-links">
-  <a href="https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session05.html" class="about-link" rel="" target="">
+  <a href="https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/sessions/slides_session05.html" class="about-link" rel="" target="">
     <i class="bi bi-display"></i>
      <span class="about-link-text">Slides</span>
   </a>
@@ -186,29 +192,64 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="this-session" class="level2">
 <h2 data-anchor-id="this-session">This session</h2>
-<p>In this session, you will complete the following tasks:</p>
+<p>In this session, you will work on the following tasks:</p>
 <ol type="1">
-<li>Complete the chapter <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html">“Branches”</a> in the Version Control Book.</li>
-<li>Complete the exercises for the <a href="#recipes-project"><code>recipes</code> project</a>.</li>
-<li>Complete the <a href="https://version-control-branches.formr.org/">quiz</a>.</li>
+<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Reading</strong>: Read the chapter(s) <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html">“Branches”</a> in the Version Control Book.</li>
+<li><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter.</li>
+<li><i class="fa-solid fa-list-check" aria-label="list-check"></i> <strong>Exercises</strong>: Work on the <a href="#exercises">exercises</a> for the <a href="#city-guide-project"><code>city-guide</code> project</a>.</li>
+<li><i class="fa-solid fa-clipboard-question" aria-label="clipboard-question"></i> <strong>Quiz</strong>: Test your knowledge with the <a href="https://version-control-branches.formr.org/">quiz</a>.</li>
 </ol>
 <p>As always:</p>
 <ol type="1">
-<li>Try out the commands in the chapter and play around with them.</li>
+<li>Try out the commands of this session and play around with them.</li>
 <li>Check whether you have achieved the <a href="#learning-objectives">learning objectives</a>.</li>
+<li>Ask questions!</li>
+<li>Let’s <em>git</em> started!</li>
 </ol>
-</section>
-<section id="recipes-project" class="level2">
-<h2 data-anchor-id="recipes-project"><code>recipes</code> project</h2>
-<p>At the end of this session, you should have accomplished the following: 1. Created a new branch and merged changes to your main branch 1. Created and resolved a merge conflict</p>
-<p>Please keep the <code>recipes</code> folder! We will continue to use it in the following sessions.</p>
 </section>
 <section id="learning-objectives" class="level2">
 <h2 data-anchor-id="learning-objectives">Learning objectives</h2>
 <p><span class="emoji" data-emoji="bulb">💡</span> You understand the purpose and benefits of using branches in Git.<br> <span class="emoji" data-emoji="bulb">💡</span> You can create and switch between branches.<br> <span class="emoji" data-emoji="bulb">💡</span> You can merge branches and resolve merge conflicts.<br> <span class="emoji" data-emoji="bulb">💡</span> You can name at least three best practices when working with branches.</p>
 </section>
+<section id="var-course.project-project" class="level2">
+<h2 data-anchor-id="var-course.project-project"><code>city-guide</code> project</h2>
+<p>At the end of this session, you should have accomplished the following:</p>
+<ol type="1">
+<li>You created a new branch and merged changes into your default branch (<code>main</code> or <code>master</code>).</li>
+<li>You created and resolved a merge conflict.</li>
+</ol>
+<p>Please keep the <code>city-guide</code> folder! We will continue to use it in the following sessions.</p>
+</section>
+<section id="exercises" class="level2">
+<h2 data-anchor-id="exercises">Exercises</h2>
+<section id="create-and-merge-a-new-branch" class="level3">
+<h3 data-anchor-id="create-and-merge-a-new-branch">Create and merge a new branch</h3>
+<ol type="1">
+<li>If needed, navigate to the project repository using the command line.</li>
+<li>Create a new branch called <code>feature</code>.</li>
+<li>Switch to the new branch.</li>
+<li>Add a new entry to your project text file.</li>
+<li>Stage and commit the changes to the project text file on the <code>feature</code> branch.</li>
+<li>View the contents of project text file to verify your changes.</li>
+<li>Switch back to the default branch (<code>main</code> or <code>master</code>).</li>
+<li>View the contents of the project text file again to confirm that the previous changes do not exist on the default branch.</li>
+<li>Merge the <code>feature</code> branch into your default branch.</li>
+<li>Delete the <code>feature</code> branch.</li>
+<li>View the contents of project text file yet again to confirm that the previous changes have been merged into the default branch.</li>
+</ol>
+</section>
+<section id="create-and-resolve-a-merge-conflict" class="level3">
+<h3 data-anchor-id="create-and-resolve-a-merge-conflict">Create and resolve a merge conflict</h3>
+<ol type="1">
+<li>Deliberately create a merge conflict by editing the same section of a file on two separate branches and attempting to merge them. An example can be found in the <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html">branches</a> chapter.</li>
+<li>Resolve the merge conflict.</li>
+<li>Delete the merged branch afterwards.</li>
+</ol>
+</section>
+</section>
 <section id="slides" class="level2">
 <h2 data-anchor-id="slides">Slides</h2>
+<iframe width="100%" height="500" src="slides_session06.html"></iframe>
 <div class="callout callout-style-default callout-note callout-titled" title="How can I download the slides as PDF?">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -238,7 +279,107 @@ How can I download the slides as PDF?
 </div>
 </div>
 </div>
-<iframe width="100%" height="500" src="slides_session05.html"></iframe>
+</section>
+<section id="cheatsheet" class="level2">
+<h2 data-anchor-id="cheatsheet">Cheatsheet</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped small">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 63%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Command</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>git branch</code></td>
+<td style="text-align: left;">Lists / creates and deletes branches</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git branch feature</code></td>
+<td style="text-align: left;">Creates the <code>feature</code> branch</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git branch -d feature</code></td>
+<td style="text-align: left;">Deletes the <code>feature</code> branch</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git switch</code></td>
+<td style="text-align: left;">Switches between branches</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git switch feature</code></td>
+<td style="text-align: left;">Switches to the <code>feature</code> branch</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git checkout</code></td>
+<td style="text-align: left;">Switches between branches</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git checkout -b feature</code></td>
+<td style="text-align: left;">Creates and switches to the <code>feature</code> branch</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git merge</code></td>
+<td style="text-align: left;">Merges branches</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git merge feature</code></td>
+<td style="text-align: left;">Merges the <code>feature</code> branch into the current branch</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git merge --abort</code></td>
+<td style="text-align: left;">Aborts a merge</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git merge --squash</code></td>
+<td style="text-align: left;">Squaches commits on branch into a single commit and merge</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git stash</code></td>
+<td style="text-align: left;">Staches changes for later use</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git stash -m "stashing message"</code></td>
+<td style="text-align: left;">Stashes changes and includes a message</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git stash list</code></td>
+<td style="text-align: left;">Shows stored stashes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git stash apply</code></td>
+<td style="text-align: left;">Applies the latest stash</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git stash apply stash@{n}</code></td>
+<td style="text-align: left;">Applies a specific stash</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git stash pop</code></td>
+<td style="text-align: left;">Applies the latest stash and removes it from stash list</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git stash pop stash@{n}</code></td>
+<td style="text-align: left;">Applies a specific stash and removes it from stash list</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git cherry-pick &lt;commithash&gt;</code></td>
+<td style="text-align: left;">Applies changes from <code>&lt;commithash&gt;</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git rebase</code></td>
+<td style="text-align: left;">Different way of integrating changes from two branches</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 
 
 
