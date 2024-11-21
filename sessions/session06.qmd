@@ -1,7 +1,7 @@
 ---
 title: "Branches"
-subtitle: "Session 05"
-date: 2024-05-06T12:15
+subtitle: "Session 06"
+date: 2024-11-22T10:15
 metadata-files:
   - _sessions.yml
 about:
@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session05.html
+      href: https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/sessions/slides_session05.html
       aria-label: display
     - icon: book
       text: "Chapter: Branches"
@@ -21,6 +21,9 @@ about:
       text: Quiz
       href: https://version-control-branches.formr.org/
       aria-label: input-cursor-text
+chapter: |
+  ["Branches"](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)
+quiz-url: https://version-control-branches.formr.org/
 ---
 
 ::: {#hero-heading}
@@ -28,34 +31,30 @@ about:
 
 ## This session
 
-In this session, you will complete the following tasks:
-
-1. Complete the chapter ["Branches"](https://lennartwittkuhn.com/version-control-book/chapters/branches.html) in the Version Control Book.
-1. Complete the exercises for the [`recipes` project](#recipes-project).
-1. Complete the [quiz](https://version-control-branches.formr.org/).
-
-As always:
-
-1. Try out the commands in the chapter and play around with them.
-1. Check whether you have achieved the [learning objectives](#learning-objectives).
-
-## `recipes` project
-
-At the end of this session, you should have accomplished the following:
-1. Created a new branch and merged changes to your main branch
-1. Created and resolved a merge conflict
-
-Please keep the `recipes` folder!
-We will continue to use it in the following sessions.
+{{< include tasks-template.qmd >}}
 
 ## Learning objectives
 
 {{< include ../objectives/_objectives-branches.qmd >}}
 
+## `{{< var course.project >}}` project
+
+{{< include project/project-branches.qmd >}}
+
 ## Slides
+
+```{=html}
+<iframe width="100%" height=500 src="slides_session06.html"></iframe>
+```
 
 {{< include _print-to-pdf.qmd >}}
 
-```{=html}
-<iframe width="100%" height=500 src="slides_session05.html"></iframe>
+## Cheatsheet
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "branches"), format = "markdown", row.names = FALSE)
 ```
