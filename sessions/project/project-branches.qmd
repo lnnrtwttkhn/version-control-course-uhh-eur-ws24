@@ -1,0 +1,7 @@
+At the end of this session, you should have accomplished the following:
+
+1. You created a new branch and merged changes into your default branch (`main` or `master`).
+1. You created and resolved a merge conflict.
+
+Please keep the `{{< var course.project >}}` folder!
+We will continue to use it in the following sessions.
