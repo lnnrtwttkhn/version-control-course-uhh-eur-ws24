@@ -952,6 +952,27 @@
     "text": "Schedule\n\n\n\n\n\nNo\nDate\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2024-10-18\nIntroduction to version control\nOrganizational mattersOverview of seminar sessionsIntroduction to version controlIntroduction to Git and its advantages\n Intro to version control\nCourse introduction Survey\n\n\n2\n2024-10-25\nCommand line\nFile SystemsBenefits of the Command LineBasic Command Line commands\n Command Line\nCommand Line Quiz\n\n\n3\n2024-11-01\nSetup + Git Fundamentals\nInstallation and configuration of GitInitializing a Git repositoryBasic Git commands\n Installation, Setup, First steps with Git\nInstallation Survey, Git Basics Quiz\n\n\n4\n2024-11-08\nBasic Git workflow\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n First steps with Git\nGit Basics Quiz\n\n\n5\n2024-11-15\nGit Essentials (Repetition & Practice)\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n Git Essentials\nGit Basics Quiz\n\n\n6\n2024-11-22\nGit Branching and Merging\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflict\n Branches\nGit Branches Quiz\n\n\n7\n2024-11-29\nQuarto Workshop\nIntroduction to Quarto\n\n\n\n\n8\n2024-11-06\nIntroduction to GitHub\nIntroduction to remote repositoriesCreating a GitHub accountCreating and managing repositories on GitHubPushing and pulling changes\n GitHub Intro\nGitHub Quiz\n\n\n9\n2024-12-13\nGitHub with collaborators\nCloning a remote repositoryBranching and merging in a collaborative environmentPull RequestsGitHub IssuesGraphical User Interfaces (GUIs), e.g., GitKraken\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n10\n2024-12-20\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n11\n2025-01-10\nGitHub with the world\nForking a remote repository README filesProject Management\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n12\n2025-01-17\nPublishing\nCreating Tags with GitCreating Releases with GitHubUsing Zenodo for scientific publishingLicencesCitation Files\n Tags and Releases\n\n\n\n13\n2025-01-24\nGraphical User Interfaces\nRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces\n\n\n\n14\n2025-01-31\nSummary & Wrap-Up\nCourse evaluationRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces"
   },
   {
+    "objectID": "sessions/slides_session06.html#i-need-help",
+    "href": "sessions/slides_session06.html#i-need-help",
+    "title": "Session 6: Branches",
+    "section": "I need help!",
+    "text": "I need help!\n\n\nHelp yourself\n\nLook at the solutions on the exercises page in the Version Control Book (or on each session’s slides)\nStart fresh with a “prepared” repository: Download from the exercises page in the Version Control Book\n\n\n\n\nWe help you\n\nLet us know! Ask questions!\nSend an email with questions!\nAsk for an office hour!\n\n\n\n\nFellow students help you\n\nThis is a team exercise: We want everyone to keep up!\nDon’t be shy and ask for help from your session partner.\nIf you notice that your session partner needs help, please help them first (you will also deepen your knowledge by helping others)."
+  },
+  {
+    "objectID": "sessions/slides_session06.html#questions-from-last-session",
+    "href": "sessions/slides_session06.html#questions-from-last-session",
+    "title": "Session 6: Branches",
+    "section": "Questions from last session",
+    "text": "Questions from last session\n\n\n “How do we submit the exercises?”\n\nDuring later sessions, you will learn how to share your city-guide repository with us via GitHub.\nHow you implemented the exercises should be registered as Git commits in your repository.\nTherefore, we can - retrospectively - check if and how you implemented the exercises (yay, version control!).\n\n\n\n\n “How can I make changes in a text (.txt) file?”\n\nRemember: It’s just a regular text file on your computer.\nOption 1: Use a regular text editor (e.g., TextEdit on macOS, Notepad++ on Windows).\nOption 2: Use vim directly from the command line (see chapter / session on “Setup”).\nOption 3: Use command line commands like echo \"My text\" &gt;&gt; city-guide.txt.\n\n\n\n\n “I ran git commit but nothing happened?”\n\nMaybe you forgot to run git add before?"
+  },
+  {
+    "objectID": "sessions/slides_session06.html#staging-and-committing",
+    "href": "sessions/slides_session06.html#staging-and-committing",
+    "title": "Session 6: Branches",
+    "section": "Staging and Committing",
+    "text": "Staging and Committing\n\n\nStaging:\n\nCommand: git add\nPurpose: Preparing and organizing files before they are recorded in the repository’s history.\n\n\nCommitting:\n\nCommand: git commit -m \"commit message\"\nPurpose: Saving the changes in the staged files to the repository’s history, creating a snapshot.\n\n\n\n\n\n\n\n\n\nSource: git-scm.com\n\n\n\n\n\n\n\n\nSource: Heidi Seibold"
+  },
+  {
     "objectID": "sessions/slides_session06.html#last-session-git-essentials-1",
     "href": "sessions/slides_session06.html#last-session-git-essentials-1",
     "title": "Session 6: Branches",
