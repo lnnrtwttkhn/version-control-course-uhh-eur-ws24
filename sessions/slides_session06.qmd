@@ -22,6 +22,31 @@ quiz-url: https://version-control-branches.formr.org/
 create_schedule()
 ```
 
+## I need help!
+
+::: fragment
+### Help yourself
+
+- Look at the solutions on the [exercises page](https://lennartwittkuhn.com/version-control-book/misc/exercises.html) in the Version Control Book (or on each session's slides)
+- Start fresh with a "prepared" repository: Download from the [exercises page](https://lennartwittkuhn.com/version-control-book/misc/exercises.html) in the Version Control Book
+:::
+
+::: fragment
+### We help you
+
+- Let us know! Ask questions!
+- Send an email with questions!
+- Ask for an office hour!
+:::
+
+::: fragment
+### Fellow students help you
+
+- This is a **team exercise**: We want everyone to keep up!
+- Don't be shy and ask for help from your session partner.
+- If you notice that your session partner needs help, please help them first
+(you will also deepen your knowledge by helping others).
+:::
 # Last session: Git Essentials
 
 ## Last session: Git Essentials
