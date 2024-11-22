@@ -47,6 +47,29 @@ create_schedule()
 - If you notice that your session partner needs help, please help them first
 (you will also deepen your knowledge by helping others).
 :::
+
+## Questions from last session
+
+::: fragment
+#### {{< fa circle-question >}} *"How do we submit the exercises?"*
+
+- During later sessions, you will learn how to share your `{{< var course.project >}}` repository with us via GitHub.
+- How you implemented the exercises should be registered as Git commits in your repository.
+- Therefore, we can - retrospectively - check if and how you implemented the exercises (yay, *version* control!).
+:::
+
+::: fragment
+#### {{< fa circle-question >}} *"How can I make changes in a text (`.txt`) file?"*
+- Remember: **It's just a regular text file on your computer.**
+- Option 1: Use a regular text editor (e.g., TextEdit on macOS, Notepad++ on Windows).
+- Option 2: Use `vim` directly from the command line (see chapter / session on "Setup").
+- Option 3: Use command line commands like `echo "My text" >> city-guide.txt`.
+:::
+
+::: fragment
+#### {{< fa circle-question >}} *"I ran `git commit` but nothing happened?"*
+- Maybe you forgot to run `git add` before?
+:::
 # Last session: Git Essentials
 
 ## Last session: Git Essentials
