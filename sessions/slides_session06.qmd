@@ -70,6 +70,38 @@ create_schedule()
 #### {{< fa circle-question >}} *"I ran `git commit` but nothing happened?"*
 - Maybe you forgot to run `git add` before?
 :::
+
+## Staging and Committing
+
+::: columns
+::: {.column width="50%"}
+### Staging:
+
+-   Command: `git add`
+-   Purpose: Preparing and organizing files before they are recorded in the repository's history.
+:::
+
+::: {.column width="50%"}
+### Committing:
+
+-   Command: `git commit -m "commit message"`
+-   Purpose: Saving the changes in the staged files to the repository's history, creating a snapshot.
+:::
+:::
+
+::: columns
+::: {.column width="50%"}
+::: fragment
+![Source: [git-scm.com](https://git-scm.com/book/en/v2)](../images/git-staging-diagram.png){width="100%"}
+:::
+:::
+::: {.column width="50%"}
+::: fragment
+![Source: [Heidi Seibold](https://docs.google.com/presentation/d/1Yj59XAAJZQprO-kfDHzHMtjJDttMFAqkkslqcSIRZKg/edit#slide=id.p)](../images/git-analogy-letter.png){width="100%"}
+:::
+:::
+:::
+
 # Last session: Git Essentials
 
 ## Last session: Git Essentials
