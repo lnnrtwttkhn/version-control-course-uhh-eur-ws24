@@ -1,0 +1,30 @@
+At the end of this session, you should have accomplished the following:
+
+### Task 1
+
+1. You created a new `quarto` branch in your `{{< var course.project >}}` repository and switched to it.
+
+### Task 2
+
+1. You created a new **empty Quarto file** called `{{< var course.project >}}.qmd` and saved it in your `{{< var course.project >}}` repository.
+1. You wrote a **short introduction note** to your `{{< var course.project >}}` repository.
+1. You **staged** and **committed** your changes.
+
+### Task 3
+
+1. You **added a new entry** to the `{{< var course.project >}}.qmd` file.
+1. You formatted the text by applying at least **three types of Markdown syntax**.
+1. You **staged** and **committed** your changes.
+
+### Task 4
+
+1. You **added a YAML header** to your Quarto file.
+1. You included **your name**, a **title**, an [**output format**](https://quarto.org/docs/output-formats/all-formats.html) (e.g., HTML) and a [**theme**](https://quarto.org/docs/output-formats/html-themes.html).
+1. You **staged** and **committed** your changes.
+
+#### Task 5
+
+1. You **merged** your `quarto` branch into your main branch
+
+Please keep the `{{< var course.project >}}` folder!
+We will continue to use it in the following sessions.
