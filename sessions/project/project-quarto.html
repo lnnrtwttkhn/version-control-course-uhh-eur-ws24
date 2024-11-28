@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -139,6 +173,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#task-1" id="toc-task-1" class="nav-link active" data-scroll-target="#task-1">Task 1</a></li>
   <li><a href="#task-2" id="toc-task-2" class="nav-link" data-scroll-target="#task-2">Task 2</a></li>
+  <li><a href="#task-2.1" id="toc-task-2.1" class="nav-link" data-scroll-target="#task-2.1">Task 2.1</a></li>
   <li><a href="#task-3" id="toc-task-3" class="nav-link" data-scroll-target="#task-3">Task 3</a></li>
   <li><a href="#task-4" id="toc-task-4" class="nav-link" data-scroll-target="#task-4">Task 4</a>
   <ul>
@@ -164,13 +199,31 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li>You created a new <strong>empty Quarto file</strong> called <code>city-guide.qmd</code> and saved it in your <code>city-guide</code> repository.</li>
 <li>You wrote a <strong>short introduction note</strong> to your <code>city-guide</code> repository.</li>
+<li>You switched between Quarto’s visual and source mode.</li>
+<li>You rendered the file to HTML.</li>
 <li>You <strong>staged</strong> and <strong>committed</strong> your changes.</li>
+</ol>
+</section>
+<section id="task-2.1" class="level3">
+<h3 class="anchored" data-anchor-id="task-2.1">Task 2.1</h3>
+<p>Quarto and RStudio might create a bunch of extra files:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">.Rproj.user</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">.Rhistory</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">.RData</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">.Ruserdata</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">/_site/</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="ex">/.quarto/</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>The are temporary or user specific files and should therefore <strong>not be tracked in Git</strong>.</p>
+<ol type="1">
+<li>Add any file that is not the <code>.qmd</code> file to your <code>.gitignore</code> file.</li>
+<li>Stage and commit the changes to your <code>.gitignore</code> file.</li>
 </ol>
 </section>
 <section id="task-3" class="level3">
 <h3 class="anchored" data-anchor-id="task-3">Task 3</h3>
 <ol type="1">
 <li>You <strong>added a new entry</strong> to the <code>city-guide.qmd</code> file.</li>
+<li>Topic: Interview each other about your favorite <strong>cinema or theater</strong>.</li>
 <li>You formatted the text by applying at least <strong>three types of Markdown syntax</strong>.</li>
 <li>You <strong>staged</strong> and <strong>committed</strong> your changes.</li>
 </ol>
