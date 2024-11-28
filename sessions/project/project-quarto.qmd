@@ -8,11 +8,32 @@ At the end of this session, you should have accomplished the following:
 
 1. You created a new **empty Quarto file** called `{{< var course.project >}}.qmd` and saved it in your `{{< var course.project >}}` repository.
 1. You wrote a **short introduction note** to your `{{< var course.project >}}` repository.
+1.    You switched between Quarto's visual and source mode.
+1.    You rendered the file to HTML.
 1. You **staged** and **committed** your changes.
+
+### Task 2.1
+
+Quarto and RStudio might create a bunch of extra files:
+
+```bash
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+/_site/
+/.quarto/
+```
+
+The are temporary or user specific files and should therefore **not be tracked in Git**.
+
+1. Add any file that is not the `.qmd` file to your `.gitignore` file.
+1. Stage and commit the changes to your `.gitignore` file.
 
 ### Task 3
 
 1. You **added a new entry** to the `{{< var course.project >}}.qmd` file.
+1. Topic: Interview each other about your favorite **cinema or theater**.
 1. You formatted the text by applying at least **three types of Markdown syntax**.
 1. You **staged** and **committed** your changes.
 
