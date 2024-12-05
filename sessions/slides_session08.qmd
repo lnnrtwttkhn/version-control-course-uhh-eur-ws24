@@ -1,12 +1,16 @@
 ---
-title: "Session 8: GitHub - Intro"
-date: 2024-05-20T12:15
+title: "Session 8: Remotes - Introduction"
+date: 2024-12-06T10:15
 format: revealjs
 metadata-files:
   - _slides.yml
+session-title: "Remotes - Introduction"
+chapter: |
+  ["Remotes: Introduction"](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html)
+quiz-url: https://version-control-github.formr.org/
 ---
 
-# Schedule
+# Admin
 
 ## Schedule
 
@@ -18,7 +22,7 @@ metadata-files:
 create_schedule()
 ```
 
-# Last Session
+# Last session: Quarto Workshop
 
 ## Last session: Quarto Workshop
 
@@ -27,131 +31,121 @@ create_schedule()
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session06" title="Version Control Book"></iframe>
 ```
 
-## Last week: Questions about Quarto?
-
-## Important note: Git repository in `user` folder?
-
-::: {.fragment}
-- Please make sure that your `recipes` repository is in a suitable place (for example, in the `Desktop`, `Documents` folders or where you keep your university-related files, ...) and **not** in your user directory!
-- Also: Always remember to `cd` into your repository before you execute Git commands!
-- If your repository is in your user directory, please **tell Lennart** and we can fix it.
-:::
-
-::: {.fragment}
-**Tip:** To prevent ever creating a Git repository inside your `user` folder, you can use:
-
-::: {.columns}
-::: {.column width="40%"}
-```{zsh filename="Code"}
-touch ~/.git
-```
-:::
-:::
-:::
+## Last session: Questions about Quarto?
 
 ::: {.fragment}
 
-Running `git init` in the `user` directory now results in a (desired) error:
+### Cool, Quarto, but what now?
 
-::: {.column width="40%"}
-```{zsh filename="Output"}
-fatal: invalid gitfile format: /Users/user/.git
-```
+- We encourage you do use the `{{< var course.project >}}.qmd` from now on to develop your `{{< var course.project >}}` project!
+  - You can move all content from `{{< var course.project >}}.txt` to `{{< var course.project >}}.qmd`.
+  - Motivation: We can later turn your `{{< var course.project >}}` repository into a website (see [Lennart's example](https://lennartwittkuhn.com/uhh-eur-city-guide/))
+- You can also just continue using the `{{< var course.project >}}.txt` file.
+- **Reminder:** It's about implementing the Git exercises.
+It does not matter if you use a `.qmd`, `.txt` or another file.
+
 :::
 
-Thanks to [Eamon Caddigan](https://social.coop/@eamon/112434377857903339) for the idea!
-::: 
+# This session: {{< meta session-title >}}
 
-# This week: Introduction to GitHub
-
-## Today's topic: Introduction to GitHub
-
-::: {.fragment}
+## {{< meta session-title >}}
 
 ![Image from [Techdobz](https://medium.com/analytics-vidhya/version-control-using-git-github-ff4c3f7c752e)](../images/git-github-integration.png){width="70%"}
-:::
 
-## This weeks learning objectives
+## Reading
 
-::: {.fragment}
-{{< include ../objectives/_objectives-remotes-intro.qmd >}
-:::
-
-## Today's chapter
-
-{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html>
+{{< fa display >}} {{< meta chapter >}}
 
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html" title="Version Control Book"></iframe>
 ```
 
-## Your turn
+## Learning objectives
 
-::: incremental
-1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GitHub - Intro"](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html) in the Version Control Book.
-2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
-3.  **Note:** Please complete the implementation exercises on the next slide
-:::
+### {{< meta session-title >}}
 
-::: fragment
-Ask questions!
+{{< include ../objectives/_objectives-remotes-intro.qmd >}}
 
-Let's *git* started!
-:::
+## Cheatsheet
 
-## Implementation exercises
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "remote_intro"), format = "markdown", row.names = FALSE)
+```
 
-::::: {.columns}
-:::: {.column width="33%"}
-::: {.fragment}
+## Tasks
 
-### Task 1: Upload and manage your repo on GitHub
+{{< include tasks-template.qmd >}}
 
-- **Connect your GitHub account**
-  1. Generate a personal access token (PAT) on GitHub
-  1. Use the PAT for GitHub authentication
-- **Upload your repository**
-  1. Create a new **private**(!) repository on GitHub.
-  2. Set the remote URL for your local Git repository.
-  3. Push your `main` branch to GitHub.
-- **Optional: Manage branches**
-  1. Push other branches with changes to GitHub.
-  2. Delete unused branches.
-  
-:::
-::::
-:::: {.column width="33%"}
-::: {.fragment}
-### Task 2: Maintain your repo and collaborate
-- **Clean up your repository on GitHub**:
-  1. Delete unnecessary files or add a new recipe.
-  2. Commit changes with a message.
-  3. Pull the changes to your local repository.
-- **Collaboration**:
-  1. Add collaborators to your repository: Lennart ([\@lnnrtwttkhn](https://github.com/lnnrtwttkhn)) and Konrad ([\@konradpa](https://github.com/konradpa?tab=repositories)).
-  
-:::
-::::
-:::: {.column width="33%"}
-::: {.fragment}
-### Task 3: Create a `README` file
+## `{{< var course.project >}}` project
 
-1. Navigate to your repository on GitHub, click "Add file", and select "Create new file".
-1. Name the file `README.md`, add a brief description of your project, and provide a commit message.
-Play around with Markdown syntax!
-1. Click the green "Commit new file" button to save the `README.md` file to the repository.
-1. Pull the changes to your local repository.
-
-:::
-::::
-:::::
-
-## Implementation exercises (optional bonus)
+{{< include project/project-remotes-intro.qmd >}}
 
 ::: {.fragment}
-### Task 4: Clone and synac your repo (optional)
-1. Clone your repository from GitHub to a different location on your computer.
-2. Make and push changes.
-3. Pull changes to the repository in the original location.
-4. Delete your newly cloned repository.
+
+### Today's team topic
+
+- Interview each other about your favorite **place for a night out (dinner :shallow_pan_of_food:, drinks :tropical_drink: , dance :dancer:, concert :musical_note:**).
+- Add the recommendation *of your partner* to your text file **or Quarto file**.
+- Help each other in completing the exercises.
+
 :::
+
+## Exercises
+
+### Connect to remote repositories using SSH
+
+{{< include ../exercises/_exercises-remotes-ssh.qmd >}}
+
+### Upload your local repository to a remote repository
+
+{{< include ../exercises/_exercises-remotes-push.qmd >}}
+
+## Bonus exercises
+
+### :rocket: Optional: Add a `README.md`
+
+{{< include ../exercises/_exercises-remotes-readme.qmd >}}
+
+### :rocket: Optional: Clone and sync your repository
+
+{{< include ../exercises/_exercises-remotes-clone.qmd >}}
+
+## Solutions
+
+### Connect to remote repositories using SSH
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-remotes-ssh.sh
+```
+{{< include ../exercises/_solutions-remotes-ssh.qmd >}}
+
+## Solutions
+
+### Upload your local repository to a remote repository
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-remotes-push.sh
+```
+{{< include ../exercises/_solutions-remotes-push.qmd >}}
+
+## Solutions
+
+### :rocket: Optional: Add a `README.md`
+
+{{< include ../exercises/_solutions-remotes-readme.qmd >}}
+
+## Solutions
+
+### :rocket: Optional: Clone and sync your repository
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-remotes-clone.sh
+```
+{{< include ../exercises/_solutions-remotes-clone.qmd >}}
