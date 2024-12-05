@@ -72,7 +72,7 @@ session07:
   contents:
     - "Introduction to [Quarto](https://quarto.org)"
 session08:
-  date: 2024-11-06
+  date: 2024-12-06
   title: "Introduction to GitHub"
   contents:
     - "Introduction to remote repositories"

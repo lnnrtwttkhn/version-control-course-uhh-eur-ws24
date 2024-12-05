@@ -10,7 +10,7 @@ listing:
     - "session05.qmd"
     - "session06.qmd"
     - "session07.qmd"
-    # - "session08.qmd"
+    - "session08.qmd"
     # - "session09.qmd"
     # - "session10.qmd"
     # - "session11.qmd"

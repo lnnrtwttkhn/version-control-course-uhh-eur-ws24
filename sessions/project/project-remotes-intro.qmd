@@ -1,0 +1,9 @@
+At the end of this session, you should have accomplished the following:
+
+1. You created a new **private(!)** GitHub repository using SSH.
+1. You set the remote URL of your local `{{< var course.project >}}` Git repository.
+1. You uploaded (i.e., "pushed") the default branch (`main` or `master`) of your `{{< var course.project >}}` project to GitHub.
+1. You invited [Lennart (lnnrtwttkhn)](https://github.com/lnnrtwttkhn/) and [Reza (rezahakimazar)](https://github.com/rezahakimazar) to your `{{< var course.project >}}` repository.
+
+Please keep the `{{< var course.project >}}` folder!
+We will continue to use it in the following sessions.
