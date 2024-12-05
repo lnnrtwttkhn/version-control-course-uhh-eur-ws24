@@ -18,7 +18,7 @@ about:
       href: https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html
       aria-label: book
     - icon: input-cursor-text
-      text: Exercises
+      text: Quiz
       href: https://version-control-github.formr.org/
       aria-label: input-cursor-text
 chapter: |
