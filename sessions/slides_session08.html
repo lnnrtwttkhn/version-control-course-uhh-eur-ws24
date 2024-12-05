@@ -13,7 +13,7 @@
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.450">
 
-  <title>An introduction to Git for research - Session 8: GitHub - Intro</title>
+  <title>An introduction to Git for research - Session 8: Remotes - Introduction</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -395,7 +395,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Session 8: GitHub - Intro</h1>
+  <h1 class="title">Session 8: Remotes - Introduction</h1>
   <p class="subtitle"></p><p>Track, organize and share your work: An introduction to Git for research</p>
 <p>Course at University of Hamburg &amp; Erasmus University Rotterdam</p>
 <p><a href="https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a> | <a href="https://github.com/lnnrtwttkhn/version-control-course-uhh-eur-ws24/"><i class="fa-brands fa-github" aria-label="github"></i> Source</a></p>
@@ -428,23 +428,23 @@ Reza Hakimazar
 </div>
 </div>
 
-  <p class="date">May 20 2024 (12:15 pm)</p>
+  <p class="date">December 06 2024 (10:15 am)</p>
 </section><section id="TOC">
 <nav role="doc-toc"> 
 <h2 id="toc-title">Agenda</h2>
 <ul>
-<li><a href="#/schedule" id="/toc-schedule"><span class="header-section-number">1</span> Schedule</a></li>
-<li><a href="#/last-session" id="/toc-last-session"><span class="header-section-number">2</span> Last Session</a></li>
-<li><a href="#/this-week-introduction-to-github" id="/toc-this-week-introduction-to-github"><span class="header-section-number">3</span> This week: Introduction to GitHub</a></li>
+<li><a href="#/admin" id="/toc-admin"><span class="header-section-number">1</span> Admin</a></li>
+<li><a href="#/last-session-quarto-workshop" id="/toc-last-session-quarto-workshop"><span class="header-section-number">2</span> Last session: Quarto Workshop</a></li>
+<li><a href="#/this-session-meta-session-title" id="/toc-this-session-meta-session-title"><span class="header-section-number">3</span> This session: Remotes - Introduction</a></li>
 </ul>
 </nav>
 </section>
 <section>
-<section id="schedule" class="title-slide slide level1 center" data-number="1">
-<h1><span class="header-section-number">1</span> Schedule</h1>
+<section id="admin" class="title-slide slide level1 center" data-number="1">
+<h1><span class="header-section-number">1</span> Admin</h1>
 
 </section>
-<section id="schedule-1" class="slide level2">
+<section id="schedule" class="slide level2">
 <h2>Schedule</h2>
 <div class="cell">
 <div class="cell-output-display">
@@ -518,8 +518,8 @@ Reza Hakimazar
 </tr>
 <tr class="even">
 <td style="text-align: left;">8</td>
-<td style="text-align: left;">2024-11-06</td>
-<td style="text-align: left;"><strong>Introduction to GitHub</strong></td>
+<td style="text-align: left;">2024-12-06</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/sessions/session08">Introduction to GitHub</a></strong></td>
 <td style="text-align: left;">Introduction to remote repositories<br>Creating a GitHub account<br>Creating and managing repositories on GitHub<br>Pushing and pulling changes</td>
 <td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html">GitHub Intro</a></td>
 <td style="text-align: left;"><a href="https://version-control-github.formr.org">GitHub Quiz</a></td>
@@ -578,167 +578,250 @@ Reza Hakimazar
 </div>
 </section></section>
 <section>
-<section id="last-session" class="title-slide slide level1 center" data-number="2">
-<h1><span class="header-section-number">2</span> Last Session</h1>
+<section id="last-session-quarto-workshop" class="title-slide slide level1 center" data-number="2">
+<h1><span class="header-section-number">2</span> Last session: Quarto Workshop</h1>
 
 </section>
-<section id="last-session-quarto-workshop" class="slide level2">
+<section id="last-session-quarto-workshop-1" class="slide level2">
 <h2>Last session: Quarto Workshop</h2>
 <p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session06">https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session06</a></p>
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session06" title="Version Control Book"></iframe>
 </section>
-<section id="last-week-questions-about-quarto" class="slide level2">
-<h2>Last week: Questions about Quarto?</h2>
-</section>
-<section id="important-note-git-repository-in-user-folder" class="slide level2">
-<h2>Important note: Git repository in <code>user</code> folder?</h2>
+<section id="last-session-questions-about-quarto" class="slide level2">
+<h2>Last session: Questions about Quarto?</h2>
 <div class="fragment">
+<!-- -->
+<h3 id="cool-quarto-but-what-now">Cool, Quarto, but what now?</h3>
 <ul>
-<li>Please make sure that your <code>recipes</code> repository is in a suitable place (for example, in the <code>Desktop</code>, <code>Documents</code> folders or where you keep your university-related files, …) and <strong>not</strong> in your user directory!</li>
-<li>Also: Always remember to <code>cd</code> into your repository before you execute Git commands!</li>
-<li>If your repository is in your user directory, please <strong>tell Lennart</strong> and we can fix it.</li>
+<li>We encourage you do use the <code>city-guide.qmd</code> from now on to develop your <code>city-guide</code> project!
+<ul>
+<li>You can move all content from <code>city-guide.txt</code> to <code>city-guide.qmd</code>.</li>
+<li>Motivation: We can later turn your <code>city-guide</code> repository into a website (see <a href="https://lennartwittkuhn.com/uhh-eur-city-guide/">Lennart’s example</a>)</li>
+</ul></li>
+<li>You can also just continue using the <code>city-guide.txt</code> file.</li>
+<li><strong>Reminder:</strong> It’s about implementing the Git exercises. It does not matter if you use a <code>.qmd</code>, <code>.txt</code> or another file.</li>
 </ul>
 </div>
-<div class="fragment">
-<p><strong>Tip:</strong> To prevent ever creating a Git repository inside your <code>user</code> folder, you can use:</p>
-<div class="columns">
-<div class="column" style="width:40%;">
+</section></section>
+<section>
+<section id="this-session-meta-session-title" class="title-slide slide level1 center" data-number="3">
+<h1><span class="header-section-number">3</span> This session: Remotes - Introduction</h1>
+
+</section>
+<section id="meta-session-title" class="slide level2">
+<h2>Remotes - Introduction</h2>
+
+<img data-src="../images/git-github-integration.png" style="width:70.0%" class="r-stretch quarto-figure-center"><p class="caption">Image from <a href="https://medium.com/analytics-vidhya/version-control-using-git-github-ff4c3f7c752e">Techdobz</a></p></section>
+<section id="reading" class="slide level2">
+<h2>Reading</h2>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html">“Remotes: Introduction”</a></p>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html" title="Version Control Book"></iframe>
+</section>
+<section id="learning-objectives" class="slide level2">
+<h2>Learning objectives</h2>
+<h3 id="meta-session-title-1">Remotes - Introduction</h3>
+<p><span class="emoji" data-emoji="bulb">💡</span> You can create a remote repository.<br> <span class="emoji" data-emoji="bulb">💡</span> You can connect your local Git to a remote repository service.<br> <span class="emoji" data-emoji="bulb">💡</span> You can pull and push changes to and from a remote repository.<br> <span class="emoji" data-emoji="bulb">💡</span> You can clone a repository from a remote repository service.</p>
+</section>
+<section id="cheatsheet" class="slide level2">
+<h2>Cheatsheet</h2>
 <div class="cell">
+<div class="cell-output-display">
+<table>
+<colgroup>
+<col style="width: 13%">
+<col style="width: 87%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Command</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>git remote</code></td>
+<td style="text-align: left;">Manages remote repositories</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git clone</code></td>
+<td style="text-align: left;">Creates a local copy of a repository</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git pull</code></td>
+<td style="text-align: left;">Fetches and merges the latest changes from a remote repository into the current branch</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git fetch</code></td>
+<td style="text-align: left;">Updates remote tracking branches</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git push</code></td>
+<td style="text-align: left;">Uploads local commits to a remote repository</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="tasks" class="slide level2">
+<h2>Tasks</h2>
+<p>In this session, you will work on the following tasks:</p>
+<ol type="1">
+<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Reading</strong>: Read the chapter(s) <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html">“Remotes: Introduction”</a> in the Version Control Book.</li>
+<li><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter.</li>
+<li><i class="fa-solid fa-list-check" aria-label="list-check"></i> <strong>Exercises</strong>: Work on the <a href="#/exercises">exercises</a> for the <a href="#/city-guide-project"><code>city-guide</code> project</a>.</li>
+<li><i class="fa-solid fa-clipboard-question" aria-label="clipboard-question"></i> <strong>Quiz</strong>: Test your knowledge with the <a href="https://version-control-github.formr.org/">quiz</a>.</li>
+</ol>
+<p>As always:</p>
+<ol type="1">
+<li>Try out the commands of this session and play around with them.</li>
+<li>Check whether you have achieved the <a href="#/learning-objectives">learning objectives</a>.</li>
+<li>Ask questions!</li>
+<li>Let’s <em>git</em> started!</li>
+</ol>
+</section>
+<section id="var-course.project-project" class="slide level2">
+<h2><code>city-guide</code> project</h2>
+<p>At the end of this session, you should have accomplished the following:</p>
+<ol type="1">
+<li>You created a new <strong>private(!)</strong> GitHub repository using SSH.</li>
+<li>You set the remote URL of your local <code>city-guide</code> Git repository.</li>
+<li>You uploaded (i.e., “pushed”) the default branch (<code>main</code> or <code>master</code>) of your <code>city-guide</code> project to GitHub.</li>
+<li>You invited <a href="https://github.com/lnnrtwttkhn/">Lennart (lnnrtwttkhn)</a> and <a href="https://github.com/rezahakimazar">Reza (rezahakimazar)</a> to your <code>city-guide</code> repository.</li>
+</ol>
+<p>Please keep the <code>city-guide</code> folder! We will continue to use it in the following sessions.</p>
+<div class="fragment">
+<!-- -->
+<h3 id="todays-team-topic">Today’s team topic</h3>
+<ul>
+<li>Interview each other about your favorite <strong>place for a night out (dinner <span class="emoji" data-emoji="shallow_pan_of_food">🥘</span>, drinks <span class="emoji" data-emoji="tropical_drink">🍹</span> , dance <span class="emoji" data-emoji="dancer">💃</span>, concert <span class="emoji" data-emoji="musical_note">🎵</span></strong>).</li>
+<li>Add the recommendation <em>of your partner</em> to your text file <strong>or Quarto file</strong>.</li>
+<li>Help each other in completing the exercises.</li>
+</ul>
+</div>
+</section>
+<section id="exercises" class="slide level2">
+<h2>Exercises</h2>
+<h3 id="connect-to-remote-repositories-using-ssh">Connect to remote repositories using SSH</h3>
+<ol type="1">
+<li>Generate an SSH key.</li>
+<li>Copy the SSH key to your clipboard.</li>
+<li>Add the SSH key to the remote repository (for example, GitHub or GitLab).</li>
+</ol>
+<h3 id="upload-your-local-repository-to-a-remote-repository">Upload your local repository to a remote repository</h3>
+<ol type="1">
+<li>Create an empty repository on the remote repository hosting platform, for example GitHub or GitLab. Make sure to not initialize the repository with any files!</li>
+<li>If needed, navigate to your project repository using the command line.</li>
+<li>Set the remote URL of your local repository to your remote repository.</li>
+<li>Push the changes on your default branch (<code>main</code> or <code>master</code>) to your remote repository.</li>
+</ol>
+</section>
+<section id="bonus-exercises" class="slide level2">
+<h2>Bonus exercises</h2>
+<h3 id="optional-add-a-readme.md"><span class="emoji" data-emoji="rocket">🚀</span> Optional: Add a <code>README.md</code></h3>
+<ol type="1">
+<li>Find the option to create a new file on your remote repository in the browser.</li>
+<li>Name the file <code>README.md</code>, add a brief description, and provide a commit message.</li>
+<li><span class="emoji" data-emoji="rocket">🚀</span> Optional: Play around with <a href="https://www.markdownguide.org/">Markdown</a> syntax.</li>
+<li>Save the <code>README.md</code> file to the repository.</li>
+<li>Pull the changes to your local repository.</li>
+</ol>
+<h3 id="optional-clone-and-sync-your-repository"><span class="emoji" data-emoji="rocket">🚀</span> Optional: Clone and sync your repository</h3>
+<ol type="1">
+<li>Move to a location on your computer where you want to clone a repository.</li>
+<li>Clone your remote repository to a <em>different location</em> on your computer.</li>
+<li>Stage and commit changes in the new location (consider using a new branch).</li>
+<li>Push these new changes to GitHub.</li>
+<li>Pull the changes to the repository in the original location.</li>
+<li>Delete your newly cloned repository.</li>
+</ol>
+</section>
+<section id="solutions" class="slide level2">
+<h2>Solutions</h2>
+<h3 id="connect-to-remote-repositories-using-ssh-1">Connect to remote repositories using SSH</h3>
+<div class="cell" data-file="exercises/code-exercises-remotes-ssh.sh">
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>Code</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">touch</span> ~/.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="fu">ssh-keygen</span> <span class="at">-t</span> ed25519 <span class="at">-C</span> <span class="st">"your_email@example.com"</span> <span class="co"># &lt;1&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="fu">cat</span> ~/.ssh/id_ed25519.pub <span class="co"># &lt;2&gt;</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="co"># Copy the SSh key to your account # &lt;3&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
-</div>
-</div>
-</div>
-<div class="fragment">
-<p>Running <code>git init</code> in the <code>user</code> directory now results in a (desired) error:</p>
-<div class="column" style="width:40%;">
-<div class="cell">
+<ol type="1">
+<li>In the command line, create a new SSH key. Make sure to change the example email to your email address. Optionally, provide a passphrase.</li>
+<li>Copy the SSH key to your clipboard. Here, we use <code>cat</code> to print the contents of the SSH key to the command line. Copy the contents displayed in the Terminal to your clipboard.</li>
+<li>Add the SSH key to your remote repository account.</li>
+</ol>
+</section>
+<section id="solutions-1" class="slide level2">
+<h2>Solutions</h2>
+<h3 id="upload-your-local-repository-to-a-remote-repository-1">Upload your local repository to a remote repository</h3>
+<div class="cell" data-file="exercises/code-exercises-remotes-push.sh">
 <div class="code-with-filename">
 <div class="code-with-filename-file">
-<pre><strong>Output</strong></pre>
+<pre><strong>Code</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">fatal:</span> invalid gitfile format: /Users/user/.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-<p>Thanks to <a href="https://social.coop/@eamon/112434377857903339">Eamon Caddigan</a> for the idea!</p>
-</div>
-</section></section>
-<section>
-<section id="this-week-introduction-to-github" class="title-slide slide level1 center" data-number="3">
-<h1><span class="header-section-number">3</span> This week: Introduction to GitHub</h1>
-
-</section>
-<section id="todays-topic-introduction-to-github" class="slide level2">
-<h2>Today’s topic: Introduction to GitHub</h2>
-<div class="fragment">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../images/git-github-integration.png" style="width:70.0%"></p>
-<figcaption>Image from <a href="https://medium.com/analytics-vidhya/version-control-using-git-github-ff4c3f7c752e">Techdobz</a></figcaption>
-</figure>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb2-1"><a href="#cb2-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="co"># create an empty remote repository # &lt;1&gt;</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a><span class="bu">cd</span> my-project <span class="co"># &lt;2&gt;</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="fu">git</span> remote add origin https://github.com/your-username/your-repo-name.git <span class="co"># &lt;3&gt;</span></span>
+<span id="cb2-6"><a href="#cb2-6"></a><span class="fu">git</span> push <span class="at">-u</span> origin main <span class="co"># &lt;4&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
-</section>
-<section id="this-weeks-learning-objectives" class="slide level2">
-<h2>This weeks learning objectives</h2>
-<div class="fragment">
-<p></p>
-</div>
-</section>
-<section id="todays-chapter" class="slide level2">
-<h2>Today’s chapter</h2>
-<p><i class="fa-brands fa-internet-explorer" aria-label="internet-explorer"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html" class="uri">https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html</a></p>
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html" title="Version Control Book"></iframe>
-</section>
-<section id="your-turn" class="slide level2">
-<h2>Your turn</h2>
-<div>
 <ol type="1">
-<li class="fragment"><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Content Review</strong>: Read the chapter <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html">“GitHub - Intro”</a> in the Version Control Book.</li>
-<li class="fragment"><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter! Play around! Have fun!.</li>
-<li class="fragment"><strong>Note:</strong> Please complete the implementation exercises on the next slide</li>
+<li>To create an empty repository on GitHub: (1) Go to GitHub and click the <code>+</code> icon in the upper-right corner, then select <code>New repository</code>. (2) Name your repository. (3) Do not select <code>Initialize this repository with a README</code>. (4) Click <code>Create repository</code>.</li>
+<li>Optional: Navigate into the project repository using <code>cd</code> (or a similar path).</li>
+<li>Set the remote URL of the local repository to the repository using <code>git remote add origin &lt;URL&gt;</code>. Remember to use the correct <code>&lt;URL&gt;</code> depending on whether you authentication method (typically SSH or PAT).</li>
+<li>Push the changes on the default branch (here, <code>main</code>) to the remote repository using <code>git push -u origin main</code>.</li>
 </ol>
-</div>
-<div class="fragment">
-<p>Ask questions!</p>
-<p>Let’s <em>git</em> started!</p>
-</div>
 </section>
-<section id="implementation-exercises" class="slide level2">
-<h2>Implementation exercises</h2>
-<div class="columns">
-<div class="column" style="width:33%;">
-<div class="fragment">
-<!-- -->
-<h3 id="task-1-upload-and-manage-your-repo-on-github">Task 1: Upload and manage your repo on GitHub</h3>
-<ul>
-<li><strong>Connect your GitHub account</strong>
+<section id="solutions-2" class="slide level2">
+<h2>Solutions</h2>
+<h3 id="optional-add-a-readme.md-1"><span class="emoji" data-emoji="rocket">🚀</span> Optional: Add a <code>README.md</code></h3>
 <ol type="1">
-<li>Generate a personal access token (PAT) on GitHub</li>
-<li>Use the PAT for GitHub authentication</li>
-</ol></li>
-<li><strong>Upload your repository</strong>
-<ol type="1">
-<li>Create a new <strong>private</strong>(!) repository on GitHub.</li>
-<li>Set the remote URL for your local Git repository.</li>
-<li>Push your <code>main</code> branch to GitHub.</li>
-</ol></li>
-<li><strong>Optional: Manage branches</strong>
-<ol type="1">
-<li>Push other branches with changes to GitHub.</li>
-<li>Delete unused branches.</li>
-</ol></li>
-</ul>
-</div>
-</div><div class="column" style="width:33%;">
-<div class="fragment">
-<!-- -->
-<h3 id="task-2-maintain-your-repo-and-collaborate">Task 2: Maintain your repo and collaborate</h3>
-<ul>
-<li><strong>Clean up your repository on GitHub</strong>:
-<ol type="1">
-<li>Delete unnecessary files or add a new recipe.</li>
-<li>Commit changes with a message.</li>
-<li>Pull the changes to your local repository.</li>
-</ol></li>
-<li><strong>Collaboration</strong>:
-<ol type="1">
-<li>Add collaborators to your repository: Lennart (<a href="https://github.com/lnnrtwttkhn">@lnnrtwttkhn</a>) and Konrad (<a href="https://github.com/konradpa?tab=repositories">@konradpa</a>).</li>
-</ol></li>
-</ul>
-</div>
-</div><div class="column" style="width:33%;">
-<div class="fragment">
-<!-- -->
-<h3 id="task-3-create-a-readme-file">Task 3: Create a <code>README</code> file</h3>
-<ol type="1">
-<li>Navigate to your repository on GitHub, click “Add file”, and select “Create new file”.</li>
-<li>Name the file <code>README.md</code>, add a brief description of your project, and provide a commit message. Play around with Markdown syntax!</li>
-<li>Click the green “Commit new file” button to save the <code>README.md</code> file to the repository.</li>
-<li>Pull the changes to your local repository.</li>
+<li>In your browser, go to your remote repository (for example, on GitHub), click <code>Add file</code>, and select <code>Create new file</code>.</li>
+<li>Name the file <code>README.md</code>. Add a brief description of your project. Provide a descriptive commit message at the bottom.</li>
+<li>Play around with <a href="https://www.markdownguide.org/">Markdown</a> syntax</li>
+<li>Click the green <code>Commit new file</code> button to save the <code>README.md</code> file to the repository.</li>
+<li>Use <code>git pull origin main</code> to pull the changes to your local repository.</li>
 </ol>
-</div>
-</div>
-</div>
 </section>
-<section id="implementation-exercises-optional-bonus" class="slide level2">
-<h2>Implementation exercises (optional bonus)</h2>
-<div class="fragment">
-<!-- -->
-<h3 id="task-4-clone-and-synac-your-repo-optional">Task 4: Clone and synac your repo (optional)</h3>
+<section id="solutions-3" class="slide level2">
+<h2>Solutions</h2>
+<h3 id="optional-clone-and-sync-your-repository-1"><span class="emoji" data-emoji="rocket">🚀</span> Optional: Clone and sync your repository</h3>
+<div class="cell" data-file="exercises/code-exercises-remotes-clone.sh">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Code</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb3-1"><a href="#cb3-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a></span>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="bu">cd</span> /new/location/for/repo <span class="co"># &lt;1&gt;</span></span>
+<span id="cb3-4"><a href="#cb3-4"></a><span class="fu">git</span> clone https://github.com/your-username/your-repo-name.git /new/location/for/repo <span class="co"># &lt;2&gt;</span></span>
+<span id="cb3-5"><a href="#cb3-5"></a><span class="fu">git</span> checkout <span class="at">-b</span> new-branch <span class="co"># &lt;3&gt;</span></span>
+<span id="cb3-6"><a href="#cb3-6"></a><span class="bu">echo</span> <span class="st">"New Recipe"</span> <span class="op">&gt;&gt;</span> recipes.txt <span class="co"># &lt;3&gt;</span></span>
+<span id="cb3-7"><a href="#cb3-7"></a><span class="fu">git</span> add recipes.txt  <span class="co"># &lt;3&gt;</span></span>
+<span id="cb3-8"><a href="#cb3-8"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add new recipe to recipes.txt"</span> <span class="co"># &lt;3&gt;</span></span>
+<span id="cb3-9"><a href="#cb3-9"></a><span class="fu">git</span> push <span class="at">-u</span> origin new-branch <span class="co"># &lt;4&gt;</span></span>
+<span id="cb3-10"><a href="#cb3-10"></a><span class="bu">cd</span> /original/location/for/repo <span class="co"># &lt;5&gt;</span></span>
+<span id="cb3-11"><a href="#cb3-11"></a><span class="fu">git</span> fetch <span class="co"># &lt;5&gt;</span></span>
+<span id="cb3-12"><a href="#cb3-12"></a><span class="fu">git</span> switch new-branch <span class="co"># &lt;5&gt;</span></span>
+<span id="cb3-13"><a href="#cb3-13"></a><span class="fu">rm</span> <span class="at">-rf</span> /new/location/for/repo <span class="co"># &lt;6&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
 <ol type="1">
+<li>Move to the location on your computer where you would like to clone your own repository into, using <code>cd</code> in the command line.</li>
 <li>Clone your repository from GitHub to a different location on your computer.</li>
-<li>Make and push changes.</li>
-<li>Pull changes to the repository in the original location.</li>
+<li>Stage and commit changes in the new location (consider using a new branch).</li>
+<li>Push the new changes to GitHub.</li>
+<li>Fetch these new changes to the repository in the original location.</li>
 <li>Delete your newly cloned repository.</li>
 </ol>
-</div>
 
 <div class="footer footer-default">
 <p>Version Control Course</p>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>An introduction to Git for research - GitHub - Intro</title>
+<title>An introduction to Git for research - Remotes - Intro</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -137,10 +171,18 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#this-session" id="toc-this-session" class="nav-link active" data-scroll-target="#this-session">This session</a></li>
-  <li><a href="#recipes-project" id="toc-recipes-project" class="nav-link" data-scroll-target="#recipes-project"><code>recipes</code> project</a></li>
   <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
-  <li><a href="#email" id="toc-email" class="nav-link" data-scroll-target="#email">Email</a></li>
+  <li><a href="#var-course.project-project" id="toc-var-course.project-project" class="nav-link" data-scroll-target="#var-course.project-project"><code>city-guide</code> project</a></li>
+  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a>
+  <ul>
+  <li><a href="#connect-to-remote-repositories-using-ssh" id="toc-connect-to-remote-repositories-using-ssh" class="nav-link" data-scroll-target="#connect-to-remote-repositories-using-ssh">Connect to remote repositories using SSH</a></li>
+  <li><a href="#upload-your-local-repository-to-a-remote-repository" id="toc-upload-your-local-repository-to-a-remote-repository" class="nav-link" data-scroll-target="#upload-your-local-repository-to-a-remote-repository">Upload your local repository to a remote repository</a></li>
+  <li><a href="#optional-add-a-readme.md" id="toc-optional-add-a-readme.md" class="nav-link" data-scroll-target="#optional-add-a-readme.md"><span class="emoji" data-emoji="rocket">🚀</span> Optional: Add a <code>README.md</code></a></li>
+  <li><a href="#optional-clone-and-sync-your-repository" id="toc-optional-clone-and-sync-your-repository" class="nav-link" data-scroll-target="#optional-clone-and-sync-your-repository"><span class="emoji" data-emoji="rocket">🚀</span> Optional: Clone and sync your repository</a></li>
+  </ul></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#cheatsheet" id="toc-cheatsheet" class="nav-link" data-scroll-target="#cheatsheet">Cheatsheet</a></li>
+  <li><a href="#email" id="toc-email" class="nav-link" data-scroll-target="#email">Email</a></li>
   </ul>
 </nav>
     </div>
@@ -154,25 +196,25 @@ ul.task-list li input[type="checkbox"] {
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">GitHub - Intro</h1>
+<h1 class="title">Remotes - Intro</h1>
 <p class="subtitle lead">Session 08</p>
 </div>
 <div class="quarto-title-meta">
     <div>
     <div class="quarto-title-meta-heading">Starts at:</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 27 2024 (12:15 pm)</p>
+      <p class="date">December 06 2024 (10:15 am)</p>
     </div>
   </div>
   </div>
 </header> <div class="about-links">
-  <a href="https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session08.html" class="about-link" rel="" target="">
+  <a href="https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/sessions/slides_session08.html" class="about-link" rel="" target="">
     <i class="bi bi-display"></i>
      <span class="about-link-text">Slides</span>
   </a>
   <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html" class="about-link" rel="" target="">
     <i class="bi bi-book"></i>
-     <span class="about-link-text">Chapter: GitHub Intro</span>
+     <span class="about-link-text">Chapter: Remotes - Introduction</span>
   </a>
   <a href="https://version-control-github.formr.org/" class="about-link" rel="" target="">
     <i class="bi bi-input-cursor-text"></i>
@@ -187,44 +229,293 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="this-session" class="level2">
 <h2 data-anchor-id="this-session">This session</h2>
-<p>In this session, you will complete the following tasks:</p>
+<p>In this session, you will work on the following tasks:</p>
 <ol type="1">
-<li>Complete the chapter <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html">“GitHub Intro”</a> in the Version Control Book.</li>
-<li>Complete the exercises for the <a href="#recipes-project"><code>recipes</code> project</a>.</li>
+<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Reading</strong>: Read the chapter(s) <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html">“Remotes: Introduction”</a> in the Version Control Book.</li>
+<li><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter.</li>
+<li><i class="fa-solid fa-list-check" aria-label="list-check"></i> <strong>Exercises</strong>: Work on the <a href="#exercises">exercises</a> for the <a href="#city-guide-project"><code>city-guide</code> project</a>.</li>
+<li><i class="fa-solid fa-clipboard-question" aria-label="clipboard-question"></i> <strong>Quiz</strong>: Test your knowledge with the <a href="https://version-control-github.formr.org/">quiz</a>.</li>
 </ol>
 <p>As always:</p>
 <ol type="1">
-<li>Try out the commands in the chapter and play around with them.</li>
+<li>Try out the commands of this session and play around with them.</li>
 <li>Check whether you have achieved the <a href="#learning-objectives">learning objectives</a>.</li>
-</ol>
-</section>
-<section id="recipes-project" class="level2">
-<h2 data-anchor-id="recipes-project"><code>recipes</code> project</h2>
-<p>At the end of this session, you should have accomplished the following:</p>
-<ol type="1">
-<li>You connected your GitHub account to your local Git.</li>
-<li>You created a new GitHub repository and uploaded (i.e., “pushed”) your <code>recipes</code> project.</li>
-<li>You cleaned up your project by deleting unnecessary files and branches.</li>
-<li>You created a short <code>README.md</code> file in your repository.</li>
+<li>Ask questions!</li>
+<li>Let’s <em>git</em> started!</li>
 </ol>
 </section>
 <section id="learning-objectives" class="level2">
 <h2 data-anchor-id="learning-objectives">Learning objectives</h2>
 <p><span class="emoji" data-emoji="bulb">💡</span> You can create a remote repository.<br> <span class="emoji" data-emoji="bulb">💡</span> You can connect your local Git to a remote repository service.<br> <span class="emoji" data-emoji="bulb">💡</span> You can pull and push changes to and from a remote repository.<br> <span class="emoji" data-emoji="bulb">💡</span> You can clone a repository from a remote repository service.</p>
 </section>
-<section id="email" class="level2">
-<h2 data-anchor-id="email">Email</h2>
-<p>Dear course participants,</p>
-<p>We have a last-minute preparation request for our seminar today (sorry, for the short notice, it will only take a few minutes):</p>
-<p>Please ensure you have a working GitHub account before our next session today. If you do not have one yet, please create an account at <a href="https://github.com/" class="uri">https://github.com/</a>.</p>
-<p>If you encounter any issues or have any questions, feel free to contact us via email.</p>
-<p>We look forward to seeing you later!</p>
-<p>Best wishes,</p>
-<p>Lennart Wittkuhn (Instructor) &amp; Konrad Pagenstedt (Teaching Assistant)</p>
+<section id="var-course.project-project" class="level2">
+<h2 data-anchor-id="var-course.project-project"><code>city-guide</code> project</h2>
+<p>At the end of this session, you should have accomplished the following:</p>
+<ol type="1">
+<li>You created a new <strong>private(!)</strong> GitHub repository using SSH.</li>
+<li>You set the remote URL of your local <code>city-guide</code> Git repository.</li>
+<li>You uploaded (i.e., “pushed”) the default branch (<code>main</code> or <code>master</code>) of your <code>city-guide</code> project to GitHub.</li>
+<li>You invited <a href="https://github.com/lnnrtwttkhn/">Lennart (lnnrtwttkhn)</a> and <a href="https://github.com/rezahakimazar">Reza (rezahakimazar)</a> to your <code>city-guide</code> repository.</li>
+</ol>
+<p>Please keep the <code>city-guide</code> folder! We will continue to use it in the following sessions.</p>
+</section>
+<section id="exercises" class="level2">
+<h2 data-anchor-id="exercises">Exercises</h2>
+<section id="connect-to-remote-repositories-using-ssh" class="level3">
+<h3 data-anchor-id="connect-to-remote-repositories-using-ssh">Connect to remote repositories using SSH</h3>
+<ol type="1">
+<li>Generate an SSH key.</li>
+<li>Copy the SSH key to your clipboard.</li>
+<li>Add the SSH key to the remote repository (for example, GitHub or GitLab).</li>
+</ol>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Solutions">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solutions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<section id="connect-to-remote-repositories-using-ssh-1" class="level3 callout-body-container callout-body">
+<h3 data-anchor-id="connect-to-remote-repositories-using-ssh-1">Connect to remote repositories using SSH</h3>
+<div class="cell" data-file="exercises/code-exercises-remotes-ssh.sh">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Code</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh-keygen</span> <span class="at">-t</span> ed25519 <span class="at">-C</span> <span class="st">"your_email@example.com"</span> <span class="co"># &lt;1&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> ~/.ssh/id_ed25519.pub <span class="co"># &lt;2&gt;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Copy the SSh key to your account # &lt;3&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<ol type="1">
+<li>In the command line, create a new SSH key. Make sure to change the example email to your email address. Optionally, provide a passphrase.</li>
+<li>Copy the SSH key to your clipboard. Here, we use <code>cat</code> to print the contents of the SSH key to the command line. Copy the contents displayed in the Terminal to your clipboard.</li>
+<li>Add the SSH key to your remote repository account.</li>
+</ol>
+</section>
+</div>
+</div>
+</section>
+<section id="upload-your-local-repository-to-a-remote-repository" class="level3">
+<h3 data-anchor-id="upload-your-local-repository-to-a-remote-repository">Upload your local repository to a remote repository</h3>
+<ol type="1">
+<li>Create an empty repository on the remote repository hosting platform, for example GitHub or GitLab. Make sure to not initialize the repository with any files!</li>
+<li>If needed, navigate to your project repository using the command line.</li>
+<li>Set the remote URL of your local repository to your remote repository.</li>
+<li>Push the changes on your default branch (<code>main</code> or <code>master</code>) to your remote repository.</li>
+</ol>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Solutions">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solutions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<section id="upload-your-local-repository-to-a-remote-repository-1" class="level3 callout-body-container callout-body">
+<h3 data-anchor-id="upload-your-local-repository-to-a-remote-repository-1">Upload your local repository to a remote repository</h3>
+<div class="cell" data-file="exercises/code-exercises-remotes-push.sh">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Code</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># create an empty remote repository # &lt;1&gt;</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> my-project <span class="co"># &lt;2&gt;</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote add origin https://github.com/your-username/your-repo-name.git <span class="co"># &lt;3&gt;</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push <span class="at">-u</span> origin main <span class="co"># &lt;4&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<ol type="1">
+<li>To create an empty repository on GitHub: (1) Go to GitHub and click the <code>+</code> icon in the upper-right corner, then select <code>New repository</code>. (2) Name your repository. (3) Do not select <code>Initialize this repository with a README</code>. (4) Click <code>Create repository</code>.</li>
+<li>Optional: Navigate into the project repository using <code>cd</code> (or a similar path).</li>
+<li>Set the remote URL of the local repository to the repository using <code>git remote add origin &lt;URL&gt;</code>. Remember to use the correct <code>&lt;URL&gt;</code> depending on whether you authentication method (typically SSH or PAT).</li>
+<li>Push the changes on the default branch (here, <code>main</code>) to the remote repository using <code>git push -u origin main</code>.</li>
+</ol>
+</section>
+</div>
+</div>
+</section>
+<section id="optional-add-a-readme.md" class="level3">
+<h3 data-anchor-id="optional-add-a-readme.md"><span class="emoji" data-emoji="rocket">🚀</span> Optional: Add a <code>README.md</code></h3>
+<ol type="1">
+<li>Find the option to create a new file on your remote repository in the browser.</li>
+<li>Name the file <code>README.md</code>, add a brief description, and provide a commit message.</li>
+<li><span class="emoji" data-emoji="rocket">🚀</span> Optional: Play around with <a href="https://www.markdownguide.org/">Markdown</a> syntax.</li>
+<li>Save the <code>README.md</code> file to the repository.</li>
+<li>Pull the changes to your local repository.</li>
+</ol>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Solutions">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solutions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>In your browser, go to your remote repository (for example, on GitHub), click <code>Add file</code>, and select <code>Create new file</code>.</li>
+<li>Name the file <code>README.md</code>. Add a brief description of your project. Provide a descriptive commit message at the bottom.</li>
+<li>Play around with <a href="https://www.markdownguide.org/">Markdown</a> syntax</li>
+<li>Click the green <code>Commit new file</code> button to save the <code>README.md</code> file to the repository.</li>
+<li>Use <code>git pull origin main</code> to pull the changes to your local repository.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="optional-clone-and-sync-your-repository" class="level3">
+<h3 data-anchor-id="optional-clone-and-sync-your-repository"><span class="emoji" data-emoji="rocket">🚀</span> Optional: Clone and sync your repository</h3>
+<ol type="1">
+<li>Move to a location on your computer where you want to clone a repository.</li>
+<li>Clone your remote repository to a <em>different location</em> on your computer.</li>
+<li>Stage and commit changes in the new location (consider using a new branch).</li>
+<li>Push these new changes to GitHub.</li>
+<li>Pull the changes to the repository in the original location.</li>
+<li>Delete your newly cloned repository.</li>
+</ol>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Solutions">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solutions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="cell" data-file="exercises/code-exercises-remotes-clone.sh">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Code</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /new/location/for/repo <span class="co"># &lt;1&gt;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/your-username/your-repo-name.git /new/location/for/repo <span class="co"># &lt;2&gt;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout <span class="at">-b</span> new-branch <span class="co"># &lt;3&gt;</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"New Recipe"</span> <span class="op">&gt;&gt;</span> recipes.txt <span class="co"># &lt;3&gt;</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add recipes.txt  <span class="co"># &lt;3&gt;</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add new recipe to recipes.txt"</span> <span class="co"># &lt;3&gt;</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push <span class="at">-u</span> origin new-branch <span class="co"># &lt;4&gt;</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /original/location/for/repo <span class="co"># &lt;5&gt;</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> fetch <span class="co"># &lt;5&gt;</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> switch new-branch <span class="co"># &lt;5&gt;</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span> <span class="at">-rf</span> /new/location/for/repo <span class="co"># &lt;6&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<ol type="1">
+<li>Move to the location on your computer where you would like to clone your own repository into, using <code>cd</code> in the command line.</li>
+<li>Clone your repository from GitHub to a different location on your computer.</li>
+<li>Stage and commit changes in the new location (consider using a new branch).</li>
+<li>Push the new changes to GitHub.</li>
+<li>Fetch these new changes to the repository in the original location.</li>
+<li>Delete your newly cloned repository.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
 </section>
 <section id="slides" class="level2">
 <h2 data-anchor-id="slides">Slides</h2>
 <iframe width="100%" height="500" src="slides_session08.html"></iframe>
+<div class="callout callout-style-default callout-note callout-titled" title="How can I download the slides as PDF?">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+How can I download the slides as PDF?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>To print the slides to PDF, do the following:</p>
+<ol type="1">
+<li>Toggle into Print View using the <kbd>E</kbd> key (or using the <a href="https://quarto.org/docs/presentations/revealjs/presenting.html#navigation-menu">Navigation Menu</a>).</li>
+<li>Open the in-browser print dialog (CTRL/CMD+P).</li>
+<li>Change the <strong>Destination</strong> setting to <strong>Save as PDF</strong>.</li>
+<li>Change the <strong>Layout</strong> to <strong>Landscape</strong>.</li>
+<li>Change the <strong>Margins</strong> to <strong>None</strong>.</li>
+<li>Enable the <strong>Background graphics</strong> option.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<p>Note: This feature has been confirmed to work in <a href="https://google.com/chrome">Google Chrome</a>, <a href="https://www.chromium.org/Home">Chromium</a> as well as in <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>.</p>
+<p>Here’s what the Chrome print dialog would look like with these settings enabled:</p>
+<p><img src="../images/print-to-pdf.png" class="border img-fluid" alt="Screenshot of Chrome print dialog with the first slide/page of 43 shown on the left, and print options on the right. The Destination print option has Save as PDF selected."></p>
+<p>These instructions were copied from the <a href="https://quarto.org/docs/presentations/revealjs/presenting.html#print-to-pdf">Quarto documentation</a> (<a href="https://opensource.org/license/mit/">MIT License</a>) and slightly modified.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="cheatsheet" class="level2">
+<h2 data-anchor-id="cheatsheet">Cheatsheet</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped small">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 87%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Command</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>git remote</code></td>
+<td style="text-align: left;">Manages remote repositories</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git clone</code></td>
+<td style="text-align: left;">Creates a local copy of a repository</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git pull</code></td>
+<td style="text-align: left;">Fetches and merges the latest changes from a remote repository into the current branch</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git fetch</code></td>
+<td style="text-align: left;">Updates remote tracking branches</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git push</code></td>
+<td style="text-align: left;">Uploads local commits to a remote repository</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="email" class="level2">
+<h2 data-anchor-id="email">Email</h2>
+<p>Dear course participants,</p>
+<p>We have a last-minute preparation request for our seminar today (sorry, for the short notice, it will only take a few minutes):</p>
+<p>Please ensure you have a working GitHub account before our next session tomorrow. If you do not have one yet, please create an account at <a href="https://github.com/" class="uri">https://github.com/</a>. If you need help, check out the section “Creating an account” in the Version Control Book: <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html#creating-an-account" class="uri">https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html#creating-an-account</a>.</p>
+<p>If you encounter any issues or have any questions, feel free to contact us via email.</p>
+<p>We look forward to seeing you later!</p>
+<p>Best wishes,</p>
+<p>Lennart Wittkuhn (Instructor) &amp; Reza Hakimazar (Teaching Assistant)</p>
 
 
 
