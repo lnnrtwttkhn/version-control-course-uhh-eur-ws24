@@ -138,10 +138,15 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#this-session" id="toc-this-session" class="nav-link active" data-scroll-target="#this-session">This session</a>
   <ul>
-  <li><a href="#recipes-project" id="toc-recipes-project" class="nav-link" data-scroll-target="#recipes-project"><code>recipes</code> project</a></li>
   <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
-  <li><a href="#email" id="toc-email" class="nav-link" data-scroll-target="#email">Email</a></li>
+  <li><a href="#var-course.project-project" id="toc-var-course.project-project" class="nav-link" data-scroll-target="#var-course.project-project"><code>city-guide</code> project</a></li>
+  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a>
+  <ul class="collapse">
+  <li><a href="#private-collaboration-with-pull-requests-using-github-flow" id="toc-private-collaboration-with-pull-requests-using-github-flow" class="nav-link" data-scroll-target="#private-collaboration-with-pull-requests-using-github-flow">“Private” collaboration with pull requests (using GitHub Flow)</a></li>
+  <li><a href="#add-a-readme.md" id="toc-add-a-readme.md" class="nav-link" data-scroll-target="#add-a-readme.md">Add a <code>README.md</code></a></li>
+  </ul></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#cheatsheet" id="toc-cheatsheet" class="nav-link" data-scroll-target="#cheatsheet">Cheatsheet</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -163,12 +168,12 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Starts at:</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 03 2024 (12:15 pm)</p>
+      <p class="date">December 13 2024 (10:15 am)</p>
     </div>
   </div>
   </div>
 </header> <div class="about-links">
-  <a href="https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session09.html" class="about-link" rel="" target="">
+  <a href="https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/sessions/slides_session09.html" class="about-link" rel="" target="">
     <i class="bi bi-display"></i>
      <span class="about-link-text">Slides</span>
   </a>
@@ -189,44 +194,66 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="this-session" class="level1">
 <h1>This session</h1>
-<p>In this session, you will complete the following tasks:</p>
+<p>In this session, you will work on the following tasks:</p>
 <ol type="1">
-<li>Complete the chapter <a href="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html">“GitHub - Advanced”</a> in the Version Control Book.</li>
-<li>Complete the exercises for the <a href="#recipes-project"><code>recipes</code> project</a>.</li>
-<li>Complete the <a href="https://version-control-github.formr.org/">quiz</a>.</li>
+<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Reading</strong>: Read the chapter(s) <a href="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html">“GitHub - Advanced”</a> in the Version Control Book.</li>
+<li><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter.</li>
+<li><i class="fa-solid fa-list-check" aria-label="list-check"></i> <strong>Exercises</strong>: Work on the <a href="#exercises">exercises</a> for the <a href="#city-guide-project"><code>city-guide</code> project</a>.</li>
+<li><i class="fa-solid fa-clipboard-question" aria-label="clipboard-question"></i> <strong>Quiz</strong>: Test your knowledge with the <a href="https://version-control-github.formr.org">quiz</a>.</li>
 </ol>
 <p>As always:</p>
 <ol type="1">
-<li>Try out the commands in the chapter and play around with them.</li>
+<li>Try out the commands of this session and play around with them.</li>
 <li>Check whether you have achieved the <a href="#learning-objectives">learning objectives</a>.</li>
+<li>Ask questions!</li>
+<li>Let’s <em>git</em> started!</li>
 </ol>
-<section id="recipes-project" class="level2">
-<h2 data-anchor-id="recipes-project"><code>recipes</code> project</h2>
-<p>At the end of this session, you should have accomplished the following:</p>
-<ol type="1">
-<li>Successfully collaborated on a shared project by adding and committing changes to a partner’s repository.</li>
-<li>Created and reviewed a pull request to integrate new content from a partner.</li>
-</ol>
-</section>
 <section id="learning-objectives" class="level2">
 <h2 data-anchor-id="learning-objectives">Learning objectives</h2>
 <p><span class="emoji" data-emoji="bulb">💡</span> You can fork a repository.<br> <span class="emoji" data-emoji="bulb">💡</span> You know the purpose and components of a Pull Request.<br> <span class="emoji" data-emoji="bulb">💡</span> You can create a Pull Request from a forked repository.<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to collaborate using the popular workflow strategy GitHub flow.<br> <span class="emoji" data-emoji="bulb">💡</span> You know the purpose and components of a <code>README</code> file.<br> <span class="emoji" data-emoji="bulb">💡</span> You can protect your <code>main</code> branch.</p>
 </section>
-<section id="email" class="level2">
-<h2 data-anchor-id="email">Email</h2>
-<p>Dear course participants,</p>
-<p>This is a reminder to help you prepare for our upcoming seminar session on Monday by completing the exercises from the last sessions (if you have not done so yet):</p>
+<section id="var-course.project-project" class="level2">
+<h2 data-anchor-id="var-course.project-project"><code>city-guide</code> project</h2>
+<p>At the end of this session, you should have accomplished the following:</p>
 <ol type="1">
-<li><p>Please ensure that you have uploaded (“pushed”) your <code>recipes</code> repository to GitHub before our next session on Monday.</p></li>
-<li><p>Files that your repository should include are a <code>recipe.qmd</code> file (see exercise in Session 06 on “Quarto”), a <code>.gitignore</code> file (see exercise in Session 04 on “Basic Git workflow”) and a <code>README.md</code> file (see exercise in Session 08 on “GitHub - Intro”). While this is not mandatory, please try to remove any unnecessary files or clutter, like empty <code>.txt</code> files from your repository. You can delete files directly on GitHub by clicking on the three dots next to the directory or file and selecting “Delete file,” then commit the changes. This effectively runs <code>git add</code> and <code>git commit</code> on GitHub.</p></li>
+<li>You collaborated successfully on a shared project by adding and committing changes to a partner’s repository.</li>
+<li>you created and reviewed a pull request to integrate new content from a partner.</li>
 </ol>
-<p>If you encounter any issues or have any questions, feel free to contact us via email.</p>
-<p>We look forward to seeing you next Monday!</p>
-<p>Best wishes,</p>
-<p>Lennart Wittkuhn (Instructor) &amp; Konrad Pagenstedt (Teaching Assistant)</p>
+<p>Please keep the <code>city-guide</code> folder! We will continue to use it in the following sessions.</p>
+</section>
+<section id="exercises" class="level2">
+<h2 data-anchor-id="exercises">Exercises</h2>
+<section id="private-collaboration-with-pull-requests-using-github-flow" class="level3">
+<h3 data-anchor-id="private-collaboration-with-pull-requests-using-github-flow">“Private” collaboration with pull requests (using GitHub Flow)</h3>
+<ol type="1">
+<li>Add your exercise partner as a collaborator to your project repository on GitHub.</li>
+<li>Clone your partner’s repository.</li>
+<li>Create a new branch in your collaborator’s repository.</li>
+<li>Add a new entry to your collaborator’s project file (e.g., <code>.txt</code> or <code>.qmd</code> (if you are unsure, where to add the entry, ask your collaborator!)</li>
+<li>Add and commit the changes.</li>
+<li>Push the changes on the new branch to the remote repository.</li>
+<li>Create a Pull Request (on GitLab: Merge Request).</li>
+<li>Review the Pull Request that your collaborator made in your repository.</li>
+<li><span class="emoji" data-emoji="rocket">🚀</span> Optional: Add additional changes on the branch pushed by your collaborator.</li>
+<li>Merge the pull request into your repository.</li>
+</ol>
+</section>
+<div class="fragment">
+<section id="add-a-readme.md" class="level3">
+<h3 data-anchor-id="add-a-readme.md">Add a <code>README.md</code></h3>
+<ol type="1">
+<li>Find the option to create a new file on your remote repository in the browser.</li>
+<li>Name the file <code>README.md</code>, add a brief description, and provide a commit message.</li>
+<li><span class="emoji" data-emoji="rocket">🚀</span> Optional: Play around with <a href="https://www.markdownguide.org/">Markdown</a> syntax.</li>
+<li>Save the <code>README.md</code> file to the repository.</li>
+<li>Pull the changes to your local repository.</li>
+</ol>
+</section>
+</div>
 </section>
 <section id="slides" class="level2">
 <h2 data-anchor-id="slides">Slides</h2>
+<iframe width="100%" height="500" src="slides_session09.html"></iframe>
 <div class="callout callout-style-default callout-note callout-titled" title="How can I download the slides as PDF?">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -256,7 +283,31 @@ How can I download the slides as PDF?
 </div>
 </div>
 </div>
-<iframe width="100%" height="500" src="slides_session09.html"></iframe>
+</section>
+<section id="cheatsheet" class="level2">
+<h2 data-anchor-id="cheatsheet">Cheatsheet</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped small">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 84%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Command</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>git blame</code></td>
+<td style="text-align: left;">Shows the authorship and commit information of each line in a file</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 
 
 

@@ -1,0 +1,31 @@
+---
+title: "Quarto"
+subtitle: "Session 07"
+date: 2024-11-29T10:15
+metadata-files:
+  - _sessions.yml
+about:
+  id: hero-heading
+  template: solana
+  image-width: 0em
+  links:
+    - icon: display
+      text: Slides
+      href: https://lennartwittkuhn.com/quarto-workshop/
+      aria-label: display
+---
+
+::: {#hero-heading}
+:::
+
+## `{{< var course.project >}}` project
+
+{{< include project/project-quarto.qmd >}}
+
+## Slides
+
+```{=html}
+<iframe width="100%" height=500 src="https://lennartwittkuhn.com/quarto-workshop/"></iframe>
+```
+
+{{< include _print-to-pdf.qmd >}}
