@@ -2058,11 +2058,25 @@
     "text": "Last session’s learning objectives\n💡 You can create a remote repository. 💡 You can connect your local Git repository to a remote repository service like GitHub or GitLab. 💡 You can pull and push changes to and from a remote repository. 💡 You can clone a repository from a remote repository."
   },
   {
-    "objectID": "sessions/slides_session09.html#questions-about-the-last-session",
-    "href": "sessions/slides_session09.html#questions-about-the-last-session",
+    "objectID": "sessions/slides_session09.html#questions-about-the-course",
+    "href": "sessions/slides_session09.html#questions-about-the-course",
     "title": "Session 9: GitHub - Collaboration",
-    "section": "Questions about the last session?",
-    "text": "Questions about the last session?"
+    "section": "Questions about the course",
+    "text": "Questions about the course\n\n\n “I didn’t yet complete last session’s exercise. What now?”\n\nPlease focus on the exercises of the current session.\nExercises build on concepts from previous sessions, but are not dependent on previous exercises.\nRemember: At the end of the semester, you must have completed all mandatory exercises.\n\n\n\n\n “Can I copy everything to the Quarto file?”\n\nWe encourage you do use the city-guide.qmd from now on to develop your city-guide project!\n\nYou can move all content from city-guide.txt to city-guide.qmd.\nMotivation: We can later turn your city-guide repository into a website (see Lennart’s example)\n\nYou can also just continue using the city-guide.txt file.\nReminder: It’s about implementing the Git exercises. It does not matter if you use a .qmd, .txt or another file.\n\n\n\n\n “Remember to cd in your city-guide project folder!”\n\nEvery time you open the command line, it starts at a default location (likely your home directory).\nCheck in which folder you are, using pwd (“print working directory”).\nUse cd to move to your city-guide project folder before you start running the Git commands."
+  },
+  {
+    "objectID": "sessions/slides_session09.html#questions-from-last-session",
+    "href": "sessions/slides_session09.html#questions-from-last-session",
+    "title": "Session 9: GitHub - Collaboration",
+    "section": "Questions from last session",
+    "text": "Questions from last session\n\n\n “Can I change my GitHub username later?”\n\nYes, but consider that URLs to your profile and all your repositories will change.\nFor more details, see the GitHub documentation on “Changing your GitHub username”.\n\n\n\n\n “What is the difference between my local Git user.email configuration and my GitHub email address?”\n\nThe user.email in Git is the email address used to identify your commits in version control history.\nThe email address on GitHub is associated with your account for notifications, settings, and profile information.\nThey don’t have to be the same.\nHowever, if you want your GitHub profile to show your commits correctly, the email in your Git config should match an email associated with your GitHub account.\n\n\n\n\n “My files don’t all show up on GitHub?!”\n\nGitHub is no cloud sharing that synchronizes all files in a folder automatically!\nRemember: Only files that are tracked by Git (that you added (git add), committed (git commit) to the repository) and then pushed (git push) are also transferred to GitHub.\nFiles that are untracked (check with git status) or ignored by .gitignore will not be transferred to GitHub, even if they are present in your local Git repository."
+  },
+  {
+    "objectID": "sessions/slides_session09.html#more-questions-about-the-last-session",
+    "href": "sessions/slides_session09.html#more-questions-about-the-last-session",
+    "title": "Session 9: GitHub - Collaboration",
+    "section": "More questions about the last session?",
+    "text": "More questions about the last session?"
   },
   {
     "objectID": "sessions/slides_session09.html#meta-session-title",
