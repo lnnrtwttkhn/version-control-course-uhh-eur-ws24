@@ -1,7 +1,7 @@
 ---
 title: "GitHub - Collaboration"
 subtitle: "Session 09"
-date: 2024-06-03T12:15
+date: 2024-12-13T10:15
 metadata-files:
   - _sessions.yml
 about:
@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session09.html
+      href: https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/sessions/slides_session09.html
       aria-label: display
     - icon: book
       text: "Chapter: GitHub - Advanced"
@@ -21,6 +21,9 @@ about:
       text: Quiz
       href: https://version-control-github.formr.org
       aria-label: input-cursor-text
+chapter: |
+  ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html)
+quiz-url: https://version-control-github.formr.org
 ---
 
 ::: {#hero-heading}
@@ -28,53 +31,44 @@ about:
 
 # This session
 
-In this session, you will complete the following tasks:
-
-1. Complete the chapter ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) in the Version Control Book.
-1. Complete the exercises for the [`recipes` project](#recipes-project).
-1. Complete the [quiz](https://version-control-github.formr.org/).
-
-As always:
-
-1. Try out the commands in the chapter and play around with them.
-1. Check whether you have achieved the [learning objectives](#learning-objectives).
-
-## `recipes` project
-
-At the end of this session, you should have accomplished the following:
-
-1. Successfully collaborated on a shared project by adding and committing changes to a partner's repository.
-1. Created and reviewed a pull request to integrate new content from a partner.
+{{< include tasks-template.qmd >}}
 
 ## Learning objectives
 
 {{< include ../objectives/_objectives-github-advanced.qmd >}}
 
-## Email
+## `{{< var course.project >}}` project
 
-Dear course participants,
+{{< include project/project-github-advanced.qmd >}}
 
-This is a reminder to help you prepare for our upcoming seminar session on Monday by completing the exercises from the last sessions (if you have not done so yet):
+## Exercises
 
-1. Please ensure that you have uploaded ("pushed") your `recipes` repository to GitHub before our next session on Monday. 
+### "Private" collaboration with pull requests (using GitHub Flow)
 
-2. Files that your repository should include are a `recipe.qmd` file (see exercise in Session 06 on "Quarto"), a `.gitignore` file (see exercise in Session 04 on "Basic Git workflow") and a `README.md` file (see exercise in Session 08 on "GitHub - Intro").
-While this is not mandatory, please try to remove any unnecessary files or clutter, like empty `.txt` files from your repository.
-You can delete files directly on GitHub by clicking on the three dots next to the directory or file and selecting "Delete file," then commit the changes. 
-This effectively runs `git add` and `git commit` on GitHub.
+{{< include ../exercises/_exercises-remotes-collaboration.qmd >}}
 
-If you encounter any issues or have any questions, feel free to contact us via email.
+::: fragment
 
-We look forward to seeing you next Monday!
+### Add a `README.md`
 
-Best wishes,
+{{< include ../exercises/_exercises-remotes-readme.qmd >}}
 
-Lennart Wittkuhn (Instructor) & Konrad Pagenstedt (Teaching Assistant)
+:::
 
 ## Slides
 
-{{< include _print-to-pdf.qmd >}}
-
 ```{=html}
 <iframe width="100%" height=500 src="slides_session09.html"></iframe>
+```
+
+{{< include _print-to-pdf.qmd >}}
+
+## Cheatsheet
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "github_advanced"), format = "markdown", row.names = FALSE)
 ```

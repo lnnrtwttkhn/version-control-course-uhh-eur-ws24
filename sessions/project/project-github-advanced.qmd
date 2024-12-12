@@ -1,0 +1,7 @@
+At the end of this session, you should have accomplished the following:
+
+1. You collaborated successfully on a shared project by adding and committing changes to a partner's repository.
+1. you created and reviewed a pull request to integrate new content from a partner.
+
+Please keep the `{{< var course.project >}}` folder!
+We will continue to use it in the following sessions.

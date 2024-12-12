@@ -1,16 +1,16 @@
 ---
 title: "Session 9: GitHub - Collaboration"
-date: 2024-06-03T12:15
+date: 2024-12-13T10:15
 format: revealjs
 metadata-files:
   - _slides.yml
+session-title: "GitHub - Collaboration"
+chapter: |
+   ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html)
+quiz-url: https://version-control-github.formr.org
 ---
 
-# Jobs!
-
-{{< include _job-advertizement_2.qmd >}}
-
-# Schedule
+# Admin
 
 ## Schedule
 
@@ -37,82 +37,85 @@ create_schedule()
 
 ## Questions about the last session?
 
-# This session's topic: Github - Collaboration
+# This session: {{< meta session-title >}}
 
-## Today's topic: GitHub with collaborators
+## {{< meta session-title >}}
 
 ::: fragment
-
 ![Image from [Techdobz](https://medium.com/analytics-vidhya/version-control-using-git-github-ff4c3f7c752e)](../images/git-github-integration.png){width="70%"}
-
 :::
 
-## GitHub flow
+## GitHub Flow
 
 ::: fragment
-
 ![Image from [Sebass van Boxel](https://github.com/SvanBoxel/release-based-workflow/issues/1)](../images/github_flow.png){width="70%"}
-
 :::
 
 ## This and next session's learning objectives
 
 {{< include ../objectives/_objectives-github-advanced.qmd >}}
 
-## Today's chapter
+## Reading
 
-{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html>
+{{< fa display >}} {{< meta chapter >}}
 
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html" title="Version Control Book"></iframe>
 ```
 
-## Your turn
+## Cheatsheet
 
-::: incremental
-1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) in the Version Control Book.
-2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
-3.  **Note:** Please complete the implementation exercises on the next slide
-3.  {{< fa dumbbell >}} **Quiz**: Complete the exercises in the [survey](https://version-control-github.formr.org/).
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "github_advanced"), format = "markdown", row.names = FALSE)
+```
+
+## Tasks
+
+{{< include tasks-template.qmd >}}
+
+## `{{< var course.project >}}` project
+
+{{< include project/project-github-advanced.qmd >}}
+
+::: {.fragment}
+
+### Today's team topic
+
+- Interview each other about your *least* favorite place or **place to avoid** (and, maybe, also why ...)
+- Add the recommendation *of your partner* to your text file **or Quarto file**.
+- Help each other in completing the exercises.
+
 :::
+
+## Exercises
+
+### "Private" collaboration with pull requests (using GitHub Flow)
+
+{{< include ../exercises/_exercises-remotes-collaboration.qmd >}}
 
 ::: fragment
-Ask questions!
 
-Let's *git* started!
+### Add a `README.md`
+
+{{< include ../exercises/_exercises-remotes-readme.qmd >}}
+
 :::
 
-## Implementation Exercises
+## Bonus exercises
 
-::::: {.columns}
-:::: {.column width="33%"}
-::: fragment
-#### Task 1: **Private collaboration** with pull requests (using "GitHub flow")
+### :rocket: Optional: Clean up your repository
 
-1. Add your partner as a collaborator to your `recipes` repo
-1. Clone your partner's repository
-1. Create a new branch in your partner's repository
-1. Add a recipe to your partner's `recipe.qmd` file
-1. Add and commit the changes
-1. Create a Pull Request
-1. Review the PR your partner made in your repository
-1. Merge the PR into your repository
-:::
-:::
+Files that your repository should include:
 
-::: {.column width="33%"}
-::: fragment
-#### Task 2: Complete the [GitHub Quiz](https://version-control-github.formr.org)
-:::
-:::
+- a `{{< var course.project >}}.qmd` (see exercise in [Session 07](session07.qmd) on "Quarto") or `{{< var course.project >}}.txt` file (see exercises starting in [Session 02](session02.qmd)), or a similarly named file that includes the entries for the `{{< var course.project >}}` project
+- a `.gitignore` file (see exercise in [Session 04](session04.qmd) on "Basic Git workflow")
+- a `README.md` file (see exercise in [Session 09](session09.qmd) on "{{< meta session-title >}}")
 
-::: {.column width="33%"}
-::: fragment
-#### Task 3: **Clean up** your repo and improve your `README.md` (optional)
-:::
-:::
-::::
-
-# Jobs!
-
-{{< include _job-advertizement_2.qmd >}}
+While this is not mandatory, please try to remove any unnecessary files or clutter, like empty `.txt` files from your repository.
+You can delete files directly on GitHub by clicking on the three dots next to the directory or file and selecting "Delete file," then commit the changes.
+This effectively runs `git add` and `git commit` on GitHub.
+Alternatively, delete them from your local repository, add, commit and push the changes to GitHub.
