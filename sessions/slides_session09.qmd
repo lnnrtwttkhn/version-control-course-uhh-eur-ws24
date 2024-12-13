@@ -200,3 +200,5 @@ While this is not mandatory, please try to remove any unnecessary files or clutt
 You can delete files directly on GitHub by clicking on the three dots next to the directory or file and selecting "Delete file," then commit the changes.
 This effectively runs `git add` and `git commit` on GitHub.
 Alternatively, delete them from your local repository, add, commit and push the changes to GitHub.
+
+# Live demonstration
