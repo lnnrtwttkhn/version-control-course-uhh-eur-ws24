@@ -60,6 +60,9 @@ It does not matter if you use a `.qmd`, `.txt` or another file.
 
 :::
 
+
+## Reminders
+
 ::: fragment
 
 #### {{< fa circle-exclamation >}} *"Remember to `cd` in your `{{< var course.project >}}` project folder!"*
@@ -68,6 +71,23 @@ It does not matter if you use a `.qmd`, `.txt` or another file.
 - Check in which folder you are, using `pwd` ("print working directory").
 - Use `cd` to move to your `{{< var course.project >}}` project folder before you start running the Git commands.
 
+:::
+
+::: fragment
+
+#### {{< fa circle-exclamation >}} *"My password is not shown!"*
+
+- Sometimes, for example, when creating an SSH key, you are asked for a password.
+- Usually, a key symbol appears {{< fa key >}}
+- **The command line registers your password although you can't see it!**
+- Copy-pasting works too!
+
+```{zsh}
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/Users/user/.ssh/id_ed25519):
+Created directory '/Users/user/.ssh'.
+Enter passphrase (empty for no passphrase): # now just enter your password
+```
 :::
 
 ## Questions from last session
