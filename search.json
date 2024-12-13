@@ -354,7 +354,7 @@
     "href": "sessions/session11.html#learning-objectives",
     "title": "Repetition & Practice",
     "section": "Learning objectives",
-    "text": "Learning objectives\n💡 You can fork a repository. 💡 You know the purpose and components of a Pull Request. 💡 You can create a Pull Request from a forked repository. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can protect your main branch.\n💡 You understand the purpose of GitHub Issues. 💡 You can create and manage Issues. 💡 You can reference an Issue in another issue. 💡 You can close an Issue with a commit or pull request."
+    "text": "Learning objectives\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch.\n💡 You understand the purpose of GitHub Issues. 💡 You can create and manage Issues. 💡 You can reference an Issue in another issue. 💡 You can close an Issue with a commit or pull request."
   },
   {
     "objectID": "sessions/session11.html#slides",
@@ -410,7 +410,7 @@
     "href": "sessions/session10.html#learning-objectives",
     "title": "Git(Hub) with the world",
     "section": "Learning objectives",
-    "text": "Learning objectives\n💡 You can fork a repository. 💡 You know the purpose and components of a Pull Request. 💡 You can create a Pull Request from a forked repository. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can protect your main branch.\n💡 You understand the purpose of GitHub Issues. 💡 You can create and manage Issues. 💡 You can reference an Issue in another issue. 💡 You can close an Issue with a commit or pull request."
+    "text": "Learning objectives\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch.\n💡 You understand the purpose of GitHub Issues. 💡 You can create and manage Issues. 💡 You can reference an Issue in another issue. 💡 You can close an Issue with a commit or pull request."
   },
   {
     "objectID": "sessions/session10.html#slides",
@@ -886,7 +886,7 @@
     "href": "sessions/session09.html#learning-objectives",
     "title": "GitHub - Collaboration",
     "section": "Learning objectives",
-    "text": "Learning objectives\n💡 You can fork a repository. 💡 You know the purpose and components of a Pull Request. 💡 You can create a Pull Request from a forked repository. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can protect your main branch."
+    "text": "Learning objectives\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch."
   },
   {
     "objectID": "sessions/session09.html#var-course.project-project",
@@ -1418,7 +1418,7 @@
     "href": "sessions/slides_session10.html#this-sessions-learning-objectives",
     "title": "Session 10: Git(Hub) with the world",
     "section": "This session’s learning objectives",
-    "text": "This session’s learning objectives\nGitHub - Advanced\n💡 You can fork a repository. 💡 You know the purpose and components of a Pull Request. 💡 You can create a Pull Request from a forked repository. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can protect your main branch.\nIssues\n💡 You understand the purpose of GitHub Issues. 💡 You can create and manage Issues. 💡 You can reference an Issue in another issue. 💡 You can close an Issue with a commit or pull request."
+    "text": "This session’s learning objectives\nGitHub - Advanced\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch.\nIssues\n💡 You understand the purpose of GitHub Issues. 💡 You can create and manage Issues. 💡 You can reference an Issue in another issue. 💡 You can close an Issue with a commit or pull request."
   },
   {
     "objectID": "sessions/slides_session10.html#lennarts-recipes-repo",
@@ -2104,7 +2104,7 @@
     "href": "sessions/slides_session09.html#this-and-next-sessions-learning-objectives",
     "title": "Session 9: GitHub - Collaboration",
     "section": "This and next session’s learning objectives",
-    "text": "This and next session’s learning objectives\n💡 You can fork a repository. 💡 You know the purpose and components of a Pull Request. 💡 You can create a Pull Request from a forked repository. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can protect your main branch."
+    "text": "This and next session’s learning objectives\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch."
   },
   {
     "objectID": "sessions/slides_session09.html#reading",
@@ -2146,7 +2146,7 @@
     "href": "sessions/slides_session09.html#bonus-exercises",
     "title": "Session 9: GitHub - Collaboration",
     "section": "Bonus exercises",
-    "text": "Bonus exercises\n🚀 Optional: Clean up your repository\nFiles that your repository should include:\n\na city-guide.qmd (see exercise in Session 07 on “Quarto”) or city-guide.txt file (see exercises starting in Session 02), or a similarly named file that includes the entries for the city-guide project\na .gitignore file (see exercise in Session 04 on “Basic Git workflow”)\na README.md file (see exercise in Session 09 on “GitHub - Collaboration”)\n\nWhile this is not mandatory, please try to remove any unnecessary files or clutter, like empty .txt files from your repository. You can delete files directly on GitHub by clicking on the three dots next to the directory or file and selecting “Delete file,” then commit the changes. This effectively runs git add and git commit on GitHub. Alternatively, delete them from your local repository, add, commit and push the changes to GitHub.\n\n\nVersion Control Course"
+    "text": "Bonus exercises\n🚀 Optional: Clean up your repository\nFiles that your repository should include:\n\na city-guide.qmd (see exercise in Session 07 on “Quarto”) or city-guide.txt file (see exercises starting in Session 02), or a similarly named file that includes the entries for the city-guide project\na .gitignore file (see exercise in Session 04 on “Basic Git workflow”)\na README.md file (see exercise in Session 09 on “GitHub - Collaboration”)\n\nWhile this is not mandatory, please try to remove any unnecessary files or clutter, like empty .txt files from your repository. You can delete files directly on GitHub by clicking on the three dots next to the directory or file and selecting “Delete file,” then commit the changes. This effectively runs git add and git commit on GitHub. Alternatively, delete them from your local repository, add, commit and push the changes to GitHub."
   },
   {
     "objectID": "acknowledgements.html",
