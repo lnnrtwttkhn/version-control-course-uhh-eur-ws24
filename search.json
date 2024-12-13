@@ -2065,11 +2065,11 @@
     "text": "Questions about the course\n\n\n “I didn’t yet complete last session’s exercise. What now?”\n\nPlease focus on the exercises of the current session.\nExercises build on concepts from previous sessions, but are not dependent on previous exercises.\nRemember: At the end of the semester, you must have completed all mandatory exercises.\n\n\n\n\n “Can I copy everything to the Quarto file?”\n\nWe encourage you do use the city-guide.qmd from now on to develop your city-guide project!\n\nYou can move all content from city-guide.txt to city-guide.qmd.\nMotivation: We can later turn your city-guide repository into a website (see Lennart’s example)\n\nYou can also just continue using the city-guide.txt file.\nReminder: It’s about implementing the Git exercises. It does not matter if you use a .qmd, .txt or another file."
   },
   {
-    "objectID": "sessions/slides_session09.html#reminders",
-    "href": "sessions/slides_session09.html#reminders",
+    "objectID": "sessions/slides_session09.html#reminders-faq",
+    "href": "sessions/slides_session09.html#reminders-faq",
     "title": "Session 9: GitHub - Collaboration",
-    "section": "Reminders",
-    "text": "Reminders\n\n\n “Remember to cd in your city-guide project folder!”\n\nEvery time you open the command line, it starts at a default location (likely your home directory).\nCheck in which folder you are, using pwd (“print working directory”).\nUse cd to move to your city-guide project folder before you start running the Git commands.\n\n\n\n\n “My password is not shown!”\n\nSometimes, for example, when creating an SSH key, you are asked for a password.\nUsually, a key symbol appears \nThe command line registers your password although you can’t see it!\nCopy-pasting works too!\n\n\nGenerating public/private ed25519 key pair.\nEnter file in which to save the key (/Users/user/.ssh/id_ed25519):\nCreated directory '/Users/user/.ssh'.\nEnter passphrase (empty for no passphrase): # now just enter your password"
+    "section": "Reminders / FAQ",
+    "text": "Reminders / FAQ\n\n\n “Remember to cd in your city-guide project folder!”\n\nEvery time you open the command line, it starts at a default location (likely your home directory).\nCheck in which folder you are, using pwd (“print working directory”).\nUse cd to move to your city-guide project folder before you start running the Git commands.\n\n\n\n\n “My password is not shown!”\n\nSometimes, for example, when creating an SSH key, you are asked for a password.\nUsually, a key symbol appears \nThe command line registers your password although you can’t see it!\nCopy-pasting works too!\n\n\nGenerating public/private ed25519 key pair.\nEnter file in which to save the key (/Users/user/.ssh/id_ed25519):\nCreated directory '/Users/user/.ssh'.\nEnter passphrase (empty for no passphrase): # now just enter your password!"
   },
   {
     "objectID": "sessions/slides_session09.html#questions-from-last-session",
