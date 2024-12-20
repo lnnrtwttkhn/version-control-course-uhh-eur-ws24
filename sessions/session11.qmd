@@ -1,7 +1,7 @@
 ---
-title: "Repetition & Practice"
-subtitle: "Session 11"
-date: 2024-06-17T12:15
+title: "Git(Hub) with the world"
+subtitle: "Session 10"
+date: 2024-06-10T12:15
 metadata-files:
   - _sessions.yml
 about:
@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session11.html
+      href: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session10.html
       aria-label: display
     - icon: book
       text: "Chapter: GitHub - Advanced"
@@ -25,8 +25,11 @@ about:
       text: "Chapter: Graphical User Interfaces"
       href: https://lennartwittkuhn.com/version-control-book/chapters/gui.html
       aria-label: book
+    - icon: input-cursor-text
+      text: Quiz
+      href: https://version-control-github.formr.org
+      aria-label: input-cursor-text
 ---
-
 
 ::: {#hero-heading}
 :::
@@ -38,17 +41,18 @@ In this session, you will complete the following tasks:
 1. Complete the chapter ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) in the Version Control Book.
 1. Complete the chapter ["Issues"]( https://lennartwittkuhn.com/version-control-book/chapters/issues.html) in the Version Control Book.
 1. Complete the exercises for the [`recipes` project](#recipes-project).
+1. Complete the [quiz](https://version-control-github.formr.org/) if you have not yet done so.
 
 As always:
 
 1. Try out the commands in the chapter and play around with them.
+1. Check whether you have achieved the [learning objectives](#learning-objectives).
 
 ## `recipes` project
 
 At the end of this session, you should have accomplished the following:
 
 1. Successfully added a recipe to [Lennart's recipe project](https://github.com/lnnrtwttkhn/recipes) (for more details, see [slides](#slides))
-1. Cleaned up your repository, like detailed in your received GitHub issue.
 
 ## Learning objectives
 
@@ -60,5 +64,5 @@ At the end of this session, you should have accomplished the following:
 {{< include _print-to-pdf.qmd >}}
 
 ```{=html}
-<iframe width="100%" height=500 src="slides_session11.html"></iframe>
+<iframe width="100%" height=500 src="slides_session10.html"></iframe>
 ```

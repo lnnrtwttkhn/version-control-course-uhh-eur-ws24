@@ -1,10 +1,14 @@
 ---
-title: "Session 11: Repetition & Practice"
-date: 2024-06-17T12:15
+title: "Session 10: Git(Hub) with the world"
+date: 2024-06-10T12:15
 format: revealjs
 metadata-files:
   - _slides.yml
 ---
+
+# Jobs!
+
+{{< include _job-advertizement_2.qmd >}}
 
 # Schedule
 
@@ -18,55 +22,114 @@ metadata-files:
 create_schedule()
 ```
 
-# Last session: Git(Hub) with the world 
+# Last session: GitHub - Collaboration
 
-## Last session: Git(Hub) with the world
+## Last session: GitHub - Collaboration
 
 {{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/github-advanced](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html)
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html" title="Version Control Book"></iframe>
 ```
 
+## Last week's session
+
+::: {.fragment}
+#### Cloning
+- Remember to clone a repo in a sensible location (not in your own repository)
+- To rename the cloned repo you can use: `git clone <URL> new-folder-name`
+:::
+
+::: {.fragment}
+#### Pushing / Pulling workflow
+
+1. `git add` + `git commit`
+2. `git pull` 
+3. `git push` 
+:::
+
 ## Your questions about the last session?
 
-# Your Pull Requests
+# This session: "Git(Hub) with the world"
 
-# This session: Repetition & Practice
+## Today's topic: "Git(Hub) with the world"
 
-## Today's topic: Repetition & Practice
+::: {.fragment}
+![Image from [Techdobz](https://medium.com/analytics-vidhya/version-control-using-git-github-ff4c3f7c752e)](../images/git-github-integration.png){width="70%"}
+:::
 
-::::: {.columns}
-:::: {.column width="33%"}
+## Today's topic: Issues
+
+![](../images/issue-example.png){width="100%" height="80%"}
+
+[Link to Issue](https://github.com/lnnrtwttkhn/version-control-survey/issues/28)
+
+## Issues in Lennart's `recipes` repository
+
+![](../images/issue-example-recipes-tiramisu.png){width="80%"}
+
+[Link to Issue](https://github.com/lnnrtwttkhn/recipes/issues/1)
+
+## This session's learning objectives
+
+#### GitHub - Advanced
+
+{{< include ../objectives/_objectives-github-advanced.qmd >}}
+
+#### Issues
+
+{{< include ../objectives/_objectives-issues.qmd >}}
+
+# Today's exercise
+
+## Lennart's `recipes` repo
+
+{{< fa display >}} [https://lennartwittkuhn.com/recipes/](https://lennartwittkuhn.com/recipes/)
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/recipes/" title="Lennart`s recipe project"></iframe>
+```
+
+# Exercise demonstration
+
+## Oh, another issue!
+
+![](../images/issue-example-recipes-ramen.png){width="100%" height="80%"}
+
+[Link to Issue](https://github.com/lnnrtwttkhn/recipes/issues/22)
+
+## Your turn
+
+::: incremental
+1.  {{< fa book-open >}} **Content Review**: Read the chapters ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) and ["Issues"](https://lennartwittkuhn.com/version-control-book/chapters/issues.html) in the Version Control Book.
+2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
+3.  **Note:** Please complete the implementation exercises on the next slide
+3.  {{< fa dumbbell >}} **Quiz**: Complete the exercises in the [survey](https://version-control-github.formr.org/) if you have not done so yet.
+:::
+
 ::: fragment
+Ask questions!
 
-#### Task 1: **Pull Request to Lennart** 
-- Continue to complete the reviewed PR to Lennart's recipe repo
-
-:::
+Let's *git* started!
 :::
 
-::: {.column width="33%"}
+## Implementation Exercises
+
+1. Find out what [forking](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) is
+1. **Fork the recipes repository** of [Lennart](https://github.com/lnnrtwttkhn/recipes/)
+1. Create an **issue**, suggesting a missing recipe
+1. Repeat the steps from the previous exercise using the forked repository:
+    1. **Clone** the *forked* repository into a sensible location
+    1. **Create a new branch** and create **one or multiple commits** "fixing" the issue that you created
+    1. Follow the **contributing guide** in Lennart's repo to create a new recipe
+    1. **Push** your changes to GitHub
+    1. **Create a pull request** with your changes (hint: from the fork to the original repo) and refer to the issue in your pull request
+
 ::: fragment
-#### Task 2: **Fix your issue**
-- Complete the tasks outlined in the issue in your repo and close the issue
-- :rocket: Fix the issue on a separate branch and create a PR in your own repo
-:::
-:::
+### Homework: Clean up your repository
 
-::: {.column width="33%"}
-::: fragment
-#### Task 3: **(Bonus)**
-- Open a new issue in the [course repository](https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24/issues) with feedback on what you would still like to learn about / do in the last few sessions of the course.
-
-#### Task 4: **(Bonus)**
-- Add another recipe to Lennart's repository or a repository from another course participant
-
-#### Task 5: **(Bonus)**
-- Add a recipe to a repository from another course participant
+1. Find an issue created by Konrad in your `recipes` repository with recommendations how to improve your repository
+1. Implement the recommended changes (for example, using a pull request in your own repository)
+1. :rocket: Link your commits to the issue, for example using `git commit -m "remove empty .txt file, see issue #1"`
 :::
-:::
-::::
-
 
 # Jobs!
 

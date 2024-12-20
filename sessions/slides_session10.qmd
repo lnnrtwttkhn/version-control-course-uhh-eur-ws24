@@ -1,16 +1,16 @@
 ---
-title: "Session 10: Git(Hub) with the world"
-date: 2024-06-10T12:15
+title: "Session 9: Repetition & Practice"
+date: 2024-12-20T10:15
 format: revealjs
 metadata-files:
   - _slides.yml
+session-title: "Repetition & Practice"
+chapter: |
+   ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html)
+quiz-url: https://version-control-github.formr.org
 ---
 
-# Jobs!
-
-{{< include _job-advertizement_2.qmd >}}
-
-# Schedule
+# Admin
 
 ## Schedule
 
@@ -26,111 +26,162 @@ create_schedule()
 
 ## Last session: GitHub - Collaboration
 
-{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/github-advanced](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html)
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html)
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html" title="Version Control Book"></iframe>
 ```
 
-## Last week's session
-
-::: {.fragment}
-#### Cloning
-- Remember to clone a repo in a sensible location (not in your own repository)
-- To rename the cloned repo you can use: `git clone <URL> new-folder-name`
-:::
-
-::: {.fragment}
-#### Pushing / Pulling workflow
-
-1. `git add` + `git commit`
-2. `git pull` 
-3. `git push` 
-:::
-
-## Your questions about the last session?
-
-# This session: "Git(Hub) with the world"
-
-## Today's topic: "Git(Hub) with the world"
-
-::: {.fragment}
-![Image from [Techdobz](https://medium.com/analytics-vidhya/version-control-using-git-github-ff4c3f7c752e)](../images/git-github-integration.png){width="70%"}
-:::
-
-## Today's topic: Issues
-
-![](../images/issue-example.png){width="100%" height="80%"}
-
-[Link to Issue](https://github.com/lnnrtwttkhn/version-control-survey/issues/28)
-
-## Issues in Lennart's `recipes` repository
-
-![](../images/issue-example-recipes-tiramisu.png){width="80%"}
-
-[Link to Issue](https://github.com/lnnrtwttkhn/recipes/issues/1)
-
-## This session's learning objectives
-
-#### GitHub - Advanced
+## Last session's learning objectives
 
 {{< include ../objectives/_objectives-github-advanced.qmd >}}
 
-#### Issues
+## Reminders / FAQ
 
-{{< include ../objectives/_objectives-issues.qmd >}}
+::: fragment
 
-# Today's exercise
+#### {{< fa circle-exclamation >}} *"Remember to `cd` in your `{{< var course.project >}}` project folder!"*
 
-## Lennart's `recipes` repo
+- Every time you open the command line, it starts at a default location (likely your home directory).
+- Check in which folder you are, using `pwd` ("print working directory").
+- Use `cd` to move to your `{{< var course.project >}}` project folder before you start running the Git commands.
+:::
 
-{{< fa display >}} [https://lennartwittkuhn.com/recipes/](https://lennartwittkuhn.com/recipes/)
-```{=html}
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/recipes/" title="Lennart`s recipe project"></iframe>
+::: fragment
+
+#### {{< fa circle-exclamation >}} *"My password is not shown!"*
+
+- Sometimes, for example, when creating an SSH key, you are asked for a password.
+- Usually, a key symbol appears {{< fa key >}}
+- **The command line registers your password although you can't see it!**
+- Copy-pasting works too!
+
+```{zsh}
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/Users/user/.ssh/id_ed25519):
+Created directory '/Users/user/.ssh'.
+Enter passphrase (empty for no passphrase): # now just enter your password!
+```
+:::
+
+## Questions from last session
+
+::: fragment
+
+#### {{< fa circle-exclamation >}} *"Remember to clone your collaborator's repository to a different location (**not into** your `{{< var course.project >}}` project folder!)"*
+
+- `cd` out of your `{{< var course.project >}}` project folder
+- Clone into a different folder `git clone git@github.com:partner-name/repo-name.git city-guide-partner`
+
+:::
+
+::: fragment
+
+#### {{< fa circle-exclamation >}} *"Remember to use the SSH URL (not HTTPS) when cloning or configuring the remote repository!"*
+
+- When you authenticate via SSH, you need to use the SSH URL!
+- This is relevant when your are configuring the remote, cloning a repository ...
+
+```{zsh filename="Code (HTTPS)"}
+git remote add origin https://github.com/user-name/repo-name.git
 ```
 
-# Exercise demonstration
+```{zsh filename="Code (SSH)"}
+git remote add origin git@github.com:user-name/repo-name.git
+```
 
-## Oh, another issue!
-
-![](../images/issue-example-recipes-ramen.png){width="100%" height="80%"}
-
-[Link to Issue](https://github.com/lnnrtwttkhn/recipes/issues/22)
-
-## Your turn
-
-::: incremental
-1.  {{< fa book-open >}} **Content Review**: Read the chapters ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) and ["Issues"](https://lennartwittkuhn.com/version-control-book/chapters/issues.html) in the Version Control Book.
-2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
-3.  **Note:** Please complete the implementation exercises on the next slide
-3.  {{< fa dumbbell >}} **Quiz**: Complete the exercises in the [survey](https://version-control-github.formr.org/) if you have not done so yet.
 :::
 
 ::: fragment
-Ask questions!
+#### {{< fa circle-question >}} *"My files don't all show up on GitHub?!"*
 
-Let's *git* started!
+- **GitHub is *no* cloud sharing** that synchronizes all files in a folder automatically!
+- Remember: Only files that are tracked by Git (that you added (`git add`), committed (`git commit`) to the repository) and then pushed (`git push`) are also transferred to GitHub.
+- Files that are untracked (check with `git status`) or ignored by `.gitignore` will not be transferred to GitHub, even if they are present in your local Git repository.
 :::
 
-## Implementation Exercises
+## More questions about the last session?
 
-1. Find out what [forking](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) is
-1. **Fork the recipes repository** of [Lennart](https://github.com/lnnrtwttkhn/recipes/)
-1. Create an **issue**, suggesting a missing recipe
-1. Repeat the steps from the previous exercise using the forked repository:
-    1. **Clone** the *forked* repository into a sensible location
-    1. **Create a new branch** and create **one or multiple commits** "fixing" the issue that you created
-    1. Follow the **contributing guide** in Lennart's repo to create a new recipe
-    1. **Push** your changes to GitHub
-    1. **Create a pull request** with your changes (hint: from the fork to the original repo) and refer to the issue in your pull request
+# This session: {{< meta session-title >}}
+
+## {{< meta session-title >}}
 
 ::: fragment
-### Homework: Clean up your repository
-
-1. Find an issue created by Konrad in your `recipes` repository with recommendations how to improve your repository
-1. Implement the recommended changes (for example, using a pull request in your own repository)
-1. :rocket: Link your commits to the issue, for example using `git commit -m "remove empty .txt file, see issue #1"`
+![Image from [Techdobz](https://medium.com/analytics-vidhya/version-control-using-git-github-ff4c3f7c752e)](../images/git-github-integration.png){width="70%"}
 :::
 
-# Jobs!
+## GitHub Flow
 
-{{< include _job-advertizement_2.qmd >}}
+::: fragment
+![Image from [Sebass van Boxel](https://github.com/SvanBoxel/release-based-workflow/issues/1)](../images/github_flow.png){width="70%"}
+:::
+
+## This and last session's learning objectives
+
+{{< include ../objectives/_objectives-github-advanced.qmd >}}
+
+## Reading
+
+{{< fa display >}} {{< meta chapter >}}
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html" title="Version Control Book"></iframe>
+```
+
+## Cheatsheet
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "github_advanced"), format = "markdown", row.names = FALSE)
+```
+
+## Tasks
+
+{{< include tasks-template.qmd >}}
+
+## `{{< var course.project >}}` project
+
+{{< include project/project-github-advanced.qmd >}}
+
+::: {.fragment}
+
+### Today's team topic
+
+- Interview each other about your favorite things to do to **relax and recharge**.
+- Add the recommendation *of your partner* to your text file **or Quarto file**.
+- Help each other in completing the exercises.
+
+:::
+
+## Exercises
+
+### "Private" collaboration with pull requests (using GitHub Flow)
+
+{{< include ../exercises/_exercises-remotes-collaboration.qmd >}}
+
+::: fragment
+
+### Add a `README.md`
+
+{{< include ../exercises/_exercises-remotes-readme.qmd >}}
+
+:::
+
+## Bonus exercises
+
+### :rocket: Optional: Clean up your repository
+
+Files that your repository should include:
+
+- a `{{< var course.project >}}.qmd` (see exercise in [Session 07](session07.qmd) on "Quarto") or `{{< var course.project >}}.txt` file (see exercises starting in [Session 02](session02.qmd)), or a similarly named file that includes the entries for the `{{< var course.project >}}` project
+- a `.gitignore` file (see exercise in [Session 04](session04.qmd) on "Basic Git workflow")
+- a `README.md` file (see exercise in [Session 09](session09.qmd) on "{{< meta session-title >}}")
+
+While this is not mandatory, please try to remove any unnecessary files or clutter, like empty `.txt` files from your repository.
+You can delete files directly on GitHub by clicking on the three dots next to the directory or file and selecting "Delete file," then commit the changes.
+This effectively runs `git add` and `git commit` on GitHub.
+Alternatively, delete them from your local repository, add, commit and push the changes to GitHub.
+
+# Live demonstration
