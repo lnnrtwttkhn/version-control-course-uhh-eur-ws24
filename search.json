@@ -119,44 +119,114 @@
     "text": "References\n\n\nDeslauriers, L., McCarty, L. S., Miller, K., Callaghan, K., & Kestin, G. (2019). Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom. Proceedings of the National Academy of Sciences, 116(39), 19251–19257. https://doi.org/10.1073/pnas.1821936116. License: CC BY-NC-ND.\n\n\nMillman, K. J., Brett, M., Barnowski, R., & Poline, J.-B. (2018). Teaching computational reproducibility for neuroimaging. Frontiers in Neuroscience, 12. https://doi.org/10.3389/fnins.2018.00727.\n\n\nWilliams, L. (2001). Integrating pair programming into a software development process. Proceedings 14th Conference on Software Engineering Education and Training. ’In Search of a Software Engineering Profession’ (Cat. No.PR01059). https://doi.org/10.1109/csee.2001.913816. License: Unknown.\n\n\nWilson, R. C. (2021). NSCS 344 — modeling the mind. University of Arizona. https://u.arizona.edu/~bob/web_NSCS344/. License: Unknown."
   },
   {
-    "objectID": "sessions/slides_session11.html#schedule-1",
-    "href": "sessions/slides_session11.html#schedule-1",
-    "title": "Session 11: Repetition & Practice",
-    "section": "Schedule",
-    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2024-10-18\nIntroduction to version control\nOrganizational mattersOverview of seminar sessionsIntroduction to version controlIntroduction to Git and its advantages\n Intro to version control\nCourse introduction Survey\n\n\n2\n2024-10-25\nCommand line\nFile SystemsBenefits of the Command LineBasic Command Line commands\n Command Line\nCommand Line Quiz\n\n\n3\n2024-11-01\nSetup + Git Fundamentals\nInstallation and configuration of GitInitializing a Git repositoryBasic Git commands\n Installation, Setup, First steps with Git\nInstallation Survey, Git Basics Quiz\n\n\n4\n2024-11-08\nBasic Git workflow\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n First steps with Git\nGit Basics Quiz\n\n\n5\n2024-11-15\nGit Essentials (Repetition & Practice)\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n Git Essentials\nGit Basics Quiz\n\n\n6\n2024-11-22\nGit Branching and Merging\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflict\n Branches\nGit Branches Quiz\n\n\n7\n2024-11-29\nQuarto Workshop\nIntroduction to Quarto\n\n\n\n\n8\n2024-12-06\nIntroduction to GitHub\nIntroduction to remote repositoriesCreating a GitHub accountCreating and managing repositories on GitHubPushing and pulling changes\n GitHub Intro\nGitHub Quiz\n\n\n9\n2024-12-13\nGitHub with collaborators\nCloning a remote repositoryBranching and merging in a collaborative environmentPull RequestsGitHub IssuesGraphical User Interfaces (GUIs), e.g., GitKraken\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n10\n2024-12-20\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n11\n2025-01-10\nGitHub with the world\nForking a remote repository README filesProject Management\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n12\n2025-01-17\nPublishing\nCreating Tags with GitCreating Releases with GitHubUsing Zenodo for scientific publishingLicencesCitation Files\n Tags and Releases\n\n\n\n13\n2025-01-24\nGraphical User Interfaces\nRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces\n\n\n\n14\n2025-01-31\nSummary & Wrap-Up\nCourse evaluationRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces"
-  },
-  {
-    "objectID": "sessions/slides_session11.html#last-session-github-with-the-world-1",
-    "href": "sessions/slides_session11.html#last-session-github-with-the-world-1",
-    "title": "Session 11: Repetition & Practice",
-    "section": "Last session: Git(Hub) with the world",
-    "text": "Last session: Git(Hub) with the world\n https://lennartwittkuhn.com/version-control-book/chapters/github-advanced"
-  },
-  {
-    "objectID": "sessions/slides_session11.html#your-questions-about-the-last-session",
-    "href": "sessions/slides_session11.html#your-questions-about-the-last-session",
-    "title": "Session 11: Repetition & Practice",
-    "section": "Your questions about the last session?",
-    "text": "Your questions about the last session?"
-  },
-  {
-    "objectID": "sessions/slides_session11.html#todays-topic-repetition-practice",
-    "href": "sessions/slides_session11.html#todays-topic-repetition-practice",
-    "title": "Session 11: Repetition & Practice",
-    "section": "Today’s topic: Repetition & Practice",
-    "text": "Today’s topic: Repetition & Practice\n\n\n\n\nTask 1: Pull Request to Lennart\n\nContinue to complete the reviewed PR to Lennart’s recipe repo\n\n\n\n\n\nTask 2: Fix your issue\n\nComplete the tasks outlined in the issue in your repo and close the issue\n🚀 Fix the issue on a separate branch and create a PR in your own repo\n\n\n\n\n\nTask 3: (Bonus)\n\nOpen a new issue in the course repository with feedback on what you would still like to learn about / do in the last few sessions of the course.\n\nTask 4: (Bonus)\n\nAdd another recipe to Lennart’s repository or a repository from another course participant\n\nTask 5: (Bonus)\n\nAdd a recipe to a repository from another course participant"
-  },
-  {
     "objectID": "sessions/slides_session11.html#work-with-us-research-and-teaching-assistant-positions",
     "href": "sessions/slides_session11.html#work-with-us-research-and-teaching-assistant-positions",
-    "title": "Session 11: Repetition & Practice",
+    "title": "Session 10: Git(Hub) with the world",
     "section": "Work with us! Research and teaching assistant positions",
     "text": "Work with us! Research and teaching assistant positions\nProjects\n\n\n\n\nP1: Version Control Course\nCourse on Git for researchers\n\nDevelop “Version Control Book”\nMaintain project website\nCreate exercises and quizzes\nTools: Git, Quarto\n\n\n\n\n\nP2: Open Educational Resources\nCourse on OER for researchers\n\nCreate new course (website)\nCreate new online guide\nConducting interviews\nTools: Git, Quarto\n\n\n\n\n\nProject 3: Digital Research Skills\n\nDevelopment of course book\nDevelopment of project website\nCreating exercises and quizzes\nLike Git course\nTools: Git, Quarto + new tool(s)\n\n“Git for data” (DataLad)\nSoftware Containers (Docker)\n\n\n\n\n\nGeneral\n\n\n\n\n🔧 Tools\n\n\n\n\n\n\ngit-scm.com\n\n\n\n\n\n\n\nquarto.org/\n\n\n\n\n\n\n\n\n\n💰 Salary\n\nRA: 13.25 € / hour (SHK) / 15.21 € / hour (WHK)\nTA: 299.04 € / month (SHK) or 467.20 € / month (WHK)\n\n\n\n\n\n✉️ Contact\n\nQuestions, interest: lennart.wittkuhn@uni-hamburg.de\nGet in touch with Konrad (konrad.pagenstedt@uni-hamburg.de) if you would like to know what the work is like"
   },
   {
     "objectID": "sessions/slides_session11.html#details-about-project-positions",
     "href": "sessions/slides_session11.html#details-about-project-positions",
-    "title": "Session 11: Repetition & Practice",
+    "title": "Session 10: Git(Hub) with the world",
+    "section": "Details about project positions",
+    "text": "Details about project positions\n\n\nPosition 1: Research Assistant for new course on “Digital Research Skills”\n\n📓 Project: Support development of new course on “Digital Research Skills”\n📆 Duration: 01.08.2024 - 30.09.2025 (flexible)\n🕐 Time: up to 20 hours / month\n\n\n\n\nPosition 2: Research Assistant for new course on “Open Educational Materials”\n\n📓 Project: Create course and manual for “Open Educational Materials” with Quarto and Git\n📆 Duration: 15.08.2024 - 31.08.2025 (flexible)\n🕐 Time: up to 30 hours / month\n\n\n\n\nPosition 3: Teaching Assistant for Version Control Course in WS 24/25\n\n📓 Project: Support international virtual “Version Control Course” with Erasmus University Rotterdam\n📆 Duration: 14.10.2024 - 01.02.2025 (WS 24/25)\n🕐 Time: ~ 2 hours per week\n\n\n\n\nPosition 4: Teaching Assistant for “Open Educational Resources” in WS 24/25\n\n📓 Project: Support course at UHH on creating Open Educational Resources with Git and Quarto\n📆 Duration: 14.10.2024 - 01.02.2025 (WS 24/25)\n🕐 Time: ~ 2 hours per week\n\n\n\n\nPosition 5: Teaching Assistant for “Digital Research Skills” in WS 24/25 or SS24\n\n📓 Project: Support teaching new course on “Digital Research Skills”\n📆 Duration: 14.10.2024 - 01.02.2025 (WS 24/25) or 07.04.2025 - 19.07.2025 (SS 24)\n🕐 Time: ~ 2 hours per week"
+  },
+  {
+    "objectID": "sessions/slides_session11.html#schedule-1",
+    "href": "sessions/slides_session11.html#schedule-1",
+    "title": "Session 10: Git(Hub) with the world",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2024-10-18\nIntroduction to version control\nOrganizational mattersOverview of seminar sessionsIntroduction to version controlIntroduction to Git and its advantages\n Intro to version control\nCourse introduction Survey\n\n\n2\n2024-10-25\nCommand line\nFile SystemsBenefits of the Command LineBasic Command Line commands\n Command Line\nCommand Line Quiz\n\n\n3\n2024-11-01\nSetup + Git Fundamentals\nInstallation and configuration of GitInitializing a Git repositoryBasic Git commands\n Installation, Setup, First steps with Git\nInstallation Survey, Git Basics Quiz\n\n\n4\n2024-11-08\nBasic Git workflow\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n First steps with Git\nGit Basics Quiz\n\n\n5\n2024-11-15\nGit Essentials (Repetition & Practice)\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n Git Essentials\nGit Basics Quiz\n\n\n6\n2024-11-22\nGit Branching and Merging\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflict\n Branches\nGit Branches Quiz\n\n\n7\n2024-11-29\nQuarto Workshop\nIntroduction to Quarto\n\n\n\n\n8\n2024-12-06\nIntroduction to GitHub\nIntroduction to remote repositoriesCreating a GitHub accountCreating and managing repositories on GitHubPushing and pulling changes\n GitHub Intro\nGitHub Quiz\n\n\n9\n2024-12-13\nGitHub with collaborators\nCloning a remote repositoryBranching and merging in a collaborative environmentPull RequestsGitHub IssuesGraphical User Interfaces (GUIs), e.g., GitKraken\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n10\n2024-12-20\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n11\n2025-01-10\nGitHub with the world\nForking a remote repository README filesProject Management\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n12\n2025-01-17\nPublishing\nCreating Tags with GitCreating Releases with GitHubUsing Zenodo for scientific publishingLicencesCitation Files\n Tags and Releases\n\n\n\n13\n2025-01-24\nGraphical User Interfaces\nRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces\n\n\n\n14\n2025-01-31\nSummary & Wrap-Up\nCourse evaluationRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces"
+  },
+  {
+    "objectID": "sessions/slides_session11.html#last-session-github---collaboration-1",
+    "href": "sessions/slides_session11.html#last-session-github---collaboration-1",
+    "title": "Session 10: Git(Hub) with the world",
+    "section": "Last session: GitHub - Collaboration",
+    "text": "Last session: GitHub - Collaboration\n https://lennartwittkuhn.com/version-control-book/chapters/github-advanced"
+  },
+  {
+    "objectID": "sessions/slides_session11.html#last-weeks-session",
+    "href": "sessions/slides_session11.html#last-weeks-session",
+    "title": "Session 10: Git(Hub) with the world",
+    "section": "Last week’s session",
+    "text": "Last week’s session\n\n\nCloning\n\nRemember to clone a repo in a sensible location (not in your own repository)\nTo rename the cloned repo you can use: git clone &lt;URL&gt; new-folder-name\n\n\n\n\nPushing / Pulling workflow\n\ngit add + git commit\ngit pull\ngit push"
+  },
+  {
+    "objectID": "sessions/slides_session11.html#your-questions-about-the-last-session",
+    "href": "sessions/slides_session11.html#your-questions-about-the-last-session",
+    "title": "Session 10: Git(Hub) with the world",
+    "section": "Your questions about the last session?",
+    "text": "Your questions about the last session?"
+  },
+  {
+    "objectID": "sessions/slides_session11.html#todays-topic-github-with-the-world",
+    "href": "sessions/slides_session11.html#todays-topic-github-with-the-world",
+    "title": "Session 10: Git(Hub) with the world",
+    "section": "Today’s topic: “Git(Hub) with the world”",
+    "text": "Today’s topic: “Git(Hub) with the world”\n\n\n\n\nImage from Techdobz"
+  },
+  {
+    "objectID": "sessions/slides_session11.html#todays-topic-issues",
+    "href": "sessions/slides_session11.html#todays-topic-issues",
+    "title": "Session 10: Git(Hub) with the world",
+    "section": "Today’s topic: Issues",
+    "text": "Today’s topic: Issues\n\nLink to Issue"
+  },
+  {
+    "objectID": "sessions/slides_session11.html#issues-in-lennarts-recipes-repository",
+    "href": "sessions/slides_session11.html#issues-in-lennarts-recipes-repository",
+    "title": "Session 10: Git(Hub) with the world",
+    "section": "Issues in Lennart’s recipes repository",
+    "text": "Issues in Lennart’s recipes repository\n\nLink to Issue"
+  },
+  {
+    "objectID": "sessions/slides_session11.html#this-sessions-learning-objectives",
+    "href": "sessions/slides_session11.html#this-sessions-learning-objectives",
+    "title": "Session 10: Git(Hub) with the world",
+    "section": "This session’s learning objectives",
+    "text": "This session’s learning objectives\nGitHub - Advanced\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch.\nIssues\n💡 You understand the purpose of GitHub Issues. 💡 You can create and manage Issues. 💡 You can reference an Issue in another issue. 💡 You can close an Issue with a commit or pull request."
+  },
+  {
+    "objectID": "sessions/slides_session11.html#lennarts-recipes-repo",
+    "href": "sessions/slides_session11.html#lennarts-recipes-repo",
+    "title": "Session 10: Git(Hub) with the world",
+    "section": "Lennart’s recipes repo",
+    "text": "Lennart’s recipes repo\n https://lennartwittkuhn.com/recipes/"
+  },
+  {
+    "objectID": "sessions/slides_session11.html#oh-another-issue",
+    "href": "sessions/slides_session11.html#oh-another-issue",
+    "title": "Session 10: Git(Hub) with the world",
+    "section": "Oh, another issue!",
+    "text": "Oh, another issue!\n\nLink to Issue"
+  },
+  {
+    "objectID": "sessions/slides_session11.html#your-turn",
+    "href": "sessions/slides_session11.html#your-turn",
+    "title": "Session 10: Git(Hub) with the world",
+    "section": "Your turn",
+    "text": "Your turn\n\n\n Content Review: Read the chapters “GitHub - Advanced” and “Issues” in the Version Control Book.\n Implementation: Try out the commands in the chapter! Play around! Have fun!.\nNote: Please complete the implementation exercises on the next slide\n Quiz: Complete the exercises in the survey if you have not done so yet.\n\n\n\nAsk questions!\nLet’s git started!"
+  },
+  {
+    "objectID": "sessions/slides_session11.html#implementation-exercises",
+    "href": "sessions/slides_session11.html#implementation-exercises",
+    "title": "Session 10: Git(Hub) with the world",
+    "section": "Implementation Exercises",
+    "text": "Implementation Exercises\n\nFind out what forking is\nFork the recipes repository of Lennart\nCreate an issue, suggesting a missing recipe\nRepeat the steps from the previous exercise using the forked repository:\n\nClone the forked repository into a sensible location\nCreate a new branch and create one or multiple commits “fixing” the issue that you created\nFollow the contributing guide in Lennart’s repo to create a new recipe\nPush your changes to GitHub\nCreate a pull request with your changes (hint: from the fork to the original repo) and refer to the issue in your pull request\n\n\n\n\nHomework: Clean up your repository\n\nFind an issue created by Konrad in your recipes repository with recommendations how to improve your repository\nImplement the recommended changes (for example, using a pull request in your own repository)\n🚀 Link your commits to the issue, for example using git commit -m \"remove empty .txt file, see issue #1\""
+  },
+  {
+    "objectID": "sessions/slides_session11.html#work-with-us-research-and-teaching-assistant-positions-1",
+    "href": "sessions/slides_session11.html#work-with-us-research-and-teaching-assistant-positions-1",
+    "title": "Session 10: Git(Hub) with the world",
+    "section": "Work with us! Research and teaching assistant positions",
+    "text": "Work with us! Research and teaching assistant positions\nProjects\n\n\n\n\nP1: Version Control Course\nCourse on Git for researchers\n\nDevelop “Version Control Book”\nMaintain project website\nCreate exercises and quizzes\nTools: Git, Quarto\n\n\n\n\n\nP2: Open Educational Resources\nCourse on OER for researchers\n\nCreate new course (website)\nCreate new online guide\nConducting interviews\nTools: Git, Quarto\n\n\n\n\n\nProject 3: Digital Research Skills\n\nDevelopment of course book\nDevelopment of project website\nCreating exercises and quizzes\nLike Git course\nTools: Git, Quarto + new tool(s)\n\n“Git for data” (DataLad)\nSoftware Containers (Docker)\n\n\n\n\n\nGeneral\n\n\n\n\n🔧 Tools\n\n\n\n\n\n\ngit-scm.com\n\n\n\n\n\n\n\nquarto.org/\n\n\n\n\n\n\n\n\n\n💰 Salary\n\nRA: 13.25 € / hour (SHK) / 15.21 € / hour (WHK)\nTA: 299.04 € / month (SHK) or 467.20 € / month (WHK)\n\n\n\n\n\n✉️ Contact\n\nQuestions, interest: lennart.wittkuhn@uni-hamburg.de\nGet in touch with Konrad (konrad.pagenstedt@uni-hamburg.de) if you would like to know what the work is like"
+  },
+  {
+    "objectID": "sessions/slides_session11.html#details-about-project-positions-1",
+    "href": "sessions/slides_session11.html#details-about-project-positions-1",
+    "title": "Session 10: Git(Hub) with the world",
     "section": "Details about project positions",
     "text": "Details about project positions\n\n\nPosition 1: Research Assistant for new course on “Digital Research Skills”\n\n📓 Project: Support development of new course on “Digital Research Skills”\n📆 Duration: 01.08.2024 - 30.09.2025 (flexible)\n🕐 Time: up to 20 hours / month\n\n\n\n\nPosition 2: Research Assistant for new course on “Open Educational Materials”\n\n📓 Project: Create course and manual for “Open Educational Materials” with Quarto and Git\n📆 Duration: 15.08.2024 - 31.08.2025 (flexible)\n🕐 Time: up to 30 hours / month\n\n\n\n\nPosition 3: Teaching Assistant for Version Control Course in WS 24/25\n\n📓 Project: Support international virtual “Version Control Course” with Erasmus University Rotterdam\n📆 Duration: 14.10.2024 - 01.02.2025 (WS 24/25)\n🕐 Time: ~ 2 hours per week\n\n\n\n\nPosition 4: Teaching Assistant for “Open Educational Resources” in WS 24/25\n\n📓 Project: Support course at UHH on creating Open Educational Resources with Git and Quarto\n📆 Duration: 14.10.2024 - 01.02.2025 (WS 24/25)\n🕐 Time: ~ 2 hours per week\n\n\n\n\nPosition 5: Teaching Assistant for “Digital Research Skills” in WS 24/25 or SS24\n\n📓 Project: Support teaching new course on “Digital Research Skills”\n📆 Duration: 14.10.2024 - 01.02.2025 (WS 24/25) or 07.04.2025 - 19.07.2025 (SS 24)\n🕐 Time: ~ 2 hours per week\n\n\n\n\nVersion Control Course"
   },
@@ -312,7 +382,7 @@
     "href": "sessions/index.html",
     "title": "Sessions",
     "section": "",
-    "text": "GitHub - Collaboration\n\n\nSession 09\n\n\n\n\n\n\nDecember 13, 2024\n\n\n\n\n\n\n\n\nRemotes - Intro\n\n\nSession 08\n\n\n\n\n\n\nDecember 6, 2024\n\n\n\n\n\n\n\n\nQuarto\n\n\nSession 07\n\n\n\n\n\n\nNovember 29, 2024\n\n\n\n\n\n\n\n\nBranches\n\n\nSession 06\n\n\n\n\n\n\nNovember 22, 2024\n\n\n\n\n\n\n\n\nGit Essentials\n\n\nSession 05\n\n\n\n\n\n\nNovember 15, 2024\n\n\n\n\n\n\n\n\nBasic Git workflow\n\n\nSession 04\n\n\n\n\n\n\nNovember 8, 2024\n\n\n\n\n\n\n\n\nFirst steps with Git\n\n\nSession 03\n\n\n\n\n\n\nNovember 1, 2024\n\n\n\n\n\n\n\n\nCommand Line\n\n\nSession 02\n\n\n\n\n\n\nOctober 25, 2024\n\n\n\n\n\n\n\n\nIntroduction to Version Control\n\n\nSession 01\n\n\n\n\n\n\nOctober 18, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Repetition & Practice\n\n\nSession 10\n\n\n\n\n\n\nDecember 20, 2024\n\n\n\n\n\n\n\n\nGitHub - Collaboration\n\n\nSession 09\n\n\n\n\n\n\nDecember 13, 2024\n\n\n\n\n\n\n\n\nRemotes - Intro\n\n\nSession 08\n\n\n\n\n\n\nDecember 6, 2024\n\n\n\n\n\n\n\n\nQuarto\n\n\nSession 07\n\n\n\n\n\n\nNovember 29, 2024\n\n\n\n\n\n\n\n\nBranches\n\n\nSession 06\n\n\n\n\n\n\nNovember 22, 2024\n\n\n\n\n\n\n\n\nGit Essentials\n\n\nSession 05\n\n\n\n\n\n\nNovember 15, 2024\n\n\n\n\n\n\n\n\nBasic Git workflow\n\n\nSession 04\n\n\n\n\n\n\nNovember 8, 2024\n\n\n\n\n\n\n\n\nFirst steps with Git\n\n\nSession 03\n\n\n\n\n\n\nNovember 1, 2024\n\n\n\n\n\n\n\n\nCommand Line\n\n\nSession 02\n\n\n\n\n\n\nOctober 25, 2024\n\n\n\n\n\n\n\n\nIntroduction to Version Control\n\n\nSession 01\n\n\n\n\n\n\nOctober 18, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/session07.html",
@@ -338,28 +408,28 @@
   {
     "objectID": "sessions/session11.html",
     "href": "sessions/session11.html",
-    "title": "Repetition & Practice",
+    "title": "Git(Hub) with the world",
     "section": "",
-    "text": "Slides\n  \n  \n    \n     Chapter: GitHub - Advanced\n  \n  \n    \n     Chapter: Issues\n  \n  \n    \n     Chapter: Graphical User Interfaces"
+    "text": "Slides\n  \n  \n    \n     Chapter: GitHub - Advanced\n  \n  \n    \n     Chapter: Issues\n  \n  \n    \n     Chapter: Graphical User Interfaces\n  \n  \n    \n     Quiz"
   },
   {
     "objectID": "sessions/session11.html#recipes-project",
     "href": "sessions/session11.html#recipes-project",
-    "title": "Repetition & Practice",
+    "title": "Git(Hub) with the world",
     "section": "recipes project",
-    "text": "recipes project\nAt the end of this session, you should have accomplished the following:\n\nSuccessfully added a recipe to Lennart’s recipe project (for more details, see slides)\nCleaned up your repository, like detailed in your received GitHub issue."
+    "text": "recipes project\nAt the end of this session, you should have accomplished the following:\n\nSuccessfully added a recipe to Lennart’s recipe project (for more details, see slides)"
   },
   {
     "objectID": "sessions/session11.html#learning-objectives",
     "href": "sessions/session11.html#learning-objectives",
-    "title": "Repetition & Practice",
+    "title": "Git(Hub) with the world",
     "section": "Learning objectives",
     "text": "Learning objectives\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch.\n💡 You understand the purpose of GitHub Issues. 💡 You can create and manage Issues. 💡 You can reference an Issue in another issue. 💡 You can close an Issue with a commit or pull request."
   },
   {
     "objectID": "sessions/session11.html#slides",
     "href": "sessions/session11.html#slides",
-    "title": "Repetition & Practice",
+    "title": "Git(Hub) with the world",
     "section": "Slides",
     "text": "Slides\n\n\n\n\n\n\nHow can I download the slides as PDF?\n\n\n\n\n\nTo print the slides to PDF, do the following:\n\nToggle into Print View using the E key (or using the Navigation Menu).\nOpen the in-browser print dialog (CTRL/CMD+P).\nChange the Destination setting to Save as PDF.\nChange the Layout to Landscape.\nChange the Margins to None.\nEnable the Background graphics option.\nClick Save.\n\nNote: This feature has been confirmed to work in Google Chrome, Chromium as well as in Firefox.\nHere’s what the Chrome print dialog would look like with these settings enabled:\n\nThese instructions were copied from the Quarto documentation (MIT License) and slightly modified."
   },
@@ -394,30 +464,44 @@
   {
     "objectID": "sessions/session10.html",
     "href": "sessions/session10.html",
-    "title": "Git(Hub) with the world",
+    "title": "Repetition & Practice",
     "section": "",
-    "text": "Slides\n  \n  \n    \n     Chapter: GitHub - Advanced\n  \n  \n    \n     Chapter: Issues\n  \n  \n    \n     Chapter: Graphical User Interfaces\n  \n  \n    \n     Quiz"
-  },
-  {
-    "objectID": "sessions/session10.html#recipes-project",
-    "href": "sessions/session10.html#recipes-project",
-    "title": "Git(Hub) with the world",
-    "section": "recipes project",
-    "text": "recipes project\nAt the end of this session, you should have accomplished the following:\n\nSuccessfully added a recipe to Lennart’s recipe project (for more details, see slides)"
+    "text": "Slides\n  \n  \n    \n     Chapter: GitHub - Advanced\n  \n  \n    \n     Quiz"
   },
   {
     "objectID": "sessions/session10.html#learning-objectives",
     "href": "sessions/session10.html#learning-objectives",
-    "title": "Git(Hub) with the world",
+    "title": "Repetition & Practice",
     "section": "Learning objectives",
-    "text": "Learning objectives\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch.\n💡 You understand the purpose of GitHub Issues. 💡 You can create and manage Issues. 💡 You can reference an Issue in another issue. 💡 You can close an Issue with a commit or pull request."
+    "text": "Learning objectives\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch."
+  },
+  {
+    "objectID": "sessions/session10.html#var-course.project-project",
+    "href": "sessions/session10.html#var-course.project-project",
+    "title": "Repetition & Practice",
+    "section": "city-guide project",
+    "text": "city-guide project\nAt the end of this session, you should have accomplished the following:\n\nYou collaborated successfully on a shared project by adding and committing changes to a partner’s repository.\nyou created and reviewed a pull request to integrate new content from a partner.\n\nPlease keep the city-guide folder! We will continue to use it in the following sessions."
+  },
+  {
+    "objectID": "sessions/session10.html#exercises",
+    "href": "sessions/session10.html#exercises",
+    "title": "Repetition & Practice",
+    "section": "Exercises",
+    "text": "Exercises\n\n“Private” collaboration with pull requests (using GitHub Flow)\n\nAdd your exercise partner as a collaborator to your project repository on GitHub.\nClone your partner’s repository.\nCreate a new branch in your collaborator’s repository.\nAdd a new entry to your collaborator’s project file (e.g., .txt or .qmd (if you are unsure, where to add the entry, ask your collaborator!)\nAdd and commit the changes.\nPush the changes on the new branch to the remote repository.\nCreate a Pull Request (on GitLab: Merge Request).\nReview the Pull Request that your collaborator made in your repository.\n🚀 Optional: Add additional changes on the branch pushed by your collaborator.\nMerge the pull request into your repository.\n\n\n\n\nAdd a README.md\n\nFind the option to create a new file on your remote repository in the browser.\nName the file README.md, add a brief description, and provide a commit message.\n🚀 Optional: Play around with Markdown syntax.\nSave the README.md file to the repository.\nPull the changes to your local repository."
   },
   {
     "objectID": "sessions/session10.html#slides",
     "href": "sessions/session10.html#slides",
-    "title": "Git(Hub) with the world",
+    "title": "Repetition & Practice",
     "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\nHow can I download the slides as PDF?\n\n\n\n\n\nTo print the slides to PDF, do the following:\n\nToggle into Print View using the E key (or using the Navigation Menu).\nOpen the in-browser print dialog (CTRL/CMD+P).\nChange the Destination setting to Save as PDF.\nChange the Layout to Landscape.\nChange the Margins to None.\nEnable the Background graphics option.\nClick Save.\n\nNote: This feature has been confirmed to work in Google Chrome, Chromium as well as in Firefox.\nHere’s what the Chrome print dialog would look like with these settings enabled:\n\nThese instructions were copied from the Quarto documentation (MIT License) and slightly modified."
+    "text": "Slides\n\n\n\n\n\n\n\nHow can I download the slides as PDF?\n\n\n\n\n\nTo print the slides to PDF, do the following:\n\nToggle into Print View using the E key (or using the Navigation Menu).\nOpen the in-browser print dialog (CTRL/CMD+P).\nChange the Destination setting to Save as PDF.\nChange the Layout to Landscape.\nChange the Margins to None.\nEnable the Background graphics option.\nClick Save.\n\nNote: This feature has been confirmed to work in Google Chrome, Chromium as well as in Firefox.\nHere’s what the Chrome print dialog would look like with these settings enabled:\n\nThese instructions were copied from the Quarto documentation (MIT License) and slightly modified."
+  },
+  {
+    "objectID": "sessions/session10.html#cheatsheet",
+    "href": "sessions/session10.html#cheatsheet",
+    "title": "Repetition & Practice",
+    "section": "Cheatsheet",
+    "text": "Cheatsheet\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit blame\nShows the authorship and commit information of each line in a file"
   },
   {
     "objectID": "sessions/slides_session04.html#fa-circle-question-when-do-i-have-to-take-the-quiz",
@@ -1351,116 +1435,109 @@
     "text": "Slides\n\n\n\n\n\n\nHow can I download the slides as PDF?\n\n\n\n\n\nTo print the slides to PDF, do the following:\n\nToggle into Print View using the E key (or using the Navigation Menu).\nOpen the in-browser print dialog (CTRL/CMD+P).\nChange the Destination setting to Save as PDF.\nChange the Layout to Landscape.\nChange the Margins to None.\nEnable the Background graphics option.\nClick Save.\n\nNote: This feature has been confirmed to work in Google Chrome, Chromium as well as in Firefox.\nHere’s what the Chrome print dialog would look like with these settings enabled:\n\nThese instructions were copied from the Quarto documentation (MIT License) and slightly modified."
   },
   {
-    "objectID": "sessions/slides_session10.html#work-with-us-research-and-teaching-assistant-positions",
-    "href": "sessions/slides_session10.html#work-with-us-research-and-teaching-assistant-positions",
-    "title": "Session 10: Git(Hub) with the world",
-    "section": "Work with us! Research and teaching assistant positions",
-    "text": "Work with us! Research and teaching assistant positions\nProjects\n\n\n\n\nP1: Version Control Course\nCourse on Git for researchers\n\nDevelop “Version Control Book”\nMaintain project website\nCreate exercises and quizzes\nTools: Git, Quarto\n\n\n\n\n\nP2: Open Educational Resources\nCourse on OER for researchers\n\nCreate new course (website)\nCreate new online guide\nConducting interviews\nTools: Git, Quarto\n\n\n\n\n\nProject 3: Digital Research Skills\n\nDevelopment of course book\nDevelopment of project website\nCreating exercises and quizzes\nLike Git course\nTools: Git, Quarto + new tool(s)\n\n“Git for data” (DataLad)\nSoftware Containers (Docker)\n\n\n\n\n\nGeneral\n\n\n\n\n🔧 Tools\n\n\n\n\n\n\ngit-scm.com\n\n\n\n\n\n\n\nquarto.org/\n\n\n\n\n\n\n\n\n\n💰 Salary\n\nRA: 13.25 € / hour (SHK) / 15.21 € / hour (WHK)\nTA: 299.04 € / month (SHK) or 467.20 € / month (WHK)\n\n\n\n\n\n✉️ Contact\n\nQuestions, interest: lennart.wittkuhn@uni-hamburg.de\nGet in touch with Konrad (konrad.pagenstedt@uni-hamburg.de) if you would like to know what the work is like"
-  },
-  {
-    "objectID": "sessions/slides_session10.html#details-about-project-positions",
-    "href": "sessions/slides_session10.html#details-about-project-positions",
-    "title": "Session 10: Git(Hub) with the world",
-    "section": "Details about project positions",
-    "text": "Details about project positions\n\n\nPosition 1: Research Assistant for new course on “Digital Research Skills”\n\n📓 Project: Support development of new course on “Digital Research Skills”\n📆 Duration: 01.08.2024 - 30.09.2025 (flexible)\n🕐 Time: up to 20 hours / month\n\n\n\n\nPosition 2: Research Assistant for new course on “Open Educational Materials”\n\n📓 Project: Create course and manual for “Open Educational Materials” with Quarto and Git\n📆 Duration: 15.08.2024 - 31.08.2025 (flexible)\n🕐 Time: up to 30 hours / month\n\n\n\n\nPosition 3: Teaching Assistant for Version Control Course in WS 24/25\n\n📓 Project: Support international virtual “Version Control Course” with Erasmus University Rotterdam\n📆 Duration: 14.10.2024 - 01.02.2025 (WS 24/25)\n🕐 Time: ~ 2 hours per week\n\n\n\n\nPosition 4: Teaching Assistant for “Open Educational Resources” in WS 24/25\n\n📓 Project: Support course at UHH on creating Open Educational Resources with Git and Quarto\n📆 Duration: 14.10.2024 - 01.02.2025 (WS 24/25)\n🕐 Time: ~ 2 hours per week\n\n\n\n\nPosition 5: Teaching Assistant for “Digital Research Skills” in WS 24/25 or SS24\n\n📓 Project: Support teaching new course on “Digital Research Skills”\n📆 Duration: 14.10.2024 - 01.02.2025 (WS 24/25) or 07.04.2025 - 19.07.2025 (SS 24)\n🕐 Time: ~ 2 hours per week"
-  },
-  {
-    "objectID": "sessions/slides_session10.html#schedule-1",
-    "href": "sessions/slides_session10.html#schedule-1",
-    "title": "Session 10: Git(Hub) with the world",
+    "objectID": "sessions/slides_session10.html#schedule",
+    "href": "sessions/slides_session10.html#schedule",
+    "title": "Session 9: Repetition & Practice",
     "section": "Schedule",
     "text": "Schedule\n\n\n\n\n\nNo\nDate\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2024-10-18\nIntroduction to version control\nOrganizational mattersOverview of seminar sessionsIntroduction to version controlIntroduction to Git and its advantages\n Intro to version control\nCourse introduction Survey\n\n\n2\n2024-10-25\nCommand line\nFile SystemsBenefits of the Command LineBasic Command Line commands\n Command Line\nCommand Line Quiz\n\n\n3\n2024-11-01\nSetup + Git Fundamentals\nInstallation and configuration of GitInitializing a Git repositoryBasic Git commands\n Installation, Setup, First steps with Git\nInstallation Survey, Git Basics Quiz\n\n\n4\n2024-11-08\nBasic Git workflow\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n First steps with Git\nGit Basics Quiz\n\n\n5\n2024-11-15\nGit Essentials (Repetition & Practice)\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n Git Essentials\nGit Basics Quiz\n\n\n6\n2024-11-22\nGit Branching and Merging\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflict\n Branches\nGit Branches Quiz\n\n\n7\n2024-11-29\nQuarto Workshop\nIntroduction to Quarto\n\n\n\n\n8\n2024-12-06\nIntroduction to GitHub\nIntroduction to remote repositoriesCreating a GitHub accountCreating and managing repositories on GitHubPushing and pulling changes\n GitHub Intro\nGitHub Quiz\n\n\n9\n2024-12-13\nGitHub with collaborators\nCloning a remote repositoryBranching and merging in a collaborative environmentPull RequestsGitHub IssuesGraphical User Interfaces (GUIs), e.g., GitKraken\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n10\n2024-12-20\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n11\n2025-01-10\nGitHub with the world\nForking a remote repository README filesProject Management\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n12\n2025-01-17\nPublishing\nCreating Tags with GitCreating Releases with GitHubUsing Zenodo for scientific publishingLicencesCitation Files\n Tags and Releases\n\n\n\n13\n2025-01-24\nGraphical User Interfaces\nRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces\n\n\n\n14\n2025-01-31\nSummary & Wrap-Up\nCourse evaluationRepetition and PracticeIntroduction to using GUIs\n Graphical User Interfaces"
   },
   {
     "objectID": "sessions/slides_session10.html#last-session-github---collaboration-1",
     "href": "sessions/slides_session10.html#last-session-github---collaboration-1",
-    "title": "Session 10: Git(Hub) with the world",
+    "title": "Session 9: Repetition & Practice",
     "section": "Last session: GitHub - Collaboration",
-    "text": "Last session: GitHub - Collaboration\n https://lennartwittkuhn.com/version-control-book/chapters/github-advanced"
+    "text": "Last session: GitHub - Collaboration\n https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html"
   },
   {
-    "objectID": "sessions/slides_session10.html#last-weeks-session",
-    "href": "sessions/slides_session10.html#last-weeks-session",
-    "title": "Session 10: Git(Hub) with the world",
-    "section": "Last week’s session",
-    "text": "Last week’s session\n\n\nCloning\n\nRemember to clone a repo in a sensible location (not in your own repository)\nTo rename the cloned repo you can use: git clone &lt;URL&gt; new-folder-name\n\n\n\n\nPushing / Pulling workflow\n\ngit add + git commit\ngit pull\ngit push"
+    "objectID": "sessions/slides_session10.html#last-sessions-learning-objectives",
+    "href": "sessions/slides_session10.html#last-sessions-learning-objectives",
+    "title": "Session 9: Repetition & Practice",
+    "section": "Last session’s learning objectives",
+    "text": "Last session’s learning objectives\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch."
   },
   {
-    "objectID": "sessions/slides_session10.html#your-questions-about-the-last-session",
-    "href": "sessions/slides_session10.html#your-questions-about-the-last-session",
-    "title": "Session 10: Git(Hub) with the world",
-    "section": "Your questions about the last session?",
-    "text": "Your questions about the last session?"
+    "objectID": "sessions/slides_session10.html#reminders-faq",
+    "href": "sessions/slides_session10.html#reminders-faq",
+    "title": "Session 9: Repetition & Practice",
+    "section": "Reminders / FAQ",
+    "text": "Reminders / FAQ\n\n\n “Remember to cd in your city-guide project folder!”\n\nEvery time you open the command line, it starts at a default location (likely your home directory).\nCheck in which folder you are, using pwd (“print working directory”).\nUse cd to move to your city-guide project folder before you start running the Git commands.\n\n\n\n\n “My password is not shown!”\n\nSometimes, for example, when creating an SSH key, you are asked for a password.\nUsually, a key symbol appears \nThe command line registers your password although you can’t see it!\nCopy-pasting works too!\n\n\nGenerating public/private ed25519 key pair.\nEnter file in which to save the key (/Users/user/.ssh/id_ed25519):\nCreated directory '/Users/user/.ssh'.\nEnter passphrase (empty for no passphrase): # now just enter your password!"
   },
   {
-    "objectID": "sessions/slides_session10.html#todays-topic-github-with-the-world",
-    "href": "sessions/slides_session10.html#todays-topic-github-with-the-world",
-    "title": "Session 10: Git(Hub) with the world",
-    "section": "Today’s topic: “Git(Hub) with the world”",
-    "text": "Today’s topic: “Git(Hub) with the world”\n\n\n\n\nImage from Techdobz"
+    "objectID": "sessions/slides_session10.html#questions-from-last-session",
+    "href": "sessions/slides_session10.html#questions-from-last-session",
+    "title": "Session 9: Repetition & Practice",
+    "section": "Questions from last session",
+    "text": "Questions from last session\n\n\n “Remember to clone your collaborator’s repository to a different location (not into your city-guide project folder!)”\n\ncd out of your city-guide project folder\nClone into a different folder git clone git@github.com:partner-name/repo-name.git city-guide-partner\n\n\n\n\n “Remember to use the SSH URL (not HTTPS) when cloning or configuring the remote repository!”\n\nWhen you authenticate via SSH, you need to use the SSH URL!\nThis is relevant when your are configuring the remote, cloning a repository …\n\n\n\n\nCode (HTTPS)\n\ngit remote add origin https://github.com/user-name/repo-name.git\n\n\n\n\n\nCode (SSH)\n\ngit remote add origin git@github.com:user-name/repo-name.git\n\n\n\n\n\n “My files don’t all show up on GitHub?!”\n\nGitHub is no cloud sharing that synchronizes all files in a folder automatically!\nRemember: Only files that are tracked by Git (that you added (git add), committed (git commit) to the repository) and then pushed (git push) are also transferred to GitHub.\nFiles that are untracked (check with git status) or ignored by .gitignore will not be transferred to GitHub, even if they are present in your local Git repository."
   },
   {
-    "objectID": "sessions/slides_session10.html#todays-topic-issues",
-    "href": "sessions/slides_session10.html#todays-topic-issues",
-    "title": "Session 10: Git(Hub) with the world",
-    "section": "Today’s topic: Issues",
-    "text": "Today’s topic: Issues\n\nLink to Issue"
+    "objectID": "sessions/slides_session10.html#more-questions-about-the-last-session",
+    "href": "sessions/slides_session10.html#more-questions-about-the-last-session",
+    "title": "Session 9: Repetition & Practice",
+    "section": "More questions about the last session?",
+    "text": "More questions about the last session?"
   },
   {
-    "objectID": "sessions/slides_session10.html#issues-in-lennarts-recipes-repository",
-    "href": "sessions/slides_session10.html#issues-in-lennarts-recipes-repository",
-    "title": "Session 10: Git(Hub) with the world",
-    "section": "Issues in Lennart’s recipes repository",
-    "text": "Issues in Lennart’s recipes repository\n\nLink to Issue"
+    "objectID": "sessions/slides_session10.html#meta-session-title",
+    "href": "sessions/slides_session10.html#meta-session-title",
+    "title": "Session 9: Repetition & Practice",
+    "section": "Repetition & Practice",
+    "text": "Repetition & Practice\n\n\n\n\nImage from Techdobz"
   },
   {
-    "objectID": "sessions/slides_session10.html#this-sessions-learning-objectives",
-    "href": "sessions/slides_session10.html#this-sessions-learning-objectives",
-    "title": "Session 10: Git(Hub) with the world",
-    "section": "This session’s learning objectives",
-    "text": "This session’s learning objectives\nGitHub - Advanced\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch.\nIssues\n💡 You understand the purpose of GitHub Issues. 💡 You can create and manage Issues. 💡 You can reference an Issue in another issue. 💡 You can close an Issue with a commit or pull request."
+    "objectID": "sessions/slides_session10.html#github-flow",
+    "href": "sessions/slides_session10.html#github-flow",
+    "title": "Session 9: Repetition & Practice",
+    "section": "GitHub Flow",
+    "text": "GitHub Flow\n\n\n\n\nImage from Sebass van Boxel"
   },
   {
-    "objectID": "sessions/slides_session10.html#lennarts-recipes-repo",
-    "href": "sessions/slides_session10.html#lennarts-recipes-repo",
-    "title": "Session 10: Git(Hub) with the world",
-    "section": "Lennart’s recipes repo",
-    "text": "Lennart’s recipes repo\n https://lennartwittkuhn.com/recipes/"
+    "objectID": "sessions/slides_session10.html#this-and-last-sessions-learning-objectives",
+    "href": "sessions/slides_session10.html#this-and-last-sessions-learning-objectives",
+    "title": "Session 9: Repetition & Practice",
+    "section": "This and last session’s learning objectives",
+    "text": "This and last session’s learning objectives\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch."
   },
   {
-    "objectID": "sessions/slides_session10.html#oh-another-issue",
-    "href": "sessions/slides_session10.html#oh-another-issue",
-    "title": "Session 10: Git(Hub) with the world",
-    "section": "Oh, another issue!",
-    "text": "Oh, another issue!\n\nLink to Issue"
+    "objectID": "sessions/slides_session10.html#reading",
+    "href": "sessions/slides_session10.html#reading",
+    "title": "Session 9: Repetition & Practice",
+    "section": "Reading",
+    "text": "Reading\n “GitHub - Advanced”"
   },
   {
-    "objectID": "sessions/slides_session10.html#your-turn",
-    "href": "sessions/slides_session10.html#your-turn",
-    "title": "Session 10: Git(Hub) with the world",
-    "section": "Your turn",
-    "text": "Your turn\n\n\n Content Review: Read the chapters “GitHub - Advanced” and “Issues” in the Version Control Book.\n Implementation: Try out the commands in the chapter! Play around! Have fun!.\nNote: Please complete the implementation exercises on the next slide\n Quiz: Complete the exercises in the survey if you have not done so yet.\n\n\n\nAsk questions!\nLet’s git started!"
+    "objectID": "sessions/slides_session10.html#cheatsheet",
+    "href": "sessions/slides_session10.html#cheatsheet",
+    "title": "Session 9: Repetition & Practice",
+    "section": "Cheatsheet",
+    "text": "Cheatsheet\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit blame\nShows the authorship and commit information of each line in a file"
   },
   {
-    "objectID": "sessions/slides_session10.html#implementation-exercises",
-    "href": "sessions/slides_session10.html#implementation-exercises",
-    "title": "Session 10: Git(Hub) with the world",
-    "section": "Implementation Exercises",
-    "text": "Implementation Exercises\n\nFind out what forking is\nFork the recipes repository of Lennart\nCreate an issue, suggesting a missing recipe\nRepeat the steps from the previous exercise using the forked repository:\n\nClone the forked repository into a sensible location\nCreate a new branch and create one or multiple commits “fixing” the issue that you created\nFollow the contributing guide in Lennart’s repo to create a new recipe\nPush your changes to GitHub\nCreate a pull request with your changes (hint: from the fork to the original repo) and refer to the issue in your pull request\n\n\n\n\nHomework: Clean up your repository\n\nFind an issue created by Konrad in your recipes repository with recommendations how to improve your repository\nImplement the recommended changes (for example, using a pull request in your own repository)\n🚀 Link your commits to the issue, for example using git commit -m \"remove empty .txt file, see issue #1\""
+    "objectID": "sessions/slides_session10.html#tasks",
+    "href": "sessions/slides_session10.html#tasks",
+    "title": "Session 9: Repetition & Practice",
+    "section": "Tasks",
+    "text": "Tasks\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) “GitHub - Advanced” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the city-guide project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
-    "objectID": "sessions/slides_session10.html#work-with-us-research-and-teaching-assistant-positions-1",
-    "href": "sessions/slides_session10.html#work-with-us-research-and-teaching-assistant-positions-1",
-    "title": "Session 10: Git(Hub) with the world",
-    "section": "Work with us! Research and teaching assistant positions",
-    "text": "Work with us! Research and teaching assistant positions\nProjects\n\n\n\n\nP1: Version Control Course\nCourse on Git for researchers\n\nDevelop “Version Control Book”\nMaintain project website\nCreate exercises and quizzes\nTools: Git, Quarto\n\n\n\n\n\nP2: Open Educational Resources\nCourse on OER for researchers\n\nCreate new course (website)\nCreate new online guide\nConducting interviews\nTools: Git, Quarto\n\n\n\n\n\nProject 3: Digital Research Skills\n\nDevelopment of course book\nDevelopment of project website\nCreating exercises and quizzes\nLike Git course\nTools: Git, Quarto + new tool(s)\n\n“Git for data” (DataLad)\nSoftware Containers (Docker)\n\n\n\n\n\nGeneral\n\n\n\n\n🔧 Tools\n\n\n\n\n\n\ngit-scm.com\n\n\n\n\n\n\n\nquarto.org/\n\n\n\n\n\n\n\n\n\n💰 Salary\n\nRA: 13.25 € / hour (SHK) / 15.21 € / hour (WHK)\nTA: 299.04 € / month (SHK) or 467.20 € / month (WHK)\n\n\n\n\n\n✉️ Contact\n\nQuestions, interest: lennart.wittkuhn@uni-hamburg.de\nGet in touch with Konrad (konrad.pagenstedt@uni-hamburg.de) if you would like to know what the work is like"
+    "objectID": "sessions/slides_session10.html#var-course.project-project",
+    "href": "sessions/slides_session10.html#var-course.project-project",
+    "title": "Session 9: Repetition & Practice",
+    "section": "city-guide project",
+    "text": "city-guide project\nAt the end of this session, you should have accomplished the following:\n\nYou collaborated successfully on a shared project by adding and committing changes to a partner’s repository.\nyou created and reviewed a pull request to integrate new content from a partner.\n\nPlease keep the city-guide folder! We will continue to use it in the following sessions.\n\n\nToday’s team topic\n\nInterview each other about your favorite things to do to relax and recharge.\nAdd the recommendation of your partner to your text file or Quarto file.\nHelp each other in completing the exercises."
   },
   {
-    "objectID": "sessions/slides_session10.html#details-about-project-positions-1",
-    "href": "sessions/slides_session10.html#details-about-project-positions-1",
-    "title": "Session 10: Git(Hub) with the world",
-    "section": "Details about project positions",
-    "text": "Details about project positions\n\n\nPosition 1: Research Assistant for new course on “Digital Research Skills”\n\n📓 Project: Support development of new course on “Digital Research Skills”\n📆 Duration: 01.08.2024 - 30.09.2025 (flexible)\n🕐 Time: up to 20 hours / month\n\n\n\n\nPosition 2: Research Assistant for new course on “Open Educational Materials”\n\n📓 Project: Create course and manual for “Open Educational Materials” with Quarto and Git\n📆 Duration: 15.08.2024 - 31.08.2025 (flexible)\n🕐 Time: up to 30 hours / month\n\n\n\n\nPosition 3: Teaching Assistant for Version Control Course in WS 24/25\n\n📓 Project: Support international virtual “Version Control Course” with Erasmus University Rotterdam\n📆 Duration: 14.10.2024 - 01.02.2025 (WS 24/25)\n🕐 Time: ~ 2 hours per week\n\n\n\n\nPosition 4: Teaching Assistant for “Open Educational Resources” in WS 24/25\n\n📓 Project: Support course at UHH on creating Open Educational Resources with Git and Quarto\n📆 Duration: 14.10.2024 - 01.02.2025 (WS 24/25)\n🕐 Time: ~ 2 hours per week\n\n\n\n\nPosition 5: Teaching Assistant for “Digital Research Skills” in WS 24/25 or SS24\n\n📓 Project: Support teaching new course on “Digital Research Skills”\n📆 Duration: 14.10.2024 - 01.02.2025 (WS 24/25) or 07.04.2025 - 19.07.2025 (SS 24)\n🕐 Time: ~ 2 hours per week\n\n\n\n\nVersion Control Course"
+    "objectID": "sessions/slides_session10.html#exercises",
+    "href": "sessions/slides_session10.html#exercises",
+    "title": "Session 9: Repetition & Practice",
+    "section": "Exercises",
+    "text": "Exercises\n“Private” collaboration with pull requests (using GitHub Flow)\n\nAdd your exercise partner as a collaborator to your project repository on GitHub.\nClone your partner’s repository.\nCreate a new branch in your collaborator’s repository.\nAdd a new entry to your collaborator’s project file (e.g., .txt or .qmd (if you are unsure, where to add the entry, ask your collaborator!)\nAdd and commit the changes.\nPush the changes on the new branch to the remote repository.\nCreate a Pull Request (on GitLab: Merge Request).\nReview the Pull Request that your collaborator made in your repository.\n🚀 Optional: Add additional changes on the branch pushed by your collaborator.\nMerge the pull request into your repository.\n\n\n\nAdd a README.md\n\nFind the option to create a new file on your remote repository in the browser.\nName the file README.md, add a brief description, and provide a commit message.\n🚀 Optional: Play around with Markdown syntax.\nSave the README.md file to the repository.\nPull the changes to your local repository."
+  },
+  {
+    "objectID": "sessions/slides_session10.html#bonus-exercises",
+    "href": "sessions/slides_session10.html#bonus-exercises",
+    "title": "Session 9: Repetition & Practice",
+    "section": "Bonus exercises",
+    "text": "Bonus exercises\n🚀 Optional: Clean up your repository\nFiles that your repository should include:\n\na city-guide.qmd (see exercise in Session 07 on “Quarto”) or city-guide.txt file (see exercises starting in Session 02), or a similarly named file that includes the entries for the city-guide project\na .gitignore file (see exercise in Session 04 on “Basic Git workflow”)\na README.md file (see exercise in Session 09 on “Repetition & Practice”)\n\nWhile this is not mandatory, please try to remove any unnecessary files or clutter, like empty .txt files from your repository. You can delete files directly on GitHub by clicking on the three dots next to the directory or file and selecting “Delete file,” then commit the changes. This effectively runs git add and git commit on GitHub. Alternatively, delete them from your local repository, add, commit and push the changes to GitHub."
   },
   {
     "objectID": "sessions/slides_session02.html#schedule",

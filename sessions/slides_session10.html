@@ -13,7 +13,7 @@
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.450">
 
-  <title>An introduction to Git for research - Session 10: Git(Hub) with the world</title>
+  <title>An introduction to Git for research - Session 9: Repetition &amp; Practice</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -31,6 +31,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -330,7 +395,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Session 10: Git(Hub) with the world</h1>
+  <h1 class="title">Session 9: Repetition &amp; Practice</h1>
   <p class="subtitle"></p><p>Track, organize and share your work: An introduction to Git for research</p>
 <p>Course at University of Hamburg &amp; Erasmus University Rotterdam</p>
 <p><a href="https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a> | <a href="https://github.com/lnnrtwttkhn/version-control-course-uhh-eur-ws24/"><i class="fa-brands fa-github" aria-label="github"></i> Source</a></p>
@@ -363,174 +428,24 @@ Reza Hakimazar
 </div>
 </div>
 
-  <p class="date">June 10 2024 (12:15 pm)</p>
+  <p class="date">December 20 2024 (10:15 am)</p>
 </section><section id="TOC">
 <nav role="doc-toc"> 
 <h2 id="toc-title">Agenda</h2>
 <ul>
-<li><a href="#/jobs" id="/toc-jobs"><span class="header-section-number">1</span> Jobs!</a></li>
-<li><a href="#/schedule" id="/toc-schedule"><span class="header-section-number">2</span> Schedule</a></li>
-<li><a href="#/last-session-github---collaboration" id="/toc-last-session-github---collaboration"><span class="header-section-number">3</span> Last session: GitHub - Collaboration</a></li>
-<li><a href="#/this-session-github-with-the-world" id="/toc-this-session-github-with-the-world"><span class="header-section-number">4</span> This session: “Git(Hub) with the world”</a></li>
-<li><a href="#/todays-exercise" id="/toc-todays-exercise"><span class="header-section-number">5</span> Today’s exercise</a></li>
-<li><a href="#/exercise-demonstration" id="/toc-exercise-demonstration"><span class="header-section-number">6</span> Exercise demonstration</a></li>
-<li><a href="#/jobs-1" id="/toc-jobs-1"><span class="header-section-number">7</span> Jobs!</a></li>
+<li><a href="#/admin" id="/toc-admin"><span class="header-section-number">1</span> Admin</a></li>
+<li><a href="#/last-session-github---collaboration" id="/toc-last-session-github---collaboration"><span class="header-section-number">2</span> Last session: GitHub - Collaboration</a></li>
+<li><a href="#/this-session-meta-session-title" id="/toc-this-session-meta-session-title"><span class="header-section-number">3</span> This session: Repetition &amp; Practice</a></li>
+<li><a href="#/live-demonstration" id="/toc-live-demonstration"><span class="header-section-number">4</span> Live demonstration</a></li>
 </ul>
 </nav>
 </section>
 <section>
-<section id="jobs" class="title-slide slide level1 center" data-number="1">
-<h1><span class="header-section-number">1</span> Jobs!</h1>
+<section id="admin" class="title-slide slide level1 center" data-number="1">
+<h1><span class="header-section-number">1</span> Admin</h1>
 
 </section>
-<section id="work-with-us-research-and-teaching-assistant-positions" class="slide level2">
-<h2>Work with us! Research and teaching assistant positions</h2>
-<h3 id="projects">Projects</h3>
-<div class="columns">
-<div class="column" style="width:33%;">
-<div class="fragment">
-<!-- -->
-<h4 id="p1-version-control-course">P1: Version Control Course</h4>
-<p>Course on Git for researchers</p>
-<ul>
-<li>Develop “Version Control Book”</li>
-<li>Maintain project website</li>
-<li>Create exercises and quizzes</li>
-<li>Tools: Git, Quarto</li>
-</ul>
-</div>
-</div><div class="column" style="width:33%;">
-<div class="fragment">
-<!-- -->
-<h4 id="p2-open-educational-resources">P2: Open Educational Resources</h4>
-<p>Course on OER for researchers</p>
-<ul>
-<li>Create new course (website)</li>
-<li>Create new online guide</li>
-<li>Conducting interviews</li>
-<li>Tools: Git, Quarto</li>
-</ul>
-</div>
-</div><div class="column" style="width:33%;">
-<div class="fragment">
-<!-- -->
-<h4 id="project-3-digital-research-skills">Project 3: Digital Research Skills</h4>
-<ul>
-<li>Development of course book</li>
-<li>Development of project website</li>
-<li>Creating exercises and quizzes</li>
-<li>Like Git course</li>
-<li>Tools: Git, Quarto + <em>new tool(s)</em>
-<ul>
-<li>“Git for data” (DataLad)</li>
-<li>Software Containers (Docker)</li>
-</ul></li>
-</ul>
-</div>
-</div>
-</div>
-<h3 id="general">General</h3>
-<div class="columns">
-<div class="column" style="width:33%;">
-<div class="fragment">
-<!-- -->
-<h4 id="tools"><span class="emoji" data-emoji="wrench">🔧</span> Tools</h4>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../images/git-logo-full.svg"></p>
-<figcaption><a href="https://git-scm.com/">git-scm.com</a></figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../images/quarto-logo.png"></p>
-<figcaption><a href="https://quarto.org/">quarto.org/</a></figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="column" style="width:33%;">
-<div class="fragment">
-<!-- -->
-<h4 id="salary"><span class="emoji" data-emoji="moneybag">💰</span> Salary</h4>
-<ul>
-<li><strong>RA:</strong> 13.25 € / hour (SHK) / 15.21 € / hour (WHK)</li>
-<li><strong>TA:</strong> 299.04 € / month (SHK) or 467.20 € / month (WHK)</li>
-</ul>
-</div>
-</div><div class="column" style="width:33%;">
-<div class="fragment">
-<!-- -->
-<h4 id="contact"><span class="emoji" data-emoji="envelope">✉️</span> Contact</h4>
-<ul>
-<li>Questions, interest: <a href="mailto:lennart.wittkuhn@uni-hamburg.de">lennart.wittkuhn@uni-hamburg.de</a></li>
-<li>Get in touch with Konrad (<a href="mailto:konrad.pagenstedt@uni-hamburg.de">konrad.pagenstedt@uni-hamburg.de</a>) if you would like to know what the work is like</li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<section id="details-about-project-positions" class="slide level2">
-<h2>Details about project positions</h2>
-<div class="fragment">
-<!-- -->
-<h4 id="position-1-research-assistant-for-new-course-on-digital-research-skills">Position 1: Research Assistant for new course on “Digital Research Skills”</h4>
-<ul>
-<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Project:</strong> Support development of new course on “Digital Research Skills”</li>
-<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> 01.08.2024 - 30.09.2025 (flexible)</li>
-<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> up to 20 hours / month</li>
-</ul>
-</div>
-<div class="fragment">
-<!-- -->
-<h4 id="position-2-research-assistant-for-new-course-on-open-educational-materials">Position 2: Research Assistant for new course on “Open Educational Materials”</h4>
-<ul>
-<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Project:</strong> Create course and manual for “Open Educational Materials” with Quarto and Git</li>
-<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> 15.08.2024 - 31.08.2025 (flexible)</li>
-<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> up to 30 hours / month</li>
-</ul>
-</div>
-<div class="fragment">
-<!-- -->
-<h4 id="position-3-teaching-assistant-for-version-control-course-in-ws-2425">Position 3: Teaching Assistant for Version Control Course in WS 24/25</h4>
-<ul>
-<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Project:</strong> Support international virtual “Version Control Course” with Erasmus University Rotterdam</li>
-<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> 14.10.2024 - 01.02.2025 (WS 24/25)</li>
-<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> ~ 2 hours per week</li>
-</ul>
-</div>
-<div class="fragment">
-<!-- -->
-<h4 id="position-4-teaching-assistant-for-open-educational-resources-in-ws-2425">Position 4: Teaching Assistant for “Open Educational Resources” in WS 24/25</h4>
-<ul>
-<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Project:</strong> Support course at UHH on creating Open Educational Resources with Git and Quarto</li>
-<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> 14.10.2024 - 01.02.2025 (WS 24/25)</li>
-<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> ~ 2 hours per week</li>
-</ul>
-</div>
-<div class="fragment">
-<!-- -->
-<h4 id="position-5-teaching-assistant-for-digital-research-skills-in-ws-2425-or-ss24">Position 5: Teaching Assistant for “Digital Research Skills” in WS 24/25 <em>or</em> SS24</h4>
-<ul>
-<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Project:</strong> Support teaching new course on “Digital Research Skills”</li>
-<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> 14.10.2024 - 01.02.2025 (WS 24/25) <em>or</em> 07.04.2025 - 19.07.2025 (SS 24)</li>
-<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> ~ 2 hours per week</li>
-</ul>
-</div>
-</section></section>
-<section>
-<section id="schedule" class="title-slide slide level1 center" data-number="2">
-<h1><span class="header-section-number">2</span> Schedule</h1>
-
-</section>
-<section id="schedule-1" class="slide level2">
+<section id="schedule" class="slide level2">
 <h2>Schedule</h2>
 <div class="cell">
 <div class="cell-output-display">
@@ -621,7 +536,7 @@ Reza Hakimazar
 <tr class="even">
 <td style="text-align: left;">10</td>
 <td style="text-align: left;">2024-12-20</td>
-<td style="text-align: left;"><strong>Repetition and Practice</strong></td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/sessions/session10">Repetition and Practice</a></strong></td>
 <td style="text-align: left;">Repetition and Practice</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -664,45 +579,101 @@ Reza Hakimazar
 </div>
 </section></section>
 <section>
-<section id="last-session-github---collaboration" class="title-slide slide level1 center" data-number="3">
-<h1><span class="header-section-number">3</span> Last session: GitHub - Collaboration</h1>
+<section id="last-session-github---collaboration" class="title-slide slide level1 center" data-number="2">
+<h1><span class="header-section-number">2</span> Last session: GitHub - Collaboration</h1>
 
 </section>
 <section id="last-session-github---collaboration-1" class="slide level2">
 <h2>Last session: GitHub - Collaboration</h2>
-<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html">https://lennartwittkuhn.com/version-control-book/chapters/github-advanced</a></p>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html">https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html</a></p>
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html" title="Version Control Book"></iframe>
 </section>
-<section id="last-weeks-session" class="slide level2">
-<h2>Last week’s session</h2>
+<section id="last-sessions-learning-objectives" class="slide level2">
+<h2>Last session’s learning objectives</h2>
+<p><span class="emoji" data-emoji="bulb">💡</span> You know the purpose and components of a Pull Request.<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to collaborate using the popular workflow strategy GitHub flow.<br> <span class="emoji" data-emoji="bulb">💡</span> You know the purpose and components of a <code>README</code> file.<br> <span class="emoji" data-emoji="bulb">💡</span> You can fork a repository.<br> <span class="emoji" data-emoji="bulb">💡</span> You can create a Pull Request from a forked repository.<br> <span class="emoji" data-emoji="bulb">💡</span> You can protect your <code>main</code> branch.</p>
+</section>
+<section id="reminders-faq" class="slide level2">
+<h2>Reminders / FAQ</h2>
 <div class="fragment">
 <!-- -->
-<h4 id="cloning">Cloning</h4>
+<h4 id="fa-circle-exclamation-remember-to-cd-in-your-var-course.project-project-folder"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> <em>“Remember to <code>cd</code> in your <code>city-guide</code> project folder!”</em></h4>
 <ul>
-<li>Remember to clone a repo in a sensible location (not in your own repository)</li>
-<li>To rename the cloned repo you can use: <code>git clone &lt;URL&gt; new-folder-name</code></li>
+<li>Every time you open the command line, it starts at a default location (likely your home directory).</li>
+<li>Check in which folder you are, using <code>pwd</code> (“print working directory”).</li>
+<li>Use <code>cd</code> to move to your <code>city-guide</code> project folder before you start running the Git commands.</li>
 </ul>
 </div>
 <div class="fragment">
 <!-- -->
-<h4 id="pushing-pulling-workflow">Pushing / Pulling workflow</h4>
-<ol type="1">
-<li><code>git add</code> + <code>git commit</code></li>
-<li><code>git pull</code></li>
-<li><code>git push</code></li>
-</ol>
+<h4 id="fa-circle-exclamation-my-password-is-not-shown"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> <em>“My password is not shown!”</em></h4>
+<ul>
+<li>Sometimes, for example, when creating an SSH key, you are asked for a password.</li>
+<li>Usually, a key symbol appears <i class="fa-solid fa-key" aria-label="key"></i></li>
+<li><strong>The command line registers your password although you can’t see it!</strong></li>
+<li>Copy-pasting works too!</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a href="#cb1-1"></a><span class="ex">Generating</span> public/private ed25519 key pair.</span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="ex">Enter</span> file in which to save the key <span class="pp">(</span><span class="ss">/Users/user/.ssh/id_ed25519</span><span class="pp">)</span>:</span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="ex">Created</span> directory <span class="st">'/Users/user/.ssh'</span>.</span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="ex">Enter</span> passphrase <span class="pp">(</span><span class="ss">empty for no passphrase</span><span class="pp">)</span>: <span class="co"># now just enter your password!</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </div>
 </section>
-<section id="your-questions-about-the-last-session" class="slide level2">
-<h2>Your questions about the last session?</h2>
+<section id="questions-from-last-session" class="slide level2">
+<h2>Questions from last session</h2>
+<div class="fragment">
+<!-- -->
+<h4 id="fa-circle-exclamation-remember-to-clone-your-collaborators-repository-to-a-different-location-not-into-your-var-course.project-project-folder"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> <em>“Remember to clone your collaborator’s repository to a different location (<strong>not into</strong> your <code>city-guide</code> project folder!)”</em></h4>
+<ul>
+<li><code>cd</code> out of your <code>city-guide</code> project folder</li>
+<li>Clone into a different folder <code>git clone git@github.com:partner-name/repo-name.git city-guide-partner</code></li>
+</ul>
+</div>
+<div class="fragment">
+<!-- -->
+<h4 id="fa-circle-exclamation-remember-to-use-the-ssh-url-not-https-when-cloning-or-configuring-the-remote-repository"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> <em>“Remember to use the SSH URL (not HTTPS) when cloning or configuring the remote repository!”</em></h4>
+<ul>
+<li>When you authenticate via SSH, you need to use the SSH URL!</li>
+<li>This is relevant when your are configuring the remote, cloning a repository …</li>
+</ul>
+<div class="cell">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Code (HTTPS)</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb2-1"><a href="#cb2-1"></a><span class="fu">git</span> remote add origin https://github.com/user-name/repo-name.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div class="cell">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Code (SSH)</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">git</span> remote add origin git@github.com:user-name/repo-name.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+<div class="fragment">
+<!-- -->
+<h4 id="fa-circle-question-my-files-dont-all-show-up-on-github"><i class="fa-solid fa-circle-question" aria-label="circle-question"></i> <em>“My files don’t all show up on GitHub?!”</em></h4>
+<ul>
+<li><strong>GitHub is <em>no</em> cloud sharing</strong> that synchronizes all files in a folder automatically!</li>
+<li>Remember: Only files that are tracked by Git (that you added (<code>git add</code>), committed (<code>git commit</code>) to the repository) and then pushed (<code>git push</code>) are also transferred to GitHub.</li>
+<li>Files that are untracked (check with <code>git status</code>) or ignored by <code>.gitignore</code> will not be transferred to GitHub, even if they are present in your local Git repository.</li>
+</ul>
+</div>
+</section>
+<section id="more-questions-about-the-last-session" class="slide level2">
+<h2>More questions about the last session?</h2>
 </section></section>
 <section>
-<section id="this-session-github-with-the-world" class="title-slide slide level1 center" data-number="4">
-<h1><span class="header-section-number">4</span> This session: “Git(Hub) with the world”</h1>
+<section id="this-session-meta-session-title" class="title-slide slide level1 center" data-number="3">
+<h1><span class="header-section-number">3</span> This session: Repetition &amp; Practice</h1>
 
 </section>
-<section id="todays-topic-github-with-the-world" class="slide level2">
-<h2>Today’s topic: “Git(Hub) with the world”</h2>
+<section id="meta-session-title" class="slide level2">
+<h2>Repetition &amp; Practice</h2>
 <div class="fragment">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -712,234 +683,131 @@ Reza Hakimazar
 </div>
 </div>
 </section>
-<section id="todays-topic-issues" class="slide level2">
-<h2>Today’s topic: Issues</h2>
-<p><img data-src="../images/issue-example.png" style="width:100.0%;height:80.0%"></p>
-<p><a href="https://github.com/lnnrtwttkhn/version-control-survey/issues/28">Link to Issue</a></p>
+<section id="github-flow" class="slide level2">
+<h2>GitHub Flow</h2>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/github_flow.png" style="width:70.0%"></p>
+<figcaption>Image from <a href="https://github.com/SvanBoxel/release-based-workflow/issues/1">Sebass van Boxel</a></figcaption>
+</figure>
+</div>
+</div>
 </section>
-<section id="issues-in-lennarts-recipes-repository" class="slide level2">
-<h2>Issues in Lennart’s <code>recipes</code> repository</h2>
-
-<img data-src="../images/issue-example-recipes-tiramisu.png" style="width:80.0%" class="r-stretch"><p><a href="https://github.com/lnnrtwttkhn/recipes/issues/1">Link to Issue</a></p>
-</section>
-<section id="this-sessions-learning-objectives" class="slide level2">
-<h2>This session’s learning objectives</h2>
-<h4 id="github---advanced">GitHub - Advanced</h4>
+<section id="this-and-last-sessions-learning-objectives" class="slide level2">
+<h2>This and last session’s learning objectives</h2>
 <p><span class="emoji" data-emoji="bulb">💡</span> You know the purpose and components of a Pull Request.<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to collaborate using the popular workflow strategy GitHub flow.<br> <span class="emoji" data-emoji="bulb">💡</span> You know the purpose and components of a <code>README</code> file.<br> <span class="emoji" data-emoji="bulb">💡</span> You can fork a repository.<br> <span class="emoji" data-emoji="bulb">💡</span> You can create a Pull Request from a forked repository.<br> <span class="emoji" data-emoji="bulb">💡</span> You can protect your <code>main</code> branch.</p>
-<h4 id="issues">Issues</h4>
-<p><span class="emoji" data-emoji="bulb">💡</span> You understand the purpose of GitHub Issues.<br> <span class="emoji" data-emoji="bulb">💡</span> You can create and manage Issues.<br> <span class="emoji" data-emoji="bulb">💡</span> You can reference an Issue in another issue.<br> <span class="emoji" data-emoji="bulb">💡</span> You can close an Issue with a commit or pull request.<br></p>
-</section></section>
-<section>
-<section id="todays-exercise" class="title-slide slide level1 center" data-number="5">
-<h1><span class="header-section-number">5</span> Today’s exercise</h1>
-
 </section>
-<section id="lennarts-recipes-repo" class="slide level2">
-<h2>Lennart’s <code>recipes</code> repo</h2>
-<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/recipes/">https://lennartwittkuhn.com/recipes/</a></p>
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/recipes/" title="Lennart`s recipe project"></iframe>
-</section></section>
-<section>
-<section id="exercise-demonstration" class="title-slide slide level1 center" data-number="6">
-<h1><span class="header-section-number">6</span> Exercise demonstration</h1>
-
+<section id="reading" class="slide level2">
+<h2>Reading</h2>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html">“GitHub - Advanced”</a></p>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html" title="Version Control Book"></iframe>
 </section>
-<section id="oh-another-issue" class="slide level2">
-<h2>Oh, another issue!</h2>
-<p><img data-src="../images/issue-example-recipes-ramen.png" style="width:100.0%;height:80.0%"></p>
-<p><a href="https://github.com/lnnrtwttkhn/recipes/issues/22">Link to Issue</a></p>
+<section id="cheatsheet" class="slide level2">
+<h2>Cheatsheet</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table>
+<colgroup>
+<col style="width: 15%">
+<col style="width: 84%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Command</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>git blame</code></td>
+<td style="text-align: left;">Shows the authorship and commit information of each line in a file</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </section>
-<section id="your-turn" class="slide level2">
-<h2>Your turn</h2>
-<div>
+<section id="tasks" class="slide level2">
+<h2>Tasks</h2>
+<p>In this session, you will work on the following tasks:</p>
 <ol type="1">
-<li class="fragment"><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Content Review</strong>: Read the chapters <a href="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html">“GitHub - Advanced”</a> and <a href="https://lennartwittkuhn.com/version-control-book/chapters/issues.html">“Issues”</a> in the Version Control Book.</li>
-<li class="fragment"><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter! Play around! Have fun!.</li>
-<li class="fragment"><strong>Note:</strong> Please complete the implementation exercises on the next slide</li>
-<li class="fragment"><i class="fa-solid fa-dumbbell" aria-label="dumbbell"></i> <strong>Quiz</strong>: Complete the exercises in the <a href="https://version-control-github.formr.org/">survey</a> if you have not done so yet.</li>
+<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Reading</strong>: Read the chapter(s) <a href="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html">“GitHub - Advanced”</a> in the Version Control Book.</li>
+<li><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter.</li>
+<li><i class="fa-solid fa-list-check" aria-label="list-check"></i> <strong>Exercises</strong>: Work on the <a href="#/exercises">exercises</a> for the <a href="#/city-guide-project"><code>city-guide</code> project</a>.</li>
+<li><i class="fa-solid fa-clipboard-question" aria-label="clipboard-question"></i> <strong>Quiz</strong>: Test your knowledge with the <a href="https://version-control-github.formr.org">quiz</a>.</li>
+</ol>
+<p>As always:</p>
+<ol type="1">
+<li>Try out the commands of this session and play around with them.</li>
+<li>Check whether you have achieved the <a href="#/learning-objectives">learning objectives</a>.</li>
+<li>Ask questions!</li>
+<li>Let’s <em>git</em> started!</li>
+</ol>
+</section>
+<section id="var-course.project-project" class="slide level2">
+<h2><code>city-guide</code> project</h2>
+<p>At the end of this session, you should have accomplished the following:</p>
+<ol type="1">
+<li>You collaborated successfully on a shared project by adding and committing changes to a partner’s repository.</li>
+<li>you created and reviewed a pull request to integrate new content from a partner.</li>
+</ol>
+<p>Please keep the <code>city-guide</code> folder! We will continue to use it in the following sessions.</p>
+<div class="fragment">
+<!-- -->
+<h3 id="todays-team-topic">Today’s team topic</h3>
+<ul>
+<li>Interview each other about your favorite things to do to <strong>relax and recharge</strong>.</li>
+<li>Add the recommendation <em>of your partner</em> to your text file <strong>or Quarto file</strong>.</li>
+<li>Help each other in completing the exercises.</li>
+</ul>
+</div>
+</section>
+<section id="exercises" class="slide level2">
+<h2>Exercises</h2>
+<h3 id="private-collaboration-with-pull-requests-using-github-flow">“Private” collaboration with pull requests (using GitHub Flow)</h3>
+<ol type="1">
+<li>Add your exercise partner as a collaborator to your project repository on GitHub.</li>
+<li>Clone your partner’s repository.</li>
+<li>Create a new branch in your collaborator’s repository.</li>
+<li>Add a new entry to your collaborator’s project file (e.g., <code>.txt</code> or <code>.qmd</code> (if you are unsure, where to add the entry, ask your collaborator!)</li>
+<li>Add and commit the changes.</li>
+<li>Push the changes on the new branch to the remote repository.</li>
+<li>Create a Pull Request (on GitLab: Merge Request).</li>
+<li>Review the Pull Request that your collaborator made in your repository.</li>
+<li><span class="emoji" data-emoji="rocket">🚀</span> Optional: Add additional changes on the branch pushed by your collaborator.</li>
+<li>Merge the pull request into your repository.</li>
+</ol>
+<div class="fragment">
+<!-- -->
+<h3 id="add-a-readme.md">Add a <code>README.md</code></h3>
+<ol type="1">
+<li>Find the option to create a new file on your remote repository in the browser.</li>
+<li>Name the file <code>README.md</code>, add a brief description, and provide a commit message.</li>
+<li><span class="emoji" data-emoji="rocket">🚀</span> Optional: Play around with <a href="https://www.markdownguide.org/">Markdown</a> syntax.</li>
+<li>Save the <code>README.md</code> file to the repository.</li>
+<li>Pull the changes to your local repository.</li>
 </ol>
 </div>
-<div class="fragment">
-<p>Ask questions!</p>
-<p>Let’s <em>git</em> started!</p>
-</div>
 </section>
-<section id="implementation-exercises" class="slide level2">
-<h2>Implementation Exercises</h2>
-<ol type="1">
-<li>Find out what <a href="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html">forking</a> is</li>
-<li><strong>Fork the recipes repository</strong> of <a href="https://github.com/lnnrtwttkhn/recipes/">Lennart</a></li>
-<li>Create an <strong>issue</strong>, suggesting a missing recipe</li>
-<li>Repeat the steps from the previous exercise using the forked repository:
-<ol type="1">
-<li><strong>Clone</strong> the <em>forked</em> repository into a sensible location</li>
-<li><strong>Create a new branch</strong> and create <strong>one or multiple commits</strong> “fixing” the issue that you created</li>
-<li>Follow the <strong>contributing guide</strong> in Lennart’s repo to create a new recipe</li>
-<li><strong>Push</strong> your changes to GitHub</li>
-<li><strong>Create a pull request</strong> with your changes (hint: from the fork to the original repo) and refer to the issue in your pull request</li>
-</ol></li>
-</ol>
-<div class="fragment">
-<!-- -->
-<h3 id="homework-clean-up-your-repository">Homework: Clean up your repository</h3>
-<ol type="1">
-<li>Find an issue created by Konrad in your <code>recipes</code> repository with recommendations how to improve your repository</li>
-<li>Implement the recommended changes (for example, using a pull request in your own repository)</li>
-<li><span class="emoji" data-emoji="rocket">🚀</span> Link your commits to the issue, for example using <code>git commit -m "remove empty .txt file, see issue #1"</code></li>
-</ol>
-</div>
+<section id="bonus-exercises" class="slide level2">
+<h2>Bonus exercises</h2>
+<h3 id="optional-clean-up-your-repository"><span class="emoji" data-emoji="rocket">🚀</span> Optional: Clean up your repository</h3>
+<p>Files that your repository should include:</p>
+<ul>
+<li>a <code>city-guide.qmd</code> (see exercise in <a href="session07.qmd">Session 07</a> on “Quarto”) or <code>city-guide.txt</code> file (see exercises starting in <a href="session02.qmd">Session 02</a>), or a similarly named file that includes the entries for the <code>city-guide</code> project</li>
+<li>a <code>.gitignore</code> file (see exercise in <a href="session04.qmd">Session 04</a> on “Basic Git workflow”)</li>
+<li>a <code>README.md</code> file (see exercise in <a href="session09.qmd">Session 09</a> on “Repetition &amp; Practice”)</li>
+</ul>
+<p>While this is not mandatory, please try to remove any unnecessary files or clutter, like empty <code>.txt</code> files from your repository. You can delete files directly on GitHub by clicking on the three dots next to the directory or file and selecting “Delete file,” then commit the changes. This effectively runs <code>git add</code> and <code>git commit</code> on GitHub. Alternatively, delete them from your local repository, add, commit and push the changes to GitHub.</p>
 </section></section>
-<section>
-<section id="jobs-1" class="title-slide slide level1 center" data-number="7">
-<h1><span class="header-section-number">7</span> Jobs!</h1>
-
-</section>
-<section id="work-with-us-research-and-teaching-assistant-positions-1" class="slide level2">
-<h2>Work with us! Research and teaching assistant positions</h2>
-<h3 id="projects-1">Projects</h3>
-<div class="columns">
-<div class="column" style="width:33%;">
-<div class="fragment">
-<!-- -->
-<h4 id="p1-version-control-course-1">P1: Version Control Course</h4>
-<p>Course on Git for researchers</p>
-<ul>
-<li>Develop “Version Control Book”</li>
-<li>Maintain project website</li>
-<li>Create exercises and quizzes</li>
-<li>Tools: Git, Quarto</li>
-</ul>
-</div>
-</div><div class="column" style="width:33%;">
-<div class="fragment">
-<!-- -->
-<h4 id="p2-open-educational-resources-1">P2: Open Educational Resources</h4>
-<p>Course on OER for researchers</p>
-<ul>
-<li>Create new course (website)</li>
-<li>Create new online guide</li>
-<li>Conducting interviews</li>
-<li>Tools: Git, Quarto</li>
-</ul>
-</div>
-</div><div class="column" style="width:33%;">
-<div class="fragment">
-<!-- -->
-<h4 id="project-3-digital-research-skills-1">Project 3: Digital Research Skills</h4>
-<ul>
-<li>Development of course book</li>
-<li>Development of project website</li>
-<li>Creating exercises and quizzes</li>
-<li>Like Git course</li>
-<li>Tools: Git, Quarto + <em>new tool(s)</em>
-<ul>
-<li>“Git for data” (DataLad)</li>
-<li>Software Containers (Docker)</li>
-</ul></li>
-</ul>
-</div>
-</div>
-</div>
-<h3 id="general-1">General</h3>
-<div class="columns">
-<div class="column" style="width:33%;">
-<div class="fragment">
-<!-- -->
-<h4 id="tools-1"><span class="emoji" data-emoji="wrench">🔧</span> Tools</h4>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../images/git-logo-full.svg"></p>
-<figcaption><a href="https://git-scm.com/">git-scm.com</a></figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../images/quarto-logo.png"></p>
-<figcaption><a href="https://quarto.org/">quarto.org/</a></figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="column" style="width:33%;">
-<div class="fragment">
-<!-- -->
-<h4 id="salary-1"><span class="emoji" data-emoji="moneybag">💰</span> Salary</h4>
-<ul>
-<li><strong>RA:</strong> 13.25 € / hour (SHK) / 15.21 € / hour (WHK)</li>
-<li><strong>TA:</strong> 299.04 € / month (SHK) or 467.20 € / month (WHK)</li>
-</ul>
-</div>
-</div><div class="column" style="width:33%;">
-<div class="fragment">
-<!-- -->
-<h4 id="contact-1"><span class="emoji" data-emoji="envelope">✉️</span> Contact</h4>
-<ul>
-<li>Questions, interest: <a href="mailto:lennart.wittkuhn@uni-hamburg.de">lennart.wittkuhn@uni-hamburg.de</a></li>
-<li>Get in touch with Konrad (<a href="mailto:konrad.pagenstedt@uni-hamburg.de">konrad.pagenstedt@uni-hamburg.de</a>) if you would like to know what the work is like</li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<section id="details-about-project-positions-1" class="slide level2">
-<h2>Details about project positions</h2>
-<div class="fragment">
-<!-- -->
-<h4 id="position-1-research-assistant-for-new-course-on-digital-research-skills-1">Position 1: Research Assistant for new course on “Digital Research Skills”</h4>
-<ul>
-<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Project:</strong> Support development of new course on “Digital Research Skills”</li>
-<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> 01.08.2024 - 30.09.2025 (flexible)</li>
-<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> up to 20 hours / month</li>
-</ul>
-</div>
-<div class="fragment">
-<!-- -->
-<h4 id="position-2-research-assistant-for-new-course-on-open-educational-materials-1">Position 2: Research Assistant for new course on “Open Educational Materials”</h4>
-<ul>
-<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Project:</strong> Create course and manual for “Open Educational Materials” with Quarto and Git</li>
-<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> 15.08.2024 - 31.08.2025 (flexible)</li>
-<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> up to 30 hours / month</li>
-</ul>
-</div>
-<div class="fragment">
-<!-- -->
-<h4 id="position-3-teaching-assistant-for-version-control-course-in-ws-2425-1">Position 3: Teaching Assistant for Version Control Course in WS 24/25</h4>
-<ul>
-<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Project:</strong> Support international virtual “Version Control Course” with Erasmus University Rotterdam</li>
-<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> 14.10.2024 - 01.02.2025 (WS 24/25)</li>
-<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> ~ 2 hours per week</li>
-</ul>
-</div>
-<div class="fragment">
-<!-- -->
-<h4 id="position-4-teaching-assistant-for-open-educational-resources-in-ws-2425-1">Position 4: Teaching Assistant for “Open Educational Resources” in WS 24/25</h4>
-<ul>
-<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Project:</strong> Support course at UHH on creating Open Educational Resources with Git and Quarto</li>
-<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> 14.10.2024 - 01.02.2025 (WS 24/25)</li>
-<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> ~ 2 hours per week</li>
-</ul>
-</div>
-<div class="fragment">
-<!-- -->
-<h4 id="position-5-teaching-assistant-for-digital-research-skills-in-ws-2425-or-ss24-1">Position 5: Teaching Assistant for “Digital Research Skills” in WS 24/25 <em>or</em> SS24</h4>
-<ul>
-<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Project:</strong> Support teaching new course on “Digital Research Skills”</li>
-<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> 14.10.2024 - 01.02.2025 (WS 24/25) <em>or</em> 07.04.2025 - 19.07.2025 (SS 24)</li>
-<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> ~ 2 hours per week</li>
-</ul>
-</div>
+<section id="live-demonstration" class="title-slide slide level1 center" data-number="4">
+<h1><span class="header-section-number">4</span> Live demonstration</h1>
 
 <div class="footer footer-default">
 <p>Version Control Course</p>
 </div>
-</section></section>
+</section>
     </div>
   </div>
 
