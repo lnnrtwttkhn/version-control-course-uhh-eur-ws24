@@ -1,14 +1,14 @@
 ---
-title: "Session 10: Git(Hub) with the world"
-date: 2024-06-10T12:15
+title: "Session 11: Git(Hub) with the world"
+date: 2025-01-10T10:15
 format: revealjs
 metadata-files:
   - _slides.yml
+session-title: "Git(Hub) with the world"
+chapter: |
+  ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) and ["Issues"]( https://lennartwittkuhn.com/version-control-book/chapters/issues.html)
+quiz-url: https://version-control-github.formr.org
 ---
-
-# Jobs!
-
-{{< include _job-advertizement_2.qmd >}}
 
 # Schedule
 
@@ -26,38 +26,46 @@ create_schedule()
 
 ## Last session: GitHub - Collaboration
 
-{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/github-advanced](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html)
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html)
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html" title="Version Control Book"></iframe>
 ```
 
-## Last week's session
+## Last session's learning objectives
 
-::: {.fragment}
-#### Cloning
-- Remember to clone a repo in a sensible location (not in your own repository)
-- To rename the cloned repo you can use: `git clone <URL> new-folder-name`
+{{< include ../objectives/_objectives-github-advanced.qmd >}}
+
+## Reminders / FAQ
+
+::: fragment
+
+#### {{< fa circle-exclamation >}} *"Remember to `cd` in your `{{< var course.project >}}` project folder!"*
+
+- Every time you open the command line, it starts at a default location (likely your home directory).
+- Check in which folder you are, using `pwd` ("print working directory").
+- Use `cd` to move to your `{{< var course.project >}}` project folder before you start running the Git commands.
 :::
 
-::: {.fragment}
-#### Pushing / Pulling workflow
+::: fragment
 
-1. `git add` + `git commit`
-2. `git pull` 
-3. `git push` 
+#### {{< fa circle-exclamation >}} *"Remember to clone your collaborator's repository to a different location (**not into** your `{{< var course.project >}}` project folder!)"*
+
+- `cd` out of your `{{< var course.project >}}` project folder
+- Clone into a different folder `git clone git@github.com:partner-name/repo-name.git city-guide-partner`
+
 :::
 
-## Your questions about the last session?
+## More questions about the last session?
 
-# This session: "Git(Hub) with the world"
+# This session: {{< meta session-title >}}
 
-## Today's topic: "Git(Hub) with the world"
+## {{< meta session-title >}}
 
 ::: {.fragment}
 ![Image from [Techdobz](https://medium.com/analytics-vidhya/version-control-using-git-github-ff4c3f7c752e)](../images/git-github-integration.png){width="70%"}
 :::
 
-## Today's topic: Issues
+## New topic: Issues
 
 ![](../images/issue-example.png){width="100%" height="80%"}
 
@@ -79,58 +87,46 @@ create_schedule()
 
 {{< include ../objectives/_objectives-issues.qmd >}}
 
-# Today's exercise
+## Reading
 
-## Lennart's `recipes` repo
+{{< fa display >}} {{< meta chapter >}}
 
-{{< fa display >}} [https://lennartwittkuhn.com/recipes/](https://lennartwittkuhn.com/recipes/)
+Start at the **section on "Forking"**.
+
 ```{=html}
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/recipes/" title="Lennart`s recipe project"></iframe>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html#forking" title="Version Control Book"></iframe>
 ```
 
-# Exercise demonstration
+## Tasks
 
-## Oh, another issue!
+{{< include tasks-template.qmd >}}
 
-![](../images/issue-example-recipes-ramen.png){width="100%" height="80%"}
+## Lennart's `{{< var course.project >}}` repo
 
-[Link to Issue](https://github.com/lnnrtwttkhn/recipes/issues/22)
+{{< fa display >}} [{{< var course.project-site >}}]({{< var course.project-site >}})
 
-## Your turn
+```{=html}
+<iframe width="100%" height="80%" src="{{< var course.project-site >}}" title="Course Website"></iframe>
+```
 
-::: incremental
-1.  {{< fa book-open >}} **Content Review**: Read the chapters ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) and ["Issues"](https://lennartwittkuhn.com/version-control-book/chapters/issues.html) in the Version Control Book.
-2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
-3.  **Note:** Please complete the implementation exercises on the next slide
-3.  {{< fa dumbbell >}} **Quiz**: Complete the exercises in the [survey](https://version-control-github.formr.org/) if you have not done so yet.
+## `{{< var course.project >}}` project
+
+{{< include project/project-github-forking.qmd >}}
+
+::: {.fragment}
+
+### Today's (team) topic
+
+- Think about your **top recommendation** for the city guide. 
+- Add your top recommendation to the forked repository.
+- Help each other in completing the exercises.
+
 :::
 
-::: fragment
-Ask questions!
+## Exercises
 
-Let's *git* started!
-:::
+### "Public" collaboration with pull requests (using a fork and GitHub Flow)
 
-## Implementation Exercises
+{{< include ../exercises/_exercises-remotes-forking.qmd >}}
 
-1. Find out what [forking](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) is
-1. **Fork the recipes repository** of [Lennart](https://github.com/lnnrtwttkhn/recipes/)
-1. Create an **issue**, suggesting a missing recipe
-1. Repeat the steps from the previous exercise using the forked repository:
-    1. **Clone** the *forked* repository into a sensible location
-    1. **Create a new branch** and create **one or multiple commits** "fixing" the issue that you created
-    1. Follow the **contributing guide** in Lennart's repo to create a new recipe
-    1. **Push** your changes to GitHub
-    1. **Create a pull request** with your changes (hint: from the fork to the original repo) and refer to the issue in your pull request
-
-::: fragment
-### Homework: Clean up your repository
-
-1. Find an issue created by Konrad in your `recipes` repository with recommendations how to improve your repository
-1. Implement the recommended changes (for example, using a pull request in your own repository)
-1. :rocket: Link your commits to the issue, for example using `git commit -m "remove empty .txt file, see issue #1"`
-:::
-
-# Jobs!
-
-{{< include _job-advertizement_2.qmd >}}
+## Live demonstration
