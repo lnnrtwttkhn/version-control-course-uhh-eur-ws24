@@ -103,13 +103,13 @@ session10:
     - "Repetition and Practice"
 session11:
   date: 2025-01-10
-  title: "GitHub with the world"
+  title: "Git(Hub) with the world"
   contents:
-    - "Forking a remote repository "
+    - "Forking a remote repository"
     - "README files"
     - "Project Management"
   reading:
-    - "[GitHub Intro](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html), [GitHub Issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)"
+    - "[GitHub Advanced](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html), [GitHub Issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)"
   survey:
     - "[GitHub Quiz](https://version-control-github.formr.org)"
 session12:
