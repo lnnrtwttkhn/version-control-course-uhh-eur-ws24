@@ -1,7 +1,7 @@
 ---
 title: "Git(Hub) with the world"
-subtitle: "Session 10"
-date: 2024-06-10T12:15
+subtitle: "Session 11"
+date: 2025-01-10T10:15
 metadata-files:
   - _sessions.yml
 about:
@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session10.html
+      href: https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/sessions/slides_session11.html
       aria-label: display
     - icon: book
       text: "Chapter: GitHub - Advanced"
@@ -21,14 +21,13 @@ about:
       text: "Chapter: Issues"
       href: https://lennartwittkuhn.com/version-control-book/chapters/issues.html
       aria-label: book
-    - icon: book
-      text: "Chapter: Graphical User Interfaces"
-      href: https://lennartwittkuhn.com/version-control-book/chapters/gui.html
-      aria-label: book
     - icon: input-cursor-text
       text: Quiz
       href: https://version-control-github.formr.org
       aria-label: input-cursor-text
+chapter: |
+  ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) and ["Issues"]( https://lennartwittkuhn.com/version-control-book/chapters/issues.html)
+quiz-url: https://version-control-github.formr.org
 ---
 
 ::: {#hero-heading}
@@ -36,33 +35,32 @@ about:
 
 # This session
 
-In this session, you will complete the following tasks:
-
-1. Complete the chapter ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) in the Version Control Book.
-1. Complete the chapter ["Issues"]( https://lennartwittkuhn.com/version-control-book/chapters/issues.html) in the Version Control Book.
-1. Complete the exercises for the [`recipes` project](#recipes-project).
-1. Complete the [quiz](https://version-control-github.formr.org/) if you have not yet done so.
-
-As always:
-
-1. Try out the commands in the chapter and play around with them.
-1. Check whether you have achieved the [learning objectives](#learning-objectives).
-
-## `recipes` project
-
-At the end of this session, you should have accomplished the following:
-
-1. Successfully added a recipe to [Lennart's recipe project](https://github.com/lnnrtwttkhn/recipes) (for more details, see [slides](#slides))
+{{< include tasks-template.qmd >}}
 
 ## Learning objectives
 
+### GitHub Advanced
+
 {{< include ../objectives/_objectives-github-advanced.qmd >}}
+
+### Issues
+
 {{< include ../objectives/_objectives-issues.qmd >}}
+
+## `{{< var course.project >}}` project
+
+{{< include project/project-github-forking.qmd >}}
+
+## Exercises
+
+### "Public" collaboration with pull requests (using a fork and GitHub Flow)
+
+{{< include ../exercises/_exercises-remotes-forking.qmd >}}
 
 ## Slides
 
-{{< include _print-to-pdf.qmd >}}
-
 ```{=html}
-<iframe width="100%" height=500 src="slides_session10.html"></iframe>
+<iframe width="100%" height=500 src="slides_session11.html"></iframe>
 ```
+
+{{< include _print-to-pdf.qmd >}}
