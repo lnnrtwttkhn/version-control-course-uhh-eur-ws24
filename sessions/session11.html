@@ -138,8 +138,16 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#this-session" id="toc-this-session" class="nav-link active" data-scroll-target="#this-session">This session</a>
   <ul>
-  <li><a href="#recipes-project" id="toc-recipes-project" class="nav-link" data-scroll-target="#recipes-project"><code>recipes</code> project</a></li>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a>
+  <ul class="collapse">
+  <li><a href="#github-advanced" id="toc-github-advanced" class="nav-link" data-scroll-target="#github-advanced">GitHub Advanced</a></li>
+  <li><a href="#issues" id="toc-issues" class="nav-link" data-scroll-target="#issues">Issues</a></li>
+  </ul></li>
+  <li><a href="#var-course.project-project" id="toc-var-course.project-project" class="nav-link" data-scroll-target="#var-course.project-project"><code>city-guide</code> project</a></li>
+  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a>
+  <ul class="collapse">
+  <li><a href="#public-collaboration-with-pull-requests-using-a-fork-and-github-flow" id="toc-public-collaboration-with-pull-requests-using-a-fork-and-github-flow" class="nav-link" data-scroll-target="#public-collaboration-with-pull-requests-using-a-fork-and-github-flow">“Public” collaboration with pull requests (using a fork and GitHub Flow)</a></li>
+  </ul></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
   </ul></li>
   </ul>
@@ -156,18 +164,18 @@ ul.task-list li input[type="checkbox"] {
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Git(Hub) with the world</h1>
-<p class="subtitle lead">Session 10</p>
+<p class="subtitle lead">Session 11</p>
 </div>
 <div class="quarto-title-meta">
     <div>
     <div class="quarto-title-meta-heading">Starts at:</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 10 2024 (12:15 pm)</p>
+      <p class="date">January 10 2025 (10:15 am)</p>
     </div>
   </div>
   </div>
 </header> <div class="about-links">
-  <a href="https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session10.html" class="about-link" rel="" target="">
+  <a href="https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/sessions/slides_session11.html" class="about-link" rel="" target="">
     <i class="bi bi-display"></i>
      <span class="about-link-text">Slides</span>
   </a>
@@ -178,10 +186,6 @@ ul.task-list li input[type="checkbox"] {
   <a href="https://lennartwittkuhn.com/version-control-book/chapters/issues.html" class="about-link" rel="" target="">
     <i class="bi bi-book"></i>
      <span class="about-link-text">Chapter: Issues</span>
-  </a>
-  <a href="https://lennartwittkuhn.com/version-control-book/chapters/gui.html" class="about-link" rel="" target="">
-    <i class="bi bi-book"></i>
-     <span class="about-link-text">Chapter: Graphical User Interfaces</span>
   </a>
   <a href="https://version-control-github.formr.org" class="about-link" rel="" target="">
     <i class="bi bi-input-cursor-text"></i>
@@ -196,32 +200,61 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="this-session" class="level1">
 <h1>This session</h1>
-<p>In this session, you will complete the following tasks:</p>
+<p>In this session, you will work on the following tasks:</p>
 <ol type="1">
-<li>Complete the chapter <a href="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html">“GitHub - Advanced”</a> in the Version Control Book.</li>
-<li>Complete the chapter <a href="https://lennartwittkuhn.com/version-control-book/chapters/issues.html">“Issues”</a> in the Version Control Book.</li>
-<li>Complete the exercises for the <a href="#recipes-project"><code>recipes</code> project</a>.</li>
-<li>Complete the <a href="https://version-control-github.formr.org/">quiz</a> if you have not yet done so.</li>
+<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Reading</strong>: Read the chapter(s) <a href="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html">“GitHub - Advanced”</a> and <a href="https://lennartwittkuhn.com/version-control-book/chapters/issues.html">“Issues”</a> in the Version Control Book.</li>
+<li><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter.</li>
+<li><i class="fa-solid fa-list-check" aria-label="list-check"></i> <strong>Exercises</strong>: Work on the <a href="#exercises">exercises</a> for the <a href="#city-guide-project"><code>city-guide</code> project</a>.</li>
+<li><i class="fa-solid fa-clipboard-question" aria-label="clipboard-question"></i> <strong>Quiz</strong>: Test your knowledge with the <a href="https://version-control-github.formr.org">quiz</a>.</li>
 </ol>
 <p>As always:</p>
 <ol type="1">
-<li>Try out the commands in the chapter and play around with them.</li>
+<li>Try out the commands of this session and play around with them.</li>
 <li>Check whether you have achieved the <a href="#learning-objectives">learning objectives</a>.</li>
+<li>Ask questions!</li>
+<li>Let’s <em>git</em> started!</li>
 </ol>
-<section id="recipes-project" class="level2">
-<h2 data-anchor-id="recipes-project"><code>recipes</code> project</h2>
-<p>At the end of this session, you should have accomplished the following:</p>
-<ol type="1">
-<li>Successfully added a recipe to <a href="https://github.com/lnnrtwttkhn/recipes">Lennart’s recipe project</a> (for more details, see <a href="#slides">slides</a>)</li>
-</ol>
-</section>
 <section id="learning-objectives" class="level2">
 <h2 data-anchor-id="learning-objectives">Learning objectives</h2>
+<section id="github-advanced" class="level3">
+<h3 data-anchor-id="github-advanced">GitHub Advanced</h3>
 <p><span class="emoji" data-emoji="bulb">💡</span> You know the purpose and components of a Pull Request.<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to collaborate using the popular workflow strategy GitHub flow.<br> <span class="emoji" data-emoji="bulb">💡</span> You know the purpose and components of a <code>README</code> file.<br> <span class="emoji" data-emoji="bulb">💡</span> You can fork a repository.<br> <span class="emoji" data-emoji="bulb">💡</span> You can create a Pull Request from a forked repository.<br> <span class="emoji" data-emoji="bulb">💡</span> You can protect your <code>main</code> branch.</p>
+</section>
+<section id="issues" class="level3">
+<h3 data-anchor-id="issues">Issues</h3>
 <p><span class="emoji" data-emoji="bulb">💡</span> You understand the purpose of GitHub Issues.<br> <span class="emoji" data-emoji="bulb">💡</span> You can create and manage Issues.<br> <span class="emoji" data-emoji="bulb">💡</span> You can reference an Issue in another issue.<br> <span class="emoji" data-emoji="bulb">💡</span> You can close an Issue with a commit or pull request.<br></p>
+</section>
+</section>
+<section id="var-course.project-project" class="level2">
+<h2 data-anchor-id="var-course.project-project"><code>city-guide</code> project</h2>
+<p>At the end of this session, you should have accomplished the following:</p>
+<ol type="1">
+<li>You contributed successfully to a <em>public</em> project by adding and committing changes to a <em>forked</em> repository.</li>
+<li>You created and reviewed a pull request to integrate new content from a fork.</li>
+</ol>
+<p>Please keep the <code>city-guide</code> folder! We will continue to use it in the following sessions.</p>
+</section>
+<section id="exercises" class="level2">
+<h2 data-anchor-id="exercises">Exercises</h2>
+<section id="public-collaboration-with-pull-requests-using-a-fork-and-github-flow" class="level3">
+<h3 data-anchor-id="public-collaboration-with-pull-requests-using-a-fork-and-github-flow">“Public” collaboration with pull requests (using a fork and GitHub Flow)</h3>
+<ol type="1">
+<li>Find out what <a href="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html">forking</a> is.</li>
+<li><strong>Fork the project repository</strong> of the course instructor or another course participant (ideally, someone who is <em>not</em> your collaborator from the previous exercise).</li>
+<li><strong>Create an Issue</strong> in your new collaborator’s repository, indicating an entry that you think is still missing in their repository.</li>
+<li>Repeat the steps from the exercise on collaboration with remote repositories using the forked repository:
+<ol type="1">
+<li><strong>Clone</strong> the <em>forked</em> repository to a sensible location on your computer.</li>
+<li><strong>Create a new branch</strong> and make <strong>one or multiple commits</strong> “fixing” the Issue that you opened. If available, follow the <strong>contributing guide</strong> of your collaborator’s repository.</li>
+<li><strong>Push</strong> your changes to the remote repository.</li>
+<li><strong>Create a pull/merge request</strong> with your changes (hint: from the forked to the original repository) and <strong>refer to the Issue</strong> in your pull/merge request.</li>
+</ol></li>
+</ol>
+</section>
 </section>
 <section id="slides" class="level2">
 <h2 data-anchor-id="slides">Slides</h2>
+<iframe width="100%" height="500" src="slides_session11.html"></iframe>
 <div class="callout callout-style-default callout-note callout-titled" title="How can I download the slides as PDF?">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -251,7 +284,6 @@ How can I download the slides as PDF?
 </div>
 </div>
 </div>
-<iframe width="100%" height="500" src="slides_session10.html"></iframe>
 
 
 

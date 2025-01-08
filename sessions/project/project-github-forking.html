@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>An introduction to Git for research - Sessions</title>
+<title>An introduction to Git for research – project-github-forking</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/uhh_git_logo.jpg" rel="icon" type="image/jpeg">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/uhh_git_logo.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -63,52 +61,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-sessions .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-sessions'] = new List('listing-sessions', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () {
- var mathElements = document.getElementsByClassName("math");
- var macros = [];
- for (var i = 0; i < mathElements.length; i++) {
-  var texText = mathElements[i].firstChild;
-  if (mathElements[i].tagName == "SPAN") {
-   katex.render(texText.data, mathElements[i], {
-    displayMode: mathElements[i].classList.contains('display'),
-    throwOnError: false,
-    macros: macros,
-    fleqn: false
-   });
-}}});
-  </script>
-  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
 
 </head>
 
@@ -125,35 +78,35 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text"><i class="fa-solid fa-house" aria-label="house"></i> Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text"><i class="fa-solid fa-circle-info" aria-label="circle-info"></i> About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../schedule.html" rel="" target="">
+    <a class="nav-link" href="../../schedule.html" rel="" target="">
  <span class="menu-text"><i class="fa-solid fa-clipboard-list" aria-label="clipboard-list"></i> Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../sessions/index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../sessions/index.html" rel="" target="">
  <span class="menu-text"><i class="fa-solid fa-list-ol" aria-label="list-ol"></i> Sessions</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../team.html" rel="" target="">
+    <a class="nav-link" href="../../team.html" rel="" target="">
  <span class="menu-text"><i class="fa-solid fa-chalkboard-user" aria-label="chalkboard-user"></i> Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../mechanics.html" rel="" target="">
+    <a class="nav-link" href="../../mechanics.html" rel="" target="">
  <span class="menu-text"><i class="fa-solid fa-gear" aria-label="gear"></i> Mechanics</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../code-of-conduct.html" rel="" target="">
+    <a class="nav-link" href="../../code-of-conduct.html" rel="" target="">
  <span class="menu-text"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> Code of Conduct</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../acknowledgements.html" rel="" target="">
+    <a class="nav-link" href="../../acknowledgements.html" rel="" target="">
  <span class="menu-text"><i class="fa-solid fa-heart" aria-label="heart"></i> Acknowledgements</span></a>
   </li>  
 </ul>
@@ -179,244 +132,20 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Sessions</h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<div id="listing-sessions" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1736504100000" data-listing-file-modified-sort="1736332832516" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Git(Hub) with the world">
-<div class="body">
-<a href="../sessions/session11.html">
-<h3 class="no-anchor listing-title">
-Git(Hub) with the world
-</h3>
-<div class="listing-subtitle">
-Session 11
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../sessions/session11.html">
-<div class="listing-date">
-January 10, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1734689700000" data-listing-file-modified-sort="1736332832516" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Repetition &amp; Practice">
-<div class="body">
-<a href="../sessions/session10.html">
-<h3 class="no-anchor listing-title">
-Repetition &amp; Practice
-</h3>
-<div class="listing-subtitle">
-Session 10
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../sessions/session10.html">
-<div class="listing-date">
-December 20, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1734084900000" data-listing-file-modified-sort="1736332832516" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="GitHub - Collaboration">
-<div class="body">
-<a href="../sessions/session09.html">
-<h3 class="no-anchor listing-title">
-GitHub - Collaboration
-</h3>
-<div class="listing-subtitle">
-Session 09
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../sessions/session09.html">
-<div class="listing-date">
-December 13, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1733480100000" data-listing-file-modified-sort="1736332832516" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Remotes - Intro">
-<div class="body">
-<a href="../sessions/session08.html">
-<h3 class="no-anchor listing-title">
-Remotes - Intro
-</h3>
-<div class="listing-subtitle">
-Session 08
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../sessions/session08.html">
-<div class="listing-date">
-December 6, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1732875300000" data-listing-file-modified-sort="1736332832516" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Quarto">
-<div class="body">
-<a href="../sessions/session07.html">
-<h3 class="no-anchor listing-title">
-Quarto
-</h3>
-<div class="listing-subtitle">
-Session 07
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../sessions/session07.html">
-<div class="listing-date">
-November 29, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1732270500000" data-listing-file-modified-sort="1736332832516" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Branches">
-<div class="body">
-<a href="../sessions/session06.html">
-<h3 class="no-anchor listing-title">
-Branches
-</h3>
-<div class="listing-subtitle">
-Session 06
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../sessions/session06.html">
-<div class="listing-date">
-November 22, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1731665700000" data-listing-file-modified-sort="1736332832516" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Git Essentials">
-<div class="body">
-<a href="../sessions/session05.html">
-<h3 class="no-anchor listing-title">
-Git Essentials
-</h3>
-<div class="listing-subtitle">
-Session 05
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../sessions/session05.html">
-<div class="listing-date">
-November 15, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1731060900000" data-listing-file-modified-sort="1736332832516" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Basic Git workflow">
-<div class="body">
-<a href="../sessions/session04.html">
-<h3 class="no-anchor listing-title">
-Basic Git workflow
-</h3>
-<div class="listing-subtitle">
-Session 04
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../sessions/session04.html">
-<div class="listing-date">
-November 8, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1730456100000" data-listing-file-modified-sort="1736332832516" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="First steps with Git">
-<div class="body">
-<a href="../sessions/session03.html">
-<h3 class="no-anchor listing-title">
-First steps with Git
-</h3>
-<div class="listing-subtitle">
-Session 03
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../sessions/session03.html">
-<div class="listing-date">
-November 1, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1729851300000" data-listing-file-modified-sort="1736332832516" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Command Line">
-<div class="body">
-<a href="../sessions/session02.html">
-<h3 class="no-anchor listing-title">
-Command Line
-</h3>
-<div class="listing-subtitle">
-Session 02
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../sessions/session02.html">
-<div class="listing-date">
-October 25, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1729246500000" data-listing-file-modified-sort="1736332832516" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Introduction to Version Control">
-<div class="body">
-<a href="../sessions/session01.html">
-<h3 class="no-anchor listing-title">
-Introduction to Version Control
-</h3>
-<div class="listing-subtitle">
-Session 01
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../sessions/session01.html">
-<div class="listing-date">
-October 18, 2024
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-
+<p>At the end of this session, you should have accomplished the following:</p>
+<ol type="1">
+<li>You contributed successfully to a <em>public</em> project by adding and committing changes to a <em>forked</em> repository.</li>
+<li>You created and reviewed a pull request to integrate new content from a fork.</li>
+</ol>
+<p>Please keep the <code>city-guide</code> folder! We will continue to use it in the following sessions.</p>
 
 
 
@@ -676,7 +405,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../acknowledgements.html">Acknowledgements</a>
+    <a class="nav-link" href="../../acknowledgements.html">Acknowledgements</a>
   </li>  
 </ul>
     </div>
