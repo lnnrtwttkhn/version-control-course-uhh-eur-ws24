@@ -67,9 +67,9 @@ create_schedule()
 
 ## New topic: Issues
 
-![](../images/issue-example.png){width="100%" height="80%"}
+![](../images/issue-example-typo.png){width="100%" height="80%"}
 
-[Link to Issue](https://github.com/lnnrtwttkhn/version-control-survey/issues/28)
+[Link to Issue](https://github.com/lnnrtwttkhn/version-control-book/issues/323)
 
 ## Issues in Lennart's `recipes` repository
 
@@ -129,4 +129,10 @@ Start at the **section on "Forking"**.
 
 {{< include ../exercises/_exercises-remotes-forking.qmd >}}
 
-## Live demonstration
+# Live demonstration
+
+## Oh, another issue!
+
+![](../images/issue-example-city-guide-landungsbruecken.png){width="100%" height="80%"}
+
+[Link to Issue](https://github.com/lnnrtwttkhn/city-guide/issues/4)
