@@ -420,11 +420,11 @@
     "text": "Exercises\n“Public” collaboration with pull requests (using a fork and GitHub Flow)\n\nFind out what forking is.\nFork the project repository of the course instructor or another course participant (ideally, someone who is not your collaborator from the previous exercise).\nCreate an Issue in your new collaborator’s repository, indicating an entry that you think is still missing in their repository.\nRepeat the steps from the exercise on collaboration with remote repositories using the forked repository:\n\nClone the forked repository to a sensible location on your computer.\nCreate a new branch and make one or multiple commits “fixing” the Issue that you opened. If available, follow the contributing guide of your collaborator’s repository.\nPush your changes to the remote repository.\nCreate a pull/merge request with your changes (hint: from the forked to the original repository) and refer to the Issue in your pull/merge request."
   },
   {
-    "objectID": "sessions/slides_session11.html#live-demonstration",
-    "href": "sessions/slides_session11.html#live-demonstration",
+    "objectID": "sessions/slides_session11.html#oh-another-issue",
+    "href": "sessions/slides_session11.html#oh-another-issue",
     "title": "Session 11: Git(Hub) with the world",
-    "section": "Live demonstration",
-    "text": "Live demonstration\n\n\nVersion Control Course"
+    "section": "Oh, another issue!",
+    "text": "Oh, another issue!\n\nLink to Issue\n\n\nVersion Control Course"
   },
   {
     "objectID": "sessions/slides_session03.html#schedule",
