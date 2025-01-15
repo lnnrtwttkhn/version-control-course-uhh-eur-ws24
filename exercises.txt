@@ -45,3 +45,5 @@ https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/ma
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/exercises/_exercises-remotes-forking.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/exercises/_solutions-remotes-forking.qmd
 https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/exercises/_exercises-remotes-pr-review.qmd
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/exercises/_exercises-tags-releases.qmd
+https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/refs/heads/main/exercises/_solutions-tags-releases.qmd

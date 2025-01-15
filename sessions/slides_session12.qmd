@@ -1,12 +1,15 @@
 ---
-title: "Session 12: Tags, Releases & Publication"
+title: "Session 12: {{< meta session-title >}}"
 date: 2024-06-24T12:15
 format: revealjs
 metadata-files:
   - _slides.yml
+session-title: "Tags, Releases & Publication"
+chapter: |
+  ["Tags & Releases"](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)
 ---
 
-# Schedule
+# Logistics & Admin
 
 ## Schedule
 
@@ -18,26 +21,30 @@ metadata-files:
 create_schedule()
 ```
 
-# Last session: Repetition & Practice 
+# Last session: Git(Hub) with the world
 
-## Last session: Repetition & Practice
+## Last session: Git(Hub) with the world
 
-{{< fa display >}} [https://github.com/lnnrtwttkhn/recipes/pulls](https://github.com/lnnrtwttkhn/recipes/pulls)
+{{< fa display >}} [https://github.com/lnnrtwttkhn/city-guide/pulls](https://github.com/lnnrtwttkhn/city-guide/pulls)
 ```{=html}
-<iframe width="100%" height="80%" src="https://github.com/lnnrtwttkhn/recipes/pulls" title="Your PR`s"></iframe>
+<iframe width="100%" height="80%" src="https://github.com/lnnrtwttkhn/city-guide/pulls" title="Your PR's"></iframe>
 ```
+
+## Last session's learning objectives
+
+### GitHub Advanced
+
+{{< include ../objectives/_objectives-github-advanced.qmd >}}
+
+### Issues
+
+{{< include ../objectives/_objectives-issues.qmd >}}
 
 ## Questions about the last session?
 
-# This session's topic: Tags & Releases
+# This session: {{< meta session-title >}}
 
-## Today's topic: Tags & Releases 
-
-{{< fa display >}} <https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html>
-
-```{=html}
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html" title="Version Control Book"></iframe>
-```
+## {{< meta session-title >}}
 
 # Tags & Releases: Examples
 
@@ -81,30 +88,23 @@ create_schedule()
 
 {{< include ../objectives/_objectives-tags-releases.qmd >}}
 
-## Your turn
+## Reading
 
-::: incremental
-1.  {{< fa book-open >}} **Content Review**: Read the chapter ["Tags & Releases"](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html) in the Version Control Book.
-2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
-3.  **Note:** Please complete the implementation exercises on the next slide.
-:::
+{{< fa display >}} {{< meta chapter >}}
 
-::: fragment
-Ask questions!
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html" title="Version Control Book"></iframe>
+```
 
-Let's *git* started!
-:::
+## Tasks
 
-# Demo exercise 
+{{< include tasks-template.qmd >}}
 
-## `recipes` project
+## `{{< var course.project >}}` project
 
-At the end of this session, you should have accomplished the following:
+{{< include project/project-tags-releases.qmd >}}
 
-1. You created an annotated Tag and a GitHub Release.
-2. You linked the release to Zenodo's sandbox and minted a DOI.
-
-## Implementation Exercises
+## Exercises
 
 ::::: {.columns}
 
@@ -147,6 +147,10 @@ At the end of this session, you should have accomplished the following:
 :::
 ::::
 :::::
+
+## Solutions
+
+{{< include ../exercises/_solutions-tags-releases.qmd >}}
 
 ## Next week: Practice with GUIs (+ course evaluation!)
 
