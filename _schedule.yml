@@ -119,8 +119,6 @@ session12:
     - "Creating Tags with Git"
     - "Creating Releases with GitHub"
     - "Using [Zenodo](https://zenodo.org) for scientific publishing"
-    - "Licences"
-    - "Citation Files"
   reading:
     - "[Tags and Releases](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)"
 session13:
