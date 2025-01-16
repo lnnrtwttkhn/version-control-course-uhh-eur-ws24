@@ -31,6 +31,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -368,20 +433,19 @@ Reza Hakimazar
 <nav role="doc-toc"> 
 <h2 id="toc-title">Agenda</h2>
 <ul>
-<li><a href="#/schedule" id="/toc-schedule"><span class="header-section-number">1</span> Schedule</a></li>
-<li><a href="#/last-session-repetition-practice" id="/toc-last-session-repetition-practice"><span class="header-section-number">2</span> Last session: Repetition &amp; Practice</a></li>
-<li><a href="#/this-sessions-topic-tags-releases" id="/toc-this-sessions-topic-tags-releases"><span class="header-section-number">3</span> This session’s topic: Tags &amp; Releases</a></li>
+<li><a href="#/logistics-admin" id="/toc-logistics-admin"><span class="header-section-number">1</span> Logistics &amp; Admin</a></li>
+<li><a href="#/last-session-github-with-the-world" id="/toc-last-session-github-with-the-world"><span class="header-section-number">2</span> Last session: Git(Hub) with the world</a></li>
+<li><a href="#/this-session-meta-session-title" id="/toc-this-session-meta-session-title"><span class="header-section-number">3</span> This session: Tags, Releases &amp; Publication</a></li>
 <li><a href="#/tags-releases-examples" id="/toc-tags-releases-examples"><span class="header-section-number">4</span> Tags &amp; Releases: Examples</a></li>
-<li><a href="#/demo-exercise" id="/toc-demo-exercise"><span class="header-section-number">5</span> Demo exercise</a></li>
 </ul>
 </nav>
 </section>
 <section>
-<section id="schedule" class="title-slide slide level1 center" data-number="1">
-<h1><span class="header-section-number">1</span> Schedule</h1>
+<section id="logistics-admin" class="title-slide slide level1 center" data-number="1">
+<h1><span class="header-section-number">1</span> Logistics &amp; Admin</h1>
 
 </section>
-<section id="schedule-1" class="slide level2">
+<section id="schedule" class="slide level2">
 <h2>Schedule</h2>
 <div class="cell">
 <div class="cell-output-display">
@@ -488,8 +552,8 @@ Reza Hakimazar
 <tr class="even">
 <td style="text-align: left;">12</td>
 <td style="text-align: left;">2025-01-17</td>
-<td style="text-align: left;"><strong>Publishing</strong></td>
-<td style="text-align: left;">Creating Tags with Git<br>Creating Releases with GitHub<br>Using <a href="https://zenodo.org">Zenodo</a> for scientific publishing<br>Licences<br>Citation Files</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/sessions/session12">Publishing</a></strong></td>
+<td style="text-align: left;">Creating Tags with Git<br>Creating Releases with GitHub<br>Using <a href="https://zenodo.org">Zenodo</a> for scientific publishing</td>
 <td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html">Tags and Releases</a></td>
 <td style="text-align: left;"></td>
 </tr>
@@ -515,27 +579,32 @@ Reza Hakimazar
 </div>
 </section></section>
 <section>
-<section id="last-session-repetition-practice" class="title-slide slide level1 center" data-number="2">
-<h1><span class="header-section-number">2</span> Last session: Repetition &amp; Practice</h1>
+<section id="last-session-github-with-the-world" class="title-slide slide level1 center" data-number="2">
+<h1><span class="header-section-number">2</span> Last session: Git(Hub) with the world</h1>
 
 </section>
-<section id="last-session-repetition-practice-1" class="slide level2">
-<h2>Last session: Repetition &amp; Practice</h2>
-<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://github.com/lnnrtwttkhn/recipes/pulls">https://github.com/lnnrtwttkhn/recipes/pulls</a></p>
-<iframe width="100%" height="80%" src="https://github.com/lnnrtwttkhn/recipes/pulls" title="Your PR`s"></iframe>
+<section id="last-session-github-with-the-world-1" class="slide level2">
+<h2>Last session: Git(Hub) with the world</h2>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://github.com/lnnrtwttkhn/city-guide/pulls">https://github.com/lnnrtwttkhn/city-guide/pulls</a></p>
+<iframe width="100%" height="80%" src="https://github.com/lnnrtwttkhn/city-guide/pulls" title="Your PR's"></iframe>
+</section>
+<section id="last-sessions-learning-objectives" class="slide level2">
+<h2>Last session’s learning objectives</h2>
+<h3 id="github-advanced">GitHub Advanced</h3>
+<p><span class="emoji" data-emoji="bulb">💡</span> You know the purpose and components of a Pull Request.<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to collaborate using the popular workflow strategy GitHub flow.<br> <span class="emoji" data-emoji="bulb">💡</span> You know the purpose and components of a <code>README</code> file.<br> <span class="emoji" data-emoji="bulb">💡</span> You can fork a repository.<br> <span class="emoji" data-emoji="bulb">💡</span> You can create a Pull Request from a forked repository.<br> <span class="emoji" data-emoji="bulb">💡</span> You can protect your <code>main</code> branch.</p>
+<h3 id="issues">Issues</h3>
+<p><span class="emoji" data-emoji="bulb">💡</span> You understand the purpose of GitHub Issues.<br> <span class="emoji" data-emoji="bulb">💡</span> You can create and manage Issues.<br> <span class="emoji" data-emoji="bulb">💡</span> You can reference an Issue in another issue.<br> <span class="emoji" data-emoji="bulb">💡</span> You can close an Issue with a commit or pull request.<br></p>
 </section>
 <section id="questions-about-the-last-session" class="slide level2">
 <h2>Questions about the last session?</h2>
 </section></section>
 <section>
-<section id="this-sessions-topic-tags-releases" class="title-slide slide level1 center" data-number="3">
-<h1><span class="header-section-number">3</span> This session’s topic: Tags &amp; Releases</h1>
+<section id="this-session-meta-session-title" class="title-slide slide level1 center" data-number="3">
+<h1><span class="header-section-number">3</span> This session: Tags, Releases &amp; Publication</h1>
 
 </section>
-<section id="todays-topic-tags-releases" class="slide level2">
-<h2>Today’s topic: Tags &amp; Releases</h2>
-<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html" class="uri">https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html</a></p>
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html" title="Version Control Book"></iframe>
+<section id="meta-session-title" class="slide level2">
+<h2>Tags, Releases &amp; Publication</h2>
 </section></section>
 <section>
 <section id="tags-releases-examples" class="title-slide slide level1 center" data-number="4">
@@ -581,37 +650,41 @@ Reza Hakimazar
 </section>
 <section id="this-sessions-learning-objectives" class="slide level2">
 <h2>This session’s learning objectives</h2>
-<p><span class="emoji" data-emoji="bulb">💡</span> Understand why Git tags matter in version control and project management <br> <span class="emoji" data-emoji="bulb">💡</span> Learn when to use lightweight or annotated tags and how to apply them <br> <span class="emoji" data-emoji="bulb">💡</span> Get the hang of pushing and pulling tags in Git for seamless teamwork <br> <span class="emoji" data-emoji="bulb">💡</span> Explore how GitHub releases complement Git tags <br> <span class="emoji" data-emoji="bulb">💡</span> Discover how to use Zenodo to make your repository citable</p>
+<p><span class="emoji" data-emoji="bulb">💡</span> You understand why Git Tags matter in version control and project management.<br> <span class="emoji" data-emoji="bulb">💡</span> You know the difference between lightweight and annotated tags and how to apply them.<br> <span class="emoji" data-emoji="bulb">💡</span> You can push and pull tags to a remote repository (e.g., GitHub).<br> <span class="emoji" data-emoji="bulb">💡</span> You understand how GitHub releases complement Git Tags.<br> <span class="emoji" data-emoji="bulb">💡</span> You can use Zenodo to archive your repository and make your work citable.</p>
 </section>
-<section id="your-turn" class="slide level2">
-<h2>Your turn</h2>
-<div>
+<section id="reading" class="slide level2">
+<h2>Reading</h2>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html">“Tags &amp; Releases”</a></p>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html" title="Version Control Book"></iframe>
+</section>
+<section id="tasks" class="slide level2">
+<h2>Tasks</h2>
+<p>In this session, you will work on the following tasks:</p>
 <ol type="1">
-<li class="fragment"><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Content Review</strong>: Read the chapter <a href="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html">“Tags &amp; Releases”</a> in the Version Control Book.</li>
-<li class="fragment"><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter! Play around! Have fun!.</li>
-<li class="fragment"><strong>Note:</strong> Please complete the implementation exercises on the next slide.</li>
+<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Reading</strong>: Read the chapter(s) <a href="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html">“Tags &amp; Releases”</a> in the Version Control Book.</li>
+<li><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter.</li>
+<li><i class="fa-solid fa-list-check" aria-label="list-check"></i> <strong>Exercises</strong>: Work on the <a href="#/exercises">exercises</a> for the <a href="#/city-guide-project"><code>city-guide</code> project</a>.</li>
+<li><i class="fa-solid fa-clipboard-question" aria-label="clipboard-question"></i> <strong>Quiz</strong>: Test your knowledge with the <a href="?meta:quiz-url">quiz</a>.</li>
 </ol>
-</div>
-<div class="fragment">
-<p>Ask questions!</p>
-<p>Let’s <em>git</em> started!</p>
-</div>
-</section></section>
-<section>
-<section id="demo-exercise" class="title-slide slide level1 center" data-number="5">
-<h1><span class="header-section-number">5</span> Demo exercise</h1>
-
+<p>As always:</p>
+<ol type="1">
+<li>Try out the commands of this session and play around with them.</li>
+<li>Check whether you have achieved the <a href="#/learning-objectives">learning objectives</a>.</li>
+<li>Ask questions!</li>
+<li>Let’s <em>git</em> started!</li>
+</ol>
 </section>
-<section id="recipes-project" class="slide level2">
-<h2><code>recipes</code> project</h2>
+<section id="var-course.project-project" class="slide level2">
+<h2><code>city-guide</code> project</h2>
 <p>At the end of this session, you should have accomplished the following:</p>
 <ol type="1">
 <li>You created an annotated Tag and a GitHub Release.</li>
 <li>You linked the release to Zenodo’s sandbox and minted a DOI.</li>
 </ol>
+<p>Please keep the <code>city-guide</code> folder! We will continue to use it in the following sessions.</p>
 </section>
-<section id="implementation-exercises" class="slide level2">
-<h2>Implementation Exercises</h2>
+<section id="exercises" class="slide level2">
+<h2>Exercises</h2>
 <div class="columns">
 <div class="column" style="width:33%;">
 <div class="fragment">
@@ -649,6 +722,48 @@ Reza Hakimazar
 </div>
 </div>
 </div>
+</section>
+<section id="solutions" class="slide level2">
+<h2>Solutions</h2>
+<h3 id="create-a-lightweight-or-an-annotated-tag-named-v1.0.0.">Create a lightweight or an annotated tag named v1.0.0.</h3>
+<ol type="1">
+<li>For a lightweight tag:</li>
+</ol>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">git</span> tag v1.0.0</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>For an annotated tag:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="fu">git</span> tag <span class="at">-a</span> v1.0.0 <span class="at">-m</span> <span class="st">"Release version 1.0.0"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="2" type="1">
+<li>Push the tag to GitHub:</li>
+</ol>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">git</span> push origin v1.0.0</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<h3 id="create-a-github-release">Create a GitHub Release</h3>
+<ol type="1">
+<li>Go to your repository on GitHub.</li>
+<li>Click on “Releases” then “Draft a new release”.</li>
+<li>Choose the tag <code>v1.0.0</code> from the list</li>
+<li>Fill in the release title and description.</li>
+<li>Click “Publish release”.</li>
+</ol>
+<h3 id="link-a-zenodo-record">Link a Zenodo Record</h3>
+<ol type="1">
+<li>Connect your GitHub repository to Zenodo.</li>
+</ol>
+<ul>
+<li>Go to Zenodo and log in.</li>
+</ul>
+<ol start="2" type="1">
+<li>Follow Zenodo’s instructions to link your repository:</li>
+</ol>
+<ol type="a">
+<li><p>Go to the “GitHub” tab in your Zenodo settings. Navigate to Settings in Zenodo. Click on the GitHub tab.</p></li>
+<li><p>Enable the repository for Zenodo integration. Find your GitHub repository in the list and toggle the switch to enable it for Zenodo integration.</p></li>
+</ol>
+<ol start="3" type="1">
+<li>Create a new release on GitHub to trigger Zenodo to archive your repository and mint a DOI.</li>
+</ol>
+<ul>
+<li>Go back to GitHub and create a new release (as described in the Create a GitHub Release section). This will trigger Zenodo to archive your repository and mint a DOI for the release.</li>
+</ul>
 </section>
 <section id="next-week-practice-with-guis-course-evaluation" class="slide level2">
 <h2>Next week: Practice with GUIs (+ course evaluation!)</h2>
