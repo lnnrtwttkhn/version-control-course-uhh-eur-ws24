@@ -56,8 +56,6 @@ We will send our secretary a list of personal codewords and she will return a li
 
 **In order to pass this course**, you should have accomplished the following tasks:
 
-::: {.incremental}
-
 1. You have a public `{{< var course.project >}}` repository on GitHub (Sessions 03, 08, 12).
 1. You added a text file (e.g., `.qmd` or `.txt`) with at least one city recommendation to the repository (Session 03).
 1. You added a `.gitignore` file (ignoring a random file like an image) to the repository (Sessions 04, 05).
