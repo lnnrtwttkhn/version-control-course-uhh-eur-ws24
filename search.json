@@ -1096,7 +1096,35 @@
     "href": "sessions/slides_session12.html#homework",
     "title": "Session 12: Tags, Releases & Publication",
     "section": "Homework",
-    "text": "Homework\n\nSign-up for GitHub Education to get access to the Student Developer Pack\nInstall GitKraken and sign-up with your GitHub account\n🚀 Optional: Check out other Git GUIs that you’d like to try (e.g., RStudio)\n\n\n\nVersion Control Course"
+    "text": "Homework\n\nSign-up for GitHub Education to get access to the Student Developer Pack\nInstall GitKraken and sign-up with your GitHub account\n🚀 Optional: Check out other Git GUIs that you’d like to try (e.g., RStudio)"
+  },
+  {
+    "objectID": "sessions/slides_session12.html#from-session-1-your-role",
+    "href": "sessions/slides_session12.html#from-session-1-your-role",
+    "title": "Session 12: Tags, Releases & Publication",
+    "section": "From session 1: Your role",
+    "text": "From session 1: Your role\n\n\nActive participation\n\nThis is a pass / fail course. You pass if you fulfill all course requirements:\nRequirement 1: Come to at least 12 out of 14 sessions (85%)\nRequirement 2: Complete all surveys/quizzes\nRequirement 3: Complete all mandatory exercises (implemented in Git)\n\n\n\n\nHow do we verify the course requirements?\n\nRequirement 1: Sign the attendance list\nRequirement 2: Provide a personal codeword. At the end of the semester, send an email with your personal codeword to sekretariat-luv.psych@uni-hamburg.de (Christine Manor). We will send our secretary a list of personal codewords and she will return a list of names.\nRequirement 3: We check your GitHub repositories."
+  },
+  {
+    "objectID": "sessions/slides_session12.html#your-tasks",
+    "href": "sessions/slides_session12.html#your-tasks",
+    "title": "Session 12: Tags, Releases & Publication",
+    "section": "Your tasks",
+    "text": "Your tasks\nIn order to pass this course, you should have accomplished the following tasks:\n\n\nYou have a public city-guide repository on GitHub (Sessions 03, 08, 12).\nYou added a text file (e.g., .qmd or .txt) with at least one city recommendation to the repository (Session 03).\nYou added a .gitignore file (ignoring a random file like an image) to the repository (Sessions 04, 05).\nYou created and merged a branch in your repository (Session 06).\nYou created a pull request in a partner’s repository, e.g., by adding a new recommendation (Sessions 09, 10).\nYou reviewed and merged the pull request of a partner in your city-guide repository (Sessions 09, 10).\nYou created an issue in Lennart’s city-guide repository, a pull request from a fork fixing the issue, you implemented all additional requests and your pull request was approved and merged by Lennart (Session 11).\nYou created a release of your recipes repository on GitHub (Session 12).\nYou completed all quizzes (see next slide).\nYou completed the extra assignment (if necessary, see next slide)."
+  },
+  {
+    "objectID": "sessions/slides_session12.html#quiz-participation",
+    "href": "sessions/slides_session12.html#quiz-participation",
+    "title": "Session 12: Tags, Releases & Publication",
+    "section": "Quiz participation",
+    "text": "Quiz participation\nIn order to pass this course, you should have completed all quizzes:\n\nIntro\nCommand Line\nGit Basics\nBranches\nGitHub\n\n\n\nHow to verify participation\n\nAt the end of the semester, send an email with your personal codeword to sekretariat-luv.psych@uni-hamburg.de (Christine Manor), not to us!\nOur secretary sends us an unsorted list with codewords.\nWe verify the quiz participation for each codeword and send Christine a list with codewords that completed all quizzes.\nChristine compares the codewords with your names and send us an unsorted list with names."
+  },
+  {
+    "objectID": "sessions/slides_session12.html#missed-more-than-two-sessions",
+    "href": "sessions/slides_session12.html#missed-more-than-two-sessions",
+    "title": "Session 12: Tags, Releases & Publication",
+    "section": "Missed more than two sessions?",
+    "text": "Missed more than two sessions?\nWe will send you an email with an extra assignment.\n\n\nVersion Control Course"
   },
   {
     "objectID": "schedule.html",
