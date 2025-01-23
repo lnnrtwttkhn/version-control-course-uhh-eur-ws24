@@ -1,7 +1,7 @@
 ---
-title: "Introduction to Graphical User Interfaces"
+title: "Graphical User Interfaces"
 subtitle: "Session 13"
-date: 2024-07-01T12:15
+date: 2025-01-15T10:15
 metadata-files:
   - _sessions.yml
 about:
@@ -11,12 +11,14 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session13.html
+      href: https://lennartwittkuhn.com/version-control-course-uhh-eur-ws24/sessions/slides_session13.html
       aria-label: display
     - icon: book
-      text: "Chapter: GUI´s"
+      text: "Chapter: Graphical User Interfaces"
       href: https://lennartwittkuhn.com/version-control-book/chapters/gui.html
       aria-label: book
+chapter: |
+  ["Graphical User Interfaces"](https://lennartwittkuhn.com/version-control-book/chapters/gui.html)
 ---
 
 ::: {#hero-heading}
@@ -24,14 +26,17 @@ about:
 
 # This session
 
-In this session, you will complete the following tasks:
+In this session, you will work on the following tasks:
 
-1. Complete the chapter ["GUI's"](https://lennartwittkuhn.com/version-control-book/chapters/gui.html) in the Version Control Book.
-1. Complete the exercises for the [`recipes` project](#recipes-project).
+1. {{< fa book-open >}} **Reading**: Read the chapter(s) {{< meta chapter >}} in the Version Control Book.
+1. {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter.
+1. {{< fa list-check >}} **Exercises**: Work on the [exercises](#exercises) for the [`{{< var course.project >}}` project](#{{< var course.project >}}-project).
 
 As always:
 
-1. Try out the commands in the chapter and play around with them.
+1. Check whether you have achieved the [learning objectives](#learning-objectives).
+1. Ask questions!
+1. Let's *git* started!
 
 ## Learning objectives
 
@@ -39,8 +44,8 @@ As always:
 
 ## Slides
 
-{{< include _print-to-pdf.qmd >}}
-
 ```{=html}
 <iframe width="100%" height=500 src="slides_session13.html"></iframe>
 ```
+
+{{< include _print-to-pdf.qmd >}}

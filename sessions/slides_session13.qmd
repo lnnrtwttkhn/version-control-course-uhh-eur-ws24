@@ -1,12 +1,15 @@
 ---
-title: "Session 11: Graphical User Interfaces"
-date: 2024-07-01T12:15
+title: "Session 13: {{< meta session-title >}}"
+date: 2025-01-15T10:15
 format: revealjs
 metadata-files:
   - _slides.yml
+session-title: "Graphical User Interfaces"
+chapter: |
+  ["Graphical User Interfaces"](https://lennartwittkuhn.com/version-control-book/chapters/gui.html)
 ---
 
-# Schedule
+# Logistics & Admin
 
 ## Schedule
 
@@ -18,61 +21,126 @@ metadata-files:
 create_schedule()
 ```
 
-# Last session: Tags, Releases and Publishing
+# Course evaluation
 
-## Last session: Tags, Releases and Publishing
+## Course evaluation
+
+- Check your emails for the link to the evaluation form!
+- Both Hamburg and Rotterdam students can complete the evaluation.
+- The evaluation is also available in English (you can change the language at the top-right).
+
+# Last session: Tags, Releases & Publication
+
+## Last session: Tags, Releases & Publication
 
 {{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html" title="Version Control Book"></iframe>
 ```
 
-## Your questions about the last session?
+## Last session's learning objectives
 
-# Your tasks completion
+{{< include ../objectives/_objectives-tags-releases.qmd >}}
 
-# Quiz participation
+## Questions about the last session?
 
-# `recipe` repository tasks
+# Course requirements
 
-## This session's learning objectives
+# Graphical User Interfaces (GUIs) for Git
+
+## Graphical User Interfaces (GUIs) for Git
+
+::: columns
+::: {.column width="35%"}
+::: fragment
+### Integrated Development Environments (IDEs)
+
+#### RStudio
+
+[![](../images/gui-rstudio.png)](https://microsite.geo.uzh.ch/reproducible_research/post/rr-rstudio-git/)
+:::
+
+::: fragment
+#### MATLAB
+
+[![](../images/gui-matlab.png)](https://de.mathworks.com/help/matlab/matlab_prog/branch-and-merge-with-git.html)
+:::
+:::
+
+::: {.column width="35%"}
+::: fragment
+### Git Clients
+
+### GitKraken
+
+[![](../images/gui-gitkraken.png)](https://jonbunator.github.io/gitkraken-custom-themes/)
+:::
+
+::: fragment
+### GitHub Desktop
+
+[![](../images/gui-githubdesktop.png)](https://desktop.github.com/)
+:::
+:::
+
+::: {.column width="25%"}
+::: fragment
+### Mobile
+
+#### Working Copy (iOS)
+
+[![](../images/gui-workingcopy.png)](https://workingcopyapp.com/users-guide)
+:::
+:::
+:::
+
+## Learning objectives
 
 {{< include ../objectives/_objectives-gui.qmd >}}
 
-## Today's chapter
+## Reading
 
-{{< fa display >}} <https://lennartwittkuhn.com/version-control-book/chapters/gui.html>
+{{< fa display >}} {{< meta chapter >}}
 
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/gui.html" title="Version Control Book"></iframe>
 ```
 
-# Demonstration: GitKraken/RStudio 
+## Tasks
 
-## Your turn
+In this session, you will work on the following tasks:
 
-::: incremental
-1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GUIs"](https://lennartwittkuhn.com/version-control-book/chapters/gui.html) in the Version Control Book.
-2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
-3.  **Note:** Please complete the implementation exercises on the next slide
+1. {{< fa book-open >}} **Reading**: Read the chapter(s) {{< meta chapter >}} in the Version Control Book.
+1. {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter.
+1. {{< fa list-check >}} **Exercises**: Work on the [exercises](#exercises) for the [`{{< var course.project >}}` project](#{{< var course.project >}}-project).
+
+As always:
+
+1. Check whether you have achieved the [learning objectives](#learning-objectives).
+1. Ask questions!
+1. Let's *git* started!
+
+## Exercises
+
+::: fragment
+### Option 1: Complete the course requirements
+
+- We are here to help!
 :::
 
 ::: fragment
-Ask questions!
 
-Let's *git* started!
+### Option 2: Collaborate with pull requests (using GUIs)
+
+1. Fork your partner's repository on GitHub.
+1. Using a GUI, clone the forked repository.
+1. Create and switch to a new branch.
+1. Add a **surprise** recommendation to their `{{< var course.project >}}` repository.
+1. Stage and commit the changes.
+1. Create a Pull Request from the forked to the original repository.
+1. Review the Pull Request from your partner and create a coherent recipe.
+1. Merge the Pull Request that your partner created in your repository.
+
 :::
 
-## Implementation Exercise
-
-#### Collaborate with pull requests (using "GUIs")
-
-1. Find a partner.
-1. Using a GUI, clone their repository if not already done (and pull the newest version).
-1. Create a new branch.
-1. Create a new file called `crazy_recipe.txt` or `crazy_recipe.qmd`.
-1. Input three random ingredients and two kitchen utensils.
-1. Add and commit the changes.
-1. Create a Pull Request.
-1. Review the Pull Request from your partner and create a coherent recipe.
-1. Merge the Pull Request.
+# Demonstration: GitKraken / RStudio 
