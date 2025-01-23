@@ -44,7 +44,7 @@ create_schedule()
 
 ## Questions about the last session?
 
-# Course requirements
+{{< include _course-requirements.qmd >}}
 
 # Graphical User Interfaces (GUIs) for Git
 
