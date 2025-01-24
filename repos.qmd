@@ -11,5 +11,9 @@ listing:
 ---
 
 Lennart's `{{< var course.project >}}` repository can be found here: [{{< var course.project-site >}}]({{< var course.project-site >}})
+
+## Repos of course participants:
+
 :::{#repos}
 :::
+
