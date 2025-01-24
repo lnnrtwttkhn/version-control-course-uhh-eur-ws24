@@ -1,5 +1,4 @@
-- title: "Hello"
-  author: avaaz99
+- author: avaaz99
   url: <https://github.com/avaaz99/Cityguide>
 - author: CarFis84
   url: <https://github.com/CarFis84/city-guide->
@@ -19,33 +18,33 @@
   url: <https://github.com/joyce-shi-github/Y2_Version_Control_city-guide>
 - author: sepehr-e
   url: <https://github.com/sepehr-e/city-guide>
-# - author: Tine-tec
-#   url: https://github.com/Tine-tec/redesigned-funicular/tree/main
-# - author: ameliebrhfn
-#   url: https://github.com/ameliebrhfn/city-guide
-# - author: natalieefch
-#   url: https://github.com/natalieefch/NF_Cityguide
-# - author: victoriahoff
-#   url: https://github.com/victoriahoff/city-guide
-# - author: MaximKru
-#   url: https://github.com/MaximKru/Hamburg-City-Guide-Project
-# - author: marypie33
-#   url: https://github.com/marypie33/city-guide
-# - author: HenrietteUHH
-#   url: https://github.com/HenrietteUHH/City-guide
-# - author: itsgitfam
-#   url: https://github.com/itsgitfam/cityguide
-# - author: Jupanda333
-#   url: https://github.com/Jupanda333/city-guide
-# - author: mcolumbano
-#   url: https://github.com/mcolumbano/city_guide
-# - author: LeonieDudda
-#   url: https://github.com/LeonieDudda/git_course
-# - author: JulEsters
-#   url: https://github.com/JulEsters/city_guide
-# - author: valmag
-#   url: https://github.com/valmag/city-guide
-# - author: ShuangyuanWei
-#   url: https://github.com/ShuangyuanWei/VersionControlClass
-# - author: Tingsterr
-#   url: https://github.com/Tingsterr/city_guide
+- author: Tine-tec
+  url: <https://github.com/Tine-tec/redesigned-funicular/tree/main>
+- author: ameliebrhfn
+  url: <https://github.com/ameliebrhfn/city-guide>
+- author: natalieefch
+  url: <https://github.com/natalieefch/NF_Cityguide>
+- author: victoriahoff
+  url: <https://github.com/victoriahoff/city-guide>
+- author: MaximKru
+  url: <https://github.com/MaximKru/Hamburg-City-Guide-Project>
+- author: marypie33
+  url: <https://github.com/marypie33/city-guide>
+- author: HenrietteUHH
+  url: <https://github.com/HenrietteUHH/City-guide>
+- author: itsgitfam
+  url: <https://github.com/itsgitfam/cityguide>
+- author: Jupanda333
+  url: <https://github.com/Jupanda333/city-guide>
+- author: mcolumbano
+  url: <https://github.com/mcolumbano/city_guide>
+- author: LeonieDudda
+  url: <https://github.com/LeonieDudda/git_course>
+- author: JulEsters
+  url: <https://github.com/JulEsters/city_guide>
+- author: valmag
+  url: <https://github.com/valmag/city-guide>
+- author: ShuangyuanWei
+  url: <https://github.com/ShuangyuanWei/VersionControlClass>
+- author: Tingsterr
+  url: <https://github.com/Tingsterr/city_guide>
