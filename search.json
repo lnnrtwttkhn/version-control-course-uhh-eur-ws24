@@ -826,25 +826,53 @@
     "text": "References\n\n\nHeise, V., Holman, C., Lo, H., Lyras, E. M., Adkins, M. C., Aquino, M. R. J., Bougioukas, K. I., Bray, K. O., Gajos, M., Guo, X., Hartling, C., Huerta-Gutierrez, R., Jindrová, M., Kenney, J. P. M., Kępińska, A. P., Kneller, L., Lopez-Rodriguez, E., Mühlensiepen, F., Richards, A., … Weissgerber, T. L. (2023). Ten simple rules for implementing open and reproducible research practices after attending a training course. PLOS Computational Biology, 19(1), e1010750. https://doi.org/10.1371/journal.pcbi.1010750. License: CC BY 4.0."
   },
   {
-    "objectID": "team.html#project-leader-instructor",
-    "href": "team.html#project-leader-instructor",
-    "title": "Team",
-    "section": "Project Leader & Instructor",
-    "text": "Project Leader & Instructor\n\n\n\n\n\nDr. Lennart Wittkuhn\nLennart is a Postdoctoral Researcher and Lab Manager in the Research Group “Mechanisms of Learning and Change” at the University of Hamburg and the Max Planck Research Group NeuroCode at the Max Planck Institute for Human Development in Berlin. In his scientific work, Lennart investigates neural replay of task representations in the human brain using functional magnetic resonance imaging (fMRI). He is also passionate about open science, research data management, reproducibility and tools that improve the scientific workflow."
+    "objectID": "code-of-conduct.html",
+    "href": "code-of-conduct.html",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "During this course, we want to ensure a safe, productive, and welcoming environment for everyone who attends. All participants and speakers are expected to abide by this code of conduct. We do not tolerate any form of discrimination or harassment in any form or by any means. If you experience harassment or hear of any incidents of unacceptable behavior, please reach out to the course instructor, Lennart Wittkuhn (lennart.wittkuhn@uni-hamburg.de), so that we can take the appropriate action.\nUnacceptable behavior is defined as:\n\nHarassment, intimidation, or discrimination in any form, verbal abuse of any attendee, speaker, or other person. Examples include, but are not limited to, verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, national origin, inappropriate use of nudity and/or sexual images in public spaces or in presentations, or threatening or stalking.\nDisruption of presentations throughout the course. We ask all participants to comply to the instructions of the speaker with regard to dedicated discussion space and time.\nParticipants should not take pictures of any activity in the course room without asking all involved participants for consent and receiving this consent.\n\nA first violation of this code of conduct will result in a warning, and subsequent violations by the same person can result in the immediate removal from the course without further warning. The organizers also reserve the right to prohibit attendance of excluded participants from similar future workshops, courses or meetings they organize."
   },
   {
-    "objectID": "team.html#teaching-collaborator",
-    "href": "team.html#teaching-collaborator",
-    "title": "Team",
-    "section": "Teaching Collaborator",
-    "text": "Teaching Collaborator\n\n\n\n\n\nDr. Ana Martinovici\nAna is an Assistant Professor of Marketing at the Rotterdam School of Management, Erasmus University (The Netherlands). She holds a PhD degree in Marketing and two master’s degrees (Econometrics and Mathematical Economics, and Marketing), from Tilburg University (The Netherlands). Ana’s research focuses on the role of attention in consumer choice processes. She develops dynamic Bayesian models calibrated on eye-tracking data to gain access to otherwise unobservable utility accumulation processes that take place during choice. For more information, please visit https://anamartinovici.com/."
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "What? This is the course website for the full-semester course “Track, organize and share your work: An introduction to Git for research”\n When? Winter 2024/25 (October to January), every Friday, 10:15 to 11:45 (detailed schedule)\n Where? University of Hamburg & Erasmus University Rotterdam (Online, Zoom)\n Who? This course is offered to Master’s and PhD students at University of Hamburg & Erasmus University Rotterdam.\n How? Read more about how the course will work."
   },
   {
-    "objectID": "team.html#student-research-teaching-assistant",
-    "href": "team.html#student-research-teaching-assistant",
-    "title": "Team",
-    "section": "Student Research & Teaching Assistant",
-    "text": "Student Research & Teaching Assistant\nTBA"
+    "objectID": "about.html#overview",
+    "href": "about.html#overview",
+    "title": "About",
+    "section": "",
+    "text": "What? This is the course website for the full-semester course “Track, organize and share your work: An introduction to Git for research”\n When? Winter 2024/25 (October to January), every Friday, 10:15 to 11:45 (detailed schedule)\n Where? University of Hamburg & Erasmus University Rotterdam (Online, Zoom)\n Who? This course is offered to Master’s and PhD students at University of Hamburg & Erasmus University Rotterdam.\n How? Read more about how the course will work."
+  },
+  {
+    "objectID": "about.html#description",
+    "href": "about.html#description",
+    "title": "About",
+    "section": "Description",
+    "text": "Description\n\n\n\n\n\n\nSame information as on Stine\n\n\n\nFor course participants enrolled at University of Hamburg: The information provided in this section are the same as on Stine.\n\n\n\nContent\nIn today’s digital age, the majority of scientific insights in quantitative research are gained from the analysis of data using programming code. Although data and code are integral parts of their work, scientists often handle digital objects on their computers in a somewhat chaotic, unreliable, and irreproducible manner. It’s not uncommon to hear researchers wondering, “Which version of my data and code did I use to get this result?” or “I found a bug in my code. Since when was it there?” and “This code used to work! What did I change?”. This not only affects the reproducibility and trustworthiness of science but also frequently leads to frustration, a waste of time, and, at worst, the loss of painstakingly accumulated work. The good news is that scientists can learn about practices and tools from other disciplines, particularly software engineering, that have significantly professionalized collaborative work on digital objects like programming code. At the core of this toolkit is the free and open-source software Git, a so-called version control system that allows tracking and organizing the evolution of digital objects on computers and sharing them via platforms like GitHub. In this hands-on course with practical exercises, participants will learn how to track, organize and share their work using Git.\n\n\nGoals\nThe main goal of this course is to empower students with the skills to efficiently organize projects on their computers using Git and GitHub. Participants will actively engage in hands-on experiences with these tools, exploring both the command-line and Graphical User Interfaces. Proficiency in Git and GitHub not only enhances students’ effectiveness in conducting research projects by ensuring organized and reproducible workflows but also elevates their employability. The technical skills acquired in this course are increasingly sought after in various work settings, providing students with a competitive edge in today’s dynamic job market.\n\n\nMechanics\nThis course is an international teaching collaboration between the University of Hamburg and Erasmus University Rotterdam. Course participants from both sites will interact online (via Zoom) and work together on the course exercises. This course is therefore also aimed at fostering intercultural exchange among the course participants from both institutions. Guided by the seminar instructor, course participants will receive input while working through a dedicated Git Handbook (https://lennartwittkuhn.com/version-control-book/) that is tuned to the structure of the course and needs of the course participants, as well as engaging in practical hands-on exercises with Git and GitHub.\n\n\nLiterature\nThe main textbook for this course is the “Version Control Book” (https://lennartwittkuhn.com/version-control-book/) that is developed for this course. The reading materials relevant for each session will be announced in the respective session.\n\n\nExamination\nThis is a pass/fail course. Course participants pass if they fulfill all course requirements:\n\nActive participation in at least 12 out of 14 course sessions (~ 85%)\nCompletion of all surveys and quizzes throughout the course\nCompletion of all mandatory exercises (implemented in Git) throughout the course\n\nFurther details will be announced in the first course session."
+  },
+  {
+    "objectID": "acknowledgements.html",
+    "href": "acknowledgements.html",
+    "title": "Acknowledgements & Attribution",
+    "section": "",
+    "text": "This project is currently funded by the Federal Ministry of Education and Research (BMBF) and the Free and Hanseatic City of Hamburg under the Excellence Strategy of the Federal Government and the Länder as part of the International Teaching and Learning Formats (ILLF@home) program at University of Hamburg. Our ILLF@home project proposal can be found here.\nThe project was previously funded by the Digital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the ISA-Zentrum at the University of Hamburg. The Digital and Data Literacy in Teaching Lab program is in turn funded by the Stiftung Innovation in der Hochschullehre (details can be found here). Our DDLitLab project proposal can be found here (in German). Special thanks to Carolin Scharfenberg as well as Moritz Kreinsen and Sören-Kristian Berger for help with project coordination, administration, and the grant application process."
+  },
+  {
+    "objectID": "acknowledgements.html#funding",
+    "href": "acknowledgements.html#funding",
+    "title": "Acknowledgements & Attribution",
+    "section": "",
+    "text": "This project is currently funded by the Federal Ministry of Education and Research (BMBF) and the Free and Hanseatic City of Hamburg under the Excellence Strategy of the Federal Government and the Länder as part of the International Teaching and Learning Formats (ILLF@home) program at University of Hamburg. Our ILLF@home project proposal can be found here.\nThe project was previously funded by the Digital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the ISA-Zentrum at the University of Hamburg. The Digital and Data Literacy in Teaching Lab program is in turn funded by the Stiftung Innovation in der Hochschullehre (details can be found here). Our DDLitLab project proposal can be found here (in German). Special thanks to Carolin Scharfenberg as well as Moritz Kreinsen and Sören-Kristian Berger for help with project coordination, administration, and the grant application process."
+  },
+  {
+    "objectID": "acknowledgements.html#website",
+    "href": "acknowledgements.html#website",
+    "title": "Acknowledgements & Attribution",
+    "section": "Website",
+    "text": "Website\n\nCode\nThis website is made with 🖤 and Quarto.\nThe source code for this website can be found on GitHub .\n\n\nImages\nImages are stored on Nextcloud (UHH Cloud). They can be retrieved using make images.\n\n\nClick here to view the full Makefile of this project.\n\n\n\n\nMakefile\n\nIMAGES_URL=https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG/download\nIMAGES_ARCHIVE=version-control-course.zip\nIMAGES_DIR=images/\nCHEATSHEET_URL=https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/cheatsheet.json\n\n.PHONY: preview\npreview:\n    quarto preview\n\n.PHONY: render\nrender: clean images\n    quarto render\n\n.PHONY: deploy\ndeploy: clean images\n    quarto publish gh-pages\n\n.PHONY: images\nimages:\n    wget $(IMAGES_URL) -O $(IMAGES_ARCHIVE)\n    unzip -j -o $(IMAGES_ARCHIVE) -d $(IMAGES_DIR)\n    rm -f $(IMAGES_ARCHIVE)\n\n.PHONY: objectives\nobjectives: objectives.txt\n    rm -rf ./objectives\n    mkdir -p objectives\n    wget -P ./objectives -i objectives.txt  \n\n.PHONY: exercises\nexercises: exercises.txt\n    rm -rf ./exercises\n    mkdir -p exercises\n    wget -P ./exercises -i exercises.txt \n\n.PHONY: cheatsheet\ncheatsheet:\n    rm -rf cheatsheet.json\n    wget $(CHEATSHEET_URL)\n\n.PHONY: clean\nclean:\n    rm -rf _site $(IMAGES_DIR)*\n\n\n\nThe illustration on the homepage is an illustration created by Scriberia with The Turing Way community. It is used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.\n\n\nFont\nThis website uses the Atkinson Hyperlegible font. Copyright © 2020, Braille Institute of America, Inc., https://www.brailleinstitute.org/freefont with Reserved Typeface Name Atkinson Hyperlegible Font. Details of the license can be found here.\n\n\nAnalytics\nWe use Plausible for website analytics. Plausible is an “intuitive, lightweight and open source web analytics”, does not use cookies and is fully compliant with GDPR, CCPA and PECR.\n\n\nLicense\nAll contents are licensed under CC BY 4.0, unless indicated otherwise.\n\n\nContact\nDid you spot an error? Is there an issue with the website? Do you have feedback, questions or comments? We would love to hear from you! Open an issue on GitHub or write an email."
   },
   {
     "objectID": "resources.html#all",
@@ -875,53 +903,32 @@
     "text": "Papers\nTBA"
   },
   {
-    "objectID": "acknowledgements.html",
-    "href": "acknowledgements.html",
-    "title": "Acknowledgements & Attribution",
+    "objectID": "team.html#project-leader-instructor",
+    "href": "team.html#project-leader-instructor",
+    "title": "Team",
+    "section": "Project Leader & Instructor",
+    "text": "Project Leader & Instructor\n\n\n\n\n\nDr. Lennart Wittkuhn\nLennart is a Postdoctoral Researcher and Lab Manager in the Research Group “Mechanisms of Learning and Change” at the University of Hamburg and the Max Planck Research Group NeuroCode at the Max Planck Institute for Human Development in Berlin. In his scientific work, Lennart investigates neural replay of task representations in the human brain using functional magnetic resonance imaging (fMRI). He is also passionate about open science, research data management, reproducibility and tools that improve the scientific workflow."
+  },
+  {
+    "objectID": "team.html#teaching-collaborator",
+    "href": "team.html#teaching-collaborator",
+    "title": "Team",
+    "section": "Teaching Collaborator",
+    "text": "Teaching Collaborator\n\n\n\n\n\nDr. Ana Martinovici\nAna is an Assistant Professor of Marketing at the Rotterdam School of Management, Erasmus University (The Netherlands). She holds a PhD degree in Marketing and two master’s degrees (Econometrics and Mathematical Economics, and Marketing), from Tilburg University (The Netherlands). Ana’s research focuses on the role of attention in consumer choice processes. She develops dynamic Bayesian models calibrated on eye-tracking data to gain access to otherwise unobservable utility accumulation processes that take place during choice. For more information, please visit https://anamartinovici.com/."
+  },
+  {
+    "objectID": "team.html#student-research-teaching-assistant",
+    "href": "team.html#student-research-teaching-assistant",
+    "title": "Team",
+    "section": "Student Research & Teaching Assistant",
+    "text": "Student Research & Teaching Assistant\nTBA"
+  },
+  {
+    "objectID": "repos.html",
+    "href": "repos.html",
+    "title": "Repos",
     "section": "",
-    "text": "This project is currently funded by the Federal Ministry of Education and Research (BMBF) and the Free and Hanseatic City of Hamburg under the Excellence Strategy of the Federal Government and the Länder as part of the International Teaching and Learning Formats (ILLF@home) program at University of Hamburg. Our ILLF@home project proposal can be found here.\nThe project was previously funded by the Digital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the ISA-Zentrum at the University of Hamburg. The Digital and Data Literacy in Teaching Lab program is in turn funded by the Stiftung Innovation in der Hochschullehre (details can be found here). Our DDLitLab project proposal can be found here (in German). Special thanks to Carolin Scharfenberg as well as Moritz Kreinsen and Sören-Kristian Berger for help with project coordination, administration, and the grant application process."
-  },
-  {
-    "objectID": "acknowledgements.html#funding",
-    "href": "acknowledgements.html#funding",
-    "title": "Acknowledgements & Attribution",
-    "section": "",
-    "text": "This project is currently funded by the Federal Ministry of Education and Research (BMBF) and the Free and Hanseatic City of Hamburg under the Excellence Strategy of the Federal Government and the Länder as part of the International Teaching and Learning Formats (ILLF@home) program at University of Hamburg. Our ILLF@home project proposal can be found here.\nThe project was previously funded by the Digital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the ISA-Zentrum at the University of Hamburg. The Digital and Data Literacy in Teaching Lab program is in turn funded by the Stiftung Innovation in der Hochschullehre (details can be found here). Our DDLitLab project proposal can be found here (in German). Special thanks to Carolin Scharfenberg as well as Moritz Kreinsen and Sören-Kristian Berger for help with project coordination, administration, and the grant application process."
-  },
-  {
-    "objectID": "acknowledgements.html#website",
-    "href": "acknowledgements.html#website",
-    "title": "Acknowledgements & Attribution",
-    "section": "Website",
-    "text": "Website\n\nCode\nThis website is made with 🖤 and Quarto.\nThe source code for this website can be found on GitHub .\n\n\nImages\nImages are stored on Nextcloud (UHH Cloud). They can be retrieved using make images.\n\n\nClick here to view the full Makefile of this project.\n\n\n\n\nMakefile\n\nIMAGES_URL=https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG/download\nIMAGES_ARCHIVE=version-control-course.zip\nIMAGES_DIR=images/\nCHEATSHEET_URL=https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/cheatsheet.json\n\n.PHONY: preview\npreview:\n    quarto preview\n\n.PHONY: render\nrender: clean images\n    quarto render\n\n.PHONY: deploy\ndeploy: clean images\n    quarto publish gh-pages\n\n.PHONY: images\nimages:\n    wget $(IMAGES_URL) -O $(IMAGES_ARCHIVE)\n    unzip -j -o $(IMAGES_ARCHIVE) -d $(IMAGES_DIR)\n    rm -f $(IMAGES_ARCHIVE)\n\n.PHONY: objectives\nobjectives: objectives.txt\n    rm -rf ./objectives\n    mkdir -p objectives\n    wget -P ./objectives -i objectives.txt  \n\n.PHONY: exercises\nexercises: exercises.txt\n    rm -rf ./exercises\n    mkdir -p exercises\n    wget -P ./exercises -i exercises.txt \n\n.PHONY: cheatsheet\ncheatsheet:\n    rm -rf cheatsheet.json\n    wget $(CHEATSHEET_URL)\n\n.PHONY: clean\nclean:\n    rm -rf _site $(IMAGES_DIR)*\n\n\n\nThe illustration on the homepage is an illustration created by Scriberia with The Turing Way community. It is used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.\n\n\nFont\nThis website uses the Atkinson Hyperlegible font. Copyright © 2020, Braille Institute of America, Inc., https://www.brailleinstitute.org/freefont with Reserved Typeface Name Atkinson Hyperlegible Font. Details of the license can be found here.\n\n\nAnalytics\nWe use Plausible for website analytics. Plausible is an “intuitive, lightweight and open source web analytics”, does not use cookies and is fully compliant with GDPR, CCPA and PECR.\n\n\nLicense\nAll contents are licensed under CC BY 4.0, unless indicated otherwise.\n\n\nContact\nDid you spot an error? Is there an issue with the website? Do you have feedback, questions or comments? We would love to hear from you! Open an issue on GitHub or write an email."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "What? This is the course website for the full-semester course “Track, organize and share your work: An introduction to Git for research”\n When? Winter 2024/25 (October to January), every Friday, 10:15 to 11:45 (detailed schedule)\n Where? University of Hamburg & Erasmus University Rotterdam (Online, Zoom)\n Who? This course is offered to Master’s and PhD students at University of Hamburg & Erasmus University Rotterdam.\n How? Read more about how the course will work."
-  },
-  {
-    "objectID": "about.html#overview",
-    "href": "about.html#overview",
-    "title": "About",
-    "section": "",
-    "text": "What? This is the course website for the full-semester course “Track, organize and share your work: An introduction to Git for research”\n When? Winter 2024/25 (October to January), every Friday, 10:15 to 11:45 (detailed schedule)\n Where? University of Hamburg & Erasmus University Rotterdam (Online, Zoom)\n Who? This course is offered to Master’s and PhD students at University of Hamburg & Erasmus University Rotterdam.\n How? Read more about how the course will work."
-  },
-  {
-    "objectID": "about.html#description",
-    "href": "about.html#description",
-    "title": "About",
-    "section": "Description",
-    "text": "Description\n\n\n\n\n\n\nSame information as on Stine\n\n\n\nFor course participants enrolled at University of Hamburg: The information provided in this section are the same as on Stine.\n\n\n\nContent\nIn today’s digital age, the majority of scientific insights in quantitative research are gained from the analysis of data using programming code. Although data and code are integral parts of their work, scientists often handle digital objects on their computers in a somewhat chaotic, unreliable, and irreproducible manner. It’s not uncommon to hear researchers wondering, “Which version of my data and code did I use to get this result?” or “I found a bug in my code. Since when was it there?” and “This code used to work! What did I change?”. This not only affects the reproducibility and trustworthiness of science but also frequently leads to frustration, a waste of time, and, at worst, the loss of painstakingly accumulated work. The good news is that scientists can learn about practices and tools from other disciplines, particularly software engineering, that have significantly professionalized collaborative work on digital objects like programming code. At the core of this toolkit is the free and open-source software Git, a so-called version control system that allows tracking and organizing the evolution of digital objects on computers and sharing them via platforms like GitHub. In this hands-on course with practical exercises, participants will learn how to track, organize and share their work using Git.\n\n\nGoals\nThe main goal of this course is to empower students with the skills to efficiently organize projects on their computers using Git and GitHub. Participants will actively engage in hands-on experiences with these tools, exploring both the command-line and Graphical User Interfaces. Proficiency in Git and GitHub not only enhances students’ effectiveness in conducting research projects by ensuring organized and reproducible workflows but also elevates their employability. The technical skills acquired in this course are increasingly sought after in various work settings, providing students with a competitive edge in today’s dynamic job market.\n\n\nMechanics\nThis course is an international teaching collaboration between the University of Hamburg and Erasmus University Rotterdam. Course participants from both sites will interact online (via Zoom) and work together on the course exercises. This course is therefore also aimed at fostering intercultural exchange among the course participants from both institutions. Guided by the seminar instructor, course participants will receive input while working through a dedicated Git Handbook (https://lennartwittkuhn.com/version-control-book/) that is tuned to the structure of the course and needs of the course participants, as well as engaging in practical hands-on exercises with Git and GitHub.\n\n\nLiterature\nThe main textbook for this course is the “Version Control Book” (https://lennartwittkuhn.com/version-control-book/) that is developed for this course. The reading materials relevant for each session will be announced in the respective session.\n\n\nExamination\nThis is a pass/fail course. Course participants pass if they fulfill all course requirements:\n\nActive participation in at least 12 out of 14 course sessions (~ 85%)\nCompletion of all surveys and quizzes throughout the course\nCompletion of all mandatory exercises (implemented in Git) throughout the course\n\nFurther details will be announced in the first course session."
-  },
-  {
-    "objectID": "code-of-conduct.html",
-    "href": "code-of-conduct.html",
-    "title": "Code of Conduct",
-    "section": "",
-    "text": "During this course, we want to ensure a safe, productive, and welcoming environment for everyone who attends. All participants and speakers are expected to abide by this code of conduct. We do not tolerate any form of discrimination or harassment in any form or by any means. If you experience harassment or hear of any incidents of unacceptable behavior, please reach out to the course instructor, Lennart Wittkuhn (lennart.wittkuhn@uni-hamburg.de), so that we can take the appropriate action.\nUnacceptable behavior is defined as:\n\nHarassment, intimidation, or discrimination in any form, verbal abuse of any attendee, speaker, or other person. Examples include, but are not limited to, verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, national origin, inappropriate use of nudity and/or sexual images in public spaces or in presentations, or threatening or stalking.\nDisruption of presentations throughout the course. We ask all participants to comply to the instructions of the speaker with regard to dedicated discussion space and time.\nParticipants should not take pictures of any activity in the course room without asking all involved participants for consent and receiving this consent.\n\nA first violation of this code of conduct will result in a warning, and subsequent violations by the same person can result in the immediate removal from the course without further warning. The organizers also reserve the right to prohibit attendance of excluded participants from similar future workshops, courses or meetings they organize."
+    "text": "Order By\n       Default\n         \n          Author\n        \n         \n          URL\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nAuthor\n\n\nURL\n\n\n\n\n\n\navaaz99\n\n\nhttps://github.com/avaaz99/Cityguide\n\n\n\n\nCarFis84\n\n\nhttps://github.com/CarFis84/city-guide-\n\n\n\n\nAlbertoTombaHH\n\n\nhttps://github.com/AlbertoTombaHH/repo-city\n\n\n\n\naunenua\n\n\nhttps://github.com/aunenua/Recommendations\n\n\n\n\nNikossor\n\n\nhttps://github.com/Nikossor/city-guide\n\n\n\n\nlea-schumacher\n\n\nhttps://github.com/lea-schumacher/city-guide\n\n\n\n\nRhonus\n\n\nhttps://github.com/Rhonus/city-project\n\n\n\n\nmiriamlucie\n\n\nhttps://github.com/miriamlucie/mastercityguide\n\n\n\n\njoyce-shi-github\n\n\nhttps://github.com/joyce-shi-github/Y2_Version_Control_city-guide\n\n\n\n\nsepehr-e\n\n\nhttps://github.com/sepehr-e/city-guide\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "schedule.html",
