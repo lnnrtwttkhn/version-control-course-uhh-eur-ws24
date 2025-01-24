@@ -1,6 +1,6 @@
 ---
 title: "Session 13: {{< meta session-title >}}"
-date: 2025-01-15T10:15
+date: 2025-01-24T10:15
 format: revealjs
 metadata-files:
   - _slides.yml
@@ -28,6 +28,7 @@ create_schedule()
 - Check your emails for the link to the evaluation form!
 - Both Hamburg and Rotterdam students can complete the evaluation.
 - The evaluation is also available in English (you can change the language at the top-right).
+- Once you are done, you can start working on today's exercises (see later slide).
 
 # Last session: Tags, Releases & Publication
 
