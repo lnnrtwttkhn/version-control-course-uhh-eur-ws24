@@ -37,6 +37,8 @@ website:
       #  href: resources.qmd
       - text: "{{< fa gear >}} Mechanics"
         href: mechanics.qmd
+      - text: "{{< fa brands github >}} Repos"
+        href: repos.qmd
       - text: "{{< fa circle-exclamation >}} Code of Conduct"
         href: code-of-conduct.qmd
       - text: "{{< fa heart >}} Acknowledgements"

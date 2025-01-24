@@ -1,0 +1,14 @@
+---
+title: "Repos"
+listing:
+  id: repos
+  contents: "repos.yml"
+  fields: [author, url]
+  field-display-names:
+    url: "URL"
+  sort: "autor desc"
+  type: table
+---
+
+:::{#repos}
+:::
