@@ -6,7 +6,7 @@ listing:
   fields: [author, url]
   field-display-names:
     url: "URL"
-  sort: "autor desc"
+  sort: "author asc"
   type: table
 ---
 
