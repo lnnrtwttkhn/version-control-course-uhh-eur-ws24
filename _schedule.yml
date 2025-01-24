@@ -125,8 +125,9 @@ session13:
   date: 2025-01-24
   title: "Graphical User Interfaces"
   contents:
-    - "Repetition and Practice"
-    - "Introduction to using GUIs"
+    - "Course evaluation"
+    - "Repetition and practice"
+    - "Intro to Graphical User Interfaces"
   reading:
     - "[Graphical User Interfaces](https://lennartwittkuhn.com/version-control-book/chapters/gui.html)"
 # session13:
@@ -138,8 +139,6 @@ session14:
   date: 2025-01-31
   title: "Summary & Wrap-Up"
   contents:
-    - "Course evaluation"
-    - "Repetition and Practice"
-    - "Introduction to using GUIs"
-  reading:
-    - "[Graphical User Interfaces](https://lennartwittkuhn.com/version-control-book/chapters/gui.html)"
+    - "Discussion of course evaluation"
+    - ":sparkles: Surprise :sparkles:"
+    - "Summary & Outlook"
