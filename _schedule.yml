@@ -118,7 +118,7 @@ session12:
   contents:
     - "Creating Tags with Git"
     - "Creating Releases with GitHub"
-    - "Using [Zenodo](https://zenodo.org) for scientific publishing"
+    - "[Zenodo](https://zenodo.org) for publishing"
   reading:
     - "[Tags and Releases](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)"
 session13:
@@ -137,8 +137,8 @@ session13:
 #     - "Repetition and Practice"
 session14:
   date: 2025-01-31
-  title: "Summary & Wrap-Up"
+  title: "Summary & Outlook"
   contents:
-    - "Discussion of course evaluation"
+    - "Course evaluation results"
     - ":sparkles: Surprise :sparkles:"
     - "Summary & Outlook"
