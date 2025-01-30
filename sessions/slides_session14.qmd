@@ -1,12 +1,12 @@
 ---
-title: "Session 14: Summary & Wrap-Up"
-date: 2024-07-08T12:15
+title: "Session 14: Summary & Outlook"
+date: 2025-01-31T10:15
 format: revealjs
 metadata-files:
   - _slides.yml
 ---
 
-# Schedule
+# Logistics & Admin
 
 ## Schedule
 
@@ -18,154 +18,73 @@ metadata-files:
 create_schedule()
 ```
 
-# Last session: Tags, Releases and Publishing
+# Last session: Graphical User Interfaces
 
-## Last session: Tags, Releases and Publishing
-
-{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)
-```{=html}
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html" title="Version Control Book"></iframe>
-```
-
-## Your questions about the last session?
-
-# Course evaluation
-
-Check your mailbox for the link to the evaluation form!
-
-# Course requirements
-
-## From session 1: Your role
-
-::: {.fragment}
-#### **Active participation**
-- This is a pass / fail course.
-You pass if you fulfill all course requirements:
-- Requirement 1: Come to at least **11 out of 13 sessions** (85%)
-- Requirement 2: Complete all **surveys/quizzes**
-- Requirement 3: Complete **all mandatory exercises** (implemented in Git)
-:::
-
-::: {.fragment}
-#### How do we verify the course requirements?
-
-1. Requirement 1: **Sign the attendance list**
-1. Requirement 2: **Provide a personal codeword**.
-At the end of the semester, send an email with your personal codeword to [{{< var project.email-secretary >}}]({{< var project.mailto-secretary >}}) (Christine Manor).
-We will send our secretary a list of personal codewords and she will return a list of names.
-1. Requirement 3: We check your GitHub repositories.
-
-:::
-
-## Your tasks
-
-**In order to pass this course**, you should have accomplished the following tasks:
-
-1. You have a public `recipes` repository on GitHub.
-1. You added a text file (e.g., `.qmd` or `.txt`) with at least one recipe to the repository.
-1. You created a pull request in a partner's repository (e.g., adding a new recipe).
-1. You reviewed and merged the pull request of a partner in your `recipes` repository.
-1. You create a pull request in Lennart's `recipes` repository, you implemented all additional requests and your pull request was approved and merged by Lennart.
-1. You implemented the changes suggested by Konrad in your `recipes` repository and closed the issue.
-1. You created a release of your `recipes` repository on GitHub.
-
-1. You completed all quizzes (see next slide).
-1. You completed the extra assignment (if necessary, see next slide).
-
-**Deadline:** Please complete these tasks until **end of July**.
-
-## Quiz participation
-
-**In order to pass this course**, you should have completed all quizzes:
-
-1. [Command Line](https://version-control-cli.formr.org)
-1. [Git Basics](https://version-control-basics.formr.org)
-1. [Branches](https://version-control-branches.formr.org)
-1. [GitHub](https://version-control-github.formr.org)
-
-::: {.fragment}
-### How to verify participation
-
-1. At the end of the semester, send an email with your personal codeword to [{{< var project.email-secretary >}}]({{< var project.mailto-secretary >}}) (Christine Manor), **not to us!**
-1. Our secretary sends us an unsorted list with codewords.
-1. We verify the quiz participation for each codeword and send Christine a list with codewords that completed all quizzes.
-1. Christine compares the codewords with your names and send us an unsorted list with names.
-:::
-
-## Missed more than two sessions?
-
-We will send you an email with an extra assignment.
-
-# This session
-
-## Your feedack
-
-... following [popular request](https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24/labels/feedback)
-
-> [...] sometimes I loose track of where I am in the Git/GitHub Space.
-Maybe you can create a "map" on how the things are related and which codes get me from one point to another?
-
-> [...] Could you explain how Github enables us to see the version history and how we can access files at different time points?
-
-> [...] For the last seminar sessions it might be interesting to look more into GUIs for Git.
-
-> [...] what about GUIs?
-Which one has which benefits and what are payment options?
-Git kraken looked really promising, is it worth it?
-
-> [...] I definitely support the plan to practice what we've learned so far so that I don't forget about it once the semester is over.
-
-## This session's learning objectives
-
-{{< include ../objectives/_objectives-gui.qmd >}}
-
-## Today's chapter
-
-{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/gui.html>
+## Last session: Graphical User Interfaces
 
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/gui.html" title="Version Control Book"></iframe>
 ```
 
-# Demonstration: GitKraken/Rstudio 
+## Last session: Learning objectives
 
-## Your turn
+After the last session, you should now be able to answer the following questions / do the following:
 
-::: incremental
-1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GUIs"](https://lennartwittkuhn.com/version-control-book/chapters/gui.html) in the Version Control Book.
-2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
-3.  **Note:** Please complete the implementation exercises on the next slide
-:::
+{{< include ../objectives/_objectives-gui.qmd >}}
 
-::: fragment
-Ask questions!
+## Your questions about the last session?
 
-Let's *git* started!
-:::
+# Summary
 
-## Implementation Exercise
+## Learning Objectives (Preparation)
 
-::: fragment
-#### Complete the course requirements
+### Introduction to Version Control
 
-We are here to help if you are stuck.
-:::
+{{< include ../objectives/_objectives-intro.qmd >}}
 
-::: fragment
-#### Done? Collaborate with pull requests (using "GUIs")
+### Basics of the Command Line
 
-1. Find a partner.
-1. Using a GUI, clone their repository if not already done (and pull the newest version).
-1. Create a new branch.
-1. Create a new file called `crazy_recipe.txt` or `crazy_recipe.qmd`.
-1. Input three random ingredients and two kitchen utensils.
-1. Add, commit and push the changes.
-1. Create a Pull Request.
-1. Review the Pull Request from your partner and create a coherent recipe.
-1. Merge the Pull Request.
-:::
+{{< include ../objectives/_objectives-cli.qmd >}}
 
-# There's more ...
+### Setup & Configuration
+
+{{< include ../objectives/_objectives-setup.qmd >}}
+
+## Learning Objectives (Local Version Control)
+
+### First steps with Git
+
+{{< include ../objectives/_objectives-firststeps.qmd >}}
+
+### Git Essentials
+
+{{< include ../objectives/_objectives-essentials.qmd >}}
+
+### Branches
+
+{{< include ../objectives/_objectives-branches.qmd >}}
+
+## Learning Objectives (Collaboration)
+
+### Integration with GitHub / GitLab
+
+{{< include ../objectives/_objectives-remotes-intro.qmd >}}
+
+### Collaboration on GitHub / GitLab
+
+{{< include ../objectives/_objectives-github-advanced.qmd >}}
+
+### Tags, Releases & Publication
+
+{{< include ../objectives/_objectives-tags-releases.qmd >}}
+
+## Open Questions about Git or GitHub?
+
+# Course evaluation
+
+{{< include _course-requirements.qmd >}}
+
+# Outlook: There's more ...
 
 ## Graphical User Interfaces (GUIs) for Git
 
@@ -213,6 +132,12 @@ We are here to help if you are stuck.
 :::
 :::
 
+## Rewriting history
+
+See chapter ["Rewriting History"](https://lennartwittkuhn.com/version-control-book/chapters/rewriting-history.html)
+
+![Credit: [tech_kody](https://www.tiktok.com/@tech_kody) via TikTok](../images/git-revert-meme.png)
+
 ## Continuous Integration & Deployment (CI/CD)
 
 ::::: columns
@@ -252,18 +177,6 @@ Sadly, Git does not handle large files well.
 ::::
 :::::
 
-# Jobs
-
-## Jobs
-
-::: {layout-ncol=2}
-
-![](../images/ra-advertizement-alexa-1.png)
-
-![](../images/ra-advertizement-alexa-2.png)
-
-:::
+# :sparkles: Surprise :sparkles:
 
 # Thank you! {.unnumbered}
-
-## Thank you!
