@@ -82,6 +82,59 @@ After the last session, you should now be able to answer the following questions
 
 # Course evaluation
 
+## Improve: Collaboration between students
+
+::: fragment
+- Hard to collaborate when people didn't finish previous exercises.
+- Hard to collaborate when people had very different levels of experience and skills.
+- Would've been better to work consistently in the same group.
+:::
+
+::: fragment
+### Suggestions
+
+- Set **deadlines for mandatory tasks** before the next session.
+- Have **more participants in each breakout room** for better support from advanced students.
+- Offer **two types of assignments**: a basic one for everyone and an optional advanced one.
+:::
+
+## Improve: Course structure & setting
+
+::: fragment
+- The online format was problematic; the course would be more engaging in person.
+- Reading chapters on Zoom while others interacted was distracting.
+- Some sessions were mostly just reading, with students working on tasks alone with minimal input.
+:::
+
+::: fragment
+### Suggestions
+
+- Assign these **chapters as homework** to complete outside of class.
+- Split tasks into **smaller parts**, like 20 minutes, with discussions in between.
+:::
+
+## Improve: Clarity of instructions
+
+::: fragment
+- For some session, instructions were confusing and spread out in different places
+- Example: Forking exercise, with slides, book and contributing guidelines to consider
+:::
+
+::: fragment
+### Suggestions
+
+- Give **clearer guidelines and instructions** for each session
+- Help students **track their progress and requirements** from the start
+:::
+
+## Improve: Misc
+
+::: fragment
+- The course was a bit **too fast**.
+- Provide **more foundational (background) knowledge** on the topic.
+- Provide **more time for questions** at the end of each session (> 5 minutes).
+:::
+
 {{< include _course-requirements.qmd >}}
 
 # Outlook: There's more ...
