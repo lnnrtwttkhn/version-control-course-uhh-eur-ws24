@@ -177,6 +177,6 @@ Sadly, Git does not handle large files well.
 ::::
 :::::
 
-# :sparkles: Suprise :sparkles:
+# :sparkles: Surprise :sparkles:
 
 # Thank you! {.unnumbered}
