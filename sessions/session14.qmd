@@ -20,11 +20,11 @@ about:
 
 ## Slides
 
-{{< include _print-to-pdf.qmd >}}
-
 ```{=html}
 <iframe width="100%" height=500 src="slides_session14.html"></iframe>
 ```
+
+{{< include _print-to-pdf.qmd >}}
 
 ## Email
 
