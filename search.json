@@ -2065,6 +2065,13 @@
     "text": "Version Control for data: DataLad\n\n\n\n… for data (binary files) \n\n\n\nSadly, Git does not handle large files well. \n\n\n\n\n\n\n\n\ndatalad.org (from the DataLad Handbook by Wagner et al.)"
   },
   {
+    "objectID": "sessions/slides_session14.html#kahoot",
+    "href": "sessions/slides_session14.html#kahoot",
+    "title": "Session 14: Summary & Outlook",
+    "section": "Kahoot",
+    "text": "Kahoot\nhttps://create.kahoot.it/share/git-kahoot/e7b7edf3-df7b-49be-9cd3-708f9f6a0e2e"
+  },
+  {
     "objectID": "sessions/session06.html",
     "href": "sessions/session06.html",
     "title": "Branches",
