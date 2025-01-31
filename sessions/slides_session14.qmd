@@ -264,4 +264,8 @@ Sadly, Git does not handle large files well.
 
 # :sparkles: Surprise :sparkles:
 
+## Kahoot
+
+<https://create.kahoot.it/share/git-kahoot/e7b7edf3-df7b-49be-9cd3-708f9f6a0e2e>
+
 # Thank you! {.unnumbered}
