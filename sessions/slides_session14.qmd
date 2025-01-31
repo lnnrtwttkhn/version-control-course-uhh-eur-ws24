@@ -78,6 +78,21 @@ After the last session, you should now be able to answer the following questions
 
 {{< include ../objectives/_objectives-tags-releases.qmd >}}
 
+## Goal
+
+:::: {.columns}
+::: {.column width="50%"}
+### From this ...
+![](../images/phd-git-original.png)
+:::
+::: {.column width="50%"}
+::: {.fragment}
+### To this ...
+![](../images/phd-git-solo.png)
+:::
+:::
+::::
+
 ## Open Questions about Git or GitHub?
 
 # Course evaluation
