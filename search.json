@@ -1960,6 +1960,13 @@
     "text": "Learning Objectives (Collaboration)\nIntegration with GitHub / GitLab\n💡 You can create a remote repository. 💡 You can connect your local Git repository to a remote repository service like GitHub or GitLab. 💡 You can pull and push changes to and from a remote repository. 💡 You can clone a repository from a remote repository.\nCollaboration on GitHub / GitLab\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch.\nTags, Releases & Publication\n💡 You understand why Git Tags matter in version control and project management. 💡 You know the difference between lightweight and annotated tags and how to apply them. 💡 You can push and pull tags to a remote repository (e.g., GitHub). 💡 You understand how GitHub releases complement Git Tags. 💡 You can use Zenodo to archive your repository and make your work citable."
   },
   {
+    "objectID": "sessions/slides_session14.html#goal",
+    "href": "sessions/slides_session14.html#goal",
+    "title": "Session 14: Summary & Outlook",
+    "section": "Goal",
+    "text": "Goal\n\n\nFrom this …\n\n\n\n\nTo this …"
+  },
+  {
     "objectID": "sessions/slides_session14.html#open-questions-about-git-or-github",
     "href": "sessions/slides_session14.html#open-questions-about-git-or-github",
     "title": "Session 14: Summary & Outlook",
