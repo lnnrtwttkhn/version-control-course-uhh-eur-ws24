@@ -683,7 +683,7 @@
     "href": "sessions/session14.html#slides",
     "title": "Summary & Outlook",
     "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\nHow can I download the slides as PDF?\n\n\n\n\n\nTo print the slides to PDF, do the following:\n\nToggle into Print View using the E key (or using the Navigation Menu).\nOpen the in-browser print dialog (CTRL/CMD+P).\nChange the Destination setting to Save as PDF.\nChange the Layout to Landscape.\nChange the Margins to None.\nEnable the Background graphics option.\nClick Save.\n\nNote: This feature has been confirmed to work in Google Chrome, Chromium as well as in Firefox.\nHere’s what the Chrome print dialog would look like with these settings enabled:\n\nThese instructions were copied from the Quarto documentation (MIT License) and slightly modified."
+    "text": "Slides\n\n\n\n\n\n\n\nHow can I download the slides as PDF?\n\n\n\n\n\nTo print the slides to PDF, do the following:\n\nToggle into Print View using the E key (or using the Navigation Menu).\nOpen the in-browser print dialog (CTRL/CMD+P).\nChange the Destination setting to Save as PDF.\nChange the Layout to Landscape.\nChange the Margins to None.\nEnable the Background graphics option.\nClick Save.\n\nNote: This feature has been confirmed to work in Google Chrome, Chromium as well as in Firefox.\nHere’s what the Chrome print dialog would look like with these settings enabled:\n\nThese instructions were copied from the Quarto documentation (MIT License) and slightly modified."
   },
   {
     "objectID": "sessions/session14.html#email",
@@ -1979,6 +1979,13 @@
     "title": "Session 14: Summary & Outlook",
     "section": "Open Questions about Git or GitHub?",
     "text": "Open Questions about Git or GitHub?"
+  },
+  {
+    "objectID": "sessions/slides_session14.html#what-did-you-like-best-about-the-course",
+    "href": "sessions/slides_session14.html#what-did-you-like-best-about-the-course",
+    "title": "Session 14: Summary & Outlook",
+    "section": "What did you like best about the course?",
+    "text": "What did you like best about the course?\n\n\nHands-on format\nCollaboration with Rotterdam\nOrganization and structure of the course\nMix of reading, exercises and discussion\nWorking together with many different people\nThe lecturer and teaching assistant and their dedication\nThe learning materials (book, website, etc.)\nIndividual support in breakout rooms and outside of class\nThe quizzes\nThat I am learning something that I can implement in my work"
   },
   {
     "objectID": "sessions/slides_session14.html#improve-collaboration-between-students",
