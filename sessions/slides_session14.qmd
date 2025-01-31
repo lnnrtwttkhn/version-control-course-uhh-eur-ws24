@@ -82,6 +82,23 @@ After the last session, you should now be able to answer the following questions
 
 # Course evaluation
 
+Thank you for your participation!
+
+## What did you like best about the course?
+
+::: fragment
+- Hands-on format
+- Collaboration with Rotterdam
+- Organization and structure of the course
+- Mix of reading, exercises and discussion
+- Working together with many different people
+- The lecturer and teaching assistant and their dedication
+- The learning materials (book, website, etc.)
+- Individual support in breakout rooms and outside of class
+- The quizzes
+- That I am learning something that I can implement in my work
+:::
+
 ## Improve: Collaboration between students
 
 ::: fragment
